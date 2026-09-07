@@ -5,6 +5,13 @@ Full binary tarball is on Google Drive (GitHub contents API cannot hold 100MB+).
 
 ## Latest
 
+- **2026-09-07** v0.1.0 full-skill-library-vacuum
+  - Drive folder: https://drive.google.com/drive/folders/1gwPcJ1UhariTUWI9gBhAc67uPDaJQ6Tw
+  - Drive tarball file_id: `1lKMDqIsR5yDJeZyfU9_pQnXEMpWpwVDn` (132M / 137433044 bytes, sha256 `a485943fc4670245f8e8f85bcb7edc4a7f4d4b61ca26536d8d436b82d62d15c7`)
+  - Receipt: [snapshots/2026-09-07/RECEIPT.md](snapshots/2026-09-07/RECEIPT.md)
+  - Manifest: [snapshots/2026-09-07/MANIFEST_full_v0.1.0_2026-09-07.md](snapshots/2026-09-07/MANIFEST_full_v0.1.0_2026-09-07.md)
+  - Skills: 38 unique, members 5359
+
 - **2026-09-06** v0.1.0 full-skill-library-vacuum
   - Drive folder: https://drive.google.com/drive/folders/1_K7EiW3I_RdMaVAkUYYP8ik0llG9Xb17
   - Drive tarball file_id: `16KHLTFmMJtnti-1xBzMgdQ9R3SExVKoQ` (132M, sha256 `8aaa25230e95ce8ec9eee9b8447e062eb58960331b1e8a71e67217a44f1f518e`)
