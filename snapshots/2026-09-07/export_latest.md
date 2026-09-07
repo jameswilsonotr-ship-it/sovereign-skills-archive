@@ -1,9 +1,24 @@
 # Skill Library Export
-**Generated**: 2026-09-07 13:36 UTC
+**Generated**: 2026-09-07 20:19 UTC
 **Authority**: skill-orchestrator
 **Source plan**: references/plans/TIERED_LIBRARY_ARCHITECTURE.md
 
 Total skills scanned: 24
+
+## Tier 2 (0)
+
+| Slug | Richness | README | TODO | CHANGELOG | refs/ | scripts/ | git |
+|------|----------|--------|------|-----------|-------|----------|-----|
+
+## Tier 1 (0)
+
+| Slug | Richness | README | TODO | CHANGELOG | refs/ | scripts/ | git |
+|------|----------|--------|------|-----------|-------|----------|-----|
+
+## Tier 0 (0)
+
+| Slug | Richness | README | TODO | CHANGELOG | refs/ | scripts/ | git |
+|------|----------|--------|------|-----------|-------|----------|-----|
 
 ## Unassigned (24)
 
@@ -33,5 +48,3 @@ Total skills scanned: 24
 | valerie | rich | Y | Y | Y | Y | . | Y |
 | video-strategy-debrief | rich | . | . | . | Y | Y | . |
 | wheelhouse-packager | rich | . | . | . | Y | Y | . |
-
-Full unique slug count across roots: 38.
