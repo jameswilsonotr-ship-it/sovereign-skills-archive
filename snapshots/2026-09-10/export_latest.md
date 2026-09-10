@@ -1,5 +1,5 @@
 # Skill Library Export
-**Generated**: 2026-09-10 11:57 UTC
+**Generated**: 2026-09-10 20:19 UTC
 **Authority**: skill-orchestrator
 **Source plan**: references/plans/TIERED_LIBRARY_ARCHITECTURE.md
 
@@ -33,7 +33,7 @@ Total skills scanned: 25
 | grok-build-sovereign | rich | Y | Y | Y | Y | Y | Y |
 | grok-conversation-miner | rich | Y | Y | Y | Y | . | Y |
 | icm-architect | rich | Y | . | . | Y | . | . |
-| image-pipeline | rich | Y | Y | Y | Y | Y | Y |
+| image-pipeline | rich | Y | Y | Y | Y | . | Y |
 | keep-lake-query | rich | . | . | . | Y | Y | . |
 | lake-erie-gutter-world | rich | Y | Y | Y | Y | Y | Y |
 | liv-automation-ops | rich | . | . | . | Y | . | . |

@@ -1,68 +1,38 @@
-# Full Skill Library Snapshot Manifest
+# Full Skill Library Snapshot MANIFEST
 **Version**: 0.1.0
-**UTC Date**: 2026-09-10
-**Generated**: 2026-09-10T11:58:41Z
+**Date (UTC)**: 2026-09-10
+**Generated**: 2026-09-10T20:20:00Z approx
 **Authority**: skill-orchestrator + olivia-dev-alpha
-**Absolute Claim**: Liv HUB
+**Absolute claim**: Liv HUB
 
-## Snapshot Details
-- **Tarball**: full_skill_library_v0.1.0_2026-09-10.tar.gz
-- **Size (bytes)**: 178848670
-- **SHA256**: 94474d24f60ccf1cb8c3ae2bace89f20684c7d7cada6debffc8cee6f1e9b7e33
-- **Member count**: 5444
-- **Skill slugs** (2026-09-10 inventory): 
-- chaos-bratz-roster
-- cilia-bus
-- claim-runtime
-- color
-- coven-visual-system
-- docx
-- ffmpeg
-- finance
-- format-bible
-- grok-build
-- grok-build-sovereign
-- grok-conversation-miner
-- icm-architect
-- image-gen-edit
-- image-pipeline
-- imagemagick
-- keep-lake-query
-- lake-erie-gutter-world
-- liv-automation-ops
-- liv-bunny-agent-swarm
-- mcp
-- mcp-surface
-- memory-edit
-- olivia-dev
-- olivia-dev-alpha
-- pdf
-- pptx
-- skill-creator
-- skill-installer
-- skill-orchestrator
-- smokeshow
-- sovereign-research-engine
-- swarm-surface
-- system-roadmap
-- tasks
-- valerie
-- video-strategy-debrief
-- wheelhouse-packager
-- xlsx
+## Summary
+- **Full tarball**: full_skill_library_v0.1.0_2026-09-10.tar.gz
+- **Size**: 136M (141862227 bytes)
+- **SHA256**: 0ddf980df74d525292f714271ab1e230be1a5d6ac41348fb4b1c00929352352f
+- **Member count**: 4847
+- **Skill count (unique dirs)**: ~39 (bundled + custom)
 
 ## Core Package Pointer
-Daily-core packages (skill-orchestrator, olivia-dev, olivia-dev-alpha, chaos-bratz-roster, system-roadmap, format-bible) live in mining_packages/ and were packaged via package_skills.py --topic daily-core --version 0.1.0.
-
-See also: /home/workdir/artifacts/mining_packages/MANIFEST_v0.1.0_2026-09-10.md
+Daily-core packages in /home/workdir/artifacts/mining_packages/:
+- skill-orchestrator_daily-core_v0.1.0_2026-09-10.tar.gz
+- olivia-dev_daily-core_v0.1.0_2026-09-10.tar.gz
+- olivia-dev-alpha_daily-core_v0.1.0_2026-09-10.tar.gz
+- chaos-bratz-roster_daily-core_v0.1.0_2026-09-10.tar.gz
+- system-roadmap_daily-core_v0.1.0_2026-09-10.tar.gz
+- format-bible_daily-core_v0.1.0_2026-09-10.tar.gz
+- MANIFEST_v0.1.0_2026-09-10.md
 
 ## Restore Command
-```
-mkdir -p /tmp/restore && tar -xzf full_skill_library_v0.1.0_2026-09-10.tar.gz -C /tmp/restore
-# Contents land as skills/ under both source roots (bundled + user)
+```bash
+tar -xzf full_skill_library_v0.1.0_2026-09-10.tar.gz -C /target/path
+# Results in skills/ under both /root/.grok and /home/workdir/.grok origins flattened by tar -C
 ```
 
-## Notes
-- Excludes: __pycache__, .git, node_modules, .DS_Store
-- Local staging only; dual-publish to Drive + GitHub required for success.
-- Parent Drive folder: 1Lw83CBcRcouf1nQYQtrVHtQjZhoeysE0
+## Slugs (from inventory)
+See /tmp/all_skill_slugs.txt and library_export.md for full list.
+Bundled (root): color, docx, ffmpeg, finance, image-gen-edit, imagemagick, mcp, memory-edit, pdf, pptx, skill-creator, skill-installer, tasks, xlsx
+Custom (workdir): chaos-bratz-roster, cilia-bus, claim-runtime, coven-visual-system, format-bible, grok-build, grok-build-sovereign, grok-conversation-miner, icm-architect, image-pipeline, keep-lake-query, lake-erie-gutter-world, liv-automation-ops, liv-bunny-agent-swarm, mcp-surface, olivia-dev, olivia-dev-alpha, skill-orchestrator, smokeshow, sovereign-research-engine, swarm-surface, system-roadmap, valerie, video-strategy-debrief, wheelhouse-packager
+
+## Hygiene
+- Excluded: __pycache__, .git, node_modules, .DS_Store
+- Local staging only; dual publish mandatory.
