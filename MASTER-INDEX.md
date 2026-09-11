@@ -5,6 +5,13 @@ Full binary tarball is on Google Drive (GitHub contents API cannot hold 100MB+).
 
 ## Latest
 
+- **2026-09-11** v0.1.0 full-skill-library-vacuum
+  - Drive folder: https://drive.google.com/drive/folders/1Wg0Gum_bqJHcvCE0AJdx1A8P9zxPAAy1
+  - Drive tarball file_id: `11YlaXjlOBdJn5iM3M1NapiAxU-eSuuGW` (149M / 155336907 bytes, sha256 `bc4f2406f7eb3f55a9f8dc6c1a71e1f799e7d14e98acd953340ba8809d62526c`)
+  - Receipt: [snapshots/2026-09-11/RECEIPT.md](snapshots/2026-09-11/RECEIPT.md)
+  - Manifest: [snapshots/2026-09-11/MANIFEST_full_v0.1.0_2026-09-11.md](snapshots/2026-09-11/MANIFEST_full_v0.1.0_2026-09-11.md)
+  - Skills: 39 unique, members 5251
+
 - **2026-09-11** grok-conversation-miner v1.4.0 as-is (skill snapshot, no edits)
   - Drive folder: https://drive.google.com/drive/folders/15C_yfyZ-SFnTlOcdazpn30bmaJKfoOVc
   - Drive tarball file_id: `136oivlnCA7nh7SzMUzt5UFpqR0RQxezH` (355 KB, sha256 `60c780ba4d330677a569379a99a763ab723d14df16deb75e1d31c6aa4bed1e07`)
