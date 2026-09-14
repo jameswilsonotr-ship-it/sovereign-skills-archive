@@ -1,0 +1,22 @@
+# Full Skill Library Vacuum MANIFEST
+
+- version: 0.1.0
+- utc: 2026-09-14T20:22:00Z
+- claim: Liv HUB
+- owner: skill-orchestrator + olivia-dev-alpha
+- slugs_union_count: 40
+- slugs: chaos-bratz-roster,cilia-bus,claim-runtime,color,coven-visual-system,docx,ffmpeg,finance,format-bible,grok-build,grok-build-sovereign,grok-conversation-miner,icm-architect,image-gen-edit,image-pipeline,imagemagick,keep-lake-query,lake-erie-gutter-world,lake-union-radar,liv-automation-ops,liv-bunny-agent-swarm,mcp,mcp-surface,memory-edit,olivia-dev,olivia-dev-alpha,pdf,pptx,skill-creator,skill-installer,skill-orchestrator,smokeshow,sovereign-research-engine,swarm-surface,system-roadmap,tasks,valerie,video-strategy-debrief,wheelhouse-packager,xlsx
+- library_export_scanned: 27 (user custom /home/workdir/.grok/skills)
+- bundled_root: /root/.grok/skills
+- user_root: /home/workdir/.grok/skills
+- tarball: full_skill_library_v0.1.0_2026-09-14.tar.gz
+- size_bytes: 226439007
+- size_human: 216M
+- sha256: 83bd2601dda8a0a7854933519906083ed3b7722d07be616141fb558ee1c708e2
+- member_count: 5889
+- restore: tar -xzf full_skill_library_v0.1.0_2026-09-14.tar.gz
+- core-package pointer: artifacts/mining_packages/MANIFEST_v0.1.0_2026-09-14.md
+- drive_parent: 1Lw83CBcRcouf1nQYQtrVHtQjZhoeysE0
+- drive_folder_id: 1jeywbrcysQxEUj1sCDgKPqOR7_6QwY8q
+- drive_folder_name: v0.1.0_2026-09-14_full-skill-library-vacuum
+- github_repo: jameswilsonotr-ship-it/sovereign-skills-archive
