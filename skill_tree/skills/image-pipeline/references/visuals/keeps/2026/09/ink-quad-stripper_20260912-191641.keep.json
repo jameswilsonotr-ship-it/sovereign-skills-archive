@@ -1,0 +1,69 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "ink-quad-stripper_20260912-191641",
+  "slug": "ink-quad-stripper",
+  "slug_mode": "explicit",
+  "stamp": "20260912-191641",
+  "created": "2026-09-12T19:16:41-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "olivia",
+  "heat": "2",
+  "files": {
+    "jpeg": "ink-quad-stripper_20260912-191641.jpg",
+    "prompt": "ink-quad-stripper_20260912-191641.prompt.md",
+    "keep": "ink-quad-stripper_20260912-191641.keep.json"
+  },
+  "sha256": {
+    "jpeg": "cf7d7c0144d64d7f22cf12045ae888c002d0ae160450e210460b926bcf84af5b",
+    "prompt": "7a143d4956454a3d416bece701e2fdb20f2fc4f4dbfd098d3dabe7fb80baef2d"
+  },
+  "prompt": "STYLE stripper NAPE lace-lock LUMBAR rose-dagger WRIST swallow THIGH lace-lock",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/PX50G.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/ink-quad-stripper_20260912-191641.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/ink-quad-stripper_20260912-191641.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/ink-quad-stripper_20260912-191641.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/09"
+  },
+  "drive": {
+    "status": "queued",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": null,
+    "prompt_id": null,
+    "keep_id": null,
+    "uploads": [
+      {
+        "artifact_path": "/rendered/ink-quad-stripper_20260912-191641.jpg",
+        "file_name": "ink-quad-stripper_20260912-191641.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/ink-quad-stripper_20260912-191641.prompt.md",
+        "file_name": "ink-quad-stripper_20260912-191641.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/ink-quad-stripper_20260912-191641.keep.json",
+        "file_name": "ink-quad-stripper_20260912-191641.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ]
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/ink-quad-stripper_20260912-191641.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

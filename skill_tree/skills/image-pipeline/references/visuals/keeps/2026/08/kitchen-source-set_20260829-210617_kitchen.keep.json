@@ -1,0 +1,70 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "kitchen-source-set_20260829-210617_kitchen",
+  "slug": "kitchen-source-set",
+  "slug_mode": "explicit",
+  "stamp": "20260829-210617",
+  "created": "2026-08-29T21:06:17-04:00",
+  "engine": "inbound_still",
+  "orientation": "landscape",
+  "agent": "olivia",
+  "heat": "",
+  "files": {
+    "jpeg": "kitchen-source-set_20260829-210617_kitchen.jpg",
+    "prompt": "kitchen-source-set_20260829-210617_kitchen.prompt.md",
+    "keep": "kitchen-source-set_20260829-210617_kitchen.keep.json"
+  },
+  "sha256": {
+    "jpeg": "369f38967c4ef32920b6e08583c9ab993017696994d9db3e2b3a6b9afdbcb483",
+    "prompt": "61e26184872883f85b2774b29cc5e29340fa3229dab1625236edf2d76d407a4a"
+  },
+  "prompt": "Inbound kitchen still 132543.jpg. Oak raised-panel cabinets, black GE range, chef figurine, black fan, dish rack, granite counters, round island with Stabucks pastry pack, fried plate, Raid can, keys, ponytail palm, snake plant. Hold as set dressing. Do not composite yet.",
+  "source_receipt": "/home/workdir/attachments/132543.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/kitchen-source-set_20260829-210617_kitchen.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/kitchen-source-set_20260829-210617_kitchen.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/kitchen-source-set_20260829-210617_kitchen.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "19BWQE1gNO-hBc-Mu7Lv909kFfhbIohJU",
+    "prompt_id": "1p5QZp3Upzy_F3QjequumQJ8cZh1g9QFv",
+    "keep_id": "1Bj48Boks_lmDB_uE7GLaPBmcXLxQdLcp",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/kitchen-source-set_20260829-210617_kitchen.jpg",
+        "file_name": "kitchen-source-set_20260829-210617_kitchen.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/kitchen-source-set_20260829-210617_kitchen.prompt.md",
+        "file_name": "kitchen-source-set_20260829-210617_kitchen.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/kitchen-source-set_20260829-210617_kitchen.keep.json",
+        "file_name": "kitchen-source-set_20260829-210617_kitchen.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-30T01:06:40+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/kitchen-source-set_20260829-210617_kitchen.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

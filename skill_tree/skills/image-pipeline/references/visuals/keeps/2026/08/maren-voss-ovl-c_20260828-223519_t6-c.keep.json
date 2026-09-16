@@ -1,0 +1,62 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "maren-voss-ovl-c_20260828-223519_t6-c",
+  "slug": "maren-voss-ovl-c",
+  "slug_mode": "explicit",
+  "stamp": "20260828-223519",
+  "created": "2026-08-28T22:35:19-04:00",
+  "engine": "overlay",
+  "orientation": "portrait",
+  "agent": "candidate",
+  "heat": "0",
+  "files": {
+    "jpeg": "maren-voss-ovl-c_20260828-223519_t6-c.jpg",
+    "prompt": "maren-voss-ovl-c_20260828-223519_t6-c.prompt.md",
+    "keep": "maren-voss-ovl-c_20260828-223519_t6-c.keep.json"
+  },
+  "sha256": {
+    "jpeg": "478fd868a7d5ddf04e0af03cdb973d06078c72fd2caa32331db8d147ecf2029f",
+    "prompt": "70c4cd0710c60e96fa7a4ea4f8ec43c58ab05e1602fde6dfde5a79892cf7762d"
+  },
+  "prompt": "OVERLAY C on /home/workdir/artifacts/rendered/maren-voss-a-realistic_20260828-220639_t2-a.jpg Anime VTuber-style portrait of Maren Voss, adult. Same bones, clean cel.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/8l9S4.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/maren-voss-ovl-c_20260828-223519_t6-c.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/maren-voss-ovl-c_20260828-223519_t6-c.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/maren-voss-ovl-c_20260828-223519_t6-c.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1IrIkAQBCLc9YgDiTKcJiG-fCYrk-gg83",
+    "prompt_id": "1ZRrKPEMt-kt436rOU7hQI0NfabAeafs5",
+    "keep_id": "1HKaG-G8qXuussWyPteXPbpUigWrUVFO7",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/maren-voss-ovl-c_20260828-223519_t6-c.jpg",
+        "file_name": "maren-voss-ovl-c_20260828-223519_t6-c.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/maren-voss-ovl-c_20260828-223519_t6-c.prompt.md",
+        "file_name": "maren-voss-ovl-c_20260828-223519_t6-c.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/maren-voss-ovl-c_20260828-223519_t6-c.keep.json",
+        "file_name": "maren-voss-ovl-c_20260828-223519_t6-c.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T02:35:54+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078"
+}

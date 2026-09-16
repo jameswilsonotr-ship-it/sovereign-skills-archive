@@ -1,0 +1,39 @@
+{
+  "id": "implication.environmental-occlusion",
+  "name": "Environmental Occlusion",
+  "kind": "implication",
+  "description": "The setting itself acts as the only censor. Furniture, vehicle interiors, architecture, or weather physically block the explicit view while the pose remains fully readable and charged. Erotic information is carried by what remains visible and by body language.",
+  "prompt_terms": [
+    {
+      "term": "environmental occlusion as primary censor",
+      "variance": 0.25,
+      "weight": 1.0
+    },
+    {
+      "term": "furniture vehicle architecture or weather blocking the explicit view",
+      "variance": 0.3,
+      "weight": 1.0
+    },
+    {
+      "term": "pose still fully readable and charged",
+      "variance": 0.3,
+      "weight": 0.95
+    },
+    {
+      "term": "erotic information carried by remaining visible elements and body language",
+      "variance": 0.35,
+      "weight": 0.9
+    },
+    {
+      "term": "setting itself does the concealing",
+      "variance": 0.35,
+      "weight": 0.85
+    }
+  ],
+  "content": {
+    "technique_strength": "high",
+    "best_heat_range": "H4-H9",
+    "moderation_softening": "strong",
+    "notes": "Updated 2026-08-12 — tightened language"
+  }
+}

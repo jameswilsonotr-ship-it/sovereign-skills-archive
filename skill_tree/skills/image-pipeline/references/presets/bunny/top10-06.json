@@ -1,0 +1,30 @@
+{
+  "id": "preset.bunny.top10.06",
+  "name": "Chaotic Splatter Claim",
+  "version": "1.0.0",
+  "persona": "bunny",
+  "rank": 6,
+  "rank_reason": "Explosive ink splatter and wash overlays with high visual noise that still contains the possessive hand claim.",
+  "tags": [
+    "bunny",
+    "top-10",
+    "rank-6"
+  ],
+  "chain": [
+    {
+      "pack": "treatment.chaotic-splatter",
+      "weight": 1.0
+    },
+    {
+      "pack": "photographer.david-lachapelle",
+      "weight": 0.7
+    },
+    {
+      "pack": "photographer.daido-moriyama",
+      "weight": 0.6
+    }
+  ],
+  "content": {
+    "original": "Explosive ink splatter and wash overlays with high visual noise that still contains the possessive hand claim."
+  }
+}

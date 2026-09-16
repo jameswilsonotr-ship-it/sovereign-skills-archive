@@ -1,0 +1,15 @@
+{
+  "$id": "agentify.beat",
+  "type": "object",
+  "required": ["t", "code", "character_id", "pose_id", "wardrobe_id", "face", "raw"],
+  "properties": {
+    "t": { "type": "number" },
+    "code": { "type": "string", "pattern": "^[IVX]+-[0-9]+-[A-E](-[cde])?$" },
+    "intensity": { "enum": ["c", "d", "e"] },
+    "character_id": { "type": "string" },
+    "pose_id": { "type": "string" },
+    "wardrobe_id": { "type": "string" },
+    "face": { "enum": ["focus", "smile", "talk", "look-down", "neutral"] },
+    "raw": { "type": "string" }
+  }
+}

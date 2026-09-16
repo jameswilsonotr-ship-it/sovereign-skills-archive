@@ -1,0 +1,384 @@
+{
+  "source": "/home/workdir/.grok/skills/video-strategy-debrief/references/perun_terra_invicta_e7_full_transcript.txt",
+  "total_blocks": 53,
+  "decision_blocks": 39,
+  "category_counts": {
+    "CONTINGENCY": 25,
+    "PRIORITY": 16,
+    "INFORMATION_VALUE": 7,
+    "TEMPORAL_WINDOW": 9,
+    "META_MODEL": 3,
+    "THRESHOLD": 16,
+    "COMMITMENT": 4,
+    "ECONOMY_OF_FORCE": 13,
+    "NARRATIVE": 14
+  },
+  "operators": [
+    {
+      "ts": "00:02",
+      "categories": [
+        "CONTINGENCY",
+        "PRIORITY",
+        "INFORMATION_VALUE",
+        "TEMPORAL_WINDOW",
+        "META_MODEL"
+      ],
+      "text": "right, good day everyone. Welcome back to Terror Invicta. It is December 2011. We've done a fairly good job, I think, of containing the early game threats. Uh the alien nation is now gone. The number of hydro operatives on the planet is falling, and we'll try and take care of them. They arrive. We do expect the alien nation will probably pop up again at some point, but the US military is standing ready and able to uh deal with that problem if the collaborators return. The reason I say we're now \u2026",
+      "full_len": 2349
+    },
+    {
+      "ts": "01:58",
+      "categories": [
+        "THRESHOLD",
+        "COMMITMENT",
+        "CONTINGENCY",
+        "PRIORITY",
+        "ECONOMY_OF_FORCE",
+        "META_MODEL"
+      ],
+      "text": "Eventually, they're going to give up and they're going to become more aggressive. Around about the same time I expect their economy to come online. So, that concern that the alien economy will eventually take off and they'll be more willing to be aggressive pairs with problem number two. Uh, we're probably going to hit a point in our return when it comes to hate. We are already at 66 mission control utilized. That means that on Brutal, the minimum hate level for the aliens is currently 166 and w\u2026",
+      "full_len": 2922
+    },
+    {
+      "ts": "04:35",
+      "categories": [
+        "PRIORITY"
+      ],
+      "text": "So, we've now done alien technology. Fantastic. &gt;&gt; We've developed only limited opportunities for new products thus far. &gt;&gt; Only limited products, Saurin. I'm disappointed. Uh, research has produced some results of mild interest. There is notable lack of clear avenues by which we can exploit the alien designs. Majority of alien technological superiority is due to some kind of high-tech alloy used extensively throughout their equipment. Our researchers have claimed they require a larg\u2026",
+      "full_len": 988
+    },
+    {
+      "ts": "05:27",
+      "categories": [
+        "THRESHOLD",
+        "CONTINGENCY",
+        "PRIORITY",
+        "TEMPORAL_WINDOW"
+      ],
+      "text": "My theory, by the way, is by controlling the hydra as normal, we can limit our need to do a whole bunch of these anti-enthral attacks, if we just control the number of hydra on the planet, if at any point a assault carrier does manage to land, all that goes out the window and we have to just crash research a bunch of enthralment defense. At the moment, I think we can control the hydra numbers for a while. But alien computers is a mustave. 25% bonus to mission control, 2% knowledge air, but 25% m\u2026",
+      "full_len": 915
+    },
+    {
+      "ts": "06:20",
+      "categories": [
+        "THRESHOLD",
+        "CONTINGENCY",
+        "PRIORITY"
+      ],
+      "text": "Look at that research number. And that's pre-advise. Why? We still have some more in construction, but our first research campuses are coming online. So, we are now getting 21 research a day from our counselors, 25 from our nations, and 80 from our research campuses, plus 32 from research distribution bonus, which you can credit to everything. So, this is another reason to spread your research out. That research distribution bonus is more than the raw research we're getting from our counselors o\u2026",
+      "full_len": 2072
+    },
+    {
+      "ts": "08:13",
+      "categories": [
+        "ECONOMY_OF_FORCE"
+      ],
+      "text": "Kuwait blind which isn't enough to cover this deficit especially since I intend to increase the deficit and we're going to scale it up to robbing Saudi Arabia blind later. So that's one approach spoils. Another one is nanoactories. We're going to go construction module into nano. Our mining profile is interesting especially if more of our asteroids come online. We're a little bit weak on water. We're weak on volatiles but we will be much better cuz there are some high volatile sites in these ast\u2026",
+      "full_len": 1992
+    },
+    {
+      "ts": "10:18",
+      "categories": [
+        "THRESHOLD",
+        "COMMITMENT",
+        "CONTINGENCY",
+        "ECONOMY_OF_FORCE"
+      ],
+      "text": "I think it's it's good to keep the human factions going. They are going to be useful at least as a distraction. Like if you look at the resistance, the resistance has 14 ships defending Earth, which is about the same size as my defense force. Now, a lot of them are these relatively useless Romulus class escorts, which are dual 30 mm, but a bunch of them are these dual copperheads. I mean, they have more armor than my ships. They use more water than my ships. They don't have targeting computers. \u2026",
+      "full_len": 1022
+    },
+    {
+      "ts": "11:21",
+      "categories": [
+        "COMMITMENT",
+        "PRIORITY"
+      ],
+      "text": "So, um this is you can interpret this as Yoda um unambiguously communicating to the aliens that we're ready for an actual war. And we get Cybernetics. This was an indulgent pick on the side. What do I want now? Come on, Yoda. Then we can turn to focus on those hydra. That'll do. 21 on a 77. Now we watch this bar to see what happens. And yep, that'll do it. There's no going back now since we're mostly past the point of caring. And our first marine ships have launched. Let's take full advantage of\u2026",
+      "full_len": 2549
+    },
+    {
+      "ts": "14:46",
+      "categories": [
+        "CONTINGENCY",
+        "ECONOMY_OF_FORCE"
+      ],
+      "text": "Damos as well. The anthrop appears to be India 74 might be able to make it to Damos. It may not be able to make it back, but we will transfer it. I kind of like this design. this um this blocky Corvette design. I wasn't a big fan of all of the industrial designs, but for the Corvette, especially for a marine transport, this configuration makes sense to me. You got a big habitation section, small engine block. I think that works for the Corvette design. I like that one. It transits out to and hop\u2026",
+      "full_len": 908
+    },
+    {
+      "ts": "15:53",
+      "categories": [
+        "THRESHOLD",
+        "ECONOMY_OF_FORCE"
+      ],
+      "text": "You do not have the delta V necessary to get back to those destinations. So, it is 1.9 total of 1.9 boost to scuttle you, which is enough boost to get the crew off and then self-destruct the ship or crash it into an object, which we will do, just cuz I'd only be paying mission control on something we don't need. If we need another marine ship around Mars, uh, we can build another marine ship around Mars. As it is now, we're only sharing with the Resistance and Exodus, which I'm happy to do. And \u2026",
+      "full_len": 762
+    },
+    {
+      "ts": "16:42",
+      "categories": [
+        "CONTINGENCY",
+        "PRIORITY"
+      ],
+      "text": "Kuwait. So we're on net losing about 700 a month. Okay, that'll push us over in Saudi 37 on a 62. But what we do now is we immediately fortify those points. We can grab the executive. Let's go straight into unity on Saudi Arabia to improve our public opinion. Really entrench ourselves. And once we've taken over everything and secured our interest, and everyone loves us, we'll start stealing everything that isn't nailed down. Then we grab this team over here, orbital acquisitions, three missile s\u2026",
+      "full_len": 1132
+    },
+    {
+      "ts": "18:44",
+      "categories": [
+        "THRESHOLD",
+        "ECONOMY_OF_FORCE"
+      ],
+      "text": "Interesting that they're kind of offaxis for us. They won't be able to maneuver either They won't be able to maneuver. And I'm hoping they don't get close enough for the 10-in gun. So, it should just be their copper heads. Yeah, those are their copper heads coming in. So, it all Crappy human missiles are such a are such a change from the uh the usual really good alien ones. Okay, 40 mic Okay, targets destroyed. Missiles neutralized. Okay, that's three servant ships gone. Which means we should no\u2026",
+      "full_len": 1365
+    },
+    {
+      "ts": "20:53",
+      "categories": [
+        "THRESHOLD",
+        "CONTINGENCY",
+        "PRIORITY",
+        "INFORMATION_VALUE",
+        "TEMPORAL_WINDOW"
+      ],
+      "text": "If I'm right, yeah, we should be back at base before this moonclass destroyer arrives. But even then, the rest of the fleet should be able to handle it just fine. As long as I refit before it gets here, all good. So, we'll uh appropriate the servant infrastructure. We'll use it to repair the fleet. And the question is, do we build up this site in high Earth orbit and try and make something out of it? &gt;&gt; Or I think instead we go grab their low Earth orbit one. So, I think we decommission th\u2026",
+      "full_len": 2644
+    },
+    {
+      "ts": "23:30",
+      "categories": [
+        "PRIORITY"
+      ],
+      "text": "So, presumably she texted us first, then she gave us a call. &gt;&gt; I'm on your side. &gt;&gt; And it's almost like uh Fiona should be paying more attention to your own house cuz I see your points getting cracked down by the protectorate, which is just embarrassing.",
+      "full_len": 268
+    },
+    {
+      "ts": "23:44",
+      "categories": [
+        "CONTINGENCY",
+        "PRIORITY",
+        "TEMPORAL_WINDOW"
+      ],
+      "text": "What are you doing? Your abduction complete. &gt;&gt; Well, that's unfortunate. Okay, which one do we want to unify first? There we are. So the West African community is now a country. Nigeria is no more. It is now a union. &gt;&gt; Never be afraid to &gt;&gt; mission to Mercury. Mercury probes away. &gt;&gt; Only within that. &gt;&gt; Let's talk Mercury. Judith has now finished blabbing. We have sent our probes. Mercury is good and bad for us. Uh given that we've decided, hey, we're not going t\u2026",
+      "full_len": 1542
+    },
+    {
+      "ts": "25:17",
+      "categories": [
+        "THRESHOLD",
+        "CONTINGENCY",
+        "PRIORITY",
+        "ECONOMY_OF_FORCE",
+        "TEMPORAL_WINDOW"
+      ],
+      "text": "Okay, it's about 90 days. We won't get a time saving by doing this. It's going to be better to do small ones. So, here's what we're going to do. We're going to launch two small platforms. We'll rename them later. The setup initially is going to be very basic. three shipyards. This way they can then spit out. Maybe we do five. Yeah, we'll do five. I'm hoping the aliens send a small initial fleet and five ships is enough cuz that'll be what we can do. eight missile tubes and two point defenses. Pr\u2026",
+      "full_len": 5155
+    },
+    {
+      "ts": "30:28",
+      "categories": [
+        "COMMITMENT"
+      ],
+      "text": "You can limp to me 2. Yeah, you can limp to me 2. All right, get there. Repair, reload. Well done, India 90. You can rejoin the rest of security force earth. Uh we didn't need the 40 mm ship. The only reason I brought this is because it meant that when we had an envelopment, we were more likely to get at least two escorts engaging rather than one. Uh that worked as intended. So splash another one. I've scored a couple of those kills at this point. Um, I'm going to keep racking them up because he\u2026",
+      "full_len": 1934
+    },
+    {
+      "ts": "32:15",
+      "categories": [
+        "CONTINGENCY",
+        "PRIORITY",
+        "INFORMATION_VALUE",
+        "ECONOMY_OF_FORCE"
+      ],
+      "text": "Event unlocked. The mystery of Phoebe. I wonder if that means we should go out and check Phoebe out when we eventually go out to that part of the solar system. and then we'll fly them back up to Almar, which is our mid-Earth orbit staging. We'll keep an eye on fleets. I should at some point get deep system skywatch. What are you? Out of system colony ship flying all the way back out to the Kyper belt. Defensive fleet around Jupiter. See, this is the thing. If we went for grid drives, we could pr\u2026",
+      "full_len": 1581
+    },
+    {
+      "ts": "34:00",
+      "categories": [
+        "PRIORITY",
+        "INFORMATION_VALUE",
+        "TEMPORAL_WINDOW"
+      ],
+      "text": "At the moment, we don't have the control point count for it, but once we get United Arab League, it'll be Egypt into Saudi Arabia. Um, but for the moment, Saudi Arabia as the money tap working well. Inequality is going to the moon. Uh, but we should not have unrest despite that because Saudi Arabia, as I Who got arrested? &gt;&gt; Let them find out. &gt;&gt; Our servant spy was arrested by humanity first. All right. Well, serves him, right? As long as he's still feeding us intel. I love these cr\u2026",
+      "full_len": 2888
+    },
+    {
+      "ts": "37:30",
+      "categories": [
+        "CONTINGENCY",
+        "ECONOMY_OF_FORCE",
+        "TEMPORAL_WINDOW"
+      ],
+      "text": "Conduct a full investigation. Accuse Afghanistan. All right. West African community has lost the military tech level. That's fine. We're not expecting it to be particularly powerful. We will build an army so it's able to declare war and expand itself a bit. But to be honest, it's just going to ally up with our main military beat sticks uh and use its own military as justification. Declare war that its allies then finish. And hey, remember how there's still an alien invasion on? You should. There\u2026",
+      "full_len": 844
+    },
+    {
+      "ts": "38:19",
+      "categories": [
+        "CONTINGENCY",
+        "META_MODEL"
+      ],
+      "text": "Yeah, we can probably kill that. I'm not sure they'll want to engage us cuz they're there to transport, but if I can pinch off three ships, I will. In the meantime, we've had a chat to our captive. &gt;&gt; Our captive is talking. &gt;&gt; I expect he is sorry. Our interrogations of our captive have been extensive and lengthy and have produced a great deal of useful information. Hydra appear to operate from a basically logical and rational mindset. They've apparently taken significant damage fro\u2026",
+      "full_len": 739
+    },
+    {
+      "ts": "38:55",
+      "categories": [
+        "THRESHOLD",
+        "CONTINGENCY",
+        "PRIORITY",
+        "INFORMATION_VALUE",
+        "ECONOMY_OF_FORCE"
+      ],
+      "text": "The hydras react extremely negatively to the possibility of any alien species possessing the potential to threaten them in the future. Any kind of negotiated peace would require granting the hydras an unacceptable level of control over this council and humanity as a whole. Good to know the priorities of the council first, humanity second. Hydra culture appears collectivist and consensus driven perhaps due to the influence of the hydropherices. They have strong tendencies towards hierarchy and or\u2026",
+      "full_len": 2774
+    },
+    {
+      "ts": "41:15",
+      "categories": [
+        "PRIORITY"
+      ],
+      "text": "So, it's going to be very, very touchand go with three, especially since as this is a pursuit scenario, they'll start facing away from us. We're going to priority target everything on Screaming Electron and do that except for Ghetto, which will go on the Shimmering Mountain. Okay, tubes are all firing. Now, it's just math. Tubes are about to be empty. If we are able to destroy or disable at least one, if we disable both, the 40 mm will give us the win. But really, a lot of this is going to come \u2026",
+      "full_len": 754
+    },
+    {
+      "ts": "42:10",
+      "categories": [
+        "CONTINGENCY"
+      ],
+      "text": "Now, as far as Saurin is concerned, most of the expense of these ships is the fuel tanks, and the fuel tanks are already empty. So really, if they don't come back, that's just efficiency. It's cost savings. Skate seems to be doing a great job fueling that one magnetic cannon. Missiles are coming in. Viper doing Screaming Electron looks well propered. Okay, Shimmering Mountain is also in pretty bad shape. Enemy is willing to That's interesting.",
+      "full_len": 447
+    },
+    {
+      "ts": "43:31",
+      "categories": [
+        "ECONOMY_OF_FORCE"
+      ],
+      "text": "We keep shooting down the the things. We get closer and closer and closer. And then what we're going to do is when we get close enough, we'll switch one cannon from guardian to focus fire. So one gun knows to handle the incoming magnetics, which it will keep doing. And the other when we get into range will start blinking away with the 40 mil because we do appear to be closing. I don't trust the auto resolve.",
+      "full_len": 411
+    },
+    {
+      "ts": "44:00",
+      "categories": [
+        "INFORMATION_VALUE",
+        "ECONOMY_OF_FORCE"
+      ],
+      "text": "Now we target. Okay, 40 mm is now firing on the alien ship. So, one's going defensive, and you can see rounds are beginning to impact. The damage is going but he's already in such bad shape. Yep. Guardian mode, the second cannon. Do the flyby. Those crits are glorious. I think this is going to be a win for the 40 mm. So, I think we'll end up trading one escort for this thing cuz once it's fully disabled, oh, I was going to say once it's disabled, we can order a resolve. But that's a kill. Okay, \u2026",
+      "full_len": 1217
+    },
+    {
+      "ts": "45:53",
+      "categories": [
+        "CONTINGENCY"
+      ],
+      "text": "The flame that others will flock around. Superior Judith Hull forward to how to lead. Small steps, big changes. &gt;&gt; All right. Hey devs, you might want to in the 2003 scenario. I know they've done they've changed a lot of the years. If you go to um if you go to the counselor's histories, for example, all the service years and the stories are adjusted for both scenarios. So if you look at the time that Fiona retired from the service, that's been adjusted for 2003 versus 2026. And they're all\u2026",
+      "full_len": 793
+    },
+    {
+      "ts": "46:52",
+      "categories": [
+        "THRESHOLD"
+      ],
+      "text": "I think we push for counselor number the greed option here is to push for which is to go self-repairing software into quantum encryption for counselor number six so we can expand on Earth and get more mission control. The non-greed path would be to finally get lasers and start putting defense on stuff or to get advanced missile warfare doctrine. So, of course, we're going greed. Self-repairing software 138. Civilian quantum will finish in November, which will increase this bonus back up to 154. \u2026",
+      "full_len": 949
+    },
+    {
+      "ts": "48:05",
+      "categories": [
+        "CONTINGENCY"
+      ],
+      "text": "We should have nano tube armor on everything. &gt;&gt; That'll mean we can save some weight or we can put additional protection on. So, I now need to redesign my ships. So, we won't build those. Uh we'll also do an upgrade on our Actually, we might not upgrade the Earth fleet straight away. We might actually refit down to the decoy version again cuz I want to bait more alien ships in. But let's upgrade.",
+      "full_len": 406
+    },
+    {
+      "ts": "48:59",
+      "categories": [
+        "THRESHOLD",
+        "CONTINGENCY"
+      ],
+      "text": "I don't think the weight for a heat sink is worth it. ship classes. So then we obsolete the goalkeeper and goalkeeper five. Hide obsolete. Thank you very much. Well, that's probably a bit late in the piece. Increases the amount of MC we can have without going over the hate cap by 25%. I reckon that ship is sailed, guys. Obsolete. Now we've created a bit of leeway with our control point cap at this point. So we're throwing unrest and a bunch of other stuff at Egypt. There we go. Uh, we probably d\u2026",
+      "full_len": 674
+    },
+    {
+      "ts": "49:55",
+      "categories": [
+        "CONTINGENCY"
+      ],
+      "text": "I think we now just preventatively claim anything that could be valuable. So,",
+      "full_len": 77
+    },
+    {
+      "ts": "50:04",
+      "categories": [
+        "THRESHOLD"
+      ],
+      "text": "I mean, do we just claim everything even It is a 2 MC cost per, but Mercury is kind of useful. You know what? Let's see. Let's see who takes this spot. Let's see who takes this spot. And we'll take Susay Penicia. Uh, that gets us up to 240 out of 254. so much for building my um MC gap, I guess. But what can happen is once these are all done, we can upgrade them, get op centers on them, and then if we turn off the mines, opent can still run, although it's more likely to turn off",
+      "full_len": 482
+    },
+    {
+      "ts": "50:39",
+      "categories": [
+        "CONTINGENCY",
+        "ECONOMY_OF_FORCE"
+      ],
+      "text": "Mars mines than anything else. We're now operating 33 of the 36 allowed. We'll get another extension, not enough to run all these, but another extension when we get mission to the outer planets, but at least I know that I'm running enough mines that the alien economy can't be out stripping me too much. We're getting close to 2,000 metal a month. 400 nobles is good. 1,000 volatiles. This is okay. So now we have basically three core economic zones other than Earth. We have the asteroid belt where \u2026",
+      "full_len": 1437
+    },
+    {
+      "ts": "52:12",
+      "categories": [
+        "THRESHOLD",
+        "CONTINGENCY"
+      ],
+      "text": "Mercury event. Um, we have the option to send them back home, but we're not going to do that. We're going to turn them &gt;&gt; That is mines coming online on Mercury, which is great. We are now over our mining cap. Our next mine will increase it by 18. Uh we can disable some at the appropriate time. I see no reason not to run them hard for the moment, especially while we're upgrading all these bases. We'll get the Mercury op centers going, cuz we want those op centers arriving about the time we\u2026",
+      "full_len": 2627
+    },
+    {
+      "ts": "54:41",
+      "categories": [
+        "THRESHOLD",
+        "CONTINGENCY"
+      ],
+      "text": "We're at 130% project multiplier. But if there's anywhere to build it, it's going to be mercury. So we'll probably build a skunk.",
+      "full_len": 129
+    },
+    {
+      "ts": "54:49",
+      "categories": [
+        "CONTINGENCY"
+      ],
+      "text": "We'll want at least one science lab for the There we go. Just for the events. So, that covers us all for events. The only question now is do we want a We might actually do that cuz we can upgrade that. and then just a random a random science lab for just that little bit extra bonus and a little bit extra output I think. And then we'll do that for all of them. &gt;&gt; By the modern world begin to understand what war is. I did what had to be done. Closing your eyes and wishing the monster away on\u2026",
+      "full_len": 592
+    },
+    {
+      "ts": "55:47",
+      "categories": [
+        "CONTINGENCY"
+      ],
+      "text": "I think there's going to be a lot of this. Okay, let's do an inventory. I'm expecting a relatively small alien fleet by Terror and Invicta brutal standards, and I am expecting a huge number of mining bases.",
+      "full_len": 206
+    },
+    {
+      "ts": "56:02",
+      "categories": [
+        "THRESHOLD",
+        "TEMPORAL_WINDOW"
+      ],
+      "text": "Okay, total alien fleet strength is 28 ships. There are five on the way to Earth, including an assault carrier and escorts. What timing? Because at 105 days, that means I can turn out a full round of escorts from all of my Earth shipyards and group them up before this arrives.",
+      "full_len": 277
+    },
+    {
+      "ts": "56:21",
+      "categories": [
+        "THRESHOLD",
+        "CONTINGENCY",
+        "PRIORITY",
+        "INFORMATION_VALUE",
+        "TEMPORAL_WINDOW"
+      ],
+      "text": "And if we jump it at the point that it's landing, all of these are going to have to fight. So, we'll have a look at what that fleet consists of, we'll shoot it down. And hopefully that gets the fleet, alien fleet down to, you know, 23 ships. Again, there is also an attack fleet on the way to Mars that we wouldn't have seen otherwise. We don't know what the makeup of those ships are. So, I'm thinking that gives us time to produce a round of ships that defend Mars and shoot those down. No attacks \u2026",
+      "full_len": 947
+    }
+  ]
+}

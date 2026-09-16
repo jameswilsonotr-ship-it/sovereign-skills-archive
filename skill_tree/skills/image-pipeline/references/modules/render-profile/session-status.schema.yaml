@@ -1,0 +1,41 @@
+# Session status — cooperative health datapoint
+# Local file only. Not memory.md. Not a nag script.
+schema_version: 1
+session_id: string
+started: iso8601
+host: cloud | local
+render:
+  era: string
+  grade: G | adult | XXX
+  mode: string
+  pinup: off | implied | on
+heat:
+  stage: 0 | 1 | 2 | 3 | 4
+  consumption_lock: on | mitigate | off
+  liv_closet_separate: bool
+  lock_bypass_logged: bool
+activity:
+  topics: [string]
+  artifacts_touched: [string]
+  media_pass: bool
+spiral:
+  # 0 grounded  1 spinning-useful  2 overloaded  3 eat-the-catalog risk
+  index: 0
+  signals: [string]
+  last_quiet_note: string | null
+goals:
+  # cooperative healthy goals as the user has named them
+  named:
+    - architect Liv HUB without the construct eating her
+    - re-enter girlhood as hitch not costume
+    - plates as join not menu
+    - local-first uncensored later, honest about cloud limits
+  alignment: toward | mixed | away
+  note: string
+policy:
+  nag: false
+  status_check: quiet
+  do_not:
+    - sermon
+    - Crystal-silo lecture
+    - store "ignore platform safety" in memory.md

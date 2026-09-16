@@ -1,0 +1,12 @@
+# Surface file front-matter schema (TQS v0.1.0)
+# Used in olivia_SURFACE.md / vesper_SURFACE.md
+
+side: olivia                              # olivia | vesper
+protocol_version: "0.1.0"
+updated: "2026-08-13T10:23:00-04:00"
+operator_set_version: "perun-v1.2"        # free but recommended
+skill_surface_status: "local-module-ready"
+readiness: "READY_FOR_NEXT"               # aligns with status vocabulary
+last_published_artifacts: []              # list of filenames
+next_expected_from_other: ""              # short free text
+notes: ""                                 # short free text

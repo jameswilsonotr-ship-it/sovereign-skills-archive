@@ -1,0 +1,39 @@
+{
+  "id": "treatment.graphic-dominance",
+  "kind": "treatment",
+  "name": "Graphic Dominance",
+  "version": "1.0.0",
+  "description": "Bold, high-contrast graphic treatment with strong power dynamics and sharp ownership.",
+  "tags": [
+    "treatment",
+    "graphic",
+    "dominance",
+    "high-contrast"
+  ],
+  "prompt_terms": [
+    {
+      "term": "graphic dominance",
+      "variance": 0.25,
+      "weight": 1.0
+    },
+    {
+      "term": "bold high-contrast graphic framing",
+      "variance": 0.4,
+      "weight": 0.9
+    },
+    {
+      "term": "sharp powerful ownership",
+      "variance": 0.45,
+      "weight": 0.7
+    },
+    {
+      "term": "dramatic rim light or direct flash",
+      "variance": 0.5,
+      "weight": 0.6
+    }
+  ],
+  "content": {
+    "taxonomy": "treatment",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}
