@@ -21,5 +21,5 @@ Ultra only. It MUST state that the slot is never On-Demand.
 
 ## Requirement: The change remains documentation-only
 
-This change MUST NOT add runtime behavior, entitlement logic, integrations,
-deployments, credentials, or external data dependencies.
+This change MUST NOT add runtime behavior or entitlement logic. It MUST remain
+independent of account, deployment, and credential configuration.

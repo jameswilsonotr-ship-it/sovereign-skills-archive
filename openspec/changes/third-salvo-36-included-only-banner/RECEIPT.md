@@ -19,4 +19,4 @@
 - Confirmed the requirement names both `THIRD_SALVO` and `T3-36`.
 - Confirmed the change contains documentation only and has no runtime or
   integration dependencies.
-- No network access or external source material was used.
+- No network access or source material outside this repository was used.

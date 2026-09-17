@@ -25,7 +25,7 @@ On-Demand option.
 
 - No runtime or product behavior.
 - No entitlement or billing logic.
-- No integrations, deployments, credentials, or external data.
+- No account, deployment, or credential behavior.
 
 ## Acceptance criteria
 
