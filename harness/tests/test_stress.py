@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 from http.server import ThreadingHTTPServer
 from threading import Thread
@@ -81,41 +82,61 @@ def test_malformed_account_ids_are_rejected(
             connector(account_id=bad_account_id)
 
 
-def test_concurrent_dummy_connector_calls_are_logged(
+def test_concurrent_dummy_connector_calls_are_logged_x100(
     call_log,
     composio_account_ids: dict[str, str | dict[str, str]],
 ) -> None:
-    jobs = [
-        (provider, account_id, sequence)
+    account_pairs = [
+        (provider, account_id)
         for provider, account_ids in composio_account_ids.items()
         for account_id in (
             account_ids.values() if isinstance(account_ids, dict) else (account_ids,)
         )
-        for sequence in range(12)
+    ]
+    jobs = [
+        (*account_pairs[sequence % len(account_pairs)], sequence)
+        for sequence in range(100)
     ]
 
     def call(job: tuple[str, str, int]) -> dict[str, Any]:
         provider, account_id, sequence = job
         if provider == "gmail":
             connector = GmailConnector(account_id=account_id)
-            return connector.search_threads(query=f"fixture:{sequence}", limit=1)
-        if provider == "github":
+            return call_log.invoke(
+                connector,
+                "search_threads",
+                query=f"fixture:{sequence}",
+                limit=1,
+            )
+        elif provider == "github":
             connector = GithubConnector(account_id=account_id)
-            return connector.search_repositories(query=f"fixture:{sequence}", limit=1)
-        if provider == "linear":
+            return call_log.invoke(
+                connector,
+                "search_repositories",
+                query=f"fixture:{sequence}",
+                limit=1,
+            )
+        elif provider == "linear":
             connector = LinearConnector(account_id=account_id)
-            return connector.list_issues(status=f"fixture-{sequence}", limit=1)
+            return call_log.invoke(
+                connector,
+                "list_issues",
+                status=f"fixture-{sequence}",
+                limit=1,
+            )
         connector = DriveConnector(account_id=account_id)
-        return connector.list_files(query=f"fixture:{sequence}", limit=1)
+        return call_log.invoke(
+            connector,
+            "list_files",
+            query=f"fixture:{sequence}",
+            limit=1,
+        )
 
-    with ThreadPoolExecutor(max_workers=12) as executor:
+    with ThreadPoolExecutor(max_workers=32) as executor:
         responses = list(executor.map(call, jobs))
 
-    for response in responses:
-        call_log.record(response)
-
-    assert len(responses) == 72
-    assert call_log.count() == 72
+    assert len(responses) == 100
+    assert call_log.count() == 100
     rows = call_log.connection.execute(
         """
         SELECT connector, account_id, COUNT(*)
@@ -124,14 +145,15 @@ def test_concurrent_dummy_connector_calls_are_logged(
         ORDER BY connector, account_id
         """
     ).fetchall()
-    assert rows == [
-        ("drive", "googledrive_baste-nous", 12),
-        ("github", "github_unhex-ume", 12),
-        ("gmail", "gmail_algy-alpen", 12),
-        ("gmail", "gmail_deash-pungle", 12),
-        ("gmail", "gmail_illipe-eaves", 12),
-        ("linear", "linear_diver-forbow", 12),
-    ]
+    expected_counts = Counter(
+        account_pairs[index % len(account_pairs)] for index in range(100)
+    )
+    assert Counter(
+        (connector, account_id, count) for connector, account_id, count in rows
+    ) == Counter(
+        (provider, account_id, count)
+        for (provider, account_id), count in expected_counts.items()
+    )
 
 
 def test_phone_health_handles_concurrent_offline_load() -> None:
