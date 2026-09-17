@@ -1,6 +1,6 @@
 # Packet-PR review checklist
 
-**Atom:** `atom-bc-03-packet-pr`  
+**Atom:** `atom-bc-03-packet-pr`
 **Parent change-id:** `add-included-burn-chew-lanes`
 
 Use this checklist for the one PR/reviewable unit that carries this atom.

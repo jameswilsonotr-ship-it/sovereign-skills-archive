@@ -1,6 +1,6 @@
 # Packetized PR discipline
 
-**Atom:** `atom-bc-03-packet-pr`  
+**Atom:** `atom-bc-03-packet-pr`
 **Parent change-id:** `add-included-burn-chew-lanes`
 
 ## Purpose
