@@ -1,7 +1,7 @@
 # SPEC-010 — Connector Fixtures
 
-**Status:** Draft  
-**Scope:** Deterministic, offline fixtures for connector behavior  
+**Status:** Draft
+**Scope:** Deterministic, offline fixtures for connector behavior
 **Normative language:** `MUST`, `MUST NOT`, `SHOULD`, and `MAY` are normative.
 
 ## Purpose
