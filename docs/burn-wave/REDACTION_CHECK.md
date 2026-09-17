@@ -30,8 +30,8 @@ of scope.
 From the repository root:
 
 ```bash
-PYTHONPATH=harness/src python -m sovereign_harness.redaction
-PYTHONPATH=harness/src pytest harness/tests/test_redaction.py
+PYTHONPATH=harness/src python3 -m sovereign_harness.redaction
+PYTHONPATH=harness/src python3 -m pytest harness/tests/test_redaction.py
 ```
 
 The command exits zero only when the local fixture set has no findings. To
@@ -40,7 +40,7 @@ exercise the failure path without changing a repository fixture:
 ```bash
 tmpdir="$(mktemp -d)"
 printf '{"email":"fixture.person@example.invalid"}\n' > "$tmpdir/canary.json"
-PYTHONPATH=harness/src python -m sovereign_harness.redaction "$tmpdir"
+PYTHONPATH=harness/src python3 -m sovereign_harness.redaction "$tmpdir"
 rm -rf "$tmpdir"
 ```
 
