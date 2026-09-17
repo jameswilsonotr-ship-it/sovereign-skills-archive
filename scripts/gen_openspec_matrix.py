@@ -76,6 +76,40 @@ class SpecRecord:
         return {column: getattr(self, column) for column in MATRIX_COLUMNS}
 
 
+class ChangeIdCollisionError(ValueError):
+    """Raised when multiple OpenSpec documents claim the same change-id."""
+
+
+def ensure_unique_ids(records: Sequence[SpecRecord]) -> None:
+    """Reject duplicate change-ids before rendering a matrix.
+
+    IDs are compared case-insensitively after trimming surrounding whitespace.
+    This catches both exact duplicates and filesystem/case-only collisions
+    before one record can silently shadow another in generated output.
+    """
+
+    sources_by_id: dict[str, list[str]] = {}
+    display_ids: dict[str, str] = {}
+    for record in records:
+        normalized_id = record.id.strip().casefold()
+        sources_by_id.setdefault(normalized_id, []).append(record.source)
+        display_ids.setdefault(normalized_id, record.id)
+
+    collisions = {
+        normalized_id: sources
+        for normalized_id, sources in sources_by_id.items()
+        if len(sources) > 1
+    }
+    if not collisions:
+        return
+
+    details = "; ".join(
+        f"{display_ids[normalized_id]!r}: {', '.join(sorted(sources))}"
+        for normalized_id, sources in sorted(collisions.items())
+    )
+    raise ChangeIdCollisionError(f"OpenSpec change-id collision(s): {details}")
+
+
 def _normalize_key(key: str) -> str:
     normalized = re.sub(r"[\s-]+", "_", key.strip().lower())
     return _KEY_ALIASES.get(normalized, normalized)
@@ -275,6 +309,7 @@ def collect_records(input_dir: Path, root: Path | None = None) -> list[SpecRecor
         except ValueError:
             source = path.as_posix()
         records.append(parse_document(path, source=source))
+    ensure_unique_ids(records)
     return sorted(records, key=lambda record: (record.id.casefold(), record.source.casefold()))
 
 
@@ -321,7 +356,11 @@ def _build_parser() -> argparse.ArgumentParser:
 
 def main(argv: Sequence[str] | None = None) -> int:
     args = _build_parser().parse_args(argv)
-    records = collect_records(args.input_dir)
+    try:
+        records = collect_records(args.input_dir)
+    except ChangeIdCollisionError as error:
+        print(str(error), file=sys.stderr)
+        return 1
     csv_text = render_csv(records)
     markdown_text = render_markdown(records)
 
