@@ -1,7 +1,7 @@
 # Receipt — T4-21 continuous included reload
 
-**Tracking**: #222  
-**Mode**: continuous included  
+**Tracking**: #222
+**Mode**: continuous included
 **Scope**: offline-only
 
 ## Result
