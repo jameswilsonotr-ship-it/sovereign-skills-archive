@@ -1,12 +1,12 @@
 # SPEC-003 — CILIA / SPARK BIND
 
-**Title:** Vesper web Send + MCP bind  
-**Status:** Proposed  
-**Version:** 0.1.0  
-**Owner:** Liv HUB / Vesper integration  
-**Audience:** Vesper web, Spark adapter, Cilia bus, MCP host/runtime, Keel Sentry, QA  
-**Last updated:** 2026-09-17  
-**Related surfaces:** `cilia-bus`, `mcp-surface`, Vesper web, Keel Sentry  
+**Title:** Vesper web Send + MCP bind
+**Status:** Proposed
+**Version:** 0.1.0
+**Owner:** Liv HUB / Vesper integration
+**Audience:** Vesper web, Spark adapter, Cilia bus, MCP host/runtime, Keel Sentry, QA
+**Last updated:** 2026-09-17
+**Related surfaces:** `cilia-bus`, `mcp-surface`, Vesper web, Keel Sentry
 
 > This specification is intentionally large because the dangerous part of this
 > change is not the button. It is proving that a visible web **Send** actually
@@ -1538,4 +1538,3 @@ only if it demonstrates a real Vesper web Send to an authorized MCP bind,
 durable idempotent Cilia receipt behavior, safe unknown-outcome handling,
 mail-independent operation, and redacted Keel Sentry lifecycle evidence as
 defined by all P0 acceptance tests.
-
