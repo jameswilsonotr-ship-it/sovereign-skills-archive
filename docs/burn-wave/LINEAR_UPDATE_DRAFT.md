@@ -2,8 +2,8 @@
 
 > Paste-ready draft. Do not post automatically.
 
-**OpenSpec change-id:** `second-salvo-18-linear-draft`  
-**Slot:** S2-18  
+**OpenSpec change-id:** `second-salvo-18-linear-draft`
+**Slot:** S2-18
 **Scope:** Atomic included burn — **Ultra only**
 
 S2-18 is prepared as a paste-ready update for the atomic included burn. The
