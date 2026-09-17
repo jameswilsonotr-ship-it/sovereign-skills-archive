@@ -65,12 +65,12 @@ def test_sftp_schema_rejects_private_key_bytes() -> None:
 
 
 def test_deployment_templates_contain_no_private_key_material() -> None:
-    ssh_config = (
-        REPO_ROOT / "bridges/sftp/olette-box.ssh-config.example"
-    ).read_text(encoding="utf-8")
-    cloud_init = (
-        REPO_ROOT / "bridges/vultr/cloud-init.mcp-host.example.yaml"
-    ).read_text(encoding="utf-8")
+    ssh_config = (REPO_ROOT / "bridges/sftp/olette-box.ssh-config.example").read_text(
+        encoding="utf-8"
+    )
+    cloud_init = (REPO_ROOT / "bridges/vultr/cloud-init.mcp-host.example.yaml").read_text(
+        encoding="utf-8"
+    )
 
     assert "BEGIN " not in ssh_config
     assert "BEGIN " not in cloud_init
