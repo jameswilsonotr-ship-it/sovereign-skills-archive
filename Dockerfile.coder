@@ -1,0 +1,15 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    OLLAMA_BASE_URL=http://ollama:11434/v1
+
+COPY pyproject.toml README.md ./
+COPY coder ./coder
+
+RUN python -m pip install --no-cache-dir .
+
+ENTRYPOINT ["python", "-m", "coder"]
+

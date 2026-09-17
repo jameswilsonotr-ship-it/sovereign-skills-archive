@@ -1,5 +1,7 @@
 from typing import Any
 
+import pytest
+
 from coder import Coder, MemoryHooks
 
 
@@ -38,4 +40,44 @@ def test_coder_wires_memory_hooks_and_retains_history() -> None:
         {"role": "user", "content": "What changed?"},
         {"role": "assistant", "content": "local answer"},
     ]
+
+
+def test_coder_sends_system_prompt_and_prior_turns() -> None:
+    client = RecordingClient()
+    coder = Coder(client, system_prompt="be concise")
+
+    coder.send("first")
+    coder.send("second")
+
+    assert client.messages == [
+        {"role": "system", "content": "be concise"},
+        {"role": "user", "content": "first"},
+        {"role": "assistant", "content": "local answer"},
+        {"role": "user", "content": "second"},
+    ]
+
+
+def test_history_is_a_copy_and_reset_clears_it() -> None:
+    client = RecordingClient()
+    coder = Coder(client)
+    coder.send("first")
+
+    history = coder.history
+    history[0]["content"] = "mutated outside coder"
+    assert coder.history[0]["content"] == "first"
+
+    coder.reset()
+    assert coder.history == []
+
+
+def test_blank_prompt_is_rejected_before_client_or_memory() -> None:
+    client = RecordingClient()
+    memory = RecordingMemory()
+    coder = Coder(client, memory=memory)
+
+    with pytest.raises(ValueError, match="must not be empty"):
+        coder.send(" \t\n")
+
+    assert client.messages == []
+    assert not memory.before_called
 
