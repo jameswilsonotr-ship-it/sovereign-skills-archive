@@ -28,7 +28,7 @@ negative boundaries with spies:
 Run it offline with:
 
 ```bash
-python -m pytest -q
+python3 -m pytest -q
 ```
 
 Do not expect the 132M full tarball in git. Point at Drive file IDs instead.
