@@ -1,0 +1,63 @@
+name: OpenSpec harness
+
+on:
+  pull_request:
+  push:
+    branches:
+      - skill-tree-intake
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  pytest:
+    name: Offline pytest
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      NO_NETWORK: "1"
+      OPENSPEC_OFFLINE: "1"
+      PIP_NO_INDEX: "1"
+      PIP_DISABLE_PIP_VERSION_CHECK: "1"
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Run harness and OpenSpec stub tests
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          pytest_targets=()
+
+          # Only pass harness/ when it contains tests. This keeps the workflow
+          # green for the documentation-only harness scaffold.
+          if find harness -type f \( -name 'test_*.py' -o -name '*_test.py' \) -print -quit 2>/dev/null | grep -q .; then
+            pytest_targets+=(harness)
+          fi
+
+          # Run test files under any openspec/ directory, including stubs in
+          # nested test directories, without collecting unrelated repository tests.
+          while IFS= read -r test_file; do
+            pytest_targets+=("$test_file")
+          done < <(
+            find . -path './.git' -prune -o \
+              -type f -path '*/openspec/*' \
+              \( -name 'test_*.py' -o -name '*_test.py' \) \
+              -print | sort
+          )
+
+          if ((${#pytest_targets[@]} == 0)); then
+            echo "No harness or OpenSpec stub tests found; nothing to run."
+            exit 0
+          fi
+
+          if ! python3 -c "import pytest" >/dev/null 2>&1; then
+            echo "::error::pytest must already be available on the runner; CI does not install packages or access the network."
+            exit 1
+          fi
+
+          printf 'Running pytest targets:\\n'
+          printf '  %s\\n' "${pytest_targets[@]}"
+          python3 -m pytest -q --maxfail=1 "${pytest_targets[@]}"
