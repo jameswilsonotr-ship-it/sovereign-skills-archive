@@ -1,8 +1,8 @@
 # OpenSpec: BASIC_TIER — local-first off-cloud mesh
 
-**Status:** Draft proposal  
-**Owner:** James  
-**Branch basis:** `skill-tree-intake`  
+**Status:** Draft proposal
+**Owner:** James
+**Branch basis:** `skill-tree-intake`
 **Scope:** Gemma on an Android phone, a tailnet-only Vultr Ollama host with
 optional Letta, explicit Spark escalation, and Tailscale/MCP control paths.
 
