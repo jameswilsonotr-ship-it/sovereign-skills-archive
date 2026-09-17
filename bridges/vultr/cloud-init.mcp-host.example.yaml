@@ -1,0 +1,47 @@
+#cloud-config
+#
+# Sketch only: inject TAILSCALE_AUTH_KEY and TAILNET_BIND_HOST through the
+# deployment secret mechanism. Do not commit real values here.
+package_update: true
+packages:
+  - curl
+  - ufw
+
+write_files:
+  - path: /etc/mcp-host.env
+    permissions: "0600"
+    content: |
+      TAILSCALE_AUTH_KEY=<INJECT_AT_DEPLOY_TIME>
+      TAILNET_BIND_HOST=<TAILNET_VPS_IP>
+      MCP_PORT=8000
+  - path: /etc/systemd/system/mcp-host.service
+    permissions: "0644"
+    content: |
+      [Unit]
+      Description=Tailnet-only MCP host placeholder
+      After=network-online.target tailscaled.service
+      Wants=network-online.target
+
+      [Service]
+      EnvironmentFile=/etc/mcp-host.env
+      ExecStart=/opt/mcp-host/bin/mcp-host --host ${TAILNET_BIND_HOST} --port ${MCP_PORT}
+      Restart=on-failure
+      User=mcp
+      Group=mcp
+
+      [Install]
+      WantedBy=multi-user.target
+
+runcmd:
+  # Pin and verify the Tailscale installer in a production image pipeline.
+  - [sh, -c, "curl -fsSL https://tailscale.com/install.sh | sh"]
+  - [systemctl, enable, --now, tailscaled]
+  - [sh, -c, ". /etc/mcp-host.env && tailscale up --auth-key \"$TAILSCALE_AUTH_KEY\" --hostname vultr-mcp-host"]
+  - [sh, -c, "id mcp >/dev/null 2>&1 || useradd --system --home /opt/mcp-host --shell /usr/sbin/nologin mcp"]
+  - [install, -d, -o, mcp, -g, mcp, /opt/mcp-host/bin]
+  # Install the real MCP host here; this repository supplies only the contract.
+  - [systemctl, daemon-reload]
+  - [ufw, default, deny, incoming]
+  - [ufw, allow, from, 100.64.0.0/10, to, any, port, "8000", proto, tcp]
+  - [ufw, --force, enable]
+  - [systemctl, enable, --now, mcp-host.service]

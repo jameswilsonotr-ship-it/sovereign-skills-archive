@@ -1,0 +1,16 @@
+# Copy the key files out of band, set mode 0600, and replace only the
+# IdentityFile paths below. Do not put private key contents in this file.
+
+Host olette-box-bunny
+    HostName 100.115.0.111
+    Port 22
+    User bunny
+    IdentityFile ~/.ssh/REPLACE_WITH_BUNNY_PRIVATE_KEY
+    IdentitiesOnly yes
+
+Host olette-box-olivia
+    HostName 100.115.0.111
+    Port 22
+    User olivia
+    IdentityFile ~/.ssh/REPLACE_WITH_OLIVIA_PRIVATE_KEY
+    IdentitiesOnly yes

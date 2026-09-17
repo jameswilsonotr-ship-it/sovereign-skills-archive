@@ -1,0 +1,16 @@
+{
+  "host": "100.115.0.111",
+  "port": 22,
+  "users": [
+    {
+      "username": "bunny",
+      "identity_file": "~/.ssh/REPLACE_WITH_BUNNY_PRIVATE_KEY"
+    },
+    {
+      "username": "olivia",
+      "identity_file": "~/.ssh/REPLACE_WITH_OLIVIA_PRIVATE_KEY"
+    }
+  ],
+  "remote_root": "<REMOTE_ROOT>",
+  "known_hosts_file": "~/.ssh/known_hosts"
+}
