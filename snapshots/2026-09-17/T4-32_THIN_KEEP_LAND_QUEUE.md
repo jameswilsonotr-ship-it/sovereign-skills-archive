@@ -1,7 +1,7 @@
 # T4-32 — thin KEEP land queue
 
-Date: 2026-09-17  
-Status: queued to land  
+Date: 2026-09-17
+Status: queued to land
 Mode: offline-only
 
 ## Contract
