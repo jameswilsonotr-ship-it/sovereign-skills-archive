@@ -1,0 +1,7 @@
+{
+  "hostname": "<VULTR_HOSTNAME>",
+  "tailnet_bind_host": "<TAILNET_VPS_IP>",
+  "mcp_port": 8000,
+  "tailscale_auth_key_env": "TAILSCALE_AUTH_KEY",
+  "tailnet_only": true
+}

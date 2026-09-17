@@ -1,0 +1,6 @@
+{
+  "host": "<TAILSCALE_PHONE_IP>",
+  "port": 8081,
+  "health_path": "/health",
+  "tailscale_only": true
+}
