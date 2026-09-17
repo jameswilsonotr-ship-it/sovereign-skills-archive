@@ -3,6 +3,7 @@
 UTC: 2026-09-17
 PR title: `salvo: T4-reader digest-schema`
 Branch: `cursor/t4-reader-digest-schema-e2a6`
+PR: https://github.com/jameswilsonotr-ship-it/sovereign-skills-archive/pull/216
 
 ## Deliverable
 
@@ -26,3 +27,4 @@ Branch: `cursor/t4-reader-digest-schema-e2a6`
 - The rendered sample contains Mag, Liaison, and fleet sections.
 - Source references, certainty labels, owners, and action states are retained.
 - No runtime or service integration was added.
+- Offline structural checks passed.
