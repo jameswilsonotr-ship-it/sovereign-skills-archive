@@ -1,0 +1,8 @@
+{
+  "source": "offline-fixture",
+  "page": {
+    "url": "https://example.invalid/mis-6",
+    "title": "MIS-6 fixture page",
+    "body": "No network access is used by the harness."
+  }
+}
