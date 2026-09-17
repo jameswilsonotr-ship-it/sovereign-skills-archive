@@ -58,6 +58,31 @@ def test_all_provider_call_shapes_are_deterministic() -> None:
     )["operation"] == "get_thread"
 
 
+def test_linear_mis6_dummy_requires_account_id_and_uses_offline_fixture() -> None:
+    with pytest.raises(ValidationError):
+        LinearConnector()
+
+    with pytest.raises(ValidationError):
+        LinearConnector(account_id="")
+
+    response = LinearConnector(account_id="linear_diver-forbow").get_issue(
+        identifier="MIS-6"
+    )
+
+    assert response["account_id"] == "linear_diver-forbow"
+    assert response["request"] == {"identifier": "MIS-6"}
+    assert response["data"] == {
+        "source": "offline-fixture",
+        "issues": [
+            {
+                "identifier": "MIS-6",
+                "title": "Hi/Bunny override harness",
+                "state": "in progress",
+            }
+        ],
+    }
+
+
 def test_non_account_connectors_and_phone_stub_are_offline() -> None:
     assert ImageConnector().render(prompt="bunny")["data"]["source"] == "offline-fixture"
     assert WebConnector().fetch(url="https://example.invalid/mis-6")["request"] == {
