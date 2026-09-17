@@ -15,15 +15,15 @@ material, or on-demand path.
 
 ## Verification
 
-- `git diff --check`: pending final revision
-- Changed-path allowlist: pending final revision
-- Local content review: pending final revision
+- `git diff --check origin/main...HEAD`: pass
+- Changed-path allowlist: pass; only the checklist and this receipt
+- Local content review: pass; all checklist gates are checked
 
 ## Git handoff
 
 - Branch: `cursor/t4-27-keeper-land-checklist-2d9f`
-- Commit: pending
-- Pull request: pending
+- Implementation commit: `8f923da`
+- Pull request: [#238](https://github.com/jameswilsonotr-ship-it/sovereign-skills-archive/pull/238)
 
-This receipt is complete only after the final pushed revision and its single
-pull request are recorded above.
+The implementation revision is pushed and represented by the single pull
+request above. This receipt is the only follow-up documentation change.
