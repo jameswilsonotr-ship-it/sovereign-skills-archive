@@ -51,6 +51,6 @@
 ## Receipt
 
 - **Branch:** `cursor/third-salvo-31-closeout-ledger-040f`
-- **Commit:** _pending_
-- **Pull request:** _pending_
+- **Commit:** `f7b1cbc`
+- **Pull request:** [#197](https://github.com/jameswilsonotr-ship-it/sovereign-skills-archive/pull/197)
 - **Receipt path:** `receipts/2026-09-17/T3-31_CLOSEOUT_RECEIPT.md`
