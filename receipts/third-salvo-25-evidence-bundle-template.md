@@ -8,8 +8,9 @@
 - **On-Demand:** `false`
 - **Review mode:** offline
 - **Branch:** `cursor/third-salvo-25-evidence-bundle-template-6f49`
-- **Pull request:** pending
-- **Final revision:** pending
+- **Pull request:** https://github.com/jameswilsonotr-ship-it/sovereign-skills-archive/pull/182
+- **Initial artifact revision:** `75aab53`
+- **Receipt revision:** the commit containing this receipt update
 
 ## Delivered files
 
@@ -21,9 +22,9 @@
 
 ## Validation
 
-- `git diff --check` — pending final revision
-- Identity and delivery-mode fence review — pending final revision
-- Local-path and offline-command review — pending final revision
+- `git diff --check` — passed
+- Identity and delivery-mode fence review — passed
+- Local-path and offline-command review — passed
 
 ## Receipt
 
