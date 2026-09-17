@@ -13,7 +13,6 @@ from typing import Any, ClassVar
 import httpx
 from pydantic import BaseModel, ConfigDict, Field, field_validator
 
-
 FIXTURES_DIR = Path(__file__).with_name("fixtures")
 
 

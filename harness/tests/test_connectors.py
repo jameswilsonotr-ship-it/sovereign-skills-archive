@@ -5,8 +5,8 @@ from pydantic import ValidationError
 
 from sovereign_harness.connectors import (
     DriveConnector,
-    GmailConnector,
     GithubConnector,
+    GmailConnector,
     ImageConnector,
     LinearConnector,
     PhoneBridgeStub,

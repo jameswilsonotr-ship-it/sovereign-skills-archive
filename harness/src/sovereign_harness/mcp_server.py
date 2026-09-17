@@ -2,10 +2,12 @@
 
 from __future__ import annotations
 
-from mcp.server.fastmcp import FastMCP
+try:
+    from mcp.server.fastmcp import FastMCP
+except ModuleNotFoundError:  # MCP SDK v2 renamed FastMCP to MCPServer.
+    from mcp.server.mcpserver import MCPServer as FastMCP
 
 from .connectors import PhoneBridgeStub
-
 
 mcp = FastMCP("sovereign-skills-phone")
 _phone = PhoneBridgeStub()

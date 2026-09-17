@@ -1,9 +1,9 @@
 from __future__ import annotations
 
+from http.server import ThreadingHTTPServer
 from threading import Thread
 
 import httpx
-from http.server import ThreadingHTTPServer
 
 from sovereign_harness.phone_mcp import PhoneRequestHandler, health_payload
 
