@@ -1,0 +1,34 @@
+name: OpenSpec docs lint
+
+on:
+  push:
+    paths:
+      - "docs/openspec/**"
+      - ".github/workflows/openspec-docs-lint.yml"
+  pull_request:
+    paths:
+      - "docs/openspec/**"
+      - ".github/workflows/openspec-docs-lint.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  markdown-exists:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Require OpenSpec Markdown
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          markdown_file="$(find docs/openspec -type f -name '*.md' -print -quit 2>/dev/null || true)"
+          if [[ -z "${markdown_file}" ]]; then
+            echo "::error::Expected at least one Markdown file under docs/openspec."
+            exit 1
+          fi
+
+          echo "Found OpenSpec Markdown: ${markdown_file}"
