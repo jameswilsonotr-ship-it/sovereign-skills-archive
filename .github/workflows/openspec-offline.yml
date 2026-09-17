@@ -1,0 +1,30 @@
+name: OpenSpec offline harness
+
+on:
+  push:
+    paths:
+      - "harness/**"
+      - "docs/openspec/**"
+      - ".github/workflows/openspec-offline.yml"
+  pull_request:
+    paths:
+      - "harness/**"
+      - "docs/openspec/**"
+      - ".github/workflows/openspec-offline.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Verify generated corpus without dependencies
+        run: python3 -m harness.tests.generated.runner
+      - name: Check generator reproducibility
+        run: python3 -m harness.tests.generated.generate --check
+      - name: Run standard-library corpus tests
+        run: python3 -m unittest discover -s harness/tests/generated -p 'test_*.py'

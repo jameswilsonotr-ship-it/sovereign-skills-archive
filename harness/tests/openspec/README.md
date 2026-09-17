@@ -20,6 +20,24 @@ phase. The offline guard in `conftest.py` turns accidental network access into
 an immediate test failure. Replace the stub backend with the real adapter only
 after these contracts are implemented; a passing stub is not production proof.
 
+## Generated scenario corpus
+
+The sibling [`generated/`](../generated/) directory contains 1,000 deterministic
+synthetic stubs covering all 80 documented cases. These are contract-shaped
+records, not 1,000 claims that production behavior is implemented. They can be
+verified without pytest, package installation, credentials, or external
+services:
+
+```text
+python3 -m harness.tests.generated.runner
+python3 -m harness.tests.generated.generate --check
+python3 -m unittest discover -s harness/tests/generated -p 'test_*.py'
+```
+
+The generated verifier is the CI path. The existing pytest suite remains the
+small executable mapping against the in-process fakes, and its own offline
+socket guard is unchanged.
+
 ## Mapping
 
 | OpenSpec case | Test | Stub-backed proof |
