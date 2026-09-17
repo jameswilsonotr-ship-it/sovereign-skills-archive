@@ -3,10 +3,10 @@
 Research and integration brief for the Android system-bus cockpit, an Android
 Intent adapter, and the companion APKs that may sit behind it.
 
-**Repository:** [`jameswilsonotr-ship-it/zenoh.apk`](https://github.com/jameswilsonotr-ship-it/zenoh.apk)  
+**Repository:** [`jameswilsonotr-ship-it/zenoh.apk`](https://github.com/jameswilsonotr-ship-it/zenoh.apk)
 **Related repositories:** [`Groxxporter`](https://github.com/jameswilsonotr-ship-it/Groxxporter) and
-[`kokoro-speaker-cloner.apk`](https://github.com/jameswilsonotr-ship-it/kokoro-speaker-cloner.apk)  
-**Research date:** 2026-09-17  
+[`kokoro-speaker-cloner.apk`](https://github.com/jameswilsonotr-ship-it/kokoro-speaker-cloner.apk)
+**Research date:** 2026-09-17
 **Status:** architecture/research note; the MCP and Intent contracts below are proposed
 interfaces, not claims that those interfaces already exist in the APK.
 
