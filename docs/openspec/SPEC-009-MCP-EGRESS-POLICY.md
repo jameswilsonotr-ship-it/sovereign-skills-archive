@@ -1,10 +1,10 @@
 # SPEC-009 — MCP Egress Policy
 
-**Status:** Draft  
-**Base:** `skill-tree-intake`  
-**Owner:** Platform Security  
+**Status:** Draft
+**Base:** `skill-tree-intake`
+**Owner:** Platform Security
 **Scope:** MCP clients, MCP hosts, MCP servers, and any sidecar or runtime that
-executes an MCP tool  
+executes an MCP tool
 **Classification:** Specification only; this document does not authorize an
 implementation or deployment
 
@@ -343,4 +343,4 @@ This specification is ready for implementation review only when:
    runtime, and telemetry failures.
 6. No implementation claims success for a request that was denied or whose
    final destination was not evaluated.
-
+*** End of File
