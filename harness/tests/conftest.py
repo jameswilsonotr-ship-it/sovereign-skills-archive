@@ -10,9 +10,14 @@ import duckdb
 import pytest
 
 COMPOSIO_ACCOUNT_IDS = {
-    "Otr": "gmail_illipe-eaves",
-    "Liv": "gmail_deash-pungle",
-    "Vesper": "gmail_algy-alpen",
+    "gmail": {
+        "Otr": "gmail_illipe-eaves",
+        "Liv": "gmail_deash-pungle",
+        "Vesper": "gmail_algy-alpen",
+    },
+    "github": "github_unhex-ume",
+    "linear": "linear_diver-forbow",
+    "drive": "googledrive_baste-nous",
 }
 
 
@@ -75,8 +80,11 @@ class CallLog:
 
 
 @pytest.fixture
-def composio_account_ids() -> dict[str, str]:
-    return dict(COMPOSIO_ACCOUNT_IDS)
+def composio_account_ids() -> dict[str, str | dict[str, str]]:
+    return {
+        provider: dict(account_ids) if isinstance(account_ids, dict) else account_ids
+        for provider, account_ids in COMPOSIO_ACCOUNT_IDS.items()
+    }
 
 
 @pytest.fixture
