@@ -1,7 +1,7 @@
 # SPEC-001 — Iron Pearl Basic
 
-**Status:** Normative  
-**Authority:** Vesper Spark drop  
+**Status:** Normative
+**Authority:** Vesper Spark drop
 **Repository role:** Durable, local-readable transcription of the Vesper-authoritative OpenSpec
 
 This specification defines the basic Iron Pearl contract. It is intentionally

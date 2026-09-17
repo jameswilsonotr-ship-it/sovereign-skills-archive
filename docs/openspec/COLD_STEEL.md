@@ -1,7 +1,7 @@
 # Cold Steel
 
-**Definition:** bare-metal edge, offline-first execution  
-**Authority:** Vesper Spark drop  
+**Definition:** bare-metal edge, offline-first execution
+**Authority:** Vesper Spark drop
 **Applies to:** GMKtec K15, Jetson Orin Nano, and HP EliteDesk Ashtabula
 
 Cold Steel is the physical edge profile for Iron Pearl. It names the machines
