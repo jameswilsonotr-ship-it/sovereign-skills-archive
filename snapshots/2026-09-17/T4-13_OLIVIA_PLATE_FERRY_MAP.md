@@ -1,8 +1,8 @@
 # T4-13 — Olivia plate ferry map stub
 
-Status: documentation stub  
-Owner: Olivia  
-Mode: `CONTINUOUS_INCLUDED`  
+Status: documentation stub
+Owner: Olivia
+Mode: `CONTINUOUS_INCLUDED`
 Reload: included continuously; **never On-Demand**
 
 ## Purpose
