@@ -1,7 +1,7 @@
 # Bandwidth hygiene: what “Tailscale-only” does and does not imply
 
-**Status:** operational inference and verification guide  
-**Research date:** 2026-09-17  
+**Status:** operational inference and verification guide
+**Research date:** 2026-09-17
 **Constraint:** this document makes only Tailscale-specific networking
 inferences. It does not claim a measured byte count, a provider bandwidth
 quota, or a complete route map that the repository does not contain.
@@ -296,8 +296,8 @@ path/bytes when the transfer matters**.
 
 ### Web sources
 
-- **[W1] Tailscale, “The Life of a Tailscale Packet.”**  
-  <https://tailscale.com/blog/2021-05-life-of-a-packet>  
+- **[W1] Tailscale, “The Life of a Tailscale Packet.”**
+  <https://tailscale.com/blog/2021-05-life-of-a-packet>
   > Note that Tailscale did not set itself as the default route. Traffic to
   > regular websites thus does not flow through Tailscale ... As of Tailscale
   > 1.6, you can choose to request that Tailscale route all your traffic.
@@ -308,8 +308,8 @@ path/bytes when the transfer matters**.
   > via a DERP relay, to your friend’s device.
 
 - **[W2] Tailscale, “Real-world enterprise use cases: Tailscale patterns from
-  the field.”**  
-  <https://tailscale.com/blog/patterns-from-the-field-use-cases>  
+  the field.”**
+  <https://tailscale.com/blog/patterns-from-the-field-use-cases>
   > Tailscale is split tunnel by default, but there are also many traffic
   > shaping features to give you full control over the network.
   >
@@ -321,8 +321,8 @@ path/bytes when the transfer matters**.
   > connectivity (lower latency and higher throughput), end-to-end encryption,
   > and additional features like MagicDNS, ACL Tags, and Tailscale SSH.
 
-- **[W3] Tailscale, “Access Home Assistant Remotely with Tailscale.”**  
-  <https://tailscale.com/blog/remotely-access-home-assistant>  
+- **[W3] Tailscale, “Access Home Assistant Remotely with Tailscale.”**
+  <https://tailscale.com/blog/remotely-access-home-assistant>
   > Exit nodes let you route all of a device’s traffic through the exit node
   > over an encrypted connection. It’s useful for foreign travel, security and
   > privacy on public networks, and access to geo-limited services.
@@ -331,13 +331,13 @@ path/bytes when the transfer matters**.
   > that are on the same network range as that routing device, whether they run
   > Tailscale or not.
 
-- **[W4] Tailscale, “Can Tailscale decrypt my traffic?”**  
-  <https://tailscale.com/kb/1093/can-tailscale-decrypt-my-traffic>  
+- **[W4] Tailscale, “Can Tailscale decrypt my traffic?”**
+  <https://tailscale.com/kb/1093/can-tailscale-decrypt-my-traffic>
   > Devices running Tailscale only exchange their public keys. Private keys
   > never leave the device. All traffic is end-to-end encrypted, always.
 
-- **[W5] Android Developers, “Build an offline-first app.”**  
-  <https://developer.android.com/topic/architecture/data-layer/offline-first>  
+- **[W5] Android Developers, “Build an offline-first app.”**
+  <https://developer.android.com/topic/architecture/data-layer/offline-first>
   > An offline-first app is an app that is able to perform all, or a critical
   > subset of its core functionality without access to the internet ... The
   > local data source is the canonical source of truth for the app.

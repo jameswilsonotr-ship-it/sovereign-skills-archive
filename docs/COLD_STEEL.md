@@ -1,7 +1,7 @@
 # COLD STEEL: terminology research and James-ops proposal
 
-**Status:** proposal, not an existing infrastructure fact  
-**Research date:** 2026-09-17  
+**Status:** proposal, not an existing infrastructure fact
+**Research date:** 2026-09-17
 **Scope:** interpret “COLD STEEL” against this repository and authoritative web
 sources. The phrase is ambiguous enough that it should not be used as an
 implementation requirement without the definition below.
@@ -279,17 +279,17 @@ infrastructure claim.
 
 ### Web sources
 
-- **[W1] IBM, “What Is a Bare Metal Server?”**  
-  <https://www.ibm.com/think/topics/bare-metal-dedicated-servers>  
+- **[W1] IBM, “What Is a Bare Metal Server?”**
+  <https://www.ibm.com/think/topics/bare-metal-dedicated-servers>
   > Bare metal servers are a form of cloud service in which the user rents a
   > physical machine from a provider that is not shared with any other tenants.
   > Unlike traditional cloud computing, which is based on virtual machines,
   > bare metal servers do not come with a hypervisor preinstalled and give the
   > user complete control over their server infrastructure.
 
-- **[W2] Vultr, “Bare Metal” and “Vultr Glossary.”**  
-  <https://docs.vultr.com/bare-metal>  
-  <https://docs.vultr.com/platform/glossary>  
+- **[W2] Vultr, “Bare Metal” and “Vultr Glossary.”**
+  <https://docs.vultr.com/bare-metal>
+  <https://docs.vultr.com/platform/glossary>
   > High-performance dedicated physical servers with no virtualization layer,
   > offering maximum control and resources for demanding workloads.
   >
@@ -299,35 +299,35 @@ infrastructure claim.
   > Dedicated Instances are a type of virtual server that runs on physical
   > hardware dedicated solely to your use.
 
-- **[W3] NIST CSRC, “air gap.”**  
-  <https://csrc.nist.gov/glossary/term/air_gap>  
+- **[W3] NIST CSRC, “air gap.”**
+  <https://csrc.nist.gov/glossary/term/air_gap>
   > An interface between two systems at which (a) they are not connected
   > physically and (b) any logical connection is not automated (i.e., data is
   > transferred through the interface only manually, under human control).
 
-- **[W4] Tailscale, “The Life of a Tailscale Packet.”**  
-  <https://tailscale.com/blog/2021-05-life-of-a-packet>  
+- **[W4] Tailscale, “The Life of a Tailscale Packet.”**
+  <https://tailscale.com/blog/2021-05-life-of-a-packet>
   > Note that Tailscale did not set itself as the default route. Traffic to
   > regular websites thus does not flow through Tailscale ... As of Tailscale
   > 1.6, you can choose to request that Tailscale route all your traffic. However,
   > it can only be routed to a different Tailscale device that you operate and
   > control.
 
-- **[W5] Tailscale, “Real-world enterprise use cases.”**  
-  <https://tailscale.com/blog/patterns-from-the-field-use-cases>  
+- **[W5] Tailscale, “Real-world enterprise use cases.”**
+  <https://tailscale.com/blog/patterns-from-the-field-use-cases>
   > Tailscale is split tunnel by default ... Exit node (full tunnel) routes all
   > Internet traffic. You can provide this to traveling employees who frequent
   > untrusted networks. You can either host the exit node on your own
   > infrastructure, or use hosted exit nodes through our Mullvad partnership.
 
-- **[W6] Android Developers, “Build an offline-first app.”**  
-  <https://developer.android.com/topic/architecture/data-layer/offline-first>  
+- **[W6] Android Developers, “Build an offline-first app.”**
+  <https://developer.android.com/topic/architecture/data-layer/offline-first>
   > An offline-first app is an app that is able to perform all, or a critical
   > subset of its core functionality without access to the internet ... The
   > local data source is the canonical source of truth for the app.
 
-- **[W7] Tailscale, “Can Tailscale decrypt my traffic?”**  
-  <https://tailscale.com/kb/1093/can-tailscale-decrypt-my-traffic>  
+- **[W7] Tailscale, “Can Tailscale decrypt my traffic?”**
+  <https://tailscale.com/kb/1093/can-tailscale-decrypt-my-traffic>
   > Devices running Tailscale only exchange their public keys. Private keys
   > never leave the device. All traffic is end-to-end encrypted, always.
 
