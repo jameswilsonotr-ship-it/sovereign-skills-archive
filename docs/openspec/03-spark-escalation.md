@@ -1,7 +1,7 @@
 # OpenSpec: Gemini Spark Escalation
 
-**Status:** Draft escalation and handoff specification  
-**Version:** 0.1.0  
+**Status:** Draft escalation and handoff specification
+**Version:** 0.1.0
 **Depends on:** [00-overview.md](./00-overview.md), [02-vultr-letta.md](./02-vultr-letta.md)
 
 ## Purpose
@@ -338,4 +338,3 @@ When the phone or primary web UI drops:
 14. How are “regular Olivia” and “Grok Heavy” routes isolated operationally?
 15. What monitoring schedule is allowed, given that MCP invocation is not itself
     a background monitor?
-

@@ -1,7 +1,7 @@
 # OpenSpec: Vultr Edge and Letta Memory Plane
 
-**Status:** Draft deployment and memory specification  
-**Version:** 0.1.0  
+**Status:** Draft deployment and memory specification
+**Version:** 0.1.0
 **Depends on:** [00-overview.md](./00-overview.md), [01-phone-mcp.md](./01-phone-mcp.md)
 
 ## Purpose
@@ -325,4 +325,3 @@ or marked explicitly as unknown/pending; they are never replayed blindly.
 14. Which metrics define acceptable search quality, latency, and token savings?
 15. What maintenance window and migration procedure apply to a Letta version
     change?
-

@@ -1,7 +1,7 @@
 # OpenSpec: Acceptance Tests
 
-**Status:** Draft conformance plan  
-**Version:** 0.1.0  
+**Status:** Draft conformance plan
+**Version:** 0.1.0
 **Covers:** [00-overview.md](./00-overview.md), [01-phone-mcp.md](./01-phone-mcp.md), [02-vultr-letta.md](./02-vultr-letta.md), [03-spark-escalation.md](./03-spark-escalation.md)
 
 ## Purpose
@@ -318,4 +318,3 @@ The OpenSpec implementation is acceptance-ready when:
     pass?
 15. When top-level `bridges/` and `docs/` sources are restored, which additional
     fixtures or invariants must be added to this suite?
-

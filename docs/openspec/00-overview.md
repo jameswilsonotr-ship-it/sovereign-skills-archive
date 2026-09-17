@@ -1,8 +1,8 @@
 # OpenSpec: Sovereign Phone-to-Agent Bridge
 
-**Status:** Draft architecture specification  
-**Version:** 0.1.0  
-**Scope:** Phone ingress, MCP normalization, Vultr/Letta memory, and Gemini Spark escalation  
+**Status:** Draft architecture specification
+**Version:** 0.1.0
+**Scope:** Phone ingress, MCP normalization, Vultr/Letta memory, and Gemini Spark escalation
 **Repository:** `sovereign-skills-archive`
 
 ## Purpose

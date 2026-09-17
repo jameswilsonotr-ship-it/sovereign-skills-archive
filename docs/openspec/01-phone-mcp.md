@@ -1,7 +1,7 @@
 # OpenSpec: Phone Ingress and MCP Boundary
 
-**Status:** Draft component specification  
-**Version:** 0.1.0  
+**Status:** Draft component specification
+**Version:** 0.1.0
 **Depends on:** [00-overview.md](./00-overview.md)
 
 ## Purpose
@@ -316,4 +316,3 @@ it; otherwise the request is cancelled or returned as pending operator work.
     original session has ended?
 12. Do local and remote phone adapters need identical codec and transcript
     fixtures for conformance testing?
-
