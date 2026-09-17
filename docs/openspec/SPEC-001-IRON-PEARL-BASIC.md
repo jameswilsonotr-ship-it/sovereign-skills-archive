@@ -8,6 +8,11 @@ This specification defines the basic Iron Pearl contract. It is intentionally
 small: an implementation MUST preserve the terms below, and MUST NOT invent
 unstated authority, storage semantics, or cloud dependencies.
 
+Vesper drop shorthand: **Awesome Split/HANDOFF SSoT + 8-shard + delta CAS**;
+**Tailscale mesh**; **Vultr Debian `vc2-1c-2gb` `ord` `mcp-vultr`**; phone
+MCP/Sygic HUD `ws://127.0.0.1:8088/nav/hud`; invariants
+**`RSS<35MB`, `RAWV`, zero Google Docs**.
+
 ## Authority and source of truth
 
 - The Vesper Spark drop is the authority for this specification.

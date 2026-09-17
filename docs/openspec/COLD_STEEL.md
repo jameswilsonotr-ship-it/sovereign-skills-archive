@@ -8,6 +8,8 @@ Cold Steel is the physical edge profile for Iron Pearl. It names the machines
 that can hold and operate the basic contract without treating a hosted service
 or a document editor as the system of record.
 
+In the compact Vesper definition, **Cold Steel = bare-metal edge offline**.
+
 See [SPEC-001 — Iron Pearl Basic](SPEC-001-IRON-PEARL-BASIC.md) for the
 normative storage, mesh, MCP, and invariant contract. See the
 [bridge index](../../bridges/) for the connected integration surfaces.
