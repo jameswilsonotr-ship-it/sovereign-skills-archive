@@ -1,6 +1,6 @@
 # T4-31 / MIS-6 receipt
 
-Status: `verified`
+Status: `verified-static`
 
 ## Contract
 
@@ -32,5 +32,10 @@ Status: `verified`
   per cycle.
 - The MIS-6 fixture remains outside this diff.
 - The diff contains documentation only.
+- `git diff HEAD^ HEAD --check`: pass.
+- Dependency-free scope check: pass; five expected documentation paths only.
+- Offline pytest was attempted with `NO_NETWORK=1` and could not start because
+  `pytest` is not installed in the environment. No package installation was
+  attempted.
 
 No credentials, tokens, connection strings, or payload copies are included.
