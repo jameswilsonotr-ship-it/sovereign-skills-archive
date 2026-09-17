@@ -25,4 +25,9 @@
 
 ## Verification
 
-The offline test command and final commit are recorded in the PR handoff.
+- `python3 scripts/gen_openspec_matrix.py --check` — PASS
+- `python3 -m compileall -q scripts/gen_openspec_matrix.py
+  harness/tests/test_openspec_matrix.py` — PASS
+- Offline collision exercise with exact and case-only duplicate IDs — PASS
+- `python3 -m pytest ...` — not runnable in this image because `pytest` is not
+  installed; no package installation or network access was attempted.
