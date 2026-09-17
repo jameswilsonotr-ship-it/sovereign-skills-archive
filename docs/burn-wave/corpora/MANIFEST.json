@@ -1,0 +1,68 @@
+{
+  "schema_version": "1",
+  "name": "burn-wave",
+  "description": "Offline phone health and connector call-log corpus for the BURN HARD harness.",
+  "corpora": [
+    {
+      "name": "phone-health",
+      "kind": "phone_health",
+      "path": "blobs/phone_health.json",
+      "format": "json",
+      "output": "phone_health.json",
+      "synthetic": {
+        "status": "ok",
+        "service": "phone-bridge",
+        "version": "0.1.0",
+        "capabilities": [
+          "health",
+          "offline-fixtures"
+        ]
+      }
+    },
+    {
+      "name": "connector-call-log",
+      "kind": "connector_call_log",
+      "path": "blobs/connector_call_log.jsonl",
+      "format": "jsonl",
+      "output": "connector_call_log.jsonl",
+      "synthetic": [
+        {
+          "connector": "gmail",
+          "operation": "search_threads",
+          "account_id": "gmail_illipe-eaves",
+          "request": {
+            "query": "burn-wave",
+            "limit": 2
+          }
+        },
+        {
+          "connector": "github",
+          "operation": "search_repositories",
+          "account_id": "github_unhex-ume",
+          "request": {
+            "query": "offline-harness",
+            "limit": 2
+          }
+        },
+        {
+          "connector": "linear",
+          "operation": "list_issues",
+          "account_id": "linear_diver-forbow",
+          "request": {
+            "status": "open",
+            "limit": 2
+          }
+        },
+        {
+          "connector": "drive",
+          "operation": "list_files",
+          "account_id": "googledrive_baste-nous",
+          "request": {
+            "folder_id": "burn-wave-fixture",
+            "limit": 2
+          }
+        }
+      ]
+    }
+  ]
+}
