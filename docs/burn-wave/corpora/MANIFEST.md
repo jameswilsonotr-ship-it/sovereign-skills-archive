@@ -20,3 +20,12 @@ PYTHONPATH=harness/src python -m sovereign_harness.corpus \
   --manifest docs/burn-wave/corpora/MANIFEST.json \
   --output harness/.generated/burn-wave
 ```
+
+## Provenance annotation
+
+**2026-09-17 audit:** This manifest entered the repository in commit
+`a17e0db` (`2026-09-17T04:32:43Z`). It has no capture date and is not labeled
+current or stale; treat its snapshot status as **UNDATED — UNKNOWN**. See
+[`../PROVENANCE_AUDIT.md`](../PROVENANCE_AUDIT.md). The current JSON entries
+do not declare `sha256`; checksum validation is available when a future entry
+provides one, but this manifest does not establish a checksum for a local blob.
