@@ -1,7 +1,7 @@
 # S2-20 Calendar Connector Contract
 
-**OpenSpec change-id:** `second-salvo-20-calendar-contract`  
-**Slot:** S2-20  
+**OpenSpec change-id:** `second-salvo-20-calendar-contract`
+**Slot:** S2-20
 **Status:** contract only; no implementation or provider connection
 
 ## Purpose
