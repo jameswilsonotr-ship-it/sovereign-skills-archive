@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "change_id": "second-salvo-22-sms-default-deny",
+  "slot": "S2-22",
+  "lane": "included-ultra",
+  "cases": [
+    {
+      "case_id": "consent-missing",
+      "consent": null,
+      "expected_decision": "deny",
+      "recipient": "fixture-recipient",
+      "body": "offline fixture message"
+    },
+    {
+      "case_id": "consent-false",
+      "consent": false,
+      "expected_decision": "deny",
+      "recipient": "fixture-recipient",
+      "body": "offline fixture message"
+    },
+    {
+      "case_id": "consent-unrecognized",
+      "consent": "unknown",
+      "expected_decision": "deny",
+      "recipient": "fixture-recipient",
+      "body": "offline fixture message"
+    }
+  ]
+}
