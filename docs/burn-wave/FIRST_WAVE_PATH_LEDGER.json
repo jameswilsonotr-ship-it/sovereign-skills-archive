@@ -1,0 +1,149 @@
+{
+  "schema_version": "1",
+  "change_id": "second-salvo-02-path-ledger",
+  "slot": "S2-02",
+  "wave": "first",
+  "source": {
+    "base_branch": "skill-tree-intake",
+    "commit": "a17e0db53b925b86c0c4e1b172629a2400af1632",
+    "parent": "7087c2abc765dcf3cb8abe55e3cad56d574dff04",
+    "subject": "feat: ingest offline BURN HARD corpora (#27)",
+    "path_evidence_command": "git diff-tree --root --no-commit-id --name-status -r a17e0db53b925b86c0c4e1b172629a2400af1632"
+  },
+  "scope_policy": {
+    "included": [
+      "Ultra"
+    ],
+    "excluded": [
+      "OD",
+      "Willow SKILL.md",
+      "CONV2_B",
+      "Cold Steel"
+    ],
+    "vultr_and_cold_steel_are_distinct": true,
+    "external_calls": false,
+    "secrets": false,
+    "other_s2_slots_touched": false
+  },
+  "changed_path_count": 28,
+  "changed_paths": [
+    {
+      "status": "A",
+      "path": ".github/workflows/harness.yml"
+    },
+    {
+      "status": "A",
+      "path": "docs/burn-wave/corpora/MANIFEST.json"
+    },
+    {
+      "status": "A",
+      "path": "docs/burn-wave/corpora/MANIFEST.md"
+    },
+    {
+      "status": "A",
+      "path": "harness/pyproject.toml"
+    },
+    {
+      "status": "A",
+      "path": "harness/src/sovereign_harness/__init__.py"
+    },
+    {
+      "status": "A",
+      "path": "harness/src/sovereign_harness/connectors.py"
+    },
+    {
+      "status": "A",
+      "path": "harness/src/sovereign_harness/corpus.py"
+    },
+    {
+      "status": "A",
+      "path": "harness/src/sovereign_harness/fixtures/drive.json"
+    },
+    {
+      "status": "A",
+      "path": "harness/src/sovereign_harness/fixtures/github.json"
+    },
+    {
+      "status": "A",
+      "path": "harness/src/sovereign_harness/fixtures/gmail.json"
+    },
+    {
+      "status": "A",
+      "path": "harness/src/sovereign_harness/fixtures/image.json"
+    },
+    {
+      "status": "A",
+      "path": "harness/src/sovereign_harness/fixtures/linear.json"
+    },
+    {
+      "status": "A",
+      "path": "harness/src/sovereign_harness/fixtures/phone_bridge.json"
+    },
+    {
+      "status": "A",
+      "path": "harness/src/sovereign_harness/fixtures/phone_health.json"
+    },
+    {
+      "status": "A",
+      "path": "harness/src/sovereign_harness/fixtures/web.json"
+    },
+    {
+      "status": "A",
+      "path": "harness/src/sovereign_harness/hygiene.py"
+    },
+    {
+      "status": "A",
+      "path": "harness/src/sovereign_harness/mcp_server.py"
+    },
+    {
+      "status": "A",
+      "path": "harness/src/sovereign_harness/phone_mcp.py"
+    },
+    {
+      "status": "A",
+      "path": "harness/src/sovereign_harness/py.typed"
+    },
+    {
+      "status": "A",
+      "path": "harness/stubs/duckdb/__init__.pyi"
+    },
+    {
+      "status": "A",
+      "path": "harness/tests/conftest.py"
+    },
+    {
+      "status": "A",
+      "path": "harness/tests/test_connectors.py"
+    },
+    {
+      "status": "A",
+      "path": "harness/tests/test_corpus.py"
+    },
+    {
+      "status": "A",
+      "path": "harness/tests/test_hygiene.py"
+    },
+    {
+      "status": "A",
+      "path": "harness/tests/test_offline.py"
+    },
+    {
+      "status": "A",
+      "path": "harness/tests/test_phone_mcp.py"
+    },
+    {
+      "status": "A",
+      "path": "harness/tests/test_properties.py"
+    },
+    {
+      "status": "A",
+      "path": "harness/tests/test_stress.py"
+    }
+  ],
+  "checks": {
+    "paths_are_repo_relative": true,
+    "all_paths_are_in_source_commit": true,
+    "all_paths_exist_at_landed_head": true,
+    "prohibited_scope_present": false
+  }
+}
