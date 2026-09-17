@@ -1,7 +1,7 @@
 # T3-07 fat-cull candidate list
 
-**Change-id:** `third-salvo-07-fat-cull-list`  
-**Lane:** INCLUDED Ultra only  
+**Change-id:** `third-salvo-07-fat-cull-list`
+**Lane:** INCLUDED Ultra only
 **Disposition:** candidates for review; no item is assigned to On-Demand
 
 ## Candidate register
