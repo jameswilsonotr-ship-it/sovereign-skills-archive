@@ -1,0 +1,99 @@
+#cloud-config
+#
+# TEMPLATE ONLY. Inject TS_AUTHKEY through a secure first-boot path. Do not
+# replace this placeholder in Git, and do not put a real key in this file.
+# This template uses Ollama; a vLLM deployment needs a different image,
+# command, and model-serving configuration.
+
+package_update: true
+packages:
+  - ca-certificates
+  - curl
+  - ufw
+
+write_files:
+  - path: /etc/vultr-inference.env
+    permissions: "0600"
+    owner: root:root
+    content: |
+      TS_AUTHKEY="__INJECT_TS_AUTHKEY_AT_DEPLOY_TIME__"
+      TAILNET_HOSTNAME="__VULTR_HOSTNAME__"
+      VULTR_REGION="__VULTR_REGION__"
+      VULTR_INSTANCE_ID="__VULTR_INSTANCE_ID__"
+      OLLAMA_MODEL="gemma3:4b"
+      PULL_MODEL="true"
+
+runcmd:
+  - |
+      set -eu
+      . /etc/vultr-inference.env
+
+      case "$TS_AUTHKEY" in
+        __INJECT_TS_AUTHKEY_AT_DEPLOY_TIME__)
+          echo "TS_AUTHKEY is still a placeholder; refusing to join a tailnet." >&2
+          exit 1
+          ;;
+      esac
+
+      # Pin and verify installer versions in a production image pipeline.
+      curl -fsSL https://get.docker.com | sh
+      systemctl enable --now docker
+      curl -fsSL https://tailscale.com/install.sh | sh
+      systemctl enable --now tailscaled
+      tailscale up \
+        --auth-key="$TS_AUTHKEY" \
+        --hostname="$TAILNET_HOSTNAME" \
+        --ssh=false \
+        --accept-dns=true
+
+      TAILNET_IP="$(tailscale ip -4)"
+      case "$TAILNET_IP" in
+        100.*) ;;
+        *)
+          echo "Tailscale did not return a 100.x address: $TAILNET_IP" >&2
+          exit 1
+          ;;
+      esac
+
+      install -d -m 0750 /opt/vultr-inference
+      cat > /opt/vultr-inference/Caddyfile <<EOF
+      http://${TAILNET_IP}:11434 {
+        @health path /health
+        respond @health "ok\n" 200
+        reverse_proxy 127.0.0.1:11435
+      }
+      EOF
+      chmod 0640 /opt/vultr-inference/Caddyfile
+
+      # Ollama is loopback-only. Caddy is the only listener on the tailnet IP.
+      docker pull ollama/ollama:latest
+      docker pull caddy:2-alpine
+      docker rm -f inference-gateway ollama 2>/dev/null || true
+      docker run -d \
+        --name ollama \
+        --network host \
+        --restart unless-stopped \
+        --env OLLAMA_HOST=127.0.0.1:11435 \
+        --volume ollama:/root/.ollama \
+        ollama/ollama:latest
+      docker run -d \
+        --name inference-gateway \
+        --network host \
+        --restart unless-stopped \
+        --volume /opt/vultr-inference/Caddyfile:/etc/caddy/Caddyfile:ro \
+        caddy:2-alpine \
+        caddy run --config /etc/caddy/Caddyfile --adapter caddyfile
+
+      if [ "$PULL_MODEL" = "true" ]; then
+        docker exec ollama ollama pull "$OLLAMA_MODEL"
+      fi
+
+      # Keep SSH and inference reachable only through the tailnet range.
+      ufw default deny incoming
+      ufw default allow outgoing
+      ufw allow from 100.64.0.0/10 to any port 22 proto tcp
+      ufw allow from 100.64.0.0/10 to any port 11434 proto tcp
+      ufw --force enable
+
+      # This is a local, non-paid smoke check after the services start.
+      curl --fail --silent --show-error "http://${TAILNET_IP}:11434/health"

@@ -1,0 +1,62 @@
+name: vultr-inference
+
+# Create a deployment-only .env beside this file. It must contain a real
+# TAILNET_IP only on the VPS, never in Git. TS_AUTHKEY is intentionally not
+# accepted here; join Tailscale with cloud-init or a separate secret store.
+
+configs:
+  caddyfile:
+    content: |
+      http://${TAILNET_IP:?set TAILNET_IP to the VPS 100.x address}:11434 {
+        @health path /health
+        respond @health "ok\n" 200
+        reverse_proxy 127.0.0.1:11435
+      }
+
+services:
+  ollama:
+    image: ollama/ollama:latest
+    network_mode: host
+    restart: unless-stopped
+    environment:
+      OLLAMA_HOST: 127.0.0.1:11435
+      OLLAMA_KEEP_ALIVE: "${OLLAMA_KEEP_ALIVE:-5m}"
+      # Metadata only; do not put a Vultr API token in this file.
+      VULTR_REGION: "${VULTR_REGION:-__VULTR_REGION__}"
+      VULTR_INSTANCE_ID: "${VULTR_INSTANCE_ID:-__VULTR_INSTANCE_ID__}"
+    volumes:
+      - ollama-data:/root/.ollama
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    # GPU option: uncomment on a compatible GPU VPS and verify the runtime.
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: 1
+    #           capabilities: [gpu]
+
+  inference-gateway:
+    image: caddy:2-alpine
+    network_mode: host
+    restart: unless-stopped
+    depends_on:
+      ollama:
+        condition: service_healthy
+    configs:
+      - source: caddyfile
+        target: /etc/caddy/Caddyfile
+    command:
+      - caddy
+      - run
+      - --config
+      - /etc/caddy/Caddyfile
+      - --adapter
+      - caddyfile
+
+volumes:
+  ollama-data:
