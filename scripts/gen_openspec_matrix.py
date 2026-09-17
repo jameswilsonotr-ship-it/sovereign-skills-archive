@@ -145,7 +145,7 @@ def parse_front_matter(text: str) -> dict[str, object]:
         if list_match and current_key:
             existing = result.setdefault(current_key, [])
             if not isinstance(existing, list):
-                existing = [str(existing)]
+                existing = [] if existing == "" else [str(existing)]
                 result[current_key] = existing
             existing.append(str(_parse_scalar(list_match.group(1))))
             continue
