@@ -47,3 +47,6 @@ Each row contains:
 - No automatic conversion between inclusion classes.
 - No account, credential, or service integration.
 - No change to allocation policy beyond documenting this slot's eligibility.
+
+The sheet is intentionally offline-first: its rules, fields, and
+reconciliation steps are all contained in the Markdown document.

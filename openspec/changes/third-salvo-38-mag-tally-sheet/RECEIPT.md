@@ -26,6 +26,6 @@
 
 ## Verification
 
-- [ ] Local content checks complete
-- [ ] Local arithmetic checks complete
-- [ ] Pull request URL recorded after creation
+- [x] Local content and scope-fence checks complete
+- [x] Local template structure and reconciliation checks complete
+- [x] Pull request created: https://github.com/jameswilsonotr-ship-it/sovereign-skills-archive/pull/205

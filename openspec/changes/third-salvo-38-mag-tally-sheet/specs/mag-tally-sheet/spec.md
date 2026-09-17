@@ -53,4 +53,5 @@ The sheet MUST work as a standalone Markdown document.
 
 - **WHEN** the document is copied or edited offline
 - **THEN** all required fields and rules remain available in the document
-- **AND** no external lookup is required to calculate or review the total
+- **AND** no lookup outside this document is required to calculate or review
+  the total
