@@ -1,7 +1,7 @@
 # T3-04 duplicate/circular slot audit
 
-**Reserved change-id:** `third-salvo-04-dup-slot-audit`  
-**Classification:** **Included Ultra ONLY — never On-Demand**  
+**Reserved change-id:** `third-salvo-04-dup-slot-audit`
+**Classification:** **Included Ultra ONLY — never On-Demand**
 **Mode:** offline, documentation-only
 
 ## Scope gate
