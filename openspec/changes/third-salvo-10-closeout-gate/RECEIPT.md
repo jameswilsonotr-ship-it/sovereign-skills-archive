@@ -1,8 +1,8 @@
 # Receipt: THIRD_SALVO T3-10 closeout gate
 
-Change ID: `third-salvo-10-closeout-gate`  
-Slot: `T3-10`  
-Lane: `INCLUDED Ultra ONLY`  
+Change ID: `third-salvo-10-closeout-gate`
+Slot: `T3-10`
+Lane: `INCLUDED Ultra ONLY`
 State: `CLOSED`
 
 ## Delivered
