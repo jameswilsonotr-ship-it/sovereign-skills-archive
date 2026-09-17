@@ -1,7 +1,7 @@
 # Cutover flip playbook
 
-**Atom:** `atom-cf-02-flip-playbook`  
-**Parent:** `add-burn-flip-cutover`  
+**Atom:** `atom-cf-02-flip-playbook`
+**Parent:** `add-burn-flip-cutover`
 **Status:** Faye HOLD lifted; live cut remains gated.
 
 ## Sequence
