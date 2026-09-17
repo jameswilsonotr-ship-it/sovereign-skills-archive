@@ -60,6 +60,29 @@ availability, and billing behavior are Vultr-account and catalog dependent.
 Stop or destroy the VPS when it is not being tested, and separately check
 whether a retained volume or snapshot continues to incur charges.
 
+## COST CAP — $250 Vultr credit ceiling
+
+Treat `$250` as a hard ceiling for this experiment, not as a spending target.
+This repository does not provision, resize, start, stop, or destroy Vultr
+resources. Before any manual launch:
+
+1. Start with the cheapest Vultr plan that fits the selected quantized model.
+   Use the smallest CPU plan for the first smoke test; move to a GPU only
+   after measuring that CPU latency or memory is insufficient.
+2. Record the current hourly price, then calculate
+   `maximum runtime hours = 250 / hourly price`. Recalculate when changing
+   plans or regions.
+3. Include attached volumes, snapshots, bandwidth, taxes, and any minimum
+   commitments in the cap. Set an account alert below `$250`, and stop or
+   destroy the instance before the remaining balance becomes uncertain.
+4. After stopping or destroying the instance, verify that no volume, snapshot,
+   reserved resource, or other billable object remains.
+
+Prices, credit treatment, regional availability, and billing rules are
+account- and catalog-dependent. Do not infer a current Vultr price from this
+repository and do not treat the arithmetic above as a quote. Keep a dated
+record of the selected plan and its price before spending credit.
+
 ## Files and deployment shape
 
 - [`cloud-init.yaml`](cloud-init.yaml) installs Docker and Tailscale, joins
@@ -90,6 +113,34 @@ The compose gateway exposes Ollama's OpenAI-compatible API at
 default. Keep that URL tailnet-only and add application-level authentication
 before allowing untrusted tailnet users to reach it.
 
+## Tailscale-only bind notes
+
+The Compose file publishes only the gateway and Letta API, and both mappings
+require `TAILNET_IP` to be set to the VPS's `100.64.0.0/10` Tailscale address.
+Ollama, PostgreSQL, and the coder sidecar have no host-published ports:
+
+```text
+tailnet peer -> 100.x.x.x:11434 -> Caddy -> ollama:11434
+tailnet peer -> 100.x.x.x:8283  -> Letta
+                         private Compose network
+```
+
+Do not use `0.0.0.0`, the public NIC address, or a wildcard hostname in those
+port mappings. The `127.0.0.1` fallback was intentionally removed so a
+missing deployment value fails closed instead of silently producing a local-
+only service. Keep the host firewall restricted to the Tailscale CGNAT range
+as shown in `cloud-init.yaml`, and verify the actual listeners after startup:
+
+```sh
+ss -lntp | grep -E ':(11434|8283)\b'
+curl --fail "http://${TAILNET_IP}:11434/health"
+curl --fail "http://${TAILNET_IP}:8283/health"
+```
+
+The public interface must not be able to reach either port. A successful
+tailnet request is not proof of an adequate Tailscale ACL; restrict callers
+to the peers that need inference or Letta.
+
 ## Spin up manually
 
 These commands assume Docker, the Compose plugin, and Tailscale are already
@@ -104,14 +155,19 @@ docker compose up -d
 docker compose exec ollama ollama pull "${OLLAMA_MODEL:-gemma3:4b}"
 ```
 
-The model download is the one intentional large transfer. It is cached in
-the `ollama-data` volume; do not put `ollama pull` in a restart loop. Add
-Letta only when needed:
+`docker compose up -d` starts Ollama and the tailnet-bound gateway. The
+gateway, PostgreSQL, and Letta services expose healthchecks; the coder is a
+one-shot sidecar and is intentionally not a long-running healthcheck target.
+Add Letta only when needed:
 
 ```sh
 docker compose --profile letta up -d
+docker compose ps
 curl --fail "http://${TAILNET_IP}:8283/health"
 ```
+
+The model download is the one intentional large transfer. It is cached in
+the `ollama-data` volume; do not put `ollama pull` in a restart loop.
 
 The Letta image is the legacy Docker server surface in current Letta
 documentation, but it is retained here because the requested pattern is a
@@ -169,9 +225,10 @@ OpenAI-compatible Ollama URL above instead.
 - Do not auto-provision, resize, or destroy a Vultr resource from these
   templates. Review the plan, region, hourly price, transfer allowance, and
   retained-volume billing in the Vultr panel first.
-- Treat the `$250` credit as a hard cap, not a target. Record
-  `hours = 250 / hourly_price`, set an account alert, and stop/destroy the
-  VPS plus inspect volumes and snapshots when testing ends.
+- The [COST CAP](#cost-cap--250-vultr-credit-ceiling) section is the
+  authoritative $250 spending checklist. Record
+  `hours = 250 / hourly_price`, set an account alert, and stop/destroy the VPS
+  plus inspect volumes and snapshots when testing ends.
 - Pull images once, keep them cached, and pull one tagged model only. Avoid
   `docker compose pull` and model re-downloads on every boot.
 - Keep prompts, context files, and output concise. Reuse Letta memory instead

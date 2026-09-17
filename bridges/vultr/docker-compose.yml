@@ -6,7 +6,9 @@ name: vultr-inference
 #
 # Core inference starts with `docker compose up -d`. Letta is opt-in:
 # `docker compose --profile letta up -d`. The coder image is intended for
-# one-shot `docker compose run --rm coder ...` calls.
+# one-shot `docker compose --profile coder run --rm coder ...` calls.
+# Every host-published port below must use the VPS's 100.x Tailscale address.
+# Do not replace TAILNET_IP with 0.0.0.0 or the public interface address.
 
 configs:
   caddyfile:
@@ -50,7 +52,7 @@ services:
       ollama:
         condition: service_healthy
     ports:
-      - "${TAILNET_IP:-127.0.0.1}:11434:11434"
+      - "${TAILNET_IP:?set TAILNET_IP to the VPS 100.x Tailscale address}:11434:11434"
     configs:
       - source: caddyfile
         target: /etc/caddy/Caddyfile
@@ -61,6 +63,14 @@ services:
       - /etc/caddy/Caddyfile
       - --adapter
       - caddyfile
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - wget -qO- http://127.0.0.1:11434/health | grep -qx 'ok'
+      interval: 10s
+      timeout: 5s
+      retries: 6
+      start_period: 10s
 
   letta-db:
     image: pgvector/pgvector:0.8.1-pg15
@@ -77,6 +87,7 @@ services:
       interval: 5s
       timeout: 5s
       retries: 12
+      start_period: 10s
 
   letta:
     image: letta/letta:latest
@@ -89,19 +100,30 @@ services:
       letta-db:
         condition: service_healthy
     ports:
-      - "${TAILNET_IP:-127.0.0.1}:8283:8283"
+      - "${TAILNET_IP:?set TAILNET_IP to the VPS 100.x Tailscale address}:8283:8283"
     environment:
       LETTA_PG_URI: "postgresql://${LETTA_PG_USER:-letta}:${LETTA_PG_PASSWORD:-__SET_LETTA_PG_PASSWORD__}@letta-db:5432/${LETTA_PG_DB:-letta}"
       OLLAMA_BASE_URL: "http://ollama:11434/v1"
       # Ollama requires a non-empty compatibility key but does not validate it.
       OPENAI_API_KEY: "${OLLAMA_API_KEY:-ollama}"
       LETTA_DEBUG: "${LETTA_DEBUG:-false}"
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - >-
+          python -c 'import urllib.request;
+          urllib.request.urlopen("http://127.0.0.1:8283/health", timeout=3)'
+      interval: 15s
+      timeout: 10s
+      retries: 10
+      start_period: 30s
 
   coder:
     build:
       context: .
       dockerfile: Dockerfile.coder
     profiles: ["coder"]
+    restart: "no"
     depends_on:
       ollama:
         condition: service_healthy
