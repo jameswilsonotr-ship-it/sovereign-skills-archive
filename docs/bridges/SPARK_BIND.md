@@ -1,7 +1,8 @@
 # Spark Bind
 
-Status: **draft stub — not a live integration**  
-Owner: Sovereign Skills Archive  
+Status: **draft stub — not a live integration**
+
+Owner: Sovereign Skills Archive
 Surface: Gemini Spark web + Vesper MCP
 
 This document defines the boundary between the Gemini Spark web surface and

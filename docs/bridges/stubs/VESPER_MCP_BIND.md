@@ -1,6 +1,6 @@
 # Vesper MCP capacity bind stub
 
-Status: **non-live protocol stub**  
+Status: **non-live protocol stub**
 Related contract: [SPARK_BIND](../SPARK_BIND.md) ·
 [SPEC-001](../SPARK_BIND.md#spec-001-alignment) ·
 [BASIC_TIER](../SPARK_BIND.md#basic_tier-alignment)
