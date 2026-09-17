@@ -1,5 +1,7 @@
 # SALVO 40 Log — Included Burn
 
+**Operation:** `ATOMIC INCLUDED BURN`
+
 Template for CinC tracking of one included `40 + 40` salvo. This file records
 operational metadata only; it is not a payload, manifest, credential store, or
 message archive.
