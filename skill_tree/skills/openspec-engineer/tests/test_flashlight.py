@@ -1,6 +1,8 @@
 import socket
 import subprocess
 import sys
+import json
+from io import StringIO
 from pathlib import Path
 
 import pytest
@@ -11,13 +13,16 @@ from scripts.flashlight import OfflineNetworkError, network_guard
 
 def test_network_guard_denies_connections_and_restores_socket():
     original_connect = socket.socket.connect
+    audit_stream = StringIO()
 
-    with AuditLogger() as audit:
+    with AuditLogger(audit_stream) as audit:
         with network_guard(audit):
             with pytest.raises(OfflineNetworkError):
                 socket.create_connection(("example.invalid", 443))
 
     assert socket.socket.connect is original_connect
+    blocked = [json.loads(line) for line in audit_stream.getvalue().splitlines()]
+    assert blocked[-1]["target"] == "('example.invalid', 443)"
 
 
 def test_flashlight_cli_runs_offline_and_writes_audit(tmp_path):

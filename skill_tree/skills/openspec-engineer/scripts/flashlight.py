@@ -32,8 +32,10 @@ def network_guard(
 
     audit.record("network.guard", status="denied", policy="default_deny")
 
-    def deny(operation: str, target: object = "") -> Callable[..., object]:
-        def blocked(*_: object, **__: object) -> object:
+    def deny(operation: str) -> Callable[..., object]:
+        def blocked(*args: object, **__: object) -> object:
+            target_index = 1 if operation in {"socket.connect", "socket.connect_ex"} else 0
+            target = args[target_index] if len(args) > target_index else ""
             safe_target = redact(str(target))
             audit.record(
                 "network.blocked",
