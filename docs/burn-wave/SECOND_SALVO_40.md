@@ -1,8 +1,8 @@
 # SECOND_SALVO_40.md — next included-burn wave
 
-**Status:** planning-only  
-**Activation:** after the first included-burn wave has landed on the target base  
-**Capacity:** exactly 40 included agents  
+**Status:** planning-only
+**Activation:** after the first included-burn wave has landed on the target base
+**Capacity:** exactly 40 included agents
 **Mode:** one atomic change-id, one focused PR, one reviewable receipt per agent
 
 This is the dispatch plan for the next forty included agents. It does not
