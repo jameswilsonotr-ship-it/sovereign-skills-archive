@@ -1,0 +1,62 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "maren-voss-briefing-still_20260828-220638_t2-src",
+  "slug": "maren-voss-briefing-still",
+  "slug_mode": "explicit",
+  "stamp": "20260828-220638",
+  "created": "2026-08-28T22:06:38-04:00",
+  "engine": "generate",
+  "orientation": "portrait",
+  "agent": "candidate",
+  "heat": "0",
+  "files": {
+    "jpeg": "maren-voss-briefing-still_20260828-220638_t2-src.jpg",
+    "prompt": "maren-voss-briefing-still_20260828-220638_t2-src.prompt.md",
+    "keep": "maren-voss-briefing-still_20260828-220638_t2-src.keep.json"
+  },
+  "sha256": {
+    "jpeg": "7146e453fd8bca025b38fe40ae7c33fb4acc9b6a19d0a7ddd133a4c502b38d96",
+    "prompt": "85ece2dddc525bec117763db059aa0a629efcc70296eb4011b774c3c84fd8cac"
+  },
+  "prompt": "Photorealistic cinematic still of Maren Voss, an adult mid-30s East Asian woman, short ink-black blunt bob with a sharp side part, warm brown eyes, olive skin, charcoal tailored briefing jacket over a black crew tee, no jewelry. She stands at a dim night-ops briefing table with a muted wall map behind her, medium shot, identity-stable, clear face, adult only. No text, no watermark, no extra people. No animal ears, no cat ears, no fox ears, no headband, no holographic ears. Not Olivia, not Bunny, not Valerie, not Vesper.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/ZFP6N.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/maren-voss-briefing-still_20260828-220638_t2-src.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/maren-voss-briefing-still_20260828-220638_t2-src.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/maren-voss-briefing-still_20260828-220638_t2-src.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1KKHr8xcRTLVRXqENFCtV2LpULH4O3s9h",
+    "prompt_id": "1ybr1WtETuhy0PyLc6Dxfj3aCVd0GMpZy",
+    "keep_id": "1RX5eucbINIjvJris7oV5zUZT4V7xm9gK",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/maren-voss-briefing-still_20260828-220638_t2-src.jpg",
+        "file_name": "maren-voss-briefing-still_20260828-220638_t2-src.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/maren-voss-briefing-still_20260828-220638_t2-src.prompt.md",
+        "file_name": "maren-voss-briefing-still_20260828-220638_t2-src.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/maren-voss-briefing-still_20260828-220638_t2-src.keep.json",
+        "file_name": "maren-voss-briefing-still_20260828-220638_t2-src.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T02:07:37+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078"
+}

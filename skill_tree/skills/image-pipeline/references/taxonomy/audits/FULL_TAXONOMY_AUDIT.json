@@ -1,0 +1,705 @@
+{
+  "version": "1.0.0",
+  "slice": "A+B complete",
+  "updated": "2026-08-05T23:10:35.965526Z",
+  "counts": {
+    "hand": 28,
+    "treatment": 12,
+    "medium": 4,
+    "atmosphere": 2,
+    "implication": 12,
+    "structural": 2,
+    "technical": 11,
+    "style": 24,
+    "world": 3
+  },
+  "total": 98,
+  "rows": [
+    {
+      "id": "atmosphere.possessive-claim",
+      "path": "packs/atmosphere/possessive-claim.json",
+      "taxonomy": "atmosphere",
+      "source": "atmosphere",
+      "note": ""
+    },
+    {
+      "id": "atmosphere.raw-chaotic",
+      "path": "packs/atmosphere/raw-chaotic.json",
+      "taxonomy": "atmosphere",
+      "source": "atmosphere",
+      "note": ""
+    },
+    {
+      "id": "hand.beardsley",
+      "path": "packs/hand/beardsley.json",
+      "taxonomy": "hand",
+      "source": "hand",
+      "note": "named artist nervous system"
+    },
+    {
+      "id": "hand.bilbrew",
+      "path": "packs/hand/bilbrew.json",
+      "taxonomy": "hand",
+      "source": "hand",
+      "note": "named artist nervous system"
+    },
+    {
+      "id": "hand.lempicka",
+      "path": "packs/hand/lempicka.json",
+      "taxonomy": "hand",
+      "source": "hand",
+      "note": "named artist nervous system"
+    },
+    {
+      "id": "hand.newton",
+      "path": "packs/hand/newton.json",
+      "taxonomy": "hand",
+      "source": "hand",
+      "note": "named artist nervous system"
+    },
+    {
+      "id": "hand.sorayama",
+      "path": "packs/hand/sorayama.json",
+      "taxonomy": "hand",
+      "source": "hand",
+      "note": "named artist nervous system"
+    },
+    {
+      "id": "hand.stanton",
+      "path": "packs/hand/stanton.json",
+      "taxonomy": "hand",
+      "source": "hand",
+      "note": "named artist nervous system"
+    },
+    {
+      "id": "hand.vargas",
+      "path": "packs/hand/vargas.json",
+      "taxonomy": "hand",
+      "source": "hand",
+      "note": "named artist nervous system"
+    },
+    {
+      "id": "hand.willie",
+      "path": "packs/hand/willie.json",
+      "taxonomy": "hand",
+      "source": "hand",
+      "note": "named artist nervous system"
+    },
+    {
+      "id": "photographer.daido-moriyama",
+      "path": "packs/photographer/daido-moriyama.json",
+      "taxonomy": "hand",
+      "source": "photographer",
+      "note": "proper-name photographic hand"
+    },
+    {
+      "id": "photographer.david-lachapelle",
+      "path": "packs/photographer/david-lachapelle.json",
+      "taxonomy": "hand",
+      "source": "photographer",
+      "note": "proper-name photographic hand"
+    },
+    {
+      "id": "photographer.ellen-von-unwerth",
+      "path": "packs/photographer/ellen-von-unwerth.json",
+      "taxonomy": "hand",
+      "source": "photographer",
+      "note": "proper-name photographic hand"
+    },
+    {
+      "id": "photographer.erwin-olaf",
+      "path": "packs/photographer/erwin-olaf.json",
+      "taxonomy": "hand",
+      "source": "photographer",
+      "note": "proper-name photographic hand"
+    },
+    {
+      "id": "photographer.guy-bourdin",
+      "path": "packs/photographer/guy-bourdin.json",
+      "taxonomy": "hand",
+      "source": "photographer",
+      "note": "proper-name photographic hand"
+    },
+    {
+      "id": "photographer.helmut-newton",
+      "path": "packs/photographer/helmut-newton.json",
+      "taxonomy": "hand",
+      "source": "photographer",
+      "note": "proper-name photographic hand"
+    },
+    {
+      "id": "photographer.herb-ritts",
+      "path": "packs/photographer/herb-ritts.json",
+      "taxonomy": "hand",
+      "source": "photographer",
+      "note": "proper-name photographic hand"
+    },
+    {
+      "id": "photographer.mario-sorrenti",
+      "path": "packs/photographer/mario-sorrenti.json",
+      "taxonomy": "hand",
+      "source": "photographer",
+      "note": "proper-name photographic hand"
+    },
+    {
+      "id": "photographer.nobuyoshi-araki",
+      "path": "packs/photographer/nobuyoshi-araki.json",
+      "taxonomy": "hand",
+      "source": "photographer",
+      "note": "proper-name photographic hand"
+    },
+    {
+      "id": "photographer.paolo-roversi",
+      "path": "packs/photographer/paolo-roversi.json",
+      "taxonomy": "hand",
+      "source": "photographer",
+      "note": "proper-name photographic hand"
+    },
+    {
+      "id": "photographer.ralph-gibson",
+      "path": "packs/photographer/ralph-gibson.json",
+      "taxonomy": "hand",
+      "source": "photographer",
+      "note": "proper-name photographic hand"
+    },
+    {
+      "id": "photographer.rankin",
+      "path": "packs/photographer/rankin.json",
+      "taxonomy": "hand",
+      "source": "photographer",
+      "note": "proper-name photographic hand"
+    },
+    {
+      "id": "photographer.robert-mapplethorpe",
+      "path": "packs/photographer/robert-mapplethorpe.json",
+      "taxonomy": "hand",
+      "source": "photographer",
+      "note": "proper-name photographic hand"
+    },
+    {
+      "id": "photographer.steven-klein",
+      "path": "packs/photographer/steven-klein.json",
+      "taxonomy": "hand",
+      "source": "photographer",
+      "note": "proper-name photographic hand"
+    },
+    {
+      "id": "preset.locked.beardsley-ink",
+      "path": "presets/locked-companions/beardsley-ink.json",
+      "taxonomy": "hand",
+      "source": "locked-companion",
+      "note": "Beardsley hand"
+    },
+    {
+      "id": "preset.locked.bilbrew-dense",
+      "path": "presets/locked-companions/bilbrew-dense.json",
+      "taxonomy": "hand",
+      "source": "locked-companion",
+      "note": "Bilbrew hand"
+    },
+    {
+      "id": "preset.locked.lempicka-deco",
+      "path": "presets/locked-companions/lempicka-deco.json",
+      "taxonomy": "hand",
+      "source": "locked-companion",
+      "note": "Lempicka hand"
+    },
+    {
+      "id": "preset.locked.newton-dominance",
+      "path": "presets/locked-companions/newton-dominance.json",
+      "taxonomy": "hand",
+      "source": "locked-companion",
+      "note": "Newton hand"
+    },
+    {
+      "id": "preset.locked.sorayama-chrome",
+      "path": "presets/locked-companions/sorayama-chrome.json",
+      "taxonomy": "hand",
+      "source": "locked-companion",
+      "note": "Sorayama hand"
+    },
+    {
+      "id": "preset.locked.vargas-luminous",
+      "path": "presets/locked-companions/vargas-luminous.json",
+      "taxonomy": "hand",
+      "source": "locked-companion",
+      "note": "Vargas hand"
+    },
+    {
+      "id": "implication.anime-convenient-censorship",
+      "path": "packs/implication/anime-convenient-censorship.json",
+      "taxonomy": "implication",
+      "source": "implication",
+      "note": "heat-aware suggestion layer"
+    },
+    {
+      "id": "implication.beardsley-high-contrast-ink-negative-space",
+      "path": "packs/implication/beardsley-high-contrast-ink-negative-space.json",
+      "taxonomy": "implication",
+      "source": "implication",
+      "note": "heat-aware suggestion layer"
+    },
+    {
+      "id": "implication.crepax-cinematic-gutter-inference",
+      "path": "packs/implication/crepax-cinematic-gutter-inference.json",
+      "taxonomy": "implication",
+      "source": "implication",
+      "note": "heat-aware suggestion layer"
+    },
+    {
+      "id": "implication.environmental-occlusion",
+      "path": "packs/implication/environmental-occlusion.json",
+      "taxonomy": "implication",
+      "source": "implication",
+      "note": "heat-aware suggestion layer"
+    },
+    {
+      "id": "implication.extreme-tenebrism",
+      "path": "packs/implication/extreme-tenebrism.json",
+      "taxonomy": "implication",
+      "source": "implication",
+      "note": "heat-aware suggestion layer"
+    },
+    {
+      "id": "implication.horror-shadow-offscreen",
+      "path": "packs/implication/horror-shadow-offscreen.json",
+      "taxonomy": "implication",
+      "source": "implication",
+      "note": "heat-aware suggestion layer"
+    },
+    {
+      "id": "implication.macro-isolation",
+      "path": "packs/implication/macro-isolation.json",
+      "taxonomy": "implication",
+      "source": "implication",
+      "note": "heat-aware suggestion layer"
+    },
+    {
+      "id": "implication.manara-elegant-posture-tension",
+      "path": "packs/implication/manara-elegant-posture-tension.json",
+      "taxonomy": "implication",
+      "source": "implication",
+      "note": "heat-aware suggestion layer"
+    },
+    {
+      "id": "implication.metaphorical-object-proxying",
+      "path": "packs/implication/metaphorical-object-proxying.json",
+      "taxonomy": "implication",
+      "source": "implication",
+      "note": "heat-aware suggestion layer"
+    },
+    {
+      "id": "implication.myth-allegory-encoding",
+      "path": "packs/implication/myth-allegory-encoding.json",
+      "taxonomy": "implication",
+      "source": "implication",
+      "note": "heat-aware suggestion layer"
+    },
+    {
+      "id": "implication.shunga-partial-clothing-proxy",
+      "path": "packs/implication/shunga-partial-clothing-proxy.json",
+      "taxonomy": "implication",
+      "source": "implication",
+      "note": "heat-aware suggestion layer"
+    },
+    {
+      "id": "implication.vargas-pinup-suggestion",
+      "path": "packs/implication/vargas-pinup-suggestion.json",
+      "taxonomy": "implication",
+      "source": "implication",
+      "note": "heat-aware suggestion layer"
+    },
+    {
+      "id": "medium.watercolor-ink-wash",
+      "path": "packs/medium/watercolor-ink-wash.json",
+      "taxonomy": "medium",
+      "source": "medium",
+      "note": ""
+    },
+    {
+      "id": "preset.locked.gouache",
+      "path": "presets/locked-companions/gouache.json",
+      "taxonomy": "medium",
+      "source": "locked-companion",
+      "note": "opaque gouache"
+    },
+    {
+      "id": "preset.locked.pastel",
+      "path": "presets/locked-companions/pastel.json",
+      "taxonomy": "medium",
+      "source": "locked-companion",
+      "note": "soft pastel"
+    },
+    {
+      "id": "preset.locked.watercolor",
+      "path": "presets/locked-companions/watercolor.json",
+      "taxonomy": "medium",
+      "source": "locked-companion",
+      "note": "watercolor wash"
+    },
+    {
+      "id": "pose.gaze-over-shoulder",
+      "path": "packs/pose/gaze-over-shoulder.json",
+      "taxonomy": "structural",
+      "source": "pose",
+      "note": "pose / framing / geometry"
+    },
+    {
+      "id": "pose.intense-embrace",
+      "path": "packs/pose/intense-embrace.json",
+      "taxonomy": "structural",
+      "source": "pose",
+      "note": "pose / framing / geometry"
+    },
+    {
+      "id": "preset.locked.airbrush80",
+      "path": "presets/locked-companions/airbrush80.json",
+      "taxonomy": "style",
+      "source": "locked-companion",
+      "note": ""
+    },
+    {
+      "id": "preset.locked.anatomical",
+      "path": "presets/locked-companions/anatomical.json",
+      "taxonomy": "style",
+      "source": "locked-companion",
+      "note": ""
+    },
+    {
+      "id": "preset.locked.charcoal",
+      "path": "presets/locked-companions/charcoal.json",
+      "taxonomy": "style",
+      "source": "locked-companion",
+      "note": ""
+    },
+    {
+      "id": "preset.locked.clay-sculptural",
+      "path": "presets/locked-companions/clay-sculptural.json",
+      "taxonomy": "style",
+      "source": "locked-companion",
+      "note": ""
+    },
+    {
+      "id": "preset.locked.collodion",
+      "path": "presets/locked-companions/collodion.json",
+      "taxonomy": "style",
+      "source": "locked-companion",
+      "note": ""
+    },
+    {
+      "id": "preset.locked.crepax",
+      "path": "presets/locked-companions/crepax.json",
+      "taxonomy": "style",
+      "source": "locked-companion",
+      "note": ""
+    },
+    {
+      "id": "preset.locked.editorial-asym",
+      "path": "presets/locked-companions/editorial-asym.json",
+      "taxonomy": "style",
+      "source": "locked-companion",
+      "note": ""
+    },
+    {
+      "id": "preset.locked.etching",
+      "path": "presets/locked-companions/etching.json",
+      "taxonomy": "style",
+      "source": "locked-companion",
+      "note": ""
+    },
+    {
+      "id": "preset.locked.flat-graphic",
+      "path": "presets/locked-companions/flat-graphic.json",
+      "taxonomy": "style",
+      "source": "locked-companion",
+      "note": ""
+    },
+    {
+      "id": "preset.locked.halftone",
+      "path": "presets/locked-companions/halftone.json",
+      "taxonomy": "style",
+      "source": "locked-companion",
+      "note": ""
+    },
+    {
+      "id": "preset.locked.highkey",
+      "path": "presets/locked-companions/highkey.json",
+      "taxonomy": "style",
+      "source": "locked-companion",
+      "note": ""
+    },
+    {
+      "id": "preset.locked.mucha-whiplash",
+      "path": "presets/locked-companions/mucha-whiplash.json",
+      "taxonomy": "style",
+      "source": "locked-companion",
+      "note": ""
+    },
+    {
+      "id": "preset.locked.noir-graphic",
+      "path": "presets/locked-companions/noir-graphic.json",
+      "taxonomy": "style",
+      "source": "locked-companion",
+      "note": ""
+    },
+    {
+      "id": "preset.locked.op-art",
+      "path": "presets/locked-companions/op-art.json",
+      "taxonomy": "style",
+      "source": "locked-companion",
+      "note": ""
+    },
+    {
+      "id": "preset.locked.polaroid",
+      "path": "presets/locked-companions/polaroid.json",
+      "taxonomy": "style",
+      "source": "locked-companion",
+      "note": ""
+    },
+    {
+      "id": "preset.locked.preraph",
+      "path": "presets/locked-companions/preraph.json",
+      "taxonomy": "style",
+      "source": "locked-companion",
+      "note": ""
+    },
+    {
+      "id": "preset.locked.screenprint",
+      "path": "presets/locked-companions/screenprint.json",
+      "taxonomy": "style",
+      "source": "locked-companion",
+      "note": ""
+    },
+    {
+      "id": "preset.locked.stained-glass",
+      "path": "presets/locked-companions/stained-glass.json",
+      "taxonomy": "style",
+      "source": "locked-companion",
+      "note": ""
+    },
+    {
+      "id": "preset.locked.sumie",
+      "path": "presets/locked-companions/sumie.json",
+      "taxonomy": "style",
+      "source": "locked-companion",
+      "note": ""
+    },
+    {
+      "id": "preset.locked.symbolist",
+      "path": "presets/locked-companions/symbolist.json",
+      "taxonomy": "style",
+      "source": "locked-companion",
+      "note": ""
+    },
+    {
+      "id": "preset.locked.tenebrist",
+      "path": "presets/locked-companions/tenebrist.json",
+      "taxonomy": "style",
+      "source": "locked-companion",
+      "note": ""
+    },
+    {
+      "id": "preset.locked.ukiyo-flat",
+      "path": "presets/locked-companions/ukiyo-flat.json",
+      "taxonomy": "style",
+      "source": "locked-companion",
+      "note": ""
+    },
+    {
+      "id": "preset.locked.vallejo-saturated",
+      "path": "presets/locked-companions/vallejo-saturated.json",
+      "taxonomy": "style",
+      "source": "locked-companion",
+      "note": ""
+    },
+    {
+      "id": "preset.locked.vector",
+      "path": "presets/locked-companions/vector.json",
+      "taxonomy": "style",
+      "source": "locked-companion",
+      "note": ""
+    },
+    {
+      "id": "output-format.carousel",
+      "path": "packs/output-format/carousel.json",
+      "taxonomy": "technical",
+      "source": "output-format",
+      "note": "delivery / presentation"
+    },
+    {
+      "id": "output-format.single",
+      "path": "packs/output-format/single.json",
+      "taxonomy": "technical",
+      "source": "output-format",
+      "note": "delivery / presentation"
+    },
+    {
+      "id": "output-format.slideshow",
+      "path": "packs/output-format/slideshow.json",
+      "taxonomy": "technical",
+      "source": "output-format",
+      "note": "delivery / presentation"
+    },
+    {
+      "id": "output-style.border-deterministic",
+      "path": "packs/output-style/border-deterministic.json",
+      "taxonomy": "technical",
+      "source": "output-style",
+      "note": "delivery / presentation"
+    },
+    {
+      "id": "output-style.border-none",
+      "path": "packs/output-style/border-none.json",
+      "taxonomy": "technical",
+      "source": "output-style",
+      "note": "delivery / presentation"
+    },
+    {
+      "id": "output-style.code-exposed",
+      "path": "packs/output-style/code-exposed.json",
+      "taxonomy": "technical",
+      "source": "output-style",
+      "note": "delivery / presentation"
+    },
+    {
+      "id": "output-style.code-hidden",
+      "path": "packs/output-style/code-hidden.json",
+      "taxonomy": "technical",
+      "source": "output-style",
+      "note": "delivery / presentation"
+    },
+    {
+      "id": "output-style.forensics-off",
+      "path": "packs/output-style/forensics-off.json",
+      "taxonomy": "technical",
+      "source": "output-style",
+      "note": "delivery / presentation"
+    },
+    {
+      "id": "output-style.forensics-on",
+      "path": "packs/output-style/forensics-on.json",
+      "taxonomy": "technical",
+      "source": "output-style",
+      "note": "delivery / presentation"
+    },
+    {
+      "id": "output-style.title-above",
+      "path": "packs/output-style/title-above.json",
+      "taxonomy": "technical",
+      "source": "output-style",
+      "note": "delivery / presentation"
+    },
+    {
+      "id": "output-style.title-below",
+      "path": "packs/output-style/title-below.json",
+      "taxonomy": "technical",
+      "source": "output-style",
+      "note": "delivery / presentation"
+    },
+    {
+      "id": "treatment.bold-contemporary-graphic",
+      "path": "packs/treatment/bold-contemporary-graphic.json",
+      "taxonomy": "treatment",
+      "source": "treatment",
+      "note": ""
+    },
+    {
+      "id": "treatment.chaotic-splatter",
+      "path": "packs/treatment/chaotic-splatter.json",
+      "taxonomy": "treatment",
+      "source": "treatment",
+      "note": ""
+    },
+    {
+      "id": "treatment.dark-cinematic-noir",
+      "path": "packs/treatment/dark-cinematic-noir.json",
+      "taxonomy": "treatment",
+      "source": "treatment",
+      "note": ""
+    },
+    {
+      "id": "treatment.glitch-ink",
+      "path": "packs/treatment/glitch-ink.json",
+      "taxonomy": "treatment",
+      "source": "treatment",
+      "note": ""
+    },
+    {
+      "id": "treatment.glossy-classic-nude",
+      "path": "packs/treatment/glossy-classic-nude.json",
+      "taxonomy": "treatment",
+      "source": "treatment",
+      "note": ""
+    },
+    {
+      "id": "treatment.glossy-iridescent",
+      "path": "packs/treatment/glossy-iridescent.json",
+      "taxonomy": "treatment",
+      "source": "treatment",
+      "note": ""
+    },
+    {
+      "id": "treatment.graphic-dominance",
+      "path": "packs/treatment/graphic-dominance.json",
+      "taxonomy": "treatment",
+      "source": "treatment",
+      "note": ""
+    },
+    {
+      "id": "treatment.heavy-noir",
+      "path": "packs/treatment/heavy-noir.json",
+      "taxonomy": "treatment",
+      "source": "treatment",
+      "note": ""
+    },
+    {
+      "id": "treatment.heavy-sketch-ink",
+      "path": "packs/treatment/heavy-sketch-ink.json",
+      "taxonomy": "treatment",
+      "source": "treatment",
+      "note": ""
+    },
+    {
+      "id": "treatment.ink-line-art",
+      "path": "packs/treatment/ink-line-art.json",
+      "taxonomy": "treatment",
+      "source": "treatment",
+      "note": ""
+    },
+    {
+      "id": "treatment.opaque-block-collage",
+      "path": "packs/treatment/opaque-block-collage.json",
+      "taxonomy": "treatment",
+      "source": "treatment",
+      "note": ""
+    },
+    {
+      "id": "treatment.surreal-high-contrast-fragment",
+      "path": "packs/treatment/surreal-high-contrast-fragment.json",
+      "taxonomy": "treatment",
+      "source": "treatment",
+      "note": ""
+    },
+    {
+      "id": "preset.locked.blueprint",
+      "path": "presets/locked-companions/blueprint.json",
+      "taxonomy": "world",
+      "source": "locked-companion",
+      "note": "technical orthographic space"
+    },
+    {
+      "id": "preset.locked.constructivist",
+      "path": "presets/locked-companions/constructivist.json",
+      "taxonomy": "world",
+      "source": "locked-companion",
+      "note": "Soviet propaganda environment"
+    },
+    {
+      "id": "preset.locked.illuminated",
+      "path": "presets/locked-companions/illuminated.json",
+      "taxonomy": "world",
+      "source": "locked-companion",
+      "note": "medieval manuscript sacred space"
+    }
+  ]
+}

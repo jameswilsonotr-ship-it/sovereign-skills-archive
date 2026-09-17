@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PlateAnalysis",
+  "description": "Lightweight machine surface for style-ingestion plate records. Human gate remains authoritative.",
+  "type": "object",
+  "required": ["plate_id", "source", "medium_hand", "gate"],
+  "properties": {
+    "plate_id": { "type": "string" },
+    "source": {
+      "type": "object",
+      "properties": {
+        "channel": { "type": "string" },
+        "artist_credit": { "type": "string" },
+        "timestamp_or_frame": { "type": "string" },
+        "url_or_drive_path": { "type": "string" },
+        "ocr_raw": { "type": "string" },
+        "ocr_confidence": { "type": "string", "enum": ["high", "medium", "low", "none"] }
+      }
+    },
+    "medium_hand": {
+      "type": "object",
+      "properties": {
+        "medium": { "type": "string" },
+        "line_weight": { "type": "string" },
+        "shading": { "type": "string" }
+      }
+    },
+    "palette": {
+      "type": "object",
+      "properties": {
+        "dominant": { "type": "array", "items": { "type": "string" } },
+        "temperature": { "type": "string" },
+        "signature_accent": { "type": "string" }
+      }
+    },
+    "face_eye": {
+      "type": "object",
+      "properties": {
+        "eye": { "type": "string" },
+        "brow_lash": { "type": "string" },
+        "nose_mouth_jaw": { "type": "string" },
+        "expression_habit": { "type": "string" }
+      }
+    },
+    "outfit_tropes": {
+      "type": "object",
+      "properties": {
+        "silhouette": { "type": "string" },
+        "garments": { "type": "string" },
+        "accessories": { "type": "string" }
+      }
+    },
+    "cluster": {
+      "type": "object",
+      "properties": {
+        "closest_existing": { "type": "string" },
+        "suggested_key": { "type": "string" },
+        "fit_note": { "type": "string" }
+      }
+    },
+    "gate": {
+      "type": "string",
+      "enum": ["promote", "demote", "hold", "needs_second_look"]
+    },
+    "gate_reason": { "type": "string" }
+  }
+}

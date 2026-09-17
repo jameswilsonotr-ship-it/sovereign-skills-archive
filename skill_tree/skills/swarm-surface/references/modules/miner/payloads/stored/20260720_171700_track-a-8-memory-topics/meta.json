@@ -1,0 +1,11 @@
+{
+  "created": "2026-07-20T17:17:00-04:00",
+  "reason": "Track A canonical payload — 8 core memory topics already manually mined; for parallel conversation swarm-miner run",
+  "origin": "handoff-from-system-roadmap-refactor-conversation",
+  "track": "A",
+  "topic_count": 8,
+  "agents_intended": [],
+  "file_output_spec": "local-stub + future Drive versioned package",
+  "sidecar_enabled": true,
+  "notes": "Supersedes naming of 20260720_160700_track-b-8-topics for the same topic set. Track B is now reserved for the other conversation."
+}

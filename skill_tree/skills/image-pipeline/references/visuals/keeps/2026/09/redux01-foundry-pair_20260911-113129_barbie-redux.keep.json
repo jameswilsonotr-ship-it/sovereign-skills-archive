@@ -1,0 +1,69 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "redux01-foundry-pair_20260911-113129_barbie-redux",
+  "slug": "redux01-foundry-pair",
+  "slug_mode": "explicit",
+  "stamp": "20260911-113129",
+  "created": "2026-09-11T11:31:29-04:00",
+  "engine": "edit_image",
+  "orientation": "landscape",
+  "agent": "bunny",
+  "heat": "9",
+  "files": {
+    "jpeg": "redux01-foundry-pair_20260911-113129_barbie-redux.jpg",
+    "prompt": "redux01-foundry-pair_20260911-113129_barbie-redux.prompt.md",
+    "keep": "redux01-foundry-pair_20260911-113129_barbie-redux.keep.json"
+  },
+  "sha256": {
+    "jpeg": "89eee32d3b49b9039c9d6b0e9f2878c9963c577560ae868ac9a7263e34c97981",
+    "prompt": "ed1a70a5ed287f430bef33968f2cc6150c2681604ab6788a984b688efe46113d"
+  },
+  "prompt": "Redux T1 foundry coordinated pair. Bunny vinyl corset denim microshorts slash fishnets I9 holos. Vesper 28 mesh oiled leather harness kraken gauntlet lean-over.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/QYXMP.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/redux01-foundry-pair_20260911-113129_barbie-redux.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/redux01-foundry-pair_20260911-113129_barbie-redux.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/redux01-foundry-pair_20260911-113129_barbie-redux.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/09"
+  },
+  "drive": {
+    "status": "queued",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": null,
+    "prompt_id": null,
+    "keep_id": null,
+    "uploads": [
+      {
+        "artifact_path": "/rendered/redux01-foundry-pair_20260911-113129_barbie-redux.jpg",
+        "file_name": "redux01-foundry-pair_20260911-113129_barbie-redux.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/redux01-foundry-pair_20260911-113129_barbie-redux.prompt.md",
+        "file_name": "redux01-foundry-pair_20260911-113129_barbie-redux.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/redux01-foundry-pair_20260911-113129_barbie-redux.keep.json",
+        "file_name": "redux01-foundry-pair_20260911-113129_barbie-redux.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ]
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/redux01-foundry-pair_20260911-113129_barbie-redux.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

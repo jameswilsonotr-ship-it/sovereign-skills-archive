@@ -1,0 +1,28 @@
+{
+  "id": "treatment.heavy-noir",
+  "kind": "treatment",
+  "name": "Heavy Noir",
+  "version": "1.0.0",
+  "description": "Deep black, cinematic noir contrast.",
+  "tags": [
+    "treatment",
+    "noir",
+    "heavy"
+  ],
+  "prompt_terms": [
+    {
+      "term": "heavy noir",
+      "variance": 0.3,
+      "weight": 1.0
+    },
+    {
+      "term": "deep black cinematic noir",
+      "variance": 0.4,
+      "weight": 0.8
+    }
+  ],
+  "content": {
+    "taxonomy": "treatment",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}
