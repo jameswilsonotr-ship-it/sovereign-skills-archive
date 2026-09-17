@@ -1,0 +1,30 @@
+{
+  "source": "offline-fixture",
+  "repository": "jameswilsonotr-ship-it/sovereign-skills-archive",
+  "issues": [
+    {
+      "number": 6,
+      "title": "Hi/Bunny override harness"
+    },
+    {
+      "number": 7,
+      "title": "Drive receipt contract"
+    },
+    {
+      "number": 8,
+      "title": "OpenSpec connector fixtures"
+    },
+    {
+      "number": 9,
+      "title": "Offline socket guard"
+    },
+    {
+      "number": 10,
+      "title": "Atomic retry test"
+    },
+    {
+      "number": 11,
+      "title": "Fixture count regression"
+    }
+  ]
+}

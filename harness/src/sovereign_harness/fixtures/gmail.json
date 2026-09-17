@@ -1,0 +1,35 @@
+{
+  "source": "offline-fixture",
+  "threads": [
+    {
+      "id": "fixture-thread-001",
+      "subject": "MIS-6 progress",
+      "messages": 1
+    },
+    {
+      "id": "fixture-thread-002",
+      "subject": "OpenSpec baseline",
+      "messages": 1
+    },
+    {
+      "id": "fixture-thread-003",
+      "subject": "Drive receipt contract",
+      "messages": 2
+    },
+    {
+      "id": "fixture-thread-004",
+      "subject": "Offline test report",
+      "messages": 1
+    },
+    {
+      "id": "fixture-thread-005",
+      "subject": "Atomic retry review",
+      "messages": 2
+    },
+    {
+      "id": "fixture-thread-006",
+      "subject": "Fixture expansion complete",
+      "messages": 1
+    }
+  ]
+}

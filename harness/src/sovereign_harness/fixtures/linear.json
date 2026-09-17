@@ -1,0 +1,35 @@
+{
+  "source": "offline-fixture",
+  "issues": [
+    {
+      "identifier": "MIS-6",
+      "title": "Hi/Bunny override harness",
+      "state": "in progress"
+    },
+    {
+      "identifier": "MIS-7",
+      "title": "Drive receipt contract",
+      "state": "backlog"
+    },
+    {
+      "identifier": "MIS-8",
+      "title": "OpenSpec connector fixtures",
+      "state": "in progress"
+    },
+    {
+      "identifier": "MIS-9",
+      "title": "Offline socket guard",
+      "state": "done"
+    },
+    {
+      "identifier": "MIS-10",
+      "title": "Atomic retry test",
+      "state": "in review"
+    },
+    {
+      "identifier": "MIS-11",
+      "title": "Fixture count regression",
+      "state": "backlog"
+    }
+  ]
+}
