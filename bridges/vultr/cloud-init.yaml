@@ -96,4 +96,12 @@ runcmd:
       ufw --force enable
 
       # This is a local, non-paid smoke check after the services start.
-      curl --fail --silent --show-error "http://${TAILNET_IP}:11434/health"
+      for attempt in $(seq 1 30); do
+        if curl --fail --silent --show-error \
+          "http://${TAILNET_IP}:11434/health"; then
+          exit 0
+        fi
+        sleep 2
+      done
+      echo "Inference gateway did not become healthy." >&2
+      exit 1
