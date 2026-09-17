@@ -34,7 +34,7 @@ availability: always-included
 ## Scope fence
 
 - This receipt is the complete delta; no skill source was edited.
-- No out-of-tree material, network call, provider integration, credential,
+- No out-of-tree material, network call, network integration, credential,
   or hosted-compute dependency was used.
 - No alternate conversation variant was read or copied.
 - The reload policy is continuous inclusion only.
