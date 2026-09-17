@@ -61,4 +61,3 @@ offline and must not be changed to fetch remote URLs:
 ```text
 docs/**/*.md -> resolve local targets and fragments -> report missing paths/fragments
 ```
-
