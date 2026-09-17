@@ -1,10 +1,10 @@
 # T3-06 thin-KEEP map
 
-**Change-id:** `third-salvo-06-thin-keep-map`  
-**Slot:** `T3-06`  
-**Phase:** post-coherence  
-**Mode:** documentation only  
-**Allowed lane:** INCLUDED Ultra only  
+**Change-id:** `third-salvo-06-thin-keep-map`
+**Slot:** `T3-06`
+**Phase:** post-coherence
+**Mode:** documentation only
+**Allowed lane:** INCLUDED Ultra only
 **Forbidden lane:** On-Demand, always
 
 This is a thin, reference-only map. `KEEP` means preserve the boundary and
