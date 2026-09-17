@@ -1,7 +1,7 @@
 # Cursor Included Burn
 
-Status: operator runbook / included allowance only  
-Mode: atomic execution  
+Status: operator runbook / included allowance only
+Mode: atomic execution
 Policy: **No OD. No implicit expansion. No carry-over.**
 
 ## 0. Purpose
