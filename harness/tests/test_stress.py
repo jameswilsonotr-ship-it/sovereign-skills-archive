@@ -122,7 +122,7 @@ def test_concurrent_dummy_connector_calls_are_logged_x500(
             return call_log.invoke(
                 connector,
                 "list_issues",
-                status=f"fixture-{sequence}",
+                status=f"fixture:{sequence}",
                 limit=1,
             )
         connector = DriveConnector(account_id=account_id)
