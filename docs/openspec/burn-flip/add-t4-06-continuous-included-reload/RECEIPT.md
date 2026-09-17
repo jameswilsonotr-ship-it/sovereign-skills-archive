@@ -34,5 +34,11 @@ Review is offline and documentation-only. The changed-path review confirms:
 - no historical KEEP body was copied or rebuilt;
 - one change-id and one receipt cover the delta.
 
+Commands passed locally:
+
+- `git diff --check main...HEAD`
+- changed-path fence scan for `SKILL.md`, `CONV2_B`, secret, and Vultr paths
+- a repository-local `python3` contract check for required files and markers
+
 No live reload, network call, provider call, secret read, or billing action was
 performed.
