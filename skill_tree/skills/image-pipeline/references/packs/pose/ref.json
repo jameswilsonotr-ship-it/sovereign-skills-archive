@@ -1,0 +1,100 @@
+{
+  "id": "pose.ref",
+  "kind": "pose",
+  "name": "Ref",
+  "version": "0.1.9",
+  "status": "draft",
+  "source": "agentify-scrape",
+  "ticket": "IP-WQ-094",
+  "tags": [
+    "pose",
+    "agentify",
+    "ref"
+  ],
+  "prompt_terms": [
+    {
+      "term": "ref as seen on the still",
+      "variance": 0.25,
+      "weight": 1.0
+    }
+  ],
+  "instances": [
+    {
+      "who": "cand-KKw1ZlTxCPU",
+      "set": "yt-KKw1ZlTxCPU",
+      "role": "ref",
+      "src": "/home/workdir/artifacts/inbound/yt-KKw1ZlTxCPU_20260903-165426/01_ref.jpg",
+      "at": "2026-09-03T16:54:31-04:00"
+    },
+    {
+      "who": "cand-KKw1ZlTxCPU",
+      "set": "yt-KKw1ZlTxCPU",
+      "role": "ref",
+      "src": "/home/workdir/artifacts/inbound/yt-KKw1ZlTxCPU_20260903-165426/02_ref.jpg",
+      "at": "2026-09-03T16:54:31-04:00"
+    },
+    {
+      "who": "cand-KKw1ZlTxCPU",
+      "set": "yt-KKw1ZlTxCPU",
+      "role": "ref",
+      "src": "/home/workdir/artifacts/inbound/yt-KKw1ZlTxCPU_20260903-165426/03_ref.jpg",
+      "at": "2026-09-03T16:54:31-04:00"
+    },
+    {
+      "who": "og-opus-terminal",
+      "set": "yt-56zmFD8HlRE",
+      "role": "ref",
+      "src": "/home/workdir/artifacts/inbound/yt-56zmFD8HlRE_20260904-124901/01_ref.jpg",
+      "at": "2026-09-04T12:49:10-04:00"
+    },
+    {
+      "who": "og-opus-terminal",
+      "set": "yt-56zmFD8HlRE",
+      "role": "ref",
+      "src": "/home/workdir/artifacts/inbound/yt-56zmFD8HlRE_20260904-124901/02_ref.jpg",
+      "at": "2026-09-04T12:49:10-04:00"
+    },
+    {
+      "who": "og-opus-terminal",
+      "set": "yt-56zmFD8HlRE",
+      "role": "ref",
+      "src": "/home/workdir/artifacts/inbound/yt-56zmFD8HlRE_20260904-124901/03_ref.jpg",
+      "at": "2026-09-04T12:49:10-04:00"
+    },
+    {
+      "who": "og-opus-terminal",
+      "set": "yt-56zmFD8HlRE",
+      "role": "ref",
+      "src": "/home/workdir/artifacts/inbound/yt-56zmFD8HlRE_20260904-124901/04_ref.jpg",
+      "at": "2026-09-04T12:49:10-04:00"
+    },
+    {
+      "who": "og-opus-terminal",
+      "set": "yt-56zmFD8HlRE",
+      "role": "ref",
+      "src": "/home/workdir/artifacts/inbound/yt-56zmFD8HlRE_20260904-124901/05_ref.jpg",
+      "at": "2026-09-04T12:49:10-04:00"
+    },
+    {
+      "who": "og-opus-terminal",
+      "set": "yt-56zmFD8HlRE",
+      "role": "ref",
+      "src": "/home/workdir/artifacts/inbound/yt-56zmFD8HlRE_20260904-124901/06_ref.jpg",
+      "at": "2026-09-04T12:49:10-04:00"
+    },
+    {
+      "who": "og-opus-terminal",
+      "set": "yt-56zmFD8HlRE",
+      "role": "ref",
+      "src": "/home/workdir/artifacts/inbound/yt-56zmFD8HlRE_20260904-124901/07_ref.jpg",
+      "at": "2026-09-04T12:49:10-04:00"
+    }
+  ],
+  "n": 10,
+  "created": "2026-09-03T16:54:31-04:00",
+  "updated": "2026-09-04T12:49:11-04:00",
+  "content": {
+    "taxonomy": "structural",
+    "origin": "inbound still scrape"
+  }
+}

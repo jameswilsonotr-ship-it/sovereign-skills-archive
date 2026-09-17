@@ -1,0 +1,291 @@
+{
+  "records": [
+    {
+      "file": "001_current-active-system.md",
+      "size": 2807,
+      "has_frontmatter": true,
+      "fields_present": [
+        "id",
+        "type",
+        "namespace",
+        "source",
+        "written_at",
+        "last_confirmed",
+        "supersedes",
+        "confidence",
+        "decision",
+        "notes"
+      ],
+      "missing_fields": [],
+      "invalid": [],
+      "decision": "REVIEW",
+      "type": "operational",
+      "namespace": "roster"
+    },
+    {
+      "file": "002_who-this-user-is.md",
+      "size": 38626,
+      "has_frontmatter": true,
+      "fields_present": [
+        "id",
+        "type",
+        "namespace",
+        "source",
+        "written_at",
+        "last_confirmed",
+        "supersedes",
+        "confidence",
+        "decision",
+        "notes"
+      ],
+      "missing_fields": [],
+      "invalid": [],
+      "decision": "KEEP_IN_MEMORY",
+      "type": "identity",
+      "namespace": "personal"
+    },
+    {
+      "file": "003_core-interests.md",
+      "size": 5721,
+      "has_frontmatter": true,
+      "fields_present": [
+        "id",
+        "type",
+        "namespace",
+        "source",
+        "written_at",
+        "last_confirmed",
+        "supersedes",
+        "confidence",
+        "decision",
+        "notes"
+      ],
+      "missing_fields": [],
+      "invalid": [],
+      "decision": "REVIEW",
+      "type": "preference",
+      "namespace": "personal"
+    },
+    {
+      "file": "004_key-life-events.md",
+      "size": 4527,
+      "has_frontmatter": true,
+      "fields_present": [
+        "id",
+        "type",
+        "namespace",
+        "source",
+        "written_at",
+        "last_confirmed",
+        "supersedes",
+        "confidence",
+        "decision",
+        "notes"
+      ],
+      "missing_fields": [],
+      "invalid": [],
+      "decision": "KEEP_IN_MEMORY",
+      "type": "event",
+      "namespace": "personal"
+    },
+    {
+      "file": "005_authoritative-core-identity-override.md",
+      "size": 785,
+      "has_frontmatter": true,
+      "fields_present": [
+        "id",
+        "type",
+        "namespace",
+        "source",
+        "written_at",
+        "last_confirmed",
+        "supersedes",
+        "confidence",
+        "decision",
+        "notes"
+      ],
+      "missing_fields": [],
+      "invalid": [],
+      "decision": "KEEP_IN_MEMORY",
+      "type": "identity",
+      "namespace": "personal"
+    },
+    {
+      "file": "006_operational-modes-and-instincts.md",
+      "size": 5079,
+      "has_frontmatter": true,
+      "fields_present": [
+        "id",
+        "type",
+        "namespace",
+        "source",
+        "written_at",
+        "last_confirmed",
+        "supersedes",
+        "confidence",
+        "decision",
+        "notes"
+      ],
+      "missing_fields": [],
+      "invalid": [],
+      "decision": "PROMOTE_TO_ROSTER",
+      "type": "operational",
+      "namespace": "roster"
+    },
+    {
+      "file": "007_visual-system-integration.md",
+      "size": 6226,
+      "has_frontmatter": true,
+      "fields_present": [
+        "id",
+        "type",
+        "namespace",
+        "source",
+        "written_at",
+        "last_confirmed",
+        "supersedes",
+        "confidence",
+        "decision",
+        "notes"
+      ],
+      "missing_fields": [],
+      "invalid": [],
+      "decision": "PROMOTE_TO_ROSTER",
+      "type": "visual",
+      "namespace": "visual"
+    },
+    {
+      "file": "008_standard-operating-procedures.md",
+      "size": 3883,
+      "has_frontmatter": true,
+      "fields_present": [
+        "id",
+        "type",
+        "namespace",
+        "source",
+        "written_at",
+        "last_confirmed",
+        "supersedes",
+        "confidence",
+        "decision",
+        "notes"
+      ],
+      "missing_fields": [],
+      "invalid": [],
+      "decision": "REVIEW",
+      "type": "protocol",
+      "namespace": "system"
+    },
+    {
+      "file": "009_liv-hub-3-block-architecture.md",
+      "size": 10208,
+      "has_frontmatter": true,
+      "fields_present": [
+        "id",
+        "type",
+        "namespace",
+        "source",
+        "written_at",
+        "last_confirmed",
+        "supersedes",
+        "confidence",
+        "decision",
+        "notes"
+      ],
+      "missing_fields": [],
+      "invalid": [],
+      "decision": "PROMOTE_TO_ROSTER",
+      "type": "operational",
+      "namespace": "roster"
+    },
+    {
+      "file": "010_creative-checkpoints.md",
+      "size": 4032,
+      "has_frontmatter": true,
+      "fields_present": [
+        "id",
+        "type",
+        "namespace",
+        "source",
+        "written_at",
+        "last_confirmed",
+        "supersedes",
+        "confidence",
+        "decision",
+        "notes"
+      ],
+      "missing_fields": [],
+      "invalid": [],
+      "decision": "ARCHIVE",
+      "type": "event",
+      "namespace": "roster"
+    },
+    {
+      "file": "011_memory_biography.md",
+      "size": 4987,
+      "has_frontmatter": true,
+      "fields_present": [
+        "id",
+        "type",
+        "namespace",
+        "source",
+        "written_at",
+        "last_confirmed",
+        "supersedes",
+        "confidence",
+        "decision",
+        "notes"
+      ],
+      "missing_fields": [],
+      "invalid": [],
+      "decision": "KEEP_IN_MEMORY",
+      "type": "biography",
+      "namespace": "personal"
+    },
+    {
+      "file": "012_memory_psychological.md",
+      "size": 2360,
+      "has_frontmatter": true,
+      "fields_present": [
+        "id",
+        "type",
+        "namespace",
+        "source",
+        "written_at",
+        "last_confirmed",
+        "supersedes",
+        "confidence",
+        "decision",
+        "notes"
+      ],
+      "missing_fields": [],
+      "invalid": [],
+      "decision": "KEEP_IN_MEMORY",
+      "type": "psychology",
+      "namespace": "personal"
+    },
+    {
+      "file": "013_memory_protocols.md",
+      "size": 1730,
+      "has_frontmatter": true,
+      "fields_present": [
+        "id",
+        "type",
+        "namespace",
+        "source",
+        "written_at",
+        "last_confirmed",
+        "supersedes",
+        "confidence",
+        "decision",
+        "notes"
+      ],
+      "missing_fields": [],
+      "invalid": [],
+      "decision": "PROMOTE_TO_ROSTER",
+      "type": "operational",
+      "namespace": "roster"
+    }
+  ],
+  "errors": []
+}

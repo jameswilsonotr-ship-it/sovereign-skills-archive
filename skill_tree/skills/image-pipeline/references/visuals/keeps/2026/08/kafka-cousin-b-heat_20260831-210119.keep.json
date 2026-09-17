@@ -1,0 +1,70 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "kafka-cousin-b-heat_20260831-210119",
+  "slug": "kafka-cousin-b-heat",
+  "slug_mode": "explicit",
+  "stamp": "20260831-210119",
+  "created": "2026-08-31T21:01:19-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "olivia",
+  "heat": "",
+  "files": {
+    "jpeg": "kafka-cousin-b-heat_20260831-210119.jpg",
+    "prompt": "kafka-cousin-b-heat_20260831-210119.prompt.md",
+    "keep": "kafka-cousin-b-heat_20260831-210119.keep.json"
+  },
+  "sha256": {
+    "jpeg": "f384ae0564433bc7bfbf95f710cb16d1db247046bb0e3b86bede0306505b2cd5",
+    "prompt": "5196751403e85c560591d034965bbe1ccbc13cf3695ae8d8925c376b92a6bc96"
+  },
+  "prompt": "Heat B. Same wardrobe intent. Sunglasses to mouth, cape slip, volumetric rim. Wardrobe drift note: blouse opened, boots matched-ish.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/jFYnJ.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/kafka-cousin-b-heat_20260831-210119.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/kafka-cousin-b-heat_20260831-210119.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/kafka-cousin-b-heat_20260831-210119.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "11JoqaY6Hjx_tEjkmMW25z3AzbYYwHrrl",
+    "prompt_id": "16IR-YYMQvfKpx8Q9OJKFgEjNZ3v0aZfU",
+    "keep_id": "1N88t6QyqR42ppXSrGfx59nFrEWVUCMrx",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/kafka-cousin-b-heat_20260831-210119.jpg",
+        "file_name": "kafka-cousin-b-heat_20260831-210119.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/kafka-cousin-b-heat_20260831-210119.prompt.md",
+        "file_name": "kafka-cousin-b-heat_20260831-210119.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/kafka-cousin-b-heat_20260831-210119.keep.json",
+        "file_name": "kafka-cousin-b-heat_20260831-210119.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-09-01T01:02:17+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/kafka-cousin-b-heat_20260831-210119.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

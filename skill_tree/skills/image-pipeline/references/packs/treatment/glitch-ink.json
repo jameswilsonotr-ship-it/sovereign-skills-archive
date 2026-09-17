@@ -1,0 +1,28 @@
+{
+  "id": "treatment.glitch-ink",
+  "kind": "treatment",
+  "name": "Glitch Ink",
+  "version": "1.0.0",
+  "description": "Digital stutter, chromatic aberration, torn vector lines.",
+  "tags": [
+    "treatment",
+    "glitch",
+    "digital"
+  ],
+  "prompt_terms": [
+    {
+      "term": "glitch ink",
+      "variance": 0.3,
+      "weight": 1.0
+    },
+    {
+      "term": "chromatic aberration and digital tear",
+      "variance": 0.45,
+      "weight": 0.7
+    }
+  ],
+  "content": {
+    "taxonomy": "treatment",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}

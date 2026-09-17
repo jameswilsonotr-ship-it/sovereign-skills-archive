@@ -1,0 +1,3347 @@
+{
+  "generated": "2026-09-11T11:27:44Z",
+  "skills_root": "/home/workdir/.grok/skills",
+  "total": 371,
+  "skills_with_scripts": 18,
+  "scripts": [
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/data/atom_clouds/rook/rook_atom_search.py",
+      "name": "rook_atom_search.py",
+      "ext": ".py",
+      "bytes": 843,
+      "executable": false
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/scripts/inventory/atom_search.py",
+      "name": "atom_search.py",
+      "ext": ".py",
+      "bytes": 4423,
+      "executable": true
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/scripts/modes/mode_runtime.py",
+      "name": "mode_runtime.py",
+      "ext": ".py",
+      "bytes": 9833,
+      "executable": true
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/scripts/modes/petname_router.py",
+      "name": "petname_router.py",
+      "ext": ".py",
+      "bytes": 3471,
+      "executable": true
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/scripts/modes/phrase_routes.py",
+      "name": "phrase_routes.py",
+      "ext": ".py",
+      "bytes": 7161,
+      "executable": true
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/scripts/modes/teaching_mode_confidence.py",
+      "name": "teaching_mode_confidence.py",
+      "ext": ".py",
+      "bytes": 5224,
+      "executable": true
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/scripts/modes/turn_prelude.py",
+      "name": "turn_prelude.py",
+      "ext": ".py",
+      "bytes": 1831,
+      "executable": true
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/scripts/syllabus/syllabus.py",
+      "name": "syllabus.py",
+      "ext": ".py",
+      "bytes": 1250,
+      "executable": true
+    },
+    {
+      "skill": "cilia-bus",
+      "module": null,
+      "relpath": "cilia-bus/bootstrap.py",
+      "name": "bootstrap.py",
+      "ext": ".py",
+      "bytes": 2490,
+      "executable": false
+    },
+    {
+      "skill": "cilia-bus",
+      "module": null,
+      "relpath": "cilia-bus/cilia_bus/__init__.py",
+      "name": "__init__.py",
+      "ext": ".py",
+      "bytes": 389,
+      "executable": false
+    },
+    {
+      "skill": "cilia-bus",
+      "module": null,
+      "relpath": "cilia-bus/cilia_bus/__main__.py",
+      "name": "__main__.py",
+      "ext": ".py",
+      "bytes": 79,
+      "executable": false
+    },
+    {
+      "skill": "cilia-bus",
+      "module": null,
+      "relpath": "cilia-bus/cilia_bus/cli.py",
+      "name": "cli.py",
+      "ext": ".py",
+      "bytes": 1704,
+      "executable": false
+    },
+    {
+      "skill": "cilia-bus",
+      "module": null,
+      "relpath": "cilia-bus/cilia_bus/models.py",
+      "name": "models.py",
+      "ext": ".py",
+      "bytes": 1637,
+      "executable": false
+    },
+    {
+      "skill": "cilia-bus",
+      "module": null,
+      "relpath": "cilia-bus/cilia_bus/runner.py",
+      "name": "runner.py",
+      "ext": ".py",
+      "bytes": 1537,
+      "executable": false
+    },
+    {
+      "skill": "cilia-bus",
+      "module": null,
+      "relpath": "cilia-bus/scripts/run_once.py",
+      "name": "run_once.py",
+      "ext": ".py",
+      "bytes": 1654,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/surface_work_queues.py",
+      "name": "surface_work_queues.py",
+      "ext": ".py",
+      "bytes": 2548,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/youtube_transcript/fetch_transcript.py",
+      "name": "fetch_transcript.py",
+      "ext": ".py",
+      "bytes": 3988,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/bin/idna",
+      "name": "idna",
+      "ext": "(none)",
+      "bytes": 207,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/bin/normalizer",
+      "name": "normalizer",
+      "ext": "(none)",
+      "bytes": 233,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/bin/youtube_transcript_api",
+      "name": "youtube_transcript_api",
+      "ext": "(none)",
+      "bytes": 230,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/certifi/__init__.py",
+      "name": "__init__.py",
+      "ext": ".py",
+      "bytes": 94,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/certifi/__main__.py",
+      "name": "__main__.py",
+      "ext": ".py",
+      "bytes": 243,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/certifi/core.py",
+      "name": "core.py",
+      "ext": ".py",
+      "bytes": 3394,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/certifi/tests/__init__.py",
+      "name": "__init__.py",
+      "ext": ".py",
+      "bytes": 0,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/certifi/tests/test_certify.py",
+      "name": "test_certify.py",
+      "ext": ".py",
+      "bytes": 467,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/charset_normalizer/__init__.py",
+      "name": "__init__.py",
+      "ext": ".py",
+      "bytes": 1582,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/charset_normalizer/__main__.py",
+      "name": "__main__.py",
+      "ext": ".py",
+      "bytes": 109,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/charset_normalizer/api.py",
+      "name": "api.py",
+      "ext": ".py",
+      "bytes": 35774,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/charset_normalizer/cd.py",
+      "name": "cd.py",
+      "ext": ".py",
+      "bytes": 15980,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/charset_normalizer/cli/__init__.py",
+      "name": "__init__.py",
+      "ext": ".py",
+      "bytes": 136,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/charset_normalizer/cli/__main__.py",
+      "name": "__main__.py",
+      "ext": ".py",
+      "bytes": 11949,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/charset_normalizer/constant.py",
+      "name": "constant.py",
+      "ext": ".py",
+      "bytes": 60749,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/charset_normalizer/legacy.py",
+      "name": "legacy.py",
+      "ext": ".py",
+      "bytes": 2651,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/charset_normalizer/md.py",
+      "name": "md.py",
+      "ext": ".py",
+      "bytes": 35239,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/charset_normalizer/models.py",
+      "name": "models.py",
+      "ext": ".py",
+      "bytes": 13530,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/charset_normalizer/utils.py",
+      "name": "utils.py",
+      "ext": ".py",
+      "bytes": 14122,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/charset_normalizer/version.py",
+      "name": "version.py",
+      "ext": ".py",
+      "bytes": 115,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/defusedxml/ElementTree.py",
+      "name": "ElementTree.py",
+      "ext": ".py",
+      "bytes": 4640,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/defusedxml/__init__.py",
+      "name": "__init__.py",
+      "ext": ".py",
+      "bytes": 1444,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/defusedxml/cElementTree.py",
+      "name": "cElementTree.py",
+      "ext": ".py",
+      "bytes": 1449,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/defusedxml/common.py",
+      "name": "common.py",
+      "ext": ".py",
+      "bytes": 4036,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/defusedxml/expatbuilder.py",
+      "name": "expatbuilder.py",
+      "ext": ".py",
+      "bytes": 3732,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/defusedxml/expatreader.py",
+      "name": "expatreader.py",
+      "ext": ".py",
+      "bytes": 2196,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/defusedxml/lxml.py",
+      "name": "lxml.py",
+      "ext": ".py",
+      "bytes": 4940,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/defusedxml/minidom.py",
+      "name": "minidom.py",
+      "ext": ".py",
+      "bytes": 1884,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/defusedxml/pulldom.py",
+      "name": "pulldom.py",
+      "ext": ".py",
+      "bytes": 1170,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/defusedxml/sax.py",
+      "name": "sax.py",
+      "ext": ".py",
+      "bytes": 1477,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/defusedxml/xmlrpc.py",
+      "name": "xmlrpc.py",
+      "ext": ".py",
+      "bytes": 5364,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/idna/__init__.py",
+      "name": "__init__.py",
+      "ext": ".py",
+      "bytes": 944,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/idna/__main__.py",
+      "name": "__main__.py",
+      "ext": ".py",
+      "bytes": 83,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/idna/cli.py",
+      "name": "cli.py",
+      "ext": ".py",
+      "bytes": 4245,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/idna/codec.py",
+      "name": "codec.py",
+      "ext": ".py",
+      "bytes": 5302,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/idna/compat.py",
+      "name": "compat.py",
+      "ext": ".py",
+      "bytes": 1376,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/idna/core.py",
+      "name": "core.py",
+      "ext": ".py",
+      "bytes": 32505,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/idna/idnadata.py",
+      "name": "idnadata.py",
+      "ext": ".py",
+      "bytes": 44862,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/idna/intranges.py",
+      "name": "intranges.py",
+      "ext": ".py",
+      "bytes": 1851,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/idna/package_data.py",
+      "name": "package_data.py",
+      "ext": ".py",
+      "bytes": 21,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/idna/uts46data.py",
+      "name": "uts46data.py",
+      "ext": ".py",
+      "bytes": 234034,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/requests/__init__.py",
+      "name": "__init__.py",
+      "ext": ".py",
+      "bytes": 5922,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/requests/__version__.py",
+      "name": "__version__.py",
+      "ext": ".py",
+      "bytes": 435,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/requests/_internal_utils.py",
+      "name": "_internal_utils.py",
+      "ext": ".py",
+      "bytes": 1542,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/requests/_types.py",
+      "name": "_types.py",
+      "ext": ".py",
+      "bytes": 5838,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/requests/adapters.py",
+      "name": "adapters.py",
+      "ext": ".py",
+      "bytes": 28064,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/requests/api.py",
+      "name": "api.py",
+      "ext": ".py",
+      "bytes": 7152,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/requests/auth.py",
+      "name": "auth.py",
+      "ext": ".py",
+      "bytes": 12233,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/requests/certs.py",
+      "name": "certs.py",
+      "ext": ".py",
+      "bytes": 430,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/requests/compat.py",
+      "name": "compat.py",
+      "ext": ".py",
+      "bytes": 2465,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/requests/cookies.py",
+      "name": "cookies.py",
+      "ext": ".py",
+      "bytes": 21549,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/requests/exceptions.py",
+      "name": "exceptions.py",
+      "ext": ".py",
+      "bytes": 4564,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/requests/help.py",
+      "name": "help.py",
+      "ext": ".py",
+      "bytes": 4210,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/requests/hooks.py",
+      "name": "hooks.py",
+      "ext": ".py",
+      "bytes": 1138,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/requests/models.py",
+      "name": "models.py",
+      "ext": ".py",
+      "bytes": 41783,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/requests/packages.py",
+      "name": "packages.py",
+      "ext": ".py",
+      "bytes": 904,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/requests/sessions.py",
+      "name": "sessions.py",
+      "ext": ".py",
+      "bytes": 34248,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/requests/status_codes.py",
+      "name": "status_codes.py",
+      "ext": ".py",
+      "bytes": 4351,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/requests/structures.py",
+      "name": "structures.py",
+      "ext": ".py",
+      "bytes": 4134,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/requests/utils.py",
+      "name": "utils.py",
+      "ext": ".py",
+      "bytes": 36322,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/__init__.py",
+      "name": "__init__.py",
+      "ext": ".py",
+      "bytes": 6979,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/_base_connection.py",
+      "name": "_base_connection.py",
+      "ext": ".py",
+      "bytes": 5580,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/_collections.py",
+      "name": "_collections.py",
+      "ext": ".py",
+      "bytes": 17522,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/_request_methods.py",
+      "name": "_request_methods.py",
+      "ext": ".py",
+      "bytes": 9931,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/_version.py",
+      "name": "_version.py",
+      "ext": ".py",
+      "bytes": 520,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/connection.py",
+      "name": "connection.py",
+      "ext": ".py",
+      "bytes": 42786,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/connectionpool.py",
+      "name": "connectionpool.py",
+      "ext": ".py",
+      "bytes": 44164,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/contrib/__init__.py",
+      "name": "__init__.py",
+      "ext": ".py",
+      "bytes": 0,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/contrib/emscripten/__init__.py",
+      "name": "__init__.py",
+      "ext": ".py",
+      "bytes": 836,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/contrib/emscripten/connection.py",
+      "name": "connection.py",
+      "ext": ".py",
+      "bytes": 8960,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/contrib/emscripten/emscripten_fetch_worker.js",
+      "name": "emscripten_fetch_worker.js",
+      "ext": ".js",
+      "bytes": 3677,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/contrib/emscripten/fetch.py",
+      "name": "fetch.py",
+      "ext": ".py",
+      "bytes": 23520,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/contrib/emscripten/request.py",
+      "name": "request.py",
+      "ext": ".py",
+      "bytes": 566,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/contrib/emscripten/response.py",
+      "name": "response.py",
+      "ext": ".py",
+      "bytes": 9719,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/contrib/pyopenssl.py",
+      "name": "pyopenssl.py",
+      "ext": ".py",
+      "bytes": 19734,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/contrib/socks.py",
+      "name": "socks.py",
+      "ext": ".py",
+      "bytes": 7639,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/exceptions.py",
+      "name": "exceptions.py",
+      "ext": ".py",
+      "bytes": 9945,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/fields.py",
+      "name": "fields.py",
+      "ext": ".py",
+      "bytes": 10801,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/filepost.py",
+      "name": "filepost.py",
+      "ext": ".py",
+      "bytes": 2388,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/http2/__init__.py",
+      "name": "__init__.py",
+      "ext": ".py",
+      "bytes": 1741,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/http2/connection.py",
+      "name": "connection.py",
+      "ext": ".py",
+      "bytes": 12578,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/http2/probe.py",
+      "name": "probe.py",
+      "ext": ".py",
+      "bytes": 3014,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/poolmanager.py",
+      "name": "poolmanager.py",
+      "ext": ".py",
+      "bytes": 23895,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/response.py",
+      "name": "response.py",
+      "ext": ".py",
+      "bytes": 53219,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/util/__init__.py",
+      "name": "__init__.py",
+      "ext": ".py",
+      "bytes": 1001,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/util/connection.py",
+      "name": "connection.py",
+      "ext": ".py",
+      "bytes": 4444,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/util/proxy.py",
+      "name": "proxy.py",
+      "ext": ".py",
+      "bytes": 1148,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/util/request.py",
+      "name": "request.py",
+      "ext": ".py",
+      "bytes": 8363,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/util/response.py",
+      "name": "response.py",
+      "ext": ".py",
+      "bytes": 3374,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/util/retry.py",
+      "name": "retry.py",
+      "ext": ".py",
+      "bytes": 19577,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/util/ssl_.py",
+      "name": "ssl_.py",
+      "ext": ".py",
+      "bytes": 17742,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/util/ssl_match_hostname.py",
+      "name": "ssl_match_hostname.py",
+      "ext": ".py",
+      "bytes": 5479,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/util/ssltransport.py",
+      "name": "ssltransport.py",
+      "ext": ".py",
+      "bytes": 8847,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/util/timeout.py",
+      "name": "timeout.py",
+      "ext": ".py",
+      "bytes": 10346,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/util/url.py",
+      "name": "url.py",
+      "ext": ".py",
+      "bytes": 15205,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/util/util.py",
+      "name": "util.py",
+      "ext": ".py",
+      "bytes": 1146,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/urllib3/util/wait.py",
+      "name": "wait.py",
+      "ext": ".py",
+      "bytes": 4423,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/youtube_transcript_api/__init__.py",
+      "name": "__init__.py",
+      "ext": ".py",
+      "bytes": 1292,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/youtube_transcript_api/__main__.py",
+      "name": "__main__.py",
+      "ext": ".py",
+      "bytes": 200,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/youtube_transcript_api/_api.py",
+      "name": "_api.py",
+      "ext": ".py",
+      "bytes": 5756,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/youtube_transcript_api/_cli.py",
+      "name": "_cli.py",
+      "ext": ".py",
+      "bytes": 7325,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/youtube_transcript_api/_errors.py",
+      "name": "_errors.py",
+      "ext": ".py",
+      "bytes": 10620,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/youtube_transcript_api/_settings.py",
+      "name": "_settings.py",
+      "ext": ".py",
+      "bytes": 223,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/youtube_transcript_api/_transcripts.py",
+      "name": "_transcripts.py",
+      "ext": ".py",
+      "bytes": 18422,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/youtube_transcript_api/formatters.py",
+      "name": "formatters.py",
+      "ext": ".py",
+      "bytes": 7637,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/youtube_transcript_api/proxies.py",
+      "name": "proxies.py",
+      "ext": ".py",
+      "bytes": 7543,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/youtube_transcript_api/test/__init__.py",
+      "name": "__init__.py",
+      "ext": ".py",
+      "bytes": 1,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/youtube_transcript_api/test/assets/__init__.py",
+      "name": "__init__.py",
+      "ext": ".py",
+      "bytes": 1,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/youtube_transcript_api/test/test_api.py",
+      "name": "test_api.py",
+      "ext": ".py",
+      "bytes": 17674,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/youtube_transcript_api/test/test_cli.py",
+      "name": "test_cli.py",
+      "ext": ".py",
+      "bytes": 15106,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/youtube_transcript_api/test/test_formatters.py",
+      "name": "test_formatters.py",
+      "ext": ".py",
+      "bytes": 5536,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/yt_transcript_lib/youtube_transcript_api/test/test_proxies.py",
+      "name": "test_proxies.py",
+      "ext": ".py",
+      "bytes": 3150,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": "curator",
+      "relpath": "claim-runtime/references/modules/curator/atoms/porn_atom_search.py",
+      "name": "porn_atom_search.py",
+      "ext": ".py",
+      "bytes": 847,
+      "executable": false
+    },
+    {
+      "skill": "claim-runtime",
+      "module": "curator",
+      "relpath": "claim-runtime/references/modules/curator/atoms/promote_union.py",
+      "name": "promote_union.py",
+      "ext": ".py",
+      "bytes": 7795,
+      "executable": false
+    },
+    {
+      "skill": "claim-runtime",
+      "module": "curator",
+      "relpath": "claim-runtime/references/modules/curator/atoms/search.py",
+      "name": "search.py",
+      "ext": ".py",
+      "bytes": 4866,
+      "executable": false
+    },
+    {
+      "skill": "claim-runtime",
+      "module": "curator",
+      "relpath": "claim-runtime/references/modules/curator/scripts/web_search_wrapper.py",
+      "name": "web_search_wrapper.py",
+      "ext": ".py",
+      "bytes": 2267,
+      "executable": false
+    },
+    {
+      "skill": "format-bible",
+      "module": null,
+      "relpath": "format-bible/references/templates/render_chunks.py",
+      "name": "render_chunks.py",
+      "ext": ".py",
+      "bytes": 3608,
+      "executable": false
+    },
+    {
+      "skill": "format-bible",
+      "module": null,
+      "relpath": "format-bible/scripts/assemble_envelope.py",
+      "name": "assemble_envelope.py",
+      "ext": ".py",
+      "bytes": 7001,
+      "executable": true
+    },
+    {
+      "skill": "format-bible",
+      "module": null,
+      "relpath": "format-bible/scripts/engine.py",
+      "name": "engine.py",
+      "ext": ".py",
+      "bytes": 6383,
+      "executable": true
+    },
+    {
+      "skill": "grok-conversation-miner",
+      "module": null,
+      "relpath": "grok-conversation-miner/scripts/__init__.py",
+      "name": "__init__.py",
+      "ext": ".py",
+      "bytes": 34,
+      "executable": true
+    },
+    {
+      "skill": "grok-conversation-miner",
+      "module": null,
+      "relpath": "grok-conversation-miner/scripts/census.py",
+      "name": "census.py",
+      "ext": ".py",
+      "bytes": 3357,
+      "executable": true
+    },
+    {
+      "skill": "grok-conversation-miner",
+      "module": null,
+      "relpath": "grok-conversation-miner/scripts/export_log.py",
+      "name": "export_log.py",
+      "ext": ".py",
+      "bytes": 7492,
+      "executable": true
+    },
+    {
+      "skill": "grok-conversation-miner",
+      "module": null,
+      "relpath": "grok-conversation-miner/scripts/export_recon.py",
+      "name": "export_recon.py",
+      "ext": ".py",
+      "bytes": 2364,
+      "executable": true
+    },
+    {
+      "skill": "grok-conversation-miner",
+      "module": null,
+      "relpath": "grok-conversation-miner/scripts/export_recon_l8.py",
+      "name": "export_recon_l8.py",
+      "ext": ".py",
+      "bytes": 1989,
+      "executable": true
+    },
+    {
+      "skill": "grok-conversation-miner",
+      "module": null,
+      "relpath": "grok-conversation-miner/scripts/gcm_core.py",
+      "name": "gcm_core.py",
+      "ext": ".py",
+      "bytes": 6786,
+      "executable": true
+    },
+    {
+      "skill": "grok-conversation-miner",
+      "module": null,
+      "relpath": "grok-conversation-miner/scripts/gcm_lib.py",
+      "name": "gcm_lib.py",
+      "ext": ".py",
+      "bytes": 8695,
+      "executable": true
+    },
+    {
+      "skill": "grok-conversation-miner",
+      "module": null,
+      "relpath": "grok-conversation-miner/scripts/harvest_hooks.py",
+      "name": "harvest_hooks.py",
+      "ext": ".py",
+      "bytes": 907,
+      "executable": true
+    },
+    {
+      "skill": "grok-conversation-miner",
+      "module": null,
+      "relpath": "grok-conversation-miner/scripts/hitl_collect.py",
+      "name": "hitl_collect.py",
+      "ext": ".py",
+      "bytes": 1338,
+      "executable": true
+    },
+    {
+      "skill": "grok-conversation-miner",
+      "module": null,
+      "relpath": "grok-conversation-miner/scripts/lake_batch.py",
+      "name": "lake_batch.py",
+      "ext": ".py",
+      "bytes": 2784,
+      "executable": true
+    },
+    {
+      "skill": "grok-conversation-miner",
+      "module": null,
+      "relpath": "grok-conversation-miner/scripts/lake_batch_vacuum.py",
+      "name": "lake_batch_vacuum.py",
+      "ext": ".py",
+      "bytes": 1249,
+      "executable": true
+    },
+    {
+      "skill": "grok-conversation-miner",
+      "module": null,
+      "relpath": "grok-conversation-miner/scripts/layout.py",
+      "name": "layout.py",
+      "ext": ".py",
+      "bytes": 1515,
+      "executable": true
+    },
+    {
+      "skill": "grok-conversation-miner",
+      "module": null,
+      "relpath": "grok-conversation-miner/scripts/ledger.py",
+      "name": "ledger.py",
+      "ext": ".py",
+      "bytes": 1132,
+      "executable": true
+    },
+    {
+      "skill": "grok-conversation-miner",
+      "module": null,
+      "relpath": "grok-conversation-miner/scripts/mail_filesystem.py",
+      "name": "mail_filesystem.py",
+      "ext": ".py",
+      "bytes": 2042,
+      "executable": true
+    },
+    {
+      "skill": "grok-conversation-miner",
+      "module": null,
+      "relpath": "grok-conversation-miner/scripts/mail_fs.py",
+      "name": "mail_fs.py",
+      "ext": ".py",
+      "bytes": 1514,
+      "executable": true
+    },
+    {
+      "skill": "grok-conversation-miner",
+      "module": null,
+      "relpath": "grok-conversation-miner/scripts/packers.py",
+      "name": "packers.py",
+      "ext": ".py",
+      "bytes": 2162,
+      "executable": true
+    },
+    {
+      "skill": "grok-conversation-miner",
+      "module": null,
+      "relpath": "grok-conversation-miner/scripts/stress_harness.py",
+      "name": "stress_harness.py",
+      "ext": ".py",
+      "bytes": 5807,
+      "executable": true
+    },
+    {
+      "skill": "grok-conversation-miner",
+      "module": null,
+      "relpath": "grok-conversation-miner/scripts/sunset_dry_run.py",
+      "name": "sunset_dry_run.py",
+      "ext": ".py",
+      "bytes": 2942,
+      "executable": true
+    },
+    {
+      "skill": "grok-conversation-miner",
+      "module": null,
+      "relpath": "grok-conversation-miner/scripts/sunset_engine.py",
+      "name": "sunset_engine.py",
+      "ext": ".py",
+      "bytes": 9957,
+      "executable": true
+    },
+    {
+      "skill": "grok-conversation-miner",
+      "module": null,
+      "relpath": "grok-conversation-miner/scripts/sunset_smoke.py",
+      "name": "sunset_smoke.py",
+      "ext": ".py",
+      "bytes": 9314,
+      "executable": true
+    },
+    {
+      "skill": "grok-conversation-miner",
+      "module": null,
+      "relpath": "grok-conversation-miner/scripts/test_export_log.py",
+      "name": "test_export_log.py",
+      "ext": ".py",
+      "bytes": 2188,
+      "executable": true
+    },
+    {
+      "skill": "grok-conversation-miner",
+      "module": null,
+      "relpath": "grok-conversation-miner/scripts/test_gcm.py",
+      "name": "test_gcm.py",
+      "ext": ".py",
+      "bytes": 2484,
+      "executable": true
+    },
+    {
+      "skill": "grok-conversation-miner",
+      "module": null,
+      "relpath": "grok-conversation-miner/scripts/toc_omissions.py",
+      "name": "toc_omissions.py",
+      "ext": ".py",
+      "bytes": 3066,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/data/atom_clouds/visuals/scripts/visuals_atomizer.py",
+      "name": "visuals_atomizer.py",
+      "ext": ".py",
+      "bytes": 5974,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/data/atom_clouds/visuals/scripts/visuals_search.py",
+      "name": "visuals_search.py",
+      "ext": ".py",
+      "bytes": 1765,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/agentify.py",
+      "name": "agentify.py",
+      "ext": ".py",
+      "bytes": 33137,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/agentify_scout.py",
+      "name": "agentify_scout.py",
+      "ext": ".py",
+      "bytes": 11419,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/android_show.py",
+      "name": "android_show.py",
+      "ext": ".py",
+      "bytes": 2948,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/backorder_ledger.py",
+      "name": "backorder_ledger.py",
+      "ext": ".py",
+      "bytes": 5576,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/community_post_fetch.py",
+      "name": "community_post_fetch.py",
+      "ext": ".py",
+      "bytes": 8203,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/contact_sheet.py",
+      "name": "contact_sheet.py",
+      "ext": ".py",
+      "bytes": 1925,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/echo_interface.py",
+      "name": "echo_interface.py",
+      "ext": ".py",
+      "bytes": 16415,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/emit_intent.py",
+      "name": "emit_intent.py",
+      "ext": ".py",
+      "bytes": 1017,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/engine_hook.py",
+      "name": "engine_hook.py",
+      "ext": ".py",
+      "bytes": 834,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/facebook_ingest.py",
+      "name": "facebook_ingest.py",
+      "ext": ".py",
+      "bytes": 2885,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/fb_ingest.py",
+      "name": "fb_ingest.py",
+      "ext": ".py",
+      "bytes": 2153,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/feed_fork.py",
+      "name": "feed_fork.py",
+      "ext": ".py",
+      "bytes": 1131,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/feed_ingest.py",
+      "name": "feed_ingest.py",
+      "ext": ".py",
+      "bytes": 2215,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/flush_drive_queue.py",
+      "name": "flush_drive_queue.py",
+      "ext": ".py",
+      "bytes": 6966,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/host_mode.py",
+      "name": "host_mode.py",
+      "ext": ".py",
+      "bytes": 2823,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/hub_review.py",
+      "name": "hub_review.py",
+      "ext": ".py",
+      "bytes": 913,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/ig_ingest.py",
+      "name": "ig_ingest.py",
+      "ext": ".py",
+      "bytes": 2154,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/implication_retry.py",
+      "name": "implication_retry.py",
+      "ext": ".py",
+      "bytes": 3070,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/imply_fallback.py",
+      "name": "imply_fallback.py",
+      "ext": ".py",
+      "bytes": 2538,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/inbound_classify.py",
+      "name": "inbound_classify.py",
+      "ext": ".py",
+      "bytes": 1531,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/inbound_queue.py",
+      "name": "inbound_queue.py",
+      "ext": ".py",
+      "bytes": 1964,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/ingest_common.py",
+      "name": "ingest_common.py",
+      "ext": ".py",
+      "bytes": 3829,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/instagram_ingest.py",
+      "name": "instagram_ingest.py",
+      "ext": ".py",
+      "bytes": 3213,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/isolate_person.py",
+      "name": "isolate_person.py",
+      "ext": ".py",
+      "bytes": 976,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/keep_path.py",
+      "name": "keep_path.py",
+      "ext": ".py",
+      "bytes": 14362,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/lib/feed_classify.py",
+      "name": "feed_classify.py",
+      "ext": ".py",
+      "bytes": 2587,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/lib/ingest_io.py",
+      "name": "ingest_io.py",
+      "ext": ".py",
+      "bytes": 2849,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/local_video_ingest.py",
+      "name": "local_video_ingest.py",
+      "ext": ".py",
+      "bytes": 2842,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/manual_short_inbox.py",
+      "name": "manual_short_inbox.py",
+      "ext": ".py",
+      "bytes": 3288,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/music_video_ingest.py",
+      "name": "music_video_ingest.py",
+      "ext": ".py",
+      "bytes": 4663,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/mv_resolve.py",
+      "name": "mv_resolve.py",
+      "ext": ".py",
+      "bytes": 3356,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/reel_analyze.py",
+      "name": "reel_analyze.py",
+      "ext": ".py",
+      "bytes": 5694,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/reel_menu.py",
+      "name": "reel_menu.py",
+      "ext": ".py",
+      "bytes": 3844,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/reel_sample.py",
+      "name": "reel_sample.py",
+      "ext": ".py",
+      "bytes": 4037,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/scaleback_loop.py",
+      "name": "scaleback_loop.py",
+      "ext": ".py",
+      "bytes": 801,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/segment_grid.py",
+      "name": "segment_grid.py",
+      "ext": ".py",
+      "bytes": 1821,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/show_path.py",
+      "name": "show_path.py",
+      "ext": ".py",
+      "bytes": 2298,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/smoke_harness.py",
+      "name": "smoke_harness.py",
+      "ext": ".py",
+      "bytes": 9377,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/smoke_split_engine.py",
+      "name": "smoke_split_engine.py",
+      "ext": ".py",
+      "bytes": 1039,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/split_plan.py",
+      "name": "split_plan.py",
+      "ext": ".py",
+      "bytes": 1519,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/step6_drive_flush.py",
+      "name": "step6_drive_flush.py",
+      "ext": ".py",
+      "bytes": 8353,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/tiktok_ingest.py",
+      "name": "tiktok_ingest.py",
+      "ext": ".py",
+      "bytes": 2149,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/upload_buffer.py",
+      "name": "upload_buffer.py",
+      "ext": ".py",
+      "bytes": 5071,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/url_resolver.py",
+      "name": "url_resolver.py",
+      "ext": ".py",
+      "bytes": 2535,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/video_ingest.py",
+      "name": "video_ingest.py",
+      "ext": ".py",
+      "bytes": 3896,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/yt_short_ingest.py",
+      "name": "yt_short_ingest.py",
+      "ext": ".py",
+      "bytes": 7496,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "generate-engine",
+      "relpath": "image-pipeline/references/modules/generate-engine/references/dual-engine-test/rename_artifacts.py",
+      "name": "rename_artifacts.py",
+      "ext": ".py",
+      "bytes": 1168,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "generate-engine",
+      "relpath": "image-pipeline/references/modules/generate-engine/references/functional_bridge.py",
+      "name": "functional_bridge.py",
+      "ext": ".py",
+      "bytes": 3100,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "generate-engine",
+      "relpath": "image-pipeline/references/modules/generate-engine/scripts/engine_hook.py",
+      "name": "engine_hook.py",
+      "ext": ".py",
+      "bytes": 802,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "generate-engine",
+      "relpath": "image-pipeline/references/modules/generate-engine/scripts/extensions_ctl.py",
+      "name": "extensions_ctl.py",
+      "ext": ".py",
+      "bytes": 811,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "generate-engine",
+      "relpath": "image-pipeline/references/modules/generate-engine/scripts/list_apply.py",
+      "name": "list_apply.py",
+      "ext": ".py",
+      "bytes": 799,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "generate-engine",
+      "relpath": "image-pipeline/references/modules/generate-engine/scripts/nl_route.py",
+      "name": "nl_route.py",
+      "ext": ".py",
+      "bytes": 793,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "generate-engine",
+      "relpath": "image-pipeline/references/modules/generate-engine/scripts/pipeline_activate.py",
+      "name": "pipeline_activate.py",
+      "ext": ".py",
+      "bytes": 820,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "generate-engine",
+      "relpath": "image-pipeline/references/modules/generate-engine/scripts/test_activation.py",
+      "name": "test_activation.py",
+      "ext": ".py",
+      "bytes": 814,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "overlay-engine",
+      "relpath": "image-pipeline/references/modules/overlay-engine/references/dual-engine-test/rename_artifacts.py",
+      "name": "rename_artifacts.py",
+      "ext": ".py",
+      "bytes": 1168,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "overlay-engine",
+      "relpath": "image-pipeline/references/modules/overlay-engine/scripts/engine_hook.py",
+      "name": "engine_hook.py",
+      "ext": ".py",
+      "bytes": 801,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "overlay-engine",
+      "relpath": "image-pipeline/references/modules/overlay-engine/scripts/extensions_ctl.py",
+      "name": "extensions_ctl.py",
+      "ext": ".py",
+      "bytes": 810,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "overlay-engine",
+      "relpath": "image-pipeline/references/modules/overlay-engine/scripts/face_merge_prompt_generator.py",
+      "name": "face_merge_prompt_generator.py",
+      "ext": ".py",
+      "bytes": 1691,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "overlay-engine",
+      "relpath": "image-pipeline/references/modules/overlay-engine/scripts/list_apply.py",
+      "name": "list_apply.py",
+      "ext": ".py",
+      "bytes": 798,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "overlay-engine",
+      "relpath": "image-pipeline/references/modules/overlay-engine/scripts/nl_route.py",
+      "name": "nl_route.py",
+      "ext": ".py",
+      "bytes": 792,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "overlay-engine",
+      "relpath": "image-pipeline/references/modules/overlay-engine/scripts/pipeline_activate.py",
+      "name": "pipeline_activate.py",
+      "ext": ".py",
+      "bytes": 819,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "overlay-engine",
+      "relpath": "image-pipeline/references/modules/overlay-engine/scripts/test_activation.py",
+      "name": "test_activation.py",
+      "ext": ".py",
+      "bytes": 813,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "overlay-engine",
+      "relpath": "image-pipeline/references/modules/overlay-engine/scripts/test_call_site.py",
+      "name": "test_call_site.py",
+      "ext": ".py",
+      "bytes": 1620,
+      "executable": false
+    },
+    {
+      "skill": "keep-lake-query",
+      "module": null,
+      "relpath": "keep-lake-query/scripts/lake_date_query.py",
+      "name": "lake_date_query.py",
+      "ext": ".py",
+      "bytes": 5043,
+      "executable": true
+    },
+    {
+      "skill": "lake-erie-gutter-world",
+      "module": null,
+      "relpath": "lake-erie-gutter-world/scripts/drive_interface.py",
+      "name": "drive_interface.py",
+      "ext": ".py",
+      "bytes": 1764,
+      "executable": true
+    },
+    {
+      "skill": "lake-erie-gutter-world",
+      "module": null,
+      "relpath": "lake-erie-gutter-world/scripts/engine_stub.py",
+      "name": "engine_stub.py",
+      "ext": ".py",
+      "bytes": 2426,
+      "executable": true
+    },
+    {
+      "skill": "lake-erie-gutter-world",
+      "module": null,
+      "relpath": "lake-erie-gutter-world/scripts/task_handler.py",
+      "name": "task_handler.py",
+      "ext": ".py",
+      "bytes": 1473,
+      "executable": true
+    },
+    {
+      "skill": "mcp-surface",
+      "module": null,
+      "relpath": "mcp-surface/scripts/status.py",
+      "name": "status.py",
+      "ext": ".py",
+      "bytes": 1271,
+      "executable": true
+    },
+    {
+      "skill": "olivia-dev",
+      "module": null,
+      "relpath": "olivia-dev/scripts/auto-snapshot.sh",
+      "name": "auto-snapshot.sh",
+      "ext": ".sh",
+      "bytes": 446,
+      "executable": true
+    },
+    {
+      "skill": "olivia-dev",
+      "module": null,
+      "relpath": "olivia-dev/scripts/init_project_tree.py",
+      "name": "init_project_tree.py",
+      "ext": ".py",
+      "bytes": 7958,
+      "executable": true
+    },
+    {
+      "skill": "olivia-dev",
+      "module": null,
+      "relpath": "olivia-dev/scripts/promote_to_alpha.py",
+      "name": "promote_to_alpha.py",
+      "ext": ".py",
+      "bytes": 6787,
+      "executable": true
+    },
+    {
+      "skill": "olivia-dev",
+      "module": null,
+      "relpath": "olivia-dev/scripts/tarball-integrity-check.sh",
+      "name": "tarball-integrity-check.sh",
+      "ext": ".sh",
+      "bytes": 834,
+      "executable": true
+    },
+    {
+      "skill": "olivia-dev-alpha",
+      "module": null,
+      "relpath": "olivia-dev-alpha/references/integrations/colab-launcher/notebook_factory.py",
+      "name": "notebook_factory.py",
+      "ext": ".py",
+      "bytes": 4911,
+      "executable": false
+    },
+    {
+      "skill": "olivia-dev-alpha",
+      "module": null,
+      "relpath": "olivia-dev-alpha/references/integrations/colab-launcher/tui.py",
+      "name": "tui.py",
+      "ext": ".py",
+      "bytes": 4079,
+      "executable": false
+    },
+    {
+      "skill": "olivia-dev-alpha",
+      "module": null,
+      "relpath": "olivia-dev-alpha/scripts/auto-snapshot.sh",
+      "name": "auto-snapshot.sh",
+      "ext": ".sh",
+      "bytes": 446,
+      "executable": true
+    },
+    {
+      "skill": "olivia-dev-alpha",
+      "module": null,
+      "relpath": "olivia-dev-alpha/scripts/init_project_tree.py",
+      "name": "init_project_tree.py",
+      "ext": ".py",
+      "bytes": 7958,
+      "executable": true
+    },
+    {
+      "skill": "olivia-dev-alpha",
+      "module": null,
+      "relpath": "olivia-dev-alpha/scripts/lab_tui.py",
+      "name": "lab_tui.py",
+      "ext": ".py",
+      "bytes": 471,
+      "executable": true
+    },
+    {
+      "skill": "olivia-dev-alpha",
+      "module": null,
+      "relpath": "olivia-dev-alpha/scripts/make_colab_notebook.py",
+      "name": "make_colab_notebook.py",
+      "ext": ".py",
+      "bytes": 2242,
+      "executable": true
+    },
+    {
+      "skill": "olivia-dev-alpha",
+      "module": null,
+      "relpath": "olivia-dev-alpha/scripts/session_boot.py",
+      "name": "session_boot.py",
+      "ext": ".py",
+      "bytes": 1591,
+      "executable": true
+    },
+    {
+      "skill": "olivia-dev-alpha",
+      "module": null,
+      "relpath": "olivia-dev-alpha/scripts/tarball-integrity-check.sh",
+      "name": "tarball-integrity-check.sh",
+      "ext": ".sh",
+      "bytes": 834,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/references/debug/audit_debug_status.py",
+      "name": "audit_debug_status.py",
+      "ext": ".py",
+      "bytes": 4515,
+      "executable": false
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/references/debug/envelope_harvest.py",
+      "name": "envelope_harvest.py",
+      "ext": ".py",
+      "bytes": 4258,
+      "executable": false
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/audit_command_protocols.py",
+      "name": "audit_command_protocols.py",
+      "ext": ".py",
+      "bytes": 8314,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/audit_lexicon.py",
+      "name": "audit_lexicon.py",
+      "ext": ".py",
+      "bytes": 8218,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/audit_references_completeness.py",
+      "name": "audit_references_completeness.py",
+      "ext": ".py",
+      "bytes": 22900,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/diagram_skill_structure.py",
+      "name": "diagram_skill_structure.py",
+      "ext": ".py",
+      "bytes": 3371,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/discipline_check.py",
+      "name": "discipline_check.py",
+      "ext": ".py",
+      "bytes": 4477,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/drive_connector_bridge.py",
+      "name": "drive_connector_bridge.py",
+      "ext": ".py",
+      "bytes": 4248,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/emit_stale_facts.py",
+      "name": "emit_stale_facts.py",
+      "ext": ".py",
+      "bytes": 4338,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/inventory_scripts.py",
+      "name": "inventory_scripts.py",
+      "ext": ".py",
+      "bytes": 7492,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/library_export.py",
+      "name": "library_export.py",
+      "ext": ".py",
+      "bytes": 4981,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/migrate_image_pipeline_pack.py",
+      "name": "migrate_image_pipeline_pack.py",
+      "ext": ".py",
+      "bytes": 4092,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/on_skill_change.py",
+      "name": "on_skill_change.py",
+      "ext": ".py",
+      "bytes": 3360,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/package_skills.py",
+      "name": "package_skills.py",
+      "ext": ".py",
+      "bytes": 7247,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/post_change_facts.py",
+      "name": "post_change_facts.py",
+      "ext": ".py",
+      "bytes": 6430,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/prompt_atomizer.py",
+      "name": "prompt_atomizer.py",
+      "ext": ".py",
+      "bytes": 1722,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/publish_all_atom_clouds.py",
+      "name": "publish_all_atom_clouds.py",
+      "ext": ".py",
+      "bytes": 2456,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/search_scripts.py",
+      "name": "search_scripts.py",
+      "ext": ".py",
+      "bytes": 3207,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/session_atom_dump.py",
+      "name": "session_atom_dump.py",
+      "ext": ".py",
+      "bytes": 4814,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/session_skill_tree_dump.py",
+      "name": "session_skill_tree_dump.py",
+      "ext": ".py",
+      "bytes": 4536,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/work_atomizer.py",
+      "name": "work_atomizer.py",
+      "ext": ".py",
+      "bytes": 1843,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/workspace_index.py",
+      "name": "workspace_index.py",
+      "ext": ".py",
+      "bytes": 2127,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/wq_bidir.py",
+      "name": "wq_bidir.py",
+      "ext": ".py",
+      "bytes": 10294,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/wq_delta_publish.py",
+      "name": "wq_delta_publish.py",
+      "ext": ".py",
+      "bytes": 10497,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/wq_edit.py",
+      "name": "wq_edit.py",
+      "ext": ".py",
+      "bytes": 3013,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/wq_full_publish.py",
+      "name": "wq_full_publish.py",
+      "ext": ".py",
+      "bytes": 2097,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/wq_hygiene.py",
+      "name": "wq_hygiene.py",
+      "ext": ".py",
+      "bytes": 3270,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/wq_hygiene_lib.py",
+      "name": "wq_hygiene_lib.py",
+      "ext": ".py",
+      "bytes": 28111,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/wq_registry.py",
+      "name": "wq_registry.py",
+      "ext": ".py",
+      "bytes": 1086,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/wq_validate.py",
+      "name": "wq_validate.py",
+      "ext": ".py",
+      "bytes": 1144,
+      "executable": true
+    },
+    {
+      "skill": "smokeshow",
+      "module": null,
+      "relpath": "smokeshow/candidates/gcm-smoke/__init__.py",
+      "name": "__init__.py",
+      "ext": ".py",
+      "bytes": 34,
+      "executable": false
+    },
+    {
+      "skill": "smokeshow",
+      "module": null,
+      "relpath": "smokeshow/candidates/gcm-smoke/census.py",
+      "name": "census.py",
+      "ext": ".py",
+      "bytes": 3357,
+      "executable": false
+    },
+    {
+      "skill": "smokeshow",
+      "module": null,
+      "relpath": "smokeshow/candidates/gcm-smoke/export_recon.py",
+      "name": "export_recon.py",
+      "ext": ".py",
+      "bytes": 2364,
+      "executable": false
+    },
+    {
+      "skill": "smokeshow",
+      "module": null,
+      "relpath": "smokeshow/candidates/gcm-smoke/export_recon_l8.py",
+      "name": "export_recon_l8.py",
+      "ext": ".py",
+      "bytes": 1989,
+      "executable": false
+    },
+    {
+      "skill": "smokeshow",
+      "module": null,
+      "relpath": "smokeshow/candidates/gcm-smoke/gcm_core.py",
+      "name": "gcm_core.py",
+      "ext": ".py",
+      "bytes": 6786,
+      "executable": false
+    },
+    {
+      "skill": "smokeshow",
+      "module": null,
+      "relpath": "smokeshow/candidates/gcm-smoke/gcm_lib.py",
+      "name": "gcm_lib.py",
+      "ext": ".py",
+      "bytes": 8695,
+      "executable": false
+    },
+    {
+      "skill": "smokeshow",
+      "module": null,
+      "relpath": "smokeshow/candidates/gcm-smoke/lake_batch.py",
+      "name": "lake_batch.py",
+      "ext": ".py",
+      "bytes": 2784,
+      "executable": false
+    },
+    {
+      "skill": "smokeshow",
+      "module": null,
+      "relpath": "smokeshow/candidates/gcm-smoke/lake_batch_vacuum.py",
+      "name": "lake_batch_vacuum.py",
+      "ext": ".py",
+      "bytes": 1249,
+      "executable": false
+    },
+    {
+      "skill": "smokeshow",
+      "module": null,
+      "relpath": "smokeshow/candidates/gcm-smoke/layout.py",
+      "name": "layout.py",
+      "ext": ".py",
+      "bytes": 1515,
+      "executable": false
+    },
+    {
+      "skill": "smokeshow",
+      "module": null,
+      "relpath": "smokeshow/candidates/gcm-smoke/ledger.py",
+      "name": "ledger.py",
+      "ext": ".py",
+      "bytes": 1132,
+      "executable": false
+    },
+    {
+      "skill": "smokeshow",
+      "module": null,
+      "relpath": "smokeshow/candidates/gcm-smoke/mail_filesystem.py",
+      "name": "mail_filesystem.py",
+      "ext": ".py",
+      "bytes": 2042,
+      "executable": false
+    },
+    {
+      "skill": "smokeshow",
+      "module": null,
+      "relpath": "smokeshow/candidates/gcm-smoke/mail_fs.py",
+      "name": "mail_fs.py",
+      "ext": ".py",
+      "bytes": 1514,
+      "executable": false
+    },
+    {
+      "skill": "smokeshow",
+      "module": null,
+      "relpath": "smokeshow/candidates/gcm-smoke/packers.py",
+      "name": "packers.py",
+      "ext": ".py",
+      "bytes": 2162,
+      "executable": false
+    },
+    {
+      "skill": "smokeshow",
+      "module": null,
+      "relpath": "smokeshow/candidates/gcm-smoke/sunset_dry_run.py",
+      "name": "sunset_dry_run.py",
+      "ext": ".py",
+      "bytes": 2483,
+      "executable": false
+    },
+    {
+      "skill": "smokeshow",
+      "module": null,
+      "relpath": "smokeshow/candidates/gcm-smoke/sunset_engine.py",
+      "name": "sunset_engine.py",
+      "ext": ".py",
+      "bytes": 6353,
+      "executable": false
+    },
+    {
+      "skill": "smokeshow",
+      "module": null,
+      "relpath": "smokeshow/candidates/gcm-smoke/sunset_smoke.py",
+      "name": "sunset_smoke.py",
+      "ext": ".py",
+      "bytes": 9314,
+      "executable": false
+    },
+    {
+      "skill": "smokeshow",
+      "module": null,
+      "relpath": "smokeshow/candidates/gcm-smoke/test_gcm.py",
+      "name": "test_gcm.py",
+      "ext": ".py",
+      "bytes": 1742,
+      "executable": false
+    },
+    {
+      "skill": "smokeshow",
+      "module": null,
+      "relpath": "smokeshow/candidates/gcm-smoke/toc_omissions.py",
+      "name": "toc_omissions.py",
+      "ext": ".py",
+      "bytes": 3066,
+      "executable": false
+    },
+    {
+      "skill": "smokeshow",
+      "module": null,
+      "relpath": "smokeshow/notes/archived-candidates/cilia-bus-2026-08-17-to-2026-08-25/bootstrap.py",
+      "name": "bootstrap.py",
+      "ext": ".py",
+      "bytes": 2490,
+      "executable": false
+    },
+    {
+      "skill": "smokeshow",
+      "module": null,
+      "relpath": "smokeshow/notes/archived-candidates/cilia-bus-2026-08-17-to-2026-08-25/cilia_bus/__init__.py",
+      "name": "__init__.py",
+      "ext": ".py",
+      "bytes": 389,
+      "executable": false
+    },
+    {
+      "skill": "smokeshow",
+      "module": null,
+      "relpath": "smokeshow/notes/archived-candidates/cilia-bus-2026-08-17-to-2026-08-25/cilia_bus/__main__.py",
+      "name": "__main__.py",
+      "ext": ".py",
+      "bytes": 79,
+      "executable": false
+    },
+    {
+      "skill": "smokeshow",
+      "module": null,
+      "relpath": "smokeshow/notes/archived-candidates/cilia-bus-2026-08-17-to-2026-08-25/cilia_bus/cli.py",
+      "name": "cli.py",
+      "ext": ".py",
+      "bytes": 1704,
+      "executable": false
+    },
+    {
+      "skill": "smokeshow",
+      "module": null,
+      "relpath": "smokeshow/notes/archived-candidates/cilia-bus-2026-08-17-to-2026-08-25/cilia_bus/models.py",
+      "name": "models.py",
+      "ext": ".py",
+      "bytes": 1637,
+      "executable": false
+    },
+    {
+      "skill": "smokeshow",
+      "module": null,
+      "relpath": "smokeshow/notes/archived-candidates/cilia-bus-2026-08-17-to-2026-08-25/cilia_bus/runner.py",
+      "name": "runner.py",
+      "ext": ".py",
+      "bytes": 1537,
+      "executable": false
+    },
+    {
+      "skill": "smokeshow",
+      "module": null,
+      "relpath": "smokeshow/notes/archived-candidates/cilia-bus-2026-08-17-to-2026-08-25/scripts/run_once.py",
+      "name": "run_once.py",
+      "ext": ".py",
+      "bytes": 1654,
+      "executable": false
+    },
+    {
+      "skill": "smokeshow",
+      "module": null,
+      "relpath": "smokeshow/scripts/smoke_bratz_boot.py",
+      "name": "smoke_bratz_boot.py",
+      "ext": ".py",
+      "bytes": 3867,
+      "executable": true
+    },
+    {
+      "skill": "sovereign-research-engine",
+      "module": null,
+      "relpath": "sovereign-research-engine/generate_metrics.py",
+      "name": "generate_metrics.py",
+      "ext": ".py",
+      "bytes": 2508,
+      "executable": false
+    },
+    {
+      "skill": "sovereign-research-engine",
+      "module": null,
+      "relpath": "sovereign-research-engine/sovereign_engine/audit/__init__.py",
+      "name": "__init__.py",
+      "ext": ".py",
+      "bytes": 185,
+      "executable": false
+    },
+    {
+      "skill": "sovereign-research-engine",
+      "module": null,
+      "relpath": "sovereign-research-engine/sovereign_engine/audit/module_4_adversarial_auditor.py",
+      "name": "module_4_adversarial_auditor.py",
+      "ext": ".py",
+      "bytes": 5655,
+      "executable": false
+    },
+    {
+      "skill": "sovereign-research-engine",
+      "module": null,
+      "relpath": "sovereign-research-engine/sovereign_engine/cli/__init__.py",
+      "name": "__init__.py",
+      "ext": ".py",
+      "bytes": 48,
+      "executable": false
+    },
+    {
+      "skill": "sovereign-research-engine",
+      "module": null,
+      "relpath": "sovereign-research-engine/sovereign_engine/cli/main.py",
+      "name": "main.py",
+      "ext": ".py",
+      "bytes": 4986,
+      "executable": false
+    },
+    {
+      "skill": "sovereign-research-engine",
+      "module": null,
+      "relpath": "sovereign-research-engine/sovereign_engine/core/__init__.py",
+      "name": "__init__.py",
+      "ext": ".py",
+      "bytes": 68,
+      "executable": false
+    },
+    {
+      "skill": "sovereign-research-engine",
+      "module": null,
+      "relpath": "sovereign-research-engine/sovereign_engine/core/llm.py",
+      "name": "llm.py",
+      "ext": ".py",
+      "bytes": 14185,
+      "executable": false
+    },
+    {
+      "skill": "sovereign-research-engine",
+      "module": null,
+      "relpath": "sovereign-research-engine/sovereign_engine/core/models.py",
+      "name": "models.py",
+      "ext": ".py",
+      "bytes": 8864,
+      "executable": false
+    },
+    {
+      "skill": "sovereign-research-engine",
+      "module": null,
+      "relpath": "sovereign-research-engine/sovereign_engine/curation/__init__.py",
+      "name": "__init__.py",
+      "ext": ".py",
+      "bytes": 206,
+      "executable": false
+    },
+    {
+      "skill": "sovereign-research-engine",
+      "module": null,
+      "relpath": "sovereign-research-engine/sovereign_engine/curation/module_5_git_curator.py",
+      "name": "module_5_git_curator.py",
+      "ext": ".py",
+      "bytes": 8981,
+      "executable": false
+    },
+    {
+      "skill": "sovereign-research-engine",
+      "module": null,
+      "relpath": "sovereign-research-engine/sovereign_engine/floor/__init__.py",
+      "name": "__init__.py",
+      "ext": ".py",
+      "bytes": 186,
+      "executable": false
+    },
+    {
+      "skill": "sovereign-research-engine",
+      "module": null,
+      "relpath": "sovereign-research-engine/sovereign_engine/floor/module_0_deconfliction.py",
+      "name": "module_0_deconfliction.py",
+      "ext": ".py",
+      "bytes": 7078,
+      "executable": false
+    },
+    {
+      "skill": "sovereign-research-engine",
+      "module": null,
+      "relpath": "sovereign-research-engine/sovereign_engine/navigator/__init__.py",
+      "name": "__init__.py",
+      "ext": ".py",
+      "bytes": 177,
+      "executable": false
+    },
+    {
+      "skill": "sovereign-research-engine",
+      "module": null,
+      "relpath": "sovereign-research-engine/sovereign_engine/navigator/module_6_forest_navigator.py",
+      "name": "module_6_forest_navigator.py",
+      "ext": ".py",
+      "bytes": 2673,
+      "executable": false
+    },
+    {
+      "skill": "sovereign-research-engine",
+      "module": null,
+      "relpath": "sovereign-research-engine/sovereign_engine/orchestrator/__init__.py",
+      "name": "__init__.py",
+      "ext": ".py",
+      "bytes": 167,
+      "executable": false
+    },
+    {
+      "skill": "sovereign-research-engine",
+      "module": null,
+      "relpath": "sovereign-research-engine/sovereign_engine/orchestrator/engine.py",
+      "name": "engine.py",
+      "ext": ".py",
+      "bytes": 6682,
+      "executable": false
+    },
+    {
+      "skill": "sovereign-research-engine",
+      "module": null,
+      "relpath": "sovereign-research-engine/sovereign_engine/sensors/__init__.py",
+      "name": "__init__.py",
+      "ext": ".py",
+      "bytes": 295,
+      "executable": false
+    },
+    {
+      "skill": "sovereign-research-engine",
+      "module": null,
+      "relpath": "sovereign-research-engine/sovereign_engine/sensors/module_1_agnostic.py",
+      "name": "module_1_agnostic.py",
+      "ext": ".py",
+      "bytes": 2415,
+      "executable": false
+    },
+    {
+      "skill": "sovereign-research-engine",
+      "module": null,
+      "relpath": "sovereign-research-engine/sovereign_engine/sensors/module_2_constrained.py",
+      "name": "module_2_constrained.py",
+      "ext": ".py",
+      "bytes": 2508,
+      "executable": false
+    },
+    {
+      "skill": "sovereign-research-engine",
+      "module": null,
+      "relpath": "sovereign-research-engine/sovereign_engine/synthesis/__init__.py",
+      "name": "__init__.py",
+      "ext": ".py",
+      "bytes": 188,
+      "executable": false
+    },
+    {
+      "skill": "sovereign-research-engine",
+      "module": null,
+      "relpath": "sovereign-research-engine/sovereign_engine/synthesis/module_3_multimodal.py",
+      "name": "module_3_multimodal.py",
+      "ext": ".py",
+      "bytes": 2044,
+      "executable": false
+    },
+    {
+      "skill": "sovereign-research-engine",
+      "module": null,
+      "relpath": "sovereign-research-engine/tests/smoke_test.py",
+      "name": "smoke_test.py",
+      "ext": ".py",
+      "bytes": 2067,
+      "executable": false
+    },
+    {
+      "skill": "sovereign-research-engine",
+      "module": null,
+      "relpath": "sovereign-research-engine/tests/test_harness.py",
+      "name": "test_harness.py",
+      "ext": ".py",
+      "bytes": 6694,
+      "executable": false
+    },
+    {
+      "skill": "sovereign-research-engine",
+      "module": null,
+      "relpath": "sovereign-research-engine/tests/test_modules.py",
+      "name": "test_modules.py",
+      "ext": ".py",
+      "bytes": 5206,
+      "executable": false
+    },
+    {
+      "skill": "swarm-surface",
+      "module": null,
+      "relpath": "swarm-surface/scripts/status.py",
+      "name": "status.py",
+      "ext": ".py",
+      "bytes": 542,
+      "executable": true
+    },
+    {
+      "skill": "swarm-surface",
+      "module": "miner",
+      "relpath": "swarm-surface/references/modules/miner/scripts/visible_mining_engine.py",
+      "name": "visible_mining_engine.py",
+      "ext": ".py",
+      "bytes": 3445,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/etl-xai-export-designs-2026/update_manifest.py",
+      "name": "update_manifest.py",
+      "ext": ".py",
+      "bytes": 5716,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/multi-llm-sync/scripts/check_drive_capabilities.py",
+      "name": "check_drive_capabilities.py",
+      "ext": ".py",
+      "bytes": 975,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/multi-llm-sync/scripts/check_queue.py",
+      "name": "check_queue.py",
+      "ext": ".py",
+      "bytes": 1892,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/multi-llm-sync/scripts/list_published.py",
+      "name": "list_published.py",
+      "ext": ".py",
+      "bytes": 969,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/multi-llm-sync/scripts/post_message.py",
+      "name": "post_message.py",
+      "ext": ".py",
+      "bytes": 3508,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/tool-shelf/scripts/community_post_fetch.py",
+      "name": "community_post_fetch.py",
+      "ext": ".py",
+      "bytes": 8203,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/tool-shelf/scripts/hydrate.sh",
+      "name": "hydrate.sh",
+      "ext": ".sh",
+      "bytes": 319,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/tool-shelf/scripts/yt_short_ingest.py",
+      "name": "yt_short_ingest.py",
+      "ext": ".py",
+      "bytes": 7496,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/two-way-pointers/pointers.py",
+      "name": "pointers.py",
+      "ext": ".py",
+      "bytes": 5128,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/hygiene-console/src/lib/app-data/app-data.test.ts",
+      "name": "app-data.test.ts",
+      "ext": ".ts",
+      "bytes": 11834,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/hygiene-console/src/lib/app-data/client.server.ts",
+      "name": "client.server.ts",
+      "ext": ".ts",
+      "bytes": 9879,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/hygiene-console/src/lib/app-data/errors.ts",
+      "name": "errors.ts",
+      "ext": ".ts",
+      "bytes": 1377,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/hygiene-console/src/lib/app-data/index.ts",
+      "name": "index.ts",
+      "ext": ".ts",
+      "bytes": 398,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/hygiene-console/src/lib/app-data/login.ts",
+      "name": "login.ts",
+      "ext": ".ts",
+      "bytes": 719,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/hygiene-console/src/lib/app-data/server-only.ts",
+      "name": "server-only.ts",
+      "ext": ".ts",
+      "bytes": 476,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/hygiene-console/src/lib/app-data/types.ts",
+      "name": "types.ts",
+      "ext": ".ts",
+      "bytes": 968,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/hygiene-console/src/lib/auth/client.ts",
+      "name": "client.ts",
+      "ext": ".ts",
+      "bytes": 9714,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/hygiene-console/src/lib/auth/email-password.ts",
+      "name": "email-password.ts",
+      "ext": ".ts",
+      "bytes": 442,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/hygiene-console/src/lib/auth/gate-identity.server.ts",
+      "name": "gate-identity.server.ts",
+      "ext": ".ts",
+      "bytes": 4982,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/hygiene-console/src/lib/auth/gate-identity.test.ts",
+      "name": "gate-identity.test.ts",
+      "ext": ".ts",
+      "bytes": 9499,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/hygiene-console/src/lib/auth/gate-session.server.ts",
+      "name": "gate-session.server.ts",
+      "ext": ".ts",
+      "bytes": 10125,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/hygiene-console/src/lib/auth/isolation.server.ts",
+      "name": "isolation.server.ts",
+      "ext": ".ts",
+      "bytes": 2386,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/hygiene-console/src/lib/auth/middleware.ts",
+      "name": "middleware.ts",
+      "ext": ".ts",
+      "bytes": 2462,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/hygiene-console/src/lib/auth/pglite-dialect.ts",
+      "name": "pglite-dialect.ts",
+      "ext": ".ts",
+      "bytes": 4088,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/hygiene-console/src/lib/auth/popup.server.ts",
+      "name": "popup.server.ts",
+      "ext": ".ts",
+      "bytes": 6133,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/hygiene-console/src/lib/auth/preview.ts",
+      "name": "preview.ts",
+      "ext": ".ts",
+      "bytes": 1679,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/hygiene-console/src/lib/auth/providers.ts",
+      "name": "providers.ts",
+      "ext": ".ts",
+      "bytes": 1486,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/hygiene-console/src/lib/auth/server.ts",
+      "name": "server.ts",
+      "ext": ".ts",
+      "bytes": 12548,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/hygiene-console/src/lib/auth/use-current-user.ts",
+      "name": "use-current-user.ts",
+      "ext": ".ts",
+      "bytes": 3315,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/hygiene-console/src/lib/auth/verify.server.ts",
+      "name": "verify.server.ts",
+      "ext": ".ts",
+      "bytes": 3874,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/hygiene-console/src/lib/db.ts",
+      "name": "db.ts",
+      "ext": ".ts",
+      "bytes": 9525,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/hygiene-console/src/lib/hygiene/types.ts",
+      "name": "types.ts",
+      "ext": ".ts",
+      "bytes": 1443,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/hygiene-console/src/lib/multiplayer/index.ts",
+      "name": "index.ts",
+      "ext": ".ts",
+      "bytes": 169,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/hygiene-console/src/lib/multiplayer/p2p.ts",
+      "name": "p2p.ts",
+      "ext": ".ts",
+      "bytes": 20579,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/hygiene-console/src/lib/preview-embedder-origin.ts",
+      "name": "preview-embedder-origin.ts",
+      "ext": ".ts",
+      "bytes": 1855,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/hygiene-console/src/lib/preview-host-bridge.ts",
+      "name": "preview-host-bridge.ts",
+      "ext": ".ts",
+      "bytes": 8723,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/hygiene-console/src/lib/utils.ts",
+      "name": "utils.ts",
+      "ext": ".ts",
+      "bytes": 169,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/hygiene-console/src/routeTree.gen.ts",
+      "name": "routeTree.gen.ts",
+      "ext": ".ts",
+      "bytes": 1741,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/hygiene-console/startup.sh",
+      "name": "startup.sh",
+      "ext": ".sh",
+      "bytes": 191,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/scripts/drive_connector_bridge.py",
+      "name": "drive_connector_bridge.py",
+      "ext": ".py",
+      "bytes": 4248,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/scripts/session_atom_dump.py",
+      "name": "session_atom_dump.py",
+      "ext": ".py",
+      "bytes": 4814,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/scripts/session_skill_tree_dump.py",
+      "name": "session_skill_tree_dump.py",
+      "ext": ".py",
+      "bytes": 4536,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/references/work-queue-surface/scripts/wq_delta_publish.py",
+      "name": "wq_delta_publish.py",
+      "ext": ".py",
+      "bytes": 10497,
+      "executable": false
+    },
+    {
+      "skill": "system-roadmap",
+      "module": null,
+      "relpath": "system-roadmap/scripts/ost.py",
+      "name": "ost.py",
+      "ext": ".py",
+      "bytes": 9600,
+      "executable": true
+    },
+    {
+      "skill": "video-strategy-debrief",
+      "module": null,
+      "relpath": "video-strategy-debrief/scripts/extract_decision_ops.py",
+      "name": "extract_decision_ops.py",
+      "ext": ".py",
+      "bytes": 4583,
+      "executable": true
+    },
+    {
+      "skill": "video-strategy-debrief",
+      "module": null,
+      "relpath": "video-strategy-debrief/scripts/transcript_acquire.py",
+      "name": "transcript_acquire.py",
+      "ext": ".py",
+      "bytes": 5499,
+      "executable": true
+    },
+    {
+      "skill": "wheelhouse-packager",
+      "module": null,
+      "relpath": "wheelhouse-packager/scripts/build_wheelhouse.py",
+      "name": "build_wheelhouse.py",
+      "ext": ".py",
+      "bytes": 8260,
+      "executable": true
+    },
+    {
+      "skill": "wheelhouse-packager",
+      "module": null,
+      "relpath": "wheelhouse-packager/scripts/split_zip.py",
+      "name": "split_zip.py",
+      "ext": ".py",
+      "bytes": 12090,
+      "executable": true
+    }
+  ]
+}

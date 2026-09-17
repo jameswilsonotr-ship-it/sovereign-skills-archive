@@ -1,0 +1,26 @@
+{
+  "id": "preset.style.nobuyoshi-araki-raw-chaotic-claim",
+  "name": "Nobuyoshi Araki Raw Chaotic Claim",
+  "version": "1.0.0",
+  "description": "Raw, visceral, unfiltered erotic intensity in the tradition of Nobuyoshi Araki.",
+  "tags": [
+    "preset",
+    "araki",
+    "raw",
+    "chaotic"
+  ],
+  "chain": [
+    {
+      "pack": "photographer.nobuyoshi-araki",
+      "weight": 1.0
+    },
+    {
+      "pack": "atmosphere.raw-chaotic",
+      "weight": 0.95
+    },
+    {
+      "pack": "atmosphere.possessive-claim",
+      "weight": 0.8
+    }
+  ]
+}

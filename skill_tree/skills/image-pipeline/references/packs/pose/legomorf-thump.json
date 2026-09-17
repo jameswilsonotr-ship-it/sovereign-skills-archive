@@ -1,0 +1,33 @@
+{
+  "id": "pose.legomorf-thump",
+  "kind": "pose",
+  "name": "Legomorf Thump",
+  "version": "0.1.0",
+  "status": "draft",
+  "source": "oryctolagus-legomorf",
+  "ticket": "IP-WQ-097",
+  "tags": [
+    "pose",
+    "legomorf",
+    "lagomorph",
+    "bunny"
+  ],
+  "prompt_terms": [
+    {
+      "term": "hind-foot alarm slam as a pose cue",
+      "variance": 0.25,
+      "weight": 1.0
+    },
+    {
+      "term": "rare, not a costume rabbit foot",
+      "variance": 0.35,
+      "weight": 0.85
+    }
+  ],
+  "content": {
+    "taxonomy": "structural",
+    "origin": "Oryctolagus rest scale, woman stays a woman",
+    "name_lock": "Legomorf"
+  },
+  "created": "2026-09-03T01:35:23-04:00"
+}

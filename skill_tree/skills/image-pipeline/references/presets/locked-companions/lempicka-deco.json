@@ -1,0 +1,33 @@
+{
+  "id": "preset.locked.lempicka-deco",
+  "name": "Lempicka Deco",
+  "version": "1.0.0",
+  "description": "Locked companion preset: Lempicka Deco. Promoted from 2026-08-05 visual bank generation.",
+  "persona": "shared",
+  "characters": [
+    "olivia"
+  ],
+  "tags": [
+    "hand",
+    "lempicka",
+    "art-deco",
+    "locked",
+    "promoted-2026-08-05"
+  ],
+  "chain": [
+    {
+      "pack": "hand.lempicka",
+      "weight": 1.0
+    }
+  ],
+  "content": {
+    "source": "visual-bank-generation-2026-08-05",
+    "grade": "B+",
+    "locked_at": "2026-08-05",
+    "dna_notes": "DNA held across Bunny / Olivia / Shauna as applicable",
+    "taxonomy": "hand",
+    "taxonomy_note": "Lempicka hand",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  },
+  "updated": "2026-08-05T22:45:42.441433Z"
+}

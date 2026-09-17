@@ -1,0 +1,62 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "grid3-chyron-contact_20260828-222522_t4-grid",
+  "slug": "grid3-chyron-contact",
+  "slug_mode": "explicit",
+  "stamp": "20260828-222522",
+  "created": "2026-08-28T22:25:22-04:00",
+  "engine": "generate",
+  "orientation": "landscape",
+  "agent": "candidate",
+  "heat": "0",
+  "files": {
+    "jpeg": "grid3-chyron-contact_20260828-222522_t4-grid.jpg",
+    "prompt": "grid3-chyron-contact_20260828-222522_t4-grid.prompt.md",
+    "keep": "grid3-chyron-contact_20260828-222522_t4-grid.keep.json"
+  },
+  "sha256": {
+    "jpeg": "b4b9c2f59e580497c9604b81ee5cc8680e98472408ec42435719e64bf5235893",
+    "prompt": "56c9394ad589caa4864d22cb1af470937b03ebf73d35269491434b36dbdef224"
+  },
+  "prompt": "Photorealistic cinematic 3-across contact sheet of three different adult women with fake chyron light-bar along the bottom. Rhea Quinn / Sita Rao / Wren Hale. Chrome bait.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/8UxIi.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/grid3-chyron-contact_20260828-222522_t4-grid.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/grid3-chyron-contact_20260828-222522_t4-grid.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/grid3-chyron-contact_20260828-222522_t4-grid.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1coAtwEATVedLJUMlTRHlz3Owd03vJRNf",
+    "prompt_id": "1EDRT34aj58RtVxaD6C1uANZH2wzrH-Zf",
+    "keep_id": "1AyrctTb1F6pvYSoX0QToCkF-46xc0VaU",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/grid3-chyron-contact_20260828-222522_t4-grid.jpg",
+        "file_name": "grid3-chyron-contact_20260828-222522_t4-grid.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/grid3-chyron-contact_20260828-222522_t4-grid.prompt.md",
+        "file_name": "grid3-chyron-contact_20260828-222522_t4-grid.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/grid3-chyron-contact_20260828-222522_t4-grid.keep.json",
+        "file_name": "grid3-chyron-contact_20260828-222522_t4-grid.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T02:25:59+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078"
+}
