@@ -7,8 +7,8 @@
 <!-- Required for every PR that implements or changes behavior. List every
      applicable OpenSpec acceptance-criteria ID, such as AC-001, AC-002. -->
 
-- OpenSpec change/spec: 
-- OpenSpec AC IDs: 
+- OpenSpec change/spec:
+- OpenSpec AC IDs:
 - [ ] Each applicable acceptance criterion is implemented and verified.
 
 ## Testing
