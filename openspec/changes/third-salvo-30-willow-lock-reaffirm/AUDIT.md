@@ -1,7 +1,7 @@
 # Willow lock reaffirmation audit
 
-**Atomic change:** `third-salvo-30-willow-lock-reaffirm`  
-**Slot:** `T3-30`  
+**Atomic change:** `third-salvo-30-willow-lock-reaffirm`
+**Slot:** `T3-30`
 **Decision:** `INCLUDED` for `Ultra` only
 
 ## Audit result

@@ -1,8 +1,8 @@
 # Receipt — T3-30 Willow lock reaffirmation
 
-**Atomic change:** `third-salvo-30-willow-lock-reaffirm`  
-**Slot:** `T3-30`  
-**Disposition:** `INCLUDED` for `Ultra` only  
+**Atomic change:** `third-salvo-30-willow-lock-reaffirm`
+**Slot:** `T3-30`
+**Disposition:** `INCLUDED` for `Ultra` only
 **Audit mode:** repository-local and documentation-only
 
 ## Delivered
