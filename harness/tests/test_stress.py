@@ -26,6 +26,7 @@ ACCOUNT_BOUND_CONNECTORS = (
     LinearConnector,
     GmailConnector,
 )
+CONCURRENT_CALLS = 500
 
 
 def test_composio_fixture_account_ids_are_wired(
@@ -82,7 +83,7 @@ def test_malformed_account_ids_are_rejected(
             connector(account_id=bad_account_id)
 
 
-def test_concurrent_dummy_connector_calls_are_logged_x100(
+def test_concurrent_dummy_connector_calls_are_logged_x500(
     call_log,
     composio_account_ids: dict[str, str | dict[str, str]],
 ) -> None:
@@ -95,7 +96,7 @@ def test_concurrent_dummy_connector_calls_are_logged_x100(
     ]
     jobs = [
         (*account_pairs[sequence % len(account_pairs)], sequence)
-        for sequence in range(100)
+        for sequence in range(CONCURRENT_CALLS)
     ]
 
     def call(job: tuple[str, str, int]) -> dict[str, Any]:
@@ -132,11 +133,16 @@ def test_concurrent_dummy_connector_calls_are_logged_x100(
             limit=1,
         )
 
-    with ThreadPoolExecutor(max_workers=32) as executor:
+    with ThreadPoolExecutor(max_workers=64) as executor:
         responses = list(executor.map(call, jobs))
 
-    assert len(responses) == 100
-    assert call_log.count() == 100
+    assert len(responses) == CONCURRENT_CALLS
+    assert call_log.count() == CONCURRENT_CALLS
+    request_tokens = {
+        request["query"] if "query" in request else request["status"]
+        for request in (response["request"] for response in responses)
+    }
+    assert request_tokens == {f"fixture:{sequence}" for sequence in range(CONCURRENT_CALLS)}
     rows = call_log.connection.execute(
         """
         SELECT connector, account_id, COUNT(*)
@@ -146,7 +152,7 @@ def test_concurrent_dummy_connector_calls_are_logged_x100(
         """
     ).fetchall()
     expected_counts = Counter(
-        account_pairs[index % len(account_pairs)] for index in range(100)
+        account_pairs[index % len(account_pairs)] for index in range(CONCURRENT_CALLS)
     )
     assert Counter(
         (connector, account_id, count) for connector, account_id, count in rows
