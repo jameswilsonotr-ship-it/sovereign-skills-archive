@@ -1,8 +1,8 @@
 # SPEC-019 — Phone Intent Default Deny
 
-**Status:** Draft  
-**Scope:** Phone-originated intent handling  
-**Change type:** Specification only  
+**Status:** Draft
+**Scope:** Phone-originated intent handling
+**Change type:** Specification only
 **Atomicity:** This file is the atomic contract for the default-deny phone
 intent boundary. It does not authorize implementation, rollout, or external
 side effects.
