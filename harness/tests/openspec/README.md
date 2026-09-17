@@ -44,4 +44,3 @@ after these contracts are implemented; a passing stub is not production proof.
 | ES-016 | `test_es_016_stub_source_remains_unresolved` | Empty source remains unresolved, not fabricated |
 | ES-017 | `test_es_017_source_conflict_is_returned_with_refs` | Contradictory sources return conflict refs |
 | OP-007 | `test_op_007_trace_continuity_across_escalation` | One trace links phone, gateway, store, queue, and wake |
-

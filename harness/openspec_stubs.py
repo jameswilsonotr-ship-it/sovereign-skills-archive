@@ -442,4 +442,3 @@ class _UnimplementedProxy:
 
 class UnimplementedHarness(_UnimplementedProxy):
     """Red-phase backend used to prove the acceptance tests are meaningful."""
-
