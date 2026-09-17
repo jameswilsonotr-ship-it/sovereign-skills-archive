@@ -1,0 +1,68 @@
+{
+  "id": "wardrobe.black-arena-cutout-onepiece",
+  "kind": "wardrobe",
+  "name": "Black Arena Cutout One-Piece",
+  "version": "0.1.4",
+  "status": "draft",
+  "source": "agentify-scrape",
+  "ticket": "IP-WQ-094",
+  "tags": [
+    "wardrobe",
+    "agentify",
+    "black-arena-cutout-onepiece"
+  ],
+  "prompt_terms": [
+    {
+      "term": "black competitive one-piece swimsuit",
+      "variance": 0.25,
+      "weight": 1.0
+    },
+    {
+      "term": "high-cut legs and deep side cutouts",
+      "variance": 0.4,
+      "weight": 0.8
+    },
+    {
+      "term": "small pink arena chest logo",
+      "variance": 0.4,
+      "weight": 0.8
+    }
+  ],
+  "instances": [
+    {
+      "who": "storm-diver",
+      "set": "cand-storm-diver",
+      "role": "hero",
+      "src": "/home/workdir/artifacts/inbound/cand-storm-diver_20260903-010411/00_hero.png",
+      "at": "2026-09-03T01:15:39-04:00"
+    },
+    {
+      "who": "storm-diver",
+      "set": "cand-storm-diver",
+      "role": "three_quarter",
+      "src": "/home/workdir/artifacts/inbound/cand-storm-diver_20260903-010411/01_three_quarter.png",
+      "at": "2026-09-03T01:15:39-04:00"
+    },
+    {
+      "who": "storm-diver",
+      "set": "cand-storm-diver",
+      "role": "dive_prep",
+      "src": "/home/workdir/artifacts/inbound/cand-storm-diver_20260903-010411/02_dive_prep.png",
+      "at": "2026-09-03T01:15:39-04:00"
+    },
+    {
+      "who": "storm-diver",
+      "set": "cand-storm-diver",
+      "role": "pike_dive",
+      "src": "/home/workdir/artifacts/inbound/cand-storm-diver_20260903-010411/03_pike_dive.png",
+      "at": "2026-09-03T01:15:39-04:00"
+    }
+  ],
+  "n": 4,
+  "created": "2026-09-03T01:15:39-04:00",
+  "updated": "2026-09-03T01:15:48-04:00",
+  "content": {
+    "taxonomy": "wardrobe",
+    "origin": "inbound still scrape"
+  }
+}

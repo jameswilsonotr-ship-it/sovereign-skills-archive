@@ -1,0 +1,21 @@
+{
+  "id": "pose.tongue-out",
+  "kind": "pose",
+  "name": "Tongue Out",
+  "version": "0.1.0",
+  "status": "draft",
+  "description": "Signature Girls Club pose variant. Adult cousin only. Playful tongue, one eye wink optional, Titan bun lock. Not livestock. Costume attitude only.",
+  "tags": ["pose", "signature", "tongue-out", "girls-club", "cousin"],
+  "wardrobe_lock": "inherits-parent",
+  "identity_rule": "cousin-generate only. No named Facebook face. No chrome.",
+  "prompt_terms": [
+    {"term": "playful tongue slightly out, one eye half-wink", "variance": 0.25, "weight": 1.0},
+    {"term": "Titan bun: messy half-up honey-blonde volume bun", "variance": 0.2, "weight": 1.0}
+  ],
+  "heat": {
+    "A": "cute-goof first",
+    "B": "heat-2, still playful not porn-face"
+  },
+  "parent": "pose.jumpsuit-knowing-lean",
+  "source": "public screenshot collage cell, identity stripped 2026-08-31"
+}

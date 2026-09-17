@@ -1,0 +1,22 @@
+{
+  "id": "preset.style.ralph-gibson-surreal-high-contrast-fragment",
+  "name": "Ralph Gibson Surreal High-Contrast Fragment",
+  "version": "1.0.0",
+  "description": "Surrealistic black-and-white high-contrast abstract compositions in the tradition of Ralph Gibson.",
+  "tags": [
+    "preset",
+    "ralph-gibson",
+    "surreal",
+    "fragment"
+  ],
+  "chain": [
+    {
+      "pack": "photographer.ralph-gibson",
+      "weight": 1.0
+    },
+    {
+      "pack": "treatment.surreal-high-contrast-fragment",
+      "weight": 0.95
+    }
+  ]
+}

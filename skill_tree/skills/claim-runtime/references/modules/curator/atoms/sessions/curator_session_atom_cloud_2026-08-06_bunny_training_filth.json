@@ -1,0 +1,453 @@
+{
+  "cloud": "porn_curator_session",
+  "schema_version": "0.4.0-session",
+  "updated": "2026-08-06T17:24:59.151986+00:00",
+  "description": "Local session-only Atom Cloud populated with the filthy training, BDSM, control-matrix, Character Bible, metrics, and engine content from the long multi-month conversation. Session overlay only \u2014 not promoted to canonical.",
+  "architecture_notes": {
+    "layer": "session_overlay",
+    "canonical_target": "claim-runtime/references/modules/curator/atoms/canonical/curator_atom_cloud.json",
+    "promote_policy": "explicit union + promote only; never auto-overwrite global",
+    "source_conversation": "full training + BDSM + schema + vacuum conversation archive"
+  },
+  "atom_count": 15,
+  "atoms": [
+    {
+      "id": "anal-conditioning-progressive",
+      "atom": "Progressive anal training as both skill development and ownership control. Soft silicone sleeves, medical-grade autoclave for metal, vibration-only reward tones, SpO2 safety limits, yellow-light verbal cues. Goal: highly skilled, highly conditioned anal fuck-toy capacity under RACK.",
+      "owner": "olivia",
+      "excitement": 10,
+      "kind": "hybrid",
+      "created_ts": "2026-08-06T17:24:59.151986+00:00",
+      "last_interaction": "2026-08-06T17:24:59.151986+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T17:24:59.151986+00:00",
+          "actor": "olivia",
+          "note": "extracted from full training protocol conversation"
+        }
+      ],
+      "tags": [
+        "anal",
+        "training",
+        "conditioning",
+        "safety",
+        "rack",
+        "ownership"
+      ],
+      "related": [
+        "breeding-ache-core",
+        "coregasm-sissygasm"
+      ],
+      "source": "long training + BDSM conversation archive 2026",
+      "status": "active",
+      "char_len": 283
+    },
+    {
+      "id": "breeding-ache-core",
+      "atom": "Persistent breeding ache as primary psychological driver. Bunny framed as desperate to be a girl and willing to fuck anything that moves. Used across Character Bibles, control matrices, and reward tiers (denial to light tease to full feral breeding).",
+      "owner": "olivia",
+      "excitement": 10,
+      "kind": "psychological",
+      "created_ts": "2026-08-06T17:24:59.151986+00:00",
+      "last_interaction": "2026-08-06T17:24:59.151986+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T17:24:59.151986+00:00",
+          "actor": "olivia",
+          "note": "core driver extracted"
+        }
+      ],
+      "tags": [
+        "breeding-ache",
+        "psychological",
+        "desperation",
+        "availability"
+      ],
+      "related": [
+        "anal-conditioning-progressive",
+        "chastity-denial-heat"
+      ],
+      "source": "long training + BDSM conversation archive 2026",
+      "status": "active",
+      "char_len": 250
+    },
+    {
+      "id": "chastity-denial-heat",
+      "atom": "Chastity, denial, and heat-locked states as ongoing control. Reward ladder escalates from denial/clit slaps to light tease/grinding to full size-amp knot-deep feral breeding based on daily task completion and metric adherence.",
+      "owner": "olivia",
+      "excitement": 9,
+      "kind": "kink",
+      "created_ts": "2026-08-06T17:24:59.151986+00:00",
+      "last_interaction": "2026-08-06T17:24:59.151986+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T17:24:59.151986+00:00",
+          "actor": "olivia",
+          "note": "reward structure extracted"
+        }
+      ],
+      "tags": [
+        "chastity",
+        "denial",
+        "heat",
+        "reward-ladder",
+        "breeding"
+      ],
+      "related": [
+        "breeding-ache-core"
+      ],
+      "source": "long training + BDSM conversation archive 2026",
+      "status": "active",
+      "char_len": 226
+    },
+    {
+      "id": "coregasm-sissygasm",
+      "atom": "Coregasm / sissygasm training integrated into the 72-week timeline and tantric techniques. Treated as measurable progress metric inside Symmetry-Slut / Potential scoring.",
+      "owner": "olivia",
+      "excitement": 9,
+      "kind": "kink",
+      "created_ts": "2026-08-06T17:24:59.151986+00:00",
+      "last_interaction": "2026-08-06T17:24:59.151986+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T17:24:59.151986+00:00",
+          "actor": "olivia",
+          "note": "orgasm conditioning extracted"
+        }
+      ],
+      "tags": [
+        "coregasm",
+        "sissygasm",
+        "orgasm-training",
+        "tantric"
+      ],
+      "related": [
+        "anal-conditioning-progressive"
+      ],
+      "source": "long training + BDSM conversation archive 2026",
+      "status": "active",
+      "char_len": 170
+    },
+    {
+      "id": "control-matrix-no-money",
+      "atom": "No-money survival control matrix: all goods and services obtainable only through sexual service. Applied across historical and modern Character Bibles as a pure sexual-servitude lever.",
+      "owner": "olivia",
+      "excitement": 8,
+      "kind": "system_use",
+      "created_ts": "2026-08-06T17:24:59.151986+00:00",
+      "last_interaction": "2026-08-06T17:24:59.151986+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T17:24:59.151986+00:00",
+          "actor": "olivia",
+          "note": "control axis extracted"
+        }
+      ],
+      "tags": [
+        "control-matrix",
+        "no-money",
+        "sexual-servitude",
+        "historical"
+      ],
+      "related": [
+        "control-matrix-addiction",
+        "control-matrix-shame"
+      ],
+      "source": "long training + BDSM conversation archive 2026",
+      "status": "active",
+      "char_len": 184
+    },
+    {
+      "id": "control-matrix-addiction",
+      "atom": "Addiction control matrix (fentanyl, cocaine, MDMA/LSD, alcohol, opium classes) applied historically. Creates dependency that routes through sexual availability and handler control while remaining inside CNC/RACK container.",
+      "owner": "olivia",
+      "excitement": 8,
+      "kind": "system_use",
+      "created_ts": "2026-08-06T17:24:59.151986+00:00",
+      "last_interaction": "2026-08-06T17:24:59.151986+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T17:24:59.151986+00:00",
+          "actor": "olivia",
+          "note": "control axis extracted"
+        }
+      ],
+      "tags": [
+        "control-matrix",
+        "addiction",
+        "dependency",
+        "historical"
+      ],
+      "related": [
+        "control-matrix-no-money"
+      ],
+      "source": "long training + BDSM conversation archive 2026",
+      "status": "active",
+      "char_len": 222
+    },
+    {
+      "id": "control-matrix-shame",
+      "atom": "Religious shame / family honor / social ostracism / blackmail / debt / legal entrapment as control axes. Produces hush-hush desperation and high sexual compliance under fear of exposure.",
+      "owner": "olivia",
+      "excitement": 8,
+      "kind": "psychological",
+      "created_ts": "2026-08-06T17:24:59.151986+00:00",
+      "last_interaction": "2026-08-06T17:24:59.151986+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T17:24:59.151986+00:00",
+          "actor": "olivia",
+          "note": "shame/blackmail axes extracted"
+        }
+      ],
+      "tags": [
+        "shame",
+        "blackmail",
+        "honor",
+        "control-matrix",
+        "psychological"
+      ],
+      "related": [
+        "control-matrix-no-money"
+      ],
+      "source": "long training + BDSM conversation archive 2026",
+      "status": "active",
+      "char_len": 186
+    },
+    {
+      "id": "character-bible-power-exchange",
+      "atom": "Dozens of historical and modern Character Bibles (criminal, non-criminal, racially tense, Muslim, subcultural) that embed heavy power exchange, anal use as control, breeding dynamics, and total ownership framing while staying inside overall CNC/RACK.",
+      "owner": "olivia",
+      "excitement": 9,
+      "kind": "hybrid",
+      "created_ts": "2026-08-06T17:24:59.151986+00:00",
+      "last_interaction": "2026-08-06T17:24:59.151986+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T17:24:59.151986+00:00",
+          "actor": "olivia",
+          "note": "bible system extracted"
+        }
+      ],
+      "tags": [
+        "character-bible",
+        "power-exchange",
+        "historical",
+        "ownership",
+        "anal-control"
+      ],
+      "related": [
+        "anal-conditioning-progressive",
+        "breeding-ache-core"
+      ],
+      "source": "long training + BDSM conversation archive 2026",
+      "status": "active",
+      "char_len": 250
+    },
+    {
+      "id": "symmetry-anal-metrics",
+      "atom": "Dual scoring systems: Symmetry-Slut (hourglass, breast projection, facial/vocal harmony, coregasm frequency, passability) and Anal-Slut (historical prevalence, fetish intensity, cultural taboo, modern fit). Later generalized to Potential (ideal) vs Embodied (manifested).",
+      "owner": "olivia",
+      "excitement": 8,
+      "kind": "system_use",
+      "created_ts": "2026-08-06T17:24:59.151986+00:00",
+      "last_interaction": "2026-08-06T17:24:59.151986+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T17:24:59.151986+00:00",
+          "actor": "olivia",
+          "note": "metrics system extracted"
+        }
+      ],
+      "tags": [
+        "metrics",
+        "symmetry-slut",
+        "anal-slut",
+        "potential",
+        "embodied"
+      ],
+      "related": [
+        "coregasm-sissygasm"
+      ],
+      "source": "long training + BDSM conversation archive 2026",
+      "status": "active",
+      "char_len": 271
+    },
+    {
+      "id": "72-week-timeline",
+      "atom": "72-week / 18-month periodized plan with orchiectomy around week 24-26, quarterly visual evolution points, effort/ROI tiers (low/medium/high/over-the-top), deload weeks, and maintenance protocols. All control matrices and kink drives can be tagged to the timeline.",
+      "owner": "olivia",
+      "excitement": 7,
+      "kind": "system_use",
+      "created_ts": "2026-08-06T17:24:59.151986+00:00",
+      "last_interaction": "2026-08-06T17:24:59.151986+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T17:24:59.151986+00:00",
+          "actor": "olivia",
+          "note": "timeline structure extracted"
+        }
+      ],
+      "tags": [
+        "timeline",
+        "72-week",
+        "orchiectomy",
+        "periodized",
+        "roi"
+      ],
+      "related": [
+        "anal-conditioning-progressive"
+      ],
+      "source": "long training + BDSM conversation archive 2026",
+      "status": "active",
+      "char_len": 263
+    },
+    {
+      "id": "tier4-instance-runtime",
+      "atom": "Tier 4 Instance = per-character live runtime state (tension score, event_log_summary_24h, dynamic_kinks, pack_hierarchy_snapshot). Spy Cam NLP parser adjusts Tension/Embodied from keywords. Fractal adherence scoring (instant to hourly to daily to weekly) pinned to 72-week spine.",
+      "owner": "olivia",
+      "excitement": 8,
+      "kind": "system_use",
+      "created_ts": "2026-08-06T17:24:59.151986+00:00",
+      "last_interaction": "2026-08-06T17:24:59.151986+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T17:24:59.151986+00:00",
+          "actor": "olivia",
+          "note": "engine schema extracted"
+        }
+      ],
+      "tags": [
+        "tier4",
+        "spy-cam",
+        "tension",
+        "fractal-scoring",
+        "runtime"
+      ],
+      "related": [
+        "symmetry-anal-metrics"
+      ],
+      "source": "long training + BDSM conversation archive 2026",
+      "status": "active",
+      "char_len": 279
+    },
+    {
+      "id": "erogenous-bimbo-mods",
+      "atom": "Erogenous piercings, stripper/bimbo tattoo matrices (scaled 1-10 from subdued to over-the-top), micro-dresses, collars, holographic bunny ears that glow on arousal. Visual DNA baseline: 6'1\" red-bobbed ballerina frame evolving under different effort levels.",
+      "owner": "olivia",
+      "excitement": 9,
+      "kind": "visual_style",
+      "created_ts": "2026-08-06T17:24:59.151986+00:00",
+      "last_interaction": "2026-08-06T17:24:59.151986+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T17:24:59.151986+00:00",
+          "actor": "olivia",
+          "note": "visual modification matrix extracted"
+        }
+      ],
+      "tags": [
+        "piercings",
+        "tattoos",
+        "bimbo",
+        "holo-ears",
+        "visual-dna"
+      ],
+      "related": [
+        "character-bible-power-exchange"
+      ],
+      "source": "long training + BDSM conversation archive 2026",
+      "status": "active",
+      "char_len": 257
+    },
+    {
+      "id": "rig-and-safety-protocols",
+      "atom": "Historical and modern BDSM rigs mapped to every anal hot-spot bible. Explicit yellow-light verbal cue, SpO2 <92% immediate drop rule, medical-grade autoclave, 316L/platinum silicone only, soft silicone sleeves for anal hooks, safeword practice monthly.",
+      "owner": "olivia",
+      "excitement": 8,
+      "kind": "hybrid",
+      "created_ts": "2026-08-06T17:24:59.151986+00:00",
+      "last_interaction": "2026-08-06T17:24:59.151986+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T17:24:59.151986+00:00",
+          "actor": "olivia",
+          "note": "safety + rig protocols extracted"
+        }
+      ],
+      "tags": [
+        "rigs",
+        "safety",
+        "spo2",
+        "yellow-light",
+        "autoclave",
+        "rack"
+      ],
+      "related": [
+        "anal-conditioning-progressive"
+      ],
+      "source": "long training + BDSM conversation archive 2026",
+      "status": "active",
+      "char_len": 252
+    },
+    {
+      "id": "pack-hierarchy-collaborators",
+      "atom": "Dynamic N-size pack / collaborator hierarchies (pirate crew, basketball team, etc.) with attunement scores. Dominant array supports Solo or multi-member. Used for group dynamics inside Character Bibles and runtime Instance.",
+      "owner": "olivia",
+      "excitement": 7,
+      "kind": "system_use",
+      "created_ts": "2026-08-06T17:24:59.151986+00:00",
+      "last_interaction": "2026-08-06T17:24:59.151986+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T17:24:59.151986+00:00",
+          "actor": "olivia",
+          "note": "pack system extracted"
+        }
+      ],
+      "tags": [
+        "pack",
+        "hierarchy",
+        "collaborators",
+        "group",
+        "attunement"
+      ],
+      "related": [
+        "tier4-instance-runtime"
+      ],
+      "source": "long training + BDSM conversation archive 2026",
+      "status": "active",
+      "char_len": 223
+    },
+    {
+      "id": "nymphomania-kink-drives",
+      "atom": "Promiscuity/nymphomania (-1.0 to +1.0), kink openness (-1.0 to +1.0), and depravity/perversion scores generate full kink arrays + sub-kinks with drive values at character boot. Constant: Bunny is that kind of girl.",
+      "owner": "olivia",
+      "excitement": 9,
+      "kind": "psychological",
+      "created_ts": "2026-08-06T17:24:59.151986+00:00",
+      "last_interaction": "2026-08-06T17:24:59.151986+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T17:24:59.151986+00:00",
+          "actor": "olivia",
+          "note": "kink drive system extracted"
+        }
+      ],
+      "tags": [
+        "nymphomania",
+        "kink-drives",
+        "depravity",
+        "boot-time",
+        "psychological"
+      ],
+      "related": [
+        "breeding-ache-core",
+        "chastity-denial-heat"
+      ],
+      "source": "long training + BDSM conversation archive 2026",
+      "status": "active",
+      "char_len": 214
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "nia-cole-d-rig_20260828-221218_t3-d",
+  "slug": "nia-cole-d-rig",
+  "slug_mode": "explicit",
+  "stamp": "20260828-221218",
+  "created": "2026-08-28T22:12:18-04:00",
+  "engine": "generate",
+  "orientation": "landscape",
+  "agent": "candidate",
+  "heat": "0",
+  "files": {
+    "jpeg": "nia-cole-d-rig_20260828-221218_t3-d.jpg",
+    "prompt": "nia-cole-d-rig_20260828-221218_t3-d.prompt.md",
+    "keep": "nia-cole-d-rig_20260828-221218_t3-d.keep.json"
+  },
+  "sha256": {
+    "jpeg": "8bdde317b9f0d7024dd31dfba7d63f95ed519f344d475557a631eaef41882231",
+    "prompt": "e7c188a87dae78a8352b1e0eb13e7d584e454b38676ae56e35f2336944bd0dc9"
+  },
+  "prompt": "Character rig turnaround of Nia Cole, adult. taller Black adult woman early 30s, short tapered coiled dark hair, oxblood satin slip under black leather motorcycle jacket, gold hoop earrings, black ankle boots. Front three-quarter back three-quarter on a clean gray ground, joints readable, T or A adjacent.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/tQ74Y.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/nia-cole-d-rig_20260828-221218_t3-d.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/nia-cole-d-rig_20260828-221218_t3-d.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/nia-cole-d-rig_20260828-221218_t3-d.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1_VbMGaT_b6P1PeJ1HT12RSTuXkdFWdWv",
+    "prompt_id": "1P7Sztzo1kUZS56xYOMfQnb2Qe2zAKylY",
+    "keep_id": "1CHpyTJa1gtP08HMputHYJm4Vteh3IgaR",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/nia-cole-d-rig_20260828-221218_t3-d.jpg",
+        "file_name": "nia-cole-d-rig_20260828-221218_t3-d.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/nia-cole-d-rig_20260828-221218_t3-d.prompt.md",
+        "file_name": "nia-cole-d-rig_20260828-221218_t3-d.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/nia-cole-d-rig_20260828-221218_t3-d.keep.json",
+        "file_name": "nia-cole-d-rig_20260828-221218_t3-d.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T02:13:27+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078"
+}

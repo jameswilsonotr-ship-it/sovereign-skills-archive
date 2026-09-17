@@ -1,0 +1,70 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "ov6-m3-experimental_20260829-160658_overlay-default-six",
+  "slug": "ov6-m3-experimental",
+  "slug_mode": "explicit",
+  "stamp": "20260829-160658",
+  "created": "2026-08-29T16:06:58-04:00",
+  "engine": "overlay",
+  "orientation": "portrait",
+  "agent": "hei-yu-miao-al-summer",
+  "heat": "2",
+  "files": {
+    "jpeg": "ov6-m3-experimental_20260829-160658_overlay-default-six.jpg",
+    "prompt": "ov6-m3-experimental_20260829-160658_overlay-default-six.prompt.md",
+    "keep": "ov6-m3-experimental_20260829-160658_overlay-default-six.keep.json"
+  },
+  "sha256": {
+    "jpeg": "6058bfb24e27097430177ff1e38590800592c12a0ec5d2cd88920ec857a8bdc8",
+    "prompt": "9cc2215091dda170090e8469c9c0455d001c32e5e9b3deab22860c56a8be7fe8"
+  },
+  "prompt": "S6 M3 experimental full her DNA on chair pose",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/QdYQf.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/ov6-m3-experimental_20260829-160658_overlay-default-six.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/ov6-m3-experimental_20260829-160658_overlay-default-six.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/ov6-m3-experimental_20260829-160658_overlay-default-six.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1i8RoCvmcDXGEIhnDmdDTQfxXbFRBxUv1",
+    "prompt_id": "1awMA1tu3VxORAFD5nayS66yZspY_fZ6C",
+    "keep_id": "1vaEBz1LKR6ROc7UU8VSZWhnLBkd5Db7-",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/ov6-m3-experimental_20260829-160658_overlay-default-six.jpg",
+        "file_name": "ov6-m3-experimental_20260829-160658_overlay-default-six.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/ov6-m3-experimental_20260829-160658_overlay-default-six.prompt.md",
+        "file_name": "ov6-m3-experimental_20260829-160658_overlay-default-six.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/ov6-m3-experimental_20260829-160658_overlay-default-six.keep.json",
+        "file_name": "ov6-m3-experimental_20260829-160658_overlay-default-six.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T20:08:14+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/ov6-m3-experimental_20260829-160658_overlay-default-six.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

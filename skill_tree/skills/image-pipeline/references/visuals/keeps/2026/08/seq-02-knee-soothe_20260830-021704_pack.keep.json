@@ -1,0 +1,70 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "seq-02-knee-soothe_20260830-021704_pack",
+  "slug": "seq-02-knee-soothe",
+  "slug_mode": "explicit",
+  "stamp": "20260830-021704",
+  "created": "2026-08-30T02:17:04-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "olivia",
+  "heat": "",
+  "files": {
+    "jpeg": "seq-02-knee-soothe_20260830-021704_pack.jpg",
+    "prompt": "seq-02-knee-soothe_20260830-021704_pack.prompt.md",
+    "keep": "seq-02-knee-soothe_20260830-021704_pack.keep.json"
+  },
+  "sha256": {
+    "jpeg": "26f7cf1d2e9adac2682d5ecc0cd31f35dc6bd0b3110947fc7735d479dc4404f2",
+    "prompt": "17fec3fdd30adcbdd2d75dd797bb37e37b3be70e96fba1b20695c8a269892724"
+  },
+  "prompt": "Photorealistic 85mm f/1.4 cinematic film still, adults only. Mezzanine industrial stairs. Tall adult woman seated, one boot unzipped, small bruise on the knee, blush. Shorter adult woman kneeling on concrete in charcoal mesh, one hand at the calf, clinical care. Warm practicals, shallow depth. Clothes on. Vintage FIRST AID FOR THE INJURED booklet as a prop in her lap. No live kitchen woman. No leftover line.\n",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/xUMUc.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/seq-02-knee-soothe_20260830-021704_pack.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/seq-02-knee-soothe_20260830-021704_pack.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/seq-02-knee-soothe_20260830-021704_pack.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1ynOizpUb1ahHbv_O9RC1mqrnhXAYSLMS",
+    "prompt_id": "1U8AaFf5qGaIQ9IsPmx1ecvxuSkW94hwY",
+    "keep_id": "1h2n6BnOAJH5AWRg2oAmhFeIJoT0qWE6U",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/seq-02-knee-soothe_20260830-021704_pack.jpg",
+        "file_name": "seq-02-knee-soothe_20260830-021704_pack.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/seq-02-knee-soothe_20260830-021704_pack.prompt.md",
+        "file_name": "seq-02-knee-soothe_20260830-021704_pack.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/seq-02-knee-soothe_20260830-021704_pack.keep.json",
+        "file_name": "seq-02-knee-soothe_20260830-021704_pack.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-30T06:18:44+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/seq-02-knee-soothe_20260830-021704_pack.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}
