@@ -1,0 +1,43 @@
+{
+  "id": "hand.beardsley",
+  "kind": "hand",
+  "name": "Aubrey Beardsley",
+  "version": "1.0.0",
+  "description": "Extreme high-contrast black-and-white ornamental line. Bold flat black shapes against open white space, sinuous decorative pattern, Japanese-influenced asymmetry, cool knowing elegance.",
+  "tags": [
+    "hand",
+    "beardsley",
+    "ink",
+    "ornamental",
+    "high-contrast"
+  ],
+  "prompt_terms": [
+    {
+      "term": "Aubrey Beardsley",
+      "variance": 0.05,
+      "weight": 1.0
+    },
+    {
+      "term": "in the exact style of Aubrey Beardsley",
+      "variance": 0.15,
+      "weight": 0.9
+    },
+    {
+      "term": "extreme high-contrast black-and-white pen-and-ink",
+      "variance": 0.25,
+      "weight": 0.9
+    },
+    {
+      "term": "bold flat black shapes and ornamental line",
+      "variance": 0.35,
+      "weight": 0.8
+    }
+  ],
+  "content": {
+    "notes": "Original 8 artist Hand. High-fidelity nervous-system impersonation. Promoted 2026-08-05 under Taxonomy Contract v0.1.0. Keep ultra-low variance on proper name.",
+    "taxonomy": "hand",
+    "source": "original 8x8 DNA-respecting test set",
+    "taxonomy_note": "named artist nervous system",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}

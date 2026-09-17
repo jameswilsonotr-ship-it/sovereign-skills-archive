@@ -1,0 +1,43 @@
+{
+  "id": "hand.bilbrew",
+  "kind": "hand",
+  "name": "Gene Bilbrew (Eneg)",
+  "version": "1.0.0",
+  "description": "Dense textured pen-and-ink. Muscular power, steep foreshortening, fluid varying-weight strokes, intense expression, heavy hatching.",
+  "tags": [
+    "hand",
+    "bilbrew",
+    "eneg",
+    "ink",
+    "muscular"
+  ],
+  "prompt_terms": [
+    {
+      "term": "Gene Bilbrew",
+      "variance": 0.05,
+      "weight": 1.0
+    },
+    {
+      "term": "in the exact style of Gene Bilbrew",
+      "variance": 0.15,
+      "weight": 0.9
+    },
+    {
+      "term": "dense textured pen-and-ink",
+      "variance": 0.3,
+      "weight": 0.8
+    },
+    {
+      "term": "muscular power and steep foreshortening",
+      "variance": 0.4,
+      "weight": 0.7
+    }
+  ],
+  "content": {
+    "notes": "Original 8 artist Hand. High-fidelity nervous-system impersonation. Promoted 2026-08-05 under Taxonomy Contract v0.1.0. Keep ultra-low variance on proper name.",
+    "taxonomy": "hand",
+    "source": "original 8x8 DNA-respecting test set",
+    "taxonomy_note": "named artist nervous system",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}

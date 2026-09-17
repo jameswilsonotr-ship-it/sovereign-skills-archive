@@ -1,0 +1,14 @@
+{
+  "engine": "generate",
+  "pack_ids": [
+    "implication.crepax"
+  ],
+  "artifact_id": "smk02",
+  "scores": {
+    "overall": 8.1
+  },
+  "emit_without_generate": "pass",
+  "reasoning": "turn4 smoke",
+  "id": "grade-20260813-204431-smk02",
+  "created_at": "2026-08-13T20:44:31.603195+00:00"
+}

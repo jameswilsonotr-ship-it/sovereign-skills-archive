@@ -1,0 +1,54 @@
+{
+  "id": "implication.vargas-pinup-suggestion",
+  "name": "Vargas Pin-Up Suggestion",
+  "kind": "implication",
+  "description": "Alberto Vargas Varga Girl style. Ultra-elegant elongated pin-up proportions, long legs, high waist. Masterful watercolor and airbrush skin rendering. Porcelain-smooth flesh with liquid precise highlights. Soft knowing expression. Minimal elegant clothing or nude with perfect contour. Clean or softly atmospheric background. Glamorous idealized American pin-up fantasy 1940s-1960s.",
+  "prompt_terms": [
+    {
+      "term": "Alberto Vargas Varga Girl style",
+      "variance": 0.1,
+      "weight": 1.4
+    },
+    {
+      "term": "ultra-elegant elongated pin-up proportions long legs high waist",
+      "variance": 0.25,
+      "weight": 1.0
+    },
+    {
+      "term": "masterful watercolor and airbrush skin rendering",
+      "variance": 0.25,
+      "weight": 1.0
+    },
+    {
+      "term": "porcelain-smooth flesh with liquid precise highlights",
+      "variance": 0.3,
+      "weight": 0.95
+    },
+    {
+      "term": "soft knowing expression direct or three-quarter gaze",
+      "variance": 0.35,
+      "weight": 0.85
+    },
+    {
+      "term": "minimal elegant clothing or nude with perfect contour",
+      "variance": 0.35,
+      "weight": 0.9
+    },
+    {
+      "term": "clean or softly atmospheric background",
+      "variance": 0.4,
+      "weight": 0.7
+    },
+    {
+      "term": "glamorous idealized American pin-up fantasy 1940s-1960s",
+      "variance": 0.4,
+      "weight": 0.8
+    }
+  ],
+  "content": {
+    "technique_strength": "medium-high",
+    "best_heat_range": "H2-H8",
+    "moderation_softening": "strong",
+    "notes": "2026-08-12 — boosted name weight"
+  }
+}

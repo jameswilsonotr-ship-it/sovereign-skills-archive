@@ -1,0 +1,69 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "repair-scene05-ears_20260911-120547_barbie-repair",
+  "slug": "repair-scene05-ears",
+  "slug_mode": "explicit",
+  "stamp": "20260911-120547",
+  "created": "2026-09-11T12:05:47-04:00",
+  "engine": "edit_image",
+  "orientation": "landscape",
+  "agent": "bunny",
+  "heat": "9",
+  "files": {
+    "jpeg": "repair-scene05-ears_20260911-120547_barbie-repair.jpg",
+    "prompt": "repair-scene05-ears_20260911-120547_barbie-repair.prompt.md",
+    "keep": "repair-scene05-ears_20260911-120547_barbie-repair.keep.json"
+  },
+  "sha256": {
+    "jpeg": "07c705c6b72ed81ff48da31291bcb1ac6f2031b32bf43d51a185151b3943f63e",
+    "prompt": "e8a3662b77781d730a33f91e049502c1c85c6245e02c49cf3fa5696a1b393acc"
+  },
+  "prompt": "Repair scene05 elf ears to overlay.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/LO83k.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/repair-scene05-ears_20260911-120547_barbie-repair.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/repair-scene05-ears_20260911-120547_barbie-repair.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/repair-scene05-ears_20260911-120547_barbie-repair.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/09"
+  },
+  "drive": {
+    "status": "queued",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": null,
+    "prompt_id": null,
+    "keep_id": null,
+    "uploads": [
+      {
+        "artifact_path": "/rendered/repair-scene05-ears_20260911-120547_barbie-repair.jpg",
+        "file_name": "repair-scene05-ears_20260911-120547_barbie-repair.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/repair-scene05-ears_20260911-120547_barbie-repair.prompt.md",
+        "file_name": "repair-scene05-ears_20260911-120547_barbie-repair.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/repair-scene05-ears_20260911-120547_barbie-repair.keep.json",
+        "file_name": "repair-scene05-ears_20260911-120547_barbie-repair.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ]
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/repair-scene05-ears_20260911-120547_barbie-repair.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

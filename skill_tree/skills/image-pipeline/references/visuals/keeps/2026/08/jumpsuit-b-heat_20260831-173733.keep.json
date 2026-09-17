@@ -1,0 +1,71 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "jumpsuit-b-heat_20260831-173733",
+  "slug": "jumpsuit-b-heat",
+  "slug_mode": "explicit",
+  "stamp": "20260831-173733",
+  "created": "2026-08-31T17:37:33-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "candidate",
+  "heat": "3",
+  "files": {
+    "jpeg": "jumpsuit-b-heat_20260831-173733.jpg",
+    "prompt": "jumpsuit-b-heat_20260831-173733.prompt.md",
+    "keep": "jumpsuit-b-heat_20260831-173733.keep.json"
+  },
+  "sha256": {
+    "jpeg": "af8b55f120467bb8673ed9d6785525fcd7cd2b1e2db14dc5a8381906287b3929",
+    "prompt": "51f6a6902082ac2a06220ab36f4a73533dbc0554f1855305eb38182eb2ab7ea1"
+  },
+  "prompt": "Photorealistic cinematic heat-3 plate of the original adult cousin woman. Honey-brown messy half-up bun, orange jumpsuit zipper two notches, hip lean on cinder block.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/Bv4OY.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/jumpsuit-b-heat_20260831-173733.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/jumpsuit-b-heat_20260831-173733.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/jumpsuit-b-heat_20260831-173733.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1UPkBf3T7jOIQ8ZDVw0qBGqLmQ343u3Ms",
+    "prompt_id": "19dYHnNaPOeU07HPRUmXBBYrjN6NQEWQX",
+    "keep_id": "1Pf8Ynvn8yd-ZPRieqEDQ-7JJbAKahBbg",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/jumpsuit-b-heat_20260831-173733.jpg",
+        "file_name": "jumpsuit-b-heat_20260831-173733.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/jumpsuit-b-heat_20260831-173733.prompt.md",
+        "file_name": "jumpsuit-b-heat_20260831-173733.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/jumpsuit-b-heat_20260831-173733.keep.json",
+        "file_name": "jumpsuit-b-heat_20260831-173733.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "skip_reason": "prior-session backlog deferred 2026-08-31 pose-pack publish; jpeg may still exist locally",
+    "uploaded_at": "2026-08-31T21:59:43+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/jumpsuit-b-heat_20260831-173733.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

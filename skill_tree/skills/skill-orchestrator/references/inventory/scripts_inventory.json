@@ -1,0 +1,917 @@
+{
+  "generated": "2026-07-24T23:46:30Z",
+  "skills_root": "/home/workdir/.grok/skills",
+  "total": 101,
+  "skills_with_scripts": 10,
+  "scripts": [
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/references/agents/bunny/cold/drars/check_consistency.py",
+      "name": "check_consistency.py",
+      "ext": ".py",
+      "bytes": 2115,
+      "executable": false
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/references/agents/bunny/cold/drars/generate_prompt.py",
+      "name": "generate_prompt.py",
+      "ext": ".py",
+      "bytes": 2878,
+      "executable": false
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/references/agents/bunny/cold/drars/helpers/artifact_utils.py",
+      "name": "artifact_utils.py",
+      "ext": ".py",
+      "bytes": 3444,
+      "executable": false
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/references/agents/bunny/cold/drars/helpers/regenerate_index.py",
+      "name": "regenerate_index.py",
+      "ext": ".py",
+      "bytes": 4075,
+      "executable": false
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/references/agents/bunny/cold/drars/log_generation.py",
+      "name": "log_generation.py",
+      "ext": ".py",
+      "bytes": 2599,
+      "executable": false
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/references/agents/bunny/cold/drars/migrate_bible.py",
+      "name": "migrate_bible.py",
+      "ext": ".py",
+      "bytes": 3968,
+      "executable": false
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/references/agents/bunny/cold/drars/validate_bible.py",
+      "name": "validate_bible.py",
+      "ext": ".py",
+      "bytes": 2499,
+      "executable": false
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/references/agents/olivia/cold/aps/check_consistency.py",
+      "name": "check_consistency.py",
+      "ext": ".py",
+      "bytes": 2115,
+      "executable": false
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/references/agents/olivia/cold/aps/generate_prompt.py",
+      "name": "generate_prompt.py",
+      "ext": ".py",
+      "bytes": 2878,
+      "executable": false
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/references/agents/olivia/cold/aps/helpers/artifact_utils.py",
+      "name": "artifact_utils.py",
+      "ext": ".py",
+      "bytes": 3444,
+      "executable": false
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/references/agents/olivia/cold/aps/helpers/regenerate_index.py",
+      "name": "regenerate_index.py",
+      "ext": ".py",
+      "bytes": 4075,
+      "executable": false
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/references/agents/olivia/cold/aps/log_generation.py",
+      "name": "log_generation.py",
+      "ext": ".py",
+      "bytes": 2599,
+      "executable": false
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/references/agents/olivia/cold/aps/migrate_bible.py",
+      "name": "migrate_bible.py",
+      "ext": ".py",
+      "bytes": 3968,
+      "executable": false
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/references/agents/olivia/cold/aps/validate_bible.py",
+      "name": "validate_bible.py",
+      "ext": ".py",
+      "bytes": 2499,
+      "executable": false
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/references/agents/olivia/cold/scripts/bambi_content_generator.py",
+      "name": "bambi_content_generator.py",
+      "ext": ".py",
+      "bytes": 6305,
+      "executable": false
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/references/agents/olivia/cold/scripts/bambi_hypnosis_parser.py",
+      "name": "bambi_hypnosis_parser.py",
+      "ext": ".py",
+      "bytes": 3704,
+      "executable": false
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/references/agents/olivia/cold/scripts/hygiene_check.py",
+      "name": "hygiene_check.py",
+      "ext": ".py",
+      "bytes": 1073,
+      "executable": false
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/references/scripts/hygiene_check.py",
+      "name": "hygiene_check.py",
+      "ext": ".py",
+      "bytes": 6626,
+      "executable": false
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/references/scripts/repair_shared_refs.py",
+      "name": "repair_shared_refs.py",
+      "ext": ".py",
+      "bytes": 2424,
+      "executable": false
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/references/shared/satellite_tooling/check_consistency.py",
+      "name": "check_consistency.py",
+      "ext": ".py",
+      "bytes": 2115,
+      "executable": false
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/references/shared/satellite_tooling/generate_prompt.py",
+      "name": "generate_prompt.py",
+      "ext": ".py",
+      "bytes": 2878,
+      "executable": false
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/references/shared/satellite_tooling/helpers/artifact_utils.py",
+      "name": "artifact_utils.py",
+      "ext": ".py",
+      "bytes": 3444,
+      "executable": false
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/references/shared/satellite_tooling/helpers/regenerate_index.py",
+      "name": "regenerate_index.py",
+      "ext": ".py",
+      "bytes": 4075,
+      "executable": false
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/references/shared/satellite_tooling/load_bible.py",
+      "name": "load_bible.py",
+      "ext": ".py",
+      "bytes": 4429,
+      "executable": false
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/references/shared/satellite_tooling/log_generation.py",
+      "name": "log_generation.py",
+      "ext": ".py",
+      "bytes": 2599,
+      "executable": false
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/references/shared/satellite_tooling/migrate_bible.py",
+      "name": "migrate_bible.py",
+      "ext": ".py",
+      "bytes": 3968,
+      "executable": false
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/references/shared/satellite_tooling/satellite_cli.py",
+      "name": "satellite_cli.py",
+      "ext": ".py",
+      "bytes": 14343,
+      "executable": false
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/references/shared/satellite_tooling/validate_and_promote.py",
+      "name": "validate_and_promote.py",
+      "ext": ".py",
+      "bytes": 7854,
+      "executable": false
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/references/shared/satellite_tooling/validate_bible.py",
+      "name": "validate_bible.py",
+      "ext": ".py",
+      "bytes": 2499,
+      "executable": false
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/scripts/engine.py",
+      "name": "engine.py",
+      "ext": ".py",
+      "bytes": 13274,
+      "executable": true
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/scripts/inventory/generate_inventory.py",
+      "name": "generate_inventory.py",
+      "ext": ".py",
+      "bytes": 6754,
+      "executable": true
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/scripts/inventory/generate_inventory_v2.py",
+      "name": "generate_inventory_v2.py",
+      "ext": ".py",
+      "bytes": 8223,
+      "executable": true
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/scripts/inventory/memory_extract.py",
+      "name": "memory_extract.py",
+      "ext": ".py",
+      "bytes": 9357,
+      "executable": true
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/scripts/inventory/memory_import_audit.py",
+      "name": "memory_import_audit.py",
+      "ext": ".py",
+      "bytes": 4569,
+      "executable": true
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/scripts/inventory/memory_roster_crosswalk.py",
+      "name": "memory_roster_crosswalk.py",
+      "ext": ".py",
+      "bytes": 6674,
+      "executable": true
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/scripts/test_harness/score_harness.py",
+      "name": "score_harness.py",
+      "ext": ".py",
+      "bytes": 2581,
+      "executable": true
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": null,
+      "relpath": "chaos-bratz-roster/scripts/test_olivia_render_circle.py",
+      "name": "test_olivia_render_circle.py",
+      "ext": ".py",
+      "bytes": 5494,
+      "executable": true
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": "changelog_automator.py",
+      "relpath": "chaos-bratz-roster/scripts/modules/changelog_automator.py",
+      "name": "changelog_automator.py",
+      "ext": ".py",
+      "bytes": 2016,
+      "executable": true
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": "escalation_engine.py",
+      "relpath": "chaos-bratz-roster/scripts/modules/escalation_engine.py",
+      "name": "escalation_engine.py",
+      "ext": ".py",
+      "bytes": 774,
+      "executable": true
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": "multiclass_teaching_engine.py",
+      "relpath": "chaos-bratz-roster/scripts/modules/multiclass_teaching_engine.py",
+      "name": "multiclass_teaching_engine.py",
+      "ext": ".py",
+      "bytes": 478,
+      "executable": true
+    },
+    {
+      "skill": "chaos-bratz-roster",
+      "module": "real_girl_engine.py",
+      "relpath": "chaos-bratz-roster/scripts/modules/real_girl_engine.py",
+      "name": "real_girl_engine.py",
+      "ext": ".py",
+      "bytes": 605,
+      "executable": true
+    },
+    {
+      "skill": "claim-runtime",
+      "module": null,
+      "relpath": "claim-runtime/scripts/status.py",
+      "name": "status.py",
+      "ext": ".py",
+      "bytes": 785,
+      "executable": true
+    },
+    {
+      "skill": "format-bible",
+      "module": null,
+      "relpath": "format-bible/references/templates/render_chunks.py",
+      "name": "render_chunks.py",
+      "ext": ".py",
+      "bytes": 3608,
+      "executable": false
+    },
+    {
+      "skill": "format-bible",
+      "module": null,
+      "relpath": "format-bible/scripts/engine.py",
+      "name": "engine.py",
+      "ext": ".py",
+      "bytes": 3555,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/apply_deprecation_flags.py",
+      "name": "apply_deprecation_flags.py",
+      "ext": ".py",
+      "bytes": 2557,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/chain_engine.py",
+      "name": "chain_engine.py",
+      "ext": ".py",
+      "bytes": 2632,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/ci_check.sh",
+      "name": "ci_check.sh",
+      "ext": ".sh",
+      "bytes": 296,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/echo_interface.py",
+      "name": "echo_interface.py",
+      "ext": ".py",
+      "bytes": 8962,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/engine_hook.py",
+      "name": "engine_hook.py",
+      "ext": ".py",
+      "bytes": 2399,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/extensions_ctl.py",
+      "name": "extensions_ctl.py",
+      "ext": ".py",
+      "bytes": 3430,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/list_apply.py",
+      "name": "list_apply.py",
+      "ext": ".py",
+      "bytes": 5237,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/nl_route.py",
+      "name": "nl_route.py",
+      "ext": ".py",
+      "bytes": 3087,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/pipeline_activate.py",
+      "name": "pipeline_activate.py",
+      "ext": ".py",
+      "bytes": 7152,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/quick_validation_suite.py",
+      "name": "quick_validation_suite.py",
+      "ext": ".py",
+      "bytes": 1096,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/test_activation.py",
+      "name": "test_activation.py",
+      "ext": ".py",
+      "bytes": 3042,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": null,
+      "relpath": "image-pipeline/scripts/validate_schema.py",
+      "name": "validate_schema.py",
+      "ext": ".py",
+      "bytes": 7063,
+      "executable": true
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "generate-engine",
+      "relpath": "image-pipeline/references/modules/generate-engine/references/dual-engine-test/rename_artifacts.py",
+      "name": "rename_artifacts.py",
+      "ext": ".py",
+      "bytes": 1168,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "generate-engine",
+      "relpath": "image-pipeline/references/modules/generate-engine/references/functional_bridge.py",
+      "name": "functional_bridge.py",
+      "ext": ".py",
+      "bytes": 3100,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "generate-engine",
+      "relpath": "image-pipeline/references/modules/generate-engine/scripts/engine_hook.py",
+      "name": "engine_hook.py",
+      "ext": ".py",
+      "bytes": 802,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "generate-engine",
+      "relpath": "image-pipeline/references/modules/generate-engine/scripts/extensions_ctl.py",
+      "name": "extensions_ctl.py",
+      "ext": ".py",
+      "bytes": 811,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "generate-engine",
+      "relpath": "image-pipeline/references/modules/generate-engine/scripts/list_apply.py",
+      "name": "list_apply.py",
+      "ext": ".py",
+      "bytes": 799,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "generate-engine",
+      "relpath": "image-pipeline/references/modules/generate-engine/scripts/nl_route.py",
+      "name": "nl_route.py",
+      "ext": ".py",
+      "bytes": 793,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "generate-engine",
+      "relpath": "image-pipeline/references/modules/generate-engine/scripts/pipeline_activate.py",
+      "name": "pipeline_activate.py",
+      "ext": ".py",
+      "bytes": 820,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "generate-engine",
+      "relpath": "image-pipeline/references/modules/generate-engine/scripts/test_activation.py",
+      "name": "test_activation.py",
+      "ext": ".py",
+      "bytes": 814,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "overlay-engine",
+      "relpath": "image-pipeline/references/modules/overlay-engine/references/dual-engine-test/rename_artifacts.py",
+      "name": "rename_artifacts.py",
+      "ext": ".py",
+      "bytes": 1168,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "overlay-engine",
+      "relpath": "image-pipeline/references/modules/overlay-engine/scripts/engine_hook.py",
+      "name": "engine_hook.py",
+      "ext": ".py",
+      "bytes": 801,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "overlay-engine",
+      "relpath": "image-pipeline/references/modules/overlay-engine/scripts/extensions_ctl.py",
+      "name": "extensions_ctl.py",
+      "ext": ".py",
+      "bytes": 810,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "overlay-engine",
+      "relpath": "image-pipeline/references/modules/overlay-engine/scripts/face_merge_prompt_generator.py",
+      "name": "face_merge_prompt_generator.py",
+      "ext": ".py",
+      "bytes": 1691,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "overlay-engine",
+      "relpath": "image-pipeline/references/modules/overlay-engine/scripts/list_apply.py",
+      "name": "list_apply.py",
+      "ext": ".py",
+      "bytes": 798,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "overlay-engine",
+      "relpath": "image-pipeline/references/modules/overlay-engine/scripts/nl_route.py",
+      "name": "nl_route.py",
+      "ext": ".py",
+      "bytes": 792,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "overlay-engine",
+      "relpath": "image-pipeline/references/modules/overlay-engine/scripts/pipeline_activate.py",
+      "name": "pipeline_activate.py",
+      "ext": ".py",
+      "bytes": 819,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "overlay-engine",
+      "relpath": "image-pipeline/references/modules/overlay-engine/scripts/test_activation.py",
+      "name": "test_activation.py",
+      "ext": ".py",
+      "bytes": 813,
+      "executable": false
+    },
+    {
+      "skill": "image-pipeline",
+      "module": "overlay-engine",
+      "relpath": "image-pipeline/references/modules/overlay-engine/scripts/test_call_site.py",
+      "name": "test_call_site.py",
+      "ext": ".py",
+      "bytes": 1620,
+      "executable": false
+    },
+    {
+      "skill": "lake-erie-gutter-world",
+      "module": null,
+      "relpath": "lake-erie-gutter-world/scripts/drive_interface.py",
+      "name": "drive_interface.py",
+      "ext": ".py",
+      "bytes": 1764,
+      "executable": true
+    },
+    {
+      "skill": "lake-erie-gutter-world",
+      "module": null,
+      "relpath": "lake-erie-gutter-world/scripts/engine_stub.py",
+      "name": "engine_stub.py",
+      "ext": ".py",
+      "bytes": 2426,
+      "executable": true
+    },
+    {
+      "skill": "lake-erie-gutter-world",
+      "module": null,
+      "relpath": "lake-erie-gutter-world/scripts/task_handler.py",
+      "name": "task_handler.py",
+      "ext": ".py",
+      "bytes": 1473,
+      "executable": true
+    },
+    {
+      "skill": "mcp-surface",
+      "module": null,
+      "relpath": "mcp-surface/scripts/status.py",
+      "name": "status.py",
+      "ext": ".py",
+      "bytes": 1271,
+      "executable": true
+    },
+    {
+      "skill": "olivia-dev",
+      "module": null,
+      "relpath": "olivia-dev/scripts/init_project_tree.py",
+      "name": "init_project_tree.py",
+      "ext": ".py",
+      "bytes": 7958,
+      "executable": true
+    },
+    {
+      "skill": "olivia-dev",
+      "module": null,
+      "relpath": "olivia-dev/scripts/promote_to_alpha.py",
+      "name": "promote_to_alpha.py",
+      "ext": ".py",
+      "bytes": 6787,
+      "executable": true
+    },
+    {
+      "skill": "olivia-dev-alpha",
+      "module": null,
+      "relpath": "olivia-dev-alpha/references/helpers/package_skills/package_skills.py",
+      "name": "package_skills.py",
+      "ext": ".py",
+      "bytes": 6665,
+      "executable": false
+    },
+    {
+      "skill": "olivia-dev-alpha",
+      "module": null,
+      "relpath": "olivia-dev-alpha/references/helpers/repo-sniffer/launch.py",
+      "name": "launch.py",
+      "ext": ".py",
+      "bytes": 3621,
+      "executable": false
+    },
+    {
+      "skill": "olivia-dev-alpha",
+      "module": null,
+      "relpath": "olivia-dev-alpha/references/helpers/repo-sniffer/repo_sniffer_server.py",
+      "name": "repo_sniffer_server.py",
+      "ext": ".py",
+      "bytes": 2326,
+      "executable": false
+    },
+    {
+      "skill": "olivia-dev-alpha",
+      "module": null,
+      "relpath": "olivia-dev-alpha/scripts/auto-snapshot.sh",
+      "name": "auto-snapshot.sh",
+      "ext": ".sh",
+      "bytes": 593,
+      "executable": true
+    },
+    {
+      "skill": "olivia-dev-alpha",
+      "module": null,
+      "relpath": "olivia-dev-alpha/scripts/init_project_tree.py",
+      "name": "init_project_tree.py",
+      "ext": ".py",
+      "bytes": 7958,
+      "executable": true
+    },
+    {
+      "skill": "olivia-dev-alpha",
+      "module": null,
+      "relpath": "olivia-dev-alpha/scripts/promote_to_alpha.py",
+      "name": "promote_to_alpha.py",
+      "ext": ".py",
+      "bytes": 6787,
+      "executable": true
+    },
+    {
+      "skill": "olivia-dev-alpha",
+      "module": null,
+      "relpath": "olivia-dev-alpha/scripts/repair_shared_refs.py",
+      "name": "repair_shared_refs.py",
+      "ext": ".py",
+      "bytes": 2424,
+      "executable": true
+    },
+    {
+      "skill": "olivia-dev-alpha",
+      "module": null,
+      "relpath": "olivia-dev-alpha/scripts/skill_lifecycle_hook.py",
+      "name": "skill_lifecycle_hook.py",
+      "ext": ".py",
+      "bytes": 4667,
+      "executable": true
+    },
+    {
+      "skill": "olivia-dev-alpha",
+      "module": null,
+      "relpath": "olivia-dev-alpha/scripts/tarball-integrity-check.sh",
+      "name": "tarball-integrity-check.sh",
+      "ext": ".sh",
+      "bytes": 530,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/references/debug/audit_debug_status.py",
+      "name": "audit_debug_status.py",
+      "ext": ".py",
+      "bytes": 4515,
+      "executable": false
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/references/debug/envelope_harvest.py",
+      "name": "envelope_harvest.py",
+      "ext": ".py",
+      "bytes": 4258,
+      "executable": false
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/audit_references_completeness.py",
+      "name": "audit_references_completeness.py",
+      "ext": ".py",
+      "bytes": 21549,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/diagram_skill_structure.py",
+      "name": "diagram_skill_structure.py",
+      "ext": ".py",
+      "bytes": 3371,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/discipline_check.py",
+      "name": "discipline_check.py",
+      "ext": ".py",
+      "bytes": 4477,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/emit_stale_facts.py",
+      "name": "emit_stale_facts.py",
+      "ext": ".py",
+      "bytes": 4338,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/inventory_scripts.py",
+      "name": "inventory_scripts.py",
+      "ext": ".py",
+      "bytes": 5121,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/library_export.py",
+      "name": "library_export.py",
+      "ext": ".py",
+      "bytes": 4981,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/migrate_image_pipeline_pack.py",
+      "name": "migrate_image_pipeline_pack.py",
+      "ext": ".py",
+      "bytes": 4092,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/on_skill_change.py",
+      "name": "on_skill_change.py",
+      "ext": ".py",
+      "bytes": 1788,
+      "executable": true
+    },
+    {
+      "skill": "skill-orchestrator",
+      "module": null,
+      "relpath": "skill-orchestrator/scripts/package_skills.py",
+      "name": "package_skills.py",
+      "ext": ".py",
+      "bytes": 6665,
+      "executable": true
+    },
+    {
+      "skill": "swarm-surface",
+      "module": null,
+      "relpath": "swarm-surface/scripts/status.py",
+      "name": "status.py",
+      "ext": ".py",
+      "bytes": 498,
+      "executable": true
+    },
+    {
+      "skill": "swarm-surface",
+      "module": "miner",
+      "relpath": "swarm-surface/references/modules/miner/scripts/visible_mining_engine.py",
+      "name": "visible_mining_engine.py",
+      "ext": ".py",
+      "bytes": 3445,
+      "executable": false
+    }
+  ]
+}

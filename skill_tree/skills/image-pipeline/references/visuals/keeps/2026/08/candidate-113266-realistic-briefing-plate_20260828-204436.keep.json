@@ -1,0 +1,62 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "candidate-113266-realistic-briefing-plate_20260828-204436",
+  "slug": "candidate-113266-realistic-briefing-plate",
+  "slug_mode": "auto",
+  "stamp": "20260828-204436",
+  "created": "2026-08-28T20:44:36-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "candidate-113266",
+  "heat": "",
+  "files": {
+    "jpeg": "candidate-113266-realistic-briefing-plate_20260828-204436.jpg",
+    "prompt": "candidate-113266-realistic-briefing-plate_20260828-204436.prompt.md",
+    "keep": "candidate-113266-realistic-briefing-plate_20260828-204436.keep.json"
+  },
+  "sha256": {
+    "jpeg": "0af38de672ec93dc9499e7290aaa9c90ad2878e6ea3d63a7d2731bc9a2bfbce8",
+    "prompt": "da1c0db90ced91c9e48c2cf4105e7da4dd4d71c2feec3a39fd779940a7765449"
+  },
+  "prompt": "A realistic briefing plate",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/DDvz2.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/candidate-113266-realistic-briefing-plate_20260828-204436.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/candidate-113266-realistic-briefing-plate_20260828-204436.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/candidate-113266-realistic-briefing-plate_20260828-204436.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1xPJttRgIcGCHO6-wTW-coNjD69H1Yd_A",
+    "prompt_id": "1aiBTZTSz_ZfoDb2gX2QZlu5bjuf4wFVe",
+    "keep_id": "1fixw67EpI-1egrj75kSCE61VRSHjuoP0",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/candidate-113266-realistic-briefing-plate_20260828-204436.jpg",
+        "file_name": "candidate-113266-realistic-briefing-plate_20260828-204436.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/candidate-113266-realistic-briefing-plate_20260828-204436.prompt.md",
+        "file_name": "candidate-113266-realistic-briefing-plate_20260828-204436.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/candidate-113266-realistic-briefing-plate_20260828-204436.keep.json",
+        "file_name": "candidate-113266-realistic-briefing-plate_20260828-204436.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T01:51:07+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078"
+}
