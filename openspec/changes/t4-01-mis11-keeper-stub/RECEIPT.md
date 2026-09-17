@@ -2,6 +2,7 @@
 
 - **Change ID:** `t4-01-mis11-keeper-stub`
 - **PR title:** `salvo: T4-01 mis11-keeper-stub`
+- **PR:** https://github.com/jameswilsonotr-ship-it/sovereign-skills-archive/pull/211
 - **CinC target:** Linear `MIS-11`
 - **Slot:** `T4-01`
 - **Mode:** offline-only
