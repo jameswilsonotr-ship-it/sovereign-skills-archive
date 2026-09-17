@@ -46,6 +46,23 @@ def test_drive_call_shape_is_offline_and_account_scoped() -> None:
     assert response["data"]["source"] == "offline-fixture"
 
 
+def test_github_call_shape_is_offline_and_account_scoped() -> None:
+    with pytest.raises(ValidationError, match="account_id"):
+        GithubConnector()
+
+    response = GithubConnector(account_id="github_unhex-ume").search_repositories(
+        query="offline-harness",
+        limit=2,
+    )
+
+    assert response["connector"] == "github"
+    assert response["operation"] == "search_repositories"
+    assert response["account_id"] == "github_unhex-ume"
+    assert response["request"] == {"query": "offline-harness", "limit": 2}
+    assert response["data"]["source"] == "offline-fixture"
+    assert response["data"]["repository"] == "jameswilsonotr-ship-it/sovereign-skills-archive"
+
+
 def test_all_provider_call_shapes_are_deterministic() -> None:
     assert GithubConnector(account_id="github_unhex-ume").get_issue(
         owner="owner", repo="repo", number=6
