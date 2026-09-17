@@ -1,0 +1,10 @@
+{
+  "source": "offline-fixture",
+  "threads": [
+    {
+      "id": "fixture-thread-001",
+      "subject": "MIS-6 progress",
+      "messages": 1
+    }
+  ]
+}
