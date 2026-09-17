@@ -14,4 +14,3 @@ defined in each document.
 | [SPEC-006](SPEC-006.md) | OpenSpec 006 | 0 |
 | [SPEC-007](SPEC-007.md) | OpenSpec 007 | 0 |
 | [BASIC_TIER](BASIC_TIER.md) | Basic tier | 0 |
-

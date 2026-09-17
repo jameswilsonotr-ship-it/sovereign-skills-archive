@@ -5,4 +5,3 @@
 ## Acceptance criteria
 
 No acceptance criteria are defined yet.
-
