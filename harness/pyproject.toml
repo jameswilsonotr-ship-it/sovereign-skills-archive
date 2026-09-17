@@ -21,6 +21,10 @@ test = [
 addopts = "-q"
 pythonpath = ["src"]
 testpaths = ["tests"]
+markers = [
+    "smoke: deterministic offline contract and hygiene checks",
+    "stress: bounded offline concurrency and load checks",
+]
 
 [tool.setuptools.package-data]
 sovereign_harness = ["fixtures/*.json"]

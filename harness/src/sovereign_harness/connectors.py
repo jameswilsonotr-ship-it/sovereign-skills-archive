@@ -7,11 +7,12 @@ the request contract testable while returning small, versioned fixture data.
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 from typing import Any, ClassVar
 
 import httpx
-from pydantic import BaseModel, ConfigDict, Field, field_validator
+from pydantic import BaseModel, ConfigDict, Field, StrictStr, field_validator
 
 FIXTURES_DIR = Path(__file__).with_name("fixtures")
 
@@ -52,14 +53,17 @@ class FixtureConnector(BaseModel):
 class AccountBoundConnector(FixtureConnector):
     """Connector base whose account identity is intentionally mandatory."""
 
-    account_id: str
+    account_id: StrictStr
 
     @field_validator("account_id")
     @classmethod
     def account_id_must_be_non_empty(cls, value: str) -> str:
-        value = value.strip()
         if not value:
             raise ValueError("account_id must not be empty")
+        if value != value.strip():
+            raise ValueError("account_id must not have surrounding whitespace")
+        if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._-]{0,127}", value):
+            raise ValueError("account_id contains invalid characters")
         return value
 
 
