@@ -1,8 +1,8 @@
 # Olivia / MIS off-cloud phone mesh — Drive sweep
 
-**Sweep date:** 2026-09-17 UTC  
-**Repository:** `jameswilsonotr-ship-it/sovereign-skills-archive`  
-**Branch basis:** `skill-tree-intake`  
+**Sweep date:** 2026-09-17 UTC
+**Repository:** `jameswilsonotr-ship-it/sovereign-skills-archive`
+**Branch basis:** `skill-tree-intake`
 **Primary Drive scope:** [Awesome Split](https://drive.google.com/drive/folders/11WEijQl3lP6Spw3kwFpE1kNC7MVGWsgP)
 
 ## Executive result
