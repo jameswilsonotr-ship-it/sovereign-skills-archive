@@ -148,4 +148,3 @@ This specification does not define:
 - [ ] Denied calls have no tool side effect and produce a secret-free reason.
 - [ ] Allow and deny decisions produce auditable, secret-minimized receipts.
 - [ ] AL-020 changes cannot be made by an ordinary runtime tool invocation.
-
