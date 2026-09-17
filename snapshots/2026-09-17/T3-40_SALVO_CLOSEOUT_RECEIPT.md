@@ -26,4 +26,5 @@ an inclusion class and is not a fallback for this slot.
 - Documentation-only change; no runtime or payload files were modified.
 - The proposal, specification, task list, and this receipt use the same
   change ID and T3-40 identity.
-- Local whitespace and consistency checks are required before submission.
+- `git diff --check` passed.
+- Offline identity and scope-fence consistency checks passed.
