@@ -3,7 +3,8 @@ from __future__ import annotations
 from typing import Any
 
 import pytest
-from hypothesis import given, settings, strategies as st
+from hypothesis import given, settings
+from hypothesis import strategies as st
 from pydantic import ValidationError
 
 from sovereign_harness.connectors import (
