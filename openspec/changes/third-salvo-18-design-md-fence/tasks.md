@@ -4,4 +4,4 @@
 - [x] Record `INCLUDED` / `Ultra`-only eligibility and reject On-Demand.
 - [x] Record the `no-live-deps` and offline-only fence in `design.md`.
 - [x] Keep the change documentation-only and repository-local.
-- [ ] Review the committed diff and receipt.
+- [x] Review the committed diff and receipt.
