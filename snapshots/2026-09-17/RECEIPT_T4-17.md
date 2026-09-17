@@ -1,7 +1,7 @@
 # Receipt — T4-17 Tube-4 spent-by-rule
 
-**UTC:** 2026-09-17  
-**Change:** Draft the Tube-4 reload rule.  
+**UTC:** 2026-09-17
+**Change:** Draft the Tube-4 reload rule.
 **Intended PR title:** `salvo: T4-17 tube4-spent-rule`
 
 ## Recorded result

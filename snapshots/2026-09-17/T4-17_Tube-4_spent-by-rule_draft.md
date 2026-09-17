@@ -1,7 +1,7 @@
 # T4-17 — Tube-4 spent-by-rule (draft)
 
-**Date:** 2026-09-17 UTC  
-**Status:** Draft  
+**Date:** 2026-09-17 UTC
+**Status:** Draft
 **Reload mode:** `CONTINUOUS INCLUDED`
 
 ## Rule
