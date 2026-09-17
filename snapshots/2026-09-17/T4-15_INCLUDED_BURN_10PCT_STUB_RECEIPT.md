@@ -1,7 +1,7 @@
 # T4-15 — Included-burn ~10% progress receipt stub
 
-Status: receipt stub only  
-Mode: continuous included reload  
+Status: receipt stub only
+Mode: continuous included reload
 Run class: offline
 
 ## Scope
