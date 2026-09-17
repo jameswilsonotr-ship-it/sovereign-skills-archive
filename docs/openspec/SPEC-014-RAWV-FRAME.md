@@ -1,8 +1,8 @@
 # SPEC-014 — RAWV Frame: Atomic Included Burn
 
-**Status:** Draft  
-**Type:** Normative specification  
-**Scope:** One bounded raw-artifact validation frame  
+**Status:** Draft
+**Type:** Normative specification
+**Scope:** One bounded raw-artifact validation frame
 **Requirements:** RV-001 through RV-015
 
 ## 1. Purpose
