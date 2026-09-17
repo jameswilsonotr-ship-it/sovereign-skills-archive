@@ -1,8 +1,8 @@
 # SPEC-021 — Zenoh Topic Map
 
-**Status:** Draft  
-**Profile:** S1 (salvo S1)  
-**Scope:** Offline topic naming only  
+**Status:** Draft
+**Profile:** S1 (salvo S1)
+**Scope:** Offline topic naming only
 **Surfaces:** `phone`, `vultr`, `spark`
 
 ## 1. Purpose
