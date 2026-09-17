@@ -53,7 +53,8 @@ not listed in `allowed_intents` as denied.
       "decision": "allow",
       "result": {
         "source": "offline-fixture",
-        "records": 4
+        "fixture_id": "s2-13-phone-mcp-default-deny-v1",
+        "case_count": 5
       }
     },
     {
