@@ -1,9 +1,9 @@
 # T4-07 fat-cull reject list
 
-**Change ID:** `fourth-salvo-07-fat-cull-delta`  
-**Reload:** `CONTINUOUS`  
-**Lane:** `INCLUDED`  
-**On-Demand:** `NEVER`  
+**Change ID:** `fourth-salvo-07-fat-cull-delta`
+**Reload:** `CONTINUOUS`
+**Lane:** `INCLUDED`
+**On-Demand:** `NEVER`
 **Disposition:** reject from cull consideration
 
 ## Delta register
