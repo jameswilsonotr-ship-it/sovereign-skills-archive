@@ -11,6 +11,10 @@ This atom is the lane brief for burning Cursor Models included quota. It
 defines an accounting boundary only; it does not change entitlements,
 implement a runtime, or authorize paid fallback.
 
+The lane target is to burn eligible included quota toward approximately 80%
+of the active period, subject to the stop/defer rules below; the target never
+authorizes usage outside the included allowance.
+
 ## Policy
 
 1. Every burn-chew action MUST use the active Cursor Models included quota.
@@ -29,6 +33,7 @@ On-Demand (OD) is already **OVER** for this burn wave. This lane MUST NOT
 increase, climb, enable, reserve, borrow, or spend On-Demand capacity. OD is
 not a fallback when included quota is exhausted or uncertain. Any step that
 would create OD usage is out of scope and MUST be rejected before execution.
+Done-when: confirm that no On-Demand increase or spend occurred.
 
 ## Lane boundary
 
