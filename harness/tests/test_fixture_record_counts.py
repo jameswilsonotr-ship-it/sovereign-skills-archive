@@ -44,20 +44,23 @@ def _record_count(path: Path) -> int:
     """Count records without making network calls or importing connector code."""
     suffix = path.suffix.lower()
     if suffix in {".jsonl", ".ndjson"}:
-        return sum(bool(line.strip()) for line in path.read_text(encoding="utf-8").splitlines())
+        return sum(
+            bool(line.strip())
+            for line in path.read_text(encoding="utf-8").splitlines()
+        )
     if suffix == ".csv":
         with path.open(newline="", encoding="utf-8") as fixture:
             return sum(1 for _ in csv.DictReader(fixture))
     return len(_records_from_json(path))
 
 
-@pytest.mark.parametrize(
-    "fixture_path",
-    _fixture_files(),
-    ids=lambda path: str(path.relative_to(FIXTURE_ROOT)),
-)
-def test_connector_fixture_has_minimum_records(fixture_path: Path) -> None:
+def test_connector_fixtures_have_minimum_records() -> None:
     """Every connector fixture that exists must contain at least six records."""
-    assert _record_count(fixture_path) >= MIN_RECORDS, (
-        f"{fixture_path} must contain at least {MIN_RECORDS} records"
-    )
+    fixture_paths = _fixture_files()
+    if not fixture_paths:
+        pytest.skip("no connector fixture files are present")
+
+    for fixture_path in fixture_paths:
+        assert _record_count(fixture_path) >= MIN_RECORDS, (
+            f"{fixture_path} must contain at least {MIN_RECORDS} records"
+        )
