@@ -2,6 +2,9 @@
 
 UTC: `2026-09-17T09:48:00Z`
 PR title: `salvo: T4-24 thin-keep-index`
+Branch: `cursor/t4-24-thin-keep-index-dc57`
+Commit: `8f81cce`
+PR: `https://github.com/jameswilsonotr-ship-it/sovereign-skills-archive/pull/237`
 
 ## Result
 
