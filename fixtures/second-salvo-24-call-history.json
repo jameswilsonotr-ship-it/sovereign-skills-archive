@@ -1,0 +1,26 @@
+{
+  "fixture_id": "second-salvo-24-call-fixture",
+  "slot": "S2-24",
+  "kind": "call-history",
+  "source": "synthetic-offline",
+  "live": false,
+  "included_surface": "Ultra",
+  "excluded_surfaces": [
+    "OD"
+  ],
+  "infrastructure_label": "Vultr",
+  "infrastructure_note": "Vultr is kept distinct from Cold Steel.",
+  "records": [
+    {
+      "call_id": "call-fixture-001",
+      "direction": "outbound",
+      "status": "fixture-only",
+      "started_at": null,
+      "duration_seconds": 0,
+      "caller": "[REDACTED]",
+      "callee": "[REDACTED]",
+      "transcript": "[REDACTED]",
+      "notes": "[REDACTED]"
+    }
+  ]
+}
