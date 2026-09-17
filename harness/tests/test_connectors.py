@@ -46,6 +46,33 @@ def test_drive_call_shape_is_offline_and_account_scoped() -> None:
     assert response["data"]["source"] == "offline-fixture"
 
 
+def test_account_bound_fixtures_have_six_deterministic_records() -> None:
+    responses = (
+        (
+            DriveConnector(account_id="googledrive_baste-nous").list_files(),
+            "files",
+        ),
+        (
+            GithubConnector(account_id="github_unhex-ume").search_repositories(
+                query="fixture"
+            ),
+            "issues",
+        ),
+        (
+            GmailConnector(account_id="gmail_illipe-eaves").search_threads(
+                query="fixture"
+            ),
+            "threads",
+        ),
+        (
+            LinearConnector(account_id="linear_diver-forbow").list_issues(),
+            "issues",
+        ),
+    )
+
+    assert [len(response["data"][field]) for response, field in responses] == [6] * 4
+
+
 def test_all_provider_call_shapes_are_deterministic() -> None:
     assert GithubConnector(account_id="github_unhex-ume").get_issue(
         owner="owner", repo="repo", number=6

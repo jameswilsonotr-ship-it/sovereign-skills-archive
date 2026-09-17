@@ -5,6 +5,31 @@
       "id": "fixture-drive-001",
       "name": "MIS-6 fixture note.md",
       "mime_type": "text/markdown"
+    },
+    {
+      "id": "fixture-drive-002",
+      "name": "OpenSpec connector baseline.md",
+      "mime_type": "text/markdown"
+    },
+    {
+      "id": "fixture-drive-003",
+      "name": "connector contract.json",
+      "mime_type": "application/json"
+    },
+    {
+      "id": "fixture-drive-004",
+      "name": "offline receipt.csv",
+      "mime_type": "text/csv"
+    },
+    {
+      "id": "fixture-drive-005",
+      "name": "acceptance matrix.md",
+      "mime_type": "text/markdown"
+    },
+    {
+      "id": "fixture-drive-006",
+      "name": "retry policy.json",
+      "mime_type": "application/json"
     }
   ]
 }
