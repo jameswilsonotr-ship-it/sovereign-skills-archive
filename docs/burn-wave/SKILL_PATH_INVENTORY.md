@@ -24,7 +24,7 @@ The selected path contains **22 tracked files**:
 | Surface | Count | Treatment |
 | --- | ---: | --- |
 | Live entrypoint | 1 | `SKILL.md` is source-only and unchanged |
-| Help and reference material | 17 | Indexed as local documentation/reference files |
+| Help and reference material | 18 | Indexed as local documentation/reference files |
 | Script | 1 | Indexed as a local executable surface; not run as a provider action |
 | Vendored artifacts | 2 | README and one wheel; not installed or upgraded |
 | **Total** | **22** | One path only |
