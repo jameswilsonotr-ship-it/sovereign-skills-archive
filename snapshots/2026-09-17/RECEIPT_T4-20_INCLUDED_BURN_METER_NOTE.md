@@ -20,9 +20,11 @@ read or a live reload because this slice is offline-only.
 
 - [x] No Willow `SKILL.md` was created, edited, or overwritten.
 - [x] No `CONV2_B` was unpacked or processed.
-- [x] No external service, provider, secret, or Vultr surface was used.
+- [x] No external runtime/provider service, secret, or Vultr surface was used.
 - [x] No On-Demand path was used or enabled.
-- [x] No live network, provider, or billing action was performed.
+- [x] No live meter, provider, or billing action was performed.
+- [x] GitHub was used only for required repository delivery: one push and one
+  PR.
 - [x] One focused change and one PR.
 
 ## Verification
