@@ -1,9 +1,9 @@
 # SPEC-015 — KEEL SENTRY WATCH
 
-**Theme:** ATOMIC INCLUDED BURN  
-**Status:** Draft  
-**Date:** 2026-09-17  
-**Surface:** Auth-watch observation only  
+**Theme:** ATOMIC INCLUDED BURN
+**Status:** Draft
+**Date:** 2026-09-17
+**Surface:** Auth-watch observation only
 **Implementation state:** Specification only
 
 ## Abstract
