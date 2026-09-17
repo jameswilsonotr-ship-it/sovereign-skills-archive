@@ -1,7 +1,7 @@
 # Mesh topology
 
-**Status:** architecture record  
-**Last verified:** 2026-09-17  
+**Status:** architecture record
+**Last verified:** 2026-09-17
 **Scope:** Tailscale transport, artifact ferry, residential egress, MCP edge
 broker, phone-facing control, and Gemini Spark/Vesper coordination.
 
