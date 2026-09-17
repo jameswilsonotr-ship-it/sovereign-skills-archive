@@ -1,0 +1,273 @@
+{
+  "research_date_utc": "2026-09-17",
+  "repository": "https://github.com/jameswilsonotr-ship-it/sovereign-skills-archive",
+  "scope": [
+    "Android and Termux MCP bridges",
+    "Android Intent and Termux:API capability paths",
+    "Zenoh Android/Kotlin and the org zenoh.apk pattern",
+    "Gemma, LiteRT-LM, and MediaPipe Android paths",
+    "Tailscale-friendly local HTTP MCP servers"
+  ],
+  "metadata_note": "GitHub stars, license mappings, and pushed_at values are point-in-time public API observations, not endorsements. A blank or unreported license means the source should not be forked until licensing is resolved.",
+  "sources": [
+    {
+      "id": "github-khimaros-mimic",
+      "source_kind": "github_repository",
+      "url": "https://github.com/khimaros/mimic",
+      "license": "GPL-3.0",
+      "stars": 3,
+      "last_push_utc": "2026-06-22T17:59:12Z",
+      "examined_for": ["local HTTP", "MCP", "Android Intents", "accessibility"],
+      "fit": "High for a narrow loopback-first Intent/MCP broker; keep its broad accessibility/UI surface disabled."
+    },
+    {
+      "id": "github-stixez-droid-mcp",
+      "source_kind": "github_repository",
+      "url": "https://github.com/stixez/droid-mcp",
+      "license": "Apache-2.0",
+      "stars": 33,
+      "last_push_utc": "2026-07-19T16:20:26Z",
+      "examined_for": ["Android MCP", "flashlight", "SMS", "notifications", "send_intent", "share_content"],
+      "fit": "High typed capability coverage, but too broad for an initial burner profile."
+    },
+    {
+      "id": "github-premex-ab-phone-mcp",
+      "source_kind": "github_repository",
+      "url": "https://github.com/premex-ab/phone-mcp",
+      "license": "MIT",
+      "stars": 10,
+      "last_push_utc": "2026-09-14T12:54:13Z",
+      "examined_for": ["native Android MCP", "Ktor SSE", "bearer token", "SMS Intent", "external providers"],
+      "fit": "Promising modular native alternative; verify maturity and provider-discovery security."
+    },
+    {
+      "id": "github-jamilcpu-phone-mcp",
+      "source_kind": "github_repository",
+      "url": "https://github.com/JamilCPU/phone-mcp",
+      "license": "unreported",
+      "stars": 0,
+      "last_push_utc": "2026-04-01T19:02:26Z",
+      "examined_for": ["Termux HTTP agent", "Tailscale", "SMS", "notifications", "flashlight"],
+      "fit": "Best topology reference for PC MCP server to phone agent; license and default network exposure require review."
+    },
+    {
+      "id": "github-kahz12-droidmcp",
+      "source_kind": "github_repository",
+      "url": "https://github.com/kahz12/DroidMCP",
+      "license": "MIT",
+      "stars": 3,
+      "last_push_utc": "2026-08-25T15:44:50Z",
+      "examined_for": ["ARM64 Termux binaries", "API-key auth", "notifications", "SMS", "sandboxing"],
+      "fit": "Good per-capability Termux decomposition; binaries and privileged SMS server need supply-chain and policy review."
+    },
+    {
+      "id": "github-termuxgpt-termux-mcp",
+      "source_kind": "github_repository",
+      "url": "https://github.com/termuxgpt/termux-mcp",
+      "license": "AGPL-3.0",
+      "stars": 31,
+      "last_push_utc": "2026-09-15T05:33:11Z",
+      "examined_for": ["Streamable HTTP", "native MCP", "torch", "notifications", "SMS", "share"],
+      "fit": "Feature-complete experiment; broad shell surface and unlimited default command timeout are blockers."
+    },
+    {
+      "id": "github-nelvinzfx-termux-mcp-shell",
+      "source_kind": "github_repository",
+      "url": "https://github.com/nelvinzfx/termux-mcp-shell",
+      "license": "unreported",
+      "stars": 3,
+      "last_push_utc": "2026-07-20T12:17:18Z",
+      "examined_for": ["Streamable HTTP", "Termux shell", "filesystem", "loopback", "bearer/API-key auth"],
+      "fit": "Useful HTTP plumbing reference, not a narrow Android Intent policy."
+    },
+    {
+      "id": "github-htekdev-phone-mcp-server",
+      "source_kind": "github_repository",
+      "url": "https://github.com/htekdev/phone-mcp-server",
+      "license": "MIT",
+      "stars": 13,
+      "last_push_utc": "2026-06-01T14:32:40Z",
+      "examined_for": ["Termux:API", "SMS", "flashlight", "notifications", "Streamable HTTP"],
+      "fit": "Simple proof-of-concept capability coverage; no authentication by default and 0.0.0.0 binding are unsafe defaults."
+    },
+    {
+      "id": "github-akashagg30-termux-mcp",
+      "source_kind": "github_repository",
+      "url": "https://github.com/akashagg30/termux-mcp",
+      "license": "MIT",
+      "stars": 0,
+      "last_push_utc": "2026-04-24T22:28:38Z",
+      "examined_for": ["Termux:API", "torch", "notifications", "UI automation", "device status"],
+      "fit": "Capability inventory reference; lower activity and ADB/UI breadth reduce burner fit."
+    },
+    {
+      "id": "github-hyhasma-termux-api-tools",
+      "source_kind": "github_repository",
+      "url": "https://github.com/hyhAsma/termux-api-tools-mcp-server",
+      "license": "MIT",
+      "stars": 12,
+      "last_push_utc": "2025-05-04T13:03:49Z",
+      "examined_for": ["Termux:API", "SMS", "calls", "remote MCP"],
+      "fit": "Useful risk signal for sensitive operations; project describes itself as a beginner exercise with known failures."
+    },
+    {
+      "id": "github-termux-termux-api",
+      "source_kind": "github_repository",
+      "url": "https://github.com/termux/termux-api",
+      "license": "GPL-3.0 (package metadata; GitHub SPDX mapping unreported)",
+      "stars": 4319,
+      "last_push_utc": "2026-09-17T02:16:52Z",
+      "examined_for": ["Android capability bridge", "SMS", "GPS", "notifications", "Termux helper protocol"],
+      "fit": "Foundational adapter, not an MCP server; install companion app and package from one signing/distribution source."
+    },
+    {
+      "id": "github-termux-termux-app",
+      "source_kind": "github_repository",
+      "url": "https://github.com/termux/termux-app",
+      "license": "GPL-3.0-only",
+      "stars": 60936,
+      "last_push_utc": "2026-09-16T16:17:14Z",
+      "examined_for": ["RUN_COMMAND Intent", "Termux host", "plugin boundary"],
+      "fit": "Foundational Android terminal and Intent entry point; not an MCP server."
+    },
+    {
+      "id": "github-eclipse-zenoh-kotlin",
+      "source_kind": "github_repository",
+      "url": "https://github.com/eclipse-zenoh/zenoh-kotlin",
+      "license": "EPL-2.0 and Apache-2.0 badge; verify exact file-level terms",
+      "stars": 33,
+      "last_push_utc": "2026-09-15T15:53:27Z",
+      "examined_for": ["Android Kotlin binding", "Zenoh sessions", "Maven artifact", "minimum SDK 30"],
+      "fit": "Primary upstream application dependency pattern for a Zenoh-backed phone mesh."
+    },
+    {
+      "id": "github-eclipse-zenoh-flat-jni",
+      "source_kind": "github_repository",
+      "url": "https://github.com/eclipse-zenoh/zenoh-flat-jni",
+      "license": "Apache-2.0",
+      "stars": 0,
+      "last_push_utc": "2026-09-15T15:57:16Z",
+      "examined_for": ["Rust JNI", "Android ABI artifacts", "Kotlin dependency split"],
+      "fit": "Native artifact boundary; do not vendor its binaries into this archive."
+    },
+    {
+      "id": "github-org-zenoh-apk",
+      "source_kind": "github_repository",
+      "url": "https://github.com/jameswilsonotr-ship-it/zenoh.apk",
+      "license": "unreported",
+      "stars": 0,
+      "last_push_utc": "2026-09-06T19:01:26Z",
+      "examined_for": ["org Android pattern", "Compose UI", "debug APK CI", "Zenoh stubs", "simulation fallback"],
+      "fit": "Useful app/session/diagnostic shape; current source uses no-op Zenoh stubs and is not proof of a live native data plane."
+    },
+    {
+      "id": "github-google-ai-edge-litert-lm",
+      "source_kind": "github_repository",
+      "url": "https://github.com/google-ai-edge/LiteRT-LM",
+      "license": "Apache-2.0",
+      "stars": 6459,
+      "last_push_utc": "2026-09-17T03:07:58Z",
+      "examined_for": ["Android Kotlin", "Gemma", "LiteRT", "GPU/NPU", "tool use", "multimodality"],
+      "fit": "Current runtime direction; keep inference separate from the phone capability broker."
+    },
+    {
+      "id": "github-google-ai-edge-gallery",
+      "source_kind": "github_repository",
+      "url": "https://github.com/google-ai-edge/gallery",
+      "license": "Apache-2.0",
+      "stars": 24716,
+      "last_push_utc": "2026-09-16T21:51:40Z",
+      "examined_for": ["Android model gallery", "LiteRT-LM reference app", "Gemma device testing"],
+      "fit": "Reference/test app; do not copy APKs or model files into this archive."
+    },
+    {
+      "id": "hf-google-gemma-3n-e2b-litert-lm",
+      "source_kind": "huggingface_model",
+      "url": "https://huggingface.co/google/gemma-3n-E2B-it-litert-lm",
+      "license": "Gemma license; manually gated",
+      "likes": 553,
+      "downloads": 5003,
+      "last_modified_utc": "2025-12-08T04:55:43Z",
+      "examined_for": ["Gemma 3n", "LiteRT-LM", "multimodal Android model"],
+      "fit": "Low-resource candidate for device benchmarking; gated and never vendor the weights here."
+    },
+    {
+      "id": "hf-litert-community-gemma-3-1b",
+      "source_kind": "huggingface_model",
+      "url": "https://huggingface.co/litert-community/Gemma3-1B-IT",
+      "license": "Gemma license; automatically gated",
+      "likes": 867,
+      "downloads": 12989,
+      "last_modified_utc": "2026-09-01T05:31:40Z",
+      "examined_for": ["Gemma 3 1B", "LiteRT", "MediaPipe LLM Inference", "Android"],
+      "fit": "Smaller Android candidate; keep `.task` and `.litertlm` formats distinct and benchmark on target hardware."
+    },
+    {
+      "id": "hf-litert-community-gemma-4-e2b",
+      "source_kind": "huggingface_model",
+      "url": "https://huggingface.co/litert-community/gemma-4-E2B-it-litert-lm",
+      "license": "Apache-2.0 on model card",
+      "likes": 427,
+      "downloads": 1200949,
+      "last_modified_utc": "2026-08-31T13:48:36Z",
+      "examined_for": ["Gemma 4 E2B", "LiteRT-LM", "Android/iOS/Desktop/IoT/Web"],
+      "fit": "Powerful but multi-gigabyte; download only for an explicit device benchmark."
+    },
+    {
+      "id": "sourceforge-termux-api",
+      "source_kind": "sourceforge_project_or_mirror",
+      "url": "https://sourceforge.net/app/termux-api/android/",
+      "license": "Upstream license; SourceForge page is a catalog/download mirror",
+      "examined_for": ["SourceForge coverage", "Termux:API discovery"],
+      "fit": "Discovery only; prefer the Termux GitHub/F-Droid upstream."
+    },
+    {
+      "id": "sourceforge-termux-application-mirror",
+      "source_kind": "sourceforge_project_or_mirror",
+      "url": "https://sourceforge.net/projects/termux-application.mirror/",
+      "license": "Upstream license; mirror is not affiliated",
+      "examined_for": ["SourceForge coverage", "Termux distribution"],
+      "fit": "Discovery only; page identifies the GitHub upstream."
+    },
+    {
+      "id": "sourceforge-mcptools-mirror",
+      "source_kind": "sourceforge_project_or_mirror",
+      "url": "https://sourceforge.net/projects/mcptools.mirror/",
+      "license": "Upstream license; mirror is not independently evaluated",
+      "examined_for": ["MCP HTTP client/server discovery"],
+      "fit": "Generic MCP client/tooling reference, not an Android Intent bridge."
+    },
+    {
+      "id": "sourceforge-mcp-shell-server-mirror",
+      "source_kind": "sourceforge_project_or_mirror",
+      "url": "https://sourceforge.net/projects/mcp-shell-server.mirror/",
+      "license": "Upstream license; mirror is not independently evaluated",
+      "examined_for": ["whitelisted shell MCP", "SourceForge coverage"],
+      "fit": "Potentially useful shell policy reference, but not a phone-specific control plane."
+    },
+    {
+      "id": "fdroid-termux",
+      "source_kind": "fdroid_package",
+      "url": "https://f-droid.org/packages/com.termux/",
+      "license": "GPL-3.0-only upstream",
+      "examined_for": ["Termux distribution", "same-source installation requirement"],
+      "fit": "Preferred distribution source for the Termux side of a burner experiment."
+    },
+    {
+      "id": "fdroid-termux-api",
+      "source_kind": "fdroid_package",
+      "url": "https://f-droid.org/packages/com.termux.api/",
+      "license": "Upstream Termux:API license",
+      "examined_for": ["SMS permission warnings", "Termux:API installation"],
+      "fit": "Required companion for Termux capability commands; SMS permission can incur charges."
+    },
+    {
+      "id": "termux-run-command-intent",
+      "source_kind": "github_documentation",
+      "url": "https://github.com/termux/termux-app/wiki/RUN_COMMAND-Intent",
+      "license": "Documentation for Termux project",
+      "examined_for": ["third-party to Termux command boundary", "result callback"],
+      "fit": "Useful for a native broker that needs a bounded Termux command without exposing arbitrary shell."
+    }
+  ]
+}
