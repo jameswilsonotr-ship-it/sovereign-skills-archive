@@ -4,4 +4,4 @@
 - [x] Add the canonical offline fixture.
 - [x] Extend the checksum manifest with the fixture digest.
 - [x] Add an offline verifier for the checksum and policy boundary.
-- [ ] Run the verifier and record the result in the delivery receipt.
+- [x] Run the verifier and record the result in the delivery receipt.
