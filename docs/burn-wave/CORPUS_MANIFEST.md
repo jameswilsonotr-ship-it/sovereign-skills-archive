@@ -1,8 +1,8 @@
 # S2-14 corpus manifest
 
-**OpenSpec change-id:** `second-salvo-14-corpus-manifest`  
-**Slot:** `S2-14`  
-**Profile:** **Ultra only**  
+**OpenSpec change-id:** `second-salvo-14-corpus-manifest`
+**Slot:** `S2-14`
+**Profile:** **Ultra only**
 **Boundary:** one offline BURN HARD corpus set; this file is not a registry for
 other S2 slots.
 
