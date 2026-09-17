@@ -1,7 +1,7 @@
 # GitHub Connector Contract
 
-**OpenSpec change-id:** `second-salvo-17-github-contract`  
-**Slot:** S2-17  
+**OpenSpec change-id:** `second-salvo-17-github-contract`
+**Slot:** S2-17
 **Coverage:** included Ultra only
 
 ## Purpose
