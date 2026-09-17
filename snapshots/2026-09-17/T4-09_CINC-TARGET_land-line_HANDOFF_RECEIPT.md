@@ -1,8 +1,8 @@
 # T4-09 — CINC-TARGET land-line handoff receipt
 
-**Status:** landed  
-**Target:** Mag  
-**UTC:** 2026-09-17T09:41:00Z  
+**Status:** landed
+**Target:** Mag
+**UTC:** 2026-09-17T09:41:00Z
 **Mode:** offline, local text only
 
 ## Delta
