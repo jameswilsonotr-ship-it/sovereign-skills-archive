@@ -4,7 +4,8 @@
 | --- | --- |
 | OpenSpec change-id | `second-salvo-28-negative-cases` |
 | Slot | `S2-28` |
-| Scope | Included **Ultra** only |
+| Scope | Included **Ultra** only (**no OD**) |
+| Hard fences | No Willow SKILL.md; no CONV2_B; Vultr≠Cold Steel; no external calls; no secrets |
 | Explicit exclusion | **OD** and every other S2 slot |
 | Execution mode | Local, offline, fail-closed |
 
@@ -70,8 +71,8 @@ part of the expected assertion, not an operator suggestion.
   Cold Steel, or leaves the target ambiguous between them.
 - **Expected result:** Reject the mapping.
 - **Stop condition:** Stop before routing, deployment, environment selection,
-  or publication. **Vultr ≠ Cold Steel**; do not normalize either name into
-  the other.
+  or publication. **Vultr≠Cold Steel**; do not normalize either name into the
+  other.
 - **Pass evidence:** The conflicting mapping is not emitted as a valid
   decision and no environment action is attempted.
 
