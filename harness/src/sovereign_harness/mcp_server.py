@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 try:
-    from mcp.server.fastmcp import FastMCP
+    from mcp.server.fastmcp import FastMCP  # type: ignore[attr-defined]
 except ModuleNotFoundError:  # MCP SDK v2 renamed FastMCP to MCPServer.
     from mcp.server.mcpserver import MCPServer as FastMCP
 

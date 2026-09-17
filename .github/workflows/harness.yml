@@ -16,6 +16,10 @@ env:
 
 jobs:
   offline:
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -26,25 +30,21 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: ${{ matrix.python-version }}
 
       - name: Install harness dependencies
         working-directory: harness
-        run: |
-          python -m pip install --disable-pip-version-check \
-            "duckdb>=1.3.0" \
-            "httpx>=0.28.1" \
-            "mcp>=1.9.4" \
-            "pathspec>=0.12.1" \
-            "pydantic>=2.11.5" \
-            "pytest>=8.3.5" \
-            "ruff>=0.11.13"
+        run: python -m pip install --disable-pip-version-check ".[test]"
 
       - name: Ruff
         working-directory: harness
         run: ruff check src tests
 
-      - name: Pytest
+      - name: Mypy
+        working-directory: harness
+        run: mypy
+
+      - name: Smoke and property tests
         working-directory: harness
         env:
           PYTHONPATH: src
@@ -57,7 +57,11 @@ jobs:
         run: python -m sovereign_harness.hygiene --repo-root .. --base-ref origin/skill-tree-intake
 
   stress:
-    if: github.event_name == 'workflow_dispatch' && inputs.run_stress == true
+    if: github.event_name != 'workflow_dispatch' || inputs.run_stress == true
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
     runs-on: ubuntu-latest
     timeout-minutes: 2
     steps:
@@ -69,19 +73,11 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: ${{ matrix.python-version }}
 
       - name: Install harness dependencies
         working-directory: harness
-        run: |
-          python -m pip install --disable-pip-version-check \
-            "duckdb>=1.3.0" \
-            "httpx>=0.28.1" \
-            "mcp>=1.9.4" \
-            "pathspec>=0.12.1" \
-            "pydantic>=2.11.5" \
-            "pytest>=8.3.5" \
-            "ruff>=0.11.13"
+        run: python -m pip install --disable-pip-version-check ".[test]"
 
       - name: Stress tests
         working-directory: harness
