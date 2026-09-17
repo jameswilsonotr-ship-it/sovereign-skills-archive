@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-09-16 23:00 UTC-05:00",
+  "purpose": "offline MIS-6 stress/smoke corpora; no live APIs",
+  "files": {
+    "offline_calls_2500.jsonl": 2500,
+    "health_load_5k.jsonl": 5000,
+    "wq_to_linear_map.json": 320,
+    "rejection_matrix.csv": 26,
+    "call_log.jsonl": 800,
+    "payloads": 200,
+    "payloads_wave2": 400
+  },
+  "canonical_account_ids": {
+    "gmail": ["gmail_illipe-eaves", "gmail_deash-pungle", "gmail_algy-alpen"],
+    "github": ["github_unhex-ume"],
+    "linear": ["linear_diver-forbow"],
+    "googledrive": ["googledrive_baste-nous"]
+  },
+  "forbidden_account_ids": ["gmail_atilt-worked"],
+  "local_path": "/home/box/workspace/burn-wave/corpora/"
+}
