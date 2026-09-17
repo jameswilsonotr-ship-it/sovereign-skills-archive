@@ -57,8 +57,6 @@ of this specification.
 
 ## Acceptance
 
-### Atomic acceptance criteria
-
 - [ ] **LD-001** — The rendered Compose configuration declares a Docker
   healthcheck for both the Letta service and the Ollama service; a missing
   healthcheck is a contract failure.
