@@ -32,3 +32,8 @@
 
 **Ready for review.** This receipt records the documentation package only; it
 does not authorize or attest to execution of a cutover.
+
+## Git delivery
+
+- **Branch:** `cursor/third-salvo-33-flip-cutover-checklist-bb63`
+- **Pull request:** [salvo: T3-33 flip-cutover-checklist](https://github.com/jameswilsonotr-ship-it/sovereign-skills-archive/pull/192)
