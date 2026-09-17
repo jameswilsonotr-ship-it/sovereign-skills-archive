@@ -20,6 +20,32 @@ negative behavior. For example, “Spark completed” is not enough: the suite m
 also prove that a missing receipt does not become success, that duplicate wakes
 do not repeat work, and that a denied confirmation cannot mutate data.
 
+## Offline synthetic corpus
+
+The repository includes
+[`harness/tests/generated/`](../../harness/tests/generated/) with 1,000
+deterministic scenario stubs spanning all 80 cases in this document. Each
+record is marked `status: "stub"` and carries synthetic-only fixture metadata;
+the corpus is a contract inventory, not a substitute for an implemented
+system.
+
+The generator and verifier use only the Python standard library. They do not
+read credentials, use current time or randomness, install dependencies, open
+sockets, spawn subprocesses, call models, or contact providers. CI verifies the
+committed JSONL bytes and manifest hash before running the standard-library
+checks:
+
+```text
+python3 -m harness.tests.generated.runner
+python3 -m harness.tests.generated.generate --check
+python3 -m unittest discover -s harness/tests/generated -p 'test_*.py'
+```
+
+Run `python3 -m harness.tests.generated.generate` only after changing the
+catalog or templates. The manifest records the fixed seed, generator version,
+case catalog, exact count, and SHA-256 so stale or hand-edited records fail
+verification.
+
 ## Actors
 
 | Actor | Test double or fixture | What the suite verifies |
