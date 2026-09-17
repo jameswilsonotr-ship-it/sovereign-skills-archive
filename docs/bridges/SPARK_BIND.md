@@ -87,7 +87,7 @@ The **BASIC_TIER** profile is the conservative implementation target:
 
 The canonical BASIC_TIER file is not present in this archive yet. Until it is
 added, this section is the local cross-link for the tier boundary:
-[BASIC_TIER](#basic_tier-alignment).
+[BASIC_TIER](#basic-tier-alignment).
 
 ## Secret boundary
 
