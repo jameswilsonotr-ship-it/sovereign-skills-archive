@@ -1,7 +1,7 @@
 # SPEC-013 — Drive Receipt ACK
 
-**Status:** Draft  
-**Scope:** `from-vesper/receipts` bus acknowledgement contract  
+**Status:** Draft
+**Scope:** `from-vesper/receipts` bus acknowledgement contract
 **Type:** Specification only
 
 ## Purpose
@@ -228,4 +228,3 @@ This specification does not define:
 - a particular bus vendor, serialization format, or response topic;
 - credentials, secret storage, or access provisioning;
 - code, deployment configuration, or a real Drive publication.
-
