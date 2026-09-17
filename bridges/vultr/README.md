@@ -124,10 +124,13 @@ helper against a checked-out workspace:
 
 ```sh
 docker compose --profile coder run --rm \
-  -e CODER_WORKSPACE=/workspace \
   coder --prompt "Explain the error and suggest a minimal patch." \
   --file path/inside/workspace/file.py
 ```
+
+Set `CODER_WORKSPACE` in the deployment-only `.env` to the host checkout
+that should be mounted at `/workspace`; the `--file` path is relative to that
+mount.
 
 The helper only returns text. It does not apply a patch, run tests, or grant
 the model shell access. A caller such as Hi or Cursor can use the same
