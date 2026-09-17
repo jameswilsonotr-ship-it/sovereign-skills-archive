@@ -1,0 +1,10 @@
+{
+  "source": "offline-fixture",
+  "files": [
+    {
+      "id": "fixture-drive-001",
+      "name": "MIS-6 fixture note.md",
+      "mime_type": "text/markdown"
+    }
+  ]
+}
