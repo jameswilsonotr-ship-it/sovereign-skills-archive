@@ -1,10 +1,10 @@
 # SPEC-006 — Zenoh Topic Namespace and Envelope Contract
 
-**Status:** proposed  
-**Version:** 0.1.0  
-**Owners:** burner-phone control-plane implementation  
-**Related work:** [Zenoh Android control-plane research](https://github.com/jameswilsonotr-ship-it/sovereign-skills-archive/pull/16), [SPEC-002 — Burner Phone MCP Intents](https://github.com/jameswilsonotr-ship-it/sovereign-skills-archive/pull/24)  
-**Document type:** OpenSpec acceptance specification  
+**Status:** proposed
+**Version:** 0.1.0
+**Owners:** burner-phone control-plane implementation
+**Related work:** [Zenoh Android control-plane research](https://github.com/jameswilsonotr-ship-it/sovereign-skills-archive/pull/16), [SPEC-002 — Burner Phone MCP Intents](https://github.com/jameswilsonotr-ship-it/sovereign-skills-archive/pull/24)
+**Document type:** OpenSpec acceptance specification
 **Scope:** Zenoh key expressions, topic direction, message envelopes, authorization boundaries, lifecycle, and observability
 
 ## 1. Purpose
@@ -396,7 +396,7 @@ expression for privileged traffic.
 **Acceptance scenario:**
 
 ```gherkin
-Given a caller requests subscription to burner/v1/** 
+Given a caller requests subscription to burner/v1/**
 When the subscription is authorized
 Then authorization rejects the wildcard expression
 And no broad subscription is opened
