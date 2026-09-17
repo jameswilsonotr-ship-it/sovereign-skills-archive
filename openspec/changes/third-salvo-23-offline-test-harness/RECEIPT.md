@@ -29,6 +29,6 @@ fallback path. All test inputs are explicitly registered local fixtures.
 
 ## Git handoff
 
-- Commit: `aa682ac`
+- Commits: `aa682ac` (implementation), `af84508` (receipt)
 - Branch: `cursor/third-salvo-23-offline-test-harness-1314`
 - Pull request: [salvo: T3-23 offline-test-harness](https://github.com/jameswilsonotr-ship-it/sovereign-skills-archive/pull/189)
