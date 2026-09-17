@@ -61,9 +61,9 @@ Each accepted cycle produces one JSON object with stable keys:
 ```
 
 `cycle` and `event` may change between receipts. The policy fields and
-`included_targets` must not change as a consequence of reload. `receipt:
-keep` means the receipt records that inclusion survived the snapshot
-replacement; it does not authorize persistence outside the local harness.
+`included_targets` must not change as a consequence of reload. `receipt: keep`
+means the receipt records that inclusion survived the snapshot replacement; it
+does not authorize persistence outside the local harness.
 
 ## Acceptance checks
 
