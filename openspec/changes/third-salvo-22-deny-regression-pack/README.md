@@ -6,7 +6,7 @@ This pack is the executable offline companion to the OpenSpec change
 Run from this directory:
 
 ```text
-python -m unittest discover -s tests -v
+python3 -m unittest discover -s tests -v
 ```
 
 The contract allows only the exact tuple:

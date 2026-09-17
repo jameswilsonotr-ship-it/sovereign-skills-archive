@@ -12,10 +12,10 @@
 Command:
 
 ```text
-python -m unittest discover -s tests -v
+python3 -m unittest discover -s tests -v
 ```
 
-Result: **PASS** — 5 tests, 8 contract fixtures.
+Result: **PASS** — 5 tests, 8 contract fixtures (`Ran 5 tests in 0.001s`).
 
 The pack proves that the exact Included Ultra tuple is the only allowed case,
 On-Demand Ultra is denied, malformed and non-matching inputs fail closed, and
