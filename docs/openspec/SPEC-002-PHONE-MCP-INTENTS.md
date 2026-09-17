@@ -1,10 +1,10 @@
 # SPEC-002 — Burner Phone MCP Intents
 
-**Status:** proposed  
-**Version:** 0.1.0  
-**Owners:** burner-phone control-plane implementation  
-**Related work:** [PR #16 — document zenoh.apk burner control plane and Android Intent MCP](https://github.com/jameswilsonotr-ship-it/sovereign-skills-archive/pull/16)  
-**Document type:** OpenSpec acceptance specification  
+**Status:** proposed
+**Version:** 0.1.0
+**Owners:** burner-phone control-plane implementation
+**Related work:** [PR #16 — document zenoh.apk burner control plane and Android Intent MCP](https://github.com/jameswilsonotr-ship-it/sovereign-skills-archive/pull/16)
+**Document type:** OpenSpec acceptance specification
 **Scope:** health, typed Android Intent stubs, denied-by-default phone actions, and Tailscale-only binding
 
 ## 1. Purpose
