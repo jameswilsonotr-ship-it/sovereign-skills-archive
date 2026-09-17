@@ -1,8 +1,8 @@
 # S2-10 terminology audit
 
-**OpenSpec change-id:** `second-salvo-10-terminology-audit`  
-**Slot:** `S2-10`  
-**Mode:** atomic included burn  
+**OpenSpec change-id:** `second-salvo-10-terminology-audit`
+**Slot:** `S2-10`
+**Mode:** atomic included burn
 **Base:** `skill-tree-intake`
 
 ## Purpose and scope
