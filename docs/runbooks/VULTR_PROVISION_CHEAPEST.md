@@ -1,10 +1,10 @@
 # Cheapest Vultr Provisioning Runbook: `vc2-1c-2gb`
 
-Status: operator runbook / manual execution only  
+Status: operator runbook / manual execution only
 Scope: one low-cost Vultr Cloud Compute server running the approved
-`bridges/vultr` Letta/Ollama Docker Compose stack  
-Network policy: Tailscale-only for administration and application access  
-Budget guardrail: **USD $250 hard cap**  
+`bridges/vultr` Letta/Ollama Docker Compose stack
+Network policy: Tailscale-only for administration and application access
+Budget guardrail: **USD $250 hard cap**
 Provider/API policy: **This runbook does not authorize live Vultr API, CLI, or
 REST calls.** Provision through the Vultr web console unless an owner
 explicitly approves another method.
