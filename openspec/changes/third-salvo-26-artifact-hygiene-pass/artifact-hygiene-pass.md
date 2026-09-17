@@ -1,8 +1,8 @@
 # T3-26 artifact hygiene pass list
 
-**Change ID:** `third-salvo-26-artifact-hygiene-pass`  
-**Slot:** `T3-26`  
-**Eligibility:** `INCLUDED Ultra ONLY`  
+**Change ID:** `third-salvo-26-artifact-hygiene-pass`
+**Slot:** `T3-26`
+**Eligibility:** `INCLUDED Ultra ONLY`
 **Execution mode:** offline, repository-local
 
 This is the authoritative pass list for the change. It does not authorize
