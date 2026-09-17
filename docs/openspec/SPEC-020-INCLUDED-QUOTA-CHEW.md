@@ -1,8 +1,8 @@
 # SPEC-020 — Included Quota Chew
 
-**Status:** Draft  
+**Status:** Draft
 **Scope:** Cursor-native, included-quota usage before the active quota period
-resets  
+resets
 **Normative language:** “MUST”, “MUST NOT”, and “SHOULD” are requirements.
 
 ## 1. Purpose
