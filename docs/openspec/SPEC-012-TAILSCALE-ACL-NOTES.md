@@ -97,7 +97,7 @@ An unanswered item is a stop condition, not an invitation to broaden access.
 
 - The document remains documentation-only and contains no live Tailscale
   operation or environment credential.
-- TA-001 through TA-015 are present exactly once and each has a concrete
+- All fifteen TA notes are present exactly once and each has a concrete
   fail-closed outcome.
 - No note grants access based solely on reachability, tailnet membership, or
   an IP address.
