@@ -1,8 +1,8 @@
 # MCP threat model
 
-**Status:** Draft security baseline  
-**Owner:** Security and platform owners  
-**Last reviewed:** 2026-09-17  
+**Status:** Draft security baseline
+**Owner:** Security and platform owners
+**Last reviewed:** 2026-09-17
 **Review triggers:** Any new tool, connector, credential, network route, provider, or
 phone capability; and at least annually
 
@@ -607,4 +607,3 @@ as deployment proof:
 - `skill_tree/skills/system-roadmap/references/third-party-skills-eval-2026-08-17/03_SKILL_PUBLICATION_STATUS.md`
 - `skill_tree/skills/system-roadmap/references/io-normalization-recon-2026-08-16/01_Gmail_Fake_MCP_Bus.md`
 - `skill_tree/skills/system-roadmap/references/skills/conversation-lake/handoff_2026-08-29_keep-union-and-vesper-bus.md`
-
