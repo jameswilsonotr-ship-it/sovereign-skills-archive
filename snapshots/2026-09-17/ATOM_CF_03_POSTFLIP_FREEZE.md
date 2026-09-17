@@ -1,8 +1,8 @@
 # atom-cf-03 post-flip freeze
 
-**Parent change-id:** `add-burn-flip-cutover`  
-**Atom:** `atom-cf-03-postflip-freeze`  
-**Status:** Faye HOLD lifted  
+**Parent change-id:** `add-burn-flip-cutover`
+**Atom:** `atom-cf-03-postflip-freeze`
+**Status:** Faye HOLD lifted
 **Tag:** Meter Burn Desk
 
 ## Freeze
