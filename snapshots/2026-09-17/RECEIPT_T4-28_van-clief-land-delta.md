@@ -35,4 +35,3 @@ The delta contains none of the following:
   invented.
 - Verification is offline: inspect the changed path and run repository-local
   checks only.
-
