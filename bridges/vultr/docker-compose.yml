@@ -1,0 +1,139 @@
+name: vultr-inference
+
+# Create a deployment-only .env beside this file. It must contain a real
+# TAILNET_IP only on the VPS, never in Git. TS_AUTHKEY is intentionally not
+# accepted here; join Tailscale with cloud-init or a separate secret store.
+#
+# Core inference starts with `docker compose up -d`. Letta is opt-in:
+# `docker compose --profile letta up -d`. The coder image is intended for
+# one-shot `docker compose --profile coder run --rm coder ...` calls.
+# Every host-published port below must use the VPS's 100.x Tailscale address.
+# Do not replace TAILNET_IP with 0.0.0.0 or the public interface address.
+
+configs:
+  caddyfile:
+    content: |
+      :11434 {
+        @health path /health
+        respond @health "ok\n" 200
+        reverse_proxy ollama:11434
+      }
+
+services:
+  ollama:
+    image: ollama/ollama:latest
+    restart: unless-stopped
+    environment:
+      OLLAMA_HOST: 0.0.0.0:11434
+      OLLAMA_KEEP_ALIVE: "${OLLAMA_KEEP_ALIVE:-5m}"
+      # Metadata only; do not put a Vultr API token in this file.
+      VULTR_REGION: "${VULTR_REGION:-__VULTR_REGION__}"
+      VULTR_INSTANCE_ID: "${VULTR_INSTANCE_ID:-__VULTR_INSTANCE_ID__}"
+    volumes:
+      - ollama-data:/root/.ollama
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    # GPU option: uncomment on a compatible GPU VPS and verify the runtime.
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: 1
+    #           capabilities: [gpu]
+
+  inference-gateway:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    depends_on:
+      ollama:
+        condition: service_healthy
+    ports:
+      - "${TAILNET_IP:?set TAILNET_IP to the VPS 100.x Tailscale address}:11434:11434"
+    configs:
+      - source: caddyfile
+        target: /etc/caddy/Caddyfile
+    command:
+      - caddy
+      - run
+      - --config
+      - /etc/caddy/Caddyfile
+      - --adapter
+      - caddyfile
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - wget -qO- http://127.0.0.1:11434/health | grep -qx 'ok'
+      interval: 10s
+      timeout: 5s
+      retries: 6
+      start_period: 10s
+
+  letta-db:
+    image: pgvector/pgvector:0.8.1-pg15
+    profiles: ["letta"]
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: "${LETTA_PG_USER:-letta}"
+      POSTGRES_PASSWORD: "${LETTA_PG_PASSWORD:-__SET_LETTA_PG_PASSWORD__}"
+      POSTGRES_DB: "${LETTA_PG_DB:-letta}"
+    volumes:
+      - letta-db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+      start_period: 10s
+
+  letta:
+    image: letta/letta:latest
+    profiles: ["letta"]
+    hostname: letta
+    restart: unless-stopped
+    depends_on:
+      ollama:
+        condition: service_healthy
+      letta-db:
+        condition: service_healthy
+    ports:
+      - "${TAILNET_IP:?set TAILNET_IP to the VPS 100.x Tailscale address}:8283:8283"
+    environment:
+      LETTA_PG_URI: "postgresql://${LETTA_PG_USER:-letta}:${LETTA_PG_PASSWORD:-__SET_LETTA_PG_PASSWORD__}@letta-db:5432/${LETTA_PG_DB:-letta}"
+      OLLAMA_BASE_URL: "http://ollama:11434/v1"
+      # Ollama requires a non-empty compatibility key but does not validate it.
+      OPENAI_API_KEY: "${OLLAMA_API_KEY:-ollama}"
+      LETTA_DEBUG: "${LETTA_DEBUG:-false}"
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - >-
+          python -c 'import urllib.request;
+          urllib.request.urlopen("http://127.0.0.1:8283/health", timeout=3)'
+      interval: 15s
+      timeout: 10s
+      retries: 10
+      start_period: 30s
+
+  coder:
+    build:
+      context: .
+      dockerfile: Dockerfile.coder
+    profiles: ["coder"]
+    restart: "no"
+    depends_on:
+      ollama:
+        condition: service_healthy
+    working_dir: /workspace
+    environment:
+      OLLAMA_BASE_URL: "http://ollama:11434/v1"
+      OLLAMA_MODEL: "${OLLAMA_MODEL:-gemma3:4b}"
+    volumes:
+      - "${CODER_WORKSPACE:-.}:/workspace:rw"
+
+volumes:
+  ollama-data:
+  letta-db-data:
