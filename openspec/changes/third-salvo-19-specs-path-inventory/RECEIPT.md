@@ -18,4 +18,4 @@
 - Change-id and slot metadata are present.
 - The applied spec and change-local delta contain matching requirements.
 - The package is explicitly limited to INCLUDED Ultra.
-- No runtime or external integrations were changed.
+- No runtime integrations were changed.
