@@ -1,0 +1,41 @@
+#cloud-config
+#
+# TEMPLATE ONLY. Render this file with a secret manager at provisioning time.
+# Never replace the placeholders in Git. This file does not call the Vultr API.
+
+package_update: true
+packages:
+  - ca-certificates
+  - curl
+  - docker.io
+  - docker-compose-plugin
+  - ufw
+
+write_files:
+  - path: /etc/mesh/inference.env
+    owner: root:root
+    permissions: "0600"
+    content: |
+      # Secret-managed values. These placeholders must be replaced outside Git.
+      VULTR_API_KEY=REPLACE_WITH_PROVISIONING_SECRET_REFERENCE
+      TS_AUTHKEY=REPLACE_WITH_SHORT_LIVED_TAILSCALE_AUTHKEY
+      TAILSCALE_HOSTNAME=mesh-inference-vultr
+      MODEL_ID=REPLACE_WITH_APPROVED_MODEL
+      INFERENCE_IMAGE=vllm/vllm-openai:PIN_A_DIGEST
+      INFERENCE_API_KEY=REPLACE_WITH_RUNTIME_SECRET
+      MAX_MODEL_LEN=4096
+      HF_HOME=/var/lib/mesh/huggingface
+
+runcmd:
+  - systemctl enable --now docker
+  # Review and pin the installer/package source in the production image build.
+  - [bash, -lc, "curl -fsSL https://tailscale.com/install.sh | sh"]
+  - [bash, -lc, "set -a; . /etc/mesh/inference.env; set +a; tailscale up --auth-key=\"$TS_AUTHKEY\" --hostname=\"$TAILSCALE_HOSTNAME\" --ssh=false --accept-routes=false"]
+  - [bash, -lc, "install -d -m 0750 -o root -g root /opt/mesh /var/lib/mesh/huggingface"]
+  - [bash, -lc, "cp /etc/mesh/inference.env /opt/mesh/.env && chmod 0600 /opt/mesh/.env"]
+  - [bash, -lc, "printf '\\nTAILSCALE_IP=%s\\n' \"$(tailscale ip -4)\" >> /opt/mesh/.env"]
+  - [bash, -lc, "ufw default deny incoming && ufw default allow outgoing && ufw allow in on tailscale0 to any port 8000 proto tcp && ufw --force enable"]
+  # Stage bridges/vultr/docker-compose.yml at /opt/mesh before enabling this.
+  - [bash, -lc, "if test -f /opt/mesh/docker-compose.yml; then docker compose --env-file /opt/mesh/.env -f /opt/mesh/docker-compose.yml up -d; else echo 'mesh compose not staged; leaving inference stopped'; fi"]
+
+final_message: "Off-cloud mesh host bootstrap complete; verify tailnet ACLs and compose staging before serving traffic."

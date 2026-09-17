@@ -1,0 +1,48 @@
+services:
+  inference:
+    image: ${INFERENCE_IMAGE:?set INFERENCE_IMAGE in a secret-managed env file}
+    restart: unless-stopped
+    gpus: all
+    env_file:
+      - .env
+    environment:
+      HF_HOME: ${HF_HOME:-/var/lib/mesh/huggingface}
+      VLLM_NO_USAGE_STATS: "1"
+    command:
+      - --model
+      - ${MODEL_ID:?set MODEL_ID in a secret-managed env file}
+      - --served-model-name
+      - mesh-default
+      - --host
+      - 0.0.0.0
+      - --port
+      - "8000"
+      - --api-key
+      - ${INFERENCE_API_KEY:?set INFERENCE_API_KEY outside the repository}
+      - --max-model-len
+      - ${MAX_MODEL_LEN:-4096}
+      - --download-dir
+      - ${HF_HOME:-/var/lib/mesh/huggingface}
+    ports:
+      # Bind only to the address appended by cloud-init after Tailscale joins.
+      - "${TAILSCALE_IP:?set TAILSCALE_IP to the tailnet IPv4}:8000:8000"
+    volumes:
+      - model-cache:${HF_HOME:-/var/lib/mesh/huggingface}
+    security_opt:
+      - no-new-privileges:true
+    mem_swappiness: 0
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - >-
+          import urllib.request;
+          urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=3)
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 90s
+
+volumes:
+  model-cache:
