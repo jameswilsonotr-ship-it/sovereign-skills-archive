@@ -13,6 +13,8 @@ from sovereign_harness.connectors import (
     WebConnector,
 )
 
+pytestmark = pytest.mark.smoke
+
 
 @pytest.mark.parametrize(
     "connector",

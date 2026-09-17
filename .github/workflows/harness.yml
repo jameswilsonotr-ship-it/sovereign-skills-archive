@@ -3,6 +3,13 @@ name: harness
 on:
   push:
   pull_request:
+  workflow_dispatch:
+    inputs:
+      run_stress:
+        description: "Run the bounded offline stress suite"
+        required: false
+        default: false
+        type: boolean
 
 env:
   GROK_TOOLS: mock
@@ -41,10 +48,43 @@ jobs:
         working-directory: harness
         env:
           PYTHONPATH: src
-        run: pytest
+        run: pytest -m smoke
 
       - name: KEEP lake hygiene gate
         working-directory: harness
         env:
           PYTHONPATH: src
         run: python -m sovereign_harness.hygiene --repo-root .. --base-ref origin/skill-tree-intake
+
+  stress:
+    if: github.event_name == 'workflow_dispatch' && inputs.run_stress == true
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install harness dependencies
+        working-directory: harness
+        run: |
+          python -m pip install --disable-pip-version-check \
+            "duckdb>=1.3.0" \
+            "httpx>=0.28.1" \
+            "mcp>=1.9.4" \
+            "pathspec>=0.12.1" \
+            "pydantic>=2.11.5" \
+            "pytest>=8.3.5" \
+            "ruff>=0.11.13"
+
+      - name: Stress tests
+        working-directory: harness
+        env:
+          PYTHONPATH: src
+        run: pytest -m stress

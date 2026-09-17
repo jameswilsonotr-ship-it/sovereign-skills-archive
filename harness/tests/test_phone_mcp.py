@@ -1,11 +1,14 @@
 from __future__ import annotations
 
+from http.server import ThreadingHTTPServer
 from threading import Thread
 
 import httpx
-from http.server import ThreadingHTTPServer
+import pytest
 
 from sovereign_harness.phone_mcp import PhoneRequestHandler, health_payload
+
+pytestmark = pytest.mark.smoke
 
 
 def test_health_payload_has_only_v0_capabilities() -> None:
