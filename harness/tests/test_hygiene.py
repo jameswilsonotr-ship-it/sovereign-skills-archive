@@ -2,7 +2,11 @@ from __future__ import annotations
 
 from pathlib import Path
 
+import pytest
+
 from sovereign_harness import hygiene
+
+pytestmark = pytest.mark.smoke
 
 
 def test_keep_lake_query_hygiene_passes() -> None:

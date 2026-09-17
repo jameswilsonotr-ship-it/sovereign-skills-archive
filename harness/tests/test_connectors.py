@@ -13,6 +13,8 @@ from sovereign_harness.connectors import (
     WebConnector,
 )
 
+pytestmark = pytest.mark.smoke
+
 
 @pytest.mark.parametrize(
     "connector",
@@ -27,7 +29,7 @@ def test_account_bound_connectors_require_account_id(connector: type[object]) ->
 
 
 def test_drive_call_shape_is_offline_and_account_scoped() -> None:
-    response = DriveConnector(account_id="drive-test").list_files(
+    response = DriveConnector(account_id="googledrive_baste-nous").list_files(
         folder_id="fixture-folder",
         query="MIS-6",
         limit=3,
@@ -35,7 +37,7 @@ def test_drive_call_shape_is_offline_and_account_scoped() -> None:
 
     assert response["connector"] == "drive"
     assert response["operation"] == "list_files"
-    assert response["account_id"] == "drive-test"
+    assert response["account_id"] == "googledrive_baste-nous"
     assert response["request"] == {
         "folder_id": "fixture-folder",
         "query": "MIS-6",
@@ -45,13 +47,13 @@ def test_drive_call_shape_is_offline_and_account_scoped() -> None:
 
 
 def test_all_provider_call_shapes_are_deterministic() -> None:
-    assert GithubConnector(account_id="gh").get_issue(
+    assert GithubConnector(account_id="github_unhex-ume").get_issue(
         owner="owner", repo="repo", number=6
     )["operation"] == "get_issue"
-    assert LinearConnector(account_id="linear").get_issue(
+    assert LinearConnector(account_id="linear_diver-forbow").get_issue(
         identifier="MIS-6"
     )["operation"] == "get_issue"
-    assert GmailConnector(account_id="gmail").get_thread(
+    assert GmailConnector(account_id="gmail_illipe-eaves").get_thread(
         thread_id="thread-1"
     )["operation"] == "get_thread"
 
