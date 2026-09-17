@@ -1,0 +1,95 @@
+[
+  {
+    "name": "included-ultra-allows",
+    "request": {
+      "slot": "T3-22",
+      "entitlement": "INCLUDED",
+      "tier": "Ultra"
+    },
+    "decision": "ALLOW",
+    "reason_codes": []
+  },
+  {
+    "name": "included-non-ultra-denies",
+    "request": {
+      "slot": "T3-22",
+      "entitlement": "INCLUDED",
+      "tier": "Pro"
+    },
+    "decision": "DENY",
+    "reason_codes": [
+      "TIER_NOT_ULTRA"
+    ]
+  },
+  {
+    "name": "on-demand-ultra-denies",
+    "request": {
+      "slot": "T3-22",
+      "entitlement": "ON_DEMAND",
+      "tier": "Ultra"
+    },
+    "decision": "DENY",
+    "reason_codes": [
+      "ENTITLEMENT_NOT_INCLUDED",
+      "ON_DEMAND_NOT_ALLOWED"
+    ]
+  },
+  {
+    "name": "on-demand-non-ultra-denies",
+    "request": {
+      "slot": "T3-22",
+      "entitlement": "ON_DEMAND",
+      "tier": "Pro"
+    },
+    "decision": "DENY",
+    "reason_codes": [
+      "ENTITLEMENT_NOT_INCLUDED",
+      "ON_DEMAND_NOT_ALLOWED",
+      "TIER_NOT_ULTRA"
+    ]
+  },
+  {
+    "name": "missing-entitlement-denies",
+    "request": {
+      "slot": "T3-22",
+      "tier": "Ultra"
+    },
+    "decision": "DENY",
+    "reason_codes": [
+      "ENTITLEMENT_NOT_INCLUDED"
+    ]
+  },
+  {
+    "name": "wrong-slot-denies",
+    "request": {
+      "slot": "T3-21",
+      "entitlement": "INCLUDED",
+      "tier": "Ultra"
+    },
+    "decision": "DENY",
+    "reason_codes": [
+      "INVALID_REQUEST"
+    ]
+  },
+  {
+    "name": "wrong-case-values-deny",
+    "request": {
+      "slot": "T3-22",
+      "entitlement": "included",
+      "tier": "ultra"
+    },
+    "decision": "DENY",
+    "reason_codes": [
+      "ENTITLEMENT_NOT_INCLUDED",
+      "TIER_NOT_ULTRA"
+    ]
+  },
+  {
+    "name": "non-object-denies",
+    "request": "T3-22",
+    "decision": "DENY",
+    "reason_codes": [
+      "INVALID_REQUEST"
+    ]
+  }
+]
