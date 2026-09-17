@@ -1,0 +1,48 @@
+{
+  "source": "offline-fixture",
+  "service": "phone-bridge",
+  "capabilities": [
+    "health",
+    "offline-fixtures"
+  ],
+  "sms": false,
+  "camera": false,
+  "records": [
+    {
+      "id": "fixture-phone-001",
+      "kind": "health",
+      "service": "phone-bridge",
+      "status": "ok"
+    },
+    {
+      "id": "fixture-phone-002",
+      "kind": "capability",
+      "name": "health",
+      "enabled": true
+    },
+    {
+      "id": "fixture-phone-003",
+      "kind": "capability",
+      "name": "offline-fixtures",
+      "enabled": true
+    },
+    {
+      "id": "fixture-phone-004",
+      "kind": "capability",
+      "name": "sms",
+      "enabled": false
+    },
+    {
+      "id": "fixture-phone-005",
+      "kind": "capability",
+      "name": "camera",
+      "enabled": false
+    },
+    {
+      "id": "fixture-phone-006",
+      "kind": "transport",
+      "name": "local",
+      "address": "127.0.0.1"
+    }
+  ]
+}
