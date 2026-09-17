@@ -1,9 +1,9 @@
 # Paper checklist — T3-33 flip cutover
 
-**Change ID:** `third-salvo-33-flip-cutover-checklist`  
-**Workstream:** `THIRD_SALVO`  
-**Slot:** `T3-33`  
-**Allowed class:** `INCLUDED Ultra`  
+**Change ID:** `third-salvo-33-flip-cutover-checklist`
+**Workstream:** `THIRD_SALVO`
+**Slot:** `T3-33`
+**Allowed class:** `INCLUDED Ultra`
 **Procedure boundary:** offline-only; paper record, not an execution claim
 
 > Every box is a gate. If a value is unknown, blank, aliased, or conflicting,
@@ -19,7 +19,7 @@
 - [ ] The work remains offline-only.
 - [ ] No adjacent slot or unrelated change is included.
 
-**Identity notes:**  
+**Identity notes:**
 `______________________________________________________________________________`
 
 ## 2. State record
@@ -56,7 +56,7 @@ performed, write `NOT EXECUTED` and leave the completion box unchecked.
 - [ ] Observed class is not `On-Demand`.
 - [ ] No unexpected scope change was observed.
 
-**Verification result:** [ ] accepted  [ ] stopped  [ ] recovery required  
+**Verification result:** [ ] accepted  [ ] stopped  [ ] recovery required
 **Verifier initials:** `____________`  **UTC:** `________________`
 
 ## 5. Stop and recovery record
@@ -78,9 +78,9 @@ readback. Do not convert a stop into an acceptance.
 - [ ] The receipt does not claim an unperformed runtime flip.
 - [ ] Reviewer sign-off is complete.
 
-**Operator:** `____________________________`  
-**Reviewer:** `____________________________`  
-**Final UTC:** `___________________________`  
+**Operator:** `____________________________`
+**Reviewer:** `____________________________`
+**Final UTC:** `___________________________`
 **Receipt path:** `snapshots/2026-09-17/T3-33_FLIP_CUTOVER_RECEIPT.md`
 
 **Final disposition:** [ ] ready for review  [ ] stopped  [ ] recovery pending
