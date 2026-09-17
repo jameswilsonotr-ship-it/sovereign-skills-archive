@@ -32,7 +32,14 @@ to send.
   sufficient to make the send control clickable when usage is allowed; no
   minimum length greater than one is implied.
 
-## Atomic acceptance criteria
+## Requirements
+
+1. All composer submission paths evaluate one shared send-gate decision.
+2. The gate requires valid content and an explicit current `usage allowed`
+   verdict.
+3. Unknown or invalid usage status fails closed and cannot enable sending.
+
+## Acceptance
 
 - [ ] **CS-001** — With exactly one non-whitespace character in the composer
   and an explicit current `usage allowed` verdict, `send_clickable` is true.
