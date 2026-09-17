@@ -1,7 +1,7 @@
 # Receipt — T4-20 included-burn meter note
 
-Status: recorded  
-Mode: offline-only  
+Status: recorded
+Mode: offline-only
 PR title: `salvo: T4-20 included-burn-meter-note`
 
 ## Locked behavior
