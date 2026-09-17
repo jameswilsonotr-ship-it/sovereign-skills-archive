@@ -1,9 +1,9 @@
 # Tube-3 Spent-by-Rule Draft — Post-Land
 
-**Status:** Draft template; finalize only after the T3-37 PR lands  
-**Slot:** `T3-37`  
-**Change-id:** `third-salvo-37-tube3-spent-rule`  
-**Execution class:** `included-ultra`  
+**Status:** Draft template; finalize only after the T3-37 PR lands
+**Slot:** `T3-37`
+**Change-id:** `third-salvo-37-tube3-spent-rule`
+**Execution class:** `included-ultra`
 **Accounting state:** `not-spent` until the post-land fields below are
   completed
 

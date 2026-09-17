@@ -1,10 +1,10 @@
 # Receipt — Third Salvo T3-37
 
-**Change-id:** `third-salvo-37-tube3-spent-rule`  
-**Slot:** `T3-37`  
-**Requested title:** `salvo: T3-37 tube3-spent-rule`  
-**Mode:** documentation-only, offline  
-**Execution class:** included Ultra only  
+**Change-id:** `third-salvo-37-tube3-spent-rule`
+**Slot:** `T3-37`
+**Requested title:** `salvo: T3-37 tube3-spent-rule`
+**Mode:** documentation-only, offline
+**Execution class:** included Ultra only
 **On-Demand:** forbidden
 
 ## Delivered
