@@ -28,12 +28,17 @@ ACCOUNT_BOUND_CONNECTORS = (
 
 
 def test_composio_fixture_account_ids_are_wired(
-    composio_account_ids: dict[str, str],
+    composio_account_ids: dict[str, str | dict[str, str]],
 ) -> None:
     assert composio_account_ids == {
-        "Otr": "gmail_illipe-eaves",
-        "Liv": "gmail_deash-pungle",
-        "Vesper": "gmail_algy-alpen",
+        "gmail": {
+            "Otr": "gmail_illipe-eaves",
+            "Liv": "gmail_deash-pungle",
+            "Vesper": "gmail_algy-alpen",
+        },
+        "github": "github_unhex-ume",
+        "linear": "linear_diver-forbow",
+        "drive": "googledrive_baste-nous",
     }
 
 
@@ -76,17 +81,32 @@ def test_malformed_account_ids_are_rejected(
             connector(account_id=bad_account_id)
 
 
-def test_concurrent_dummy_connector_calls_are_logged(call_log, composio_account_ids) -> None:
+def test_concurrent_dummy_connector_calls_are_logged(
+    call_log,
+    composio_account_ids: dict[str, str | dict[str, str]],
+) -> None:
     jobs = [
-        (account_id, sequence)
-        for account_id in composio_account_ids.values()
-        for sequence in range(24)
+        (provider, account_id, sequence)
+        for provider, account_ids in composio_account_ids.items()
+        for account_id in (
+            account_ids.values() if isinstance(account_ids, dict) else (account_ids,)
+        )
+        for sequence in range(12)
     ]
 
-    def call(job: tuple[str, int]) -> dict[str, Any]:
-        account_id, sequence = job
-        connector = GmailConnector(account_id=account_id)
-        return connector.search_threads(query=f"fixture:{sequence}", limit=1)
+    def call(job: tuple[str, str, int]) -> dict[str, Any]:
+        provider, account_id, sequence = job
+        if provider == "gmail":
+            connector = GmailConnector(account_id=account_id)
+            return connector.search_threads(query=f"fixture:{sequence}", limit=1)
+        if provider == "github":
+            connector = GithubConnector(account_id=account_id)
+            return connector.search_repositories(query=f"fixture:{sequence}", limit=1)
+        if provider == "linear":
+            connector = LinearConnector(account_id=account_id)
+            return connector.list_issues(status=f"fixture-{sequence}", limit=1)
+        connector = DriveConnector(account_id=account_id)
+        return connector.list_files(query=f"fixture:{sequence}", limit=1)
 
     with ThreadPoolExecutor(max_workers=12) as executor:
         responses = list(executor.map(call, jobs))
@@ -98,16 +118,19 @@ def test_concurrent_dummy_connector_calls_are_logged(call_log, composio_account_
     assert call_log.count() == 72
     rows = call_log.connection.execute(
         """
-        SELECT account_id, COUNT(*)
+        SELECT connector, account_id, COUNT(*)
         FROM connector_calls
-        GROUP BY account_id
-        ORDER BY account_id
+        GROUP BY connector, account_id
+        ORDER BY connector, account_id
         """
     ).fetchall()
     assert rows == [
-        ("gmail_algy-alpen", 24),
-        ("gmail_deash-pungle", 24),
-        ("gmail_illipe-eaves", 24),
+        ("drive", "googledrive_baste-nous", 12),
+        ("github", "github_unhex-ume", 12),
+        ("gmail", "gmail_algy-alpen", 12),
+        ("gmail", "gmail_deash-pungle", 12),
+        ("gmail", "gmail_illipe-eaves", 12),
+        ("linear", "linear_diver-forbow", 12),
     ]
 
 
