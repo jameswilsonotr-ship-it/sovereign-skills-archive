@@ -5,6 +5,11 @@ Full binary tarball is on Google Drive (GitHub contents API cannot hold 100MB+).
 
 ## Latest
 
+- **T4-21** continuous included reload
+  - Tracking: #222
+  - Receipt: [snapshots/2026-09-17/RECEIPT_T4-21.md](snapshots/2026-09-17/RECEIPT_T4-21.md)
+  - Scope: offline-only; included continuously; no demand-triggered path
+
 - **2026-09-16** v0.1.0 full-skill-library-vacuum
   - Drive folder: https://drive.google.com/drive/folders/1PSo9GFpixYT4Ntr8M--ONAfKaI8kEUo9
   - Drive tarball file_id: `1fZ9OtBiNFIPvPcgCBk16wB22g3-qCANT` (186M / 194840565 bytes, sha256 `c44d13461794078a9b521e7b4dd45037fb5ed30d19d2485f76237a9fa8189302`)
