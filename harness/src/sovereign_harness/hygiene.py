@@ -54,7 +54,10 @@ def _changed_paths(repo_root: Path, base_ref: str) -> set[str]:
     return paths
 
 
-def check_keep_lake_query(repo_root: Path, base_ref: str = "origin/skill-tree-intake") -> GateReport:
+def check_keep_lake_query(
+    repo_root: Path,
+    base_ref: str = "origin/skill-tree-intake",
+) -> GateReport:
     """Validate KEEP's safety contract and reject live skill edits."""
 
     issues: list[str] = []
