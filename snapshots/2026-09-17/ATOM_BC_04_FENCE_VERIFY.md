@@ -1,7 +1,7 @@
 # atom-bc-04 fence verification
 
-**Parent change-id:** `add-included-burn-chew-lanes`  
-**Atom:** `atom-bc-04-fence-verify`  
+**Parent change-id:** `add-included-burn-chew-lanes`
+**Atom:** `atom-bc-04-fence-verify`
 **Tag:** Meter Burn Desk
 
 ## Purpose
