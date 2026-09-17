@@ -53,8 +53,8 @@ components:
 
 ```bash
 docker compose up --build
+# In another terminal, download the model into the named volume:
 docker compose exec ollama ollama pull llama3.2
-docker compose restart coder
 ```
 
 The Ollama model is downloaded into the named `ollama` volume. The `coder`
