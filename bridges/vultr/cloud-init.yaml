@@ -1,14 +1,15 @@
 #cloud-config
 #
-# TEMPLATE ONLY. Inject TS_AUTHKEY through a secure first-boot path. Do not
-# replace this placeholder in Git, and do not put a real key in this file.
-# This template uses Ollama; a vLLM deployment needs a different image,
-# command, and model-serving configuration.
+# TEMPLATE ONLY. This installs Docker and Tailscale on an already-created
+# machine; it does not create or resize a Vultr resource. Inject TS_AUTHKEY
+# and the repository values through a secure first-boot path. With the
+# default RUN_COMPOSE_UP=false this file only validates Compose configuration.
 
 package_update: true
 packages:
   - ca-certificates
   - curl
+  - git
   - ufw
 
 write_files:
@@ -20,8 +21,13 @@ write_files:
       TAILNET_HOSTNAME="__VULTR_HOSTNAME__"
       VULTR_REGION="__VULTR_REGION__"
       VULTR_INSTANCE_ID="__VULTR_INSTANCE_ID__"
+      COMPOSE_REPO_URL="__COMPOSE_REPO_URL__"
+      COMPOSE_REF="__COMPOSE_REF__"
       OLLAMA_MODEL="gemma3:4b"
-      PULL_MODEL="true"
+      LETTA_PG_PASSWORD="__SET_RANDOM_LETTA_PG_PASSWORD__"
+      COMPOSE_PROFILES=""
+      PULL_MODEL="false"
+      RUN_COMPOSE_UP="false"
 
 runcmd:
   - |
@@ -31,6 +37,12 @@ runcmd:
       case "$TS_AUTHKEY" in
         __INJECT_TS_AUTHKEY_AT_DEPLOY_TIME__)
           echo "TS_AUTHKEY is still a placeholder; refusing to join a tailnet." >&2
+          exit 1
+          ;;
+      esac
+      case "$COMPOSE_REPO_URL" in
+        __COMPOSE_REPO_URL__)
+          echo "COMPOSE_REPO_URL is still a placeholder; refusing to fetch templates." >&2
           exit 1
           ;;
       esac
@@ -56,52 +68,53 @@ runcmd:
       esac
 
       install -d -m 0750 /opt/vultr-inference
-      cat > /opt/vultr-inference/Caddyfile <<EOF
-      http://${TAILNET_IP}:11434 {
-        @health path /health
-        respond @health "ok\n" 200
-        reverse_proxy 127.0.0.1:11435
-      }
+      rm -rf /opt/vultr-inference/source
+      git clone --depth 1 --branch "$COMPOSE_REF" "$COMPOSE_REPO_URL" \
+        /opt/vultr-inference/source
+      cp /opt/vultr-inference/source/bridges/vultr/docker-compose.yml \
+        /opt/vultr-inference/docker-compose.yml
+      cp /opt/vultr-inference/source/bridges/vultr/Dockerfile.coder \
+        /opt/vultr-inference/Dockerfile.coder
+      cp /opt/vultr-inference/source/bridges/vultr/coder.py \
+        /opt/vultr-inference/coder.py
+      install -d -m 0750 /opt/vultr-inference/workspace
+      cat > /opt/vultr-inference/.env <<EOF
+      TAILNET_IP="$TAILNET_IP"
+      VULTR_REGION="$VULTR_REGION"
+      VULTR_INSTANCE_ID="$VULTR_INSTANCE_ID"
+      OLLAMA_MODEL="$OLLAMA_MODEL"
+      LETTA_PG_PASSWORD="$LETTA_PG_PASSWORD"
+      COMPOSE_PROFILES="$COMPOSE_PROFILES"
+      CODER_WORKSPACE="/opt/vultr-inference/workspace"
       EOF
-      chmod 0640 /opt/vultr-inference/Caddyfile
+      chmod 0600 /opt/vultr-inference/.env
+      cd /opt/vultr-inference
 
-      # Ollama is loopback-only. Caddy is the only listener on the tailnet IP.
-      docker pull ollama/ollama:latest
-      docker pull caddy:2-alpine
-      docker rm -f inference-gateway ollama 2>/dev/null || true
-      docker run -d \
-        --name ollama \
-        --network host \
-        --restart unless-stopped \
-        --env OLLAMA_HOST=127.0.0.1:11435 \
-        --volume ollama:/root/.ollama \
-        ollama/ollama:latest
-      docker run -d \
-        --name inference-gateway \
-        --network host \
-        --restart unless-stopped \
-        --volume /opt/vultr-inference/Caddyfile:/etc/caddy/Caddyfile:ro \
-        caddy:2-alpine \
-        caddy run --config /etc/caddy/Caddyfile --adapter caddyfile
-
-      if [ "$PULL_MODEL" = "true" ]; then
-        docker exec ollama ollama pull "$OLLAMA_MODEL"
-      fi
+      # Safe by default: only parse configuration until RUN_COMPOSE_UP is
+      # deliberately changed to true in the deployment-only environment.
+      docker compose config --quiet
 
       # Keep SSH and inference reachable only through the tailnet range.
       ufw default deny incoming
       ufw default allow outgoing
       ufw allow from 100.64.0.0/10 to any port 22 proto tcp
       ufw allow from 100.64.0.0/10 to any port 11434 proto tcp
+      ufw allow from 100.64.0.0/10 to any port 8283 proto tcp
       ufw --force enable
 
-      # This is a local, non-paid smoke check after the services start.
-      for attempt in $(seq 1 30); do
-        if curl --fail --silent --show-error \
-          "http://${TAILNET_IP}:11434/health"; then
-          exit 0
+      if [ "$RUN_COMPOSE_UP" = "true" ]; then
+        docker compose up -d
+        if [ "$PULL_MODEL" = "true" ]; then
+          docker compose exec -T ollama ollama pull "$OLLAMA_MODEL"
         fi
-        sleep 2
-      done
-      echo "Inference gateway did not become healthy." >&2
-      exit 1
+        for attempt in $(seq 1 30); do
+          if curl --fail --silent --show-error \
+            "http://${TAILNET_IP}:11434/health"; then
+            exit 0
+          fi
+          sleep 2
+        done
+        echo "Inference gateway did not become healthy." >&2
+        exit 1
+      fi
+      echo "Compose validated; RUN_COMPOSE_UP=false so no containers were started."

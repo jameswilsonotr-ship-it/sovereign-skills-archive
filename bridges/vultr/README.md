@@ -1,13 +1,17 @@
 # Vultr tailnet-only inference VPS
 
-This directory contains deployment templates for a Vultr VPS running
-Ollama with an OpenAI-compatible `/v1` surface. The default path is Ollama
-plus a small Caddy gateway:
+This directory contains deployment templates for a Vultr VPS running a
+tailnet-only, headless inference box. The default path is Ollama plus a small
+Caddy gateway. Optional Compose profiles add a Letta memory manager and a
+dependency-free local coding helper:
 
-- Ollama listens on loopback inside the VPS.
-- Caddy listens on the VPS's Tailscale `100.x` address only.
+- Ollama is reachable only on the private Compose network.
+- Caddy binds the host's Tailscale `100.x` address only.
 - `/health`, `/api/tags`, and Ollama's `/v1` compatibility endpoints are
   reachable from the tailnet, not from the public interface.
+- Letta and its pgvector-backed database are off by default (`letta` profile).
+- `coder` is a one-shot text-in/text-out client for the same local Ollama
+  endpoint (`coder` profile); it does not edit files or execute commands.
 
 These are templates only. This agent did not create, resize, start, or
 destroy a Vultr resource and made no paid API call. Replace every
@@ -59,10 +63,15 @@ whether a retained volume or snapshot continues to incur charges.
 ## Files and deployment shape
 
 - [`cloud-init.yaml`](cloud-init.yaml) installs Docker and Tailscale, joins
-  the tailnet with an injected `TS_AUTHKEY`, starts Ollama and the gateway,
-  and binds inference to the tailnet address.
-- [`docker-compose.yml`](docker-compose.yml) is the repeatable equivalent
-  after the VPS has been bootstrapped. It contains placeholders only.
+  the tailnet with an injected `TS_AUTHKEY`, stages this directory, and
+  validates or starts Compose according to an explicit `RUN_COMPOSE_UP` flag.
+- [`docker-compose.yml`](docker-compose.yml) is the repeatable deployment:
+  core Ollama inference is enabled by default, while `letta` and `coder` are
+  opt-in profiles.
+- [`Dockerfile.coder`](Dockerfile.coder) and [`coder.py`](coder.py) implement
+  the no-key local fallback.
+- [`.env.example`](.env.example) lists deployment-only values. Copy it to
+  `.env`; never commit the copy.
 - [`mcp-sidecar.md`](mcp-sidecar.md) describes the separate MCP sidecar path
   to the phone on port `8081` and to Olette-box over SFTP.
 - [`cloud-init.mcp-host.example.yaml`](cloud-init.mcp-host.example.yaml) and
@@ -76,10 +85,98 @@ values such as `TAILNET_IP=100.x.x.x`, `VULTR_REGION=__VULTR_REGION__`,
 by cloud-init and is intentionally not part of the compose environment.
 
 The compose gateway exposes Ollama's OpenAI-compatible API at
-`http://100.x.x.x:11434/v1`. A client can use that base URL with a dummy
-API key if its SDK requires one; Ollama does not validate that key by
+`http://100.x.x.x:11434/v1`. A client can use that base URL with the dummy
+`ollama` API key if its SDK requires one; Ollama does not validate that key by
 default. Keep that URL tailnet-only and add application-level authentication
 before allowing untrusted tailnet users to reach it.
+
+## Spin up manually
+
+These commands assume Docker, the Compose plugin, and Tailscale are already
+installed on the VPS. They do not create a Vultr resource:
+
+```sh
+cp .env.example .env
+# Edit .env: set the actual 100.x TAILNET_IP, a random Letta password if
+# needed, and an absolute CODER_WORKSPACE path.
+docker compose config --quiet
+docker compose up -d
+docker compose exec ollama ollama pull "${OLLAMA_MODEL:-gemma3:4b}"
+```
+
+The model download is the one intentional large transfer. It is cached in
+the `ollama-data` volume; do not put `ollama pull` in a restart loop. Add
+Letta only when needed:
+
+```sh
+docker compose --profile letta up -d
+curl --fail "http://${TAILNET_IP}:8283/health"
+```
+
+The Letta image is the legacy Docker server surface in current Letta
+documentation, but it is retained here because the requested pattern is a
+containerized memory manager. Set `OLLAMA_BASE_URL` through the Compose file;
+no cloud provider key is required. Select the local Ollama model when creating
+an agent according to the Letta version installed.
+
+For a simple text coding turn, start the core service and run the local
+helper against a checked-out workspace:
+
+```sh
+docker compose --profile coder run --rm \
+  -e CODER_WORKSPACE=/workspace \
+  coder --prompt "Explain the error and suggest a minimal patch." \
+  --file path/inside/workspace/file.py
+```
+
+The helper only returns text. It does not apply a patch, run tests, or grant
+the model shell access. A caller such as Hi or Cursor can use the same
+tailnet URL directly:
+
+```sh
+set -a; . ./.env; set +a
+curl "http://${TAILNET_IP}:11434/v1/chat/completions" \
+  -H 'Authorization: Bearer ollama' \
+  -H 'Content-Type: application/json' \
+  -d '{"model":"gemma3:4b","messages":[{"role":"user","content":"Summarize this function."}]}'
+```
+
+### Optional Grok Build CLI
+
+xAI publishes a public Grok Build CLI (`grok`) with interactive and
+headless modes. Its official install is documented at
+<https://docs.x.ai/build/overview>:
+
+```sh
+curl -fsSL https://x.ai/cli/install.sh | bash
+grok --version
+grok -p "Explain this codebase"
+```
+
+That CLI uses xAI's service and therefore can consume paid/cloud quota; it is
+not wired into this Compose stack and no `XAI_API_KEY` belongs in this repo.
+For offline or cost-controlled turns, use the `coder` profile or the
+OpenAI-compatible Ollama URL above instead.
+
+## Bandwidth and cost hygiene
+
+- Start with the cheapest Vultr plan that fits the selected quantized model.
+  CPU plus a small model is the default cost experiment; choose a small GPU
+  only after measuring latency and memory pressure.
+- Do not auto-provision, resize, or destroy a Vultr resource from these
+  templates. Review the plan, region, hourly price, transfer allowance, and
+  retained-volume billing in the Vultr panel first.
+- Treat the `$250` credit as a hard cap, not a target. Record
+  `hours = 250 / hourly_price`, set an account alert, and stop/destroy the
+  VPS plus inspect volumes and snapshots when testing ends.
+- Pull images once, keep them cached, and pull one tagged model only. Avoid
+  `docker compose pull` and model re-downloads on every boot.
+- Keep prompts, context files, and output concise. Reuse Letta memory instead
+  of repeatedly sending a full repository through a cloud model.
+- Keep ports 11434 and 8283 on the Tailscale interface. The public interface
+  should not be able to reach either service.
+- Use `docker compose down` for a temporary stop and separately verify
+  whether any attached storage or snapshot remains billable.
 
 ## Safety checks before use
 

@@ -3,23 +3,26 @@ name: vultr-inference
 # Create a deployment-only .env beside this file. It must contain a real
 # TAILNET_IP only on the VPS, never in Git. TS_AUTHKEY is intentionally not
 # accepted here; join Tailscale with cloud-init or a separate secret store.
+#
+# Core inference starts with `docker compose up -d`. Letta is opt-in:
+# `docker compose --profile letta up -d`. The coder image is intended for
+# one-shot `docker compose run --rm coder ...` calls.
 
 configs:
   caddyfile:
     content: |
-      http://${TAILNET_IP:?set TAILNET_IP to the VPS 100.x address}:11434 {
+      :11434 {
         @health path /health
         respond @health "ok\n" 200
-        reverse_proxy 127.0.0.1:11435
+        reverse_proxy ollama:11434
       }
 
 services:
   ollama:
     image: ollama/ollama:latest
-    network_mode: host
     restart: unless-stopped
     environment:
-      OLLAMA_HOST: 127.0.0.1:11435
+      OLLAMA_HOST: 0.0.0.0:11434
       OLLAMA_KEEP_ALIVE: "${OLLAMA_KEEP_ALIVE:-5m}"
       # Metadata only; do not put a Vultr API token in this file.
       VULTR_REGION: "${VULTR_REGION:-__VULTR_REGION__}"
@@ -42,11 +45,12 @@ services:
 
   inference-gateway:
     image: caddy:2-alpine
-    network_mode: host
     restart: unless-stopped
     depends_on:
       ollama:
         condition: service_healthy
+    ports:
+      - "${TAILNET_IP:-127.0.0.1}:11434:11434"
     configs:
       - source: caddyfile
         target: /etc/caddy/Caddyfile
@@ -58,5 +62,56 @@ services:
       - --adapter
       - caddyfile
 
+  letta-db:
+    image: pgvector/pgvector:0.8.1-pg15
+    profiles: ["letta"]
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: "${LETTA_PG_USER:-letta}"
+      POSTGRES_PASSWORD: "${LETTA_PG_PASSWORD:-__SET_LETTA_PG_PASSWORD__}"
+      POSTGRES_DB: "${LETTA_PG_DB:-letta}"
+    volumes:
+      - letta-db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+
+  letta:
+    image: letta/letta:latest
+    profiles: ["letta"]
+    hostname: letta
+    restart: unless-stopped
+    depends_on:
+      ollama:
+        condition: service_healthy
+      letta-db:
+        condition: service_healthy
+    ports:
+      - "${TAILNET_IP:-127.0.0.1}:8283:8283"
+    environment:
+      LETTA_PG_URI: "postgresql://${LETTA_PG_USER:-letta}:${LETTA_PG_PASSWORD:-__SET_LETTA_PG_PASSWORD__}@letta-db:5432/${LETTA_PG_DB:-letta}"
+      OLLAMA_BASE_URL: "http://ollama:11434/v1"
+      # Ollama requires a non-empty compatibility key but does not validate it.
+      OPENAI_API_KEY: "${OLLAMA_API_KEY:-ollama}"
+      LETTA_DEBUG: "${LETTA_DEBUG:-false}"
+
+  coder:
+    build:
+      context: .
+      dockerfile: Dockerfile.coder
+    profiles: ["coder"]
+    depends_on:
+      ollama:
+        condition: service_healthy
+    working_dir: /workspace
+    environment:
+      OLLAMA_BASE_URL: "http://ollama:11434/v1"
+      OLLAMA_MODEL: "${OLLAMA_MODEL:-gemma3:4b}"
+    volumes:
+      - "${CODER_WORKSPACE:-.}:/workspace:rw"
+
 volumes:
   ollama-data:
+  letta-db-data:

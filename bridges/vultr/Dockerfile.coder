@@ -1,0 +1,9 @@
+FROM python:3.12-slim
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1
+
+WORKDIR /opt/coder
+COPY coder.py /opt/coder/coder.py
+
+ENTRYPOINT ["python", "/opt/coder/coder.py"]
