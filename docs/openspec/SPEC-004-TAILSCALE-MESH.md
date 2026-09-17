@@ -1,7 +1,7 @@
 # SPEC-004 — Tailscale Mesh
 
-**Status:** Draft  
-**Type:** Atomic OpenSpec / architecture contract  
+**Status:** Draft
+**Type:** Atomic OpenSpec / architecture contract
 **Scope:** Private, userspace Tailscale connectivity for approved peer-to-peer
 workflows and their documented fallbacks.
 
