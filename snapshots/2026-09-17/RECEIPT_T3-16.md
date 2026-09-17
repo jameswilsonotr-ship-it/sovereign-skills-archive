@@ -2,6 +2,7 @@
 
 - **Change ID:** `third-salvo-16-proposal-stub-hygiene`
 - **PR title:** `salvo: T3-16 proposal-stub-hygiene`
+- **PR:** https://github.com/jameswilsonotr-ship-it/sovereign-skills-archive/pull/184
 - **Branch:** `cursor/third-salvo-16-proposal-stub-hygiene-ca80`
 - **Mode:** offline-only
 - **Delivery:** OpenSpec proposal and specification stub; no activation
