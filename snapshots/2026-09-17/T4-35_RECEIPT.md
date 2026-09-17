@@ -1,6 +1,6 @@
 # T4-35 receipt — included-burn tick
 
-Status: specified  
+Status: specified
 UTC: 2026-09-17
 
 ## Contract
