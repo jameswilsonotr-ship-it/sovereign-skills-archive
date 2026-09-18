@@ -1,0 +1,21 @@
+{
+  "id": "preset.style.intense-gaze-over-shoulder",
+  "name": "Intense Gaze Over Shoulder",
+  "version": "1.0.0",
+  "description": "Dominant behind submissive with intense gaze over the shoulder or at the viewer.",
+  "tags": [
+    "preset",
+    "gaze",
+    "over-shoulder"
+  ],
+  "chain": [
+    {
+      "pack": "pose.gaze-over-shoulder",
+      "weight": 1.0
+    },
+    {
+      "pack": "atmosphere.possessive-claim",
+      "weight": 0.85
+    }
+  ]
+}

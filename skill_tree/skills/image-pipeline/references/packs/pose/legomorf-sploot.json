@@ -1,0 +1,33 @@
+{
+  "id": "pose.legomorf-sploot",
+  "kind": "pose",
+  "name": "Legomorf Sploot",
+  "version": "0.1.0",
+  "status": "draft",
+  "source": "oryctolagus-legomorf",
+  "ticket": "IP-WQ-097",
+  "tags": [
+    "pose",
+    "legomorf",
+    "lagomorph",
+    "bunny"
+  ],
+  "prompt_terms": [
+    {
+      "term": "long legs kicked straight out, superbun rest",
+      "variance": 0.25,
+      "weight": 1.0
+    },
+    {
+      "term": "more relaxed than a loaf, adult woman on a bunk",
+      "variance": 0.35,
+      "weight": 0.85
+    }
+  ],
+  "content": {
+    "taxonomy": "structural",
+    "origin": "Oryctolagus rest scale, woman stays a woman",
+    "name_lock": "Legomorf"
+  },
+  "created": "2026-09-03T01:35:23-04:00"
+}

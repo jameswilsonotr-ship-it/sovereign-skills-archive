@@ -1,0 +1,33 @@
+{
+  "note": "sha256 of local harvest-pane corpus files. NOT hashes of missing 94736fb1/8cb5d5c1/37f419a3/ea26da8d raw thread bodies.",
+  "files": {
+    "CORPUS.md": {
+      "sha256": "1bc9cd304f5e8d645a0ef5a827486cd4f752e83d0c85abaf6b2ff388a17ac333",
+      "bytes": 14832
+    },
+    "HITS.md": {
+      "sha256": "e7872ab656ae419d3f3ab4d0e7e5d0844f7f0d21849c3ac552f6920b29b54c11",
+      "bytes": 8418
+    },
+    "QUOTES.md": {
+      "sha256": "34710902219f4c1655304abf41116fb8dc832101bbf963e6385199e7efaf5122",
+      "bytes": 4787
+    },
+    "IS_IS_NOT.md": {
+      "sha256": "8fa9921300ef83cc0c1f54ea6475d0c15ba08219d480ae86952939612964e2a5",
+      "bytes": 2776
+    },
+    "HEAVY_S1_BABY_LIV.md": {
+      "sha256": "54e81502b17073159f7222c8853496b6483c286873758fcbf35e155ecb56a356",
+      "bytes": 3608
+    },
+    "index.md": {
+      "sha256": "92d7b244e504f272d727a96b0a5fe18711c099acd3b001f77d4d3415f2748859",
+      "bytes": 664
+    },
+    "RECEIPT.md": {
+      "sha256": "926a2ae9e04b3779fb7474322ef616608a3aabc0a32718ef0a4125b6628edcde",
+      "bytes": 3420
+    }
+  }
+}

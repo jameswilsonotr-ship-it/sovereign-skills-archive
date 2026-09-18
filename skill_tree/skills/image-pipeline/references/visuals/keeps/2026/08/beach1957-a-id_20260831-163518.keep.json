@@ -1,0 +1,71 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "beach1957-a-id_20260831-163518",
+  "slug": "beach1957-a-id",
+  "slug_mode": "explicit",
+  "stamp": "20260831-163518",
+  "created": "2026-08-31T16:35:18-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "candidate",
+  "heat": "1",
+  "files": {
+    "jpeg": "beach1957-a-id_20260831-163518.jpg",
+    "prompt": "beach1957-a-id_20260831-163518.prompt.md",
+    "keep": "beach1957-a-id_20260831-163518.keep.json"
+  },
+  "sha256": {
+    "jpeg": "5684024e07f951070ae59e1f4a5f8814ab1af21ec8ce648312bbf0db7fd03fbd",
+    "prompt": "d8799fc3a859819b319dc06dd63096c545fa48dcd74e9c51ee031c2f26d631c5"
+  },
+  "prompt": "Photorealistic black-and-white 1957 documentary identity card of an adult woman on an Italian beach. Honey-blonde chin-length bob, bandeau bikini and high-waist side-tie bottoms. Period film grain. No officer, no caption text, no watermark.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/jttaT.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/beach1957-a-id_20260831-163518.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/beach1957-a-id_20260831-163518.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/beach1957-a-id_20260831-163518.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1nW7rrhZeWMaCBA1lmM1KMfAYJOV9WDj-",
+    "prompt_id": "1Knfxxc5Oz9XcDWKPbrNFwxTuxMHjwbwJ",
+    "keep_id": "1FkzQKjdBiNksOTyttr6-kBSc55lhSYh_",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/beach1957-a-id_20260831-163518.jpg",
+        "file_name": "beach1957-a-id_20260831-163518.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/beach1957-a-id_20260831-163518.prompt.md",
+        "file_name": "beach1957-a-id_20260831-163518.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/beach1957-a-id_20260831-163518.keep.json",
+        "file_name": "beach1957-a-id_20260831-163518.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "skip_reason": "prior-session backlog deferred 2026-08-31 pose-pack publish; jpeg may still exist locally",
+    "uploaded_at": "2026-08-31T21:57:18+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/beach1957-a-id_20260831-163518.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

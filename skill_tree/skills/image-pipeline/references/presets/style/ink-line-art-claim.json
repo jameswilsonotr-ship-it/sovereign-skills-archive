@@ -1,0 +1,21 @@
+{
+  "id": "preset.style.ink-line-art-claim",
+  "name": "Ink Line Art Claim",
+  "version": "1.0.0",
+  "description": "Precise or expressive ink line art with clear possessive hand claim.",
+  "tags": [
+    "preset",
+    "ink",
+    "claim"
+  ],
+  "chain": [
+    {
+      "pack": "treatment.ink-line-art",
+      "weight": 1.0
+    },
+    {
+      "pack": "atmosphere.possessive-claim",
+      "weight": 0.9
+    }
+  ]
+}

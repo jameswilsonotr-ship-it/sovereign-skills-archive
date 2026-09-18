@@ -1,0 +1,33 @@
+{
+  "id": "pose.legomorf-mirror",
+  "kind": "pose",
+  "name": "Legomorf Mirror",
+  "version": "0.1.0",
+  "status": "draft",
+  "source": "oryctolagus-legomorf",
+  "ticket": "IP-WQ-097",
+  "tags": [
+    "pose",
+    "legomorf",
+    "lagomorph",
+    "bunny"
+  ],
+  "prompt_terms": [
+    {
+      "term": "two adults in the same pose",
+      "variance": 0.25,
+      "weight": 1.0
+    },
+    {
+      "term": "pair agreement, same lamp, closed mouths",
+      "variance": 0.35,
+      "weight": 0.85
+    }
+  ],
+  "content": {
+    "taxonomy": "structural",
+    "origin": "Oryctolagus rest scale, woman stays a woman",
+    "name_lock": "Legomorf"
+  },
+  "created": "2026-09-03T01:35:23-04:00"
+}

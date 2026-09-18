@@ -1,0 +1,29 @@
+{
+  "id": "treatment.bold-contemporary-graphic",
+  "kind": "treatment",
+  "name": "Bold Contemporary Graphic",
+  "version": "1.0.0",
+  "description": "Bold, high-energy, contemporary graphic treatment.",
+  "tags": [
+    "treatment",
+    "bold",
+    "contemporary",
+    "graphic"
+  ],
+  "prompt_terms": [
+    {
+      "term": "bold contemporary graphic",
+      "variance": 0.3,
+      "weight": 1.0
+    },
+    {
+      "term": "high-energy graphic fashion edge",
+      "variance": 0.4,
+      "weight": 0.8
+    }
+  ],
+  "content": {
+    "taxonomy": "treatment",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}
