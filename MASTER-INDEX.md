@@ -5,6 +5,12 @@ Full binary tarball is on Google Drive (GitHub contents API cannot hold 100MB+).
 
 ## Latest
 
+- **2026-09-17** Awesome Split extras intake (MIS-10, ledger only)
+  - Drive folder: https://drive.google.com/drive/folders/11WEijQl3lP6Spw3kwFpE1kNC7MVGWsgP (`11WEijQl3lP6Spw3kwFpE1kNC7MVGWsgP`)
+  - Ledger: [snapshots/2026-09-17/AWESOME_SPLIT_LEDGER.md](snapshots/2026-09-17/AWESOME_SPLIT_LEDGER.md)
+  - Receipt: [snapshots/2026-09-17/RECEIPT_awesome-split-extras.md](snapshots/2026-09-17/RECEIPT_awesome-split-extras.md)
+  - Merge: keep-lake-query `SKILL.md` / `WORK_QUEUE.md` already match intake (8085 / 3887). CONV2_B 80MB parts not unpacked. Tarball bytes stay on Drive.
+
 - **2026-09-16** v0.1.0 full-skill-library-vacuum
   - Drive folder: https://drive.google.com/drive/folders/1PSo9GFpixYT4Ntr8M--ONAfKaI8kEUo9
   - Drive tarball file_id: `1fZ9OtBiNFIPvPcgCBk16wB22g3-qCANT` (186M / 194840565 bytes, sha256 `c44d13461794078a9b521e7b4dd45037fb5ed30d19d2485f76237a9fa8189302`)

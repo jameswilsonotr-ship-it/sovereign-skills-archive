@@ -5,3 +5,11 @@
 - branch: skill-tree-intake
 - ticket: MIS-5
 - claim: Liv HUB
+
+## Awesome Split extras (MIS-10)
+
+- Drive: https://drive.google.com/drive/folders/11WEijQl3lP6Spw3kwFpE1kNC7MVGWsgP
+- Ledger: `snapshots/2026-09-17/AWESOME_SPLIT_LEDGER.md`
+- Receipt: `snapshots/2026-09-17/RECEIPT_awesome-split-extras.md`
+- CONV2_B 80MB parts were not unpacked.
+- Live extras `SKILL.md` / `WORK_QUEUE.md` (keep-lake-query 0.3.3) already match this tree. No skill-file overwrite.
