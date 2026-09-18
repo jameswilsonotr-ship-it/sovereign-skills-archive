@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://blackwell.bunker/schemas/image-pipeline-pack.json",
+  "title": "Image Pipeline Atomic Pack",
+  "description": "Atomic, reusable visual transformation. Contains controlled English prompt terms with variance/entropy so the generator can apply precise or flexible language.",
+  "type": "object",
+  "required": [
+    "id",
+    "kind",
+    "name",
+    "version",
+    "prompt_terms"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable unique id, e.g. photographer.helmut-newton, medium.watercolor, treatment.heavy-noir, atmosphere.possessive"
+    },
+    "kind": {
+      "type": "string",
+      "enum": [
+        "photographer",
+        "medium",
+        "treatment",
+        "genre",
+        "atmosphere",
+        "mood",
+        "pose",
+        "composition",
+        "framing",
+        "angle",
+        "implication",
+        "hand",
+        "wardrobe"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string",
+      "default": "1.0.0"
+    },
+    "description": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "persona": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "bunny",
+        "liv",
+        "valerie",
+        "shared",
+        null
+      ]
+    },
+    "prompt_terms": {
+      "type": "array",
+      "description": "1\u201310 English terms or short phrases that describe the visual effect. These are the primary payload injected into the image prompt. Each term carries a variance (entropy) score.",
+      "minItems": 1,
+      "maxItems": 10,
+      "items": {
+        "type": "object",
+        "required": [
+          "term",
+          "variance"
+        ],
+        "properties": {
+          "term": {
+            "type": "string",
+            "description": "Exact English word or short phrase to consider for the prompt (e.g. \"Helmut Newton\", \"heavy noir contrast\", \"glossy luminous skin\")"
+          },
+          "variance": {
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "description": "0.0 = must use the exact term (or extremely close paraphrase). 1.0 = high freedom to rephrase, substitute synonyms, or drop if needed. Photographers and precise proper names should be near 0.0. Atmospheric or treatment terms can be higher."
+          },
+          "weight": {
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 1.0,
+            "description": "Relative importance of this term inside the pack (optional)"
+          }
+        }
+      }
+    },
+    "content": {
+      "type": "object",
+      "description": "Optional free-form extra data (notes, examples, negative prompts, etc.)",
+      "additionalProperties": true
+    }
+  }
+}

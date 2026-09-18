@@ -1,0 +1,33 @@
+{
+  "id": "medium.watercolor-ink-wash",
+  "kind": "medium",
+  "name": "Watercolor Ink Wash",
+  "version": "1.0.0",
+  "description": "Soft watercolor and ink wash rendering.",
+  "tags": [
+    "medium",
+    "watercolor",
+    "ink-wash"
+  ],
+  "prompt_terms": [
+    {
+      "term": "soft watercolor and ink washes",
+      "variance": 0.35,
+      "weight": 1.0
+    },
+    {
+      "term": "diffused ink wash",
+      "variance": 0.4,
+      "weight": 0.8
+    },
+    {
+      "term": "yielding watercolor edges",
+      "variance": 0.5,
+      "weight": 0.6
+    }
+  ],
+  "content": {
+    "taxonomy": "medium",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}

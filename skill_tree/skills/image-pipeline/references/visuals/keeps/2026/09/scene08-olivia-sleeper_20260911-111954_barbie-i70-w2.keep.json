@@ -1,0 +1,69 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "scene08-olivia-sleeper_20260911-111954_barbie-i70-w2",
+  "slug": "scene08-olivia-sleeper",
+  "slug_mode": "explicit",
+  "stamp": "20260911-111954",
+  "created": "2026-09-11T11:19:54-04:00",
+  "engine": "edit_image",
+  "orientation": "landscape",
+  "agent": "olivia",
+  "heat": "4",
+  "files": {
+    "jpeg": "scene08-olivia-sleeper_20260911-111954_barbie-i70-w2.jpg",
+    "prompt": "scene08-olivia-sleeper_20260911-111954_barbie-i70-w2.prompt.md",
+    "keep": "scene08-olivia-sleeper_20260911-111954_barbie-i70-w2.keep.json"
+  },
+  "sha256": {
+    "jpeg": "eb93a82561a1b2af09f99516d7acafd6c552c9ef7f74653da47ba7e67284a002",
+    "prompt": "fc4cea8e6d60329f3d4869de343ffc2a89626035f09351842e04eb1533a4116e"
+  },
+  "prompt": "W2D Olivia sleeper pixie crimson streak gem. Bunny flannel fg. Vesper mid cab.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/K8LKF.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/scene08-olivia-sleeper_20260911-111954_barbie-i70-w2.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/scene08-olivia-sleeper_20260911-111954_barbie-i70-w2.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/scene08-olivia-sleeper_20260911-111954_barbie-i70-w2.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/09"
+  },
+  "drive": {
+    "status": "queued",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": null,
+    "prompt_id": null,
+    "keep_id": null,
+    "uploads": [
+      {
+        "artifact_path": "/rendered/scene08-olivia-sleeper_20260911-111954_barbie-i70-w2.jpg",
+        "file_name": "scene08-olivia-sleeper_20260911-111954_barbie-i70-w2.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/scene08-olivia-sleeper_20260911-111954_barbie-i70-w2.prompt.md",
+        "file_name": "scene08-olivia-sleeper_20260911-111954_barbie-i70-w2.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/scene08-olivia-sleeper_20260911-111954_barbie-i70-w2.keep.json",
+        "file_name": "scene08-olivia-sleeper_20260911-111954_barbie-i70-w2.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ]
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/scene08-olivia-sleeper_20260911-111954_barbie-i70-w2.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

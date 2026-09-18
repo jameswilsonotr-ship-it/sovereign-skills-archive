@@ -1,0 +1,72 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "cand-copper-bob-d-rig_20260910-194322_agentify-d",
+  "slug": "cand-copper-bob-d-rig",
+  "slug_mode": "explicit",
+  "stamp": "20260910-194322",
+  "created": "2026-09-10T19:43:22-05:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "cand-copper-bob",
+  "kind": "candidate",
+  "plate": "d-rig",
+  "heat": "1",
+  "image_id": "vajqT",
+  "files": {
+    "jpeg": "cand-copper-bob-d-rig_20260910-194322_agentify-d.jpg",
+    "prompt": "cand-copper-bob-d-rig_20260910-194322_agentify-d.prompt.md",
+    "keep": "cand-copper-bob-d-rig_20260910-194322_agentify-d.keep.json"
+  },
+  "sha256": {
+    "jpeg": "b0d00fbac520e464a1b61344019c59124c0e0af46bf0689013fefc1ac5978c80",
+    "prompt": "5bbe178a9292dbe99ea710886c314a4dc7b211e5d8945aaf5fa82fef5bd68f8c"
+  },
+  "prompt": "Character rig / turnaround sheet of an adult woman late twenties. Same identity: short copper-auburn cropped bob with side-swept bangs, hazel-amber eyes, winged liner, crimson glossy lips. Three orthographic views on one sheet: front, three-quarter, profile. She wears a simple black tank and black trousers. Neutral gray backdrop, even studio lighting, full body plus head row, clean model-sheet layout, photoreal, clothes ON, no nudity, adult.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/vajqT.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/cand-copper-bob-d-rig_20260910-194322_agentify-d.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/cand-copper-bob-d-rig_20260910-194322_agentify-d.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/cand-copper-bob-d-rig_20260910-194322_agentify-d.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/09"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/cand-copper-bob-d-rig_20260910-194322_agentify-d.jpg",
+        "file_name": "cand-copper-bob-d-rig_20260910-194322_agentify-d.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/cand-copper-bob-d-rig_20260910-194322_agentify-d.prompt.md",
+        "file_name": "cand-copper-bob-d-rig_20260910-194322_agentify-d.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/cand-copper-bob-d-rig_20260910-194322_agentify-d.keep.json",
+        "file_name": "cand-copper-bob-d-rig_20260910-194322_agentify-d.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "jpeg_id": "1QqWXnYrXsy4x6w7uip--9BWVIYCLLYss",
+    "prompt_id": "1VZCOoVnxfljPZx91itoHvAnl178Se6d5",
+    "keep_id": "1ffy9DmxtQ1jwAapFSIM7jhFxAcbTeaT3",
+    "jpeg_url": "https://drive.google.com/file/d/1QqWXnYrXsy4x6w7uip--9BWVIYCLLYss/view",
+    "uploaded_at": "2026-09-11T00:44:33+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row. ANDROID show path = Drive web_view_link, no render tags."
+  }
+}

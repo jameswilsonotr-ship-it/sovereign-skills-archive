@@ -1,0 +1,19 @@
+{
+  "version": "018c-1",
+  "method": "rgb32+rgb64+hsv_hist+dhash",
+  "count": 23,
+  "weights": {
+    "rgb32": 0.25,
+    "rgb64": 0.3,
+    "hsv": 0.2,
+    "dhash": 0.25
+  },
+  "updated": "2026-07-26T07:24:50.854475+00:00",
+  "source_newest_mtime": 1785050597.7468276,
+  "entities": [
+    "bunny",
+    "olivia",
+    "shauna"
+  ],
+  "path": "references/registry/visual.embeddings.npz"
+}

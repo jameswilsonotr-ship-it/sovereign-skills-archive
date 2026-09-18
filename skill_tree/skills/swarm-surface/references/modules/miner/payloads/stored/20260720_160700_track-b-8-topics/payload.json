@@ -1,0 +1,50 @@
+{
+  "payload_id": "20260720_160700_track-b-8-topics",
+  "target": "full-history",
+  "visible": true,
+  "sidecar_enabled": true,
+  "output_dir": "references/character_bibles/swarm_agents/",
+  "agents": [
+    {
+      "agent": "harper",
+      "search_terms": [
+        "memory ingestion pipeline",
+        "nightly full blob",
+        "conversation ingestion",
+        "batch vs real-time memory",
+        "multi-source memory ingest"
+      ]
+    },
+    {
+      "agent": "sebastian",
+      "search_terms": [
+        "tiered memory",
+        "Core Recall Archival",
+        "4th tier memory",
+        "working memory hot ephemeral",
+        "memory tier evolution"
+      ]
+    },
+    {
+      "agent": "crystal",
+      "search_terms": [
+        "Letta memory",
+        "MemGPT architecture",
+        "Letta memory blocks",
+        "hybrid Letta custom tiers",
+        "memory palace Letta"
+      ]
+    },
+    {
+      "agent": "echo",
+      "search_terms": [
+        "entropy tagging",
+        "memory pruning",
+        "persona drift",
+        "fidelity validation",
+        "memory endpoints observability"
+      ]
+    }
+  ],
+  "notes": "Search terms are deliberately overlapping so multiple agents will surface related material. Sidecar should capture anything outside these eight core topics."
+}
