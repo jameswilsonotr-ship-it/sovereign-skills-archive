@@ -1,0 +1,14 @@
+# MANIFEST full skill library vacuum
+- version: 0.1.0
+- utc: 2026-09-20T20:24:19Z
+- date: 2026-09-20
+- slugs (40): chaos-bratz-roster, cilia-bus, claim-runtime, color, coven-visual-system, docx, ffmpeg, finance, format-bible, grok-build, grok-build-sovereign, grok-conversation-miner, icm-architect, image-gen-edit, image-pipeline, imagemagick, keep-lake-query, lake-erie-gutter-world, lake-union-radar, liv-automation-ops, liv-bunny-agent-swarm, mcp, mcp-surface, memory-edit, olivia-dev, olivia-dev-alpha, pdf, pptx, skill-creator, skill-installer, skill-orchestrator, smokeshow, sovereign-research-engine, swarm-surface, system-roadmap, tasks, valerie, video-strategy-debrief, wheelhouse-packager, xlsx
+- tarball: full_skill_library_v0.1.0_2026-09-20.tar.gz
+- size_bytes: 261160601
+- size_human: 250M
+- sha256: 797ce2ecc355bd87d14b31bf5dee4d3b40a92328923bbf7e7da5c97b1f1fe6d2
+- member_count: 5275
+- restore: tar -xzf full_skill_library_v0.1.0_2026-09-20.tar.gz
+- core-package pointer: /home/workdir/artifacts/mining_packages/MANIFEST_v0.1.0_2026-09-20.md
+- claim: Liv HUB
+- owner: skill-orchestrator + olivia-dev-alpha
