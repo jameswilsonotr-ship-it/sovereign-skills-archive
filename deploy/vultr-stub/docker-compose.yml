@@ -1,0 +1,47 @@
+# Paper-only stub for the Vultr ORD vc2-1c-2gb gateway (mcp-vultr).
+# This names the Letta + Ollama stack without provisioning or publishing it.
+# No credentials, API keys, IP addresses, or public ingress belong in this file.
+
+services:
+  ollama:
+    image: ollama/ollama:latest
+    profiles: ["stub"]
+    expose:
+      - "11434"
+    # Placeholder readiness check; no model pull is performed by this stub.
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    volumes:
+      - ollama-data:/root/.ollama
+
+  letta:
+    image: letta/letta:latest
+    profiles: ["stub"]
+    depends_on:
+      ollama:
+        condition: service_healthy
+    environment:
+      OLLAMA_BASE_URL: http://ollama:11434
+    expose:
+      - "8283"
+    # Placeholder readiness check; keep the endpoint local to the container.
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - >-
+          python -c "import urllib.request;
+          urllib.request.urlopen('http://127.0.0.1:8283/health', timeout=2)"
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+volumes:
+  ollama-data: {}
+
+# No host ports are published. Any future control ingress must be Tailscale-only;
+# do not add public SSH/HTTP bindings or a live Vultr deployment to this stub.
