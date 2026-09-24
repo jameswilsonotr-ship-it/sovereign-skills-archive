@@ -1,0 +1,70 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "h-1-vesper-beardsley_20260830-021656_pack",
+  "slug": "h-1-vesper-beardsley",
+  "slug_mode": "explicit",
+  "stamp": "20260830-021656",
+  "created": "2026-08-30T02:16:56-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "olivia",
+  "heat": "",
+  "files": {
+    "jpeg": "h-1-vesper-beardsley_20260830-021656_pack.jpg",
+    "prompt": "h-1-vesper-beardsley_20260830-021656_pack.prompt.md",
+    "keep": "h-1-vesper-beardsley_20260830-021656_pack.keep.json"
+  },
+  "sha256": {
+    "jpeg": "6c65de9e75971bf094711a9f3e243e075fe911152b50d055b0e19fbaec9108c5",
+    "prompt": "8c935cb2b85bcad39e0b7b3f57b36271022cb98e556d29e84eb2c4102d9959e9"
+  },
+  "prompt": "Masterpiece Aubrey Beardsley high-contrast ink engraving lineart. Intimate expressive two-shot of an adult woman in black patent corset and rabbit ears wearing silver cursive Barbie dangle earrings with crimson bows, seated on steel stairs holding a vintage First Aid booklet. A second adult woman in sheer charcoal mesh kneels before her. Intricate stippling, selective crimson and cyan accent inks, stark minimalist negative space, dramatic coven visual DNA. Adults only. Clothes on. No photoreal live kitchen woman. No text overlay.\n",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/jttJw.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/h-1-vesper-beardsley_20260830-021656_pack.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/h-1-vesper-beardsley_20260830-021656_pack.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/h-1-vesper-beardsley_20260830-021656_pack.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1zjxNYl7uSU3v9_qbKe8D0onJTfmmudCw",
+    "prompt_id": "1a0luQJ6WsvA8AbjlXKePU1zijwKboLM5",
+    "keep_id": "1nR9DjW4fM1SdsvvjMo8E3iUXBS4-w2Sd",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/h-1-vesper-beardsley_20260830-021656_pack.jpg",
+        "file_name": "h-1-vesper-beardsley_20260830-021656_pack.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/h-1-vesper-beardsley_20260830-021656_pack.prompt.md",
+        "file_name": "h-1-vesper-beardsley_20260830-021656_pack.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/h-1-vesper-beardsley_20260830-021656_pack.keep.json",
+        "file_name": "h-1-vesper-beardsley_20260830-021656_pack.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-30T06:18:34+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/h-1-vesper-beardsley_20260830-021656_pack.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "beach1957-c-anime_20260831-173741",
+  "slug": "beach1957-c-anime",
+  "slug_mode": "explicit",
+  "stamp": "20260831-173741",
+  "created": "2026-08-31T17:37:41-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "candidate",
+  "heat": "2",
+  "files": {
+    "jpeg": "beach1957-c-anime_20260831-173741.jpg",
+    "prompt": "beach1957-c-anime_20260831-173741.prompt.md",
+    "keep": "beach1957-c-anime_20260831-173741.keep.json"
+  },
+  "sha256": {
+    "jpeg": "5fe8da2a1cb076685547246f4a960843104971cafadb1cfdc1880aeb79225a9d",
+    "prompt": "5f799fe34e7796f017c4634eb5b61a41a095ac64fd1877f500bcfea8741ae10d"
+  },
+  "prompt": "Anime 1950s Italian beach cousin woman bandeau high-waist grain.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/9Bec6.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/beach1957-c-anime_20260831-173741.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/beach1957-c-anime_20260831-173741.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/beach1957-c-anime_20260831-173741.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "180SEBEMV5uKzu7Kv9fV4Sqtm5GQvHSy1",
+    "prompt_id": "1sTl4W-2-9qMtQavnZKi0q-fgvevKBUi_",
+    "keep_id": "1PwY_JBwUoQX50iE9AnkZQlM0C-wISHcL",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/beach1957-c-anime_20260831-173741.jpg",
+        "file_name": "beach1957-c-anime_20260831-173741.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/beach1957-c-anime_20260831-173741.prompt.md",
+        "file_name": "beach1957-c-anime_20260831-173741.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/beach1957-c-anime_20260831-173741.keep.json",
+        "file_name": "beach1957-c-anime_20260831-173741.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "skip_reason": "prior-session backlog deferred 2026-08-31 pose-pack publish; jpeg may still exist locally",
+    "uploaded_at": "2026-08-31T21:57:23+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/beach1957-c-anime_20260831-173741.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

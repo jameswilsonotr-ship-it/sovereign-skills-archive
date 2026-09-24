@@ -1,0 +1,42 @@
+{
+  "id": "pose.arms-overhead-dive-prep",
+  "kind": "pose",
+  "name": "Arms Overhead Dive Prep",
+  "version": "0.1.1",
+  "status": "draft",
+  "source": "agentify-scrape",
+  "ticket": "IP-WQ-094",
+  "tags": [
+    "pose",
+    "agentify",
+    "arms-overhead-dive-prep"
+  ],
+  "prompt_terms": [
+    {
+      "term": "both arms raised straight overhead, palms together or parallel",
+      "variance": 0.25,
+      "weight": 1.0
+    },
+    {
+      "term": "profile or back-three-quarter on a platform edge",
+      "variance": 0.4,
+      "weight": 0.8
+    }
+  ],
+  "instances": [
+    {
+      "who": "storm-diver",
+      "set": "cand-storm-diver",
+      "role": "dive_prep",
+      "src": "/home/workdir/artifacts/inbound/cand-storm-diver_20260903-010411/02_dive_prep.png",
+      "at": "2026-09-03T01:15:39-04:00"
+    }
+  ],
+  "n": 1,
+  "created": "2026-09-03T01:15:39-04:00",
+  "updated": "2026-09-03T01:15:48-04:00",
+  "content": {
+    "taxonomy": "structural",
+    "origin": "inbound still scrape"
+  }
+}

@@ -1,0 +1,18 @@
+# requirements-third-party.txt
+# Additions from 2026-08-17 third-party evaluation
+# Merge into or install alongside requirements-circular.txt
+
+# === MCP Normalization ===
+mcp-proxy>=0.12.0          # sparfenyuk Python (stdio ↔ SSE)
+# or: punkpeye/mcp-proxy (TypeScript) if Node edge preferred
+
+# === Chunking / ETL ===
+chonkie>=0.4.0             # Semantic + Late + SDPM chunkers
+# chonkie[semantic]        # if separate extras needed for embeddings
+
+# === Layout-aware documents ===
+docling>=1.0.0             # IBM DS4SD document converter (optional path)
+
+# === Already in circular requirements (keep) ===
+# google-api-python-client, google-auth-oauthlib, pydantic,
+# python-frontmatter, fsspec, py-jsonl, etc.

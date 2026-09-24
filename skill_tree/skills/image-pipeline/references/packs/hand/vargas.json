@@ -1,0 +1,42 @@
+{
+  "id": "hand.vargas",
+  "kind": "hand",
+  "name": "Alberto Vargas",
+  "version": "1.0.0",
+  "description": "Classic airbrush pin-up. Soft luminous skin with living warmth, long elegant legs, graceful posture, approachable glamorous sensuality, clean light.",
+  "tags": [
+    "hand",
+    "vargas",
+    "pin-up",
+    "airbrush"
+  ],
+  "prompt_terms": [
+    {
+      "term": "Alberto Vargas",
+      "variance": 0.05,
+      "weight": 1.0
+    },
+    {
+      "term": "in the exact style of Alberto Vargas",
+      "variance": 0.15,
+      "weight": 0.9
+    },
+    {
+      "term": "classic airbrush pin-up",
+      "variance": 0.3,
+      "weight": 0.8
+    },
+    {
+      "term": "soft luminous airbrushed skin and elegant posture",
+      "variance": 0.4,
+      "weight": 0.7
+    }
+  ],
+  "content": {
+    "notes": "Original 8 artist Hand. High-fidelity nervous-system impersonation. Promoted 2026-08-05 under Taxonomy Contract v0.1.0. Keep ultra-low variance on proper name.",
+    "taxonomy": "hand",
+    "source": "original 8x8 DNA-respecting test set",
+    "taxonomy_note": "named artist nervous system",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}

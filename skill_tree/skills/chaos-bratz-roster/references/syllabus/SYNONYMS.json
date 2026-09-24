@@ -1,0 +1,40 @@
+{
+  "version": "0.1.0",
+  "updated": "2026-09-05T17:06:00-04:00",
+  "claim": "Absolute Liv HUB",
+  "canonical": "syllabus",
+  "routes_to": "cilia-bus / M25 Mailroom Cilia-Bus Hypervisor",
+  "law": "Email is wake only. Drive is data. Syllabus is the spoken name of the wake bus.",
+  "aliases": [
+    "syllabus",
+    "syllabus queue",
+    "syllabus bus",
+    "the syllabus",
+    "silia bus",
+    "silia",
+    "cilia bus",
+    "cilia",
+    "cilia_bus",
+    "cilia-bus",
+    "grokbot bus",
+    "mailroom",
+    "m25"
+  ],
+  "not_this": {
+    "hair_bling_syllabus": [
+      "hair syllabus",
+      "bling syllabus",
+      "00 syllabus",
+      "wardrobe syllabus"
+    ],
+    "home": "references/agents/bunny/00_Syllabus_Index.md and cold/bling/"
+  },
+  "node_aliases": {
+    "olette": {
+      "canonical": "Olette",
+      "aliases": ["Olette", "Alette", "Grok Bot", "Grok Bot Android", "pocket scout"],
+      "role": "mobile field runner / Grok Bot for Android",
+      "rails": "no payment, no Drive silo write, no four-domain gate bypass"
+    }
+  }
+}

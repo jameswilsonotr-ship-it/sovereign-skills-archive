@@ -1,0 +1,26 @@
+{
+  "id": "preset.valerie.top10.10",
+  "name": "Vintage Engraving Line Art",
+  "version": "1.0.0",
+  "persona": "valerie",
+  "rank": 10,
+  "rank_reason": "Classic engraving and line art precision that translates cleanly to any medium with timeless containment.",
+  "tags": [
+    "valerie",
+    "top-10",
+    "rank-10"
+  ],
+  "chain": [
+    {
+      "pack": "photographer.herb-ritts",
+      "weight": 0.8
+    },
+    {
+      "pack": "photographer.robert-mapplethorpe",
+      "weight": 0.7
+    }
+  ],
+  "content": {
+    "original": "Classic engraving and line art precision that translates cleanly to any medium with timeless containment."
+  }
+}

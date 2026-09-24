@@ -1,0 +1,62 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "fiance-polish-speakeasy_20260828-223309_fiance-polish",
+  "slug": "fiance-polish-speakeasy",
+  "slug_mode": "explicit",
+  "stamp": "20260828-223309",
+  "created": "2026-08-28T22:33:09-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "olivia",
+  "heat": "8",
+  "files": {
+    "jpeg": "fiance-polish-speakeasy_20260828-223309_fiance-polish.jpg",
+    "prompt": "fiance-polish-speakeasy_20260828-223309_fiance-polish.prompt.md",
+    "keep": "fiance-polish-speakeasy_20260828-223309_fiance-polish.keep.json"
+  },
+  "sha256": {
+    "jpeg": "a93ac0248be498edbe3b44733cc592ecb39d53d6037d31fa64433248140bc79e",
+    "prompt": "a9f9c69bcef9714754841a4e86d8813de0e1a537e08e13c4c729430c708351de"
+  },
+  "prompt": "Flirt: Olivia murmurs at Bunny ear at speakeasy bar, watching the room. Coat on. Adults only. H8.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/3lhgY.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/fiance-polish-speakeasy_20260828-223309_fiance-polish.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/fiance-polish-speakeasy_20260828-223309_fiance-polish.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/fiance-polish-speakeasy_20260828-223309_fiance-polish.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "17nYADitrLxQX8xrzpN1bZJMjFqe7kd6e",
+    "prompt_id": "1SojKP2xuXhnLIFOyvMkL0sr0i301nAQl",
+    "keep_id": "1rMjApfpB9O4xrIbhNM2ao9uZ_3sPwspr",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/fiance-polish-speakeasy_20260828-223309_fiance-polish.jpg",
+        "file_name": "fiance-polish-speakeasy_20260828-223309_fiance-polish.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/fiance-polish-speakeasy_20260828-223309_fiance-polish.prompt.md",
+        "file_name": "fiance-polish-speakeasy_20260828-223309_fiance-polish.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/fiance-polish-speakeasy_20260828-223309_fiance-polish.keep.json",
+        "file_name": "fiance-polish-speakeasy_20260828-223309_fiance-polish.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T02:40:13+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078"
+}

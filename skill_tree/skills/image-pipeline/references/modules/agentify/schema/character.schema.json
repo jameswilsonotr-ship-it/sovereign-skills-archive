@@ -1,0 +1,74 @@
+{
+  "$id": "agentify.character",
+  "type": "object",
+  "required": ["id", "roman", "slug", "kind", "adult", "notes", "marks", "pose_ids", "wardrobe_ids"],
+  "properties": {
+    "id": { "type": "string" },
+    "roman": { "type": "string", "pattern": "^[IVX]+$" },
+    "slug": { "type": "string" },
+    "kind": { "enum": ["candidate", "splinter", "agent"] },
+    "adult": { "type": "boolean" },
+    "notes": { "type": "string" },
+    "marks": { "type": "array", "items": { "type": "string" } },
+    "skin": {
+      "type": "object",
+      "properties": {
+        "tone": {
+          "enum": [
+            "alabaster",
+            "fair",
+            "light-olive",
+            "light-medium-warm-brown",
+            "medium-olive",
+            "rich-deep-brown",
+            "onyx",
+            "unspecified"
+          ]
+        },
+        "undertone": {
+          "enum": ["cool", "warm", "olive", "neutral", "unspecified"]
+        },
+        "observed": { "type": "boolean" }
+      }
+    },
+    "hair": {
+      "type": "object",
+      "properties": {
+        "family": {
+          "enum": [
+            "pixie",
+            "undercut",
+            "short",
+            "bob",
+            "shoulder",
+            "long-straight",
+            "long-wave",
+            "coils",
+            "loc-short",
+            "loc-long",
+            "bun",
+            "unspecified"
+          ]
+        },
+        "color": {
+          "enum": [
+            "alabaster-white",
+            "blonde",
+            "strawberry",
+            "copper",
+            "auburn",
+            "red",
+            "brown",
+            "dark-brown",
+            "black",
+            "silver",
+            "unspecified"
+          ]
+        },
+        "observed": { "type": "boolean" }
+      }
+    },
+    "pose_ids": { "type": "array", "items": { "type": "string" } },
+    "wardrobe_ids": { "type": "array", "items": { "type": "string" } }
+  }
+}

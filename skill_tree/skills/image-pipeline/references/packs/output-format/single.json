@@ -1,0 +1,16 @@
+{
+  "id": "output-format.single",
+  "name": "Single",
+  "kind": "output-format",
+  "version": "0.1.0",
+  "description": "Default one-image emit",
+  "presentation": {
+    "mode": "single",
+    "default": true
+  },
+  "content": {
+    "taxonomy": "technical",
+    "taxonomy_note": "delivery / presentation",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}
