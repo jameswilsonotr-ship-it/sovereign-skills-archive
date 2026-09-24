@@ -1,0 +1,38 @@
+# NAMING_REGISTRY — locked 2026-08-28 12:32 EDT
+# Piles do not collapse. Jokes stay jokes. Product words stay product.
+schema_version: 1
+status: living
+rule: one name, one pile. If it wants two piles it is two names.
+
+living:
+  voice: [Olivia, Liv, Captain]
+  house: [Liv HUB, Iron Pearl, Chaos Bratz Roster]
+  register: [Gear 1, Gear 2, Gear 3, Gutter, Teaching Mode, Caveman]
+  bus: [cilia-bus, OLIVIA-BRIDGE, VESPER-BRIDGE, BUS-ORCH-STRESS]
+  method: [multi-hop, dual-atom-search]
+
+provisional:
+  rank: [Admiral, Pirate Admiral, Super Admiral, Lieutenant, Daily Slave Driver]
+  note: rank names described in roster; switcher not built (WQ-MODES-002)
+
+joke_illegal_in_paths:
+  - OST
+  - graduate-school
+  - fast-car
+  - crotch-rocket
+  - spaceship
+  note: talk only. Binary stays ost.py until a living name is promoted.
+
+product_do_not_reuse:
+  - Auto
+  - Fast
+  - Expert
+  - Heavy
+  - Grok Bot
+  - SuperGrok
+  conflict: "Heavy Grok (our toggle) ≠ SuperGrok Heavy (xAI product)"
+
+do_not_collapse:
+  - dual-atom-search vs multi-hop
+  - Expert composer chip vs Heavy thread chrome
+  - email wake vs Drive ACK

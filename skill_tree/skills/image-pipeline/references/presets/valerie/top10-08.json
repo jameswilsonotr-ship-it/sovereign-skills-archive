@@ -1,0 +1,30 @@
+{
+  "id": "preset.valerie.top10.08",
+  "name": "Vector-Raster Collision",
+  "version": "1.0.0",
+  "persona": "valerie",
+  "rank": 8,
+  "rank_reason": "Clean scalable vector lines colliding with rich raster texture \u2014 best of both precision and depth.",
+  "tags": [
+    "valerie",
+    "top-10",
+    "rank-8"
+  ],
+  "chain": [
+    {
+      "pack": "treatment.heavy-sketch-ink",
+      "weight": 0.8
+    },
+    {
+      "pack": "photographer.helmut-newton",
+      "weight": 0.7
+    },
+    {
+      "pack": "photographer.robert-mapplethorpe",
+      "weight": 0.6
+    }
+  ],
+  "content": {
+    "original": "Clean scalable vector lines colliding with rich raster texture \u2014 best of both precision and depth."
+  }
+}

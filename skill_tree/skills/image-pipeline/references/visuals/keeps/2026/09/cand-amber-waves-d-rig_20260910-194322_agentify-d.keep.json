@@ -1,0 +1,72 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "cand-amber-waves-d-rig_20260910-194322_agentify-d",
+  "slug": "cand-amber-waves-d-rig",
+  "slug_mode": "explicit",
+  "stamp": "20260910-194322",
+  "created": "2026-09-10T19:43:22-05:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "cand-amber-waves",
+  "kind": "candidate",
+  "plate": "d-rig",
+  "heat": "1",
+  "image_id": "Vp8wA",
+  "files": {
+    "jpeg": "cand-amber-waves-d-rig_20260910-194322_agentify-d.jpg",
+    "prompt": "cand-amber-waves-d-rig_20260910-194322_agentify-d.prompt.md",
+    "keep": "cand-amber-waves-d-rig_20260910-194322_agentify-d.keep.json"
+  },
+  "sha256": {
+    "jpeg": "c32db093c7b901cf51c03727e3d5640dc9b9627c0c2818e662962859384bd4b5",
+    "prompt": "fb303c68093100b2294b60cb4e90a9d4ad214fbe5fe2a4fe726f26f3196aae0e"
+  },
+  "prompt": "Character rig / turnaround sheet of an adult woman mid-twenties. Same identity: long wavy strawberry-blonde light-auburn hair with curtain bangs, brown-hazel eyes, winged liner, crimson glossy lips. Three orthographic views on one sheet: front, three-quarter, profile. She wears the black puff-sleeve square-neck top and black slim trousers. Neutral beige-gray backdrop, even studio lighting, full body plus head row, clean model-sheet layout, photoreal, clothes ON, no nudity, adult.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/Vp8wA.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/cand-amber-waves-d-rig_20260910-194322_agentify-d.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/cand-amber-waves-d-rig_20260910-194322_agentify-d.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/cand-amber-waves-d-rig_20260910-194322_agentify-d.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/09"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/cand-amber-waves-d-rig_20260910-194322_agentify-d.jpg",
+        "file_name": "cand-amber-waves-d-rig_20260910-194322_agentify-d.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/cand-amber-waves-d-rig_20260910-194322_agentify-d.prompt.md",
+        "file_name": "cand-amber-waves-d-rig_20260910-194322_agentify-d.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/cand-amber-waves-d-rig_20260910-194322_agentify-d.keep.json",
+        "file_name": "cand-amber-waves-d-rig_20260910-194322_agentify-d.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "jpeg_id": "1LYt_Lyh5ZpH9XV5gN0R68skdlESnaoJy",
+    "prompt_id": "1JvWEYUhkOO2J-dBn4EI3_doVzlF0AMFI",
+    "keep_id": "1eFuwKuYr0g9Nn-4Be0plGAvvFf1Q5i-2",
+    "jpeg_url": "https://drive.google.com/file/d/1LYt_Lyh5ZpH9XV5gN0R68skdlESnaoJy/view",
+    "uploaded_at": "2026-09-11T00:44:33+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row. ANDROID show path = Drive web_view_link, no render tags."
+  }
+}

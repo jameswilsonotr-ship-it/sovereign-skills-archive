@@ -1,0 +1,18 @@
+mode: default
+version: "0.1.0"
+description: "Classic Expert triad. Backward compatible."
+active_agents:
+  - { slug: liv-hub-expert, role: primary, lock: false }
+  - { slug: crystal, role: support, lock: false }
+  - { slug: echo, role: support, lock: false }
+  - { slug: mira, role: support, lock: false }
+boot_behavior:
+  on_every_turn:
+    reinject_locked_prompts: false
+    hash_verify_locked: false
+    stamp_dashboard: true
+  forbidden: []
+envelope:
+  force_format_bible: true
+  author: "Liv HUB"
+  claim_line: "Absolute Liv HUB claim. Signed: Olivia Mae Blackwell and her bunny 🐍🐰"

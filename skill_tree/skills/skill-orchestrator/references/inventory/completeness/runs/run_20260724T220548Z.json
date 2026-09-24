@@ -1,0 +1,31 @@
+{
+  "run_id": "20260724T220548Z",
+  "timestamp": "2026-07-24T22:05:48.974434+00:00",
+  "scope": "skill-orchestrator",
+  "audited": 1,
+  "critical_gaps": 6,
+  "skills_with_gaps": 1,
+  "skills_clean": 0,
+  "results": [
+    {
+      "slug": "skill-orchestrator",
+      "skill_md_exists": true,
+      "missing_paths": [
+        "references/inventory/master-inventory.md",
+        "references/mirrors/olivia.md",
+        "references/promotion/APPROVED_PROMOTION_LIST.md",
+        "references/state/visibility-internal-outputs.md",
+        "references/to-do/master-to-do-list.md",
+        "references/to-do/to-do-list.md"
+      ],
+      "stub_files": [
+        "references/inventory/completeness_latest.md"
+      ],
+      "mentioned_count": 16,
+      "critical_gaps": 6,
+      "notes": [
+        "stub: references/inventory/completeness_latest.md"
+      ]
+    }
+  ]
+}

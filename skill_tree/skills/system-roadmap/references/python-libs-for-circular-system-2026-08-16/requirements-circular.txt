@@ -1,0 +1,39 @@
+# requirements-circular.txt
+# Minimal + recommended Python stack for the Circular Multi-Surface system
+# Absolute Liv HUB claim — system-roadmap ownership
+# Generated 2026-08-16
+
+# === Core (required for first working loop) ===
+google-api-python-client>=2.100.0
+google-auth-httplib2>=0.2.0
+google-auth-oauthlib>=1.2.0
+pydantic>=2.0
+python-frontmatter>=1.1.0
+semchunk>=0.3.0
+py-jsonl>=1.0.0          # or the pure-stdlib jsonl package if preferred
+jsonl-resumable>=0.5.0
+pypeln>=0.4.0
+
+# === Strongly recommended ===
+PyDrive2>=1.19.0         # higher-level Drive wrapper
+fsspec>=2024.0.0         # unified path abstraction
+watchdog>=4.0.0          # auto-trigger update_manifest.py
+orjson>=3.10.0           # fast JSON if needed alongside py-jsonl
+
+# === Emotion / PAD ===
+# AffectToolbox is the closest dedicated PAD library; install when available
+# Fallback stack:
+nltk>=3.8                # for VADER
+# NRC-VAD lexicon is data, not a pip package — load as resource
+
+# === Optional but high-leverage ===
+dlt>=0.4.0               # declarative multi-source ETL / lake loading
+panpath>=0.1.0           # pathlib-compatible multi-backend paths
+chromadb>=0.5.0          # local-first vector / atom cloud
+# qdrant-client          # alternative local vector DB
+# google-cloud-pubsub    # for Gmail watch → event bus
+# EZGmail                # thin Gmail helper
+
+# === Dev / quality ===
+# typer or click for CLIs that match roster style
+# pytest for the pointers.py and update_manifest.py test harness

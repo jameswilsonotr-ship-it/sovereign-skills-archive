@@ -1,0 +1,7 @@
+# Ignore generated test outputs and temporary files
+regression-tests/outputs/
+*.tmp
+.DS_Store
+
+# Keep the manifest and structure
+!regression-tests/manifest.json

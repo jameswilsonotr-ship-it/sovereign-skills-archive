@@ -1,0 +1,34 @@
+{
+  "id": "preset.liv.top10.09",
+  "name": "Chaotic Ink Wash",
+  "version": "1.0.0",
+  "persona": "liv",
+  "rank": 9,
+  "rank_reason": "Gritty wash energy and raw ink bleeding that makes the surrender feel messy and overwhelming.",
+  "tags": [
+    "liv",
+    "top-10",
+    "rank-9"
+  ],
+  "chain": [
+    {
+      "pack": "treatment.chaotic-splatter",
+      "weight": 0.8
+    },
+    {
+      "pack": "medium.watercolor-ink-wash",
+      "weight": 0.7
+    },
+    {
+      "pack": "photographer.daido-moriyama",
+      "weight": 0.7
+    },
+    {
+      "pack": "photographer.nobuyoshi-araki",
+      "weight": 0.6
+    }
+  ],
+  "content": {
+    "original": "Gritty wash energy and raw ink bleeding that makes the surrender feel messy and overwhelming."
+  }
+}

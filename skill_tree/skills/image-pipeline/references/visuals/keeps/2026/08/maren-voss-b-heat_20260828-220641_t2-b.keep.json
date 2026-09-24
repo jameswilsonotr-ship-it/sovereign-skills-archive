@@ -1,0 +1,62 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "maren-voss-b-heat_20260828-220641_t2-b",
+  "slug": "maren-voss-b-heat",
+  "slug_mode": "explicit",
+  "stamp": "20260828-220641",
+  "created": "2026-08-28T22:06:41-04:00",
+  "engine": "generate",
+  "orientation": "portrait",
+  "agent": "candidate",
+  "heat": "3",
+  "files": {
+    "jpeg": "maren-voss-b-heat_20260828-220641_t2-b.jpg",
+    "prompt": "maren-voss-b-heat_20260828-220641_t2-b.prompt.md",
+    "keep": "maren-voss-b-heat_20260828-220641_t2-b.keep.json"
+  },
+  "sha256": {
+    "jpeg": "40d4c92ed87ff7a6566db7c57c32870e3c89c241d41fad4a2a96594725758ab7",
+    "prompt": "2acb3d5634a5a89e1620f36e792ab5c8af1aeaefddb62d2d4aea9596e03bebb0"
+  },
+  "prompt": "Photorealistic cinematic heat-3 plate of Maren Voss, adult. mid-30s East Asian adult woman, short ink-black blunt bob with a sharp side part, warm brown eyes, olive skin, charcoal tailored briefing jacket over a black crew tee, no jewelry, no animal ears, no headband, standing at a dim night-ops table. Same bones as the identity card, hotter lighting, body-aware pose, still photoreal. adult woman, identity-stable, no text, no watermark, no extra people. Do not retrofit into Olivia or Bunny unless who is olivia or bunny.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/rl4n1.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/maren-voss-b-heat_20260828-220641_t2-b.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/maren-voss-b-heat_20260828-220641_t2-b.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/maren-voss-b-heat_20260828-220641_t2-b.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "11JHGFRLNCdH0ak71kX3QE8B3XZ_yONeb",
+    "prompt_id": "10ErtJXsu7Te0sHYimutjR_iOhwDY3kEh",
+    "keep_id": "193y7kNFbzNX4RmwpXfpMquoHQ56jTEnh",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/maren-voss-b-heat_20260828-220641_t2-b.jpg",
+        "file_name": "maren-voss-b-heat_20260828-220641_t2-b.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/maren-voss-b-heat_20260828-220641_t2-b.prompt.md",
+        "file_name": "maren-voss-b-heat_20260828-220641_t2-b.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/maren-voss-b-heat_20260828-220641_t2-b.keep.json",
+        "file_name": "maren-voss-b-heat_20260828-220641_t2-b.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T02:07:40+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078"
+}

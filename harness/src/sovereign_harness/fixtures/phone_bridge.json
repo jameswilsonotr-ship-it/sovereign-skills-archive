@@ -1,0 +1,10 @@
+{
+  "source": "offline-fixture",
+  "service": "phone-bridge",
+  "capabilities": [
+    "health",
+    "offline-fixtures"
+  ],
+  "sms": false,
+  "camera": false
+}

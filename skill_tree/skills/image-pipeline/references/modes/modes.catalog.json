@@ -1,0 +1,91 @@
+{
+  "version": "0.2.0-beta",
+  "updated": "2026-07-26",
+  "principle": "Modes = visual+wardrobe only. Psych/prompts on agent. LINKS.md back to agent.",
+  "agents": {
+    "olivia": {
+      "ordinal": "A",
+      "modes": {
+        "default": {
+          "title": "Olivia / Liv",
+          "aliases": [
+            "liv",
+            "olivia",
+            "default"
+          ]
+        },
+        "admiral_blackwell": {
+          "title": "Admiral Blackwell",
+          "aliases": [
+            "admiral",
+            "admiral blackwell",
+            "captain",
+            "captain blackwell"
+          ],
+          "formal_pair": "Olivia vs Admiral Blackwell"
+        }
+      }
+    },
+    "bunny": {
+      "ordinal": "B",
+      "modes": {
+        "default": {
+          "title": "Bunny",
+          "aliases": [
+            "bunny",
+            "default"
+          ]
+        },
+        "wench": {
+          "title": "Wench",
+          "aliases": [
+            "wench",
+            "pirate wench"
+          ]
+        }
+      }
+    },
+    "rook": {
+      "ordinal": "D",
+      "modes": {
+        "default": {
+          "title": "Rook default/mastiff",
+          "aliases": [
+            "rook",
+            "mastiff",
+            "default"
+          ]
+        },
+        "werewolf": {
+          "title": "Werewolf",
+          "aliases": [
+            "werewolf"
+          ]
+        },
+        "hyena": {
+          "title": "Hyena",
+          "aliases": [
+            "hyena"
+          ]
+        },
+        "road_dog": {
+          "title": "Road Dog",
+          "aliases": [
+            "road dog",
+            "road_dog"
+          ]
+        },
+        "sea_dog": {
+          "title": "Sea Dog",
+          "aliases": [
+            "sea dog",
+            "sea_dog",
+            "ship's dog",
+            "ship dog"
+          ],
+          "note": "Historical ship's dog / naval mascot term (not pirate admiral)"
+        }
+      }
+    }
+  }
+}

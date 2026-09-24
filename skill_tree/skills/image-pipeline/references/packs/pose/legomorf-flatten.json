@@ -1,0 +1,33 @@
+{
+  "id": "pose.legomorf-flatten",
+  "kind": "pose",
+  "name": "Legomorf Flatten",
+  "version": "0.1.0",
+  "status": "draft",
+  "source": "oryctolagus-legomorf",
+  "ticket": "IP-WQ-097",
+  "tags": [
+    "pose",
+    "legomorf",
+    "lagomorph",
+    "bunny"
+  ],
+  "prompt_terms": [
+    {
+      "term": "tight to the floor, wide eye, threat freeze",
+      "variance": 0.25,
+      "weight": 1.0
+    },
+    {
+      "term": "NOT melt, NOT aftercare",
+      "variance": 0.35,
+      "weight": 0.85
+    }
+  ],
+  "content": {
+    "taxonomy": "structural",
+    "origin": "Oryctolagus rest scale, woman stays a woman",
+    "name_lock": "Legomorf"
+  },
+  "created": "2026-09-03T01:35:23-04:00"
+}

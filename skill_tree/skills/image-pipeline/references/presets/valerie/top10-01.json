@@ -1,0 +1,26 @@
+{
+  "id": "preset.valerie.top10.01",
+  "name": "Acrylic Underpainting with Sharp Ink Mapping",
+  "version": "1.0.0",
+  "persona": "valerie",
+  "rank": 1,
+  "rank_reason": "Thick underpainting texture mapped with crisp vector ink lines \u2014 maximum tactile depth while keeping perfect structural containment and readability.",
+  "tags": [
+    "valerie",
+    "top-10",
+    "rank-1"
+  ],
+  "chain": [
+    {
+      "pack": "photographer.robert-mapplethorpe",
+      "weight": 0.8
+    },
+    {
+      "pack": "photographer.helmut-newton",
+      "weight": 0.7
+    }
+  ],
+  "content": {
+    "original": "Thick underpainting texture mapped with crisp vector ink lines \u2014 maximum tactile depth while keeping perfect structural containment and readability."
+  }
+}
