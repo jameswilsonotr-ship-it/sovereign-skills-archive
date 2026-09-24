@@ -1,24 +1,9 @@
 # Skill Library Export
-**Generated**: 2026-09-24 20:19 UTC
+**Generated**: 2026-09-24 20:22 UTC
 **Authority**: skill-orchestrator
 **Source plan**: references/plans/TIERED_LIBRARY_ARCHITECTURE.md
 
 Total skills scanned: 27
-
-## Tier 2 (0)
-
-| Slug | Richness | README | TODO | CHANGELOG | refs/ | scripts/ | git |
-|------|----------|--------|------|-----------|-------|----------|-----|
-
-## Tier 1 (0)
-
-| Slug | Richness | README | TODO | CHANGELOG | refs/ | scripts/ | git |
-|------|----------|--------|------|-----------|-------|----------|-----|
-
-## Tier 0 (0)
-
-| Slug | Richness | README | TODO | CHANGELOG | refs/ | scripts/ | git |
-|------|----------|--------|------|-----------|-------|----------|-----|
 
 ## Unassigned (27)
 
