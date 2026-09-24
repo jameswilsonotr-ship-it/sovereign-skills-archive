@@ -1,0 +1,71 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "leftover-radio_20260829-215517_movie",
+  "slug": "leftover-radio",
+  "slug_mode": "explicit",
+  "stamp": "20260829-215517",
+  "created": "2026-08-29T21:55:17-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "leftover-80s",
+  "heat": "5",
+  "files": {
+    "jpeg": "leftover-radio_20260829-215517_movie.jpg",
+    "prompt": "leftover-radio_20260829-215517_movie.prompt.md",
+    "keep": "leftover-radio_20260829-215517_movie.keep.json"
+  },
+  "sha256": {
+    "jpeg": "4855df3f0200daa62540c746e3dd9d8892edb10d91043c1e4face25e729979e7",
+    "prompt": "7e2a19b4bb578170d417e048c424e8da2e9e873d4ae136fbb1f840b934d63df3"
+  },
+  "prompt": "80s cousin at sony radio gnome",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/1rpbU.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/leftover-radio_20260829-215517_movie.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/leftover-radio_20260829-215517_movie.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/leftover-radio_20260829-215517_movie.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "15gtzScCs7JxJ48EWBQxdwFSKxKcJpA2U",
+    "prompt_id": "1p8e67e2JfrszpLvD_WEqlnTcqtgLoRk3",
+    "keep_id": "1FhKdAKoCj2P8q2PFwpYiA4W4x8gkFGp9",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/leftover-radio_20260829-215517_movie.jpg",
+        "file_name": "leftover-radio_20260829-215517_movie.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/leftover-radio_20260829-215517_movie.prompt.md",
+        "file_name": "leftover-radio_20260829-215517_movie.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/leftover-radio_20260829-215517_movie.keep.json",
+        "file_name": "leftover-radio_20260829-215517_movie.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "skip_reason": "prior-session backlog deferred 2026-08-31 pose-pack publish; jpeg may still exist locally",
+    "uploaded_at": "2026-08-31T22:01:22+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/leftover-radio_20260829-215517_movie.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

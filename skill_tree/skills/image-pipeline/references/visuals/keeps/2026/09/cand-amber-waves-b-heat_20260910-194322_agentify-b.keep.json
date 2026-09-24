@@ -1,0 +1,72 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "cand-amber-waves-b-heat_20260910-194322_agentify-b",
+  "slug": "cand-amber-waves-b-heat",
+  "slug_mode": "explicit",
+  "stamp": "20260910-194322",
+  "created": "2026-09-10T19:43:22-05:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "cand-amber-waves",
+  "kind": "candidate",
+  "plate": "b-heat",
+  "heat": "3",
+  "image_id": "Lozh2",
+  "files": {
+    "jpeg": "cand-amber-waves-b-heat_20260910-194322_agentify-b.jpg",
+    "prompt": "cand-amber-waves-b-heat_20260910-194322_agentify-b.prompt.md",
+    "keep": "cand-amber-waves-b-heat_20260910-194322_agentify-b.keep.json"
+  },
+  "sha256": {
+    "jpeg": "b30fddc5e03d72ba9b605112072b8b28431b0c7281515ed7ec3cd69c5730d963",
+    "prompt": "5875c7bda72b81786ce3c4a6816688178d1749b5bc0f535d2439aaffa15fe2d3"
+  },
+  "prompt": "Photoreal adult portrait, same woman identity: long wavy strawberry-blonde light-auburn hair with curtain bangs, brown-hazel eyes, sharp winged liner, glossy crimson-red lips, heart-oval face. Heat plate: black square-neck puff-sleeve top pulled slightly lower on the neckline, warm low bedroom light, glossy mouth slightly parted, heavier blush, sultry gaze, hair falling over one shoulder. Clothes ON. No nudity. Dark warm apartment wall, fashion editorial photoreal, adult woman mid-twenties.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/Lozh2.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/cand-amber-waves-b-heat_20260910-194322_agentify-b.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/cand-amber-waves-b-heat_20260910-194322_agentify-b.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/cand-amber-waves-b-heat_20260910-194322_agentify-b.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/09"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/cand-amber-waves-b-heat_20260910-194322_agentify-b.jpg",
+        "file_name": "cand-amber-waves-b-heat_20260910-194322_agentify-b.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/cand-amber-waves-b-heat_20260910-194322_agentify-b.prompt.md",
+        "file_name": "cand-amber-waves-b-heat_20260910-194322_agentify-b.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/cand-amber-waves-b-heat_20260910-194322_agentify-b.keep.json",
+        "file_name": "cand-amber-waves-b-heat_20260910-194322_agentify-b.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "jpeg_id": "1HxK7DkNFklERncWxyZT1jE-X5GY7N02g",
+    "prompt_id": "1i_eQceUHuQZv7JAcnlmb0OCopNJR_K0a",
+    "keep_id": "1FnlZMoktS0tZ-5VQjEVQELTk419ONuX4",
+    "jpeg_url": "https://drive.google.com/file/d/1HxK7DkNFklERncWxyZT1jE-X5GY7N02g/view",
+    "uploaded_at": "2026-09-11T00:44:33+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row. ANDROID show path = Drive web_view_link, no render tags."
+  }
+}

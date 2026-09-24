@@ -1,0 +1,71 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "h-4v-cousin-look_20260830-051904_pack2",
+  "slug": "h-4v-cousin-look",
+  "slug_mode": "explicit",
+  "stamp": "20260830-051904",
+  "created": "2026-08-30T05:19:04-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "olivia",
+  "heat": "8",
+  "files": {
+    "jpeg": "h-4v-cousin-look_20260830-051904_pack2.jpg",
+    "prompt": "h-4v-cousin-look_20260830-051904_pack2.prompt.md",
+    "keep": "h-4v-cousin-look_20260830-051904_pack2.keep.json"
+  },
+  "sha256": {
+    "jpeg": "4a05fe91826659def3c9d708ecf647bcf5c3a36f965b06aeb66111c002ab08dc",
+    "prompt": "388e362fb0e0d92729944f50ff8c50c9ee31ce415c6605a673932b6f51c53d4d"
+  },
+  "prompt": "Photorealistic fashion still, adults only, generated 1980s cousin. 24-year-old woman, Farrah copper-burgundy hair, winged liner, gold hoops, fitted taupe V-neck, Heat 8 posture. Standing in an empty oak-cabinet kitchen under warm under-cabinet light, one hand on the counter, looking to camera with a small private smile. Better hair, better makeup, clothes on. No live-woman likeness. No First Aid booklet. No bunker stairs. No text overlay.\n",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/PlqvY.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/h-4v-cousin-look_20260830-051904_pack2.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/h-4v-cousin-look_20260830-051904_pack2.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/h-4v-cousin-look_20260830-051904_pack2.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1EqaNkPAw7Lpr15CtAGFz1ViiMC8C4yID",
+    "prompt_id": "1QjYrnM4fNecq2rvfV8dZxMwO6S36ATDo",
+    "keep_id": "1P2S1a8C0G5qqHuQyfLGyPp36xvHnZk0p",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/h-4v-cousin-look_20260830-051904_pack2.jpg",
+        "file_name": "h-4v-cousin-look_20260830-051904_pack2.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/h-4v-cousin-look_20260830-051904_pack2.prompt.md",
+        "file_name": "h-4v-cousin-look_20260830-051904_pack2.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/h-4v-cousin-look_20260830-051904_pack2.keep.json",
+        "file_name": "h-4v-cousin-look_20260830-051904_pack2.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "skip_reason": "prior-session backlog deferred 2026-08-31 pose-pack publish; jpeg may still exist locally",
+    "uploaded_at": "2026-08-31T21:59:38+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/h-4v-cousin-look_20260830-051904_pack2.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

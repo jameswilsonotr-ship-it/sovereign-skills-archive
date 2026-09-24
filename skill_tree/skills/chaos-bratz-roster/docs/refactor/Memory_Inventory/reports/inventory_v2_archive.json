@@ -1,0 +1,23 @@
+[
+  {
+    "path": "references/archive/creative_checkpoints.md",
+    "id": "roster_references_archive_creative_checkpoints_md",
+    "type": "other",
+    "namespace": "roster",
+    "size_bytes": 8063,
+    "owner_current": "unassigned",
+    "recommended_owner": "TBD",
+    "instantiation": "static",
+    "test_surface": "manual or none",
+    "decision": "REVIEW",
+    "confidence": "medium",
+    "linked_properly": true,
+    "memory_conflict_risk": "medium",
+    "source": "chaos-bratz-roster",
+    "written_at": null,
+    "last_confirmed": null,
+    "supersedes": [],
+    "notes": "",
+    "extractor": "generate_inventory_v2.py@v2.0"
+  }
+]

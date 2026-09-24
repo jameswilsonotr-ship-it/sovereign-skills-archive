@@ -1,0 +1,28 @@
+{
+  "id": "photographer.guy-bourdin",
+  "kind": "photographer",
+  "name": "Guy Bourdin",
+  "version": "1.0.0",
+  "description": "aggressive color-block drama, surreal tears",
+  "tags": [
+    "photographer",
+    "guy-bourdin"
+  ],
+  "prompt_terms": [
+    {
+      "term": "Guy Bourdin",
+      "variance": 0.05,
+      "weight": 1.0
+    },
+    {
+      "term": "in the style of Guy Bourdin",
+      "variance": 0.15,
+      "weight": 0.8
+    }
+  ],
+  "content": {
+    "taxonomy": "hand",
+    "taxonomy_note": "proper-name photographic hand",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}

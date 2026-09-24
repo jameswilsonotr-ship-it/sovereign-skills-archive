@@ -1,0 +1,12 @@
+{
+  "schema_version": "0.1.0",
+  "last_promoted_ts": "2026-08-06T12:10:39.244760+00:00",
+  "session_source": "curator_session_atom_cloud_2026-08-06_v0.4.json",
+  "session_atom_count": 32,
+  "prior_canonical_atom_count": 0,
+  "result_atom_count": 32,
+  "conflicts_resolved": 0,
+  "canonical_path": "/home/workdir/.grok/skills/claim-runtime/references/modules/curator/atoms/canonical/curator_atom_cloud.json",
+  "legacy_global_untouched": true,
+  "policy": "higher excitement wins; equal \u2192 newer last_interaction; equal \u2192 session wins"
+}

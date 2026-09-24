@@ -1,0 +1,8 @@
+# Optional. Smoke harness is stdlib + pytest.
+# Already present in this environment 2026-09-11:
+jsonschema==4.26.0
+python-frontmatter==1.3.0
+# Pattern-only, NOT vendored (export is recon, not SSoT):
+# https://github.com/risaacr/claude-chats
+# https://github.com/slyubarskiy/chatgpt-conversation-extractor
+# https://queelius.github.io/ctk/

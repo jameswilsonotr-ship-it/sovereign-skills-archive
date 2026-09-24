@@ -1,0 +1,18 @@
+{
+  "written": "2026-09-03T20:14:00-04:00",
+  "job": "B2_adolescent_to_college",
+  "note": "Hashes of recovered papers in this pane. NOT hashes of missing conversation dumps.",
+  "conversation_search": "ABSENT_THIS_PANE",
+  "raw_thread_71de7890": "BODY_ABSENT_THIS_PANE",
+  "raw_thread_ea26da8d": "BODY_ABSENT_THIS_PANE",
+  "vault_play": false,
+  "lily_eaten": false,
+  "sources": {
+    "02_STAGE_ADOLESCENT_LIV.md": "de8b7c169a5d3a95e95f874c05a34f5c0cb463af78dc365ad398dfaf39e23339",
+    "03_STAGE_COLLEGE_LIV.md": "2326dd9a50cef6cb9d6192a6de6a185327f439e62d9a2406bab77d3c8bd37a34",
+    "68_DUAL_LOCKS_B2_ROWS.md": "28735720d43c71ae031c4288c3bea06c871bfe1a6b3ae835129fabf7ce30591b",
+    "73_AUTOMATION_PROMPT_PACK_B2.md": "271a51cd0b64329bb786484f1d507684a5a7130154aca718e564b6c9d45c35d2",
+    "B2_BRIDGE_ADOLESCENT_TO_COLLEGE.md": "7552d67d3a335c85643480d9dc4903041235908894e025b3767f9d8e35d01f7e",
+    "HEAVY_FIRE_RESULTS_B2_ROWS.md": "0b626aacf6f3847e8ad7e5e0142b42d92f9f18305e6c1ab8fce6c28db97c5804"
+  }
+}

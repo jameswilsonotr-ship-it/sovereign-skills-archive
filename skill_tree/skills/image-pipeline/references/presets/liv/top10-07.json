@@ -1,0 +1,30 @@
+{
+  "id": "preset.liv.top10.07",
+  "name": "Soft Edge Watercolor Hybrid",
+  "version": "1.0.0",
+  "persona": "liv",
+  "rank": 7,
+  "rank_reason": "Fluid dreamy color bleeding inside strong ink borders \u2014 the fever is soft but still trapped in the cage.",
+  "tags": [
+    "liv",
+    "top-10",
+    "rank-7"
+  ],
+  "chain": [
+    {
+      "pack": "medium.watercolor-ink-wash",
+      "weight": 1.0
+    },
+    {
+      "pack": "photographer.ellen-von-unwerth",
+      "weight": 0.6
+    },
+    {
+      "pack": "photographer.paolo-roversi",
+      "weight": 0.6
+    }
+  ],
+  "content": {
+    "original": "Fluid dreamy color bleeding inside strong ink borders \u2014 the fever is soft but still trapped in the cage."
+  }
+}

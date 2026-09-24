@@ -1,0 +1,71 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "cop-c-anime_20260831-164106",
+  "slug": "cop-c-anime",
+  "slug_mode": "explicit",
+  "stamp": "20260831-164106",
+  "created": "2026-08-31T16:41:06-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "candidate",
+  "heat": "3",
+  "files": {
+    "jpeg": "cop-c-anime_20260831-164106.jpg",
+    "prompt": "cop-c-anime_20260831-164106.prompt.md",
+    "keep": "cop-c-anime_20260831-164106.keep.json"
+  },
+  "sha256": {
+    "jpeg": "319291347aa8a6dddf7950ebd0a3a6d7a0ecc98f51b76d53f38e26ae78f5f775",
+    "prompt": "d49918e26dec68665a9fec773718298919c9ea5a491c66d094df38987b559aec"
+  },
+  "prompt": "C anime cop",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/eig4S.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/cop-c-anime_20260831-164106.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/cop-c-anime_20260831-164106.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/cop-c-anime_20260831-164106.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1QyMFuTj3C-B4HNA0Juk3_0lKJvAx0dHr",
+    "prompt_id": "1H_1vTiuN3PfKAPliCA2c8_g81g0s5akl",
+    "keep_id": "1Ep-n8vNkGWNpEtopKrvctZJaVNb6V-Lc",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/cop-c-anime_20260831-164106.jpg",
+        "file_name": "cop-c-anime_20260831-164106.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/cop-c-anime_20260831-164106.prompt.md",
+        "file_name": "cop-c-anime_20260831-164106.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/cop-c-anime_20260831-164106.keep.json",
+        "file_name": "cop-c-anime_20260831-164106.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "skip_reason": "prior-session backlog deferred 2026-08-31 pose-pack publish; jpeg may still exist locally",
+    "uploaded_at": "2026-08-31T21:57:56+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/cop-c-anime_20260831-164106.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

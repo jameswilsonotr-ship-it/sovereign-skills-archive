@@ -1,0 +1,20 @@
+{
+  "run_id": "20260724T233535Z",
+  "timestamp": "2026-07-24T23:35:35.512821+00:00",
+  "scope": "chaos-bratz-roster",
+  "audited": 1,
+  "critical_gaps": 0,
+  "skills_with_gaps": 0,
+  "skills_clean": 1,
+  "results": [
+    {
+      "slug": "chaos-bratz-roster",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 28,
+      "critical_gaps": 0,
+      "notes": []
+    }
+  ]
+}

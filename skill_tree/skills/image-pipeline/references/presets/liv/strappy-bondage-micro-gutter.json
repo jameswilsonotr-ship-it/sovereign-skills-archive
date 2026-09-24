@@ -1,0 +1,49 @@
+{
+  "id": "preset.liv.strappy-bondage-micro-gutter",
+  "name": "Strappy Bondage Micro Set — Olivia Gutter (H8–H10)",
+  "version": "1.0.0",
+  "description": "Gutter-escalated variant of the locked Heat 7 strappy bondage micro set for Olivia. Same DNA locks and core costume pack; aesthetic shifted to dangerous / owned / heavier vice signaling per coven-visual-system Heat Slider rules (H8–H10). Does not contaminate the H7 baseline.",
+  "persona": "liv",
+  "tags": [
+    "liv",
+    "costume",
+    "strappy-bondage-micro",
+    "gutter",
+    "heat-8-10",
+    "harness",
+    "dangerous",
+    "owned"
+  ],
+  "chain": [
+    {
+      "pack": "treatment.strappy-bondage-micro-h7",
+      "weight": 1.0
+    },
+    {
+      "pack": "treatment.heavy-noir",
+      "weight": 0.7
+    },
+    {
+      "pack": "atmosphere.raw-chaotic",
+      "weight": 0.65
+    },
+    {
+      "pack": "atmosphere.possessive-claim",
+      "weight": 0.85
+    }
+  ],
+  "content": {
+    "source_asset": "visuals/assets/costumes/strappy-bondage-micro-set/v0.1.0",
+    "heat_range": "8-10",
+    "baseline_preset": "preset.liv.strappy-bondage-micro-h7",
+    "aesthetic_delta": "Dangerous / owned / gothic blackwork energy. Heavier vice signaling, stronger possessive claim, noir volumetric contrast. DNA locks identical to H7 baseline.",
+    "dna_locks": {
+      "height": "5'10\"",
+      "hair": "sharp asymmetrical black pixie + bold red streak",
+      "core_mark": "prominent glowing red gem on left collarbone",
+      "ears": "never bunny / holo ears",
+      "energy": "dominant, possessive, high-agency, now with Gutter-owned weight"
+    },
+    "notes": "Use only when Heat is intentionally escalated. Keep the H7 preset for baseline work."
+  }
+}
