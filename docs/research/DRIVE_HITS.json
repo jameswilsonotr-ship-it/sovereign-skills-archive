@@ -1,0 +1,507 @@
+{
+  "schema_version": "1.0",
+  "sweep": {
+    "date_utc": "2026-09-17",
+    "repository": "jameswilsonotr-ship-it/sovereign-skills-archive",
+    "branch_basis": "skill-tree-intake",
+    "primary_drive_folder": {
+      "title": "Awesome Split",
+      "id": "11WEijQl3lP6Spw3kwFpE1kNC7MVGWsgP",
+      "url": "https://drive.google.com/drive/folders/11WEijQl3lP6Spw3kwFpE1kNC7MVGWsgP"
+    },
+    "keywords": [
+      "MCP bridge",
+      "Termux",
+      "Android intent",
+      "flashlight",
+      "SMS",
+      "Gemma",
+      "Vultr",
+      "Tailscale",
+      "SFTP",
+      "zenoh",
+      "AI Studio",
+      "APK",
+      "Spark",
+      "Vesper",
+      "phone control plane",
+      "burner phone"
+    ],
+    "method_channels": [
+      "checked-out repository and origin/main refs",
+      "GitHub PR metadata and changed-file metadata for PRs 1-8",
+      "authenticated Google Drive MCP search, metadata, and text reads",
+      "anonymous Drive URL checks",
+      "public web search",
+      "read-only clones of adjacent public sibling repositories"
+    ]
+  },
+  "access": {
+    "drive_mcp": {
+      "status": "authenticated",
+      "readable": [
+        "provided Drive IDs",
+        "handoff folder metadata and four plaintext briefs",
+        "manifest metadata and text representation",
+        "targeted plaintext and Markdown files found by keyword search"
+      ]
+    },
+    "anonymous_web": {
+      "status": "not_authenticated",
+      "results": [
+        {
+          "url": "https://drive.google.com/drive/folders/11WEijQl3lP6Spw3kwFpE1kNC7MVGWsgP",
+          "http_status": 200,
+          "result": "Google Drive: Sign-in"
+        },
+        {
+          "url": "https://drive.google.com/drive/folders/1ahggBATOejlUbMRddNgTa3YR0jde_QGU",
+          "http_status": 200,
+          "result": "Google Drive: Sign-in"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1NDaYkFfbhsi457Q8yVpC30bvz3WKEdhE/view",
+          "http_status": 401,
+          "result": "Unauthorized"
+        },
+        {
+          "url": "https://drive.google.com/drive/folders/1T_TsVp43ScGvfh_P9uS_k_cWQZ4g-YAu",
+          "http_status": 200,
+          "result": "Google Drive: Sign-in"
+        }
+      ]
+    },
+    "not_accessible_without_drive_auth": [
+      "private Drive child listings and file IDs",
+      "handoff and manifest text",
+      "text inside extracted Drive bundles",
+      "live status of any phone or Vultr endpoint",
+      "proof that a planning note is a deployment receipt"
+    ],
+    "handling": [
+      "No secrets or private-key bytes were copied.",
+      "No APK, model weight, tarball, or conversation archive was copied.",
+      "CONV2_B and the full skill-surface archive were treated as pointers only."
+    ]
+  },
+  "hits": [
+    {
+      "id": "handoff-hi-brief",
+      "source": "Google Drive handoff",
+      "title": "2026-09-16_HI_BRIEF.md",
+      "file_id": "13chCY5YdZuh0cXqFjvRBytozH5YorS0h",
+      "parent_id": "1T_TsVp43ScGvfh_P9uS_k_cWQZ4g-YAu",
+      "url": "https://drive.google.com/file/d/13chCY5YdZuh0cXqFjvRBytozH5YorS0h/view",
+      "matched_terms": [
+        "MCP bridge",
+        "Termux",
+        "Tailscale",
+        "SFTP",
+        "APK",
+        "Vultr",
+        "SMS"
+      ],
+      "finding": "Requests an offline harness and phone MCP/Tailscale specification; says the v0 harness has no SMS/camera capability, Termux is the initial install, and APK work follows an HTTP :8081 health stub.",
+      "confidence": "direct text"
+    },
+    {
+      "id": "handoff-drive-walk",
+      "source": "Google Drive handoff",
+      "title": "2026-09-16_CURSOR_DRIVE_WALK.md",
+      "file_id": "1jer_XnkNKLlnsbvmCgHxRlY2Nd_dVr_W",
+      "parent_id": "1T_TsVp43ScGvfh_P9uS_k_cWQZ4g-YAu",
+      "url": "https://drive.google.com/file/d/1jer_XnkNKLlnsbvmCgHxRlY2Nd_dVr_W/view",
+      "matched_terms": [
+        "Drive",
+        "CONV2_B",
+        "SKILL_SURFACE_FULL",
+        "Vesper"
+      ],
+      "finding": "Defines the pointer-first Drive walk, names the extract destination and manifest, and forbids unpacking large split archives into Git.",
+      "confidence": "direct text"
+    },
+    {
+      "id": "handoff-vesper-req",
+      "source": "Google Drive handoff",
+      "title": "2026-09-16_VESPER_REQ.md",
+      "file_id": "1ABrMEnbkrm4PEg5jyc8ADGtIPBz1UuQN",
+      "parent_id": "1T_TsVp43ScGvfh_P9uS_k_cWQZ4g-YAu",
+      "url": "https://drive.google.com/file/d/1ABrMEnbkrm4PEg5jyc8ADGtIPBz1UuQN/view",
+      "matched_terms": [
+        "MCP",
+        "Drive",
+        "Vesper"
+      ],
+      "finding": "Points to PR #1, the Colab notebook, extract destination, manifest, and MIS-6/MIS-7/MIS-10; explicitly says no CONV2_B unpack and no key material.",
+      "confidence": "direct text"
+    },
+    {
+      "id": "handoff-usage-shift",
+      "source": "Google Drive handoff",
+      "title": "2026-09-16_USAGE_AND_SHIFT.md",
+      "file_id": "1KFlWfDz3vOXAnTofnYkrb0Ug7zcaSUbE",
+      "parent_id": "1T_TsVp43ScGvfh_P9uS_k_cWQZ4g-YAu",
+      "url": "https://drive.google.com/file/d/1KFlWfDz3vOXAnTofnYkrb0Ug7zcaSUbE/view",
+      "matched_terms": [
+        "Pixel",
+        "Tailscale",
+        "Termux",
+        "Vultr",
+        "Vesper"
+      ],
+      "finding": "Records a wider-work assertion that Pixel 9a, Tailscale, and Termux MCP were proven, but contains no endpoint health receipt.",
+      "confidence": "direct text; deployment status unverified"
+    },
+    {
+      "id": "s23-termux-bridge",
+      "source": "Google Drive keyword search",
+      "title": "S23_TERMUX_MCP_PHONE_BRIDGE_AND_LOCAL_LLM_2026-09-16.md",
+      "file_id": "1HQFjZMEXUyVAEC6dP8AFlsH306SlSQIs",
+      "url": "https://drive.google.com/file/d/1HQFjZMEXUyVAEC6dP8AFlsH306SlSQIs/view",
+      "matched_terms": [
+        "MCP bridge",
+        "Termux",
+        "Android intent",
+        "flashlight",
+        "SMS",
+        "Gemma",
+        "Tailscale",
+        "phone control plane"
+      ],
+      "finding": "Proposes Termux-hosted MCP, Tailscale exposure, a local classifier/router, local LLM routing, and explicit cloud escalation. Names external package claims including phone tools and Android intent routing. Marked provisional; no live endpoint or test receipt.",
+      "confidence": "direct text; implementation claims unverified"
+    },
+    {
+      "id": "tailnet-socks-addendum",
+      "source": "Google Drive keyword search",
+      "title": "ADDENDUM_VESPER_TAILNET_SOCKS_20260910.md",
+      "file_id": "1WTmGp73bZZox-icJqQNSVQEuPnhhlt7_",
+      "url": "https://drive.google.com/file/d/1WTmGp73bZZox-icJqQNSVQEuPnhhlt7_/view",
+      "matched_terms": [
+        "Tailscale",
+        "SFTP",
+        "Vesper"
+      ],
+      "finding": "Documents userspace Tailscale, SFTP, SOCKS5, host-key handling, separate credential classes, and private-key exclusion. It is a transport precedent, not phone-MCP proof.",
+      "confidence": "direct text"
+    },
+    {
+      "id": "tailscale-egress-wq",
+      "source": "Google Drive keyword search",
+      "title": "GCM-WQ-027_tailscale_egress.md",
+      "file_id": "1KvQsmA8QtUW5UQglRZ_FK_X2x_ymbvEP",
+      "url": "https://drive.google.com/file/d/1KvQsmA8QtUW5UQglRZ_FK_X2x_ymbvEP/view",
+      "matched_terms": [
+        "Tailscale",
+        "SFTP"
+      ],
+      "finding": "Makes Tailscale/SFTP an optional operator-approved lane and requires transfer receipts with byte counts, timestamps, stop conditions, and hashes.",
+      "confidence": "direct text"
+    },
+    {
+      "id": "zenoh-runbook",
+      "source": "Google Drive keyword search",
+      "title": "07_CLAUDE_TURN2_DOCKER_ZENOH_RUNBOOK.txt",
+      "file_id": "1XHFcpy9p8kBrjkDIa7MZu9lO5OIlHTMZ",
+      "url": "https://drive.google.com/file/d/1XHFcpy9p8kBrjkDIa7MZu9lO5OIlHTMZ/view",
+      "matched_terms": [
+        "zenoh",
+        "MCP bridge",
+        "Vesper"
+      ],
+      "finding": "Defines a schema-validated JSON envelope, MQTT/Zenoh bridge, topic filters, hop limits, and human checkpoints. No evidence ties it to a live phone endpoint.",
+      "confidence": "direct text; adjacent design"
+    },
+    {
+      "id": "intent-router",
+      "source": "Google Drive keyword search",
+      "title": "# Intent.txt",
+      "file_id": "1RWUaDzkyOPIMq7biz9iaBh86KVw2txIN",
+      "url": "https://drive.google.com/file/d/1RWUaDzkyOPIMq7biz9iaBh86KVw2txIN/view",
+      "matched_terms": [
+        "Android intent",
+        "Vesper",
+        "Vultr"
+      ],
+      "finding": "Defines a provisional intent taxonomy and separates bus, CI, memory, and escalation planes; supports an allowlisted router but does not identify a live phone service.",
+      "confidence": "direct text; adjacent design"
+    },
+    {
+      "id": "extract-manifest",
+      "source": "Google Drive provided ID",
+      "title": "EXTRACT_MANIFEST.json",
+      "file_id": "1NDaYkFfbhsi457Q8yVpC30bvz3WKEdhE",
+      "parent_id": "1ahggBATOejlUbMRddNgTa3YR0jde_QGU",
+      "url": "https://drive.google.com/file/d/1NDaYkFfbhsi457Q8yVpC30bvz3WKEdhE/view",
+      "matched_terms": [
+        "CONV2_B",
+        "SKILL_SURFACE_FULL",
+        "Drive"
+      ],
+      "finding": "Provides inventory, hashes, extraction destinations, and failure entries for large archives. This sweep did not inspect archive contents or reassemble split parts.",
+      "confidence": "direct metadata/text; archive contents intentionally not read"
+    },
+    {
+      "id": "repo-tool-shelf",
+      "source": "repository HEAD",
+      "path": "skill_tree/skills/system-roadmap/references/tool-shelf/README.md",
+      "matched_terms": [
+        "Tailscale",
+        "SFTP",
+        "Drive"
+      ],
+      "finding": "Records userspace Tailscale, SFTP state reuse, SOCKS5, and the no-key/no-public-bind boundary.",
+      "confidence": "in-tree"
+    },
+    {
+      "id": "repo-vesper-proxy",
+      "source": "repository HEAD",
+      "path": "skill_tree/skills/system-roadmap/references/plans/VESPER_PKG_PROXY_INVENTORY_2026-08-26.md",
+      "matched_terms": [
+        "Vesper",
+        "zenoh",
+        "Drive",
+        "Gemini"
+      ],
+      "finding": "Describes Drive payloads, split artifacts, Zenoh package pointers, and VM-based inference; says Spark is not the inference box.",
+      "confidence": "in-tree"
+    },
+    {
+      "id": "repo-mcp-proxy-roadmap",
+      "source": "repository HEAD",
+      "path": "skill_tree/skills/system-roadmap/references/third-party-skills-eval-2026-08-17/04_PREVIOUS_TURN_AND_ROADMAP_UPDATES.md",
+      "matched_terms": [
+        "MCP bridge",
+        "Vultr"
+      ],
+      "finding": "Older roadmap recommends evaluating mcp-proxy at the edge and on Vultr; it is not a deployment record.",
+      "confidence": "in-tree"
+    },
+    {
+      "id": "repo-vesper-bus",
+      "source": "repository HEAD",
+      "path": "skill_tree/skills/system-roadmap/references/skills/conversation-lake/handoff_2026-08-29_keep-union-and-vesper-bus.md",
+      "matched_terms": [
+        "Vesper",
+        "Drive",
+        "phone"
+      ],
+      "finding": "Separates Olivia/Vesper bus roles, uses Drive receipts, and anticipates phone/GPS overlay events without mutating the frozen lake.",
+      "confidence": "in-tree"
+    },
+    {
+      "id": "repo-wheelhouse",
+      "source": "repository HEAD",
+      "path": "skill_tree/skills/wheelhouse-packager/SKILL.md",
+      "matched_terms": [
+        "Vesper",
+        "Drive"
+      ],
+      "finding": "Defines cross-surface wheelhouse publishing and Drive receipt conventions for Olivia and Vesper.",
+      "confidence": "in-tree"
+    },
+    {
+      "id": "repo-awesome-ledger",
+      "source": "origin/main",
+      "path": "snapshots/2026-09-17/AWESOME_SPLIT_LEDGER.md",
+      "matched_terms": [
+        "Drive",
+        "CONV2_B"
+      ],
+      "finding": "Current main ledger says Git stores text receipts and large tarballs remain in Drive; it explicitly forbids placing the 80MB split parts in skill_tree.",
+      "confidence": "origin/main"
+    },
+    {
+      "id": "sibling-marmalade",
+      "source": "public sibling repository",
+      "repository": "jameswilsonotr-ship-it/marmalade",
+      "url": "https://github.com/jameswilsonotr-ship-it/marmalade",
+      "matched_terms": [
+        "Android intent",
+        "MCP",
+        "SMS",
+        "Tailscale",
+        "APK",
+        "Termux"
+      ],
+      "finding": "Provides adjacent Android node/operator separation, MCP response-text parsing into Intents, pairing, and optional Tailscale binding. It is not the Olivia/MIS mesh.",
+      "confidence": "public clone"
+    },
+    {
+      "id": "sibling-zenoh-apk",
+      "source": "public sibling repository",
+      "repository": "jameswilsonotr-ship-it/zenoh.apk",
+      "url": "https://github.com/jameswilsonotr-ship-it/zenoh.apk",
+      "matched_terms": [
+        "zenoh",
+        "APK"
+      ],
+      "finding": "Contains an Android Zenoh routed/peer bus client, a port 7447 router example, and structured swarm topic examples. No phone-MCP or Olivia handoff proof.",
+      "confidence": "public clone"
+    },
+    {
+      "id": "sibling-kokoro-apk",
+      "source": "public sibling repository",
+      "repository": "jameswilsonotr-ship-it/kokoro-speaker-cloner.apk",
+      "url": "https://github.com/jameswilsonotr-ship-it/kokoro-speaker-cloner.apk",
+      "matched_terms": [
+        "APK",
+        "AI Studio"
+      ],
+      "finding": "Contains an Android Gradle/GitHub Actions APK build surface; no phone control-plane evidence.",
+      "confidence": "public clone"
+    },
+    {
+      "id": "sibling-groxxporter",
+      "source": "public sibling repository",
+      "repository": "jameswilsonotr-ship-it/Groxxporter",
+      "url": "https://github.com/jameswilsonotr-ship-it/Groxxporter",
+      "matched_terms": [
+        "APK",
+        "AI Studio"
+      ],
+      "finding": "Contains Android export tooling and APK packaging references; no Tailscale phone-control evidence.",
+      "confidence": "public clone"
+    },
+    {
+      "id": "sibling-grok-build-cli",
+      "source": "public sibling repository",
+      "repository": "jameswilsonotr-ship-it/grok-build-cli",
+      "url": "https://github.com/jameswilsonotr-ship-it/grok-build-cli",
+      "matched_terms": [
+        "MCP bridge",
+        "Spark",
+        "AI Studio"
+      ],
+      "finding": "Contains MCP schema-discovery/health scaffolding and a no-credentials-in-repo rule; it does not contain the requested phone bridge.",
+      "confidence": "public clone"
+    },
+    {
+      "id": "sibling-sovereign-connectors",
+      "source": "public sibling repository",
+      "repository": "jameswilsonotr-ship-it/sovereign-connectors",
+      "url": "https://github.com/jameswilsonotr-ship-it/sovereign-connectors",
+      "matched_terms": [
+        "MCP bridge"
+      ],
+      "finding": "Repository exists, but the inspected snapshot contains only a short README and no usable phone bridge implementation.",
+      "confidence": "public clone"
+    }
+  ],
+  "github_pr_state": [
+    {
+      "number": 1,
+      "state": "open",
+      "title": "docs: Awesome Split extras ledger intake (MIS-10)",
+      "url": "https://github.com/jameswilsonotr-ship-it/sovereign-skills-archive/pull/1",
+      "mesh_relevance": "ledger-only; no CONV2_B unpack"
+    },
+    {
+      "number": 2,
+      "state": "open",
+      "title": "feat: add MIS-6 offline harness",
+      "url": "https://github.com/jameswilsonotr-ship-it/sovereign-skills-archive/pull/2",
+      "mesh_relevance": "offline connectors and phone stub direction"
+    },
+    {
+      "number": 3,
+      "state": "open",
+      "title": "test: expand MIS-6 offline smoke and stress coverage",
+      "url": "https://github.com/jameswilsonotr-ship-it/sovereign-skills-archive/pull/3",
+      "mesh_relevance": "offline-only smoke/stress direction"
+    },
+    {
+      "number": 4,
+      "state": "open",
+      "title": "docs: scaffold AI Studio to APK delivery path",
+      "url": "https://github.com/jameswilsonotr-ship-it/sovereign-skills-archive/pull/4",
+      "mesh_relevance": "manual AI Studio/GitHub Actions APK handoff"
+    },
+    {
+      "number": 5,
+      "state": "open",
+      "title": "feat: add offline tailnet bridge stubs",
+      "url": "https://github.com/jameswilsonotr-ship-it/sovereign-skills-archive/pull/5",
+      "mesh_relevance": "Termux health, SFTP, Tailscale-only Vultr templates"
+    },
+    {
+      "number": 6,
+      "state": "open",
+      "title": "docs: scaffold off-cloud phone mesh architecture",
+      "url": "https://github.com/jameswilsonotr-ship-it/sovereign-skills-archive/pull/6",
+      "mesh_relevance": "phone Gemma, Vultr, Gemini/Spark tiers"
+    },
+    {
+      "number": 7,
+      "state": "open",
+      "title": "docs: add Pixel Gemma bridge runbook",
+      "url": "https://github.com/jameswilsonotr-ship-it/sovereign-skills-archive/pull/7",
+      "mesh_relevance": "Pixel/Termux/Gemma and thermal gates"
+    },
+    {
+      "number": 8,
+      "state": "open",
+      "title": "feat: add Vultr tailnet inference bootstrap templates",
+      "url": "https://github.com/jameswilsonotr-ship-it/sovereign-skills-archive/pull/8",
+      "mesh_relevance": "tailnet-only Ollama/Gemma/Qwen and SFTP sidecar"
+    }
+  ],
+  "recommended_next_drive_paths": [
+    {
+      "priority": 1,
+      "path": "Awesome Split/HANDOFF_20260916_GROKBOT_CURSOR",
+      "id": "1T_TsVp43ScGvfh_P9uS_k_cWQZ4g-YAu",
+      "url": "https://drive.google.com/drive/folders/1T_TsVp43ScGvfh_P9uS_k_cWQZ4g-YAu",
+      "reason": "Reconcile the four handoff briefs with the actual open PR state."
+    },
+    {
+      "priority": 2,
+      "path": "S23_TERMUX_MCP_PHONE_BRIDGE_AND_LOCAL_LLM_2026-09-16.md",
+      "id": "1HQFjZMEXUyVAEC6dP8AFlsH306SlSQIs",
+      "url": "https://drive.google.com/file/d/1HQFjZMEXUyVAEC6dP8AFlsH306SlSQIs/view",
+      "reason": "Validate external package names, versions, Android intents, and whether any package was actually installed."
+    },
+    {
+      "priority": 3,
+      "path": "Awesome Split/CONV8_CASCADIA_MCP_PANE_20260916",
+      "id": "1nF0INuJX8-3CNyXCV48hm-EWOdPTuFx5",
+      "url": "https://drive.google.com/drive/folders/1nF0INuJX8-3CNyXCV48hm-EWOdPTuFx5",
+      "reason": "Open text/code children for the source-level MCP and Android bridge details."
+    },
+    {
+      "priority": 4,
+      "path": "CONV8_CASCADIA_MCP_PANE_20260916/mcp-voice-plumbing-2026-09-13",
+      "id": "1h9whlXCUkbWwMXMnmw2vUq0YDWSuQvvu",
+      "url": "https://drive.google.com/drive/folders/1h9whlXCUkbWwMXMnmw2vUq0YDWSuQvvu",
+      "reason": "Inspect source documents instead of the zip container."
+    },
+    {
+      "priority": 5,
+      "path": "ADDENDUM_VESPER_TAILNET_SOCKS_20260910.md",
+      "id": "1WTmGp73bZZox-icJqQNSVQEuPnhhlt7_",
+      "url": "https://drive.google.com/file/d/1WTmGp73bZZox-icJqQNSVQEuPnhhlt7_/view",
+      "reason": "Confirm the current ACL, host-key, and SFTP procedure before any write test."
+    },
+    {
+      "priority": 6,
+      "path": "GCM-WQ-027_tailscale_egress.md",
+      "id": "1KvQsmA8QtUW5UQglRZ_FK_X2x_ymbvEP",
+      "url": "https://drive.google.com/file/d/1KvQsmA8QtUW5UQglRZ_FK_X2x_ymbvEP/view",
+      "reason": "Close the partial-transfer status using the required receipt fields."
+    },
+    {
+      "priority": 7,
+      "path": "_EXTRACTED_20260917/EXTRACT_MANIFEST.json",
+      "id": "1NDaYkFfbhsi457Q8yVpC30bvz3WKEdhE",
+      "url": "https://drive.google.com/file/d/1NDaYkFfbhsi457Q8yVpC30bvz3WKEdhE/view",
+      "reason": "Use hashes to locate text bundles; do not reassemble or open CONV2_B for this task."
+    },
+    {
+      "priority": 8,
+      "path": "Vesper Package Proxy Inventory",
+      "id": "1WBUpJGA7aVsBoeUcAzzk4aajcaJ2bO_I",
+      "url": "https://drive.google.com/drive/folders/1WBUpJGA7aVsBoeUcAzzk4aajcaJ2bO_I",
+      "reason": "Reconcile Zenoh and package pointers with the selected phone bridge."
+    }
+  ]
+}
