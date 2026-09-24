@@ -1,0 +1,26 @@
+{
+  "person_slug": "example-person",
+  "display_name": "Example Person",
+  "source_notes": "",
+  "hybrid_direction": {
+    "primary_era": "",
+    "secondary_eras": [],
+    "era_weights": {},
+    "traits_that_travel": [],
+    "traits_suppressed": [],
+    "original_traits_to_protect": [],
+    "original_traits_to_inject": []
+  },
+  "output_intent": "research-only",
+  "output_intent_notes": "",
+  "selectable_options": {
+    "height_override": null,
+    "holo_ears": null,
+    "olivia_quality": null,
+    "target_character_hint": null
+  },
+  "hard_vetoes": ["underage-appearance"],
+  "heat_gear_exposed": true,
+  "schema_version": "1.0.0",
+  "created_ts": ""
+}

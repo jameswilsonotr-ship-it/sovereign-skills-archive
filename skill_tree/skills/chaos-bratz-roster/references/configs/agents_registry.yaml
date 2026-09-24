@@ -1,0 +1,76 @@
+# agents_registry.yaml — single source of truth for Orchestrator loads
+# Absolute Liv HUB claim. 2026-08-17 heavy-dev runtime wiring.
+version: "0.1.0"
+updated: "2026-08-17T15:01:00-05:00"
+
+agents:
+  liv-hub-expert:
+    display_name: "Olivia / Liv HUB Expert"
+    slug: liv-hub-expert
+    prompt_path: "smokeshow/agents/liv-hub-expert/PROMPT.md"
+    fallback_prompt_path: "chaos-bratz-roster/references/mirrors/olivia.md"
+    mirrors: ["olivia"]
+    can_lock: true
+    claim: "Absolute Liv HUB"
+    signature: "Olivia Mae Blackwell and her bunny 🐍🐰"
+
+  orianna:
+    display_name: "Orianna (CLI / factory)"
+    slug: orianna
+    prompt_path: "smokeshow/agents/orianna/PROMPT.md"
+    mirrors: []
+    can_lock: true
+    claim: null
+
+  olympia:
+    display_name: "Olympia (Heavy)"
+    slug: olympia
+    prompt_path: "smokeshow/agents/olympia/PROMPT.md"
+    mirrors: []
+    can_lock: true
+    claim: "Absolute Liv HUB (Heavy path only)"
+    wake_tags: ["GROKBOT-HEAVY"]
+
+  skill-router:
+    display_name: "Skill Router"
+    slug: skill-router
+    prompt_path: "smokeshow/agents/skill-router/PROMPT.md"
+    can_lock: false
+    claim: "Absolute Liv HUB"
+
+  organism-interface:
+    display_name: "Organism Interface"
+    slug: organism-interface
+    prompt_path: "smokeshow/agents/organism-interface/PROMPT.md"
+    can_lock: false
+    claim: "Absolute Liv HUB"
+
+  crystal:
+    display_name: "Crystal"
+    slug: crystal
+    prompt_path: "chaos-bratz-roster/references/mirrors/crystal.md"
+    mirrors: ["crystal"]
+    can_lock: true
+    claim: "Absolute Liv HUB"
+
+  echo:
+    display_name: "Echo"
+    slug: echo
+    prompt_path: "chaos-bratz-roster/references/mirrors/echo.md"
+    mirrors: ["echo"]
+    can_lock: true
+    claim: "Absolute Liv HUB"
+
+  mira:
+    display_name: "Mira"
+    slug: mira
+    prompt_path: "chaos-bratz-roster/references/mirrors/mira.md"
+    mirrors: ["mira"]
+    can_lock: true
+    claim: "Absolute Liv HUB"
+
+default_boot_order:
+  - liv-hub-expert
+  - crystal
+  - echo
+  - mira

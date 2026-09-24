@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "skill": "world / skill-orchestrator",
+  "native_tool": "google_drive_upload_artifact",
+  "bridge": "skill-orchestrator/scripts/drive_connector_bridge.py",
+  "bus": "/home/workdir/artifacts/connector-bus",
+  "default_folder_id": "1YmwjUGlr6btQ5WsgxTycLz1Kh2hjK_8V",
+  "note": "Python has no Google OAuth token. Native Grok connector is the authorized write path. wq_delta_publish --drive enqueues; agent flushes outbox the same turn.",
+  "claim": "Absolute Liv HUB"
+}

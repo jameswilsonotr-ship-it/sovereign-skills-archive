@@ -1,0 +1,29 @@
+{
+  "id": "treatment.dark-cinematic-noir",
+  "kind": "treatment",
+  "name": "Dark Cinematic Noir",
+  "version": "1.0.0",
+  "description": "Dark cinematic noir with heavy chiaroscuro and glossy intensity.",
+  "tags": [
+    "treatment",
+    "noir",
+    "cinematic",
+    "dark"
+  ],
+  "prompt_terms": [
+    {
+      "term": "dark cinematic noir",
+      "variance": 0.25,
+      "weight": 1.0
+    },
+    {
+      "term": "heavy chiaroscuro glossy intensity",
+      "variance": 0.4,
+      "weight": 0.8
+    }
+  ],
+  "content": {
+    "taxonomy": "treatment",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}

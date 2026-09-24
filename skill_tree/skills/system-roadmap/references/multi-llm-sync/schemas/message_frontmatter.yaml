@@ -1,0 +1,11 @@
+# Message front-matter schema (TQS v0.1.0)
+# Required at the top of every dated message file
+
+id: "msg-YYYYMMDD-HHMMSS-sender"          # stable unique id
+sender: olivia                            # olivia | vesper
+timestamp: "2026-08-13T10:23:00-04:00"    # ISO8601 with offset
+status: POSTED                            # closed vocabulary
+in_reply_to: null                         # prior id or null
+payload_type: message                     # message | surface_update | artifact_ref | status
+summary: "One-line human-readable intent"
+protocol_version: "0.1.0"

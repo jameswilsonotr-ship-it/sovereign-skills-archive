@@ -1,0 +1,71 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "jumpsuit-a-sexy_20260831-164058",
+  "slug": "jumpsuit-a-sexy",
+  "slug_mode": "explicit",
+  "stamp": "20260831-164058",
+  "created": "2026-08-31T16:40:58-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "candidate",
+  "heat": "3",
+  "files": {
+    "jpeg": "jumpsuit-a-sexy_20260831-164058.jpg",
+    "prompt": "jumpsuit-a-sexy_20260831-164058.prompt.md",
+    "keep": "jumpsuit-a-sexy_20260831-164058.keep.json"
+  },
+  "sha256": {
+    "jpeg": "5a189e117429d12acc3e22b4c908fd3b2a65e437833cf95d38ceb745a38ca533",
+    "prompt": "e6ce009c3094064dc7d1dca4c1f5c0609a059c7f3f1b8d1b6484aeef2160a9b6"
+  },
+  "prompt": "edit: sexy photoreal jumpsuit A heat3 unzipped hip weight",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/JGGxB.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/jumpsuit-a-sexy_20260831-164058.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/jumpsuit-a-sexy_20260831-164058.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/jumpsuit-a-sexy_20260831-164058.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1xgLnhdVRBioI2gAN_oQ_X7SX7eu3UhLE",
+    "prompt_id": "1BfskaH0qiiXc_p79rOpUYUfrdyvol92S",
+    "keep_id": "1-_uyboC5nRK1m4eYStWYkiNU5LU2csfF",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/jumpsuit-a-sexy_20260831-164058.jpg",
+        "file_name": "jumpsuit-a-sexy_20260831-164058.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/jumpsuit-a-sexy_20260831-164058.prompt.md",
+        "file_name": "jumpsuit-a-sexy_20260831-164058.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/jumpsuit-a-sexy_20260831-164058.keep.json",
+        "file_name": "jumpsuit-a-sexy_20260831-164058.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "skip_reason": "prior-session backlog deferred 2026-08-31 pose-pack publish; jpeg may still exist locally",
+    "uploaded_at": "2026-08-31T21:59:42+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/jumpsuit-a-sexy_20260831-164058.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}
