@@ -1,0 +1,28 @@
+{
+  "id": "treatment.glossy-iridescent",
+  "kind": "treatment",
+  "name": "Glossy Iridescent Skin",
+  "version": "1.0.0",
+  "description": "Hyper-glossy luminous iridescent skin treatment.",
+  "tags": [
+    "treatment",
+    "glossy",
+    "iridescent"
+  ],
+  "prompt_terms": [
+    {
+      "term": "hyper-glossy luminous skin",
+      "variance": 0.3,
+      "weight": 1.0
+    },
+    {
+      "term": "iridescent glossy skin",
+      "variance": 0.4,
+      "weight": 0.8
+    }
+  ],
+  "content": {
+    "taxonomy": "treatment",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}

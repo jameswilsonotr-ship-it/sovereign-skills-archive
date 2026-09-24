@@ -1,0 +1,23 @@
+{
+  "id": "pose.letterboard",
+  "kind": "pose",
+  "name": "Letterboard Hold",
+  "version": "0.1.0",
+  "status": "draft",
+  "description": "Signature Girls Club pose variant. Adult cousin holds a blank or original-text black felt letterboard at chest. Never copy a source person's joke verbatim. Never store a source name.",
+  "tags": ["pose", "signature", "letterboard", "girls-club", "cousin"],
+  "wardrobe_lock": "inherits-parent",
+  "identity_rule": "cousin-generate only. No named Facebook face. No chrome. Original board text only.",
+  "prompt_terms": [
+    {"term": "holding a small black felt letterboard at mid-chest with both hands", "variance": 0.2, "weight": 1.0},
+    {"term": "Titan bun: messy half-up honey-blonde volume bun", "variance": 0.2, "weight": 1.0},
+    {"term": "knowing half-smile over the board", "variance": 0.3, "weight": 0.8}
+  ],
+  "heat": {
+    "A": "cute identity card, board present",
+    "B": "heat-2, zipper one notch, board still in frame"
+  },
+  "board_text_rule": "original short phrase or blank. Do not reproduce source caption.",
+  "parent": "pose.jumpsuit-knowing-lean",
+  "source": "public screenshot costume grammar, identity stripped 2026-08-31"
+}

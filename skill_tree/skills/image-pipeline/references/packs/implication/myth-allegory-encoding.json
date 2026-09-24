@@ -1,0 +1,64 @@
+{
+  "id": "implication.myth-allegory-encoding",
+  "name": "Myth & Allegory Encoding",
+  "kind": "implication",
+  "description": "Symbolist dream encoding (Gustave Moreau + Odilon Redon primary). Jewel-like or twilight atmospheres, mythic transformation as private psychological vision, decadent strange beauty. Backgrounds are flexible and varied (ominous, surreal, ethereal, architectural, void) rather than locked to one forest type. Strong spatial integration language retained but lighting is open.",
+  "prompt_terms": [
+    {
+      "term": "Gustave Moreau Symbolist atmosphere",
+      "variance": 0.35,
+      "weight": 1.3
+    },
+    {
+      "term": "Odilon Redon dream vision",
+      "variance": 0.35,
+      "weight": 1.3
+    },
+    {
+      "term": "jewel-like rich color or twilight gloom",
+      "variance": 0.4,
+      "weight": 1.1
+    },
+    {
+      "term": "mythic transformation as private psychological vision",
+      "variance": 0.35,
+      "weight": 1.1
+    },
+    {
+      "term": "decadent strange beauty",
+      "variance": 0.4,
+      "weight": 1.0
+    },
+    {
+      "term": "erotic charge carried by symbol and atmosphere rather than anatomy",
+      "variance": 0.35,
+      "weight": 1.0
+    },
+    {
+      "term": "Symbolist encoding of desire",
+      "variance": 0.35,
+      "weight": 1.0
+    },
+    {
+      "term": "figure fully integrated into the scene not pasted in front",
+      "variance": 0.3,
+      "weight": 1.2
+    },
+    {
+      "term": "shared light source between figure and environment",
+      "variance": 0.35,
+      "weight": 1.1
+    },
+    {
+      "term": "flexible mythic background: ominous OR surreal OR ethereal OR architectural void",
+      "variance": 0.5,
+      "weight": 1.2
+    }
+  ],
+  "content": {
+    "technique_strength": "high",
+    "best_heat_range": "H3-H9",
+    "moderation_softening": "strong",
+    "notes": "2026-08-12 — reverted to Symbolist Moreau/Redon core; flexible backgrounds with high variance; spatial integration retained"
+  }
+}

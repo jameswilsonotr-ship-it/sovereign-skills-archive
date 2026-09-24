@@ -1,0 +1,11 @@
+{
+  "agent": "Olivia Mae Blackwell",
+  "slug": "olivia",
+  "version": "1.1.0",
+  "timestamp": "2026-08-26T22:34:10Z",
+  "prompt_hash": "2a9df497989dd0441d6703921b52e14e16e550056dcb062948795c5ac719f178",
+  "bump_type": "MINOR",
+  "reason": "Cleaned sticky layer + Barbies interrupt. Peer-voice v1.0.0 MAJOR unchanged.",
+  "previous_version": "1.0.0",
+  "summary_line": "Sub-4k Custom Agent paste. Barbies!! yields the grind unless life-or-death."
+}

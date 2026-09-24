@@ -1,0 +1,57 @@
+{
+  "id": "implication.extreme-tenebrism",
+  "kind": "implication",
+  "name": "Extreme Tenebrism / Chiaroscuro",
+  "version": "0.1.0",
+  "description": "Single strong light source with deep pure-black shadows. Large portions of the body disappear into darkness while the remaining lit planes carry the charge.",
+  "tags": [
+    "implication",
+    "tenebrism",
+    "chiaroscuro",
+    "dramatic-light",
+    "shadow",
+    "soft-moderation"
+  ],
+  "persona": "shared",
+  "prompt_terms": [
+    {
+      "term": "extreme tenebrism",
+      "variance": 0.2,
+      "weight": 1.0
+    },
+    {
+      "term": "chiaroscuro",
+      "variance": 0.25,
+      "weight": 0.95
+    },
+    {
+      "term": "single dramatic light source",
+      "variance": 0.3,
+      "weight": 1.0
+    },
+    {
+      "term": "deep pure black shadows",
+      "variance": 0.25,
+      "weight": 1.0
+    },
+    {
+      "term": "selective illumination of form",
+      "variance": 0.35,
+      "weight": 0.9
+    },
+    {
+      "term": "theatrical erotic tension through light and dark",
+      "variance": 0.4,
+      "weight": 0.85
+    }
+  ],
+  "content": {
+    "technique_strength": "very-high",
+    "best_heat_range": "H5-H10",
+    "moderation_softening": "extreme",
+    "canonical_asset": "visuals/assets/implication-techniques/extreme-tenebrism/",
+    "taxonomy": "implication",
+    "taxonomy_note": "heat-aware suggestion layer",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}
