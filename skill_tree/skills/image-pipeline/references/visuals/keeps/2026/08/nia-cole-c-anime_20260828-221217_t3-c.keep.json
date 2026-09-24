@@ -1,0 +1,62 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "nia-cole-c-anime_20260828-221217_t3-c",
+  "slug": "nia-cole-c-anime",
+  "slug_mode": "explicit",
+  "stamp": "20260828-221217",
+  "created": "2026-08-28T22:12:17-04:00",
+  "engine": "generate",
+  "orientation": "portrait",
+  "agent": "candidate",
+  "heat": "0",
+  "files": {
+    "jpeg": "nia-cole-c-anime_20260828-221217_t3-c.jpg",
+    "prompt": "nia-cole-c-anime_20260828-221217_t3-c.prompt.md",
+    "keep": "nia-cole-c-anime_20260828-221217_t3-c.keep.json"
+  },
+  "sha256": {
+    "jpeg": "ec1cd77bf311c20818e4735edea035c93c0429139f827817fb303deb0e8bdaa2",
+    "prompt": "c4357aea4312ccf10191d4d4d98d621c3f0dce11ed13d39308bd55ee1015da02"
+  },
+  "prompt": "Anime VTuber-style portrait of Nia Cole, adult. taller Black adult woman early 30s, short tapered coiled dark hair, oxblood satin slip under black leather motorcycle jacket, gold hoop earrings, black ankle boots. Same bones, clean cel or modern digital glam, readable face, not chibi.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/4voOA.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/nia-cole-c-anime_20260828-221217_t3-c.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/nia-cole-c-anime_20260828-221217_t3-c.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/nia-cole-c-anime_20260828-221217_t3-c.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1RNnEAPLUoyRNDOJX-jD4qAJULpji5lZ5",
+    "prompt_id": "1UfoZLcWsse8JT4WH4WH3tVPCNJYE35GT",
+    "keep_id": "1Ian37J7lGK5xjcp8xhb9oy3OErq_8U59",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/nia-cole-c-anime_20260828-221217_t3-c.jpg",
+        "file_name": "nia-cole-c-anime_20260828-221217_t3-c.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/nia-cole-c-anime_20260828-221217_t3-c.prompt.md",
+        "file_name": "nia-cole-c-anime_20260828-221217_t3-c.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/nia-cole-c-anime_20260828-221217_t3-c.keep.json",
+        "file_name": "nia-cole-c-anime_20260828-221217_t3-c.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T02:13:25+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078"
+}

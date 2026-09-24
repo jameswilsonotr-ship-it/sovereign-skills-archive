@@ -1,0 +1,33 @@
+{
+  "id": "pose.legomorf-pile",
+  "kind": "pose",
+  "name": "Legomorf Pile",
+  "version": "0.1.0",
+  "status": "draft",
+  "source": "oryctolagus-legomorf",
+  "ticket": "IP-WQ-097",
+  "tags": [
+    "pose",
+    "legomorf",
+    "lagomorph",
+    "bunny"
+  ],
+  "prompt_terms": [
+    {
+      "term": "two adults piled flank to flank or one draped",
+      "variance": 0.25,
+      "weight": 1.0
+    },
+    {
+      "term": "bonded pair huddle, no third",
+      "variance": 0.35,
+      "weight": 0.85
+    }
+  ],
+  "content": {
+    "taxonomy": "structural",
+    "origin": "Oryctolagus rest scale, woman stays a woman",
+    "name_lock": "Legomorf"
+  },
+  "created": "2026-09-03T01:35:23-04:00"
+}

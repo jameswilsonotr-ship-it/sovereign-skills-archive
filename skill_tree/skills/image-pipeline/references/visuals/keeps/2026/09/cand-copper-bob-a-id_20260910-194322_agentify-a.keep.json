@@ -1,0 +1,72 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "cand-copper-bob-a-id_20260910-194322_agentify-a",
+  "slug": "cand-copper-bob-a-id",
+  "slug_mode": "explicit",
+  "stamp": "20260910-194322",
+  "created": "2026-09-10T19:43:22-05:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "cand-copper-bob",
+  "kind": "candidate",
+  "plate": "a-id",
+  "heat": "1",
+  "image_id": "A1goc",
+  "files": {
+    "jpeg": "cand-copper-bob-a-id_20260910-194322_agentify-a.jpg",
+    "prompt": "cand-copper-bob-a-id_20260910-194322_agentify-a.prompt.md",
+    "keep": "cand-copper-bob-a-id_20260910-194322_agentify-a.keep.json"
+  },
+  "sha256": {
+    "jpeg": "eb8d6247c4553117e041a1f8b7f6337ebef95aea4cb5b166ace0d8a12aa98bc8",
+    "prompt": "bd803b3b5cda2c16ba208f210d25c85b1f9a088b9aef74cbac9ee1b861c3ea05"
+  },
+  "prompt": "Photoreal beauty identity card portrait of an adult woman in her late twenties. Short copper-auburn cropped bob with side-swept bangs across the forehead, hair tucked behind one ear, visible nape. Warm hazel-amber eyes, sharp black winged eyeliner, defined brows, glossy crimson-red lips, peach blush high on the cheeks. Fair warm skin, slim oval face, high cheekbones, straight refined nose, soft pointed chin. Bare shoulders, clavicle visible, no jewelry, no tattoos. Three-quarter head turn looking at camera, calm closed-mouth expression. Clean gray seamless studio backdrop, soft beauty-dish lighting, shallow depth of field, magazine beauty still, photoreal, not a screenshot, not UI chrome. Adult.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/A1goc.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/cand-copper-bob-a-id_20260910-194322_agentify-a.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/cand-copper-bob-a-id_20260910-194322_agentify-a.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/cand-copper-bob-a-id_20260910-194322_agentify-a.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/09"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/cand-copper-bob-a-id_20260910-194322_agentify-a.jpg",
+        "file_name": "cand-copper-bob-a-id_20260910-194322_agentify-a.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/cand-copper-bob-a-id_20260910-194322_agentify-a.prompt.md",
+        "file_name": "cand-copper-bob-a-id_20260910-194322_agentify-a.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/cand-copper-bob-a-id_20260910-194322_agentify-a.keep.json",
+        "file_name": "cand-copper-bob-a-id_20260910-194322_agentify-a.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "jpeg_id": "1BPscOZ3Nh9JUP-Go2tnDlZ8-J_rpgfsH",
+    "prompt_id": "10MLKQTqKbqDF00qZHn9ARMAAM4ZUBOff",
+    "keep_id": "1zAuphqrbyzSFqSUJ3zSI2uPuHg5vAm2U",
+    "jpeg_url": "https://drive.google.com/file/d/1BPscOZ3Nh9JUP-Go2tnDlZ8-J_rpgfsH/view",
+    "uploaded_at": "2026-09-11T00:44:33+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row. ANDROID show path = Drive web_view_link, no render tags."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "generated": "2026-09-11T11:27:44Z",
+  "folder": "skill-orchestrator/references/inventory/scripts",
+  "entries": [
+    {
+      "filename": "PROTOCOL.md",
+      "type": "protocol",
+      "bytes": 613,
+      "notes": ""
+    },
+    {
+      "filename": "REGISTRY.md",
+      "type": "registry",
+      "bytes": 936,
+      "notes": ""
+    },
+    {
+      "filename": "SCHEMA.md",
+      "type": "schema",
+      "bytes": 1088,
+      "notes": ""
+    },
+    {
+      "filename": "SCRIPTS_INVENTORY.md",
+      "type": "scripts-inventory",
+      "bytes": 57484,
+      "notes": ""
+    },
+    {
+      "filename": "WRAPPER_AND_REGISTRY_CONTRACT.md",
+      "type": "note",
+      "bytes": 4671,
+      "notes": ""
+    },
+    {
+      "filename": "registry.json",
+      "type": "json-companion",
+      "bytes": 955,
+      "notes": ""
+    },
+    {
+      "filename": "scripts_inventory.json",
+      "type": "json-companion",
+      "bytes": 91943,
+      "notes": ""
+    }
+  ]
+}

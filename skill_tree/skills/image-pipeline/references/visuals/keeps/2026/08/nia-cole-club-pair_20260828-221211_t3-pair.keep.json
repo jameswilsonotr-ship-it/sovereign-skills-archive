@@ -1,0 +1,62 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "nia-cole-club-pair_20260828-221211_t3-pair",
+  "slug": "nia-cole-club-pair",
+  "slug_mode": "explicit",
+  "stamp": "20260828-221211",
+  "created": "2026-08-28T22:12:11-04:00",
+  "engine": "generate",
+  "orientation": "landscape",
+  "agent": "candidate",
+  "heat": "0",
+  "files": {
+    "jpeg": "nia-cole-club-pair_20260828-221211_t3-pair.jpg",
+    "prompt": "nia-cole-club-pair_20260828-221211_t3-pair.prompt.md",
+    "keep": "nia-cole-club-pair_20260828-221211_t3-pair.keep.json"
+  },
+  "sha256": {
+    "jpeg": "89581ad7bf4d84324a1767608637f0459fe2f2497ad85f19d802acec4a06cb00",
+    "prompt": "479b5bbe4b56b905a6e0b4d8abc339759b04a98f038e9f4609338c93ec7c45bf"
+  },
+  "prompt": "Photorealistic cinematic medium-wide still of two adult women standing in a club doorway. LEFT taller Black woman oxblood slip + leather jacket. RIGHT shorter Latina silver mesh + trousers. Not locked parent pair.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/VOdkq.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/nia-cole-club-pair_20260828-221211_t3-pair.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/nia-cole-club-pair_20260828-221211_t3-pair.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/nia-cole-club-pair_20260828-221211_t3-pair.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1H-nTrL-f2OtRFpAuJX4duNdMgGL5QvMQ",
+    "prompt_id": "1JCVAir77M7CMVPDqSlNw6zwFlkqDLCpQ",
+    "keep_id": "17Gu2JlKaCtAlhYW6ggf5ICZFs-QWXu5t",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/nia-cole-club-pair_20260828-221211_t3-pair.jpg",
+        "file_name": "nia-cole-club-pair_20260828-221211_t3-pair.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/nia-cole-club-pair_20260828-221211_t3-pair.prompt.md",
+        "file_name": "nia-cole-club-pair_20260828-221211_t3-pair.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/nia-cole-club-pair_20260828-221211_t3-pair.keep.json",
+        "file_name": "nia-cole-club-pair_20260828-221211_t3-pair.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T02:13:19+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078"
+}

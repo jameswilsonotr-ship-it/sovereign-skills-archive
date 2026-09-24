@@ -1,0 +1,54 @@
+{
+  "id": "pose.jumpsuit-knowing-lean",
+  "kind": "pose",
+  "name": "Jumpsuit Knowing Lean",
+  "version": "0.2.0",
+  "status": "live",
+  "head_pack": "titan-bun",
+  "variants": ["pose.hush-finger", "pose.tongue-out", "pose.letterboard"],
+  "description": "Signature Girls Club pose. Original adult cousin woman, not a named-source likeness. Orange correctional V-neck jumpsuit over a thin white undershirt, zipper one to two notches, messy half-up bun, knowing half-smile, weight on one hip against a grey cinder-block wall. Cute first, quietly sexy second. Seeded from a public costume-plate silhouette, identity stripped.",
+  "tags": [
+    "pose",
+    "signature",
+    "jumpsuit",
+    "knowing-lean",
+    "girls-club",
+    "cousin"
+  ],
+  "wardrobe_lock": "orange-jumpsuit-v-white-tee",
+  "identity_rule": "cousin-generate only. No named Facebook face. No letterboard. No chrome.",
+  "prompt_terms": [
+    {
+      "term": "knowing half-smile against a grey cinder-block wall",
+      "variance": 0.2,
+      "weight": 1.0
+    },
+    {
+      "term": "weight on one hip, one hand in a jumpsuit pocket",
+      "variance": 0.3,
+      "weight": 0.9
+    },
+    {
+      "term": "orange V-neck jumpsuit zipper one or two notches over a white undershirt",
+      "variance": 0.2,
+      "weight": 1.0
+    },
+    {
+      "term": "messy half-up bun with loose honey-blonde strands",
+      "variance": 0.3,
+      "weight": 0.8
+    }
+  ],
+  "heat": {
+    "A": "neutral identity card, zipper one notch, cute first",
+    "B": "heat-3, zipper two notches, hip lean, warm side light",
+    "C": "anime VTuber, same bones, not chibi",
+    "D": "front and back three-quarter rig on gray ground"
+  },
+  "source": "public screenshot costume seed 2026-08-31, identity stripped, mosaic/cousin path",
+  "content": {
+    "taxonomy": "structural",
+    "taxonomy_note": "pose / wardrobe lock / girls-club signature",
+    "taxonomy_updated": "2026-08-31T17:38:00-04:00"
+  }
+}

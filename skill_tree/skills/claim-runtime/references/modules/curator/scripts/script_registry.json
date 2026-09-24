@@ -1,0 +1,28 @@
+{
+  "registry_version": "0.2.0",
+  "updated": "2026-07-26T03:45:00Z",
+  "scripts": [
+    {
+      "id": "porn_atom_search",
+      "type": "helper",
+      "file_name": "porn_atom_search.py",
+      "folder": "atoms",
+      "path": "atoms/porn_atom_search.py",
+      "description": "Search the local porn_curator atom cloud.",
+      "status": "active"
+    },
+    {
+      "id": "web_search_wrapper",
+      "type": "wrapper",
+      "file_name": "web_search_wrapper.py",
+      "folder": "scripts",
+      "path": "scripts/web_search_wrapper.py",
+      "description": "Dual-search wrapper for porn curator. Atom cloud gets clean terms only; web_search gets full query including site: operators.",
+      "wraps": "web search",
+      "tool_call": "web_search",
+      "origination": "porn_curator.web_search_wrapper",
+      "payload_policy": "atom_cloud=clean_terms_only; web=full_query_including_site_operators",
+      "status": "active"
+    }
+  ]
+}

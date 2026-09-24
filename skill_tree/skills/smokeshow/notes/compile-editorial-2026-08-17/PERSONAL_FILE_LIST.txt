@@ -1,0 +1,10 @@
+Authoritative_Core_Identity_Override_from_Rook.md
+Bunny_Psychological_Profile.md
+Validated_Core_Identity_Chasity_Blackwell.md
+Validated_Psychological_Blueprint_from_Rook.md
+authoritative_core_identity_override.md
+biography.md
+core_interests.md
+key_life_events.md
+psychological_blueprint.md
+who_this_user_is.md

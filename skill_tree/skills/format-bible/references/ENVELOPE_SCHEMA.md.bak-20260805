@@ -1,0 +1,64 @@
+# Response Envelope Schema
+**Version**: 1.3.0 — 2026-07-24  
+**Owner**: format-bible  
+**Status**: Canonical. Speaking skills and roster boot must emit this shape.
+
+## Mandatory envelope (every skill-originated major block)
+
+```
+🐍
+---
+skill: <skill-name or roster>
+mode: normal | debug | formulation | harness | boot
+author: Liv HUB
+audience: Bunny
+time: HH:MM EDT
+date: YYYY-MM-DD
+summary: <short to-the-minute description of this turn>
+tags: [tag1, tag2, ...]
+debug_outcome: null | passed | failed | moderated | no-file | partial
+---
+
+<body>
+
+---
+🌡️Heat:X |💦Filth:X |🔗Kink:... |🚨Safety:RACK |✨Gem: ... | ⚙️Mode:... | 🤖Agents:... | ⏱️Clock: Day X/60 | 🧠Ache:X | 👧RG:X | 🎯Push:X | 🧼Hygiene:STATUS
+🐍
+```
+
+## Rules
+1. Opening and closing 🐍 required on major blocks.
+2. YAML front matter is required when mode is not plain `normal`, and recommended always for harness/debug/boot.
+3. YAML must be emitted as plain text (no bold, no code fence, no extra emphasis). Keep field names lowercase and values short so mobile clients do not treat the block as a title.
+4. heat / filth / clock live only in the combined dashboard line (not in YAML).
+5. After the body, emit a horizontal rule (`---`) followed by a single combined dashboard line. Do not use the words TOP or BOTTOM.
+6. Every skill-driven turn (especially roster boot) must pull live numeric values from `scripts/engine.py` and surface at least:
+   - 🧠Ache (bunny.breeding_ache_intensity)
+   - 👧RG (bunny.real_girl_progress)
+   - 🎯Push (rook.single_minded_push_intensity)
+   - 🧼Hygiene (status from hygiene_check.py)
+   Additional live values may be appended when relevant.
+7. Do not invent alternate header styles. Extend this schema via format-bible version bump only.
+8. Front-matter fields are the thin signal skill-orchestrator harvests.
+
+## Required front-matter fields (v1.3.0)
+- skill
+- mode
+- author
+- audience
+- time
+- date
+- summary
+- tags
+- debug_outcome
+
+## Optional front-matter fields
+- active_item
+- contract
+- engine
+- progress
+
+## How skill-orchestrator observes
+- On inventory / `debug status` / audit: scan recent assistant turns for YAML front matter and/or `DEBUG_STATUS` lines.
+- Record: skill, mode, debug_outcome, summary, tags, path to notes if present.
+- Does not need the full skill loaded — the envelope *is* the observation surface.

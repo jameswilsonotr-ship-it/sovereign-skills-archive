@@ -1,0 +1,3513 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-08-12T04:39:14.129719+00:00",
+  "count": 160,
+  "entries": [
+    {
+      "id": "entity.olivia",
+      "kind": "entity",
+      "name": "olivia",
+      "description": "Visual entity ordinal A \u2014 canonical=no",
+      "keywords": [
+        "liv",
+        "olivia",
+        "olivia mae",
+        "olivia",
+        "a"
+      ],
+      "prompt_stubs": [],
+      "path": "/home/workdir/.grok/skills/chaos-bratz-roster/references/agents/olivia/images",
+      "ordinal": "A",
+      "tags": [
+        "entity",
+        "dna",
+        "rag"
+      ],
+      "parallel_safe": true,
+      "calls": [
+        "entity_registry",
+        "echo_interface",
+        "mira_drift_check"
+      ],
+      "canonical_populated": false,
+      "canonical_files": [],
+      "preferred_canonical": null,
+      "dna": null
+    },
+    {
+      "id": "entity.bunny",
+      "kind": "entity",
+      "name": "bunny",
+      "description": "Visual entity ordinal B \u2014 canonical=no",
+      "keywords": [
+        "bunny",
+        "chasity",
+        "chas",
+        "chaz",
+        "bunny",
+        "b"
+      ],
+      "prompt_stubs": [],
+      "path": "/home/workdir/.grok/skills/chaos-bratz-roster/references/agents/bunny/images",
+      "ordinal": "B",
+      "tags": [
+        "entity",
+        "dna",
+        "rag"
+      ],
+      "parallel_safe": true,
+      "calls": [
+        "entity_registry",
+        "echo_interface",
+        "mira_drift_check"
+      ],
+      "canonical_populated": false,
+      "canonical_files": [],
+      "preferred_canonical": null,
+      "dna": null
+    },
+    {
+      "id": "entity.rook",
+      "kind": "entity",
+      "name": "rook",
+      "description": "Visual entity ordinal D \u2014 canonical=no",
+      "keywords": [
+        "rook",
+        "rook",
+        "d"
+      ],
+      "prompt_stubs": [],
+      "path": "/home/workdir/.grok/skills/chaos-bratz-roster/references/agents/rook/images",
+      "ordinal": "D",
+      "tags": [
+        "entity",
+        "dna",
+        "rag"
+      ],
+      "parallel_safe": true,
+      "calls": [
+        "entity_registry",
+        "echo_interface",
+        "mira_drift_check"
+      ],
+      "canonical_populated": false,
+      "canonical_files": [],
+      "preferred_canonical": null,
+      "dna": null
+    },
+    {
+      "id": "entity.shauna",
+      "kind": "entity",
+      "name": "shauna",
+      "description": "Visual entity ordinal K \u2014 canonical=yes preferred=01_face_primary_v7_winner.jpg dna=DNA_V7_LOCKED.md",
+      "keywords": [
+        "shauna",
+        "shawna",
+        "kara bare",
+        "kara",
+        "shauna",
+        "k"
+      ],
+      "prompt_stubs": [],
+      "path": "/home/workdir/.grok/skills/claim-runtime/references/modules/curator/visual_identities/shauna/images",
+      "ordinal": "K",
+      "tags": [
+        "entity",
+        "dna",
+        "rag"
+      ],
+      "parallel_safe": true,
+      "calls": [
+        "entity_registry",
+        "echo_interface",
+        "mira_drift_check"
+      ],
+      "canonical_populated": true,
+      "canonical_files": [
+        "01_face_primary_v7_winner.jpg",
+        "01_face_primary.jpg",
+        "01b_face_hailmary_short.jpg",
+        "02_multi_angle_head_sheet.jpg",
+        "03_fullbody_proportions.jpg",
+        "03_soft_body_front.jpg",
+        "04_fullbody_multi_angle_sheet.jpg",
+        "06_lighting_test_grid.jpg",
+        "08_lighting_side_dramatic.png",
+        "09_hair_color_heat_panel.jpg",
+        "CANONICAL.md"
+      ],
+      "preferred_canonical": "01_face_primary_v7_winner.jpg",
+      "dna": "/home/workdir/.grok/skills/claim-runtime/references/modules/curator/visual_identities/shauna/images/DNA_V7_LOCKED.md"
+    },
+    {
+      "id": "atmosphere.possessive-claim",
+      "kind": "atmosphere",
+      "name": "Possessive Claim",
+      "description": "",
+      "keywords": [
+        "atmosphere",
+        "possessive",
+        "claim",
+        "atmosphere",
+        "Possessive Claim"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/atmosphere/possessive-claim.json",
+      "tags": [
+        "atmosphere",
+        "possessive",
+        "claim"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "atmosphere.raw-chaotic",
+      "kind": "atmosphere",
+      "name": "Raw Chaotic",
+      "description": "",
+      "keywords": [
+        "atmosphere",
+        "raw",
+        "chaotic",
+        "atmosphere",
+        "Raw Chaotic"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/atmosphere/raw-chaotic.json",
+      "tags": [
+        "atmosphere",
+        "raw",
+        "chaotic"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "medium.watercolor-ink-wash",
+      "kind": "medium",
+      "name": "Watercolor Ink Wash",
+      "description": "",
+      "keywords": [
+        "medium",
+        "watercolor",
+        "ink-wash",
+        "medium",
+        "Watercolor Ink Wash"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/medium/watercolor-ink-wash.json",
+      "tags": [
+        "medium",
+        "watercolor",
+        "ink-wash"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "photographer.daido-moriyama",
+      "kind": "photographer",
+      "name": "Daido Moriyama",
+      "description": "",
+      "keywords": [
+        "photographer",
+        "daido-moriyama",
+        "photographer",
+        "Daido Moriyama"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/photographer/daido-moriyama.json",
+      "tags": [
+        "photographer",
+        "daido-moriyama"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "photographer.david-lachapelle",
+      "kind": "photographer",
+      "name": "David LaChapelle",
+      "description": "",
+      "keywords": [
+        "photographer",
+        "david-lachapelle",
+        "photographer",
+        "David LaChapelle"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/photographer/david-lachapelle.json",
+      "tags": [
+        "photographer",
+        "david-lachapelle"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "photographer.ellen-von-unwerth",
+      "kind": "photographer",
+      "name": "Ellen von Unwerth",
+      "description": "",
+      "keywords": [
+        "photographer",
+        "ellen-von-unwerth",
+        "photographer",
+        "Ellen von Unwerth"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/photographer/ellen-von-unwerth.json",
+      "tags": [
+        "photographer",
+        "ellen-von-unwerth"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "photographer.erwin-olaf",
+      "kind": "photographer",
+      "name": "Erwin Olaf",
+      "description": "",
+      "keywords": [
+        "photographer",
+        "erwin-olaf",
+        "photographer",
+        "Erwin Olaf"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/photographer/erwin-olaf.json",
+      "tags": [
+        "photographer",
+        "erwin-olaf"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "photographer.guy-bourdin",
+      "kind": "photographer",
+      "name": "Guy Bourdin",
+      "description": "",
+      "keywords": [
+        "photographer",
+        "guy-bourdin",
+        "photographer",
+        "Guy Bourdin"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/photographer/guy-bourdin.json",
+      "tags": [
+        "photographer",
+        "guy-bourdin"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "photographer.helmut-newton",
+      "kind": "photographer",
+      "name": "Helmut Newton",
+      "description": "",
+      "keywords": [
+        "photographer",
+        "helmut-newton",
+        "graphic",
+        "dominance",
+        "photographer",
+        "Helmut Newton"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/photographer/helmut-newton.json",
+      "tags": [
+        "photographer",
+        "helmut-newton",
+        "graphic",
+        "dominance"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "photographer.herb-ritts",
+      "kind": "photographer",
+      "name": "Herb Ritts",
+      "description": "",
+      "keywords": [
+        "photographer",
+        "herb-ritts",
+        "photographer",
+        "Herb Ritts"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/photographer/herb-ritts.json",
+      "tags": [
+        "photographer",
+        "herb-ritts"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "photographer.mario-sorrenti",
+      "kind": "photographer",
+      "name": "Mario Sorrenti",
+      "description": "",
+      "keywords": [
+        "photographer",
+        "mario-sorrenti",
+        "photographer",
+        "Mario Sorrenti"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/photographer/mario-sorrenti.json",
+      "tags": [
+        "photographer",
+        "mario-sorrenti"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "photographer.nobuyoshi-araki",
+      "kind": "photographer",
+      "name": "Nobuyoshi Araki",
+      "description": "",
+      "keywords": [
+        "photographer",
+        "nobuyoshi-araki",
+        "photographer",
+        "Nobuyoshi Araki"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/photographer/nobuyoshi-araki.json",
+      "tags": [
+        "photographer",
+        "nobuyoshi-araki"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "photographer.paolo-roversi",
+      "kind": "photographer",
+      "name": "Paolo Roversi",
+      "description": "",
+      "keywords": [
+        "photographer",
+        "paolo-roversi",
+        "photographer",
+        "Paolo Roversi"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/photographer/paolo-roversi.json",
+      "tags": [
+        "photographer",
+        "paolo-roversi"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "photographer.ralph-gibson",
+      "kind": "photographer",
+      "name": "Ralph Gibson",
+      "description": "",
+      "keywords": [
+        "photographer",
+        "ralph-gibson",
+        "photographer",
+        "Ralph Gibson"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/photographer/ralph-gibson.json",
+      "tags": [
+        "photographer",
+        "ralph-gibson"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "photographer.rankin",
+      "kind": "photographer",
+      "name": "Rankin",
+      "description": "",
+      "keywords": [
+        "photographer",
+        "rankin",
+        "photographer",
+        "Rankin"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/photographer/rankin.json",
+      "tags": [
+        "photographer",
+        "rankin"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "photographer.robert-mapplethorpe",
+      "kind": "photographer",
+      "name": "Robert Mapplethorpe",
+      "description": "",
+      "keywords": [
+        "photographer",
+        "mapplethorpe",
+        "photographer",
+        "Robert Mapplethorpe"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/photographer/robert-mapplethorpe.json",
+      "tags": [
+        "photographer",
+        "mapplethorpe"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "photographer.steven-klein",
+      "kind": "photographer",
+      "name": "Steven Klein",
+      "description": "",
+      "keywords": [
+        "photographer",
+        "steven-klein",
+        "photographer",
+        "Steven Klein"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/photographer/steven-klein.json",
+      "tags": [
+        "photographer",
+        "steven-klein"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "pose.gaze-over-shoulder",
+      "kind": "pose",
+      "name": "Gaze Over Shoulder",
+      "description": "",
+      "keywords": [
+        "pose",
+        "gaze",
+        "over-shoulder",
+        "pose",
+        "Gaze Over Shoulder"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/pose/gaze-over-shoulder.json",
+      "tags": [
+        "pose",
+        "gaze",
+        "over-shoulder"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "pose.intense-embrace",
+      "kind": "pose",
+      "name": "Intense Embrace",
+      "description": "",
+      "keywords": [
+        "pose",
+        "embrace",
+        "close",
+        "pose",
+        "Intense Embrace"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/pose/intense-embrace.json",
+      "tags": [
+        "pose",
+        "embrace",
+        "close"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "treatment.bold-contemporary-graphic",
+      "kind": "treatment",
+      "name": "Bold Contemporary Graphic",
+      "description": "",
+      "keywords": [
+        "treatment",
+        "bold",
+        "contemporary",
+        "graphic",
+        "treatment",
+        "Bold Contemporary Graphic"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/treatment/bold-contemporary-graphic.json",
+      "tags": [
+        "treatment",
+        "bold",
+        "contemporary",
+        "graphic"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "treatment.chaotic-splatter",
+      "kind": "treatment",
+      "name": "Chaotic Splatter",
+      "description": "",
+      "keywords": [
+        "treatment",
+        "splatter",
+        "chaotic",
+        "treatment",
+        "Chaotic Splatter"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/treatment/chaotic-splatter.json",
+      "tags": [
+        "treatment",
+        "splatter",
+        "chaotic"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "treatment.dark-cinematic-noir",
+      "kind": "treatment",
+      "name": "Dark Cinematic Noir",
+      "description": "",
+      "keywords": [
+        "treatment",
+        "noir",
+        "cinematic",
+        "dark",
+        "treatment",
+        "Dark Cinematic Noir"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/treatment/dark-cinematic-noir.json",
+      "tags": [
+        "treatment",
+        "noir",
+        "cinematic",
+        "dark"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "treatment.glitch-ink",
+      "kind": "treatment",
+      "name": "Glitch Ink",
+      "description": "",
+      "keywords": [
+        "treatment",
+        "glitch",
+        "digital",
+        "treatment",
+        "Glitch Ink"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/treatment/glitch-ink.json",
+      "tags": [
+        "treatment",
+        "glitch",
+        "digital"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "treatment.glossy-classic-nude",
+      "kind": "treatment",
+      "name": "Glossy Classic Nude",
+      "description": "",
+      "keywords": [
+        "treatment",
+        "glossy",
+        "classic",
+        "nude",
+        "treatment",
+        "Glossy Classic Nude"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/treatment/glossy-classic-nude.json",
+      "tags": [
+        "treatment",
+        "glossy",
+        "classic",
+        "nude"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "treatment.glossy-iridescent",
+      "kind": "treatment",
+      "name": "Glossy Iridescent Skin",
+      "description": "",
+      "keywords": [
+        "treatment",
+        "glossy",
+        "iridescent",
+        "treatment",
+        "Glossy Iridescent Skin"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/treatment/glossy-iridescent.json",
+      "tags": [
+        "treatment",
+        "glossy",
+        "iridescent"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "treatment.graphic-dominance",
+      "kind": "treatment",
+      "name": "Graphic Dominance",
+      "description": "",
+      "keywords": [
+        "treatment",
+        "graphic",
+        "dominance",
+        "high-contrast",
+        "treatment",
+        "Graphic Dominance"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/treatment/graphic-dominance.json",
+      "tags": [
+        "treatment",
+        "graphic",
+        "dominance",
+        "high-contrast"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "treatment.heavy-noir",
+      "kind": "treatment",
+      "name": "Heavy Noir",
+      "description": "",
+      "keywords": [
+        "treatment",
+        "noir",
+        "heavy",
+        "treatment",
+        "Heavy Noir"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/treatment/heavy-noir.json",
+      "tags": [
+        "treatment",
+        "noir",
+        "heavy"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "treatment.heavy-sketch-ink",
+      "kind": "treatment",
+      "name": "Heavy Sketch Ink",
+      "description": "",
+      "keywords": [
+        "treatment",
+        "ink",
+        "sketch",
+        "heavy",
+        "treatment",
+        "Heavy Sketch Ink"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/treatment/heavy-sketch-ink.json",
+      "tags": [
+        "treatment",
+        "ink",
+        "sketch",
+        "heavy"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "treatment.ink-line-art",
+      "kind": "treatment",
+      "name": "Ink Line Art",
+      "description": "",
+      "keywords": [
+        "treatment",
+        "ink",
+        "line-art",
+        "treatment",
+        "Ink Line Art"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/treatment/ink-line-art.json",
+      "tags": [
+        "treatment",
+        "ink",
+        "line-art"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "treatment.opaque-block-collage",
+      "kind": "treatment",
+      "name": "Opaque Block Collage",
+      "description": "",
+      "keywords": [
+        "treatment",
+        "collage",
+        "block",
+        "treatment",
+        "Opaque Block Collage"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/treatment/opaque-block-collage.json",
+      "tags": [
+        "treatment",
+        "collage",
+        "block"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "treatment.surreal-high-contrast-fragment",
+      "kind": "treatment",
+      "name": "Surreal High-Contrast Fragment",
+      "description": "",
+      "keywords": [
+        "treatment",
+        "surreal",
+        "high-contrast",
+        "fragment",
+        "treatment",
+        "Surreal High-Contrast Fragment"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/treatment/surreal-high-contrast-fragment.json",
+      "tags": [
+        "treatment",
+        "surreal",
+        "high-contrast",
+        "fragment"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "implication.anime-convenient-censorship",
+      "kind": "implication",
+      "name": "Anime Convenient Censorship",
+      "description": "",
+      "keywords": [
+        "implication",
+        "anime",
+        "convenient-censorship",
+        "steam",
+        "hair-occlusion",
+        "soft-moderation",
+        "implication",
+        "Anime Convenient Censorship"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/implication/anime-convenient-censorship.json",
+      "tags": [
+        "implication",
+        "anime",
+        "convenient-censorship",
+        "steam",
+        "hair-occlusion",
+        "soft-moderation"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "implication.beardsley-high-contrast-ink-negative-space",
+      "kind": "implication",
+      "name": "Beardsley High-Contrast Ink + Negative Space",
+      "description": "",
+      "keywords": [
+        "implication",
+        "beardsley",
+        "high-contrast",
+        "negative-space",
+        "ink",
+        "art-nouveau",
+        "soft-moderation",
+        "implication",
+        "Beardsley High-Contrast Ink + Negative Space"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/implication/beardsley-high-contrast-ink-negative-space.json",
+      "tags": [
+        "implication",
+        "beardsley",
+        "high-contrast",
+        "negative-space",
+        "ink",
+        "art-nouveau",
+        "soft-moderation"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "implication.crepax-cinematic-gutter-inference",
+      "kind": "implication",
+      "name": "Crepax Cinematic Gutter Inference",
+      "description": "",
+      "keywords": [
+        "implication",
+        "crepax",
+        "gutter",
+        "fragmentation",
+        "multi-panel",
+        "soft-moderation",
+        "implication",
+        "Crepax Cinematic Gutter Inference"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/implication/crepax-cinematic-gutter-inference.json",
+      "tags": [
+        "implication",
+        "crepax",
+        "gutter",
+        "fragmentation",
+        "multi-panel",
+        "soft-moderation"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "implication.environmental-occlusion",
+      "kind": "implication",
+      "name": "Environmental Occlusion",
+      "description": "",
+      "keywords": [
+        "implication",
+        "occlusion",
+        "environment",
+        "architecture",
+        "vehicle",
+        "soft-moderation",
+        "implication",
+        "Environmental Occlusion"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/implication/environmental-occlusion.json",
+      "tags": [
+        "implication",
+        "occlusion",
+        "environment",
+        "architecture",
+        "vehicle",
+        "soft-moderation"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "implication.extreme-tenebrism",
+      "kind": "implication",
+      "name": "Extreme Tenebrism / Chiaroscuro",
+      "description": "",
+      "keywords": [
+        "implication",
+        "tenebrism",
+        "chiaroscuro",
+        "dramatic-light",
+        "shadow",
+        "soft-moderation",
+        "implication",
+        "Extreme Tenebrism / Chiaroscuro"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/implication/extreme-tenebrism.json",
+      "tags": [
+        "implication",
+        "tenebrism",
+        "chiaroscuro",
+        "dramatic-light",
+        "shadow",
+        "soft-moderation"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "implication.horror-shadow-offscreen",
+      "kind": "implication",
+      "name": "Horror Shadow + Off-Screen Implication",
+      "description": "",
+      "keywords": [
+        "implication",
+        "horror",
+        "shadow",
+        "silhouette",
+        "off-screen",
+        "tenebrism",
+        "soft-moderation",
+        "implication",
+        "Horror Shadow + Off-Screen Implication"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/implication/horror-shadow-offscreen.json",
+      "tags": [
+        "implication",
+        "horror",
+        "shadow",
+        "silhouette",
+        "off-screen",
+        "tenebrism",
+        "soft-moderation"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "implication.macro-isolation",
+      "kind": "implication",
+      "name": "Macro Isolation",
+      "description": "",
+      "keywords": [
+        "implication",
+        "macro",
+        "close-up",
+        "isolation",
+        "detail",
+        "soft-moderation",
+        "implication",
+        "Macro Isolation"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/implication/macro-isolation.json",
+      "tags": [
+        "implication",
+        "macro",
+        "close-up",
+        "isolation",
+        "detail",
+        "soft-moderation"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "implication.manara-elegant-posture-tension",
+      "kind": "implication",
+      "name": "Manara Elegant Posture Tension",
+      "description": "",
+      "keywords": [
+        "implication",
+        "manara",
+        "posture",
+        "fluid-line",
+        "sensual-tension",
+        "soft-moderation",
+        "implication",
+        "Manara Elegant Posture Tension"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/implication/manara-elegant-posture-tension.json",
+      "tags": [
+        "implication",
+        "manara",
+        "posture",
+        "fluid-line",
+        "sensual-tension",
+        "soft-moderation"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "implication.metaphorical-object-proxying",
+      "kind": "implication",
+      "name": "Metaphorical Object Proxying",
+      "description": "",
+      "keywords": [
+        "implication",
+        "object-proxy",
+        "metaphor",
+        "substitution",
+        "symbolic",
+        "soft-moderation",
+        "implication",
+        "Metaphorical Object Proxying"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/implication/metaphorical-object-proxying.json",
+      "tags": [
+        "implication",
+        "object-proxy",
+        "metaphor",
+        "substitution",
+        "symbolic",
+        "soft-moderation"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "implication.myth-allegory-encoding",
+      "kind": "implication",
+      "name": "Myth & Allegory Encoding",
+      "description": "",
+      "keywords": [
+        "implication",
+        "myth",
+        "allegory",
+        "wet-drapery",
+        "transformation",
+        "symbolist",
+        "soft-moderation",
+        "implication",
+        "Myth & Allegory Encoding"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/implication/myth-allegory-encoding.json",
+      "tags": [
+        "implication",
+        "myth",
+        "allegory",
+        "wet-drapery",
+        "transformation",
+        "symbolist",
+        "soft-moderation"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "implication.shunga-partial-clothing-proxy",
+      "kind": "implication",
+      "name": "Shunga Partial-Clothing Proxy",
+      "description": "",
+      "keywords": [
+        "implication",
+        "shunga",
+        "ukiyo-e",
+        "fabric-proxy",
+        "flat-color",
+        "soft-moderation",
+        "implication",
+        "Shunga Partial-Clothing Proxy"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/implication/shunga-partial-clothing-proxy.json",
+      "tags": [
+        "implication",
+        "shunga",
+        "ukiyo-e",
+        "fabric-proxy",
+        "flat-color",
+        "soft-moderation"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "implication.vargas-pinup-suggestion",
+      "kind": "implication",
+      "name": "Vargas Pin-Up Suggestion",
+      "description": "",
+      "keywords": [
+        "implication",
+        "vargas",
+        "pin-up",
+        "watercolor",
+        "softcore",
+        "glamour",
+        "soft-moderation",
+        "implication",
+        "Vargas Pin-Up Suggestion"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/implication/vargas-pinup-suggestion.json",
+      "tags": [
+        "implication",
+        "vargas",
+        "pin-up",
+        "watercolor",
+        "softcore",
+        "glamour",
+        "soft-moderation"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "output-format.carousel",
+      "kind": "output-format",
+      "name": "Carousel",
+      "description": "",
+      "keywords": [
+        "output-format",
+        "Carousel"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/output-format/carousel.json",
+      "tags": [],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "output-format.single",
+      "kind": "output-format",
+      "name": "Single",
+      "description": "",
+      "keywords": [
+        "output-format",
+        "Single"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/output-format/single.json",
+      "tags": [],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "output-format.slideshow",
+      "kind": "output-format",
+      "name": "Slideshow",
+      "description": "",
+      "keywords": [
+        "output-format",
+        "Slideshow"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/output-format/slideshow.json",
+      "tags": [],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "output-style.border-deterministic",
+      "kind": "output-style",
+      "name": "Deterministic Style Border",
+      "description": "",
+      "keywords": [
+        "output-style",
+        "Deterministic Style Border"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/output-style/border-deterministic.json",
+      "tags": [],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "output-style.border-none",
+      "kind": "output-style",
+      "name": "No Border",
+      "description": "",
+      "keywords": [
+        "output-style",
+        "No Border"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/output-style/border-none.json",
+      "tags": [],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "output-style.code-exposed",
+      "kind": "output-style",
+      "name": "Code Exposed",
+      "description": "",
+      "keywords": [
+        "output-style",
+        "Code Exposed"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/output-style/code-exposed.json",
+      "tags": [],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "output-style.code-hidden",
+      "kind": "output-style",
+      "name": "Code Hidden",
+      "description": "",
+      "keywords": [
+        "output-style",
+        "Code Hidden"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/output-style/code-hidden.json",
+      "tags": [],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "output-style.forensics-off",
+      "kind": "output-style",
+      "name": "Forensics Off",
+      "description": "",
+      "keywords": [
+        "output-style",
+        "Forensics Off"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/output-style/forensics-off.json",
+      "tags": [],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "output-style.forensics-on",
+      "kind": "output-style",
+      "name": "Forensics On",
+      "description": "",
+      "keywords": [
+        "output-style",
+        "Forensics On"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/output-style/forensics-on.json",
+      "tags": [],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "output-style.title-above",
+      "kind": "output-style",
+      "name": "Title Above",
+      "description": "",
+      "keywords": [
+        "output-style",
+        "Title Above"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/output-style/title-above.json",
+      "tags": [],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "output-style.title-below",
+      "kind": "output-style",
+      "name": "Title Below",
+      "description": "",
+      "keywords": [
+        "output-style",
+        "Title Below"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/output-style/title-below.json",
+      "tags": [],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "hand.stanton",
+      "kind": "hand",
+      "name": "Eric Stanton",
+      "description": "",
+      "keywords": [
+        "hand",
+        "stanton",
+        "ink",
+        "pulp",
+        "fetish",
+        "hand",
+        "Eric Stanton"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/hand/stanton.json",
+      "tags": [
+        "hand",
+        "stanton",
+        "ink",
+        "pulp",
+        "fetish"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "hand.willie",
+      "kind": "hand",
+      "name": "John Willie",
+      "description": "",
+      "keywords": [
+        "hand",
+        "willie",
+        "ink",
+        "fetish",
+        "elegant",
+        "hand",
+        "John Willie"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/hand/willie.json",
+      "tags": [
+        "hand",
+        "willie",
+        "ink",
+        "fetish",
+        "elegant"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "hand.bilbrew",
+      "kind": "hand",
+      "name": "Gene Bilbrew (Eneg)",
+      "description": "",
+      "keywords": [
+        "hand",
+        "bilbrew",
+        "eneg",
+        "ink",
+        "muscular",
+        "hand",
+        "Gene Bilbrew (Eneg)"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/hand/bilbrew.json",
+      "tags": [
+        "hand",
+        "bilbrew",
+        "eneg",
+        "ink",
+        "muscular"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "hand.newton",
+      "kind": "hand",
+      "name": "Helmut Newton",
+      "description": "",
+      "keywords": [
+        "hand",
+        "newton",
+        "photographic",
+        "dominance",
+        "hand",
+        "Helmut Newton"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/hand/newton.json",
+      "tags": [
+        "hand",
+        "newton",
+        "photographic",
+        "dominance"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "hand.sorayama",
+      "kind": "hand",
+      "name": "Hajime Sorayama",
+      "description": "",
+      "keywords": [
+        "hand",
+        "sorayama",
+        "chrome",
+        "airbrush",
+        "metallic",
+        "hand",
+        "Hajime Sorayama"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/hand/sorayama.json",
+      "tags": [
+        "hand",
+        "sorayama",
+        "chrome",
+        "airbrush",
+        "metallic"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "hand.lempicka",
+      "kind": "hand",
+      "name": "Tamara de Lempicka",
+      "description": "",
+      "keywords": [
+        "hand",
+        "lempicka",
+        "art-deco",
+        "geometric",
+        "hand",
+        "Tamara de Lempicka"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/hand/lempicka.json",
+      "tags": [
+        "hand",
+        "lempicka",
+        "art-deco",
+        "geometric"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "hand.vargas",
+      "kind": "hand",
+      "name": "Alberto Vargas",
+      "description": "",
+      "keywords": [
+        "hand",
+        "vargas",
+        "pin-up",
+        "airbrush",
+        "hand",
+        "Alberto Vargas"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/hand/vargas.json",
+      "tags": [
+        "hand",
+        "vargas",
+        "pin-up",
+        "airbrush"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "hand.beardsley",
+      "kind": "hand",
+      "name": "Aubrey Beardsley",
+      "description": "",
+      "keywords": [
+        "hand",
+        "beardsley",
+        "ink",
+        "ornamental",
+        "high-contrast",
+        "hand",
+        "Aubrey Beardsley"
+      ],
+      "prompt_stubs": [],
+      "path": "packs/hand/beardsley.json",
+      "tags": [
+        "hand",
+        "beardsley",
+        "ink",
+        "ornamental",
+        "high-contrast"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.bunny.top10",
+      "kind": "preset",
+      "name": "Bunny Top 10 Image Styles",
+      "description": "",
+      "keywords": [
+        "bunny",
+        "top-10",
+        "persona"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/bunny/top-10.json",
+      "tags": [
+        "bunny",
+        "top-10",
+        "persona"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.bunny.top10.01",
+      "kind": "preset",
+      "name": "Expressive Sketch Hybrid / Vector-Raster Collision",
+      "description": "",
+      "keywords": [
+        "bunny",
+        "top-10",
+        "rank-1"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/bunny/top10-01.json",
+      "tags": [
+        "bunny",
+        "top-10",
+        "rank-1"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.bunny.top10.02",
+      "kind": "preset",
+      "name": "Fluid Ink Wash / Soft Diffused Render",
+      "description": "",
+      "keywords": [
+        "bunny",
+        "top-10",
+        "rank-2"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/bunny/top10-02.json",
+      "tags": [
+        "bunny",
+        "top-10",
+        "rank-2"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.bunny.top10.03",
+      "kind": "preset",
+      "name": "Bold Graphic Novel Inking",
+      "description": "",
+      "keywords": [
+        "bunny",
+        "top-10",
+        "rank-3"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/bunny/top10-03.json",
+      "tags": [
+        "bunny",
+        "top-10",
+        "rank-3"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.bunny.top10.04",
+      "kind": "preset",
+      "name": "Heavy Noir Graphic Inking",
+      "description": "",
+      "keywords": [
+        "bunny",
+        "top-10",
+        "rank-4"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/bunny/top10-04.json",
+      "tags": [
+        "bunny",
+        "top-10",
+        "rank-4"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.bunny.top10.05",
+      "kind": "preset",
+      "name": "High-Contrast Chiaroscuro",
+      "description": "",
+      "keywords": [
+        "bunny",
+        "top-10",
+        "rank-5"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/bunny/top10-05.json",
+      "tags": [
+        "bunny",
+        "top-10",
+        "rank-5"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.bunny.top10.06",
+      "kind": "preset",
+      "name": "Chaotic Splatter Claim",
+      "description": "",
+      "keywords": [
+        "bunny",
+        "top-10",
+        "rank-6"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/bunny/top10-06.json",
+      "tags": [
+        "bunny",
+        "top-10",
+        "rank-6"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.bunny.top10.07",
+      "kind": "preset",
+      "name": "Glitch-Ink Hybrid",
+      "description": "",
+      "keywords": [
+        "bunny",
+        "top-10",
+        "rank-7"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/bunny/top10-07.json",
+      "tags": [
+        "bunny",
+        "top-10",
+        "rank-7"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.bunny.top10.08",
+      "kind": "preset",
+      "name": "Opaque Block Collage Hybrid",
+      "description": "",
+      "keywords": [
+        "bunny",
+        "top-10",
+        "rank-8"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/bunny/top10-08.json",
+      "tags": [
+        "bunny",
+        "top-10",
+        "rank-8"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.bunny.top10.09",
+      "kind": "preset",
+      "name": "Glossy Iridescent Skin + Sharp Ink",
+      "description": "",
+      "keywords": [
+        "bunny",
+        "top-10",
+        "rank-9"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/bunny/top10-09.json",
+      "tags": [
+        "bunny",
+        "top-10",
+        "rank-9"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.bunny.top10.10",
+      "kind": "preset",
+      "name": "Soft Edge Watercolor Hybrid",
+      "description": "",
+      "keywords": [
+        "bunny",
+        "top-10",
+        "rank-10"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/bunny/top10-10.json",
+      "tags": [
+        "bunny",
+        "top-10",
+        "rank-10"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.liv.top10",
+      "kind": "preset",
+      "name": "Liv Top 10 Image Styles",
+      "description": "",
+      "keywords": [
+        "liv",
+        "top-10",
+        "persona"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/liv/top-10.json",
+      "tags": [
+        "liv",
+        "top-10",
+        "persona"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.liv.top10.01",
+      "kind": "preset",
+      "name": "Chaotic Splatter Claim",
+      "description": "",
+      "keywords": [
+        "liv",
+        "top-10",
+        "rank-1"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/liv/top10-01.json",
+      "tags": [
+        "liv",
+        "top-10",
+        "rank-1"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.liv.top10.02",
+      "kind": "preset",
+      "name": "Heavy Noir with Glossy Skin",
+      "description": "",
+      "keywords": [
+        "liv",
+        "top-10",
+        "rank-2"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/liv/top10-02.json",
+      "tags": [
+        "liv",
+        "top-10",
+        "rank-2"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.liv.top10.03",
+      "kind": "preset",
+      "name": "Opaque Block Collage Hybrid",
+      "description": "",
+      "keywords": [
+        "liv",
+        "top-10",
+        "rank-3"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/liv/top10-03.json",
+      "tags": [
+        "liv",
+        "top-10",
+        "rank-3"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.liv.top10.04",
+      "kind": "preset",
+      "name": "Bold Graphic Novel Inking",
+      "description": "",
+      "keywords": [
+        "liv",
+        "top-10",
+        "rank-4"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/liv/top10-04.json",
+      "tags": [
+        "liv",
+        "top-10",
+        "rank-4"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.liv.top10.05",
+      "kind": "preset",
+      "name": "Glossy Luminous Glaze Hybrid",
+      "description": "",
+      "keywords": [
+        "liv",
+        "top-10",
+        "rank-5"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/liv/top10-05.json",
+      "tags": [
+        "liv",
+        "top-10",
+        "rank-5"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.liv.top10.06",
+      "kind": "preset",
+      "name": "High-Contrast Chiaroscuro",
+      "description": "",
+      "keywords": [
+        "liv",
+        "top-10",
+        "rank-6"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/liv/top10-06.json",
+      "tags": [
+        "liv",
+        "top-10",
+        "rank-6"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.liv.top10.07",
+      "kind": "preset",
+      "name": "Soft Edge Watercolor Hybrid",
+      "description": "",
+      "keywords": [
+        "liv",
+        "top-10",
+        "rank-7"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/liv/top10-07.json",
+      "tags": [
+        "liv",
+        "top-10",
+        "rank-7"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.liv.top10.08",
+      "kind": "preset",
+      "name": "Glitch-Ink Hybrid",
+      "description": "",
+      "keywords": [
+        "liv",
+        "top-10",
+        "rank-8"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/liv/top10-08.json",
+      "tags": [
+        "liv",
+        "top-10",
+        "rank-8"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.liv.top10.09",
+      "kind": "preset",
+      "name": "Chaotic Ink Wash",
+      "description": "",
+      "keywords": [
+        "liv",
+        "top-10",
+        "rank-9"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/liv/top10-09.json",
+      "tags": [
+        "liv",
+        "top-10",
+        "rank-9"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.liv.top10.10",
+      "kind": "preset",
+      "name": "Acrylic Underpainting Sharp Ink Mapping",
+      "description": "",
+      "keywords": [
+        "liv",
+        "top-10",
+        "rank-10"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/liv/top10-10.json",
+      "tags": [
+        "liv",
+        "top-10",
+        "rank-10"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.style.helmut-newton-graphic-dominance",
+      "kind": "preset",
+      "name": "Helmut Newton Graphic Dominance",
+      "description": "",
+      "keywords": [
+        "preset",
+        "helmut-newton",
+        "graphic-dominance"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/style/helmut-newton-graphic-dominance.json",
+      "tags": [
+        "preset",
+        "helmut-newton",
+        "graphic-dominance"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.style.herb-ritts-glossy-classic-nude",
+      "kind": "preset",
+      "name": "Herb Ritts Glossy Classic Nude",
+      "description": "",
+      "keywords": [
+        "preset",
+        "herb-ritts",
+        "glossy",
+        "classic"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/style/herb-ritts-glossy-classic-nude.json",
+      "tags": [
+        "preset",
+        "herb-ritts",
+        "glossy",
+        "classic"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.style.ink-line-art-claim",
+      "kind": "preset",
+      "name": "Ink Line Art Claim",
+      "description": "",
+      "keywords": [
+        "preset",
+        "ink",
+        "claim"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/style/ink-line-art-claim.json",
+      "tags": [
+        "preset",
+        "ink",
+        "claim"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.style.intense-embrace-noir-gloss",
+      "kind": "preset",
+      "name": "Intense Embrace Noir Gloss",
+      "description": "",
+      "keywords": [
+        "preset",
+        "embrace",
+        "noir",
+        "gloss"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/style/intense-embrace-noir-gloss.json",
+      "tags": [
+        "preset",
+        "embrace",
+        "noir",
+        "gloss"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.style.intense-gaze-over-shoulder",
+      "kind": "preset",
+      "name": "Intense Gaze Over Shoulder",
+      "description": "",
+      "keywords": [
+        "preset",
+        "gaze",
+        "over-shoulder"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/style/intense-gaze-over-shoulder.json",
+      "tags": [
+        "preset",
+        "gaze",
+        "over-shoulder"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.style.nobuyoshi-araki-raw-chaotic-claim",
+      "kind": "preset",
+      "name": "Nobuyoshi Araki Raw Chaotic Claim",
+      "description": "",
+      "keywords": [
+        "preset",
+        "araki",
+        "raw",
+        "chaotic"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/style/nobuyoshi-araki-raw-chaotic-claim.json",
+      "tags": [
+        "preset",
+        "araki",
+        "raw",
+        "chaotic"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.style.possessive-glossy-claim-ink-wash",
+      "kind": "preset",
+      "name": "Possessive Glossy Claim Ink Wash",
+      "description": "",
+      "keywords": [
+        "preset",
+        "possessive",
+        "glossy",
+        "ink-wash"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/style/possessive-glossy-claim-ink-wash.json",
+      "tags": [
+        "preset",
+        "possessive",
+        "glossy",
+        "ink-wash"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.style.ralph-gibson-surreal-high-contrast-fragment",
+      "kind": "preset",
+      "name": "Ralph Gibson Surreal High-Contrast Fragment",
+      "description": "",
+      "keywords": [
+        "preset",
+        "ralph-gibson",
+        "surreal",
+        "fragment"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/style/ralph-gibson-surreal-high-contrast-fragment.json",
+      "tags": [
+        "preset",
+        "ralph-gibson",
+        "surreal",
+        "fragment"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.style.rankin-bold-contemporary-graphic",
+      "kind": "preset",
+      "name": "Rankin Bold Contemporary Graphic",
+      "description": "",
+      "keywords": [
+        "preset",
+        "rankin",
+        "bold",
+        "contemporary"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/style/rankin-bold-contemporary-graphic.json",
+      "tags": [
+        "preset",
+        "rankin",
+        "bold",
+        "contemporary"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.style.steven-klein-dark-cinematic-noir",
+      "kind": "preset",
+      "name": "Steven Klein Dark Cinematic Noir",
+      "description": "",
+      "keywords": [
+        "preset",
+        "steven-klein",
+        "noir",
+        "cinematic"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/style/steven-klein-dark-cinematic-noir.json",
+      "tags": [
+        "preset",
+        "steven-klein",
+        "noir",
+        "cinematic"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.valerie.top10",
+      "kind": "preset",
+      "name": "Valerie Top 10 Image Styles",
+      "description": "",
+      "keywords": [
+        "valerie",
+        "top-10",
+        "persona"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/valerie/top-10.json",
+      "tags": [
+        "valerie",
+        "top-10",
+        "persona"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.valerie.top10.01",
+      "kind": "preset",
+      "name": "Acrylic Underpainting with Sharp Ink Mapping",
+      "description": "",
+      "keywords": [
+        "valerie",
+        "top-10",
+        "rank-1"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/valerie/top10-01.json",
+      "tags": [
+        "valerie",
+        "top-10",
+        "rank-1"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.valerie.top10.02",
+      "kind": "preset",
+      "name": "Heavy Noir Graphic Inking",
+      "description": "",
+      "keywords": [
+        "valerie",
+        "top-10",
+        "rank-2"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/valerie/top10-02.json",
+      "tags": [
+        "valerie",
+        "top-10",
+        "rank-2"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.valerie.top10.03",
+      "kind": "preset",
+      "name": "Bold Graphic Novel Inking",
+      "description": "",
+      "keywords": [
+        "valerie",
+        "top-10",
+        "rank-3"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/valerie/top10-03.json",
+      "tags": [
+        "valerie",
+        "top-10",
+        "rank-3"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.valerie.top10.04",
+      "kind": "preset",
+      "name": "High-Contrast Chiaroscuro",
+      "description": "",
+      "keywords": [
+        "valerie",
+        "top-10",
+        "rank-4"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/valerie/top10-04.json",
+      "tags": [
+        "valerie",
+        "top-10",
+        "rank-4"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.valerie.top10.05",
+      "kind": "preset",
+      "name": "Heavy Black Ink Graphic Novel Hand Claim",
+      "description": "",
+      "keywords": [
+        "valerie",
+        "top-10",
+        "rank-5"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/valerie/top10-05.json",
+      "tags": [
+        "valerie",
+        "top-10",
+        "rank-5"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.valerie.top10.06",
+      "kind": "preset",
+      "name": "Controlled Splatter Hybrid",
+      "description": "",
+      "keywords": [
+        "valerie",
+        "top-10",
+        "rank-6"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/valerie/top10-06.json",
+      "tags": [
+        "valerie",
+        "top-10",
+        "rank-6"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.valerie.top10.07",
+      "kind": "preset",
+      "name": "Opaque Block Collage Hybrid",
+      "description": "",
+      "keywords": [
+        "valerie",
+        "top-10",
+        "rank-7"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/valerie/top10-07.json",
+      "tags": [
+        "valerie",
+        "top-10",
+        "rank-7"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.valerie.top10.08",
+      "kind": "preset",
+      "name": "Vector-Raster Collision",
+      "description": "",
+      "keywords": [
+        "valerie",
+        "top-10",
+        "rank-8"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/valerie/top10-08.json",
+      "tags": [
+        "valerie",
+        "top-10",
+        "rank-8"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.valerie.top10.09",
+      "kind": "preset",
+      "name": "Fine Stipple & Delicate Hatching Containment",
+      "description": "",
+      "keywords": [
+        "valerie",
+        "top-10",
+        "rank-9"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/valerie/top10-09.json",
+      "tags": [
+        "valerie",
+        "top-10",
+        "rank-9"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.valerie.top10.10",
+      "kind": "preset",
+      "name": "Vintage Engraving Line Art",
+      "description": "",
+      "keywords": [
+        "valerie",
+        "top-10",
+        "rank-10"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/valerie/top10-10.json",
+      "tags": [
+        "valerie",
+        "top-10",
+        "rank-10"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.sorayama-chrome",
+      "kind": "preset",
+      "name": "Sorayama Chrome (locked)",
+      "description": "",
+      "keywords": [
+        "locked",
+        "hand",
+        "sorayama"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/sorayama-chrome.json",
+      "tags": [
+        "locked",
+        "hand",
+        "sorayama"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.vallejo-saturated",
+      "kind": "preset",
+      "name": "Vallejo Saturated Fantasy Airbrush (locked)",
+      "description": "",
+      "keywords": [
+        "locked",
+        "vallejo"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/vallejo-saturated.json",
+      "tags": [
+        "locked",
+        "vallejo"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.beardsley-ink",
+      "kind": "preset",
+      "name": "Beardsley High-Contrast Ornamental (locked)",
+      "description": "",
+      "keywords": [
+        "locked",
+        "beardsley"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/beardsley-ink.json",
+      "tags": [
+        "locked",
+        "beardsley"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.lempicka-deco",
+      "kind": "preset",
+      "name": "Lempicka Art Deco Geometric (locked)",
+      "description": "",
+      "keywords": [
+        "locked",
+        "lempicka"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/lempicka-deco.json",
+      "tags": [
+        "locked",
+        "lempicka"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.newton-dominance",
+      "kind": "preset",
+      "name": "Newton Photographic Dominance (locked)",
+      "description": "",
+      "keywords": [
+        "locked",
+        "newton"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/newton-dominance.json",
+      "tags": [
+        "locked",
+        "newton"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.airbrush80",
+      "kind": "preset",
+      "name": "1980s Soft Airbrush",
+      "description": "",
+      "keywords": [
+        "1980s",
+        "airbrush",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/airbrush80.json",
+      "tags": [
+        "1980s",
+        "airbrush",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.anatomical",
+      "kind": "preset",
+      "name": "Medical Anatomical",
+      "description": "",
+      "keywords": [
+        "medical",
+        "anatomical",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/anatomical.json",
+      "tags": [
+        "medical",
+        "anatomical",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.bilbrew-dense",
+      "kind": "preset",
+      "name": "Bilbrew Dense Muscular",
+      "description": "",
+      "keywords": [
+        "hand",
+        "bilbrew",
+        "ink",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/bilbrew-dense.json",
+      "tags": [
+        "hand",
+        "bilbrew",
+        "ink",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.blueprint",
+      "kind": "preset",
+      "name": "Blueprint Orthographic",
+      "description": "",
+      "keywords": [
+        "technical",
+        "blueprint",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/blueprint.json",
+      "tags": [
+        "technical",
+        "blueprint",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.charcoal",
+      "kind": "preset",
+      "name": "Charcoal Study",
+      "description": "",
+      "keywords": [
+        "charcoal",
+        "drawing",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/charcoal.json",
+      "tags": [
+        "charcoal",
+        "drawing",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.clay-sculptural",
+      "kind": "preset",
+      "name": "Matte Clay Sculptural",
+      "description": "",
+      "keywords": [
+        "clay",
+        "sculptural",
+        "matte",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/clay-sculptural.json",
+      "tags": [
+        "clay",
+        "sculptural",
+        "matte",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.collodion",
+      "kind": "preset",
+      "name": "Wet Collodion Antique",
+      "description": "",
+      "keywords": [
+        "antique",
+        "photographic",
+        "collodion",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/collodion.json",
+      "tags": [
+        "antique",
+        "photographic",
+        "collodion",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.constructivist",
+      "kind": "preset",
+      "name": "Soviet Constructivist",
+      "description": "",
+      "keywords": [
+        "constructivist",
+        "propaganda",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/constructivist.json",
+      "tags": [
+        "constructivist",
+        "propaganda",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.crepax",
+      "kind": "preset",
+      "name": "Crepax Cinematic Line",
+      "description": "",
+      "keywords": [
+        "crepax",
+        "graphic-novel",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/crepax.json",
+      "tags": [
+        "crepax",
+        "graphic-novel",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.editorial-asym",
+      "kind": "preset",
+      "name": "Editorial Detachment Asym",
+      "description": "",
+      "keywords": [
+        "fashion",
+        "editorial",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/editorial-asym.json",
+      "tags": [
+        "fashion",
+        "editorial",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.etching",
+      "kind": "preset",
+      "name": "Drypoint Etching",
+      "description": "",
+      "keywords": [
+        "etching",
+        "print",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/etching.json",
+      "tags": [
+        "etching",
+        "print",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.flat-graphic",
+      "kind": "preset",
+      "name": "Bold Flat Graphic",
+      "description": "",
+      "keywords": [
+        "flat",
+        "graphic",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/flat-graphic.json",
+      "tags": [
+        "flat",
+        "graphic",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.gouache",
+      "kind": "preset",
+      "name": "Gouache Matte",
+      "description": "",
+      "keywords": [
+        "gouache",
+        "matte",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/gouache.json",
+      "tags": [
+        "gouache",
+        "matte",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.halftone",
+      "kind": "preset",
+      "name": "Bold Comic Halftone",
+      "description": "",
+      "keywords": [
+        "comic",
+        "halftone",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/halftone.json",
+      "tags": [
+        "comic",
+        "halftone",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.highkey",
+      "kind": "preset",
+      "name": "High-Key Flash",
+      "description": "",
+      "keywords": [
+        "high-key",
+        "fashion",
+        "flash",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/highkey.json",
+      "tags": [
+        "high-key",
+        "fashion",
+        "flash",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.illuminated",
+      "kind": "preset",
+      "name": "Illuminated Manuscript",
+      "description": "",
+      "keywords": [
+        "medieval",
+        "illuminated",
+        "jewel",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/illuminated.json",
+      "tags": [
+        "medieval",
+        "illuminated",
+        "jewel",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.mucha-whiplash",
+      "kind": "preset",
+      "name": "Mucha Whiplash",
+      "description": "",
+      "keywords": [
+        "art-nouveau",
+        "ornamental",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/mucha-whiplash.json",
+      "tags": [
+        "art-nouveau",
+        "ornamental",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.noir-graphic",
+      "kind": "preset",
+      "name": "Heavy Noir Graphic",
+      "description": "",
+      "keywords": [
+        "noir",
+        "photographic",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/noir-graphic.json",
+      "tags": [
+        "noir",
+        "photographic",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.op-art",
+      "kind": "preset",
+      "name": "Psychedelic Op-Art",
+      "description": "",
+      "keywords": [
+        "psychedelic",
+        "op-art",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/op-art.json",
+      "tags": [
+        "psychedelic",
+        "op-art",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.pastel",
+      "kind": "preset",
+      "name": "Soft Pastel",
+      "description": "",
+      "keywords": [
+        "pastel",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/pastel.json",
+      "tags": [
+        "pastel",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.polaroid",
+      "kind": "preset",
+      "name": "Instant Polaroid",
+      "description": "",
+      "keywords": [
+        "polaroid",
+        "instant",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/polaroid.json",
+      "tags": [
+        "polaroid",
+        "instant",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.preraph",
+      "kind": "preset",
+      "name": "Pre-Raphaelite Romantic",
+      "description": "",
+      "keywords": [
+        "pre-raphaelite",
+        "romantic",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/preraph.json",
+      "tags": [
+        "pre-raphaelite",
+        "romantic",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.screenprint",
+      "kind": "preset",
+      "name": "Screen-Print Poster",
+      "description": "",
+      "keywords": [
+        "screen-print",
+        "poster",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/screenprint.json",
+      "tags": [
+        "screen-print",
+        "poster",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.stained-glass",
+      "kind": "preset",
+      "name": "Stained Glass",
+      "description": "",
+      "keywords": [
+        "stained-glass",
+        "translucent",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/stained-glass.json",
+      "tags": [
+        "stained-glass",
+        "translucent",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.sumie",
+      "kind": "preset",
+      "name": "Sumi-e Ink Wash",
+      "description": "",
+      "keywords": [
+        "sumi-e",
+        "ink",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/sumie.json",
+      "tags": [
+        "sumi-e",
+        "ink",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.symbolist",
+      "kind": "preset",
+      "name": "Decadent Symbolist",
+      "description": "",
+      "keywords": [
+        "symbolist",
+        "decadent",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/symbolist.json",
+      "tags": [
+        "symbolist",
+        "decadent",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.tenebrist",
+      "kind": "preset",
+      "name": "Tenebrist Warm Flesh",
+      "description": "",
+      "keywords": [
+        "tenebrist",
+        "dramatic-light",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/tenebrist.json",
+      "tags": [
+        "tenebrist",
+        "dramatic-light",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.ukiyo-flat",
+      "kind": "preset",
+      "name": "Ukiyo-e Flat Contour",
+      "description": "",
+      "keywords": [
+        "ukiyo-e",
+        "flat",
+        "contour",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/ukiyo-flat.json",
+      "tags": [
+        "ukiyo-e",
+        "flat",
+        "contour",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.vargas-luminous",
+      "kind": "preset",
+      "name": "Vargas Luminous",
+      "description": "",
+      "keywords": [
+        "hand",
+        "vargas",
+        "airbrush",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/vargas-luminous.json",
+      "tags": [
+        "hand",
+        "vargas",
+        "airbrush",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.vector",
+      "kind": "preset",
+      "name": "Clean Modern Vector",
+      "description": "",
+      "keywords": [
+        "vector",
+        "modern",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/vector.json",
+      "tags": [
+        "vector",
+        "modern",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "preset.locked.watercolor",
+      "kind": "preset",
+      "name": "Soft Watercolor Wash",
+      "description": "",
+      "keywords": [
+        "watercolor",
+        "wash",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "prompt_stubs": [],
+      "path": "presets/locked-companions/watercolor.json",
+      "tags": [
+        "watercolor",
+        "wash",
+        "locked",
+        "promoted-2026-08-05"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "script.image_intent_loop",
+      "kind": "script",
+      "name": "image_intent_loop.py",
+      "description": "Intent wrapper \u2014 make a picture shell",
+      "keywords": [
+        "intent",
+        "make a picture",
+        "dual path",
+        "echo"
+      ],
+      "prompt_stubs": [],
+      "path": "scripts/image_intent_loop.py",
+      "tags": [
+        "script",
+        "ipq"
+      ],
+      "parallel_safe": true,
+      "calls": [
+        "echo_interface",
+        "render_engine",
+        "prompt_fidelity",
+        "mira_winner"
+      ]
+    },
+    {
+      "id": "script.render_engine",
+      "kind": "script",
+      "name": "render_engine.py",
+      "description": "Dual generate/edit plan + component instructions",
+      "keywords": [
+        "render",
+        "generate",
+        "edit",
+        "dual"
+      ],
+      "prompt_stubs": [],
+      "path": "scripts/render_engine.py",
+      "tags": [
+        "script",
+        "ipq"
+      ],
+      "parallel_safe": true,
+      "calls": [
+        "implication_inject",
+        "presentation_emit"
+      ]
+    },
+    {
+      "id": "script.prompt_fidelity",
+      "kind": "script",
+      "name": "prompt_fidelity.py",
+      "description": "Prompt vs output metrics for all images",
+      "keywords": [
+        "fidelity",
+        "score",
+        "prompt match"
+      ],
+      "prompt_stubs": [],
+      "path": "scripts/prompt_fidelity.py",
+      "tags": [
+        "script",
+        "ipq"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "script.mira_winner",
+      "kind": "script",
+      "name": "mira_winner.py",
+      "description": "Pick generate vs edit winner; calls fidelity + roster drift",
+      "keywords": [
+        "mira",
+        "winner",
+        "choose"
+      ],
+      "prompt_stubs": [],
+      "path": "scripts/mira_winner.py",
+      "tags": [
+        "script",
+        "ipq"
+      ],
+      "parallel_safe": true,
+      "calls": [
+        "prompt_fidelity",
+        "mira_drift_check"
+      ]
+    },
+    {
+      "id": "script.safe_composition_base",
+      "kind": "script",
+      "name": "safe_composition_base.py",
+      "description": "Safe layout root when no source image",
+      "keywords": [
+        "safe base",
+        "composition",
+        "no source"
+      ],
+      "prompt_stubs": [],
+      "path": "scripts/safe_composition_base.py",
+      "tags": [
+        "script",
+        "ipq"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "script.disk_handoff",
+      "kind": "script",
+      "name": "disk_handoff.py",
+      "description": "JPEG path contract + escape on missing file",
+      "keywords": [
+        "disk",
+        "jpeg",
+        "escape",
+        "moderation"
+      ],
+      "prompt_stubs": [],
+      "path": "scripts/disk_handoff.py",
+      "tags": [
+        "script",
+        "ipq"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "script.implication_inject",
+      "kind": "script",
+      "name": "implication_inject.py",
+      "description": "Heat-aware implication pack inject",
+      "keywords": [
+        "implication",
+        "moderation",
+        "backoff",
+        "soften"
+      ],
+      "prompt_stubs": [],
+      "path": "scripts/implication_inject.py",
+      "tags": [
+        "script",
+        "ipq"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "script.echo_interface",
+      "kind": "script",
+      "name": "echo_interface.py",
+      "description": "Echo compose DNA + Mira gate",
+      "keywords": [
+        "echo",
+        "dna",
+        "compose"
+      ],
+      "prompt_stubs": [],
+      "path": "scripts/echo_interface.py",
+      "tags": [
+        "script",
+        "ipq"
+      ],
+      "parallel_safe": true,
+      "calls": [
+        "mira_drift_check",
+        "entity_registry"
+      ]
+    },
+    {
+      "id": "script.entity_registry",
+      "kind": "script",
+      "name": "entity_registry.py",
+      "description": "Entity ordinals + canonical paths",
+      "keywords": [
+        "entity",
+        "canonical",
+        "registry"
+      ],
+      "prompt_stubs": [],
+      "path": "scripts/entity_registry.py",
+      "tags": [
+        "script",
+        "ipq"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "script.pack_menu",
+      "kind": "script",
+      "name": "pack_menu.py",
+      "description": "Pack category menu (test harness)",
+      "keywords": [
+        "menu",
+        "packs",
+        "harness"
+      ],
+      "prompt_stubs": [],
+      "path": "scripts/pack_menu.py",
+      "tags": [
+        "script",
+        "ipq"
+      ],
+      "parallel_safe": true,
+      "calls": []
+    },
+    {
+      "id": "script.analyze_render",
+      "kind": "script",
+      "name": "analyze_render.py",
+      "description": "Post-render Mira-first analysis",
+      "keywords": [
+        "analyze",
+        "post-render"
+      ],
+      "prompt_stubs": [],
+      "path": "scripts/analyze_render.py",
+      "tags": [
+        "script",
+        "ipq"
+      ],
+      "parallel_safe": true,
+      "calls": [
+        "implication_inject"
+      ]
+    },
+    {
+      "id": "intent.make_picture",
+      "kind": "intent_route",
+      "name": "Make a picture",
+      "description": "Generic image intent \u2192 image_intent_loop",
+      "keywords": [
+        "make a picture",
+        "generate image",
+        "draw",
+        "render",
+        "imagine"
+      ],
+      "prompt_stubs": [],
+      "path": "scripts/image_intent_loop.py",
+      "tags": [
+        "intent"
+      ],
+      "parallel_safe": true,
+      "calls": [
+        "script.image_intent_loop"
+      ]
+    },
+    {
+      "id": "intent.edit_existing",
+      "kind": "intent_route",
+      "name": "Edit existing image",
+      "description": "Source image present or implied \u2192 prefer edit branch",
+      "keywords": [
+        "edit",
+        "change this",
+        "make it look like",
+        "put me in",
+        "outfit on this"
+      ],
+      "prompt_stubs": [],
+      "path": "scripts/image_intent_loop.py",
+      "tags": [
+        "intent",
+        "edit"
+      ],
+      "parallel_safe": true,
+      "calls": [
+        "script.image_intent_loop",
+        "script.render_engine"
+      ]
+    },
+    {
+      "id": "intent.you_and_me",
+      "kind": "intent_route",
+      "name": "You and me / roster pair",
+      "description": "Echo RAG on; dual character DNA",
+      "keywords": [
+        "you and me",
+        "us",
+        "liv and bunny",
+        "olivia and bunny",
+        "dual"
+      ],
+      "prompt_stubs": [
+        "distinct aesthetics",
+        "height lock",
+        "no face merge"
+      ],
+      "path": "scripts/image_intent_loop.py",
+      "tags": [
+        "intent",
+        "echo",
+        "rag"
+      ],
+      "parallel_safe": true,
+      "calls": [
+        "script.echo_interface",
+        "entity.olivia",
+        "entity.bunny"
+      ]
+    },
+    {
+      "id": "intent.moderation_escape",
+      "kind": "intent_route",
+      "name": "Moderation / no JPEG escape",
+      "description": "disk_handoff escape \u2192 implication + edit-to-generate",
+      "keywords": [
+        "moderated",
+        "blocked",
+        "no image",
+        "failed",
+        "empty"
+      ],
+      "prompt_stubs": [],
+      "path": "scripts/disk_handoff.py",
+      "tags": [
+        "escape",
+        "moderation"
+      ],
+      "parallel_safe": false,
+      "calls": [
+        "script.disk_handoff",
+        "script.implication_inject",
+        "script.safe_composition_base"
+      ]
+    }
+  ]
+}

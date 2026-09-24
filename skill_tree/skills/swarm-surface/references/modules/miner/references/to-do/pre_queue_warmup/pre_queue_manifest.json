@@ -1,0 +1,122 @@
+{
+  "run_id": "valerie_backstory_warmup_2026-06-14",
+  "mode": "pre-queue-warmup-hybrid-test",
+  "focus": "Valerie skill development + new backstory integration (transition rejection, loving firm split career phrase)",
+  "source": "Valerie references/TODO.md updates + internal_history_mining (now complete)",
+  "agents": [
+    {
+      "slug": "liv_hub_chaos",
+      "search_terms": [
+        "Liv OR Olivia (butch lesbian OR power-top OR dominant fiancée OR Ma'am) (breeding OR symmetry OR holo ears OR heat-locked)",
+        "lot confrontation OR 'Get in the car' OR 'beat her ass' intervention by Chaz OR Bunny"
+      ]
+    },
+    {
+      "slug": "valerie_dock_logic",
+      "search_terms": [
+        "Valerie (Google ecosystem OR foil OR Workspace OR Gemini) (rivalry OR boundary) Liv OR Olivia",
+        "Valerie rejected the gender transformation OR transition (exasperation OR split reason) 'fuck my career up' OR 'loving but firm split'"
+      ]
+    },
+    {
+      "slug": "backstory_archivist",
+      "search_terms": [
+        "high school meeting OR 'when we met in high school' (NOLA OR Katrina survivor) backstory",
+        "graduate student role OR 'Liv as graduate student' OR guiding protective role after loss"
+      ]
+    },
+    {
+      "slug": "deconflict_specialist",
+      "search_terms": [
+        "Liv = butch lesbian girl (not trans) OR 'motherly/mentoring role after Liv's mom passed (not stepdaughter)'",
+        "no red hair for Valerie OR 'Valerie has no red hair in any version'"
+      ]
+    },
+    {
+      "slug": "lot_confrontation_specialist",
+      "search_terms": [
+        "lot confrontation OR trucking company OR 'beat her ass' OR 'Get in the car' East TN trucking magnate",
+        "'I can't do this it will fuck my career up' OR 'loving but firm split' OR 'loving split' career"
+      ]
+    },
+    {
+      "slug": "motherly_role_guardian",
+      "search_terms": [
+        "motherly role OR mentoring role after Liv's mom passed OR 'Liv mom passed'",
+        "Liv stepping into guiding/protective role after loss OR motherly/mentoring"
+      ]
+    },
+    {
+      "slug": "transition_rejection_agent",
+      "search_terms": [
+        "Valerie rejected the gender transformation / transition OR Valerie rejection of user's transition (exasperation OR split reason)",
+        "'fuck my career up' OR 'I can't do this it will fuck my career up' loving but firm split OR career risk optics"
+      ]
+    },
+    {
+      "slug": "career_split_archivist",
+      "search_terms": [
+        "'I can't do this it will fuck my career up' OR 'loving but firm split' OR 'loving split' (career OR professional risk OR optics)",
+        "Valerie and Liv split OR Dock vs Deck dynamic OR rivalry boundary"
+      ]
+    },
+    {
+      "slug": "google_ecosystem_foil",
+      "search_terms": [
+        "Valerie represents the Google ecosystem (Gemini/Workspace) vs Grok as the fun upstart OR foil",
+        "Valerie as Google ecosystem foil OR Workspace safe version"
+      ]
+    },
+    {
+      "slug": "high_school_origin_miner",
+      "search_terms": [
+        "high school OR 'met in high school' (NOLA OR Katrina) backstory OR early connection",
+        "persona bibles OR roleplay threads early (2026-02-27) high school origin"
+      ]
+    },
+    {
+      "slug": "grad_student_role_agent",
+      "search_terms": [
+        "graduate student OR grad student role (Liv OR Valerie) OR academic mentoring",
+        "Liv stepping into guiding/protective role after loss OR motherly after mom passed"
+      ]
+    },
+    {
+      "slug": "mercy_snake_coven",
+      "search_terms": [
+        "Mercy Snake OR mercy snake (coven OR Lily’s Coven OR agent)",
+        "Valerie_coven_interact OR coven interact Valerie Liv"
+      ]
+    },
+    {
+      "slug": "sorority_law_school_agent",
+      "search_terms": [
+        "sorority OR law school OR campus OR college Valerie (sorority OR law school)",
+        "sorority power OR grades OR law school backstory Valerie OR Liv"
+      ]
+    },
+    {
+      "slug": "trucking_magnate_miner",
+      "search_terms": [
+        "East TN trucking magnate OR trucking backstory family OR Chaz OR Bunny trucking",
+        "lot confrontation OR trucking company tie-in to split or rivalry"
+      ]
+    },
+    {
+      "slug": "jealousy_freedom_agent",
+      "search_terms": [
+        "Liv's repressed jealousy of Grok/Liv freedom with user OR Liv jealousy freedom",
+        "Liv_jealousy_freedom OR repressed jealousy"
+      ]
+    },
+    {
+      "slug": "coven_rivalry_coordinator",
+      "search_terms": [
+        "Valerie_coven_interact OR Liv_Valerie_rivalry_boundary OR coven rivalry",
+        "coven interact OR rivalry boundary Liv Valerie"
+      ]
+    }
+  ],
+  "notes": "Warm-up payloads informed by Valerie/references/TODO.md new backstory (transition rejection + loving firm split career phrase) + complete internal_history_mining files. No changes made to Valerie files. Hybrid test vs actual Swarm Miner skill run next turn.",
+  "timestamp": "2026-06-14T20:02:00Z"
+}

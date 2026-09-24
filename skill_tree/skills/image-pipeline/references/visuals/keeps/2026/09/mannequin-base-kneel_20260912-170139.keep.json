@@ -1,0 +1,69 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "mannequin-base-kneel_20260912-170139",
+  "slug": "mannequin-base-kneel",
+  "slug_mode": "explicit",
+  "stamp": "20260912-170139",
+  "created": "2026-09-12T17:01:39-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "olivia",
+  "heat": "2",
+  "files": {
+    "jpeg": "mannequin-base-kneel_20260912-170139.jpg",
+    "prompt": "mannequin-base-kneel_20260912-170139.prompt.md",
+    "keep": "mannequin-base-kneel_20260912-170139.keep.json"
+  },
+  "sha256": {
+    "jpeg": "4ae1c25d1e210d9c0008f9712255aab13cb8f3420a7586b95da84aa1511d57f5",
+    "prompt": "d421f194b45c6a17ded5354e2799d0d3ef5fcd60f5c2de6fecff6f42ebd13afc"
+  },
+  "prompt": "Naked baseline kneel rescue 52eca.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/52eca.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/mannequin-base-kneel_20260912-170139.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/mannequin-base-kneel_20260912-170139.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/mannequin-base-kneel_20260912-170139.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/09"
+  },
+  "drive": {
+    "status": "queued",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": null,
+    "prompt_id": null,
+    "keep_id": null,
+    "uploads": [
+      {
+        "artifact_path": "/rendered/mannequin-base-kneel_20260912-170139.jpg",
+        "file_name": "mannequin-base-kneel_20260912-170139.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/mannequin-base-kneel_20260912-170139.prompt.md",
+        "file_name": "mannequin-base-kneel_20260912-170139.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/mannequin-base-kneel_20260912-170139.keep.json",
+        "file_name": "mannequin-base-kneel_20260912-170139.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ]
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/mannequin-base-kneel_20260912-170139.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

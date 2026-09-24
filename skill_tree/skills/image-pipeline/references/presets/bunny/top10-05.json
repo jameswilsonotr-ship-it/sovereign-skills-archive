@@ -1,0 +1,30 @@
+{
+  "id": "preset.bunny.top10.05",
+  "name": "High-Contrast Chiaroscuro",
+  "version": "1.0.0",
+  "persona": "bunny",
+  "rank": 5,
+  "rank_reason": "Dramatic rim light and high-contrast lighting that sculpts the body while keeping the ink structure absolute.",
+  "tags": [
+    "bunny",
+    "top-10",
+    "rank-5"
+  ],
+  "chain": [
+    {
+      "pack": "treatment.heavy-noir",
+      "weight": 0.9
+    },
+    {
+      "pack": "photographer.helmut-newton",
+      "weight": 0.7
+    },
+    {
+      "pack": "photographer.erwin-olaf",
+      "weight": 0.6
+    }
+  ],
+  "content": {
+    "original": "Dramatic rim light and high-contrast lighting that sculpts the body while keeping the ink structure absolute."
+  }
+}
