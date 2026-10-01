@@ -1,0 +1,30 @@
+{
+  "id": "preset.valerie.top10.06",
+  "name": "Controlled Splatter Hybrid",
+  "version": "1.0.0",
+  "persona": "valerie",
+  "rank": 6,
+  "rank_reason": "Strategic splatter contained within strong vector borders \u2014 energy without loss of structural integrity.",
+  "tags": [
+    "valerie",
+    "top-10",
+    "rank-6"
+  ],
+  "chain": [
+    {
+      "pack": "treatment.chaotic-splatter",
+      "weight": 0.8
+    },
+    {
+      "pack": "treatment.graphic-dominance",
+      "weight": 0.7
+    },
+    {
+      "pack": "photographer.steven-klein",
+      "weight": 0.6
+    }
+  ],
+  "content": {
+    "original": "Strategic splatter contained within strong vector borders \u2014 energy without loss of structural integrity."
+  }
+}

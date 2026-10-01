@@ -1,0 +1,70 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "kafka-cousin-a-id_20260831-210117",
+  "slug": "kafka-cousin-a-id",
+  "slug_mode": "explicit",
+  "stamp": "20260831-210117",
+  "created": "2026-08-31T21:01:17-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "olivia",
+  "heat": "",
+  "files": {
+    "jpeg": "kafka-cousin-a-id_20260831-210117.jpg",
+    "prompt": "kafka-cousin-a-id_20260831-210117.prompt.md",
+    "keep": "kafka-cousin-a-id_20260831-210117.keep.json"
+  },
+  "sha256": {
+    "jpeg": "8c0a82e7006072d9233b89a45fd100a7e884d404e070926339eb7ec1fa622c86",
+    "prompt": "93da0b495f1339f364d199b3d783312c1952d0dba917e72b423ceb005c8ae91e"
+  },
+  "prompt": "Photoreal A-card. Kafka wardrobe lock cousin. Plum-black wave, white bib shirt, brown geometric cape magenta ruffle, magenta spider gloves, brown shorts, magenta harness, burgundy hose, mismatched boots, gray cyclorama plinth.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/Jnzsf.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/kafka-cousin-a-id_20260831-210117.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/kafka-cousin-a-id_20260831-210117.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/kafka-cousin-a-id_20260831-210117.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1VVPnofT3r3dzULY7SGApUjrwDYLUYKZ1",
+    "prompt_id": "1tUuLuOw6Xm2VZLyeljbI3uxQkYnkvFz1",
+    "keep_id": "1f1BIWO9LEmVWO-O0-k3Kpfw4c_E-8bAu",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/kafka-cousin-a-id_20260831-210117.jpg",
+        "file_name": "kafka-cousin-a-id_20260831-210117.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/kafka-cousin-a-id_20260831-210117.prompt.md",
+        "file_name": "kafka-cousin-a-id_20260831-210117.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/kafka-cousin-a-id_20260831-210117.keep.json",
+        "file_name": "kafka-cousin-a-id_20260831-210117.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-09-01T01:02:15+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/kafka-cousin-a-id_20260831-210117.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

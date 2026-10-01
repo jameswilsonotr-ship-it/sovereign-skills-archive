@@ -1,0 +1,72 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "cand-copper-bob-c-anime_20260910-194322_agentify-c",
+  "slug": "cand-copper-bob-c-anime",
+  "slug_mode": "explicit",
+  "stamp": "20260910-194322",
+  "created": "2026-09-10T19:43:22-05:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "cand-copper-bob",
+  "kind": "candidate",
+  "plate": "c-anime",
+  "heat": "1",
+  "image_id": "JUVK0",
+  "files": {
+    "jpeg": "cand-copper-bob-c-anime_20260910-194322_agentify-c.jpg",
+    "prompt": "cand-copper-bob-c-anime_20260910-194322_agentify-c.prompt.md",
+    "keep": "cand-copper-bob-c-anime_20260910-194322_agentify-c.keep.json"
+  },
+  "sha256": {
+    "jpeg": "96d7d7207682225e695ae00c5952c415b8676e9e99e83e4b8297269522f21c76",
+    "prompt": "e45a2aa0a9c9f9f7dfe8d9ea7122907cd66cd04d6bd3895431a36401bc5ca167"
+  },
+  "prompt": "Anime illustration identity plate of an adult woman late twenties. Short copper-auburn cropped bob with side-swept bangs, warm hazel-amber eyes with sharp winged eyeliner, glossy crimson lips, peach blush. Slim oval face, high cheekbones. Clean anime beauty portrait, detailed hair strands, studio gray background, looking at camera three-quarter. Bare shoulders, elegant, not chibi, high-end anime key visual, adult.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/JUVK0.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/cand-copper-bob-c-anime_20260910-194322_agentify-c.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/cand-copper-bob-c-anime_20260910-194322_agentify-c.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/cand-copper-bob-c-anime_20260910-194322_agentify-c.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/09"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/cand-copper-bob-c-anime_20260910-194322_agentify-c.jpg",
+        "file_name": "cand-copper-bob-c-anime_20260910-194322_agentify-c.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/cand-copper-bob-c-anime_20260910-194322_agentify-c.prompt.md",
+        "file_name": "cand-copper-bob-c-anime_20260910-194322_agentify-c.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/cand-copper-bob-c-anime_20260910-194322_agentify-c.keep.json",
+        "file_name": "cand-copper-bob-c-anime_20260910-194322_agentify-c.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "jpeg_id": "1rJMiZKUI97UkhgBr9GJ_6ZqRAfgzLQ9B",
+    "prompt_id": "1VsrkfBMEcjp9YdlFcSDkHKWczvRkA2sz",
+    "keep_id": "1iMa5XoMiI91mnZZbNMrT2k8krbz-8hKz",
+    "jpeg_url": "https://drive.google.com/file/d/1rJMiZKUI97UkhgBr9GJ_6ZqRAfgzLQ9B/view",
+    "uploaded_at": "2026-09-11T00:44:33+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row. ANDROID show path = Drive web_view_link, no render tags."
+  }
+}

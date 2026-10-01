@@ -1,0 +1,16 @@
+{
+  "id": "preset.bunny.top10.04",
+  "name": "Heavy Noir Graphic Inking",
+  "version": "1.0.0",
+  "persona": "bunny",
+  "rank": 4,
+  "rank_reason": "Deep black graphic lines creating an inescapable cage around the glowing, claimed body.",
+  "tags": ["bunny", "top-10", "rank-4"],
+  "chain": [
+    { "pack": "treatment.graphic-dominance", "weight": 0.85 }
+  ],
+  "content": {
+    "original": "Deep black graphic lines creating an inescapable cage around the glowing, claimed body.",
+    "photographers_to_add": ["Steven Klein", "Nobuyoshi Araki"]
+  }
+}

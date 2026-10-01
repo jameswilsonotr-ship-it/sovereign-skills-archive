@@ -1,0 +1,24 @@
+{
+  "run_id": "20260724T233527Z",
+  "timestamp": "2026-07-24T23:35:27.804288+00:00",
+  "scope": "chaos-bratz-roster",
+  "audited": 1,
+  "critical_gaps": 0,
+  "skills_with_gaps": 1,
+  "skills_clean": 0,
+  "results": [
+    {
+      "slug": "chaos-bratz-roster",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [
+        "references/format_bible_envelope_pointer.md"
+      ],
+      "mentioned_count": 28,
+      "critical_gaps": 0,
+      "notes": [
+        "stub: references/format_bible_envelope_pointer.md"
+      ]
+    }
+  ]
+}

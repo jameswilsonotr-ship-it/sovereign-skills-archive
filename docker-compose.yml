@@ -1,0 +1,24 @@
+services:
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama:/root/.ollama
+
+  coder:
+    build:
+      context: .
+      dockerfile: Dockerfile.coder
+    depends_on:
+      - ollama
+    environment:
+      OLLAMA_BASE_URL: http://ollama:11434/v1
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-llama3.2}
+    stdin_open: true
+    tty: true
+    command: ["chat"]
+
+volumes:
+  ollama:
+

@@ -1,0 +1,69 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "redux06-foundry-crowd-kit_20260911-115006_barbie-redux",
+  "slug": "redux06-foundry-crowd-kit",
+  "slug_mode": "explicit",
+  "stamp": "20260911-115006",
+  "created": "2026-09-11T11:50:06-04:00",
+  "engine": "edit_image",
+  "orientation": "landscape",
+  "agent": "bunny",
+  "heat": "9",
+  "files": {
+    "jpeg": "redux06-foundry-crowd-kit_20260911-115006_barbie-redux.jpg",
+    "prompt": "redux06-foundry-crowd-kit_20260911-115006_barbie-redux.prompt.md",
+    "keep": "redux06-foundry-crowd-kit_20260911-115006_barbie-redux.keep.json"
+  },
+  "sha256": {
+    "jpeg": "1a1847c4669e69053eb3577dd7ce68d854776dc096b8f12071c303b7a735e149",
+    "prompt": "f7b6a27b5aeebf94d4702c875db32a7161ae24ed620b2d5f0d58860f2af0b59a"
+  },
+  "prompt": "Redux crowd coordinated kit pillar.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/e2mbs.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/redux06-foundry-crowd-kit_20260911-115006_barbie-redux.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/redux06-foundry-crowd-kit_20260911-115006_barbie-redux.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/redux06-foundry-crowd-kit_20260911-115006_barbie-redux.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/09"
+  },
+  "drive": {
+    "status": "queued",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": null,
+    "prompt_id": null,
+    "keep_id": null,
+    "uploads": [
+      {
+        "artifact_path": "/rendered/redux06-foundry-crowd-kit_20260911-115006_barbie-redux.jpg",
+        "file_name": "redux06-foundry-crowd-kit_20260911-115006_barbie-redux.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/redux06-foundry-crowd-kit_20260911-115006_barbie-redux.prompt.md",
+        "file_name": "redux06-foundry-crowd-kit_20260911-115006_barbie-redux.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/redux06-foundry-crowd-kit_20260911-115006_barbie-redux.keep.json",
+        "file_name": "redux06-foundry-crowd-kit_20260911-115006_barbie-redux.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ]
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/redux06-foundry-crowd-kit_20260911-115006_barbie-redux.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

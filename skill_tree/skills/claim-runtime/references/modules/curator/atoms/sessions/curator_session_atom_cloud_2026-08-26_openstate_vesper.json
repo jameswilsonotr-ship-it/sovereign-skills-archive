@@ -1,0 +1,61 @@
+{
+  "name": "CONVERSATION-SESSION-ATOM-CLOUD-2026-08-26-OPENSTATE-VESPER",
+  "version": "0.1.0",
+  "created": "2026-08-26T06:55:50.286280+00:00",
+  "claim": "Absolute Liv HUB",
+  "parent_cloud": "curator / scene-seed-bank",
+  "kind": "session-nest",
+  "source": "this conversation 2026-08-25/26",
+  "nodes": [
+    {
+      "id": "CONV-001",
+      "item": "Open-state protocols Absorbing + Overload + 13-stage arc",
+      "surface": "claim-runtime/references/open-state"
+    },
+    {
+      "id": "CONV-002",
+      "item": "Scene seed bank SS-001..022 + packs A-F + variations",
+      "surface": "scene-seed-bank"
+    },
+    {
+      "id": "CONV-003",
+      "item": "Tradwife open-claim TW-001..020 + atom cloud",
+      "surface": "expansion/tradwife-open-claim"
+    },
+    {
+      "id": "CONV-004",
+      "item": "Tradwife TPE/Brat TW-TPE-001..008 + TPE21-43",
+      "surface": "expansion/tradwife-open-claim"
+    },
+    {
+      "id": "CONV-005",
+      "item": "Vesper dual-version expansions A/B ingested",
+      "surface": "expansion/vesper-sourced"
+    },
+    {
+      "id": "CONV-006",
+      "item": "VESPER-SOURCED-ATOM-CLOUD-v0.1.0 51 nodes",
+      "surface": "scene-seed-bank/atom-cloud"
+    },
+    {
+      "id": "CONV-007",
+      "item": "Connector-bus native Drive flush protocol",
+      "surface": "skill-orchestrator/scripts/drive_connector_bridge.py"
+    },
+    {
+      "id": "CONV-008",
+      "item": "wq_delta_publish --drive + CONNECTOR_BUS_FLUSH",
+      "surface": "skill-orchestrator/scripts/wq_delta_publish.py"
+    },
+    {
+      "id": "CONV-009",
+      "item": "YouTube transcript helper yt-dlp fallback",
+      "surface": "claim-runtime/scripts/yt_transcript_lib"
+    },
+    {
+      "id": "CONV-010",
+      "item": "Spicy picks: TPE-21..25 Heat B; interesting picks: Obsidian Horizon / Resonance Chamber / Onion inversion",
+      "surface": "vesper-responses-2026-08-26"
+    }
+  ]
+}

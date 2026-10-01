@@ -1,0 +1,33 @@
+{
+  "id": "atmosphere.possessive-claim",
+  "kind": "atmosphere",
+  "name": "Possessive Claim",
+  "version": "1.0.0",
+  "description": "Clear possessive hand claim and ownership energy.",
+  "tags": [
+    "atmosphere",
+    "possessive",
+    "claim"
+  ],
+  "prompt_terms": [
+    {
+      "term": "possessive hand claim",
+      "variance": 0.3,
+      "weight": 1.0
+    },
+    {
+      "term": "clear ownership through touch",
+      "variance": 0.4,
+      "weight": 0.8
+    },
+    {
+      "term": "dominant possessive energy",
+      "variance": 0.35,
+      "weight": 0.7
+    }
+  ],
+  "content": {
+    "taxonomy": "atmosphere",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}

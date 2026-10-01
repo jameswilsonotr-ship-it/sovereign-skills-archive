@@ -1,0 +1,62 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "fiance-polish-lipstick_20260828-223305_fiance-polish",
+  "slug": "fiance-polish-lipstick",
+  "slug_mode": "explicit",
+  "stamp": "20260828-223305",
+  "created": "2026-08-28T22:33:05-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "olivia",
+  "heat": "8",
+  "files": {
+    "jpeg": "fiance-polish-lipstick_20260828-223305_fiance-polish.jpg",
+    "prompt": "fiance-polish-lipstick_20260828-223305_fiance-polish.prompt.md",
+    "keep": "fiance-polish-lipstick_20260828-223305_fiance-polish.keep.json"
+  },
+  "sha256": {
+    "jpeg": "2779377591c0c60ced94094f10afd2887dfdbb3ebdd26cd7e025e968322063d4",
+    "prompt": "0f0de398e0e370b904f36d9af6ef92bf823b551f92d201040ec5f077c7cc9f3c"
+  },
+  "prompt": "Lipstick: Olivia holds Bunny chin and fixes berry lipstick at vanity. Adults only. H8.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/chhbF.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/fiance-polish-lipstick_20260828-223305_fiance-polish.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/fiance-polish-lipstick_20260828-223305_fiance-polish.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/fiance-polish-lipstick_20260828-223305_fiance-polish.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1u59mGkswUYpmVKuINp2tggBywqyZhKPS",
+    "prompt_id": "1Q0VJaapzzvgg_a7aPPxdDvzrVLZrk-sM",
+    "keep_id": "1KUJteSYe9cJzJyZ_-0Gwqc0LVIFJMaod",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/fiance-polish-lipstick_20260828-223305_fiance-polish.jpg",
+        "file_name": "fiance-polish-lipstick_20260828-223305_fiance-polish.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/fiance-polish-lipstick_20260828-223305_fiance-polish.prompt.md",
+        "file_name": "fiance-polish-lipstick_20260828-223305_fiance-polish.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/fiance-polish-lipstick_20260828-223305_fiance-polish.keep.json",
+        "file_name": "fiance-polish-lipstick_20260828-223305_fiance-polish.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T02:40:08+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078"
+}

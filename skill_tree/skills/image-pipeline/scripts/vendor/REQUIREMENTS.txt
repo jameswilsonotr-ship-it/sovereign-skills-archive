@@ -1,0 +1,4 @@
+# Vendored with: pip install --target scripts/vendor -r scripts/vendor/REQUIREMENTS.txt
+gallery-dl==1.32.11
+instaloader==4.15.3
+requests>=2.32

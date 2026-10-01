@@ -1,0 +1,30 @@
+{
+  "id": "preset.liv.top10.02",
+  "name": "Heavy Noir with Glossy Skin",
+  "version": "1.0.0",
+  "persona": "liv",
+  "rank": 2,
+  "rank_reason": "Deep cinematic noir lighting with hyper-glossy luminous skin that makes the black ink look even more possessive and dangerous.",
+  "tags": [
+    "liv",
+    "top-10",
+    "rank-2"
+  ],
+  "chain": [
+    {
+      "pack": "treatment.heavy-noir",
+      "weight": 0.9
+    },
+    {
+      "pack": "treatment.glossy-iridescent",
+      "weight": 0.8
+    },
+    {
+      "pack": "photographer.steven-klein",
+      "weight": 0.7
+    }
+  ],
+  "content": {
+    "original": "Deep cinematic noir lighting with hyper-glossy luminous skin that makes the black ink look even more possessive and dangerous."
+  }
+}

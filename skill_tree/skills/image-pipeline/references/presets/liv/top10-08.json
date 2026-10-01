@@ -1,0 +1,30 @@
+{
+  "id": "preset.liv.top10.08",
+  "name": "Glitch-Ink Hybrid",
+  "version": "1.0.0",
+  "persona": "liv",
+  "rank": 8,
+  "rank_reason": "Digital stutter, offset, and chromatic aberration tearing through the ink while Bunny's body glitches under the claim.",
+  "tags": [
+    "liv",
+    "top-10",
+    "rank-8"
+  ],
+  "chain": [
+    {
+      "pack": "treatment.glitch-ink",
+      "weight": 1.0
+    },
+    {
+      "pack": "photographer.steven-klein",
+      "weight": 0.7
+    },
+    {
+      "pack": "photographer.guy-bourdin",
+      "weight": 0.6
+    }
+  ],
+  "content": {
+    "original": "Digital stutter, offset, and chromatic aberration tearing through the ink while Bunny's body glitches under the claim."
+  }
+}

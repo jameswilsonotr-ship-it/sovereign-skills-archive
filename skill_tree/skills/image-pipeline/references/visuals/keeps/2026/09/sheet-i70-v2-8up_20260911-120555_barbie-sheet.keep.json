@@ -1,0 +1,69 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "sheet-i70-v2-8up_20260911-120555_barbie-sheet",
+  "slug": "sheet-i70-v2-8up",
+  "slug_mode": "explicit",
+  "stamp": "20260911-120555",
+  "created": "2026-09-11T12:05:55-04:00",
+  "engine": "contact_sheet",
+  "orientation": "landscape",
+  "agent": "bunny",
+  "heat": "8",
+  "files": {
+    "jpeg": "sheet-i70-v2-8up_20260911-120555_barbie-sheet.jpg",
+    "prompt": "sheet-i70-v2-8up_20260911-120555_barbie-sheet.prompt.md",
+    "keep": "sheet-i70-v2-8up_20260911-120555_barbie-sheet.keep.json"
+  },
+  "sha256": {
+    "jpeg": "fcb77b90b9aa6b026934282395f8e7ad3254f8dbe713156d23c7faa8c7bcecfc",
+    "prompt": "3aa7868277ced5c44f9991b700211fd5c2c2fba904ac667594f85458a067f8f0"
+  },
+  "prompt": "IP-WQ-170 8up I-70 v2 set.",
+  "source_receipt": "/home/workdir/artifacts/rendered/sheet_i70_v2_8up_20260911.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/sheet-i70-v2-8up_20260911-120555_barbie-sheet.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/sheet-i70-v2-8up_20260911-120555_barbie-sheet.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/sheet-i70-v2-8up_20260911-120555_barbie-sheet.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/09"
+  },
+  "drive": {
+    "status": "queued",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": null,
+    "prompt_id": null,
+    "keep_id": null,
+    "uploads": [
+      {
+        "artifact_path": "/rendered/sheet-i70-v2-8up_20260911-120555_barbie-sheet.jpg",
+        "file_name": "sheet-i70-v2-8up_20260911-120555_barbie-sheet.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/sheet-i70-v2-8up_20260911-120555_barbie-sheet.prompt.md",
+        "file_name": "sheet-i70-v2-8up_20260911-120555_barbie-sheet.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/sheet-i70-v2-8up_20260911-120555_barbie-sheet.keep.json",
+        "file_name": "sheet-i70-v2-8up_20260911-120555_barbie-sheet.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ]
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/sheet-i70-v2-8up_20260911-120555_barbie-sheet.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

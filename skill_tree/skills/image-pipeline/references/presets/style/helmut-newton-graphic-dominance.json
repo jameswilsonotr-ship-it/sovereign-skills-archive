@@ -1,0 +1,15 @@
+{
+  "id": "preset.style.helmut-newton-graphic-dominance",
+  "name": "Helmut Newton Graphic Dominance",
+  "version": "1.0.0",
+  "description": "Former top-level skill, now expressed as a preset chain. Combines the photographer with the graphic-dominance treatment.",
+  "tags": ["preset", "helmut-newton", "graphic-dominance"],
+  "chain": [
+    { "pack": "photographer.helmut-newton", "weight": 1.0 },
+    { "pack": "treatment.graphic-dominance", "weight": 0.95 }
+  ],
+  "content": {
+    "migrated_from": "helmut-newton-graphic-dominance skill",
+    "original_summary": "High-contrast graphic dominance in the tradition of Helmut Newton. Bold framing, dramatic rim light or direct flash, provocative power dynamics, and absolute ownership."
+  }
+}

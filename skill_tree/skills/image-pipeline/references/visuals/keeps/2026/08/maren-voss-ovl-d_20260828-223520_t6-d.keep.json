@@ -1,0 +1,62 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "maren-voss-ovl-d_20260828-223520_t6-d",
+  "slug": "maren-voss-ovl-d",
+  "slug_mode": "explicit",
+  "stamp": "20260828-223520",
+  "created": "2026-08-28T22:35:20-04:00",
+  "engine": "overlay",
+  "orientation": "landscape",
+  "agent": "candidate",
+  "heat": "0",
+  "files": {
+    "jpeg": "maren-voss-ovl-d_20260828-223520_t6-d.jpg",
+    "prompt": "maren-voss-ovl-d_20260828-223520_t6-d.prompt.md",
+    "keep": "maren-voss-ovl-d_20260828-223520_t6-d.keep.json"
+  },
+  "sha256": {
+    "jpeg": "0f9d1d409686b7d96014bd3e387558fe3fa5310c8420fc682cdba13d478b327f",
+    "prompt": "fb53631f7722087de46292bef3a5a4f81f157679effba40528545d0a17fafd0f"
+  },
+  "prompt": "OVERLAY D on /home/workdir/artifacts/rendered/maren-voss-a-realistic_20260828-220639_t2-a.jpg Character rig turnaround of Maren Voss, adult. Front three-quarter back three-quarter.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/QdlPG.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/maren-voss-ovl-d_20260828-223520_t6-d.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/maren-voss-ovl-d_20260828-223520_t6-d.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/maren-voss-ovl-d_20260828-223520_t6-d.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1q89JdWjllBuAWzcqkoHC-mfd5Ex8pT09",
+    "prompt_id": "1GVSozZrEX3RV6J0raqjlnHsYy9XfGXIQ",
+    "keep_id": "1R-pvQkauukIlmKirnCiFECyDt3AEZ8m3",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/maren-voss-ovl-d_20260828-223520_t6-d.jpg",
+        "file_name": "maren-voss-ovl-d_20260828-223520_t6-d.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/maren-voss-ovl-d_20260828-223520_t6-d.prompt.md",
+        "file_name": "maren-voss-ovl-d_20260828-223520_t6-d.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/maren-voss-ovl-d_20260828-223520_t6-d.keep.json",
+        "file_name": "maren-voss-ovl-d_20260828-223520_t6-d.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T02:35:56+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078"
+}

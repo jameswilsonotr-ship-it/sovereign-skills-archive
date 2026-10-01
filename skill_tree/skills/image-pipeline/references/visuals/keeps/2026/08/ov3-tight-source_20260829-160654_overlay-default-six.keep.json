@@ -1,0 +1,70 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "ov3-tight-source_20260829-160654_overlay-default-six",
+  "slug": "ov3-tight-source",
+  "slug_mode": "explicit",
+  "stamp": "20260829-160654",
+  "created": "2026-08-29T16:06:54-04:00",
+  "engine": "overlay",
+  "orientation": "portrait",
+  "agent": "hei-yu-miao-al-summer",
+  "heat": "2",
+  "files": {
+    "jpeg": "ov3-tight-source_20260829-160654_overlay-default-six.jpg",
+    "prompt": "ov3-tight-source_20260829-160654_overlay-default-six.prompt.md",
+    "keep": "ov3-tight-source_20260829-160654_overlay-default-six.keep.json"
+  },
+  "sha256": {
+    "jpeg": "dd5ea1f3c60f3bc12014dbc47a7e9b16c8e24b66206c2acb79663569c81bb3f1",
+    "prompt": "45ff422089ffa59864e228ac5543f4afda929aa7eef91571656fcec5480f0aab"
+  },
+  "prompt": "S3 tight source overlay pose locked",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/8WpLa.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/ov3-tight-source_20260829-160654_overlay-default-six.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/ov3-tight-source_20260829-160654_overlay-default-six.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/ov3-tight-source_20260829-160654_overlay-default-six.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1nduboHupCn4byQVRVCRPoNfTcslUrxIQ",
+    "prompt_id": "10Q8f3Uz1j-RciN8I0DSnWUJ6AwXe2IZJ",
+    "keep_id": "1XN24ae5atkCXjye2g0R8eKzD1IrJ39sp",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/ov3-tight-source_20260829-160654_overlay-default-six.jpg",
+        "file_name": "ov3-tight-source_20260829-160654_overlay-default-six.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/ov3-tight-source_20260829-160654_overlay-default-six.prompt.md",
+        "file_name": "ov3-tight-source_20260829-160654_overlay-default-six.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/ov3-tight-source_20260829-160654_overlay-default-six.keep.json",
+        "file_name": "ov3-tight-source_20260829-160654_overlay-default-six.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T20:08:10+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/ov3-tight-source_20260829-160654_overlay-default-six.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

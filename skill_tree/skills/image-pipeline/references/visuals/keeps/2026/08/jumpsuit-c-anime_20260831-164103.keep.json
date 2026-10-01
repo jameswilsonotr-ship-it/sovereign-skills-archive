@@ -1,0 +1,71 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "jumpsuit-c-anime_20260831-164103",
+  "slug": "jumpsuit-c-anime",
+  "slug_mode": "explicit",
+  "stamp": "20260831-164103",
+  "created": "2026-08-31T16:41:03-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "candidate",
+  "heat": "3",
+  "files": {
+    "jpeg": "jumpsuit-c-anime_20260831-164103.jpg",
+    "prompt": "jumpsuit-c-anime_20260831-164103.prompt.md",
+    "keep": "jumpsuit-c-anime_20260831-164103.keep.json"
+  },
+  "sha256": {
+    "jpeg": "d4c0f52793c9b5d8905bcf78b3f36408e0c4a4051e257de951864efb36708776",
+    "prompt": "5dae65f46a7df1e7a501f445206f5626738924c3837794c0c3e3f82b944b2577"
+  },
+  "prompt": "C anime jumpsuit",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/bNwB6.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/jumpsuit-c-anime_20260831-164103.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/jumpsuit-c-anime_20260831-164103.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/jumpsuit-c-anime_20260831-164103.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1ixj1FQAmlzQid30S7lrQ_-1gb7Vu2yd5",
+    "prompt_id": "1ttFv0mg5yQNZuTmDYb3iw-6h4I8nRojj",
+    "keep_id": "1t4q85PURgGMC9naLXNCuL1UsamXzCHP7",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/jumpsuit-c-anime_20260831-164103.jpg",
+        "file_name": "jumpsuit-c-anime_20260831-164103.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/jumpsuit-c-anime_20260831-164103.prompt.md",
+        "file_name": "jumpsuit-c-anime_20260831-164103.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/jumpsuit-c-anime_20260831-164103.keep.json",
+        "file_name": "jumpsuit-c-anime_20260831-164103.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "skip_reason": "prior-session backlog deferred 2026-08-31 pose-pack publish; jpeg may still exist locally",
+    "uploaded_at": "2026-08-31T21:59:47+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/jumpsuit-c-anime_20260831-164103.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

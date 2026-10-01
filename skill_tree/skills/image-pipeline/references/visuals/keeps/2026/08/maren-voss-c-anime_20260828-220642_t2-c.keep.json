@@ -1,0 +1,62 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "maren-voss-c-anime_20260828-220642_t2-c",
+  "slug": "maren-voss-c-anime",
+  "slug_mode": "explicit",
+  "stamp": "20260828-220642",
+  "created": "2026-08-28T22:06:42-04:00",
+  "engine": "generate",
+  "orientation": "portrait",
+  "agent": "candidate",
+  "heat": "0",
+  "files": {
+    "jpeg": "maren-voss-c-anime_20260828-220642_t2-c.jpg",
+    "prompt": "maren-voss-c-anime_20260828-220642_t2-c.prompt.md",
+    "keep": "maren-voss-c-anime_20260828-220642_t2-c.keep.json"
+  },
+  "sha256": {
+    "jpeg": "d42d809de56679c9c3d33a60636d209a9aae098fa3b6ee6aea848defb069d763",
+    "prompt": "f2a32d0ec3fb457fe3fd50285391853057063eb0c34dde0fdb2113aef29d69cd"
+  },
+  "prompt": "Anime VTuber-style portrait of Maren Voss, adult. mid-30s East Asian adult woman, short ink-black blunt bob with a sharp side part, warm brown eyes, olive skin, charcoal tailored briefing jacket over a black crew tee, no jewelry, no animal ears, no headband, standing at a dim night-ops table. Same bones, clean cel or modern digital glam, readable face, not chibi. adult woman, identity-stable, no text, no watermark, no extra people. Do not retrofit into Olivia or Bunny unless who is olivia or bunny.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/V96PB.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/maren-voss-c-anime_20260828-220642_t2-c.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/maren-voss-c-anime_20260828-220642_t2-c.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/maren-voss-c-anime_20260828-220642_t2-c.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "11PjunZst3-g4WqX5coNNZoN2gyXKp-9z",
+    "prompt_id": "15hMqbHcJr7JuhI4kkOzJGueCJ3mwiT7N",
+    "keep_id": "1QzsvSPgICUsLp4E5SpTBR9b2go6x-32s",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/maren-voss-c-anime_20260828-220642_t2-c.jpg",
+        "file_name": "maren-voss-c-anime_20260828-220642_t2-c.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/maren-voss-c-anime_20260828-220642_t2-c.prompt.md",
+        "file_name": "maren-voss-c-anime_20260828-220642_t2-c.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/maren-voss-c-anime_20260828-220642_t2-c.keep.json",
+        "file_name": "maren-voss-c-anime_20260828-220642_t2-c.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T02:07:42+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078"
+}

@@ -1,0 +1,11 @@
+.git
+.github
+.cursor
+__pycache__
+.pytest_cache
+*.py[cod]
+skill_tree
+snapshots
+tests
+docs
+

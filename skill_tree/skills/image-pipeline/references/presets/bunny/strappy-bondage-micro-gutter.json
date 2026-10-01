@@ -1,0 +1,50 @@
+{
+  "id": "preset.bunny.strappy-bondage-micro-gutter",
+  "name": "Strappy Bondage Micro Set — Bunny Gutter (H8–H10)",
+  "version": "1.0.0",
+  "description": "Gutter-escalated variant of the locked Heat 7 strappy bondage micro set for Bunny. Same DNA locks and core costume pack; aesthetic shifted to dangerous / owned / heavier vice signaling per coven-visual-system Heat Slider rules (H8–H10). Does not contaminate the H7 baseline.",
+  "persona": "bunny",
+  "tags": [
+    "bunny",
+    "costume",
+    "strappy-bondage-micro",
+    "gutter",
+    "heat-8-10",
+    "harness",
+    "dangerous",
+    "owned"
+  ],
+  "chain": [
+    {
+      "pack": "treatment.strappy-bondage-micro-h7",
+      "weight": 1.0
+    },
+    {
+      "pack": "treatment.heavy-noir",
+      "weight": 0.65
+    },
+    {
+      "pack": "atmosphere.raw-chaotic",
+      "weight": 0.55
+    },
+    {
+      "pack": "atmosphere.possessive-claim",
+      "weight": 0.7
+    }
+  ],
+  "content": {
+    "source_asset": "visuals/assets/costumes/strappy-bondage-micro-set/v0.1.0",
+    "heat_range": "8-10",
+    "baseline_preset": "preset.bunny.strappy-bondage-micro-h7",
+    "aesthetic_delta": "Dangerous / owned / gothic blackwork energy. Heavier vice signaling under claim. DNA locks identical to H7 baseline (including 6'1\" height difference and holo ears).",
+    "dna_locks": {
+      "height": "6'1\" (visibly taller than Olivia in duals)",
+      "hair": "symmetrical copper chin-length razor-cut bob with magenta streaks",
+      "ears": "heat-reactive holographic pink bunny ears",
+      "tattoo": "small neck bunny tattoo",
+      "build": "athletic",
+      "energy": "soft / admiring under heavier claim, symmetry-slut register still present"
+    },
+    "notes": "Use only when Heat is intentionally escalated. Keep the H7 preset for baseline work."
+  }
+}
