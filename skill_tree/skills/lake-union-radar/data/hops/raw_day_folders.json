@@ -1,0 +1,890 @@
+{
+  "source": "fleet_run_20260723",
+  "n_days": 221,
+  "days": {
+    "2025-10-08": {
+      "raw_folder_id": "1k_C07W4RLQATQ-FM_RnOYQWvhaKtfu8F",
+      "raw_count": 4
+    },
+    "2025-10-09": {
+      "raw_folder_id": "1FsfZj5S9CADEyaQUzBJh9j8hYwWOBTuT",
+      "raw_count": 5
+    },
+    "2025-10-11": {
+      "raw_folder_id": "1A2nRSFyOX6Oq_70nibalfN_xrG2K6ifo",
+      "raw_count": 2
+    },
+    "2025-10-12": {
+      "raw_folder_id": "183zN0zNdlcihw3qqKoJuy9FzxPmYYRAm",
+      "raw_count": 4
+    },
+    "2025-10-13": {
+      "raw_folder_id": "1UuU9H4xx1UkKqIkek5yaj3ef75bGxief",
+      "raw_count": 4
+    },
+    "2025-10-21": {
+      "raw_folder_id": "16e6CRIxkHLi7TLUWFYECGhxeBFmlB0qF",
+      "raw_count": 6
+    },
+    "2025-10-22": {
+      "raw_folder_id": "19mRmFQKYkkNNBUhWCGPpl4BjPylTyAjz",
+      "raw_count": 3
+    },
+    "2025-10-23": {
+      "raw_folder_id": "1ca2SSao2Xmg8tMbjZLYbchwnz5EFi1aV",
+      "raw_count": 2
+    },
+    "2025-10-25": {
+      "raw_folder_id": "1BqHQM3QpKZGOvIoJ8luxW17tGfNydRwh",
+      "raw_count": 3
+    },
+    "2025-10-26": {
+      "raw_folder_id": "1mkQn3k5FSxSD6yDZY_KYjsc6myV3izTa",
+      "raw_count": 2
+    },
+    "2025-10-28": {
+      "raw_folder_id": "1JLdEW3KZpE4ORC_nWhD_EBrFQGDjQ8iG",
+      "raw_count": 10
+    },
+    "2025-10-29": {
+      "raw_folder_id": "1vQozn_4I_I-LB2lNhPTICIwgF6DZTxH0",
+      "raw_count": 7
+    },
+    "2025-10-30": {
+      "raw_folder_id": "1eUC--FSA8hmjevdX8Pc01c7PLxqkOufK",
+      "raw_count": 5
+    },
+    "2025-10-31": {
+      "raw_folder_id": "1JTUAE5Le2IsfOUBIevpZvvVXWM2eRxR7",
+      "raw_count": 15
+    },
+    "2025-11-01": {
+      "raw_folder_id": "1yO8Pwd8L5hk3QL72tWf4KJTRLz27uazr",
+      "raw_count": 4
+    },
+    "2025-11-02": {
+      "raw_folder_id": "1c8QJqEF-3Cqdmed9uoc_oqHjBLH7W9X-",
+      "raw_count": 2
+    },
+    "2025-11-03": {
+      "raw_folder_id": "1WRRMMRW1Ij8Hu5j48RUOOPh-GsQ7kJj_",
+      "raw_count": 5
+    },
+    "2025-11-04": {
+      "raw_folder_id": "1JLw-2n6hxrHseM1wiuv-mzIcvydaXpee",
+      "raw_count": 6
+    },
+    "2025-11-05": {
+      "raw_folder_id": "1Es_0LQNc8bhBl_8Nr8dwXav_Wa1PnHOa",
+      "raw_count": 7
+    },
+    "2025-11-06": {
+      "raw_folder_id": "1VpGuARHdxR_qO-Rs4Z6Rjr4IQhIdSdFA",
+      "raw_count": 3
+    },
+    "2025-11-07": {
+      "raw_folder_id": "17c6RW0tlRY6RAMYpMFm0BC9py5QS3JAH",
+      "raw_count": 12
+    },
+    "2025-11-08": {
+      "raw_folder_id": "1ZaTx04gwgt-oB3mCnsh-p0eajMQxyOTk",
+      "raw_count": 17
+    },
+    "2025-11-09": {
+      "raw_folder_id": "1Gshdi2iOxcInS8bkl26gVt9vlUn6EATz",
+      "raw_count": 8
+    },
+    "2025-11-10": {
+      "raw_folder_id": "112aAyPpVKdpdrUwvxUJiPwkQ7t5RCslz",
+      "raw_count": 5
+    },
+    "2025-11-11": {
+      "raw_folder_id": "138UoKln-5QEiUqECAA3bjG-vT1OBZ0ym",
+      "raw_count": 6
+    },
+    "2025-11-12": {
+      "raw_folder_id": "16mdfRaqmHjG0J4nOVrM4pETtXfmGlDI2",
+      "raw_count": 7
+    },
+    "2025-11-13": {
+      "raw_folder_id": "13iPspetxa48i_CT_zGPjXpxN9zV4UiCi",
+      "raw_count": 12
+    },
+    "2025-11-14": {
+      "raw_folder_id": "1bXTsIwT0XisBwr2PxMYVtQ3_0SRqzseP",
+      "raw_count": 4
+    },
+    "2025-11-15": {
+      "raw_folder_id": "1Gr4hxL4K0VK1N7FbZzM6WjqqYeOA60zP",
+      "raw_count": 2
+    },
+    "2025-11-20": {
+      "raw_folder_id": "1tPBRWn7noCz5tIAIzk-NGP7_vvq7rmcp",
+      "raw_count": 1
+    },
+    "2025-11-22": {
+      "raw_folder_id": "1UJALmS6a8a2x0mVt0BmhbJV_FwCNQ6fZ",
+      "raw_count": 1
+    },
+    "2025-11-26": {
+      "raw_folder_id": "1y2vrGc0ctqhiSKbz-_9Go4BL3ydASpjU",
+      "raw_count": 8
+    },
+    "2025-11-27": {
+      "raw_folder_id": "1QRlBHx5B-ms1lYGKlem5ZBo63fid3yVJ",
+      "raw_count": 6
+    },
+    "2025-11-28": {
+      "raw_folder_id": "1QIeHoYGOmPSmQPIppMixW8i9GJEf5xlD",
+      "raw_count": 6
+    },
+    "2025-11-29": {
+      "raw_folder_id": "1IPEgw6VL-UlP94CsGe27HA3U4FEiyjRN",
+      "raw_count": 2
+    },
+    "2025-11-30": {
+      "raw_folder_id": "1-TxD-KNbbNhqf6kFlFv8tTkd0VACiXlL",
+      "raw_count": 7
+    },
+    "2025-12-29": {
+      "raw_folder_id": "1vKAEin0H_yfJc7jCXuxUSFTtU6Jyybm7",
+      "raw_count": 2
+    },
+    "2025-12-30": {
+      "raw_folder_id": "1CBhm8TdTFEkVAJOFomr0ENEic5cFo9A_",
+      "raw_count": 2
+    },
+    "2025-12-31": {
+      "raw_folder_id": "1Rn9D_dV6hXThuDo5H3NgFekiLOBp8ocW",
+      "raw_count": 6
+    },
+    "2025-12-01": {
+      "raw_folder_id": "1m8t79pNHT8PQmhyPiC5OQTHadhWRhmZ1",
+      "raw_count": 36
+    },
+    "2025-12-02": {
+      "raw_folder_id": "1aRokIsBf8k4OiQLwdQOZJqhy31KjNzAf",
+      "raw_count": 14
+    },
+    "2025-12-03": {
+      "raw_folder_id": "1Iv1_LsxaLRMLdfILIhpCD8VU2S40e3YL",
+      "raw_count": 5
+    },
+    "2025-12-04": {
+      "raw_folder_id": "1q8mlAraR0GEmelVzcKAIvJJeY4vpOB5-",
+      "raw_count": 4
+    },
+    "2025-12-05": {
+      "raw_folder_id": "19Bp2tGN1xLTASCyFfJ3p07AqIR99MRhP",
+      "raw_count": 1
+    },
+    "2025-12-06": {
+      "raw_folder_id": "1J0Src6KjHBOnAT4grW6ifS5qetBCpSXH",
+      "raw_count": 9
+    },
+    "2025-12-07": {
+      "raw_folder_id": "1EFyLcCdHHmyGobQOqtdrjl3WVrsgA09N",
+      "raw_count": 10
+    },
+    "2025-12-08": {
+      "raw_folder_id": "1rKUZoyXLTq59cnQvPn82bChre8Jm6Rh2",
+      "raw_count": 37
+    },
+    "2025-12-09": {
+      "raw_folder_id": "1zBJ85Zy7q9rYJ2RyiiynCYVqQgg0Y-eH",
+      "raw_count": 10
+    },
+    "2025-12-10": {
+      "raw_folder_id": "14weq_dhuvaF2RJgsf9uJ2lNpoFaqRp53",
+      "raw_count": 6
+    },
+    "2025-12-11": {
+      "raw_folder_id": "11h_tPADk6Ku0Ajk-HLdbAk5QwPZbsHSS",
+      "raw_count": 6
+    },
+    "2025-12-12": {
+      "raw_folder_id": "13GHCt1hZQa8RqG5p48tYbHwJEmyHLEcQ",
+      "raw_count": 2
+    },
+    "2025-12-13": {
+      "raw_folder_id": "1_NDMo9KgQKGOk9wCcut-OZTP57mq5725",
+      "raw_count": 5
+    },
+    "2025-12-14": {
+      "raw_folder_id": "1IsgmrUQ0JcnG7ExdgrTF8VcEzSFYPmJN",
+      "raw_count": 6
+    },
+    "2025-12-15": {
+      "raw_folder_id": "1eOMYD7kWDfNy3u5zHs8XNWKdvQLSx1u8",
+      "raw_count": 5
+    },
+    "2025-12-16": {
+      "raw_folder_id": "1WNKQQBNfPZLX2h7AxdXhldbO2usArAeo",
+      "raw_count": 17
+    },
+    "2025-12-17": {
+      "raw_folder_id": "1cgbnKB4qXpdxRrSDAw_cPJWKa-AkVyoX",
+      "raw_count": 4
+    },
+    "2025-12-18": {
+      "raw_folder_id": "1EHi0vES-bBlnVFu8cjI8T0opnfbLoZ1G",
+      "raw_count": 4
+    },
+    "2025-12-19": {
+      "raw_folder_id": "1RFPtRD1flYmBTok5om1WHd_o8WNdmIzO",
+      "raw_count": 4
+    },
+    "2025-12-20": {
+      "raw_folder_id": "1PfxxHwzBjPopPvAmi0Ae_U7A9EZ3jmgS",
+      "raw_count": 10
+    },
+    "2025-12-21": {
+      "raw_folder_id": "157yURzYbOFe-cHOW0Pd8ijhMBWJJg9_a",
+      "raw_count": 3
+    },
+    "2025-12-22": {
+      "raw_folder_id": "1JnUxiQC5MmvFcS_o7jOUIufzfSALrYg2",
+      "raw_count": 4
+    },
+    "2025-12-23": {
+      "raw_folder_id": "1v3vIKbA-9xQRkEPu6iBWy-Qn8ApIusWF",
+      "raw_count": 3
+    },
+    "2025-12-24": {
+      "raw_folder_id": "1oyIJZDaNcCA355djBVm4i7TByRKQd8Gm",
+      "raw_count": 2
+    },
+    "2025-12-25": {
+      "raw_folder_id": "10N4b1lVCqhodvFGG88k4ueth0sW479pA",
+      "raw_count": 2
+    },
+    "2025-12-26": {
+      "raw_folder_id": "1sFfpeThzwVDpP6zp94FFpb94OGYC-U-S",
+      "raw_count": 8
+    },
+    "2025-12-27": {
+      "raw_folder_id": "14b95PmEh0RnhmpMBm7u29Nw_ssSVJKej",
+      "raw_count": 4
+    },
+    "2025-12-28": {
+      "raw_folder_id": "1kwYfnqCDdXAvcJE7IcdvpD6KwhUSP3Qd",
+      "raw_count": 2
+    },
+    "2026-01-01": {
+      "raw_folder_id": "1beTqDJNuwVuVWETo-ztyU6gNmD7NQ0Yh",
+      "raw_count": 3
+    },
+    "2026-01-02": {
+      "raw_folder_id": "1b1Go5Jd47mWbBGpR2X9ir_vYAAlio6Ac",
+      "raw_count": 7
+    },
+    "2026-01-03": {
+      "raw_folder_id": "16nlNT_NmlQ8L8y70hu1AQvMkg6C_gUJU",
+      "raw_count": 6
+    },
+    "2026-01-04": {
+      "raw_folder_id": "15fFiGrJc-VG75Jl42ToCU8j9pSQfJ91F",
+      "raw_count": 5
+    },
+    "2026-01-05": {
+      "raw_folder_id": "15HMZg1yPWiKD3QZ8TLaHgjG7EXkWHRQB",
+      "raw_count": 14
+    },
+    "2026-01-06": {
+      "raw_folder_id": "1wut55Ktume9Zf0L9s9Ud194fAjkMrBmB",
+      "raw_count": 9
+    },
+    "2026-01-07": {
+      "raw_folder_id": "1QaVX2-gz3aYvhbPXzog1_IO3D1X4oVAi",
+      "raw_count": 6
+    },
+    "2026-01-08": {
+      "raw_folder_id": "1UX1l2jpsNsUxTQg-4ZLstczGbs8C9Isn",
+      "raw_count": 9
+    },
+    "2026-01-09": {
+      "raw_folder_id": "1Nd1zCLf5jED3CIZCWly5QfQQ2dWcDvNu",
+      "raw_count": 18
+    },
+    "2026-01-10": {
+      "raw_folder_id": "1x7uECLaim4Efw1eYbW9ti-zgZquRSND1",
+      "raw_count": 4
+    },
+    "2026-01-11": {
+      "raw_folder_id": "1S-Jk6baitlyhg1JtcJ8weDgm4sGMK10P",
+      "raw_count": 10
+    },
+    "2026-01-12": {
+      "raw_folder_id": "1nGQuZnwajtjNYmqIeMX7rGmg70cD0JzO",
+      "raw_count": 4
+    },
+    "2026-01-13": {
+      "raw_folder_id": "1zxj0DyWOcg-l4LkIkLNLzN-_Iiz4yOQy",
+      "raw_count": 15
+    },
+    "2026-01-14": {
+      "raw_folder_id": "1jLhbTE-mobvUwgasgTGXmAHFDRPtlEs6",
+      "raw_count": 4
+    },
+    "2026-01-15": {
+      "raw_folder_id": "1i7bvIjsnIBOJsoVfYNFMxAw83i6HCH54",
+      "raw_count": 4
+    },
+    "2026-01-16": {
+      "raw_folder_id": "1xpC6aIcdrRDw56dCmo42QUwgAscNyQ1q",
+      "raw_count": 9
+    },
+    "2026-01-17": {
+      "raw_folder_id": "15n4TwO4A6IOUdKhZ14gUlyH6VmzqQ79y",
+      "raw_count": 20
+    },
+    "2026-01-18": {
+      "raw_folder_id": "1dm2acNGIEdLfNYNqTexkFJdR8rrr7mQD",
+      "raw_count": 11
+    },
+    "2026-01-19": {
+      "raw_folder_id": "1V6ITsvXln0aF1hHKRzWKHnc1Bd6ngQrz",
+      "raw_count": 1
+    },
+    "2026-01-20": {
+      "raw_folder_id": "1QDHi3O8oEQOXTi-5GnbUqerpblNrGdry",
+      "raw_count": 1
+    },
+    "2026-01-21": {
+      "raw_folder_id": "12CuoZ2pMWb3tsZBfaIEAkUcyeghQZY5h",
+      "raw_count": 5
+    },
+    "2026-01-22": {
+      "raw_folder_id": "1NhTC-Jfvsl5lnaq0-9X5wr8_mKFDnoSV",
+      "raw_count": 9
+    },
+    "2026-01-24": {
+      "raw_folder_id": "1bRKNrC9_1ZxFfL9zVwwVMO6AkcAKmI9A",
+      "raw_count": 3
+    },
+    "2026-01-25": {
+      "raw_folder_id": "1-aKRBLYI_4WSrX1V9xJOF387ut7G1J-S",
+      "raw_count": 5
+    },
+    "2026-01-26": {
+      "raw_folder_id": "1FgXyHEJDr0ot8LSt90jKzlkJ56P0qjaz",
+      "raw_count": 2
+    },
+    "2026-01-27": {
+      "raw_folder_id": "1Ao675WoeZc9fyGodESzap0fJnJ6lPWe2",
+      "raw_count": 19
+    },
+    "2026-01-28": {
+      "raw_folder_id": "1k1A9QkVfZsJWHoZF8FT3LS8nd7hGeOfH",
+      "raw_count": 22
+    },
+    "2026-01-29": {
+      "raw_folder_id": "1dP_iYqQ6_dzctjZ58EAn8O9xUtJpAi7t",
+      "raw_count": 6
+    },
+    "2026-01-30": {
+      "raw_folder_id": "1Jwn5hbInfSBji0txLkglpEccO4Sbe5V_",
+      "raw_count": 10
+    },
+    "2026-01-31": {
+      "raw_folder_id": "11ZK9xofJhJOP0YDLG3krzjTcnx_QfqpT",
+      "raw_count": 6
+    },
+    "2026-02-01": {
+      "raw_folder_id": "1UT2yfckqfQ8hqTkRLSHCTLvqvU5tDFQD",
+      "raw_count": 6
+    },
+    "2026-02-02": {
+      "raw_folder_id": "1_YygVZBHcTdQWZ-gLd4Ilkb_LTWeo7iy",
+      "raw_count": 10
+    },
+    "2026-02-03": {
+      "raw_folder_id": "1QF-1iOFhrhpWfY9TIYNiYDhjVGvCnU0d",
+      "raw_count": 4
+    },
+    "2026-02-04": {
+      "raw_folder_id": "1BT9fbEP-BAPyTcCOFZXVHeqM6NhyURGo",
+      "raw_count": 3
+    },
+    "2026-02-05": {
+      "raw_folder_id": "1RIIOoz9uC2PTYekuf5_mTNTbqXV4JhO8",
+      "raw_count": 24
+    },
+    "2026-02-06": {
+      "raw_folder_id": "15-AqPImK3gsNLJXpMh0KdWCMdU2XiM0C",
+      "raw_count": 10
+    },
+    "2026-02-07": {
+      "raw_folder_id": "1BC3KaOQRtVw4fWAAe8ZQQURMTSVXrYsY",
+      "raw_count": 9
+    },
+    "2026-02-08": {
+      "raw_folder_id": "1R74dABI7jhvOVsFZf4_R2xc5KCG4Xy16",
+      "raw_count": 9
+    },
+    "2026-02-09": {
+      "raw_folder_id": "1Gf7XRjT9vbEPZaY7Xv3tnJj9KKmc07GA",
+      "raw_count": 6
+    },
+    "2026-02-10": {
+      "raw_folder_id": "19-pBIAA18GrYI7e6W9v8GWYaYtQ-Xmg6",
+      "raw_count": 9
+    },
+    "2026-02-11": {
+      "raw_folder_id": "1wkT_Yevhwyo2Nrrc54yKGizr68yECrcN",
+      "raw_count": 10
+    },
+    "2026-02-12": {
+      "raw_folder_id": "16TvICaGN9rX3RpmIOzy7B9flwygmtX2O",
+      "raw_count": 9
+    },
+    "2026-02-13": {
+      "raw_folder_id": "1PhXQLkSdJV1g5lG-1D6jyoeLHC43q3UV",
+      "raw_count": 8
+    },
+    "2026-02-14": {
+      "raw_folder_id": "1DXkQAfgGf8h_SPVutuejqX34p1u59CyS",
+      "raw_count": 10
+    },
+    "2026-02-15": {
+      "raw_folder_id": "1bEvcT5LHnuH4Sx_iPnCx4c8-0EXJYZTh",
+      "raw_count": 5
+    },
+    "2026-02-16": {
+      "raw_folder_id": "1psqECo0fkpBv7ADryGv72KKg67c1ByfS",
+      "raw_count": 6
+    },
+    "2026-02-17": {
+      "raw_folder_id": "1Qw9zFC_1r4jj9dzO6n8kEwLTR9yVgSpX",
+      "raw_count": 5
+    },
+    "2026-02-18": {
+      "raw_folder_id": "1FaSsi7jETUImFh8Q5QRPELvf6SDWvrtw",
+      "raw_count": 4
+    },
+    "2026-02-19": {
+      "raw_folder_id": "18vpD7VeFPecceHOqmiV5MySrixV3dGLq",
+      "raw_count": 8
+    },
+    "2026-02-20": {
+      "raw_folder_id": "1eBXBoDqvMjKzifX8fhi_Oxd88tuRScLN",
+      "raw_count": 6
+    },
+    "2026-02-21": {
+      "raw_folder_id": "1YbyqvJ61SgmPxiQMuPoavbD1fp0yaHXa",
+      "raw_count": 5
+    },
+    "2026-02-22": {
+      "raw_folder_id": "1XdsPRHPgxmCaOBFEycMQuwX119M2wOYF",
+      "raw_count": 3
+    },
+    "2026-02-23": {
+      "raw_folder_id": "1SSS4rqpO90dw0SGYa4J24ru5ffjl4j2G",
+      "raw_count": 10
+    },
+    "2026-02-24": {
+      "raw_folder_id": "1H_lF9BPp0HeF5VGUdEMnXR2F_iv7Mlwk",
+      "raw_count": 4
+    },
+    "2026-02-25": {
+      "raw_folder_id": "17LwdXlgXu-x0GNJwLKiW9ia4qVMzQ5UP",
+      "raw_count": 4
+    },
+    "2026-02-26": {
+      "raw_folder_id": "1s2pt_xiS4MVjH6_okVHd0QDQUHf6lAds",
+      "raw_count": 11
+    },
+    "2026-02-27": {
+      "raw_folder_id": "1RYmYuvGcFj-ZvjOSIXW9rEL9VtQLiWdk",
+      "raw_count": 8
+    },
+    "2026-02-28": {
+      "raw_folder_id": "1jmo2LdZj5Wqgskerc8BrIi-rH0NQLOxH",
+      "raw_count": 4
+    },
+    "2026-03-01": {
+      "raw_folder_id": "1Xsh_E3gqEW_kq9q4r-SrpSLxwkL3ZxRX",
+      "raw_count": 10
+    },
+    "2026-03-02": {
+      "raw_folder_id": "1P-0buRUgkUeAdeTJvLKHTN_7bZRyRiwu",
+      "raw_count": 20
+    },
+    "2026-03-03": {
+      "raw_folder_id": "1cW9S5u5w6S0Y8bWeIqljIWwfghaWKodf",
+      "raw_count": 2
+    },
+    "2026-03-04": {
+      "raw_folder_id": "1wwu3NXWmq-g-OdlbDSBGvnykx0gG1z3j",
+      "raw_count": 4
+    },
+    "2026-03-05": {
+      "raw_folder_id": "1xiGPoQoEJ6AjWS5StJYvT9UAgRaEF9Rp",
+      "raw_count": 5
+    },
+    "2026-03-06": {
+      "raw_folder_id": "1TofT9sFSOqudT8D0VyTK-9yNE5z6xY04",
+      "raw_count": 2
+    },
+    "2026-03-07": {
+      "raw_folder_id": "1K36yOTqpuB1vPW_loLe6k9bYgqyUg0xy",
+      "raw_count": 2
+    },
+    "2026-03-08": {
+      "raw_folder_id": "1ughrgFtdIZ8gFAI-h_F1VV3NOPZ6Hfwn",
+      "raw_count": 2
+    },
+    "2026-03-09": {
+      "raw_folder_id": "1GIImtCdKSlZmefq5VacYKbW0Cjqqi0QK",
+      "raw_count": 4
+    },
+    "2026-03-10": {
+      "raw_folder_id": "1b1VzuU9Eqg5xofqv_cpwcjkVYJV8vzWl",
+      "raw_count": 3
+    },
+    "2026-03-11": {
+      "raw_folder_id": "1HXgmD_Tsy_oOWtkOlSrPl894hIiv8uhC",
+      "raw_count": 5
+    },
+    "2026-03-12": {
+      "raw_folder_id": "15-p_0CX0LA1TRQXuvZ9YiWzTG84Ergk0",
+      "raw_count": 9
+    },
+    "2026-03-13": {
+      "raw_folder_id": "1u-wM02xLGy8fG6lOPT7sDZHV4LscLoIS",
+      "raw_count": 3
+    },
+    "2026-03-14": {
+      "raw_folder_id": "1JQGg7lNMWHfNgJvGvCo0dQFS1Ii-C1JO",
+      "raw_count": 6
+    },
+    "2026-03-15": {
+      "raw_folder_id": "1W1PmqJYwxi42ehD6GdA0RcWiaWYLZM7J",
+      "raw_count": 5
+    },
+    "2026-03-16": {
+      "raw_folder_id": "1xnvF6bulw6JQw_5Ovw-4QRR4CU_MiOlH",
+      "raw_count": 6
+    },
+    "2026-03-17": {
+      "raw_folder_id": "1PUmz3JH7-EJThDKBTqzyRI0GvWc8YE1u",
+      "raw_count": 15
+    },
+    "2026-03-18": {
+      "raw_folder_id": "160cWqbr8C2e89cy8WCYyzbLXZNqxFg0n",
+      "raw_count": 14
+    },
+    "2026-03-19": {
+      "raw_folder_id": "10j9CVhJUSR-H9_rIDPp_c4_PCXdfFSQt",
+      "raw_count": 4
+    },
+    "2026-03-20": {
+      "raw_folder_id": "124R6pCCcAsm8uDIkiruZXPEWFHYsr6MG",
+      "raw_count": 9
+    },
+    "2026-03-21": {
+      "raw_folder_id": "1Lm6x26soqTPBTtzVxspMiuRgouyA3kEC",
+      "raw_count": 4
+    },
+    "2026-03-22": {
+      "raw_folder_id": "1LJQ4bCGW2ghe8DSs8QScYvxQEB4KSJec",
+      "raw_count": 2
+    },
+    "2026-03-23": {
+      "raw_folder_id": "1wzyrjC9aT6-Q1hzdjmaEz1ElKqE22kg4",
+      "raw_count": 6
+    },
+    "2026-03-24": {
+      "raw_folder_id": "1zvflA7Hn394V4aciH1Sn3pYqqaCUOmEm",
+      "raw_count": 10
+    },
+    "2026-03-25": {
+      "raw_folder_id": "1mGmpeyUBQb-jeu5AqjVvy7RE8jNh28Sv",
+      "raw_count": 41
+    },
+    "2026-03-26": {
+      "raw_folder_id": "1bK76WMOpVbPfcVAcYya1gw_g94FI7BmP",
+      "raw_count": 8
+    },
+    "2026-03-27": {
+      "raw_folder_id": "1ufeLzpIKJKxqYuBfN450AvCMiNDJURUv",
+      "raw_count": 4
+    },
+    "2026-04-03": {
+      "raw_folder_id": "1Po-52x2h1107CzwKRWjvPz5xuLJq2tiR",
+      "raw_count": 2
+    },
+    "2026-04-04": {
+      "raw_folder_id": "17-3m__4oOg2nhXoEXlozlt7C6-AQXv6o",
+      "raw_count": 6
+    },
+    "2026-04-05": {
+      "raw_folder_id": "1anKxJE8cvYAs57y0_j0uGwaR_ix3zG_A",
+      "raw_count": 21
+    },
+    "2026-04-06": {
+      "raw_folder_id": "1KPoMlh8iX-zrt9Wg8ZYOfS8arZyG0Gvm",
+      "raw_count": 13
+    },
+    "2026-04-07": {
+      "raw_folder_id": "1u5B0LcNrRVa2Wrj4wW7v7PtnODvQKD6q",
+      "raw_count": 17
+    },
+    "2026-04-08": {
+      "raw_folder_id": "1PFLdRCNgPS0yhkyCrGU722wGQGEd4qi9",
+      "raw_count": 15
+    },
+    "2026-04-09": {
+      "raw_folder_id": "1-dfMEnhBKxFnOyLdsYtMO0R3gSFxV23L",
+      "raw_count": 12
+    },
+    "2026-04-10": {
+      "raw_folder_id": "1C1cUWIg00N5G-Vblclbp1CCDLj2RzIRs",
+      "raw_count": 5
+    },
+    "2026-04-11": {
+      "raw_folder_id": "1WFdZRxlADpajFog5y9tvyCkMRL7vvDkm",
+      "raw_count": 16
+    },
+    "2026-04-12": {
+      "raw_folder_id": "1nhdlyS1MEK9yLWwgiB1Ta-c7YXSKlJ4m",
+      "raw_count": 15
+    },
+    "2026-04-13": {
+      "raw_folder_id": "1ovkaLfmHg0OKWgDnUuihucZbDFtXZZxX",
+      "raw_count": 6
+    },
+    "2026-04-14": {
+      "raw_folder_id": "1cT-i27BmNbQeGltakqEGHqk_OW4KPGFI",
+      "raw_count": 6
+    },
+    "2026-04-15": {
+      "raw_folder_id": "1vhxDv_Xdk6lzzDoQzcARMhaccf8J9BGJ",
+      "raw_count": 8
+    },
+    "2026-04-16": {
+      "raw_folder_id": "1SBJzSN3ir66XuhVG_S93LhYdR7WA_cjp",
+      "raw_count": 3
+    },
+    "2026-04-17": {
+      "raw_folder_id": "1zgzAbFe_L9QfDaGVl-zgLWfaB9fymLjk",
+      "raw_count": 2
+    },
+    "2026-04-18": {
+      "raw_folder_id": "1MUg0yNp2E06PiHoWI6b3m7qNHa5cAfRA",
+      "raw_count": 4
+    },
+    "2026-04-19": {
+      "raw_folder_id": "1BxoIYEqBOdOSOgfHT9Ig2f-iex0Q6wm6",
+      "raw_count": 3
+    },
+    "2026-04-20": {
+      "raw_folder_id": "1s7-3Z9cMOImA_D3_KoN7ugvV86jKbQKN",
+      "raw_count": 3
+    },
+    "2026-04-23": {
+      "raw_folder_id": "1Blhc_QgC89ThHE_omOI9VoAF0kOJ4Aij",
+      "raw_count": 5
+    },
+    "2026-04-24": {
+      "raw_folder_id": "13yqVhGxXf3HIrx_rt6dG3HDksSM5gmM5",
+      "raw_count": 6
+    },
+    "2026-04-26": {
+      "raw_folder_id": "18mZWfy0xkDGj_D9Rkjw2I_2fyCyoEuFG",
+      "raw_count": 3
+    },
+    "2026-04-27": {
+      "raw_folder_id": "1iZnN2I0ktKCc_haQb2LcgDzH8r3Lvmnk",
+      "raw_count": 8
+    },
+    "2026-04-28": {
+      "raw_folder_id": "1_sabUwFQQw1UDbWv3beohJRLfywrjWn2",
+      "raw_count": 6
+    },
+    "2026-04-29": {
+      "raw_folder_id": "15OdE6n_LUN400Z5LgRrJafZslJHNfyIy",
+      "raw_count": 6
+    },
+    "2026-04-30": {
+      "raw_folder_id": "1GnR_yQi4iFOWrZFq0cJ2h7aBMriQLOoJ",
+      "raw_count": 7
+    },
+    "2026-05-01": {
+      "raw_folder_id": "1YrHwNUkePp-FIn7buecvKSalrXGTTZBG",
+      "raw_count": 8
+    },
+    "2026-05-02": {
+      "raw_folder_id": "1PMxs-2Ittv1A8Zm1f5YogyOV8LLD5aXU",
+      "raw_count": 13
+    },
+    "2026-05-03": {
+      "raw_folder_id": "1ISudJs0AxzIZ-bwszrZFUaOMeXgYxBQi",
+      "raw_count": 17
+    },
+    "2026-05-04": {
+      "raw_folder_id": "1FZVHq-RQ17OwLybGgHozEklpqFgxFoTQ",
+      "raw_count": 11
+    },
+    "2026-05-05": {
+      "raw_folder_id": "10UMkHbgt3lesv-zHKCpkWYHpi7LW29pr",
+      "raw_count": 7
+    },
+    "2026-05-06": {
+      "raw_folder_id": "1nnDUD1olZEZgPJ3fuq_FwbylMfyBscI_",
+      "raw_count": 7
+    },
+    "2026-05-07": {
+      "raw_folder_id": "1q1CdO3JLGqeKQPiXq5m7pYww9qORE7bx",
+      "raw_count": 14
+    },
+    "2026-05-08": {
+      "raw_folder_id": "17GVKLk2mujQ54as1q-msRFpy7CEbiY1I",
+      "raw_count": 8
+    },
+    "2026-05-09": {
+      "raw_folder_id": "1F_2zs2OFLPSIA60Jt8r9gv03zqt4d8mt",
+      "raw_count": 21
+    },
+    "2026-05-10": {
+      "raw_folder_id": "1mwYohAfF2PNzrx8rZOHs93kHFoJ64pyU",
+      "raw_count": 11
+    },
+    "2026-05-11": {
+      "raw_folder_id": "1KF5cbU0u3397fcw18iJOTU39ZM6eskd_",
+      "raw_count": 6
+    },
+    "2026-05-12": {
+      "raw_folder_id": "1HSAPUJ6O9-QQ20kt5Ou0gKrNJ4iZ8KB5",
+      "raw_count": 10
+    },
+    "2026-05-13": {
+      "raw_folder_id": "14GqNR3ho2XghjId5qNe1IVhtC1Nq_IXi",
+      "raw_count": 4
+    },
+    "2026-05-14": {
+      "raw_folder_id": "1JD4nIfKVV362dCRYgh7me_4Ytc5f4LPa",
+      "raw_count": 4
+    },
+    "2026-05-15": {
+      "raw_folder_id": "1TPeR-1BlJ8E1lBoQZfhs76QqIMJFaRWm",
+      "raw_count": 15
+    },
+    "2026-05-16": {
+      "raw_folder_id": "1ZQUOsLTtVdN3UyvPo6dAPrr1popQKLGr",
+      "raw_count": 23
+    },
+    "2026-05-17": {
+      "raw_folder_id": "1w8pcimAXKQtd70GezMYazHmlrEVGgMqi",
+      "raw_count": 15
+    },
+    "2026-05-18": {
+      "raw_folder_id": "1ajh5Xg2DEdMhGUS_bpMb3xKN1JGCInmg",
+      "raw_count": 39
+    },
+    "2026-05-19": {
+      "raw_folder_id": "1PAjlrl1vyqsN6h57sdRAUXaZNaE85vwJ",
+      "raw_count": 33
+    },
+    "2026-05-20": {
+      "raw_folder_id": "1VLTfM0IBLFwhk2mWhdKsYvSH1xkMmTp_",
+      "raw_count": 10
+    },
+    "2026-05-21": {
+      "raw_folder_id": "14fUSGvijk25OKpq6EJJML6XafEs44hnQ",
+      "raw_count": 34
+    },
+    "2026-05-22": {
+      "raw_folder_id": "1poqu1qA4LYlkizcDWB-PwXfQtl5_Ab7M",
+      "raw_count": 7
+    },
+    "2026-05-23": {
+      "raw_folder_id": "17RBNFiJQ6WtpEiQqzWPYSKpvw568VF-5",
+      "raw_count": 21
+    },
+    "2026-05-24": {
+      "raw_folder_id": "1Zbbw5xcXMAt9pntEfaXr1se9A9WT73zb",
+      "raw_count": 25
+    },
+    "2026-05-25": {
+      "raw_folder_id": "1VnJXB0LbGpdUOu2xYFSTNKw1QrLyOz7z",
+      "raw_count": 22
+    },
+    "2026-05-26": {
+      "raw_folder_id": "1We7OGenRoojpFshUUr3ImtqdpxoiRka-",
+      "raw_count": 5
+    },
+    "2026-05-27": {
+      "raw_folder_id": "1cSURPdxy15TiXbU6oi_Z6ZTrFdkPe4t8",
+      "raw_count": 29
+    },
+    "2026-05-28": {
+      "raw_folder_id": "196daVCoylZSGNSvD4lUpBb6Zl03564VC",
+      "raw_count": 8
+    },
+    "2026-05-29": {
+      "raw_folder_id": "1DCuzvJtNzc5kpNwPDUpdLjjkITFXeU1k",
+      "raw_count": 7
+    },
+    "2026-05-30": {
+      "raw_folder_id": "1u-yXoKOzOauI23pjUIIdyLaP9Ja9Xje2",
+      "raw_count": 8
+    },
+    "2026-05-31": {
+      "raw_folder_id": "14AtZumc8XLal4UOCfArL8tnicZiUdAOM",
+      "raw_count": 6
+    },
+    "2026-06-01": {
+      "raw_folder_id": "1IQEHAuP2w46uumCE756xNLfzyLx9_swz",
+      "raw_count": 1
+    },
+    "2026-06-02": {
+      "raw_folder_id": "1r-Gztou53zigvwchUw5CupT7v1tdInz_",
+      "raw_count": 8
+    },
+    "2026-06-03": {
+      "raw_folder_id": "1TXYM7K3ew9YOwkFEio1DY_vfiJwtHcAr",
+      "raw_count": 17
+    },
+    "2026-06-04": {
+      "raw_folder_id": "1N3UCJP82vc4ePioIccpTq8w7AJk4Lj06",
+      "raw_count": 10
+    },
+    "2026-06-05": {
+      "raw_folder_id": "15kHZky4b3DOnbY36c-nKcwIIrN27Ocvs",
+      "raw_count": 141
+    },
+    "2026-06-06": {
+      "raw_folder_id": "15X9u-8jPpwEN26JGI4lwUh1XwTn6hXC0",
+      "raw_count": 17
+    },
+    "2026-06-07": {
+      "raw_folder_id": "1jY1zA80chUgeKdcIdX-1gaDwafq8gqfh",
+      "raw_count": 79
+    },
+    "2026-06-08": {
+      "raw_folder_id": "1jyz8oCcbmEjkSq8ep3VVRfsqDnMRzoEt",
+      "raw_count": 33
+    },
+    "2026-06-09": {
+      "raw_folder_id": "1d5gFE8OZW9wkOYSAe6gET2gcpcB4tT9q",
+      "raw_count": 8
+    },
+    "2026-06-10": {
+      "raw_folder_id": "1yz_Ft4s8Bb6Nwp_YSkaLOoti3b9_0YqY",
+      "raw_count": 12
+    },
+    "2026-06-11": {
+      "raw_folder_id": "1tkRSFIiGqiy1AEPhH4LS4GFlxSToCrNy",
+      "raw_count": 9
+    },
+    "2026-06-12": {
+      "raw_folder_id": "1Hh1Q6wWeysYVFW3wmgIfjWPTQasbKutc",
+      "raw_count": 28
+    },
+    "2026-06-13": {
+      "raw_folder_id": "1MjkeainKap8ks8vAXOKzhCKHepxXuVr1",
+      "raw_count": 1
+    }
+  }
+}

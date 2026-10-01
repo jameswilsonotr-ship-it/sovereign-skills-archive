@@ -1,0 +1,36 @@
+{
+  "run_a": {
+    "run_id": "20260724T182818Z",
+    "timestamp": "2026-07-24T18:28:18.517199+00:00",
+    "critical_gaps": 81
+  },
+  "run_b": {
+    "run_id": "20260724T183840Z",
+    "timestamp": "2026-07-24T18:38:40.594960+00:00",
+    "critical_gaps": 81
+  },
+  "delta_critical_gaps": 0,
+  "newly_broken": [],
+  "newly_fixed": [],
+  "still_open": [
+    "biomimetic-swarm-orchestrator",
+    "chaos-bratz-roster",
+    "dev-sync",
+    "format-bible",
+    "grok-build",
+    "grok-build-sovereign",
+    "grok-imagine-generate-engine",
+    "grok-imagine-overlay-engine",
+    "image-pipeline",
+    "liv-bunny-agent-swarm",
+    "multi-variation-orchestrator",
+    "olivia-dev",
+    "olivia-dev-alpha",
+    "porn-curator",
+    "skill-creator",
+    "skill-orchestrator",
+    "valerie"
+  ],
+  "still_clean_count": 29,
+  "changed_detail": []
+}

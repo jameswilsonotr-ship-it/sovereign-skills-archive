@@ -1,0 +1,69 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "cand-sophie-cjump-b-heat-v2_20260912-092818_b-heat",
+  "slug": "cand-sophie-cjump-b-heat-v2",
+  "slug_mode": "explicit",
+  "stamp": "20260912-092818",
+  "created": "2026-09-12T09:28:18-04:00",
+  "engine": "edit_image",
+  "orientation": "portrait",
+  "agent": "cand-sophie-silva",
+  "heat": "2",
+  "files": {
+    "jpeg": "cand-sophie-cjump-b-heat-v2_20260912-092818_b-heat.jpg",
+    "prompt": "cand-sophie-cjump-b-heat-v2_20260912-092818_b-heat.prompt.md",
+    "keep": "cand-sophie-cjump-b-heat-v2_20260912-092818_b-heat.keep.json"
+  },
+  "sha256": {
+    "jpeg": "2ba0598a343222fb1ed52d5ecc441ec102654a678c2521300b17b4d03d0a1c9f",
+    "prompt": "97a57ed521628ba4e53abea16bce3e90a85016789b8d650a0bf5a65617990e0a"
+  },
+  "prompt": "C-jump closed C hands toward toes airborne circle box",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/8JokQ.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/cand-sophie-cjump-b-heat-v2_20260912-092818_b-heat.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/cand-sophie-cjump-b-heat-v2_20260912-092818_b-heat.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/cand-sophie-cjump-b-heat-v2_20260912-092818_b-heat.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/09"
+  },
+  "drive": {
+    "status": "queued",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": null,
+    "prompt_id": null,
+    "keep_id": null,
+    "uploads": [
+      {
+        "artifact_path": "/rendered/cand-sophie-cjump-b-heat-v2_20260912-092818_b-heat.jpg",
+        "file_name": "cand-sophie-cjump-b-heat-v2_20260912-092818_b-heat.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/cand-sophie-cjump-b-heat-v2_20260912-092818_b-heat.prompt.md",
+        "file_name": "cand-sophie-cjump-b-heat-v2_20260912-092818_b-heat.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/cand-sophie-cjump-b-heat-v2_20260912-092818_b-heat.keep.json",
+        "file_name": "cand-sophie-cjump-b-heat-v2_20260912-092818_b-heat.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ]
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/cand-sophie-cjump-b-heat-v2_20260912-092818_b-heat.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

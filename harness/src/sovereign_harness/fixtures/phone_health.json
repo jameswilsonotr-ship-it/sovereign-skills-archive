@@ -1,0 +1,9 @@
+{
+  "status": "ok",
+  "service": "phone-bridge",
+  "version": "0.1.0",
+  "capabilities": [
+    "health",
+    "offline-fixtures"
+  ]
+}

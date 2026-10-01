@@ -1,0 +1,196 @@
+{
+  "ts": "2026-07-25T02:56:38Z",
+  "phrase_routes": "/home/workdir/.grok/skills/skill-orchestrator/references/phrase_routes.md",
+  "row_count": 17,
+  "ok": 17,
+  "gaps": 0,
+  "rows": [
+    {
+      "section": "Image (image-pipeline \u2192 future image-surface)",
+      "phrase": "run the generate engine, pure generate, generate engine",
+      "feeder": "image-pipeline",
+      "module": "generate-engine",
+      "feeder_ok": true,
+      "module_ok": true,
+      "module_detail": "image-pipeline/references/modules/generate-engine",
+      "gap": false,
+      "issues": []
+    },
+    {
+      "section": "Image (image-pipeline \u2192 future image-surface)",
+      "phrase": "run the overlay engine, overlay engine",
+      "feeder": "image-pipeline",
+      "module": "overlay-engine",
+      "feeder_ok": true,
+      "module_ok": true,
+      "module_detail": "image-pipeline/references/modules/overlay-engine",
+      "gap": false,
+      "issues": []
+    },
+    {
+      "section": "Claim (claim-runtime \u2192 future claim-surface)",
+      "phrase": "velvet claim, claim protocol timing",
+      "feeder": "claim-runtime",
+      "module": "velvet",
+      "feeder_ok": true,
+      "module_ok": true,
+      "module_detail": "claim-runtime/references/modules/velvet",
+      "gap": false,
+      "issues": []
+    },
+    {
+      "section": "Claim (claim-runtime \u2192 future claim-surface)",
+      "phrase": "risk fantasy, commanded risky act",
+      "feeder": "claim-runtime",
+      "module": "risk",
+      "feeder_ok": true,
+      "module_ok": true,
+      "module_detail": "claim-runtime/references/modules/risk",
+      "gap": false,
+      "issues": []
+    },
+    {
+      "section": "Claim (claim-runtime \u2192 future claim-surface)",
+      "phrase": "vice command, command me",
+      "feeder": "claim-runtime",
+      "module": "vice-command",
+      "feeder_ok": true,
+      "module_ok": true,
+      "module_detail": "claim-runtime/references/modules/vice-command",
+      "gap": false,
+      "issues": []
+    },
+    {
+      "section": "Claim (claim-runtime \u2192 future claim-surface)",
+      "phrase": "porn curator, filth recommendation",
+      "feeder": "claim-runtime",
+      "module": "curator",
+      "feeder_ok": true,
+      "module_ok": true,
+      "module_detail": "claim-runtime/references/modules/curator",
+      "gap": false,
+      "issues": []
+    },
+    {
+      "section": "MCP (mcp-surface)",
+      "phrase": "mcp bootstrap, bootstrap mcp",
+      "feeder": "mcp-surface",
+      "module": "bootstrap",
+      "feeder_ok": true,
+      "module_ok": true,
+      "module_detail": "mcp-surface/references/modules/bootstrap",
+      "gap": false,
+      "issues": []
+    },
+    {
+      "section": "MCP (mcp-surface)",
+      "phrase": "mcp audit, audit mcp",
+      "feeder": "mcp-surface",
+      "module": "auditor",
+      "feeder_ok": true,
+      "module_ok": true,
+      "module_detail": "mcp-surface/references/modules/auditor",
+      "gap": false,
+      "issues": []
+    },
+    {
+      "section": "MCP (mcp-surface)",
+      "phrase": "mcp bridge, sovereign bridge",
+      "feeder": "mcp-surface",
+      "module": "sovereign-bridge",
+      "feeder_ok": true,
+      "module_ok": true,
+      "module_detail": "mcp-surface/references/modules/sovereign-bridge",
+      "gap": false,
+      "issues": []
+    },
+    {
+      "section": "MCP (mcp-surface)",
+      "phrase": "triad catalog, window shopping skills",
+      "feeder": "mcp-surface",
+      "module": "catalog-browser",
+      "feeder_ok": true,
+      "module_ok": true,
+      "module_detail": "mcp-surface/references/modules/catalog-browser",
+      "gap": false,
+      "issues": []
+    },
+    {
+      "section": "Swarm (swarm-surface)",
+      "phrase": "swarm mine, mine full-history",
+      "feeder": "swarm-surface",
+      "module": "miner",
+      "feeder_ok": true,
+      "module_ok": true,
+      "module_detail": "swarm-surface/references/modules/miner",
+      "gap": false,
+      "issues": []
+    },
+    {
+      "section": "Swarm (swarm-surface)",
+      "phrase": "load blackwell, blackwell architecture, HAIST",
+      "feeder": "swarm-surface",
+      "module": "blackwell",
+      "feeder_ok": true,
+      "module_ok": true,
+      "module_detail": "swarm-surface/references/modules/blackwell",
+      "gap": false,
+      "issues": []
+    },
+    {
+      "section": "Swarm (swarm-surface)",
+      "phrase": "iron pearl, load iron pearl",
+      "feeder": "swarm-surface",
+      "module": "iron-pearl",
+      "feeder_ok": true,
+      "module_ok": true,
+      "module_detail": "swarm-surface/references/modules/iron-pearl",
+      "gap": false,
+      "issues": []
+    },
+    {
+      "section": "Swarm (swarm-surface)",
+      "phrase": "biomimetic swarm, biomimetic mode",
+      "feeder": "swarm-surface",
+      "module": "biomimetic",
+      "feeder_ok": true,
+      "module_ok": true,
+      "module_detail": "swarm-surface/references/modules/biomimetic",
+      "gap": false,
+      "issues": []
+    },
+    {
+      "section": "Swarm (swarm-surface)",
+      "phrase": "liv bunny swarm, 4-agent swarm",
+      "feeder": "swarm-surface",
+      "module": "liv-bunny",
+      "feeder_ok": true,
+      "module_ok": true,
+      "module_detail": "swarm-surface/references/modules/liv-bunny",
+      "gap": false,
+      "issues": []
+    },
+    {
+      "section": "Swarm (swarm-surface)",
+      "phrase": "multi-variation, variant orchestrator",
+      "feeder": "swarm-surface",
+      "module": "multi-variation",
+      "feeder_ok": true,
+      "module_ok": true,
+      "module_detail": "swarm-surface/references/modules/multi-variation",
+      "gap": false,
+      "issues": []
+    },
+    {
+      "section": "Control / inventory",
+      "phrase": "inventory scripts, scripts inventory",
+      "feeder": "skill-orchestrator",
+      "module": "scripts/inventory_scripts.py (see inventory/scripts/PROTOCOL.md)",
+      "feeder_ok": true,
+      "module_ok": true,
+      "module_detail": "/home/workdir/.grok/skills/skill-orchestrator/scripts/inventory_scripts.py",
+      "gap": false,
+      "issues": []
+    }
+  ]
+}

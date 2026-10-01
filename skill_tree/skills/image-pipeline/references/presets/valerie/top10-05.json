@@ -1,0 +1,30 @@
+{
+  "id": "preset.valerie.top10.05",
+  "name": "Heavy Black Ink Graphic Novel Hand Claim",
+  "version": "1.0.0",
+  "persona": "valerie",
+  "rank": 5,
+  "rank_reason": "Thick black ink work with strong hand presence \u2014 undeniable proof of ownership and perfect edge definition.",
+  "tags": [
+    "valerie",
+    "top-10",
+    "rank-5"
+  ],
+  "chain": [
+    {
+      "pack": "treatment.graphic-dominance",
+      "weight": 0.9
+    },
+    {
+      "pack": "treatment.heavy-noir",
+      "weight": 0.7
+    },
+    {
+      "pack": "photographer.robert-mapplethorpe",
+      "weight": 0.7
+    }
+  ],
+  "content": {
+    "original": "Thick black ink work with strong hand presence \u2014 undeniable proof of ownership and perfect edge definition."
+  }
+}

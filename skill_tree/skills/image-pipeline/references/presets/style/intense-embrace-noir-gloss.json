@@ -1,0 +1,30 @@
+{
+  "id": "preset.style.intense-embrace-noir-gloss",
+  "name": "Intense Embrace Noir Gloss",
+  "version": "1.0.0",
+  "description": "Dramatic close-embrace with heavy noir contrast and hyper-glossy skin.",
+  "tags": [
+    "preset",
+    "embrace",
+    "noir",
+    "gloss"
+  ],
+  "chain": [
+    {
+      "pack": "pose.intense-embrace",
+      "weight": 1.0
+    },
+    {
+      "pack": "treatment.heavy-noir",
+      "weight": 0.9
+    },
+    {
+      "pack": "treatment.glossy-iridescent",
+      "weight": 0.85
+    },
+    {
+      "pack": "atmosphere.possessive-claim",
+      "weight": 0.8
+    }
+  ]
+}

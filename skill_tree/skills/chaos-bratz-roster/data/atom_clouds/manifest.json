@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.2.0",
+  "last_promoted_ts": "2026-08-05T19:24:54.031770Z",
+  "clouds": {
+    "memory": {
+      "atoms": 1629,
+      "path": "canonical/memory_atomizer.json"
+    },
+    "skill_surface": {
+      "atoms": 18333,
+      "path": "canonical/skill_surface_atomizer.json"
+    }
+  },
+  "notes": "Promoted from session artifacts via explicit promote_clouds.py"
+}

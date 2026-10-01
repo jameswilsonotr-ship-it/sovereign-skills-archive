@@ -1,0 +1,11 @@
+{
+  "$id": "agentify.wardrobe",
+  "type": "object",
+  "required": ["id", "letter", "slug", "pieces"],
+  "properties": {
+    "id": { "type": "string" },
+    "letter": { "type": "string", "pattern": "^[A-Z]$" },
+    "slug": { "type": "string" },
+    "pieces": { "type": "array", "items": { "type": "string" } }
+  }
+}

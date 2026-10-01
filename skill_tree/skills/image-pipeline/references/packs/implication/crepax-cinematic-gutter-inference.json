@@ -1,0 +1,59 @@
+{
+  "id": "implication.crepax-cinematic-gutter-inference",
+  "name": "Crepax Cinematic Gutter Inference",
+  "kind": "implication",
+  "description": "Guido Crepax Valentina-era comics style. Nouvelle-vague cinematic panel fragmentation on a graphic-narrative multi-cell page. Dense grid of micro-panels isolating eyes, lips, hands, fabric edges. Elegant nervous pen line with clustered hatching. Incomplete faces, obsessive clothing detail. Aggressive negative space (large pure white or solid black fields) that isolates the charged fragment. Erotic charge assembled by the reader across the gutters. Fashion-photography contact-sheet layout of a single slowed moment.",
+  "prompt_terms": [
+    {
+      "term": "Guido Crepax Valentina-era style",
+      "variance": 0.1,
+      "weight": 1.4
+    },
+    {
+      "term": "graphic narrative multi-cell comic page construction",
+      "variance": 0.25,
+      "weight": 1.1
+    },
+    {
+      "term": "nouvelle-vague cinematic panel fragmentation",
+      "variance": 0.25,
+      "weight": 1.0
+    },
+    {
+      "term": "dense grid of micro-panels isolating eyes lips hands fabric edges",
+      "variance": 0.3,
+      "weight": 1.0
+    },
+    {
+      "term": "aggressive negative space large pure white or solid black fields",
+      "variance": 0.3,
+      "weight": 1.1
+    },
+    {
+      "term": "elegant nervous pen line with clustered hatching for shadow",
+      "variance": 0.3,
+      "weight": 0.9
+    },
+    {
+      "term": "incomplete faces obsessive clothing detail",
+      "variance": 0.35,
+      "weight": 0.85
+    },
+    {
+      "term": "erotic charge assembled across the gutters",
+      "variance": 0.35,
+      "weight": 0.95
+    },
+    {
+      "term": "fashion-photography contact-sheet layout",
+      "variance": 0.4,
+      "weight": 0.7
+    }
+  ],
+  "content": {
+    "technique_strength": "very-high",
+    "best_heat_range": "H6-H10",
+    "moderation_softening": "extreme",
+    "notes": "2026-08-12 — added negative space + comic page construction, boosted name weight"
+  }
+}

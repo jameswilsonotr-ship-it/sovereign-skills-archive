@@ -1,0 +1,15 @@
+{
+  "track": "A",
+  "payload_id": "20260720_171700_track-a-8-memory-topics",
+  "topics": [
+    "Memory Ingestion Pipelines",
+    "Tiered Memory Evolution",
+    "Letta / MemGPT Architecture",
+    "Entropy Tagging + Prune + Handoff Strategies",
+    "Fidelity, Drift Prevention & Validation",
+    "Multi-Phase ~10 Phase Process",
+    "Multi-Phase ~20 Phase Evolution",
+    "Memory Systems Endpoints & Observability"
+  ],
+  "sidecar_enabled": true
+}

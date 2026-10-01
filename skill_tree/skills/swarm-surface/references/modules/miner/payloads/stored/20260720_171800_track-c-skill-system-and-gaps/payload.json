@@ -1,0 +1,15 @@
+{
+  "track": "C",
+  "payload_id": "20260720_171800_track-c-skill-system-and-gaps",
+  "topics": [
+    "Skill Orchestrator Standing Policy",
+    "system-roadmap Instantiation",
+    "Olivia Dev Folder Discipline Automation",
+    "Skill Lifecycle Hook / CI-CD Wiring",
+    "Legacy Skill Import-Process (Gap)",
+    "grok-conversation-miner Missing prompt_publishing.md",
+    "Image-Pipeline Pack Migration + Deprecation Wave",
+    "Memory.md Surgeon + Boot Sequence Rebuild (Planned)"
+  ],
+  "sidecar_enabled": true
+}

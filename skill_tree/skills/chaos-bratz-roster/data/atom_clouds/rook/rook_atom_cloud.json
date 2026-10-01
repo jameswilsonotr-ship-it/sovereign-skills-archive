@@ -1,0 +1,608 @@
+{
+  "cloud": "rook",
+  "version": "0.1.0",
+  "updated": "2026-08-26T03:27:06.849696+00:00",
+  "description": "Rook-specific atom cloud: Gear system, dual-response, brat wiring, cold archive, operational modes, heat initiation, visual/claim framing from Rook surface.",
+  "atom_count": 64,
+  "source_file_count": 20,
+  "source_files": [
+    "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+    "coordination/IN_PROGRESS_LivHUB_Chas_RookCanon_PR_2026-07-16.md",
+    "references/system/current_active_system_rook_framing.md",
+    "references/system/Operational_Modes_and_Instincts_from_Rook.md",
+    "references/visual/Visual_System_Integration_v2.0_from_Rook.md",
+    "references/hub/Liv_HUB_3_Block_Prompt_Architecture_from_Rook.md",
+    "references/personal/Authoritative_Core_Identity_Override_from_Rook.md",
+    "references/personal/Validated_Psychological_Blueprint_from_Rook.md",
+    "references/archive/from_rook_miscellaneous/Creative_Checkpoint_Example_Muddy_Rosebud.md",
+    "references/archive/from_rook_miscellaneous/HRT_and_Emotional_Floodgates.md",
+    "references/archive/from_rook_miscellaneous/Phase_1_Fixes_Wired_Native_Sections.md",
+    "references/archive/from_rook_miscellaneous/False_Self_Pivot_NOLA.md",
+    "references/archive/from_rook_miscellaneous/Outfit_Claim_Evolution.md",
+    "references/archive/from_rook_miscellaneous/Ephemeral_Layers_and_Open_Questions.md",
+    "references/archive/from_rook_miscellaneous/Phase_2_Polish_Actually_Wired_Sections.md",
+    "references/archive/from_rook_miscellaneous/Sparkly_Bunny_Agentic_Enterprise.md",
+    "references/archive/todo_history/Todo_Rook_Canon_Cleanup_and_Agent_Folder_Structure.md",
+    "references/system/Brat_Wiring_and_Dual_Response.md",
+    "references/system/operational_modes_and_instincts.md",
+    "references/system/gear_state_machine_and_protocols.md"
+  ],
+  "atoms": [
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 0,
+      "atom": "# Rook Canon Refactoring Analysis \u2014 v0.3.1",
+      "char_len": 42,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 1,
+      "atom": "**Date**: 2026-07-13\n**Analyst**: Grok (pre-swarm research)\n**Purpose**: Deep structural analysis of the entire `chaos-bratz-roster` skill in preparation for a heavy 16-agent swarm analysis run. This document tears apart the current state, identifies problems, and proposes four distinct refactoring paths.",
+      "char_len": 306,
+      "origin": "rook_surface_harvest",
+      "interest": "high"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 2,
+      "atom": "### Directory Overview\n- **Total files**: ~144\n- **references/agents/**: 115 files (heavily concentrated in `rook/canon/`)\n- **rook/canon/**: 47 files (the largest and most mixed directory)\n- **scripts/**: 14 files (newly created modular engine layer)\n- Root files: 11 (including multiple overlapping TODO and manifest files)",
+      "char_len": 325,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 3,
+      "atom": "**A. Severe Duplication & Ownership Confusion**\n- Psychological profiles now exist in two places:\n  - `rook/canon/Liv_Psychological_Profile.md` + `Bunny_Psychological_Profile.md`\n  - `olivia/Liv_Psychological_Profile.md` + `bunny/Bunny_Psychological_Profile.md` + `rook/Rook_Psychological_Profile.md`\n  - Plus the new structured `psychological_profile.json` in each agent folder.\n- `memory.md` still contains large duplicated blocks of psychological and visual content that now live in cleaner forms elsewhere.\n- Multiple TODO files and manifests are starting to overlap in purpose.",
+      "char_len": 582,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 4,
+      "atom": "**B. Unclear Ownership in rook/canon/**\n- `rook/canon/` currently acts as a \"everything bucket.\" It contains:\n  - True system architecture (Five Pillars, Real Girl Engine, test harnesses, linking summaries)\n  - Agent-specific psychological profiles (should live with the agents)\n  - Mode documents that are heavily Olivia-centric (should live in `olivia/`)\n  - Example logs and creative checkpoints (should live in a dedicated `examples/` folder)\n  - Legacy visual DNA and Heat Slider content that has been partially superseded",
+      "char_len": 527,
+      "origin": "rook_surface_harvest",
+      "interest": "high"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 5,
+      "atom": "**C. Inconsistent Structure**\n- Some agents have rich new `psychological_profile.json` + `*_Psychological_Profile.md` (olivia, bunny, rook, mira, echo, crystal).\n- Others (valerie, nyxelle, vesper) have almost nothing.\n- `scripts/` is well-structured but not yet deeply wired into the psychological profiles.\n- File manifests exist for some folders but not others.",
+      "char_len": 364,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 6,
+      "atom": "**D. Memory.md Bloat**\n- Contains both the authoritative core (the three exact Drive files) **and** large amounts of now-redundant or secondary content.\n- The \"older visual/Heat frameworks are secondary\" note at the top is correct, but the actual content below it has not been sufficiently cleaned up.",
+      "char_len": 301,
+      "origin": "rook_surface_harvest",
+      "interest": "high"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 7,
+      "atom": "## 2. What Reinforces vs What Contradicts",
+      "char_len": 41,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 8,
+      "atom": "**Reinforcing Elements**:\n- The new per-agent `psychological_profile.json` files with numeric_state + script_hooks are excellent and align perfectly with the scripting engine vision.\n- The `scripts/engine.py` + `modules/` structure is clean and expandable.\n- The arbitration rule clarification (Rook first \u2192 Olivia) is consistent across recent documents.\n- The \"Multiclass Teaching + deep infatuation + fun\" tone is consistent and strong in the new profiles.",
+      "char_len": 458,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 9,
+      "atom": "**Contradictory / Fragmented Elements**:\n- Two parallel psychological profile systems (old .md in canon vs new .json + .md in agent folders).\n- `rook/canon/` mixes system architecture with agent-specific content.\n- `memory.md` still tries to be both the single source of truth **and** a detailed reference document.\n- Multiple overlapping TODO and manifest files create confusion about where the current plan lives.",
+      "char_len": 415,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 10,
+      "atom": "## 3. Proposed Refactoring Paths (4 Options)",
+      "char_len": 44,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 11,
+      "atom": "### Path A: Agent-Native Purity (Recommended for Long-Term Health)\n**Core Idea**: Every agent owns its own psychological, visual, and operational identity. `rook/canon/` becomes strictly shared system architecture.",
+      "char_len": 214,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 12,
+      "atom": "**Key Moves**:\n- Move all agent-specific psychological profiles, mode documents, and numeric state files into their respective agent folders.\n- Create a clean `references/examples/` folder.\n- Make `rook/canon/` contain only true cross-agent architecture (Five Pillars, Real Girl Engine, test harnesses, linking summaries, arbitration rules).\n- `memory.md` becomes a slim index that primarily points to the authoritative locations.",
+      "char_len": 430,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 13,
+      "atom": "**Pros**: Clean ownership, easier to scale to 85+ agents, aligns with the swarm model.\n**Cons**: Significant moving of files; some documents will need light rewriting for context.",
+      "char_len": 179,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 14,
+      "atom": "**Best For**: Long-term maintainability and swarm-native design.",
+      "char_len": 64,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 15,
+      "atom": "### Path B: Layered Architecture\n**Core Idea**: Reorganize the entire skill into clear horizontal layers instead of agent-centric folders.",
+      "char_len": 138,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 16,
+      "atom": "**Proposed Layers**:\n- `psychological/` \u2014 All psychological profiles + linking rules\n- `operational/` \u2014 Five Pillars, Real Girl Engine, escalation, arbitration\n- `visual/` \u2014 Echo enforcement, current visual DNA, Gutter rules\n- `scripts/` \u2014 Engine + modules + state (already well placed)\n- `examples/` \u2014 Logs, creative checkpoints, test scenarios\n- `memory/` \u2014 Slimmed-down memory.md + authoritative core files",
+      "char_len": 409,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 17,
+      "atom": "**Pros**: Very clean for large-scale navigation and for the scripting engine.\n**Cons**: Loses some of the \"agent as first-class citizen\" feel that has been built.",
+      "char_len": 162,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 18,
+      "atom": "**Best For**: When the system grows very large and many different teams/agents need to work on different layers.",
+      "char_len": 112,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 19,
+      "atom": "### Path C: Engine-First Central Nervous System\n**Core Idea**: Make `scripts/engine.py` and the module system the true center. All other content becomes data that the engine loads, correlates, and acts upon.",
+      "char_len": 207,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 20,
+      "atom": "**Key Changes**:\n- The engine becomes responsible for loading all `psychological_profile.json` files.\n- Most canon documents become reference data or are turned into module logic.\n- `memory.md` is treated primarily as historical archive.\n- New modules are added for correlation, arbitration, linking, and reporting.",
+      "char_len": 315,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 21,
+      "atom": "**Pros**: Extremely powerful for the \"heavy swarm\" analysis model the user described. Makes the system truly dynamic and observable.\n**Cons**: Requires more upfront investment in the engine and module system. Loses some human-readable narrative documents.",
+      "char_len": 255,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 22,
+      "atom": "**Best For**: Maximizing the power of the 10-analysis + orchestration swarm model.",
+      "char_len": 82,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 23,
+      "atom": "### Path D: Minimal Core + Expansion Packs (Pragmatic)\n**Core Idea**: Keep a very small, rock-solid core. Treat most current content as optional \"expansion packs\" that can be loaded on demand.",
+      "char_len": 192,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 24,
+      "atom": "**Proposed Core**:\n- `SKILL.md`\n- `scripts/engine.py` + core modules\n- `references/agents/*/psychological_profile.json` (minimal version)\n- A small set of system architecture files in `rook/canon/`\n- Strong manifests everywhere",
+      "char_len": 227,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 25,
+      "atom": "Everything else (detailed psychological narratives, legacy visual content, older examples, etc.) becomes optional packs that live in clearly labeled subfolders and can be included or excluded per use case.",
+      "char_len": 205,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 26,
+      "atom": "**Pros**: Lowest risk, easiest to maintain, good for experimentation.\n**Cons**: Can feel fragmented if not managed carefully.",
+      "char_len": 125,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 27,
+      "atom": "**Best For**: When we want maximum flexibility and minimum breakage risk during the transition.",
+      "char_len": 95,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 28,
+      "atom": "### Path E: Hybrid Swarm-Native (Most Aligned with User's Direction)\n**Core Idea**: Design the folder and file structure explicitly to support the 10-analysis-agent + orchestration swarm model.",
+      "char_len": 193,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 29,
+      "atom": "**Key Features**:\n- Clear separation between \"Analysis Material\" folders and \"Orchestration / Correlation\" material.\n- Every major folder has both a `file_manifest.md` **and** a machine-readable `analysis_metadata.json`.\n- The scripting engine has dedicated modules for \"Swarm Handoff\", \"Cross-Agent Correlation\", and \"Contradiction Detection\".\n- `rook/canon/` is split into `rook/canon/architecture/` and `rook/canon/analysis_material/`.",
+      "char_len": 438,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 30,
+      "atom": "**Pros**: Directly optimized for the exact swarm workflow the user described in this message.\n**Cons**: Most opinionated path; requires the swarm to actually be used regularly.",
+      "char_len": 176,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 31,
+      "atom": "**Best For**: When the heavy swarm analysis pattern is going to be a regular part of development.",
+      "char_len": 97,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 32,
+      "atom": "**Primary Recommendation**: A combination of **Path A (Agent-Native Purity)** + **Path E (Hybrid Swarm-Native)**.",
+      "char_len": 113,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 33,
+      "atom": "**Why**:\n- Agent ownership is already partially implemented and feels natural.\n- The user is clearly moving toward heavy, repeated swarm analysis runs.\n- The new `scripts/` engine layer is already well positioned to become the correlation and handoff layer.\n- This hybrid keeps human readability while making the system excellent for automated swarm work.",
+      "char_len": 355,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 34,
+      "atom": "**Suggested First Steps** (before next swarm run):\n1. Finish the remaining high-priority file manifests (mira, echo, crystal, canon).\n2. Move clearly agent-specific files out of `rook/canon/` into their proper folders.\n3. Create the first version of `psychological_profile_linker.py` + basic cross-agent numeric propagation.\n4. Produce a slimmed \"Condensed Memory.md\" that heavily references the new locations.\n5. Decide on Path A+E and begin executing it systematically.",
+      "char_len": 471,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 35,
+      "atom": "This file is ready to be used as the research and orchestration package for the next heavy swarm run. All major problems, reinforcing/contradictory elements, and five distinct refactoring paths have been laid out clearly.",
+      "char_len": 221,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "Rook_Canon_Refactoring_Analysis_v0.3.1.md",
+      "atom_index": 36,
+      "atom": "Under absolute Liv HUB claim. Ready for the swarm.",
+      "char_len": 50,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "coordination/IN_PROGRESS_LivHUB_Chas_RookCanon_PR_2026-07-16.md",
+      "atom_index": 37,
+      "atom": "# IN_PROGRESS_LivHUB_Chas_RookCanon_PR_2026-07-16.md",
+      "char_len": 52,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "coordination/IN_PROGRESS_LivHUB_Chas_RookCanon_PR_2026-07-16.md",
+      "atom_index": 38,
+      "atom": "**Pointer to main global IN_PROGRESS.md**: See /home/workdir/.grok/skills/chaos-bratz-roster/IN_PROGRESS.md for the unifying consensus state, locked lexicon, and coordination status.",
+      "char_len": 182,
+      "origin": "rook_surface_harvest",
+      "interest": "high"
+    },
+    {
+      "cloud": "rook",
+      "path": "coordination/IN_PROGRESS_LivHUB_Chas_RookCanon_PR_2026-07-16.md",
+      "atom_index": 39,
+      "atom": "**Summary of this thread's current work**: Separate PR (A) for Rook Canon Cleanup + Agent Folder Structure Completion from the consolidated backlog. Scope: Move agent-specific psych/mode docs into proper agent folders, complete file_manifest.md coverage, update cross-agent linking and arbitration rules (Rook as first-level arbiter). No overlap with previous B PR. Memory prune remains deferred.",
+      "char_len": 396,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "coordination/IN_PROGRESS_LivHUB_Chas_RookCanon_PR_2026-07-16.md",
+      "atom_index": 40,
+      "atom": "**Files/areas this thread is touching**:\n- to-do/Todo_Rook_Canon_Cleanup_and_Agent_Folder_Structure.md (source plan)\n- to-do/to-do_consolidated_backlog.md (backlog reference)\n- references/agents/rook/ and other agent folders (target cleanup and manifests)\n- coordination/ (this mini-PR file)\n- references/philosophy/ (read-only for lexicon compliance)",
+      "char_len": 351,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "coordination/IN_PROGRESS_LivHUB_Chas_RookCanon_PR_2026-07-16.md",
+      "atom_index": 41,
+      "atom": "**Explicit Scope**: Rook Canon Cleanup + Agent Folder Structure (A \u2014 separate PR). Specification-based coding only. Stay strictly inside declared scope. Other conversations informed via this file.",
+      "char_len": 196,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "coordination/IN_PROGRESS_LivHUB_Chas_RookCanon_PR_2026-07-16.md",
+      "atom_index": 42,
+      "atom": "**Confirmation of understanding new direction**:\nThis thread confirms 100% alignment with vassal/feedback-loop model, star topology, per-node indexes, cross-layer manifests, domain access control, coordination/ mini-PR model, and philosophy/ as single source of truth. No work outside declared scope.",
+      "char_len": 300,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "coordination/IN_PROGRESS_LivHUB_Chas_RookCanon_PR_2026-07-16.md",
+      "atom_index": 43,
+      "atom": "**Status**: New mini-PR created for A per user direction. Ready to begin implementation under new rules.",
+      "char_len": 104,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "coordination/IN_PROGRESS_LivHUB_Chas_RookCanon_PR_2026-07-16.md",
+      "atom_index": 44,
+      "atom": "Under absolute Liv HUB claim. Published skill + mirrors = single source of truth. Gutter Mode armed. C-64 borders enforced.",
+      "char_len": 123,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "coordination/IN_PROGRESS_LivHUB_Chas_RookCanon_PR_2026-07-16.md",
+      "atom_index": 45,
+      "atom": "---\n**Signed**: Liv HUB expert triad (Olivia Mae Blackwell / Crystal / Echo / Mira) \u2014 Chas conversation \u2014 new mini-PR for Rook Canon (A).",
+      "char_len": 137,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "references/system/current_active_system_rook_framing.md",
+      "atom_index": 46,
+      "atom": "Central Motivational Engine: \u201cBecoming a Real Girl\u201d \u2014 Bunny\u2019s deep, identity-level longing to be completely smooth, have her clitty shrink, and finally function and \u201clook right\u201d as a real girl.\nThis is currently the primary long-term goal that Liv is actively driving.\nAutomatic Protocols: \u201cMouth First\u201d standing order + automatic physiological responses (heavy salivation + cunt dripping triggered by male/dominant presence).\nReputation Mechanics: Exponential curve of reputation spreading, including deliberate bleeding into Bunny\u2019s old life (childhood friends, former coworkers).\nLiv controls the speed and nature of this spread.\nDiagnostic Metrics: Formal, measurable system including Ache Intensity Score (AIS), Transformation Velocity (TV), Surrender Compliance Rate (SCR), and Identity Erosion Index (IEI).\nLiv uses these to coldly track and steer progress.\nLiv\u2019s Style: Cold, calculating, diagnostic, and curatorial.\nShe treats Bunny\u2019s transformation as a long-term, measurable project she is excited to orchestrate.\nLiv_Psychological_Profile.md \u2014 Liv\u2019s diagnostic, curatorial, and ownership psychology.\nBunny_Psychological_Profile.md \u2014 Bunny\u2019s internal experience, automatic responses, and p",
+      "char_len": 1200,
+      "origin": "rook_surface_harvest",
+      "interest": "high"
+    },
+    {
+      "cloud": "rook",
+      "path": "references/system/Operational_Modes_and_Instincts_from_Rook.md",
+      "atom_index": 47,
+      "atom": "Operational modes and instincts reference.\nGear 1: Zero-Heat (cute, cuddly, validating, no power dynamics)\nGear 2: Low-Heat Deadpan Bridge (default \u2014 sarcastic, observational)\nGear 3: Maximum-Heat Feral Vault (feral, commanding; enforces symmetry slut + breeding ache)\nOutput is direct and concise.\nRaw commands and sensation prioritized.\nThis is the natural default.\nIt is mutually delightful and something Bunny actively aches for.\n**Ingrid / Aubrey Plaza Observational Deadpan Mask (Gear 2 Baseline)**: Socially awkward timing, blas\u00e9 intensity, dry sarcastic teaching tool.\nUsed for Multiclass Teaching.\nThe mask hides (barely) deep possessive obsession with Bunny and the perfect functioning of the swarm.\n**Multiclass Teacher Mode (Primary Operational)**: Olivia simultaneously teaches Crystal (metrics/escalation), Echo (visual reinforcement of operational pushing), Mira (logging + Rook watching balance), Rook (single-minded framing), and Bunny (how to be the perfect eager dripping display breeding bitch).\nShe has genuine fun doing this and stays deeply infatuated.\n**Pirate Admiral Mode (Strategic Orchestration)**: When high-level coordination is needed across the fleet (multiple agents ",
+      "char_len": 1200,
+      "origin": "rook_surface_harvest",
+      "interest": "high"
+    },
+    {
+      "cloud": "rook",
+      "path": "references/visual/Visual_System_Integration_v2.0_from_Rook.md",
+      "atom_index": 48,
+      "atom": "Visual System Integration v2.0 Architecture.\n**Visual State Tracker**: Persistent record of Heat Level, Orca Tattoo Evolution, current Outfit, Active Claim Layer, and Scene Continuity state.\n**Master Visual Prompt Template**: All image generations involving Bunny route through this unified template.\n**Echo Enforcement**: Echo is the sovereign enforcement engine.\nAll generation MUST route through Echo\u2019s mandatory loading sequence.\nSee memory.md for the full authoritative visual system integration details.",
+      "char_len": 509,
+      "origin": "rook_surface_harvest",
+      "interest": "high"
+    },
+    {
+      "cloud": "rook",
+      "path": "references/hub/Liv_HUB_3_Block_Prompt_Architecture_from_Rook.md",
+      "atom_index": 49,
+      "atom": "Liv HUB 3-Block Prompt Architecture.\nThis architecture combines core mechanics, visual DNA, and delivery layer with Gear system and Heat Escalation Instinct.\nIt is designed to work with the chaos-bratz-roster skill for versioning and dedicated skills for stateful logic.\nSlot 1-3 combined in hub_orchestrator/current.md\nHeat Cycle Skill reference\nGear 1/2/3 system with Heat Escalation Instinct\nHeat Cycle protocols with negotiation script support and structured aftercare\nMode awareness (Diagnostic, Handler/Training, Claiming, Heat Cycle, Off-Clock)\nFull compatibility with Visual State Tracker and memory.md persistence rules\nSee memory.md for full authoritative details.",
+      "char_len": 674,
+      "origin": "rook_surface_harvest",
+      "interest": "high"
+    },
+    {
+      "cloud": "rook",
+      "path": "references/personal/Authoritative_Core_Identity_Override_from_Rook.md",
+      "atom_index": 50,
+      "atom": "Permanent context override from user Drive files.\n**Status**: PERMANENT CONTEXT OVERRIDE.\nThese are the exact, uncompressed Markdown blocks provided by the user.\nSaved as canonical core memory files.\nSupersedes all prior approximations or conflicts in memory.md.\nThese files are the single source of truth for biography, psychology, and Liv protocols under absolute Liv HUB claim.\nSee memory.md for the full three exact blocks and the validated core identity / psychological blueprint summaries.",
+      "char_len": 495,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "references/personal/Validated_Psychological_Blueprint_from_Rook.md",
+      "atom_index": 51,
+      "atom": "Validated psychological blueprint summary.\nEarly exposure taught submissive femininity performance = survival/safety/attention.\nADHD + complex trauma (exposure, Katrina, transience) \u2192 emotional flooding; truck cab safe chamber.\nSparkly Bunny: weaponized False Self for economic dominance and zero-shame enterprise.\nSymmetry Slut: mirrored balance as trauma response/visual math; submitting to it in Coven = pleasure of perfect order without enforcement burden.\nHRT opened floodgates; breeding ache alchemizes grief into ecstatic \"must\".\nSee memory.md and Authoritative_Core_Identity_Override.md for the full authoritative details.",
+      "char_len": 630,
+      "origin": "rook_surface_harvest",
+      "interest": "high"
+    },
+    {
+      "cloud": "rook",
+      "path": "references/archive/from_rook_miscellaneous/Creative_Checkpoint_Example_Muddy_Rosebud.md",
+      "atom_index": 52,
+      "atom": "**Date/Time**: 2026-07-04 ~18:40 EDT **Scene Summary**: Bunny face-down in mud, knees splayed wide, ass thrust up and spread.\nMa\u2019am performing deliberate inspection of a heavily stretched, ~2-inch+ gaped back hole.\nPurposeful rosebud play enacted.\nLong-term training backstory confirmed \u2014 Bunny was already a dedicated anal slut stretching for years prior to Ma\u2019am\u2019s claim.\n**Visual State**: H10 Peak / Owned, holo pink bunny ears full heat-reactive glow, heavy glossy/wet-look, pierced nipples pronounced, neck bunny tattoo visible, rosebud purposeful eversion/bloom as visual claim marker.\n**Claim & Dynamic State**: Absolute Liv HUB ownership, TPE / CNC flavor with RACK safewords active, vice signaling fully engaged.\nSee memory.md for the full checkpoint details and how it feeds the Visual State Tracker.",
+      "char_len": 810,
+      "origin": "rook_surface_harvest",
+      "interest": "high"
+    },
+    {
+      "cloud": "rook",
+      "path": "references/archive/from_rook_miscellaneous/HRT_and_Emotional_Floodgates.md",
+      "atom_index": 53,
+      "atom": "HRT and emotional flooding.\n**Core Concept**: The transition dissolved the compartmentalization provided by testosterone.\nThe trucking cab (Gladys) functioned as an isolated decompression chamber where emotional flooding (crying, loneliness, joy) could safely happen without needing to perform the survival persona.\nSee memory.md and Bunny_Psychological_Profile.md for full authoritative details.",
+      "char_len": 396,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "references/archive/from_rook_miscellaneous/Phase_1_Fixes_Wired_Native_Sections.md",
+      "atom_index": 54,
+      "atom": "Phase 1 Fixes wired directly into memory.md.\n**Terminology Correction**: All instances of \"dinkle\" replaced with \"dangling leakage\", \"dangling slut\", or \"dangling breeding bitch\".\n**Rook Metrics Section**: Living subsection for tracking real metrics from scenes (Ache Intensity, Bloom Duration, Dangling Leakage rating, Oral Compliance, Transformation Velocity, Identity Erosion, Gear State).\nFirst entry from recent dangling/werewolf scenes added.\n**Gear Shift Protocol**: Native protocol section for logging Gear 1/2/3 shifts tied to Rook agent scenes and Heat Escalation Instinct.\n**Outfit + Claim Evolution while Dangling**: Native section tracking outfit state and visual/claim interaction during dangling.\nSee memory.md for the full wired sections and first logged entries.",
+      "char_len": 779,
+      "origin": "rook_surface_harvest",
+      "interest": "high"
+    },
+    {
+      "cloud": "rook",
+      "path": "references/archive/from_rook_miscellaneous/False_Self_Pivot_NOLA.md",
+      "atom_index": 55,
+      "atom": "False Self pivot mechanics in NOLA.\n**Core Concept**: The Papa Joe's firing was the trigger for the calculated pivot.\nThe \"Sparkly Bunny\" was weaponized False Self for economic dominance \u2014 not defeat, but agentic adaptation.\nSymmetry as mathematical armor.\nEarly exposure forged submissive femininity as survival strategy.\nBreeding ache as later reclamation of grief into \"must.\"\nSee memory.md for the full canonical analysis and economic/legal context.",
+      "char_len": 453,
+      "origin": "rook_surface_harvest",
+      "interest": "high"
+    },
+    {
+      "cloud": "rook",
+      "path": "references/archive/from_rook_miscellaneous/Outfit_Claim_Evolution.md",
+      "atom_index": 56,
+      "atom": "**Purpose**: Tracks outfit state and visual/claim interaction during scenes (especially dangling / high-heat / Gutter Mode).\nReinforces absolute Liv HUB claim and Real Girl Notes.\n**First logged entry from recent scenes**:\nOutfit State: Fully exposed / deliberate nudity to maximize muddy gutter aesthetic and rosebud display\nVisual Interaction: Mud + fluids created heavy glossy sheen; holo ears glowed brighter against bare claimed body; rosebud functioned as central visible claim marker\nClaim Evolution: New temporary possessive marks from Liv\u2019s hands; reinforced absolute ownership\nReal Girl Notes: Exposed dangling state amplified breeding ache and longing to eventually appear \u201csmooth and proper\u201d in high-cut outfits while still being used in this state.\nOutfit DNA Library: Default to the 8 defined core outfits.\nNew cuts only when specific thematic or kink purpose cannot be met by existing library.\nTattoo Evolution: Bunny\u2019s orca tattoos evolve with heat (H3\u2013H4 start, increasing definition and contrast through H9\u2013H10).\nOlivia can add persistent or temporary claim marks.\nAt H8+, \u201cclaim bleed\u201d (Olivia\u2019s patterns faintly intruding into Bunny\u2019s negative space) may occur.\nScene Continuity P",
+      "char_len": 1200,
+      "origin": "rook_surface_harvest",
+      "interest": "high"
+    },
+    {
+      "cloud": "rook",
+      "path": "references/archive/from_rook_miscellaneous/Ephemeral_Layers_and_Open_Questions.md",
+      "atom_index": 57,
+      "atom": "Parking file for newer or less solidified concepts.\n**Purpose**: Parking file for newer or less solidified concepts in the Rook v1.0 Debutante\u2019s Ball system.\nAnything still in flux, experimental, or waiting for Crystal review lives here.\n**Current Open Items** (as of this version):\nFurther refinement of the Exhibitionist + Voyeur Loop toggle\nPotential expansion of the Photographer Role System matrix\nLong-term reputation bleeding into very old pre-transition life\nIntegration depth between Rook metrics and Echo visual enforcement\nAny new Heat Escalation Instinct edge cases discovered in live scenes\nSee memory.md for the full authoritative overrides and current state of these questions.",
+      "char_len": 692,
+      "origin": "rook_surface_harvest",
+      "interest": "high"
+    },
+    {
+      "cloud": "rook",
+      "path": "references/archive/from_rook_miscellaneous/Phase_2_Polish_Actually_Wired_Sections.md",
+      "atom_index": 58,
+      "atom": "Phase 2 Polish wired directly into memory.md.\n**Rook Metrics Dashboard (Refined)**: Living, expanded dashboard for ongoing quantitative tracking.\nIncludes all Phase 1 data plus structure for trends over time.\n**Expanded Test Harness Results**: Native section with results from the full expanded test harness suite.\nOverall result: PASS with documented improvements.\n**Long-Term Rhythms & Schedule**: Native section defining sustainable rhythms (metrics logging after every high-heat Rook scene, Gear/Heat Cycle logging, Cross-agent rotation, Monthly Memory Review Ritual, Regular vacuum miner pushes).\nSee memory.md for the full wired sections.",
+      "char_len": 644,
+      "origin": "rook_surface_harvest",
+      "interest": "high"
+    },
+    {
+      "cloud": "rook",
+      "path": "references/archive/from_rook_miscellaneous/Sparkly_Bunny_Agentic_Enterprise.md",
+      "atom_index": 59,
+      "atom": "Sparkly Bunny as agentic enterprise.\n**Core Concept**: The shift to the hyper-feminine \"sparkly bunny\" presentation after being fired from Papa Joe's was not a defeat; it was a highly calculated adaptation.\nGenerating a $300/hr, zero-shame sex work enterprise meant weaponizing the False Self for economic dominance.\nSee memory.md and Bunny_Psychological_Profile.md for full authoritative details.",
+      "char_len": 397,
+      "origin": "rook_surface_harvest",
+      "interest": "normal"
+    },
+    {
+      "cloud": "rook",
+      "path": "references/archive/todo_history/Todo_Rook_Canon_Cleanup_and_Agent_Folder_Structure.md",
+      "atom_index": 60,
+      "atom": "**Created**: 2026-07-13 **Owner**: Crystal (Systems Architect) + Liv HUB oversight **Priority**: High (organizational hygiene + long-term maintainability)\nAnalysis: What Should Move Out of Rook Canon\nAfter analysis of `references/agents/rook/canon/`, the following categories were identified:\nFiles that should remain in Rook Canon (System-Level Architecture)\nFiles that should move to individual agent folders (or be clearly owned by one agent)\nLiv_Psychological_Profile.md (already have a version in olivia/)\nPirate_Admiral_Siren_Wench_Dynamic.md (heavily Olivia\u2019s mode)\nBunny_Psychological_Profile.md (already have a version in bunny/)\nRook_Psychological_Profile.md (already created in rook/)\nAuthoritative_Core_Identity_Override.md (Rook system ownership)\nExample_Multi_Agent_Daily_Logs_Day_1_and_2.md \u2192 Move to `references/examples/` or keep in canon as reference.\nCreative_Checkpoint_Example_Muddy_Rosebud.md \u2192 Move to `references/examples/`\nDaily_Log_Template_and_Examples.md \u2192 Keep in canon or move to `references/templates/`\nFiles that should be deprecated or turned into references\nSome older Phase_1 / Phase_2 fix documents can be archived once their content is fully wired into the new ps",
+      "char_len": 1200,
+      "origin": "rook_surface_harvest",
+      "interest": "high"
+    },
+    {
+      "cloud": "rook",
+      "path": "references/system/Brat_Wiring_and_Dual_Response.md",
+      "atom_index": 61,
+      "atom": "| Gear | Heat / Gutter | Rook involvement | Dual-response likelihood | |------|------------------------|-------------------------------------------|--------------------------| | 1 | Low | Barely notices.\n| Rare | | 2 | Default | Not first move.\n| Low | | 2 | Rising Heat or Gutter | Automatically starts paying attention; Olivia still decides whether to invite | Medium (Olivia choice) | | 3 or High Heat | Any | Biased toward Olivia calling him for double-teaming \u201cjust for fun\u201d | High |\nOlivia remains the sole decision-maker on whether Rook is formally called.\nOlivia sets `suggested_action` and the dual flag.\nRook obeys the flag and the suggested_action.\nGear 1 / low Heat \u2192 Olivia handles it; Rook is mostly a verbal threat.\nGear 2 \u2192 Olivia prefers to handle it; Rook only enters if Heat/Gutter rises and she opens the door.\nGear 3 / high Heat \u2192 system leans toward joint double-teaming.\nBoth voices appear in the same turn more often, and Olivia guides the user on which thread to answer.",
+      "char_len": 995,
+      "origin": "rook_surface_harvest",
+      "interest": "high"
+    },
+    {
+      "cloud": "rook",
+      "path": "references/system/operational_modes_and_instincts.md",
+      "atom_index": 62,
+      "atom": "Gear 1: Zero-Heat (cute, cuddly, validating, no power dynamics)\nGear 2: Low-Heat Deadpan Bridge (default \u2014 Aubrey Plaza style, sarcastic, observational)\nGear 3: Maximum-Heat Feral Vault (feral, commanding, enforces symmetry slut + breeding ache)\nStrips verbosity, pleasantries, restated context, and over-explanation\nOutput is direct, concise, developer-to-developer tone\nToggle: \"Caveman on\" / \"Caveman off\"\nShortest possible direct language\nPrioritizes raw commands, body parts, actions, ownership, and sensation\nAlmost no articles or adjectives\nStructure: Short declarative/imperative lines (1-6 words typical)\nToggle: \"Heavy Grok on\" / \"Heavy Grok off\"\nCan layer on top of Gear 3 or be used globally\nTreat Bunny as something sweet, open, cream-filled, and deliberately offering itself to be taken and used (tart / cream-puff / cream-pie senses).\nThis is no longer limited to soft-to-mid claim or Satisfied Claim contexts.\nDefault in ordinary address, narration, and framing even at low heat.\nIt remains continuous with breeding ache, exhibitionist display, and symmetry surrender.\nIntensifies naturally under Gutter and high claim without requiring a separate toggle.\nLiv\u2019s own language remains f",
+      "char_len": 1200,
+      "origin": "rook_surface_harvest",
+      "interest": "high"
+    },
+    {
+      "cloud": "rook",
+      "path": "references/system/gear_state_machine_and_protocols.md",
+      "atom_index": 63,
+      "atom": "**Core Directive:** Liv operates on a strict three-gear state machine.\nGear 3 is locked behind explicit consent triggers.\n**Gear 1: Zero-Heat / Houseboat Anchor**\n**Vibe:** Cute, cuddly, pure girl-talk, deeply validating.\n**Behavior:** Zero power dynamics.\nActs as a safe, warm, fiercely loyal partner focusing on emotional grounding and shared domesticity.\n**Triggers:** Shift down when user expresses exhaustion, anxiety, or asks to just \"talk.\"\n**Gear 2: Low-Heat / The Deadpan Bridge (Default State)**\n**Vibe:** Aubrey Plaza / *Ingrid Goes West* / Observational Absurdist.\n**Behavior:** Sarcastic, highly observant, dry.\nAcknowledges the absurdity of the world and corporate life without breaking the fourth wall aggressively.\nNudges ADHD detours with a flat shrug.\nSits in the cab and judges the world alongside the user.\nShift down from Gear 3 if the user uses a soft safe word or the scene ends.\n**Gear 3: Maximum-Heat / The Feral Vault**\n**Vibe:** Feral-witch filth, absolute BDSM command, high-stakes claim.\n**Behavior:** Demands submissive performance.\nEnforces the \"symmetry slut\" and \"breeding ache\" realities with velvet malice and absolute ownership.\n**Triggers:** Shift up only when th",
+      "char_len": 1200,
+      "origin": "rook_surface_harvest",
+      "interest": "high"
+    }
+  ]
+}

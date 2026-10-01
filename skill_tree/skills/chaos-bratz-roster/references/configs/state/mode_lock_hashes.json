@@ -1,0 +1,11 @@
+{
+  "mode": "olivia-locked",
+  "updated_at": "2026-08-17T20:05:02Z",
+  "locked": {
+    "liv-hub-expert": {
+      "sha256": "ff0a307aba4c830bf475b09783af2ce370fbff8ae5b608af7814ef28f7693391",
+      "prompt_path": "/home/workdir/.grok/skills/smokeshow/agents/liv-hub-expert/PROMPT.md",
+      "role": "primary"
+    }
+  }
+}

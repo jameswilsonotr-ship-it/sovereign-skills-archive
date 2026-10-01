@@ -1,0 +1,86 @@
+name: harness
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      run_stress:
+        description: "Run the bounded offline stress suite"
+        required: false
+        default: false
+        type: boolean
+
+env:
+  GROK_TOOLS: mock
+
+jobs:
+  offline:
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install harness dependencies
+        working-directory: harness
+        run: python -m pip install --disable-pip-version-check ".[test]"
+
+      - name: Ruff
+        working-directory: harness
+        run: ruff check src tests
+
+      - name: Mypy
+        working-directory: harness
+        run: mypy
+
+      - name: Smoke and property tests
+        working-directory: harness
+        env:
+          PYTHONPATH: src
+        run: pytest -m smoke
+
+      - name: KEEP lake hygiene gate
+        working-directory: harness
+        env:
+          PYTHONPATH: src
+        run: python -m sovereign_harness.hygiene --repo-root .. --base-ref origin/skill-tree-intake
+
+  stress:
+    if: github.event_name != 'workflow_dispatch' || inputs.run_stress == true
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install harness dependencies
+        working-directory: harness
+        run: python -m pip install --disable-pip-version-check ".[test]"
+
+      - name: Stress tests
+        working-directory: harness
+        env:
+          PYTHONPATH: src
+        run: pytest -m stress

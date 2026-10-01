@@ -1,0 +1,69 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "doggy-grayink-stood_20260912-194249",
+  "slug": "doggy-grayink-stood",
+  "slug_mode": "explicit",
+  "stamp": "20260912-194249",
+  "created": "2026-09-12T19:42:49-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "olivia",
+  "heat": "2",
+  "files": {
+    "jpeg": "doggy-grayink-stood_20260912-194249.jpg",
+    "prompt": "doggy-grayink-stood_20260912-194249.prompt.md",
+    "keep": "doggy-grayink-stood_20260912-194249.keep.json"
+  },
+  "sha256": {
+    "jpeg": "5451036150320fc07954575034a4aa97c4ffae7479cd30869d7bedab5c38e1de",
+    "prompt": "2b5d2564b0065fc0a6f9cd726f6c63b5450e0ec155fa0b5d3e233ddebe735686"
+  },
+  "prompt": "gray doggy tattoo pass crawled to standing v1 keep",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/jBBIi.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/doggy-grayink-stood_20260912-194249.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/doggy-grayink-stood_20260912-194249.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/doggy-grayink-stood_20260912-194249.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/09"
+  },
+  "drive": {
+    "status": "queued",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": null,
+    "prompt_id": null,
+    "keep_id": null,
+    "uploads": [
+      {
+        "artifact_path": "/rendered/doggy-grayink-stood_20260912-194249.jpg",
+        "file_name": "doggy-grayink-stood_20260912-194249.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/doggy-grayink-stood_20260912-194249.prompt.md",
+        "file_name": "doggy-grayink-stood_20260912-194249.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/doggy-grayink-stood_20260912-194249.keep.json",
+        "file_name": "doggy-grayink-stood_20260912-194249.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ]
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/doggy-grayink-stood_20260912-194249.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

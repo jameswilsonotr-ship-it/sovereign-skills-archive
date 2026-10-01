@@ -1,0 +1,62 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "phg-h10-club-pair-parent_20260828-212721",
+  "slug": "phg-h10-club-pair-parent",
+  "slug_mode": "explicit",
+  "stamp": "20260828-212721",
+  "created": "2026-08-28T21:27:21-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "bunny",
+  "heat": "10",
+  "files": {
+    "jpeg": "phg-h10-club-pair-parent_20260828-212721.jpg",
+    "prompt": "phg-h10-club-pair-parent_20260828-212721.prompt.md",
+    "keep": "phg-h10-club-pair-parent_20260828-212721.keep.json"
+  },
+  "sha256": {
+    "jpeg": "52f8c5adf22e5e04e3a7017905ed503478a7ef37c88a9622e64b773e94a402a6",
+    "prompt": "915c69e2789f910a68fd7468844a987126cb1c51f6c26d890f18a04fdde2ddbc"
+  },
+  "prompt": "Club pair parent. Bodysuit micro fishnets. Olivia smiling at Bunny. Gem camera-right anatomical left. No cat ears.",
+  "source_receipt": "/home/workdir/artifacts/rendered/phg-h10/04-club-pair-parent.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/phg-h10-club-pair-parent_20260828-212721.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/phg-h10-club-pair-parent_20260828-212721.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/phg-h10-club-pair-parent_20260828-212721.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1BblJtz3niJs6TkV0ze29iuObab1rJRbb",
+    "prompt_id": "1zCKkMf5kkT7sZ2mdTYRz96OavNy_u515",
+    "keep_id": "1WtRCgkLa-Sk4KNqLyZQ-pnRFNddqVx7Z",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/phg-h10-club-pair-parent_20260828-212721.jpg",
+        "file_name": "phg-h10-club-pair-parent_20260828-212721.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/phg-h10-club-pair-parent_20260828-212721.prompt.md",
+        "file_name": "phg-h10-club-pair-parent_20260828-212721.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/phg-h10-club-pair-parent_20260828-212721.keep.json",
+        "file_name": "phg-h10-club-pair-parent_20260828-212721.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T01:45:47+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078"
+}

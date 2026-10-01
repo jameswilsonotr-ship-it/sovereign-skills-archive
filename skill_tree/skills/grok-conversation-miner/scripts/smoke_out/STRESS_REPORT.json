@@ -1,0 +1,85 @@
+{
+  "ok": true,
+  "dry_run_id": "SUN_20260911T040815_194fdd2d",
+  "wet_run_id": "SUN_20260911T040815_35d97ada",
+  "dry_lanes": {
+    "L0": "RAN",
+    "L1": "SKIP-EXISTS",
+    "L2": "SKIP-EXISTS",
+    "L3": "SKIP-OVERLAP",
+    "L4": "SKIP-EXISTS",
+    "L5": "WOULD-MAIL",
+    "L6": "WOULD-RAN",
+    "L7": "WOULD-RAN",
+    "L8": "WOULD-RAN"
+  },
+  "wet_lanes": {
+    "L0": "RAN",
+    "L1": "SKIP-EXISTS",
+    "L2": "SKIP-EXISTS",
+    "L3": "SKIP-OVERLAP",
+    "L4": "SKIP-EXISTS",
+    "L5": "RAN",
+    "L6": "WOULD-RAN",
+    "L7": "RAN",
+    "L8": "WOULD-RAN"
+  },
+  "export_log_files": [
+    "/tmp/gcm-stress-r55cuf0a/conv_stress/runs/EXPORT_LOG.jsonl",
+    "/tmp/gcm-stress-r55cuf0a/conv_stress/runs/SUN_20260911T040815_35d97ada/EXPORT_LOG.jsonl",
+    "/tmp/gcm-stress-r55cuf0a/conv_stress/runs/SUN_20260911T040815_194fdd2d/EXPORT_LOG.jsonl"
+  ],
+  "export_log_rows": 36,
+  "export_log_actions": [
+    "EXPORTED",
+    "NOT-WALKED",
+    "SKIP-EXISTS",
+    "SKIP-NO-HIT",
+    "SKIP-OVERLAP"
+  ],
+  "l8": {
+    "IN_LAKE": [],
+    "IN_EXPORT_ONLY": [],
+    "IN_SUNSET_ONLY": [
+      "conv-sunset-only"
+    ],
+    "ASSET_MISSING": [
+      "conv-stress-1"
+    ]
+  },
+  "pack": {
+    "imagine": [
+      "/tmp/gcm-stress-r55cuf0a/packed/sandbox/imagine/imagine_sample.txt"
+    ],
+    "video": [],
+    "plates": [
+      "/tmp/gcm-stress-r55cuf0a/packed/sandbox/plates/plate_join.txt"
+    ],
+    "counts": {
+      "imagine": 1,
+      "video": 0,
+      "plates": 1,
+      "other": 0
+    },
+    "secrets_omitted": [
+      "secrets/cookies.txt"
+    ]
+  },
+  "tar_sha256": "5e787446e910d36a9f340095062c3db837f05162508df9e2c55146240e175d67",
+  "github_blocked": true,
+  "drive_mock": {
+    "folder_id_live": "1qV_PuMWxudmQ5E92Lyf6njqF2Tz_NG4X",
+    "upload": "LOCAL_MOCK \u2014 google_drive has create_folder but no binary upload tool in this connector set",
+    "tar": "/tmp/gcm-stress-r55cuf0a/stress_package.tar.gz",
+    "tar_sha256": "5e787446e910d36a9f340095062c3db837f05162508df9e2c55146240e175d67",
+    "github_blocked": true,
+    "stamp": {
+      "stamp_utc": "2026-09-11T08:08:15Z",
+      "stamp_ny": "2026-09-11T04:08:15-0400",
+      "date_ny": "2026-09-11",
+      "claim": "Absolute Liv HUB",
+      "skill": "grok-conversation-miner"
+    }
+  },
+  "space": "/tmp/gcm-stress-r55cuf0a/conv_stress"
+}

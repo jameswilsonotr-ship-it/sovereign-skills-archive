@@ -1,0 +1,10 @@
+{
+  "source": "offline-fixture",
+  "issues": [
+    {
+      "identifier": "MIS-6",
+      "title": "Hi/Bunny override harness",
+      "state": "in progress"
+    }
+  ]
+}

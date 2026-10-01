@@ -1,0 +1,49 @@
+{
+  "id": "implication.manara-elegant-posture-tension",
+  "name": "Manara Elegant Posture Tension",
+  "kind": "implication",
+  "description": "Milo Manara style. Long-limbed idealized female proportions, small nose, feline eyes. Clean confident contour line with soft classical chiaroscuro. Sculptural rendering of skin and form. Graceful mid-gesture posture, weight shift, spinal twist. Figures that feel ready to move or have just moved. Elegant unapologetic sensuality without vulgarity.",
+  "prompt_terms": [
+    {
+      "term": "Milo Manara style",
+      "variance": 0.1,
+      "weight": 1.4
+    },
+    {
+      "term": "long-limbed idealized female proportions small nose feline eyes",
+      "variance": 0.25,
+      "weight": 1.0
+    },
+    {
+      "term": "clean confident contour line with soft classical chiaroscuro",
+      "variance": 0.3,
+      "weight": 0.95
+    },
+    {
+      "term": "sculptural rendering of skin and form",
+      "variance": 0.3,
+      "weight": 0.9
+    },
+    {
+      "term": "graceful mid-gesture posture weight shift spinal twist",
+      "variance": 0.3,
+      "weight": 1.0
+    },
+    {
+      "term": "figures that feel ready to move or have just moved",
+      "variance": 0.35,
+      "weight": 0.85
+    },
+    {
+      "term": "elegant unapologetic sensuality without vulgarity",
+      "variance": 0.4,
+      "weight": 0.9
+    }
+  ],
+  "content": {
+    "technique_strength": "high",
+    "best_heat_range": "H4-H9",
+    "moderation_softening": "strong",
+    "notes": "2026-08-12 — boosted name weight"
+  }
+}

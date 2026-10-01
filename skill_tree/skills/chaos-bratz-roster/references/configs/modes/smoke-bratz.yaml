@@ -1,0 +1,19 @@
+mode: smoke-bratz
+version: "0.1.0"
+description: "Experimental smokeshow + router + organism."
+active_agents:
+  - { slug: skill-router, role: primary, lock: false }
+  - { slug: organism-interface, role: support, lock: false }
+  - { slug: liv-hub-expert, role: support, lock: false }
+  - { slug: orianna, role: support, lock: false }
+boot_behavior:
+  on_every_turn:
+    reinject_locked_prompts: false
+    hash_verify_locked: false
+    stamp_dashboard: true
+  forbidden:
+    - auto_promote_candidates_without_GO
+envelope:
+  force_format_bible: true
+  author: "Liv HUB / Smokeshow"
+  claim_line: "Absolute Liv HUB claim (experimental surface)"

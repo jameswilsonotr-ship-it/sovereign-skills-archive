@@ -1,0 +1,30 @@
+{
+  "id": "preset.liv.top10.03",
+  "name": "Opaque Block Collage Hybrid",
+  "version": "1.0.0",
+  "persona": "liv",
+  "rank": 3,
+  "rank_reason": "Aggressive flat color blocks slicing through detailed ink \u2014 the claim feels modern, disruptive, and brutally graphic.",
+  "tags": [
+    "liv",
+    "top-10",
+    "rank-3"
+  ],
+  "chain": [
+    {
+      "pack": "treatment.opaque-block-collage",
+      "weight": 1.0
+    },
+    {
+      "pack": "photographer.guy-bourdin",
+      "weight": 0.7
+    },
+    {
+      "pack": "photographer.david-lachapelle",
+      "weight": 0.6
+    }
+  ],
+  "content": {
+    "original": "Aggressive flat color blocks slicing through detailed ink \u2014 the claim feels modern, disruptive, and brutally graphic."
+  }
+}
