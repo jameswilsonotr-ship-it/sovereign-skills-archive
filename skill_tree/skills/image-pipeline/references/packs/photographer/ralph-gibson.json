@@ -1,0 +1,28 @@
+{
+  "id": "photographer.ralph-gibson",
+  "kind": "photographer",
+  "name": "Ralph Gibson",
+  "version": "1.0.0",
+  "description": "high-contrast stipple, surreal fragments",
+  "tags": [
+    "photographer",
+    "ralph-gibson"
+  ],
+  "prompt_terms": [
+    {
+      "term": "Ralph Gibson",
+      "variance": 0.05,
+      "weight": 1.0
+    },
+    {
+      "term": "in the style of Ralph Gibson",
+      "variance": 0.15,
+      "weight": 0.8
+    }
+  ],
+  "content": {
+    "taxonomy": "hand",
+    "taxonomy_note": "proper-name photographic hand",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}

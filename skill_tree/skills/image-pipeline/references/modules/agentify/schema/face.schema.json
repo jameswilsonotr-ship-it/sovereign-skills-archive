@@ -1,0 +1,33 @@
+{
+  "$id": "agentify.face",
+  "type": "object",
+  "required": ["bin", "raw"],
+  "properties": {
+    "bin": {
+      "enum": [
+        "focus",
+        "smile",
+        "talk",
+        "look-down",
+        "neutral",
+        "smirk",
+        "open-mouth",
+        "bite",
+        "flushed",
+        "averted",
+        "direct"
+      ]
+    },
+    "raw": { "type": "string" },
+    "dims": {
+      "type": "object",
+      "properties": {
+        "gaze": { "enum": ["camera", "away", "down", "lid"] },
+        "lids": { "enum": ["open", "half", "heavy"] },
+        "brow": { "enum": ["rest", "up", "knit"] },
+        "mouth": { "enum": ["closed", "parted", "smile", "smirk", "open"] },
+        "flush": { "type": "integer", "minimum": 0, "maximum": 8 }
+      }
+    }
+  }
+}

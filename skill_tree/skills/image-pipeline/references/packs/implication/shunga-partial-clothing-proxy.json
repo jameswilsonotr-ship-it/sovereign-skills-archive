@@ -1,0 +1,51 @@
+{
+  "id": "implication.shunga-partial-clothing-proxy",
+  "kind": "implication",
+  "name": "Shunga Partial-Clothing Proxy",
+  "version": "0.1.0",
+  "description": "Classic shunga approach: bold outlines, flat color, fabric itself becomes the erotic agent that both conceals and emphasizes.",
+  "tags": [
+    "implication",
+    "shunga",
+    "ukiyo-e",
+    "fabric-proxy",
+    "flat-color",
+    "soft-moderation"
+  ],
+  "persona": "shared",
+  "prompt_terms": [
+    {
+      "term": "Shunga / Ukiyo-e style",
+      "variance": 0.2,
+      "weight": 1.0
+    },
+    {
+      "term": "bold black outlines",
+      "variance": 0.25,
+      "weight": 0.9
+    },
+    {
+      "term": "flat color fields",
+      "variance": 0.3,
+      "weight": 0.85
+    },
+    {
+      "term": "partial clothing as erotic proxy",
+      "variance": 0.3,
+      "weight": 1.0
+    },
+    {
+      "term": "fabric folds that both conceal and emphasize",
+      "variance": 0.35,
+      "weight": 0.95
+    }
+  ],
+  "content": {
+    "technique_strength": "high",
+    "best_heat_range": "H3-H9",
+    "moderation_softening": "strong",
+    "taxonomy": "implication",
+    "taxonomy_note": "heat-aware suggestion layer",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}

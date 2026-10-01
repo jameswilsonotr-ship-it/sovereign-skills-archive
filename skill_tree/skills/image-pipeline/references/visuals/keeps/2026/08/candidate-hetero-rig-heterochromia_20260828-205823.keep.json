@@ -1,0 +1,62 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "candidate-hetero-rig-heterochromia_20260828-205823",
+  "slug": "candidate-hetero-rig-heterochromia",
+  "slug_mode": "auto",
+  "stamp": "20260828-205823",
+  "created": "2026-08-28T20:58:23-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "candidate-hetero",
+  "heat": "",
+  "files": {
+    "jpeg": "candidate-hetero-rig-heterochromia_20260828-205823.jpg",
+    "prompt": "candidate-hetero-rig-heterochromia_20260828-205823.prompt.md",
+    "keep": "candidate-hetero-rig-heterochromia_20260828-205823.keep.json"
+  },
+  "sha256": {
+    "jpeg": "3d08eb8cf5e83e4bdc80bb9674ef03536d81e626e3e2fd2a2a092f3b31e594f1",
+    "prompt": "8f52d58f820646b6d290225121a3d7ca5d6e38b8fac2fd32c04b91beb83e1e44"
+  },
+  "prompt": "D rig heterochromia",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/3PsQh.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/candidate-hetero-rig-heterochromia_20260828-205823.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/candidate-hetero-rig-heterochromia_20260828-205823.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/candidate-hetero-rig-heterochromia_20260828-205823.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1bgcz5pt7vy4GM8L3RHayXsP6gRgR0bt7",
+    "prompt_id": "1sV5jq0-_H5sVf2DV1gmV_gcedY3WdytQ",
+    "keep_id": "1aOBeA0vN6BqtsvHzkmxIJ8nWnQS1_Wfd",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/candidate-hetero-rig-heterochromia_20260828-205823.jpg",
+        "file_name": "candidate-hetero-rig-heterochromia_20260828-205823.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/candidate-hetero-rig-heterochromia_20260828-205823.prompt.md",
+        "file_name": "candidate-hetero-rig-heterochromia_20260828-205823.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/candidate-hetero-rig-heterochromia_20260828-205823.keep.json",
+        "file_name": "candidate-hetero-rig-heterochromia_20260828-205823.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T01:51:16+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078"
+}

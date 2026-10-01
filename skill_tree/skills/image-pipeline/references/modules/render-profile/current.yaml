@@ -1,0 +1,22 @@
+schema_version: 1
+updated: '2026-08-28T14:22:55Z'
+project: infrastructure-hall
+render:
+  era: industrial-2026
+  grade: adult
+  mode: photoreal
+  pinup: 'off'
+  host: cloud
+heat:
+  stage: 0
+  name: as_shipped
+  consumption_lock: 'on'
+  liv_closet_separate: true
+session:
+  status_check: quiet
+  last_apply: '2026-08-28T14:22:22Z'
+cloud:
+  noop_stages:
+  - 2
+  - 4
+  heat_fallback: 0

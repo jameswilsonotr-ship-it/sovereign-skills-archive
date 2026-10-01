@@ -1,0 +1,62 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "maren-voss-ovl-b_20260828-223517_t6-b",
+  "slug": "maren-voss-ovl-b",
+  "slug_mode": "explicit",
+  "stamp": "20260828-223517",
+  "created": "2026-08-28T22:35:17-04:00",
+  "engine": "overlay",
+  "orientation": "portrait",
+  "agent": "candidate",
+  "heat": "3",
+  "files": {
+    "jpeg": "maren-voss-ovl-b_20260828-223517_t6-b.jpg",
+    "prompt": "maren-voss-ovl-b_20260828-223517_t6-b.prompt.md",
+    "keep": "maren-voss-ovl-b_20260828-223517_t6-b.keep.json"
+  },
+  "sha256": {
+    "jpeg": "9a7c662adaf6ffd512b808f50d97b67325702c0b2af3d8a00490a4e7a2b7711a",
+    "prompt": "b3d1f601ac4a541d55e6d2e0f313bee166b1d95d36207705da1373884df6e544"
+  },
+  "prompt": "OVERLAY B on /home/workdir/artifacts/rendered/maren-voss-a-realistic_20260828-220639_t2-a.jpg Photorealistic cinematic heat-3 plate of Maren Voss, adult. Same bones, hotter lighting.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/HDdFr.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/maren-voss-ovl-b_20260828-223517_t6-b.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/maren-voss-ovl-b_20260828-223517_t6-b.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/maren-voss-ovl-b_20260828-223517_t6-b.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1lScPop5a0VT_zsQJI4ZQ0q54t-8GF5vg",
+    "prompt_id": "1KjWIi7v9uUrGpuLTpKA5o-NiSXBy662o",
+    "keep_id": "13UQ6bWSFp2iGiER5pzKl2JnSduROzzDT",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/maren-voss-ovl-b_20260828-223517_t6-b.jpg",
+        "file_name": "maren-voss-ovl-b_20260828-223517_t6-b.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/maren-voss-ovl-b_20260828-223517_t6-b.prompt.md",
+        "file_name": "maren-voss-ovl-b_20260828-223517_t6-b.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/maren-voss-ovl-b_20260828-223517_t6-b.keep.json",
+        "file_name": "maren-voss-ovl-b_20260828-223517_t6-b.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T02:35:52+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078"
+}

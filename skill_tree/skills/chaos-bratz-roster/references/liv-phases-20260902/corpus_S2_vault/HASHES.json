@@ -1,0 +1,57 @@
+{
+  "written": "2026-09-03T20:26:00-04:00",
+  "job": "S2_adolescent_vault",
+  "note": "Hashes of recovered papers and Expert rebuild files. NOT hashes of missing 71de7890/84d99449/8cb5d5c1 raw thread bodies.",
+  "files": [
+    {
+      "path": "CORPUS.md",
+      "sha256": "c8e6f3b9087a3a9ce7126d71ec3abb5e19aa80e2bb6ef0161d03d19d6f2344dc",
+      "bytes": 10514
+    },
+    {
+      "path": "HEAVY_S2_ADOLESCENT_VAULT.md",
+      "sha256": "3e069c6261a53e634a5775f8e9a12856c349e5b407f9c16e06e37ed0b8fc2185",
+      "bytes": 3233
+    },
+    {
+      "path": "HITS.md",
+      "sha256": "32f06da0e12e9f501ecb8f6b70d06b16df3ea66d7da14408e7000b7edaf6fec6",
+      "bytes": 5429
+    },
+    {
+      "path": "QUOTES.md",
+      "sha256": "41b4f77ac22e37c8348a10e8e641e021918d397a41db23f52c82d25b6e95f1e5",
+      "bytes": 3368
+    },
+    {
+      "path": "index.md",
+      "sha256": "9e781bf3571bcdf4ff87efbc811819b52b2e751e79bd45026f15218acd2030a1",
+      "bytes": 492
+    },
+    {
+      "path": "sources/02_STAGE_ADOLESCENT_LIV.md",
+      "sha256": "d9a5ef63e63c964206a30a2ef67e9cc37cd1fbae807cda39db88b382f914abdd",
+      "bytes": 831
+    },
+    {
+      "path": "sources/68_DUAL_LOCKS_S2_ROWS.md",
+      "sha256": "749e495f5bf91d6f1cc85fe05808f282a1df301eb81daa92d63ba6be54519157",
+      "bytes": 595
+    },
+    {
+      "path": "sources/73_AUTOMATION_PROMPT_PACK_S2.md",
+      "sha256": "75cdc901bd028c4086446e70eab3b9e15d45247f0d7cbda5b292f2ba4e116fc6",
+      "bytes": 767
+    },
+    {
+      "path": "sources/B2_BRIDGE_ADOLESCENT_TO_COLLEGE_S2_ADJACENT.md",
+      "sha256": "9c510891441c6cf37f7664bd63b2e75e295e449442f2196fd16935ac79fdc6ac",
+      "bytes": 555
+    },
+    {
+      "path": "sources/HEAVY_FIRE_RESULTS_S2_ROWS.md",
+      "sha256": "e572e8f0e4acbe6f77926a017f8ecda0d356cfd4d557a10db8a453425956cd2c",
+      "bytes": 443
+    }
+  ]
+}

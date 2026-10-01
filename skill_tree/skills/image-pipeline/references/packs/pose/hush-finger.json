@@ -1,0 +1,22 @@
+{
+  "id": "pose.hush-finger",
+  "kind": "pose",
+  "name": "Hush Finger",
+  "version": "0.1.0",
+  "status": "draft",
+  "description": "Signature Girls Club pose variant. Adult cousin only. Index finger vertical at lips, knowing eyes, Titan bun lock. Seeded from public costume-plate grammar, identity stripped.",
+  "tags": ["pose", "signature", "hush-finger", "girls-club", "cousin"],
+  "wardrobe_lock": "inherits-parent",
+  "identity_rule": "cousin-generate only. No named Facebook face. No chrome.",
+  "prompt_terms": [
+    {"term": "index finger vertical against closed lips", "variance": 0.2, "weight": 1.0},
+    {"term": "knowing eyes, slight smirk under the finger", "variance": 0.3, "weight": 0.9},
+    {"term": "Titan bun: messy half-up honey-blonde volume bun with loose strands", "variance": 0.2, "weight": 1.0}
+  ],
+  "heat": {
+    "A": "cute first, finger at lips, zipper one notch",
+    "B": "heat-3, closer crop, warmer light"
+  },
+  "parent": "pose.jumpsuit-knowing-lean",
+  "source": "public screenshot collage cell, identity stripped 2026-08-31"
+}

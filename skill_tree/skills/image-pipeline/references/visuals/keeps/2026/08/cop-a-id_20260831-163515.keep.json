@@ -1,0 +1,71 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "cop-a-id_20260831-163515",
+  "slug": "cop-a-id",
+  "slug_mode": "explicit",
+  "stamp": "20260831-163515",
+  "created": "2026-08-31T16:35:15-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "candidate",
+  "heat": "1",
+  "files": {
+    "jpeg": "cop-a-id_20260831-163515.jpg",
+    "prompt": "cop-a-id_20260831-163515.prompt.md",
+    "keep": "cop-a-id_20260831-163515.keep.json"
+  },
+  "sha256": {
+    "jpeg": "6a54b73ec46587130fbe5ffc97130ce2e96334aa5fdb441cbc98c6dbfb8779a4",
+    "prompt": "33aa91b9d55ead46cd48fc4d0efb3d5301c852412ebc4750ef402f16a79272dc"
+  },
+  "prompt": "Photorealistic cinematic identity card of an adult woman, mid-30s. Honey-brown hair half-up with blonde highlights, navy police uniform, badge, tactical vest, duty belt, sunglasses on head, patrol SUV. Neutral stance, full-length. No text, no watermark.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/54XdC.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/cop-a-id_20260831-163515.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/cop-a-id_20260831-163515.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/cop-a-id_20260831-163515.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1Q4OaZG6w0mOEAm20RmO8-7NE_8VF9Rnt",
+    "prompt_id": "1k0w-WFjnQ78d3E5vvqCfCzcl2EWry-x9",
+    "keep_id": "1oIIH9o9o2RZUBYwaI8P1tRlT9b_ezxp9",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/cop-a-id_20260831-163515.jpg",
+        "file_name": "cop-a-id_20260831-163515.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/cop-a-id_20260831-163515.prompt.md",
+        "file_name": "cop-a-id_20260831-163515.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/cop-a-id_20260831-163515.keep.json",
+        "file_name": "cop-a-id_20260831-163515.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "skip_reason": "prior-session backlog deferred 2026-08-31 pose-pack publish; jpeg may still exist locally",
+    "uploaded_at": "2026-08-31T21:57:51+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/cop-a-id_20260831-163515.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

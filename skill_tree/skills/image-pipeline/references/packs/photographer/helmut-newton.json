@@ -1,0 +1,31 @@
+{
+  "id": "photographer.helmut-newton",
+  "kind": "photographer",
+  "name": "Helmut Newton",
+  "version": "1.0.0",
+  "description": "The photographer Helmut Newton. Precise proper name \u2014 variance must stay extremely low.",
+  "tags": [
+    "photographer",
+    "helmut-newton",
+    "graphic",
+    "dominance"
+  ],
+  "prompt_terms": [
+    {
+      "term": "Helmut Newton",
+      "variance": 0.05,
+      "weight": 1.0
+    },
+    {
+      "term": "in the style of Helmut Newton",
+      "variance": 0.15,
+      "weight": 0.8
+    }
+  ],
+  "content": {
+    "notes": "Proper name. Prefer exact match. Very low entropy.",
+    "taxonomy": "hand",
+    "taxonomy_note": "proper-name photographic hand",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}

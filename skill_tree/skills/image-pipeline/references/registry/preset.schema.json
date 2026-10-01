@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://blackwell.bunker/schemas/image-pipeline-preset.json",
+  "title": "Image Pipeline Preset (Named Chain)",
+  "description": "A named, reusable chain of packs. Used for persona Top 10 entries and for former combined styles (e.g. Helmut Newton Graphic Dominance).",
+  "type": "object",
+  "required": ["id", "name", "version", "chain"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable unique id, e.g. preset.bunny.top10.01, preset.style.helmut-newton-graphic-dominance"
+    },
+    "name": { "type": "string" },
+    "version": { "type": "string", "default": "1.0.0" },
+    "description": { "type": "string" },
+    "persona": {
+      "type": ["string", "null"],
+      "enum": ["bunny", "liv", "valerie", "shared", null]
+    },
+    "rank": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Only for persona Top 10 entries"
+    },
+    "rank_reason": { "type": "string" },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+
+    "chain": {
+      "type": "array",
+      "description": "Ordered or weighted list of pack references that make up this preset. This is the core of flexible chaining.",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["pack"],
+        "properties": {
+          "pack": {
+            "type": "string",
+            "description": "id of an atomic pack"
+          },
+          "weight": {
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 1.0,
+            "description": "How strongly this pack should influence the final prompt"
+          }
+        }
+      }
+    },
+
+    "content": {
+      "type": "object",
+      "description": "Optional extra notes, original descriptions, etc.",
+      "additionalProperties": true
+    }
+  }
+}

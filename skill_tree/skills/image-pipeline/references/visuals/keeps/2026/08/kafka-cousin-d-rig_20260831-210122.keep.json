@@ -1,0 +1,70 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "kafka-cousin-d-rig_20260831-210122",
+  "slug": "kafka-cousin-d-rig",
+  "slug_mode": "explicit",
+  "stamp": "20260831-210122",
+  "created": "2026-08-31T21:01:22-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "olivia",
+  "heat": "",
+  "files": {
+    "jpeg": "kafka-cousin-d-rig_20260831-210122.jpg",
+    "prompt": "kafka-cousin-d-rig_20260831-210122.prompt.md",
+    "keep": "kafka-cousin-d-rig_20260831-210122.keep.json"
+  },
+  "sha256": {
+    "jpeg": "370af870b91d10534dc7edac505c0e0d86ece26469657c59b54d5fb63609e176",
+    "prompt": "1ce18c2fb1a65c48b05016a6b9c606dfa1b8e41949dd408eb4bd35f06eced977"
+  },
+  "prompt": "Rig D. Catalog front. Same wardrobe lock. Face/hair drifted to curly brown \u2014 construction plate not identity card.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/M0ZDm.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/kafka-cousin-d-rig_20260831-210122.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/kafka-cousin-d-rig_20260831-210122.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/kafka-cousin-d-rig_20260831-210122.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1-E7xeRGw35KS0Ik8pMOiR7dxuqUO4APL",
+    "prompt_id": "1VYKhTg02-5l89kVTOc1pW_-zimDwznSP",
+    "keep_id": "1QftZse_TxVa52g3XX3sZcn0t7jMYwco-",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/kafka-cousin-d-rig_20260831-210122.jpg",
+        "file_name": "kafka-cousin-d-rig_20260831-210122.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/kafka-cousin-d-rig_20260831-210122.prompt.md",
+        "file_name": "kafka-cousin-d-rig_20260831-210122.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/kafka-cousin-d-rig_20260831-210122.keep.json",
+        "file_name": "kafka-cousin-d-rig_20260831-210122.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-09-01T01:02:21+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/kafka-cousin-d-rig_20260831-210122.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

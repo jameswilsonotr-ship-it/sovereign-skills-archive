@@ -1,0 +1,71 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "jumpsuit-d-rig-v2_20260831-173736",
+  "slug": "jumpsuit-d-rig-v2",
+  "slug_mode": "explicit",
+  "stamp": "20260831-173736",
+  "created": "2026-08-31T17:37:36-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "candidate",
+  "heat": "1",
+  "files": {
+    "jpeg": "jumpsuit-d-rig-v2_20260831-173736.jpg",
+    "prompt": "jumpsuit-d-rig-v2_20260831-173736.prompt.md",
+    "keep": "jumpsuit-d-rig-v2_20260831-173736.keep.json"
+  },
+  "sha256": {
+    "jpeg": "4b361e626d352c647e233769f4b64adb981c0c6833864de4d5a291e9df715ec1",
+    "prompt": "7682ac6eeed860ade5f74fe7a648a0b343bd8c6795e4c4993e703f3c3faa6c0c"
+  },
+  "prompt": "Character rig turnaround orange jumpsuit half-up bun cousin woman.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/OjcWT.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/jumpsuit-d-rig-v2_20260831-173736.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/jumpsuit-d-rig-v2_20260831-173736.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/jumpsuit-d-rig-v2_20260831-173736.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1UAI6KegL_QpERHX56UqcY23AviyWcR5u",
+    "prompt_id": "1C2CJ5iF9ItfHUSppy-s0P2vbSQRdHSEP",
+    "keep_id": "1JgztueYjLrLj-c_R3sbvwStrn28PYj8u",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/jumpsuit-d-rig-v2_20260831-173736.jpg",
+        "file_name": "jumpsuit-d-rig-v2_20260831-173736.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/jumpsuit-d-rig-v2_20260831-173736.prompt.md",
+        "file_name": "jumpsuit-d-rig-v2_20260831-173736.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/jumpsuit-d-rig-v2_20260831-173736.keep.json",
+        "file_name": "jumpsuit-d-rig-v2_20260831-173736.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "skip_reason": "prior-session backlog deferred 2026-08-31 pose-pack publish; jpeg may still exist locally",
+    "uploaded_at": "2026-08-31T22:00:11+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/jumpsuit-d-rig-v2_20260831-173736.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

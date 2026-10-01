@@ -1,0 +1,26 @@
+{
+  "id": "preset.locked.vector",
+  "name": "Clean Modern Vector",
+  "version": "1.0.0",
+  "description": "Locked companion preset: Clean Modern Vector. Promoted from 2026-08-05 visual bank generation.",
+  "persona": "shared",
+  "characters": [
+    "shauna"
+  ],
+  "tags": [
+    "vector",
+    "modern",
+    "locked",
+    "promoted-2026-08-05"
+  ],
+  "chain": [],
+  "content": {
+    "source": "visual-bank-generation-2026-08-05",
+    "grade": "B+",
+    "locked_at": "2026-08-05",
+    "dna_notes": "DNA held across Bunny / Olivia / Shauna as applicable",
+    "taxonomy": "style",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  },
+  "updated": "2026-08-05T22:45:42.441433Z"
+}

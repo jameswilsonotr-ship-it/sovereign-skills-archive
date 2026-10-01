@@ -1,0 +1,43 @@
+{
+  "id": "hand.stanton",
+  "kind": "hand",
+  "name": "Eric Stanton",
+  "version": "1.0.0",
+  "description": "High-contrast India-ink pulp / fetish illustration. Bold outlines, energetic cross-hatching, dynamic foreshortening, Amazonian power poses.",
+  "tags": [
+    "hand",
+    "stanton",
+    "ink",
+    "pulp",
+    "fetish"
+  ],
+  "prompt_terms": [
+    {
+      "term": "Eric Stanton",
+      "variance": 0.05,
+      "weight": 1.0
+    },
+    {
+      "term": "in the exact style of Eric Stanton",
+      "variance": 0.15,
+      "weight": 0.9
+    },
+    {
+      "term": "high-contrast India-ink illustration",
+      "variance": 0.3,
+      "weight": 0.8
+    },
+    {
+      "term": "bold outlines and energetic cross-hatching",
+      "variance": 0.4,
+      "weight": 0.7
+    }
+  ],
+  "content": {
+    "notes": "Original 8 artist Hand. High-fidelity nervous-system impersonation. Promoted 2026-08-05 under Taxonomy Contract v0.1.0. Keep ultra-low variance on proper name.",
+    "taxonomy": "hand",
+    "source": "original 8x8 DNA-respecting test set",
+    "taxonomy_note": "named artist nervous system",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}

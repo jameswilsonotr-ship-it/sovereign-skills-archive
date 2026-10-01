@@ -1,0 +1,43 @@
+name: Android APK stub
+
+on:
+  workflow_dispatch:
+    inputs:
+      distribution_path:
+        description: "Planned handoff: sideload or play-internal"
+        required: true
+        default: sideload
+        type: choice
+        options:
+          - sideload
+          - play-internal
+
+permissions:
+  contents: read
+
+jobs:
+  scaffold-check:
+    name: Check Android scaffold placeholder
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Confirm docs-only scaffold
+        run: |
+          test -f android/README.md
+          test -f docs/AI_STUDIO_PLAY_PATH.md
+          echo "Android workflow stub selected: ${{ inputs.distribution_path }}"
+          echo "No Android module or APK is present in this archive."
+
+      # The real Android repository should add:
+      #   1. setup-java and Android SDK setup
+      #   2. ./gradlew assembleDebug
+      #   3. actions/upload-artifact for the resulting APK
+      #
+      # Play internal testing is intentionally not wired here. In the real
+      # Android repository, put the service-account credential in a protected
+      # GitHub Actions secret/environment, for example:
+      #   secrets.PLAY_SERVICE_ACCOUNT_JSON
+      # Then add an approved auth step and a Play upload action for the signed
+      # release AAB. Never commit the JSON, keystore, or passwords.

@@ -1,0 +1,14 @@
+{
+  "skill": "iron-pearl-swarm",
+  "tier": 2,
+  "updated": "2026-07-19T12:14:20Z",
+  "status": "active",
+  "notes": "Initialized by folder-discipline pass (skill-adapted)",
+  "hygiene_pass": "2026-07-19T12:14:20Z",
+  "has_skill_md": true,
+  "has_readme": true,
+  "has_changelog": true,
+  "has_todo": true,
+  "has_references": true,
+  "has_scripts": true
+}

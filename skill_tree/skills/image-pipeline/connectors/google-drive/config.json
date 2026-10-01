@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "skill": "image-pipeline",
+  "native_tool": "google_drive_upload_artifact",
+  "parent_folder": "Liv-HUB",
+  "parent_folder_id": "1tEvM3PJL3c_FOXGdzpufu99Bl2yH5gY2",
+  "folder_name": "image-pipeline-keeps",
+  "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+  "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+  "enabled_at": "2026-08-28T19:36:00-04:00",
+  "enabled_reason": "Was a July 19 folder-discipline stub (enabled:false, no folder_id). Flipped in expert mode after native Drive tools confirmed live. Test push IPQ-078.",
+  "why_it_was_off": "connectors/google-drive/config.json was initialized 2026-07-19 as a placeholder. No OAuth in the Python sandbox; push only works via call_connected_tool google_drive_upload_artifact. Nobody had pointed it at a real folder or flipped the bit.",
+  "pair_rule": "Always upload jpeg + prompt.md + keep.json together. Same basename."
+}
