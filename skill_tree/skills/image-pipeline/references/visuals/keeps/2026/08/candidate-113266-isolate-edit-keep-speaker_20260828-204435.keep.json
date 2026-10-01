@@ -1,0 +1,62 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "candidate-113266-isolate-edit-keep-speaker_20260828-204435",
+  "slug": "candidate-113266-isolate-edit-keep-speaker",
+  "slug_mode": "auto",
+  "stamp": "20260828-204435",
+  "created": "2026-08-28T20:44:35-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "candidate-113266",
+  "heat": "",
+  "files": {
+    "jpeg": "candidate-113266-isolate-edit-keep-speaker_20260828-204435.jpg",
+    "prompt": "candidate-113266-isolate-edit-keep-speaker_20260828-204435.prompt.md",
+    "keep": "candidate-113266-isolate-edit-keep-speaker_20260828-204435.keep.json"
+  },
+  "sha256": {
+    "jpeg": "b6a16ebef22eb402a81b2797b8b49affeb9556c54c2bf82da7db864fa1bb8679",
+    "prompt": "513148e93215bbf43901410588b07e6fe98231f1e3c5f8f6aa6eabdd1d355fa6"
+  },
+  "prompt": "E isolate edit keep speaker only strip men and seal",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/ut7LX.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/candidate-113266-isolate-edit-keep-speaker_20260828-204435.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/candidate-113266-isolate-edit-keep-speaker_20260828-204435.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/candidate-113266-isolate-edit-keep-speaker_20260828-204435.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1VqH0d-em-Np2kCmGrxqykKLkEaoSDmh-",
+    "prompt_id": "1PwocSUrPTXK2BRJuu03F7V4zuLcZ43Rc",
+    "keep_id": "1Cved0LI0jMxk_UwvS1Mm57RmttjOWU85",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/candidate-113266-isolate-edit-keep-speaker_20260828-204435.jpg",
+        "file_name": "candidate-113266-isolate-edit-keep-speaker_20260828-204435.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/candidate-113266-isolate-edit-keep-speaker_20260828-204435.prompt.md",
+        "file_name": "candidate-113266-isolate-edit-keep-speaker_20260828-204435.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/candidate-113266-isolate-edit-keep-speaker_20260828-204435.keep.json",
+        "file_name": "candidate-113266-isolate-edit-keep-speaker_20260828-204435.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T01:51:04+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078"
+}

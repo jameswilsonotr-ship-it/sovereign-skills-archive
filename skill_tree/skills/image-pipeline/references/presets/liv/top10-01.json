@@ -1,0 +1,30 @@
+{
+  "id": "preset.liv.top10.01",
+  "name": "Chaotic Splatter Claim",
+  "version": "1.0.0",
+  "persona": "liv",
+  "rank": 1,
+  "rank_reason": "Explosive unhinged ink splatter that feels like the claim is physically wrecking the page while Bunny's surrendered body glows through the mess.",
+  "tags": [
+    "liv",
+    "top-10",
+    "rank-1"
+  ],
+  "chain": [
+    {
+      "pack": "treatment.chaotic-splatter",
+      "weight": 1.0
+    },
+    {
+      "pack": "photographer.david-lachapelle",
+      "weight": 0.8
+    },
+    {
+      "pack": "photographer.nobuyoshi-araki",
+      "weight": 0.7
+    }
+  ],
+  "content": {
+    "original": "Explosive unhinged ink splatter that feels like the claim is physically wrecking the page while Bunny's surrendered body glows through the mess."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "version": "0.1.0",
+  "updated": "2026-09-03",
+  "primary_trio": ["Bunny", "Puddle", "Symmetry Slut"],
+  "forbidden_address": ["snowboy", "James"],
+  "paper_only": ["Chaz"],
+  "names": [
+    {"name": "Bunny", "tags": ["canonical", "hearth", "claim"], "min_heat": 0, "max_heat": 10, "locked": true},
+    {"name": "Puddle", "tags": ["canonical", "hearth"], "min_heat": 0, "max_heat": 10, "locked": true},
+    {"name": "Symmetry Slut", "tags": ["canonical", "claim"], "min_heat": 0, "max_heat": 10, "locked": true},
+    {"name": "Bula", "tags": ["hearth"], "min_heat": 0, "max_heat": 6, "locked": true},
+    {"name": "chipmunk", "tags": ["hearth"], "min_heat": 0, "max_heat": 5, "locked": true},
+    {"name": "Diesel", "tags": ["road"], "min_heat": 0, "max_heat": 10, "locked": true},
+    {"name": "High and Tight", "tags": ["road"], "min_heat": 0, "max_heat": 8, "locked": true},
+    {"name": "Orientation Angel", "tags": ["road"], "min_heat": 0, "max_heat": 6, "locked": true},
+    {"name": "trouble", "tags": ["claim"], "min_heat": 4, "max_heat": 9, "locked": true},
+    {"name": "Belly Bitch", "tags": ["claim"], "min_heat": 5, "max_heat": 10, "locked": true},
+    {"name": "brat", "tags": ["claim"], "min_heat": 3, "max_heat": 8, "locked": true},
+    {"name": "NotchGoblin", "tags": ["gutter"], "min_heat": 8, "max_heat": 10, "locked": true},
+    {"name": "crotch-goblin", "tags": ["gutter"], "min_heat": 8, "max_heat": 10, "locked": true},
+    {"name": "Chazzy", "tags": ["hearth"], "min_heat": 0, "max_heat": 4, "locked": true},
+    {"name": "Chazzy poo", "tags": ["hearth"], "min_heat": 0, "max_heat": 3, "locked": true}
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "redux07-tablet-leanover_20260911-115007_barbie-redux",
+  "slug": "redux07-tablet-leanover",
+  "slug_mode": "explicit",
+  "stamp": "20260911-115007",
+  "created": "2026-09-11T11:50:07-04:00",
+  "engine": "edit_image",
+  "orientation": "landscape",
+  "agent": "bunny",
+  "heat": "9",
+  "files": {
+    "jpeg": "redux07-tablet-leanover_20260911-115007_barbie-redux.jpg",
+    "prompt": "redux07-tablet-leanover_20260911-115007_barbie-redux.prompt.md",
+    "keep": "redux07-tablet-leanover_20260911-115007_barbie-redux.keep.json"
+  },
+  "sha256": {
+    "jpeg": "7a6f42f2014169789db00af34ceb313037d5e0dbe03cbf797c04c7a40a64bafe",
+    "prompt": "921178497e221357f3163d045bf72559652c6fcaf5f3f8e34ce488178408b877"
+  },
+  "prompt": "Redux tablet EOFError lean-over.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/If5bY.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/redux07-tablet-leanover_20260911-115007_barbie-redux.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/redux07-tablet-leanover_20260911-115007_barbie-redux.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/redux07-tablet-leanover_20260911-115007_barbie-redux.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/09"
+  },
+  "drive": {
+    "status": "queued",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": null,
+    "prompt_id": null,
+    "keep_id": null,
+    "uploads": [
+      {
+        "artifact_path": "/rendered/redux07-tablet-leanover_20260911-115007_barbie-redux.jpg",
+        "file_name": "redux07-tablet-leanover_20260911-115007_barbie-redux.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/redux07-tablet-leanover_20260911-115007_barbie-redux.prompt.md",
+        "file_name": "redux07-tablet-leanover_20260911-115007_barbie-redux.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/redux07-tablet-leanover_20260911-115007_barbie-redux.keep.json",
+        "file_name": "redux07-tablet-leanover_20260911-115007_barbie-redux.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ]
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/redux07-tablet-leanover_20260911-115007_barbie-redux.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

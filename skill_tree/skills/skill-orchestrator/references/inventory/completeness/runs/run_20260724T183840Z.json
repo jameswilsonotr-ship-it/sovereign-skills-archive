@@ -1,0 +1,527 @@
+{
+  "run_id": "20260724T183840Z",
+  "timestamp": "2026-07-24T18:38:40.594960+00:00",
+  "scope": "all",
+  "audited": 46,
+  "critical_gaps": 81,
+  "skills_with_gaps": 17,
+  "skills_clean": 29,
+  "results": [
+    {
+      "slug": "biomimetic-swarm-orchestrator",
+      "skill_md_exists": true,
+      "missing_paths": [
+        "scripts/nlp_enrichment.py",
+        "scripts/persistence.py",
+        "scripts/router.py",
+        "scripts/variants.py"
+      ],
+      "stub_files": [],
+      "mentioned_count": 4,
+      "critical_gaps": 4,
+      "notes": []
+    },
+    {
+      "slug": "blackwell-sovereign-swarm",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 0,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "chaos-bratz-roster",
+      "skill_md_exists": true,
+      "missing_paths": [
+        "references/ENVELOPE_SCHEMA.md",
+        "references/agents/*/current.md",
+        "references/agents/roster-changelog.md",
+        "references/mirrors/*.md",
+        "scripts/echo_interface.py"
+      ],
+      "stub_files": [],
+      "mentioned_count": 13,
+      "critical_gaps": 5,
+      "notes": []
+    },
+    {
+      "slug": "coven-visual-system",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 0,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "dev-sync",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 0,
+      "critical_gaps": 1,
+      "notes": [
+        "SKILL.md mentions references/ but references/ directory is missing"
+      ]
+    },
+    {
+      "slug": "format-bible",
+      "skill_md_exists": true,
+      "missing_paths": [
+        "scripts/engine.py"
+      ],
+      "stub_files": [],
+      "mentioned_count": 4,
+      "critical_gaps": 1,
+      "notes": []
+    },
+    {
+      "slug": "github-mirror",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 0,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "grok-build",
+      "skill_md_exists": true,
+      "missing_paths": [
+        "references/help.md",
+        "references/test_harness.md"
+      ],
+      "stub_files": [],
+      "mentioned_count": 2,
+      "critical_gaps": 2,
+      "notes": []
+    },
+    {
+      "slug": "grok-build-sovereign",
+      "skill_md_exists": true,
+      "missing_paths": [
+        "references/character_bibles/bunny_bible.md",
+        "references/current_state.json"
+      ],
+      "stub_files": [],
+      "mentioned_count": 2,
+      "critical_gaps": 2,
+      "notes": []
+    },
+    {
+      "slug": "grok-conversation-miner",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 8,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "grok-imagine-generate-engine",
+      "skill_md_exists": true,
+      "missing_paths": [
+        "references/dual-engine/core-logic.md",
+        "references/functional_bridge.py",
+        "references/liv-bunny-*.md",
+        "scripts/engine_hook.py",
+        "scripts/extensions_ctl.py",
+        "scripts/list_apply.py",
+        "scripts/nl_route.py",
+        "scripts/pipeline_activate.py",
+        "scripts/test_activation.py"
+      ],
+      "stub_files": [],
+      "mentioned_count": 9,
+      "critical_gaps": 9,
+      "notes": []
+    },
+    {
+      "slug": "grok-imagine-overlay-engine",
+      "skill_md_exists": true,
+      "missing_paths": [
+        "references/liv-bunny-*.md",
+        "scripts/engine_hook.py",
+        "scripts/extensions_ctl.py",
+        "scripts/face_merge_prompt_generator.py",
+        "scripts/list_apply.py",
+        "scripts/nl_route.py",
+        "scripts/pipeline_activate.py",
+        "scripts/test_activation.py"
+      ],
+      "stub_files": [],
+      "mentioned_count": 9,
+      "critical_gaps": 8,
+      "notes": []
+    },
+    {
+      "slug": "image-pipeline",
+      "skill_md_exists": true,
+      "missing_paths": [
+        "references/plans/PROVISIONAL_SKILL_REFACTORING.md",
+        "references/registry/schema.json",
+        "references/visuals/changelog.md",
+        "references/visuals/index.md"
+      ],
+      "stub_files": [],
+      "mentioned_count": 4,
+      "critical_gaps": 4,
+      "notes": []
+    },
+    {
+      "slug": "iron-pearl-swarm",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 0,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "lake-erie-gutter-world",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 2,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "liv-bunny-agent-swarm",
+      "skill_md_exists": true,
+      "missing_paths": [
+        "references/air-crystal.md",
+        "references/diplomat.md",
+        "references/fire-echo.md",
+        "references/water-mira.md"
+      ],
+      "stub_files": [],
+      "mentioned_count": 4,
+      "critical_gaps": 5,
+      "notes": [
+        "SKILL.md mentions references/ but references/ directory is missing"
+      ]
+    },
+    {
+      "slug": "mcp-auditor",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 0,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "mcp-bootstrap",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 0,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "mcp-sovereign-bridge",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 0,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "multi-variation-orchestrator",
+      "skill_md_exists": true,
+      "missing_paths": [
+        "scripts/init-skill.sh"
+      ],
+      "stub_files": [],
+      "mentioned_count": 1,
+      "critical_gaps": 2,
+      "notes": [
+        "SKILL.md mentions references/ but references/ directory is missing"
+      ]
+    },
+    {
+      "slug": "olivia-dev",
+      "skill_md_exists": true,
+      "missing_paths": [
+        "references/image-qc-checklist.md",
+        "references/iron-pearl-16-agents.md",
+        "references/lake-erie-project.md",
+        "references/mode-prompt-templates.md",
+        "references/research-wishlist.md",
+        "references/state-schema.json",
+        "references/swarms/lake-erie-16-agent-protocol.md",
+        "scripts/auto-snapshot.sh",
+        "scripts/tarball-integrity-check.sh"
+      ],
+      "stub_files": [],
+      "mentioned_count": 14,
+      "critical_gaps": 9,
+      "notes": []
+    },
+    {
+      "slug": "olivia-dev-alpha",
+      "skill_md_exists": true,
+      "missing_paths": [
+        "references/BRANCHING.md",
+        "references/blackwell-sovereign-5-tier.md",
+        "references/code-style-bible.md",
+        "references/folder-discipline.md",
+        "references/image-qc-checklist.md",
+        "references/iron-pearl-16-agents.md",
+        "references/lake-erie-project.md",
+        "references/mode-prompt-templates.md",
+        "references/research-wishlist.md",
+        "references/secret-notes.md",
+        "references/state-schema.json",
+        "references/swarms/lake-erie-16-agent-protocol.md",
+        "references/wishlist.md",
+        "scripts/auto-snapshot.sh",
+        "scripts/tarball-integrity-check.sh"
+      ],
+      "stub_files": [],
+      "mentioned_count": 16,
+      "critical_gaps": 15,
+      "notes": []
+    },
+    {
+      "slug": "porn-curator",
+      "skill_md_exists": true,
+      "missing_paths": [
+        "references/agents/porn_curator/canonical_h10_werewolf_ruin_prompt.md",
+        "references/mirrors/olivia.md"
+      ],
+      "stub_files": [],
+      "mentioned_count": 2,
+      "critical_gaps": 3,
+      "notes": [
+        "SKILL.md mentions references/ but references/ directory is missing"
+      ]
+    },
+    {
+      "slug": "repo-sniffer",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 0,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "risk-fantasy-claim-protocol",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 0,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "skill-orchestrator",
+      "skill_md_exists": true,
+      "missing_paths": [
+        "references/inventory/master-inventory.md",
+        "references/mirrors/olivia.md",
+        "references/state/visibility-internal-outputs.md",
+        "references/to-do/master-to-do-list.md",
+        "references/to-do/to-do-list.md"
+      ],
+      "stub_files": [],
+      "mentioned_count": 14,
+      "critical_gaps": 5,
+      "notes": []
+    },
+    {
+      "slug": "swarm-miner",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 0,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "system-roadmap",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 5,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "triad-catalog-browser",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 0,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "valerie",
+      "skill_md_exists": true,
+      "missing_paths": [
+        "references/retained_personal/valerie_personal_v1.txt",
+        "references/side_by_side_retained_vs_safe.txt",
+        "references/workspace/valerie_workspace_safe_v1.txt"
+      ],
+      "stub_files": [],
+      "mentioned_count": 4,
+      "critical_gaps": 3,
+      "notes": []
+    },
+    {
+      "slug": "velvet-claim-protocol",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 3,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "vice-command-orchestrator",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 0,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "color",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 5,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "docx",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 6,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "ffmpeg",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 1,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "finance",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 0,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "image-gen-edit",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 0,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "imagemagick",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 1,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "mcp",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 0,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "memory-edit",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 0,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "pdf",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 0,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "pptx",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 9,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "skill-creator",
+      "skill_md_exists": true,
+      "missing_paths": [
+        "references/aws.md",
+        "references/gcp.md"
+      ],
+      "stub_files": [],
+      "mentioned_count": 4,
+      "critical_gaps": 3,
+      "notes": [
+        "SKILL.md mentions references/ but references/ directory is missing"
+      ]
+    },
+    {
+      "slug": "skill-installer",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 2,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "tasks",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 0,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "xlsx",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 2,
+      "critical_gaps": 0,
+      "notes": []
+    }
+  ]
+}

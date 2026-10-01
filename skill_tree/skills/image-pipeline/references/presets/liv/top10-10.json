@@ -1,0 +1,26 @@
+{
+  "id": "preset.liv.top10.10",
+  "name": "Acrylic Underpainting Sharp Ink Mapping",
+  "version": "1.0.0",
+  "persona": "liv",
+  "rank": 10,
+  "rank_reason": "Thick tactile paint texture over crisp vector lines \u2014 the surface feels aggressively physical, like a hand just dragged across wet canvas.",
+  "tags": [
+    "liv",
+    "top-10",
+    "rank-10"
+  ],
+  "chain": [
+    {
+      "pack": "photographer.robert-mapplethorpe",
+      "weight": 0.8
+    },
+    {
+      "pack": "photographer.helmut-newton",
+      "weight": 0.7
+    }
+  ],
+  "content": {
+    "original": "Thick tactile paint texture over crisp vector lines \u2014 the surface feels aggressively physical, like a hand just dragged across wet canvas."
+  }
+}

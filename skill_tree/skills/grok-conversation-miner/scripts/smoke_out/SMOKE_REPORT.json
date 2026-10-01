@@ -1,0 +1,107 @@
+{
+  "ok": true,
+  "planted_class_files": 12,
+  "planted_actual": 12,
+  "census_status": "DONE",
+  "l0": "SKIP-EXISTS",
+  "omissions": 2,
+  "secrets_omitted": [
+    "secrets/cookies.txt"
+  ],
+  "lake_days": [
+    {
+      "date": "2026-09-10",
+      "path": "/tmp/gcm-smoke-zhj21d_p/fixtures/lake/2026/09/week37/2026-09-10",
+      "era": "LIVE",
+      "twin_count": 1,
+      "receipt_count": 0,
+      "twins": [
+        "2026-09-10_deadbeef.md"
+      ],
+      "status": "SKIP-EXISTS"
+    },
+    {
+      "date": "2026-09-11",
+      "path": "/tmp/gcm-smoke-zhj21d_p/fixtures/lake/2026/09/week37/2026-09-11",
+      "era": "LIVE",
+      "twin_count": 0,
+      "receipt_count": 0,
+      "twins": [],
+      "status": "NO_TWIN"
+    }
+  ],
+  "l8": {
+    "IN_LAKE": [
+      "conv-smoke-1"
+    ],
+    "IN_EXPORT_ONLY": [
+      "asset-1",
+      "conv-export-only"
+    ],
+    "IN_SUNSET_ONLY": [
+      "conv-sunset-only"
+    ],
+    "ASSET_MISSING": []
+  },
+  "lanes": [
+    {
+      "lane": "L0",
+      "name": "identity",
+      "status": "RAN"
+    },
+    {
+      "lane": "L1",
+      "name": "lake twin",
+      "status": "SKIP-EXISTS"
+    },
+    {
+      "lane": "L2",
+      "name": "lake receipt",
+      "status": "SKIP-EXISTS"
+    },
+    {
+      "lane": "L3",
+      "name": "miner publish",
+      "status": "SKIP-EXISTS"
+    },
+    {
+      "lane": "L4",
+      "name": "global extract",
+      "status": "SKIP-EXISTS"
+    },
+    {
+      "lane": "L5",
+      "name": "cilia",
+      "status": "WOULD-RAN"
+    },
+    {
+      "lane": "L6",
+      "name": "doorbell",
+      "status": "WOULD-RAN"
+    },
+    {
+      "lane": "L7",
+      "name": "outbox card",
+      "status": "WOULD-RAN"
+    },
+    {
+      "lane": "L8",
+      "name": "export recon",
+      "status": "SKIP-NO-HIT"
+    }
+  ],
+  "mail_has_fs": true,
+  "github_blocked": true,
+  "space": "/tmp/gcm-smoke-zhj21d_p/out/spaces/smoke-fixture_20260911T040815_cb720aeb",
+  "toc": "/tmp/gcm-smoke-zhj21d_p/out/pkg/TOC.md",
+  "om": "/tmp/gcm-smoke-zhj21d_p/out/pkg/OMISSIONS.md",
+  "stamp": {
+    "stamp_utc": "2026-09-11T08:08:15Z",
+    "stamp_ny": "2026-09-11T04:08:15-0400",
+    "date_ny": "2026-09-11",
+    "claim": "Absolute Liv HUB",
+    "skill": "grok-conversation-miner"
+  },
+  "claim": "Absolute Liv HUB",
+  "tmp_owned": true
+}

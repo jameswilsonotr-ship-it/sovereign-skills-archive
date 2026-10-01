@@ -1,0 +1,17 @@
+{
+  "id": "preset.bunny.top10.01",
+  "name": "Expressive Sketch Hybrid / Vector-Raster Collision",
+  "version": "1.0.0",
+  "persona": "bunny",
+  "rank": 1,
+  "rank_reason": "Heavy sketch ink lines aggressively framing luminous surrendered skin and holographic ears. The raw, jagged energy feels alive and immediate.",
+  "tags": ["bunny", "top-10", "rank-1"],
+  "chain": [
+    { "pack": "treatment.heavy-sketch-ink", "weight": 1.0 },
+    { "pack": "photographer.helmut-newton", "weight": 0.7 },
+    { "pack": "photographer.robert-mapplethorpe", "weight": 0.6 }
+  ],
+  "content": {
+    "original": "Heavy sketch ink lines aggressively framing luminous surrendered skin and holographic ears. The raw, jagged energy feels alive and immediate."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "implication.horror-shadow-offscreen",
+  "kind": "implication",
+  "name": "Horror Shadow + Off-Screen Implication",
+  "version": "0.1.0",
+  "description": "Deep shadows, silhouettes, and off-frame action. The unseen is more powerful. Maximum charge through absence.",
+  "tags": [
+    "implication",
+    "horror",
+    "shadow",
+    "silhouette",
+    "off-screen",
+    "tenebrism",
+    "soft-moderation"
+  ],
+  "persona": "shared",
+  "prompt_terms": [
+    {
+      "term": "horror-influenced erotic illustration",
+      "variance": 0.3,
+      "weight": 0.9
+    },
+    {
+      "term": "deep shadows and strong silhouettes",
+      "variance": 0.25,
+      "weight": 1.0
+    },
+    {
+      "term": "off-screen implication",
+      "variance": 0.2,
+      "weight": 1.0
+    },
+    {
+      "term": "dramatic single-source lighting",
+      "variance": 0.35,
+      "weight": 0.85
+    },
+    {
+      "term": "tension created by what is not shown",
+      "variance": 0.4,
+      "weight": 0.95
+    }
+  ],
+  "content": {
+    "technique_strength": "very-high",
+    "best_heat_range": "H5-H10",
+    "moderation_softening": "extreme",
+    "canonical_asset": "visuals/assets/implication-techniques/horror-shadow-offscreen/",
+    "taxonomy": "implication",
+    "taxonomy_note": "heat-aware suggestion layer",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}

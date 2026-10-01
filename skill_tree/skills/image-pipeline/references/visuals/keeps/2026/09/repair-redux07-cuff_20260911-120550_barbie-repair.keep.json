@@ -1,0 +1,69 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "repair-redux07-cuff_20260911-120550_barbie-repair",
+  "slug": "repair-redux07-cuff",
+  "slug_mode": "explicit",
+  "stamp": "20260911-120550",
+  "created": "2026-09-11T12:05:50-04:00",
+  "engine": "edit_image",
+  "orientation": "landscape",
+  "agent": "bunny",
+  "heat": "9",
+  "files": {
+    "jpeg": "repair-redux07-cuff_20260911-120550_barbie-repair.jpg",
+    "prompt": "repair-redux07-cuff_20260911-120550_barbie-repair.prompt.md",
+    "keep": "repair-redux07-cuff_20260911-120550_barbie-repair.keep.json"
+  },
+  "sha256": {
+    "jpeg": "ccc99197ff1b1179afd4ed677f9c0fdecd8c1b1e099f3ce42cbc70727c3ac66a",
+    "prompt": "313171137f941d8fbad776793a2a31340edcab00961d869966258c36e9059df1"
+  },
+  "prompt": "Repair redux07 ear cuff to overlay.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/YgpPW.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/repair-redux07-cuff_20260911-120550_barbie-repair.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/repair-redux07-cuff_20260911-120550_barbie-repair.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/repair-redux07-cuff_20260911-120550_barbie-repair.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/09"
+  },
+  "drive": {
+    "status": "queued",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": null,
+    "prompt_id": null,
+    "keep_id": null,
+    "uploads": [
+      {
+        "artifact_path": "/rendered/repair-redux07-cuff_20260911-120550_barbie-repair.jpg",
+        "file_name": "repair-redux07-cuff_20260911-120550_barbie-repair.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/repair-redux07-cuff_20260911-120550_barbie-repair.prompt.md",
+        "file_name": "repair-redux07-cuff_20260911-120550_barbie-repair.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/repair-redux07-cuff_20260911-120550_barbie-repair.keep.json",
+        "file_name": "repair-redux07-cuff_20260911-120550_barbie-repair.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ]
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/repair-redux07-cuff_20260911-120550_barbie-repair.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

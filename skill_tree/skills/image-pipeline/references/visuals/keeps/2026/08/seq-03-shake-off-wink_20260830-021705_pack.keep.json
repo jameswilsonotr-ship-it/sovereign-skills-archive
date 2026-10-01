@@ -1,0 +1,70 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "seq-03-shake-off-wink_20260830-021705_pack",
+  "slug": "seq-03-shake-off-wink",
+  "slug_mode": "explicit",
+  "stamp": "20260830-021705",
+  "created": "2026-08-30T02:17:05-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "olivia",
+  "heat": "",
+  "files": {
+    "jpeg": "seq-03-shake-off-wink_20260830-021705_pack.jpg",
+    "prompt": "seq-03-shake-off-wink_20260830-021705_pack.prompt.md",
+    "keep": "seq-03-shake-off-wink_20260830-021705_pack.keep.json"
+  },
+  "sha256": {
+    "jpeg": "a81d4da20584295332dee5095b9d306b11a7e10ef88081bdc200fc3d8bddb958",
+    "prompt": "f61b1b7d1ed8019640ddb76242e22e38f107ed5091197f79249fec4af9b4cead"
+  },
+  "prompt": "Photorealistic high-speed 1/1000s action still, adults only. Tall 6'1\" adult woman standing full height on bunker concrete, shaking her head like a dog shaking off rain, rabbit ears as costume, wicked over-the-shoulder wink. Shorter adult woman rising, hand at a corset collar, eye lock. Liquid chrome reflections, crimson accent. Clothes on. No kitchen.\n",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/1XD8T.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/seq-03-shake-off-wink_20260830-021705_pack.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/seq-03-shake-off-wink_20260830-021705_pack.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/seq-03-shake-off-wink_20260830-021705_pack.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1JTMFlivExXXOUuUJMskBgrh9DmUibESr",
+    "prompt_id": "14NLwdpSZdhEJuyJi6nHlX15lfy1yrXLo",
+    "keep_id": "1V9w94WHaOjsVrX-0c3qeBaLybSUUsbPf",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/seq-03-shake-off-wink_20260830-021705_pack.jpg",
+        "file_name": "seq-03-shake-off-wink_20260830-021705_pack.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/seq-03-shake-off-wink_20260830-021705_pack.prompt.md",
+        "file_name": "seq-03-shake-off-wink_20260830-021705_pack.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/seq-03-shake-off-wink_20260830-021705_pack.keep.json",
+        "file_name": "seq-03-shake-off-wink_20260830-021705_pack.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-30T06:18:46+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/seq-03-shake-off-wink_20260830-021705_pack.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

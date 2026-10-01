@@ -1,0 +1,62 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "candidate-hetero-realistic-heterochromia_20260828-205819",
+  "slug": "candidate-hetero-realistic-heterochromia",
+  "slug_mode": "auto",
+  "stamp": "20260828-205819",
+  "created": "2026-08-28T20:58:19-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "candidate-hetero",
+  "heat": "",
+  "files": {
+    "jpeg": "candidate-hetero-realistic-heterochromia_20260828-205819.jpg",
+    "prompt": "candidate-hetero-realistic-heterochromia_20260828-205819.prompt.md",
+    "keep": "candidate-hetero-realistic-heterochromia_20260828-205819.keep.json"
+  },
+  "sha256": {
+    "jpeg": "4784290091c2f1b58d457f6029444427f820a84e32934f7780dc5153dabe6cce",
+    "prompt": "d8a023f71d720e31fecfc97b6ada636d029f508622672cbcc264fdc8591a13e3"
+  },
+  "prompt": "A realistic heterochromia",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/rpvxS.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/candidate-hetero-realistic-heterochromia_20260828-205819.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/candidate-hetero-realistic-heterochromia_20260828-205819.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/candidate-hetero-realistic-heterochromia_20260828-205819.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1CUN-o-WAh-UbSp4dOBuo1LASs8Yybon5",
+    "prompt_id": "1X-rc8IgpFX8xu52wXIQD2Pps_HimIe6i",
+    "keep_id": "13TiCq8p7xC1va_Tiqw9YAz5Tmf_1a8lK",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/candidate-hetero-realistic-heterochromia_20260828-205819.jpg",
+        "file_name": "candidate-hetero-realistic-heterochromia_20260828-205819.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/candidate-hetero-realistic-heterochromia_20260828-205819.prompt.md",
+        "file_name": "candidate-hetero-realistic-heterochromia_20260828-205819.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/candidate-hetero-realistic-heterochromia_20260828-205819.keep.json",
+        "file_name": "candidate-hetero-realistic-heterochromia_20260828-205819.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T01:51:14+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078"
+}

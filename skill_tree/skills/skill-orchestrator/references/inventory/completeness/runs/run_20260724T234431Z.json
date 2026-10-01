@@ -1,0 +1,325 @@
+{
+  "run_id": "20260724T234431Z",
+  "timestamp": "2026-07-24T23:44:31.044953+00:00",
+  "scope": "all",
+  "audited": 30,
+  "critical_gaps": 28,
+  "skills_with_gaps": 9,
+  "skills_clean": 21,
+  "results": [
+    {
+      "slug": "chaos-bratz-roster",
+      "skill_md_exists": true,
+      "missing_paths": [
+        "references/ENVELOPE_SCHEMA.md",
+        "references/agents/rook/canon/Echo_Enforcement_and_Four_Layer_DNA.md",
+        "references/agents/roster-changelog.md",
+        "scripts/echo_interface.py"
+      ],
+      "stub_files": [],
+      "mentioned_count": 13,
+      "critical_gaps": 4,
+      "notes": [
+        "glob_ok: references/agents/*/current.md",
+        "glob_ok: references/mirrors/*.md"
+      ]
+    },
+    {
+      "slug": "claim-runtime",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 1,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "coven-visual-system",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 0,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "format-bible",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 4,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "grok-build",
+      "skill_md_exists": true,
+      "missing_paths": [
+        "references/help.md",
+        "references/test_harness.md"
+      ],
+      "stub_files": [],
+      "mentioned_count": 2,
+      "critical_gaps": 2,
+      "notes": []
+    },
+    {
+      "slug": "grok-build-sovereign",
+      "skill_md_exists": true,
+      "missing_paths": [
+        "references/character_bibles/bunny_bible.md",
+        "references/current_state.json"
+      ],
+      "stub_files": [],
+      "mentioned_count": 2,
+      "critical_gaps": 2,
+      "notes": []
+    },
+    {
+      "slug": "grok-conversation-miner",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 8,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "image-pipeline",
+      "skill_md_exists": true,
+      "missing_paths": [
+        "references/plans/PROVISIONAL_SKILL_REFACTORING.md",
+        "references/registry/schema.json",
+        "references/visuals/changelog.md",
+        "references/visuals/index.md"
+      ],
+      "stub_files": [],
+      "mentioned_count": 4,
+      "critical_gaps": 4,
+      "notes": []
+    },
+    {
+      "slug": "lake-erie-gutter-world",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 2,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "mcp-surface",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 0,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "olivia-dev",
+      "skill_md_exists": true,
+      "missing_paths": [
+        "references/image-qc-checklist.md",
+        "references/iron-pearl-16-agents.md",
+        "references/lake-erie-project.md",
+        "references/mode-prompt-templates.md",
+        "references/research-wishlist.md",
+        "references/state-schema.json",
+        "references/swarms/lake-erie-16-agent-protocol.md",
+        "scripts/auto-snapshot.sh",
+        "scripts/tarball-integrity-check.sh"
+      ],
+      "stub_files": [],
+      "mentioned_count": 16,
+      "critical_gaps": 9,
+      "notes": []
+    },
+    {
+      "slug": "olivia-dev-alpha",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 16,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "skill-orchestrator",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [
+        "references/inventory/completeness_latest.md"
+      ],
+      "mentioned_count": 16,
+      "critical_gaps": 0,
+      "notes": [
+        "stub: references/inventory/completeness_latest.md"
+      ]
+    },
+    {
+      "slug": "swarm-surface",
+      "skill_md_exists": true,
+      "missing_paths": [
+        "references/phrase_routes.md"
+      ],
+      "stub_files": [],
+      "mentioned_count": 2,
+      "critical_gaps": 1,
+      "notes": []
+    },
+    {
+      "slug": "system-roadmap",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 6,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "valerie",
+      "skill_md_exists": true,
+      "missing_paths": [
+        "references/retained_personal/valerie_personal_v1.txt",
+        "references/side_by_side_retained_vs_safe.txt",
+        "references/workspace/valerie_workspace_safe_v1.txt"
+      ],
+      "stub_files": [],
+      "mentioned_count": 4,
+      "critical_gaps": 3,
+      "notes": []
+    },
+    {
+      "slug": "color",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 5,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "docx",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 6,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "ffmpeg",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 1,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "finance",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 0,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "image-gen-edit",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 0,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "imagemagick",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 1,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "mcp",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 0,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "memory-edit",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 0,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "pdf",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 0,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "pptx",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 9,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "skill-creator",
+      "skill_md_exists": true,
+      "missing_paths": [
+        "references/aws.md",
+        "references/gcp.md"
+      ],
+      "stub_files": [],
+      "mentioned_count": 4,
+      "critical_gaps": 3,
+      "notes": [
+        "SKILL.md mentions references/ but references/ directory is missing"
+      ]
+    },
+    {
+      "slug": "skill-installer",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 2,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "tasks",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 0,
+      "critical_gaps": 0,
+      "notes": []
+    },
+    {
+      "slug": "xlsx",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 2,
+      "critical_gaps": 0,
+      "notes": []
+    }
+  ]
+}

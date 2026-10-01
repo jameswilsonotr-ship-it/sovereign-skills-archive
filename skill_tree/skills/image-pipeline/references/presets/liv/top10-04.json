@@ -1,0 +1,30 @@
+{
+  "id": "preset.liv.top10.04",
+  "name": "Bold Graphic Novel Inking",
+  "version": "1.0.0",
+  "persona": "liv",
+  "rank": 4,
+  "rank_reason": "Clean high-impact graphic lines that make the dominance loud, direct, and impossible to ignore.",
+  "tags": [
+    "liv",
+    "top-10",
+    "rank-4"
+  ],
+  "chain": [
+    {
+      "pack": "treatment.graphic-dominance",
+      "weight": 0.95
+    },
+    {
+      "pack": "photographer.rankin",
+      "weight": 0.7
+    },
+    {
+      "pack": "photographer.helmut-newton",
+      "weight": 0.6
+    }
+  ],
+  "content": {
+    "original": "Clean high-impact graphic lines that make the dominance loud, direct, and impossible to ignore."
+  }
+}

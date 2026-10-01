@@ -1,0 +1,52 @@
+{
+  "id": "implication.anime-convenient-censorship",
+  "kind": "implication",
+  "name": "Anime Convenient Censorship",
+  "version": "0.1.0",
+  "description": "Deliberate stylish occlusion (steam, hair, light beams, objects) treated as intentional design language rather than after-the-fact moderation.",
+  "tags": [
+    "implication",
+    "anime",
+    "convenient-censorship",
+    "steam",
+    "hair-occlusion",
+    "soft-moderation"
+  ],
+  "persona": "shared",
+  "prompt_terms": [
+    {
+      "term": "anime style convenient censorship as design language",
+      "variance": 0.25,
+      "weight": 1.0
+    },
+    {
+      "term": "steam and hair occlusion",
+      "variance": 0.3,
+      "weight": 1.0
+    },
+    {
+      "term": "light beams crossing the frame",
+      "variance": 0.35,
+      "weight": 0.9
+    },
+    {
+      "term": "erotic charge preserved through stylish omission",
+      "variance": 0.4,
+      "weight": 0.95
+    },
+    {
+      "term": "clean line work high readability",
+      "variance": 0.4,
+      "weight": 0.7
+    }
+  ],
+  "content": {
+    "technique_strength": "high",
+    "best_heat_range": "H4-H10",
+    "moderation_softening": "very-strong",
+    "canonical_asset": "visuals/assets/implication-techniques/anime-convenient-censorship/",
+    "taxonomy": "implication",
+    "taxonomy_note": "heat-aware suggestion layer",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}
