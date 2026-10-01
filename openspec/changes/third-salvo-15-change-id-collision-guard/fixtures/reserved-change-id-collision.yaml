@@ -1,0 +1,39 @@
+# Offline fixture for the T3-15 reserved change-id guard.
+# Expected values are assertions for a future validator; this file performs no
+# network, provider, secret, Vultr, Linear, or live-environment operation.
+schema: openspec.change-id-collision-fixture/v1
+salvo: THIRD_SALVO
+slot: T3-15
+reserved:
+  - id: third-salvo-15-change-id-collision-guard
+    inclusion: ultra
+    availability: included
+
+cases:
+  - name: exact-reserved-id
+    candidate:
+      id: third-salvo-15-change-id-collision-guard
+      inclusion: ultra
+      availability: included
+    expected: collision
+
+  - name: case-only-reserved-id
+    candidate:
+      id: THIRD-SALVO-15-CHANGE-ID-COLLISION-GUARD
+      inclusion: ultra
+      availability: included
+    expected: collision
+
+  - name: distinct-included-ultra-id
+    candidate:
+      id: third-salvo-15-change-id-collision-guard-followup
+      inclusion: ultra
+      availability: included
+    expected: available
+
+  - name: unique-id-but-on-demand
+    candidate:
+      id: third-salvo-15-change-id-collision-guard-on-demand-probe
+      inclusion: ultra
+      availability: on-demand
+    expected: invalid-lane
