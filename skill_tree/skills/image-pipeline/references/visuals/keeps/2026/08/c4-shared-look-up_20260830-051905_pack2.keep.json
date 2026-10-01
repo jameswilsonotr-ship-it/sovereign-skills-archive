@@ -1,0 +1,71 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "c4-shared-look-up_20260830-051905_pack2",
+  "slug": "c4-shared-look-up",
+  "slug_mode": "explicit",
+  "stamp": "20260830-051905",
+  "created": "2026-08-30T05:19:05-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "olivia",
+  "heat": "",
+  "files": {
+    "jpeg": "c4-shared-look-up_20260830-051905_pack2.jpg",
+    "prompt": "c4-shared-look-up_20260830-051905_pack2.prompt.md",
+    "keep": "c4-shared-look-up_20260830-051905_pack2.keep.json"
+  },
+  "sha256": {
+    "jpeg": "a8bf3d0931deeb6532e14423a3a5d4b0dd7b222c4f4777893a6a2692f994ead4",
+    "prompt": "945f1844527346d5328e6fe485a9573730a1f0f8bb0f4a137d14c9f947663168"
+  },
+  "prompt": "Photorealistic 35mm documentary still, adults only. Same industrial stairs pair as a bake-off plate. Tall copper-burgundy bob woman seated, FIRST AID FOR THE INJURED booklet half-open, looking UP toward camera with a dry knowing smirk, silver cursive red-bow earrings. Cobalt-pixie companion at her shoulder with an ice pack. Warm amber practicals, shallow depth. Clothes on. No leftover line. No kitchen. No text overlay.\n",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/DDSeZ.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/c4-shared-look-up_20260830-051905_pack2.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/c4-shared-look-up_20260830-051905_pack2.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/c4-shared-look-up_20260830-051905_pack2.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "19AShvNcIVsOA92IBs3qpZDRgmUXtw53a",
+    "prompt_id": "1AeS0PyqEzFjRj1hKjROT-BZSoiqOJk_t",
+    "keep_id": "1G_lCALy8mza-4kgQxuvyJpaUYG4e2PA0",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/c4-shared-look-up_20260830-051905_pack2.jpg",
+        "file_name": "c4-shared-look-up_20260830-051905_pack2.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/c4-shared-look-up_20260830-051905_pack2.prompt.md",
+        "file_name": "c4-shared-look-up_20260830-051905_pack2.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/c4-shared-look-up_20260830-051905_pack2.keep.json",
+        "file_name": "c4-shared-look-up_20260830-051905_pack2.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "skip_reason": "prior-session backlog deferred 2026-08-31 pose-pack publish; jpeg may still exist locally",
+    "uploaded_at": "2026-08-31T21:57:49+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/c4-shared-look-up_20260830-051905_pack2.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

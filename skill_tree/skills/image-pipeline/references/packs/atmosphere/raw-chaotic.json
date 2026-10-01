@@ -1,0 +1,28 @@
+{
+  "id": "atmosphere.raw-chaotic",
+  "kind": "atmosphere",
+  "name": "Raw Chaotic",
+  "version": "1.0.0",
+  "description": "Raw, visceral, unfiltered intensity and chaotic emotional charge.",
+  "tags": [
+    "atmosphere",
+    "raw",
+    "chaotic"
+  ],
+  "prompt_terms": [
+    {
+      "term": "raw chaotic intensity",
+      "variance": 0.35,
+      "weight": 1.0
+    },
+    {
+      "term": "visceral unfiltered energy",
+      "variance": 0.45,
+      "weight": 0.8
+    }
+  ],
+  "content": {
+    "taxonomy": "atmosphere",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}

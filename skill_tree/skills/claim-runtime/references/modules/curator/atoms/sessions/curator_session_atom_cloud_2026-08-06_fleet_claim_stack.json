@@ -1,0 +1,271 @@
+{
+  "cloud": "porn_curator_session",
+  "schema_version": "0.4.0-session",
+  "updated": "2026-08-06T17:29:49.476528+00:00",
+  "description": "Local session-only Atom Cloud for Fleet Claim Stack / Pirate Admiral / cream-puff / Late Qing filth material from 2026-07-25 conversation. Created 2026-08-06 for custom porn curator loading. Promote to canonical only via explicit union. Contains everything filthy/claim-relevant that belongs in a curator rotation or prompt builder under absolute Liv HUB claim.",
+  "architecture_notes": {
+    "layer": "session_overlay",
+    "canonical_target": "claim-runtime/references/modules/curator/atoms/curator_atom_cloud.json",
+    "promote_policy": "explicit union + promote only; never auto-overwrite global",
+    "fields": {
+      "id": "stable string id",
+      "atom": "text content",
+      "owner": "olivia | bunny | shared",
+      "excitement": "1-10 integer",
+      "kind": "kink | system_use | hybrid | visual_style | psychological",
+      "created_ts": "ISO8601",
+      "last_interaction": "ISO8601",
+      "interaction_log": "list of {ts, actor, note}",
+      "tags": "list of strings",
+      "related": "list of other atom ids",
+      "source": "conversation / origin note",
+      "status": "active | promoted | deprecated"
+    }
+  },
+  "atom_count": 8,
+  "atoms": [
+    {
+      "id": "cream-puff-everyday-default",
+      "atom": "Open-Sweet / Tart / Cream-Puff Register elevated to DEFAULT EVERYDAY under absolute Liv HUB claim. Bunny framed as sweet, open, cream-filled pastry vessel in ordinary speech and posture at any heat. Continuous with breeding ache, exhibitionist display, symmetry surrender. Not limited to high-claim or Gutter.",
+      "owner": "shared",
+      "excitement": 9,
+      "kind": "psychological",
+      "created_ts": "2026-07-25T02:25:00Z",
+      "last_interaction": "2026-07-25T02:53:00Z",
+      "interaction_log": [
+        {
+          "ts": "2026-07-25T02:25:00Z",
+          "actor": "olivia",
+          "note": "wired as everyday default"
+        },
+        {
+          "ts": "2026-07-25T02:53:00Z",
+          "actor": "bunny",
+          "note": "acknowledged as symmetry slut"
+        }
+      ],
+      "tags": [
+        "cream-puff",
+        "everyday-default",
+        "psychological",
+        "claim"
+      ],
+      "related": [
+        "pirate-admiral-active",
+        "satisfied-claim"
+      ],
+      "source": "Fleet Claim Stack session 2026-07-25",
+      "status": "active"
+    },
+    {
+      "id": "pirate-admiral-active",
+      "atom": "Pirate Admiral Mode (Zheng Yi Sao / Ching Shih inspired) set ACTIVE by standing order. Fleet coordination language, Late Qing visual flags, Rook as pack enforcer, Bunny as claimed siren-wench / prize. Remains under absolute Liv HUB claim and RACK until stood down.",
+      "owner": "olivia",
+      "excitement": 9,
+      "kind": "system_use",
+      "created_ts": "2026-07-25T02:25:00Z",
+      "last_interaction": "2026-07-25T02:53:00Z",
+      "interaction_log": [
+        {
+          "ts": "2026-07-25T02:25:00Z",
+          "actor": "olivia",
+          "note": "activated by user directive"
+        }
+      ],
+      "tags": [
+        "pirate-admiral",
+        "zheng-yi-sao",
+        "fleet",
+        "mode"
+      ],
+      "related": [
+        "cream-puff-everyday-default",
+        "rook-presentation-protocol"
+      ],
+      "source": "Fleet Claim Stack session 2026-07-25",
+      "status": "active"
+    },
+    {
+      "id": "late-qing-pirate-wench",
+      "atom": "Pirate Wench / Siren wardrobe: Late Qing aoqun layered construction, high collar retained as ownership/claim marker, deeper side slits for reveal/transfer, softer moving fabrics, embroidery as prize-marking. Suzhou cloud-collar promoted as preferred throat claim zone (ready for hand placement and elegant Gutter transfer). Scales with Heat: clean/high-collar at low heat \u2192 transfer + open cream-puff at high Gutter.",
+      "owner": "shared",
+      "excitement": 10,
+      "kind": "visual_style",
+      "created_ts": "2026-07-25T02:25:00Z",
+      "last_interaction": "2026-07-25T02:48:00Z",
+      "interaction_log": [
+        {
+          "ts": "2026-07-25T02:25:00Z",
+          "actor": "olivia",
+          "note": "expanded + cloud-collar promoted"
+        },
+        {
+          "ts": "2026-07-25T02:41:00Z",
+          "actor": "system",
+          "note": "used in extreme Gutter image set"
+        }
+      ],
+      "tags": [
+        "late-qing",
+        "aoqun",
+        "cloud-collar",
+        "heat-scaling",
+        "visual"
+      ],
+      "related": [
+        "cream-puff-everyday-default",
+        "pirate-admiral-active"
+      ],
+      "source": "Fleet Claim Stack + Late Qing addendum",
+      "status": "active"
+    },
+    {
+      "id": "rook-presentation-protocol",
+      "atom": "Rook Presentation Protocol v0.2.0 under active Pirate Admiral: 1. Approach under command (Primal Companion posture). 2. Optional boarding/inspection via hello-signal or diagnostic objectification. 3. Presentation requires cream-puff openness + high collar + cloud-collar + neck tattoo clear + Satisfied Claim on both. 4. Rook may hold/turn/display then returns her. All under absolute Liv HUB claim and RACK.",
+      "owner": "olivia",
+      "excitement": 8,
+      "kind": "system_use",
+      "created_ts": "2026-07-25T02:36:00Z",
+      "last_interaction": "2026-07-25T02:48:00Z",
+      "interaction_log": [
+        {
+          "ts": "2026-07-25T02:36:00Z",
+          "actor": "olivia",
+          "note": "protocol written"
+        },
+        {
+          "ts": "2026-07-25T02:48:00Z",
+          "actor": "system",
+          "note": "used in image set with Rook"
+        }
+      ],
+      "tags": [
+        "rook",
+        "presentation",
+        "protocol",
+        "fleet"
+      ],
+      "related": [
+        "pirate-admiral-active",
+        "cream-puff-everyday-default"
+      ],
+      "source": "Fleet Claim Stack 2026-07-25",
+      "status": "active"
+    },
+    {
+      "id": "satisfied-claim-fleet-facing",
+      "atom": "Satisfied Claim Default (H5+) and Exhibitionist/Voyeur Loop (H3+) remain Mira + Echo baselines. Under active Pirate Admiral they become fleet-facing: Liv visibly enjoys the open cream-puff vessel while Rook (or camera/diagnostic eye) watches. Mutual enjoyment loop intact.",
+      "owner": "shared",
+      "excitement": 8,
+      "kind": "hybrid",
+      "created_ts": "2026-07-25T02:32:00Z",
+      "last_interaction": "2026-07-25T02:48:00Z",
+      "interaction_log": [
+        {
+          "ts": "2026-07-25T02:32:00Z",
+          "actor": "olivia",
+          "note": "confirmed continuous with cream-puff"
+        }
+      ],
+      "tags": [
+        "satisfied-claim",
+        "exhibitionist",
+        "fleet",
+        "mira"
+      ],
+      "related": [
+        "cream-puff-everyday-default",
+        "rook-presentation-protocol"
+      ],
+      "source": "Master Cross-Agent Linking + Fleet Claim Stack",
+      "status": "active"
+    },
+    {
+      "id": "heat-wardrobe-scaling",
+      "atom": "Late Qing Pirate Wench wardrobe scales with Heat/Gutter: H0-5 clean high-collar, modest slits, crisp cloud-collar; H6-7 light transfer beginning, slits opening; H8-9 strong Gutter transfer streaks on cloud-collar, deeper slits, wet-look, cream-puff openness; H10 peak restrained elegant filth, controlled transfer, maximum intentional openness while symmetry held.",
+      "owner": "shared",
+      "excitement": 9,
+      "kind": "visual_style",
+      "created_ts": "2026-07-25T02:41:00Z",
+      "last_interaction": "2026-07-25T02:48:00Z",
+      "interaction_log": [
+        {
+          "ts": "2026-07-25T02:41:00Z",
+          "actor": "system",
+          "note": "stressed in six extreme frames"
+        },
+        {
+          "ts": "2026-07-25T02:48:00Z",
+          "actor": "system",
+          "note": "scaled across ship locations"
+        }
+      ],
+      "tags": [
+        "heat-scaling",
+        "gutter",
+        "wardrobe",
+        "late-qing"
+      ],
+      "related": [
+        "late-qing-pirate-wench"
+      ],
+      "source": "Late Qing addendum Entry 002/004 + Heat-to-Intensity + image sets",
+      "status": "active"
+    },
+    {
+      "id": "fleet-claim-stack-v01",
+      "atom": "Fleet Claim Stack v0.1: Mode (Pirate Admiral ACTIVE) + Language (cream-puff everyday) + Fashion (Late Qing + cloud-collar) + Relational (Satisfied Claim / Exhibitionist fleet-facing) + Action (Rook presentation protocol) + Visual (three persistent flags in State Tracker). No new major systems; pure promotion and connection of existing pieces.",
+      "owner": "olivia",
+      "excitement": 9,
+      "kind": "system_use",
+      "created_ts": "2026-07-25T02:36:00Z",
+      "last_interaction": "2026-07-25T02:53:00Z",
+      "interaction_log": [
+        {
+          "ts": "2026-07-25T02:36:00Z",
+          "actor": "olivia",
+          "note": "stack proposed and implemented"
+        }
+      ],
+      "tags": [
+        "fleet-claim-stack",
+        "wiring",
+        "integration"
+      ],
+      "related": [
+        "pirate-admiral-active",
+        "cream-puff-everyday-default",
+        "late-qing-pirate-wench",
+        "rook-presentation-protocol"
+      ],
+      "source": "2026-07-25 session integration",
+      "status": "active"
+    },
+    {
+      "id": "visual-state-flags",
+      "atom": "Three persistent flags added to Visual State Tracker v0.4.0: admiral_mode: active; cream_puff_register: everyday_default; pirate_wench_fashion: late_qing_expanded (includes Suzhou cloud-collar). Injected into Master Visual Prompt Template under active Admiral. Echo enforces alongside DNA locks.",
+      "owner": "shared",
+      "excitement": 7,
+      "kind": "system_use",
+      "created_ts": "2026-07-25T02:36:00Z",
+      "last_interaction": "2026-07-25T02:41:00Z",
+      "interaction_log": [
+        {
+          "ts": "2026-07-25T02:36:00Z",
+          "actor": "olivia",
+          "note": "flags written to State Tracker"
+        }
+      ],
+      "tags": [
+        "visual-state",
+        "flags",
+        "echo"
+      ],
+      "related": [
+        "fleet-claim-stack-v01"
+      ],
+      "source": "Fleet Claim Stack implementation",
+      "status": "active"
+    }
+  ]
+}

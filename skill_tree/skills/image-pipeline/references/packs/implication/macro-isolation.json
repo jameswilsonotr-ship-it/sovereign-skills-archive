@@ -1,0 +1,52 @@
+{
+  "id": "implication.macro-isolation",
+  "kind": "implication",
+  "name": "Macro Isolation",
+  "version": "0.1.0",
+  "description": "Extreme close-up isolation of a single body part, texture, or gesture. Surrounding context is omitted so the mind fills it.",
+  "tags": [
+    "implication",
+    "macro",
+    "close-up",
+    "isolation",
+    "detail",
+    "soft-moderation"
+  ],
+  "persona": "shared",
+  "prompt_terms": [
+    {
+      "term": "extreme macro isolation",
+      "variance": 0.2,
+      "weight": 1.0
+    },
+    {
+      "term": "tight crop on single body detail or gesture",
+      "variance": 0.25,
+      "weight": 1.0
+    },
+    {
+      "term": "surrounding context omitted",
+      "variance": 0.3,
+      "weight": 0.95
+    },
+    {
+      "term": "texture and micro-expression dominant",
+      "variance": 0.35,
+      "weight": 0.9
+    },
+    {
+      "term": "psychological completion by the viewer",
+      "variance": 0.4,
+      "weight": 0.85
+    }
+  ],
+  "content": {
+    "technique_strength": "high",
+    "best_heat_range": "H4-H10",
+    "moderation_softening": "very-strong",
+    "canonical_asset": "visuals/assets/implication-techniques/macro-isolation/",
+    "taxonomy": "implication",
+    "taxonomy_note": "heat-aware suggestion layer",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}

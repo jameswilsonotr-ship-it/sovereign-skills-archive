@@ -1,0 +1,22 @@
+{
+  "id": "preset.style.herb-ritts-glossy-classic-nude",
+  "name": "Herb Ritts Glossy Classic Nude",
+  "version": "1.0.0",
+  "description": "Glossy, classic, sculptural nudes with luminous skin and clean lines in the tradition of Herb Ritts.",
+  "tags": [
+    "preset",
+    "herb-ritts",
+    "glossy",
+    "classic"
+  ],
+  "chain": [
+    {
+      "pack": "photographer.herb-ritts",
+      "weight": 1.0
+    },
+    {
+      "pack": "treatment.glossy-classic-nude",
+      "weight": 0.95
+    }
+  ]
+}

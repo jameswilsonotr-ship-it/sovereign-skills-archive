@@ -1,0 +1,17 @@
+{
+  "$id": "agentify.pose",
+  "type": "object",
+  "required": ["id", "n", "slug", "blurb", "raw"],
+  "properties": {
+    "id": { "type": "string" },
+    "n": { "type": "integer", "minimum": 1 },
+    "slug": { "type": "string" },
+    "blurb": { "type": "string" },
+    "raw": { "type": "string" },
+    "weight": { "enum": ["even", "hip-L", "hip-R", "forward", "back"] },
+    "joints": {
+      "type": ["object", "null"],
+      "description": "stub. later shoulders elbows wrists hips knees."
+    }
+  }
+}

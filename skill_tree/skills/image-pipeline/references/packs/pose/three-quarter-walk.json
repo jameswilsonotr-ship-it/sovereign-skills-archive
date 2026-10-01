@@ -1,0 +1,44 @@
+{
+  "id": "pose.three-quarter-walk",
+  "kind": "pose",
+  "name": "Three Quarter Walk",
+  "version": "0.1.1",
+  "status": "draft",
+  "source": "agentify-scrape",
+  "ticket": "IP-WQ-094",
+  "tags": [
+    "pose",
+    "agentify",
+    "three-quarter-walk"
+  ],
+  "prompt_terms": [
+    {
+      "term": "three quarter walk",
+      "variance": 0.25,
+      "weight": 1.0
+    }
+  ],
+  "instances": [
+    {
+      "who": "cand-park-mouse-bow",
+      "set": "yt-tswoGPiNAV8",
+      "role": "ref",
+      "src": "/home/workdir/artifacts/inbound/yt-tswoGPiNAV8_20260903-141648/01_ref.jpg",
+      "at": "2026-09-03T14:16:53-04:00"
+    },
+    {
+      "who": "cand-park-mouse-bow",
+      "set": "yt-tswoGPiNAV8",
+      "role": "ref",
+      "src": "/home/workdir/artifacts/inbound/yt-tswoGPiNAV8_20260903-141648/02_ref.jpg",
+      "at": "2026-09-03T14:16:53-04:00"
+    }
+  ],
+  "n": 2,
+  "created": "2026-09-03T14:16:53-04:00",
+  "updated": "2026-09-03T14:16:59-04:00",
+  "content": {
+    "taxonomy": "structural",
+    "origin": "inbound still scrape"
+  }
+}

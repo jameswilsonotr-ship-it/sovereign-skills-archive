@@ -1,0 +1,71 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "jumpsuit-a-id_20260831-163514",
+  "slug": "jumpsuit-a-id",
+  "slug_mode": "explicit",
+  "stamp": "20260831-163514",
+  "created": "2026-08-31T16:35:14-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "candidate",
+  "heat": "1",
+  "files": {
+    "jpeg": "jumpsuit-a-id_20260831-163514.jpg",
+    "prompt": "jumpsuit-a-id_20260831-163514.prompt.md",
+    "keep": "jumpsuit-a-id_20260831-163514.keep.json"
+  },
+  "sha256": {
+    "jpeg": "e3e75603f619c7461794aacbb9553d7c8890e2a62d4dc5722af12fc0f05b0e52",
+    "prompt": "764042717eb779867e1b7704cff70162ca239e0deb9f6842577f5e146027a706"
+  },
+  "prompt": "Photorealistic cinematic identity card of an adult woman, mid-30s. Honey-brown hair half-up in a messy bun with blonde highlights, light brown eyes, orange jail jumpsuit over a white undershirt. Neutral stance, clear face, medium shot. No letterboard, no text, no watermark.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/u1UKe.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/jumpsuit-a-id_20260831-163514.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/jumpsuit-a-id_20260831-163514.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/jumpsuit-a-id_20260831-163514.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1qyen5o5RkXue_loHY8ymEGsfey0FLJhR",
+    "prompt_id": "1klnKSW9JAemHAnXccAnc6N7e1KQdati1",
+    "keep_id": "1IrbBGVxNoU3Z6dsR1zwLkrrBmMnPkMeM",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/jumpsuit-a-id_20260831-163514.jpg",
+        "file_name": "jumpsuit-a-id_20260831-163514.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/jumpsuit-a-id_20260831-163514.prompt.md",
+        "file_name": "jumpsuit-a-id_20260831-163514.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/jumpsuit-a-id_20260831-163514.keep.json",
+        "file_name": "jumpsuit-a-id_20260831-163514.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "skip_reason": "prior-session backlog deferred 2026-08-31 pose-pack publish; jpeg may still exist locally",
+    "uploaded_at": "2026-08-31T21:59:40+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/jumpsuit-a-id_20260831-163514.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

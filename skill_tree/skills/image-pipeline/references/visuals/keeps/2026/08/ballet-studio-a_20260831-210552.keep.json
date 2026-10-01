@@ -1,0 +1,70 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "ballet-studio-a_20260831-210552",
+  "slug": "ballet-studio-a",
+  "slug_mode": "explicit",
+  "stamp": "20260831-210552",
+  "created": "2026-08-31T21:05:52-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "olivia",
+  "heat": "",
+  "files": {
+    "jpeg": "ballet-studio-a_20260831-210552.jpg",
+    "prompt": "ballet-studio-a_20260831-210552.prompt.md",
+    "keep": "ballet-studio-a_20260831-210552.keep.json"
+  },
+  "sha256": {
+    "jpeg": "9cb15fd0debe29265259806d684c85906115ac42c7c9ab0a5a647f46de2361ac",
+    "prompt": "b4c2b9766510d38a0bdeba816dd8bc777b84dda5aedc2697721f338558664b1e"
+  },
+  "prompt": "Cluster C studio card. White camisole, pink wrap, pink warmers, seated shin hold. Original dancer cousin.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/n88HO.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/ballet-studio-a_20260831-210552.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/ballet-studio-a_20260831-210552.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/ballet-studio-a_20260831-210552.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1-kjmWaQkKqubpvI90nCgXB4fEyfXyE12",
+    "prompt_id": "14lu3ll3xVcV_Q2kSZDurNdNpH0lsgoTd",
+    "keep_id": "1gjwy6zCLIjjdQ9E-6JIgp49W-QDEmluw",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/ballet-studio-a_20260831-210552.jpg",
+        "file_name": "ballet-studio-a_20260831-210552.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/ballet-studio-a_20260831-210552.prompt.md",
+        "file_name": "ballet-studio-a_20260831-210552.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/ballet-studio-a_20260831-210552.keep.json",
+        "file_name": "ballet-studio-a_20260831-210552.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-09-01T01:06:27+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/ballet-studio-a_20260831-210552.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

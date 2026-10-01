@@ -1,0 +1,70 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "f1-newton-chair_20260829-161405_pack-filter",
+  "slug": "f1-newton-chair",
+  "slug_mode": "explicit",
+  "stamp": "20260829-161405",
+  "created": "2026-08-29T16:14:05-04:00",
+  "engine": "overlay",
+  "orientation": "portrait",
+  "agent": "hei-yu-miao-al-summer",
+  "heat": "4",
+  "files": {
+    "jpeg": "f1-newton-chair_20260829-161405_pack-filter.jpg",
+    "prompt": "f1-newton-chair_20260829-161405_pack-filter.prompt.md",
+    "keep": "f1-newton-chair_20260829-161405_pack-filter.keep.json"
+  },
+  "sha256": {
+    "jpeg": "f973b5556b648d2ee253d1f10bd9af78002b4787519db110b05e76d8f21fcdb9",
+    "prompt": "3b5cab5e868d72632bdb8b32c957e16a23f0713128be24f51dc1fd50a9f971ab"
+  },
+  "prompt": "F1 Newton+Vargas on ov6",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/qjwty.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/f1-newton-chair_20260829-161405_pack-filter.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/f1-newton-chair_20260829-161405_pack-filter.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/f1-newton-chair_20260829-161405_pack-filter.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1Mshp8v1GZVPAZhGtmPd-4cuqtUszUmRC",
+    "prompt_id": "1scMM-1YWm-tCsnQoZhz0flTW5Pg9ygIh",
+    "keep_id": "123SESMZeBCzbtCor5MynHHFkQd3j_k88",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/f1-newton-chair_20260829-161405_pack-filter.jpg",
+        "file_name": "f1-newton-chair_20260829-161405_pack-filter.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/f1-newton-chair_20260829-161405_pack-filter.prompt.md",
+        "file_name": "f1-newton-chair_20260829-161405_pack-filter.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/f1-newton-chair_20260829-161405_pack-filter.keep.json",
+        "file_name": "f1-newton-chair_20260829-161405_pack-filter.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T20:15:37+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/f1-newton-chair_20260829-161405_pack-filter.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

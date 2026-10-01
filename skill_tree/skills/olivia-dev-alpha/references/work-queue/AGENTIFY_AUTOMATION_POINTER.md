@@ -1,0 +1,1 @@
+- [2026-09-03] Agentify cold automations share project sandbox cookies at artifacts/secrets/youtube-cookies.txt. Pointer: image-pipeline IP-WQ-103. Not git.

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "grade-20260813-204431-smk02",
+    "engine": "generate",
+    "pack_ids": [
+      "implication.crepax"
+    ],
+    "overall": 8.1,
+    "outlier": false,
+    "emit_without_generate": "pass",
+    "artifact_id": "smk02",
+    "created_at": "2026-08-13T20:44:31.603195+00:00"
+  }
+]

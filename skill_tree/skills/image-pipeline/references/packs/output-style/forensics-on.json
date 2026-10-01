@@ -1,0 +1,15 @@
+{
+  "id": "output-style.forensics-on",
+  "name": "Forensics On",
+  "kind": "output-style",
+  "version": "0.1.0",
+  "presentation": {
+    "forensics": true,
+    "default_in_harness": true
+  },
+  "content": {
+    "taxonomy": "technical",
+    "taxonomy_note": "delivery / presentation",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}

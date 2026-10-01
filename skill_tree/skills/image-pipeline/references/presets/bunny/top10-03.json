@@ -1,0 +1,16 @@
+{
+  "id": "preset.bunny.top10.03",
+  "name": "Bold Graphic Novel Inking",
+  "version": "1.0.0",
+  "persona": "bunny",
+  "rank": 3,
+  "rank_reason": "Clean bold outlines and sharp hatching that make the claim read loud, direct, and inescapable.",
+  "tags": ["bunny", "top-10", "rank-3"],
+  "chain": [
+    { "pack": "treatment.graphic-dominance", "weight": 0.9 },
+    { "pack": "photographer.helmut-newton", "weight": 0.7 }
+  ],
+  "content": {
+    "original": "Clean bold outlines and sharp hatching that make the claim read loud, direct, and inescapable."
+  }
+}

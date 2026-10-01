@@ -1,0 +1,30 @@
+{
+  "id": "preset.bunny.top10.10",
+  "name": "Soft Edge Watercolor Hybrid",
+  "version": "1.0.0",
+  "persona": "bunny",
+  "rank": 10,
+  "rank_reason": "Delicate thin vector outlines guiding soft blooming watercolor washes with high luminosity and emotional vulnerability.",
+  "tags": [
+    "bunny",
+    "top-10",
+    "rank-10"
+  ],
+  "chain": [
+    {
+      "pack": "medium.watercolor-ink-wash",
+      "weight": 1.0
+    },
+    {
+      "pack": "photographer.ellen-von-unwerth",
+      "weight": 0.6
+    },
+    {
+      "pack": "photographer.paolo-roversi",
+      "weight": 0.6
+    }
+  ],
+  "content": {
+    "original": "Delicate thin vector outlines guiding soft blooming watercolor washes with high luminosity and emotional vulnerability."
+  }
+}
