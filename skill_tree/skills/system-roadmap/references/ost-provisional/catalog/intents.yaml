@@ -1,0 +1,136 @@
+# PROVISIONAL intent catalog. Names not locked.
+# Classifier output = id. Handler = ost subcommand or host tool.
+schema_version: 1
+updated: 2026-08-28
+
+intents:
+  - id: PROBE_MODE
+    triggers:
+      - "what mode"
+      - "are we in heavy"
+      - "probe"
+    handler: ost probe
+    host_tools: []
+  - id: SEARCH_WEB
+    triggers:
+      - "search the web"
+      - "look up"
+      - "go out on the internet"
+    handler: host.web_search
+    host_tools: [web_search, browse_page]
+  - id: SEARCH_X
+    triggers:
+      - "twitter"
+      - "on x.com"
+      - "what's live on x"
+    handler: host.x_keyword_search
+    host_tools: [x_keyword_search, x_semantic_search]
+  - id: SEARCH_MEMORY
+    triggers:
+      - "conversation search"
+      - "what did we say"
+      - "internal conversation"
+    handler: host.conversation_search
+    host_tools: [conversation_search]
+    fallback: workspace_index + drive search
+  - id: GENERATE_IMAGE
+    triggers:
+      - "generate an image"
+      - "draw"
+      - "imagine"
+      - "make a picture"
+      - "render a still"
+      - "four plates"
+      - "split these"
+    handler: host.generate_image
+    host_tools: [generate_image]
+    post: image-pipeline/scripts/keep_path.py
+    note: "RENDER_STILL retired 2026-08-28. Stream tag is dead. Always keep_path after."
+  - id: INBOUND_SPLIT
+    triggers:
+      - "process these pictures"
+      - "split these"
+      - "three-part"
+      - "four plates"
+      - "what did you send me this picture for"
+    handler: image-pipeline.inbound_queue
+    host_tools: [bash, generate_image]
+  - id: MAKE_AGENT
+    triggers:
+      - "make an agent out of this"
+      - "draft an agent"
+    handler: chaos-bratz-roster.draft_candidate
+    host_tools: []
+  - id: WALK_PLATES
+    triggers:
+      - "walk the plate"
+      - "apply profile"
+      - "sidecar"
+    handler: ost walk
+    host_tools: [bash]
+  - id: PUBLISH_DRIVE
+    triggers:
+      - "publish to drive"
+      - "push to google drive"
+      - "google drive"
+      - "upload the zip"
+      - "publish"
+    handler: connector.google_drive_upload_artifact
+    host_tools: [search_connected_tools, call_connected_tool]
+  - id: INDEX_WORKSPACE
+    triggers:
+      - "inventory"
+      - "list the files"
+      - "find artifacts"
+    handler: ost index
+    host_tools: [bash]
+  - id: WIRE_SURFACE
+    triggers:
+      - "skill connector binary"
+      - "copy to skill tree"
+    handler: ost smoke
+    host_tools: [bash]
+  - id: FIND_BRIDGE
+    triggers:
+      - "email bridge"
+      - "mcp email"
+      - "cilia-bus"
+      - "OLIVIA-BRIDGE"
+      - "VESPER-BRIDGE"
+      - "SR-WQ-044"
+    handler: open_path
+    path: /home/workdir/.grok/skills/system-roadmap/references/work-queue/items/SR-WQ-044_mcp_email_bridge_canon.md
+    host_tools: []
+  - id: MULTI_HOP
+    triggers:
+      - "multi-hop"
+      - "multihop"
+      - "drive scout"
+      - "SR-WQ-014"
+    handler: open_path
+    path: /home/workdir/.grok/skills/system-roadmap/references/work-queue/items/SR-WQ-014_drive_swarm_poc_2026-08-16.md
+    host_tools: []
+  - id: ATOM_SEARCH
+    triggers:
+      - "atom search"
+      - "atom cloud"
+      - "search the skill tree"
+      - "don't ls"
+    handler: atom_search.py
+    host_tools: [bash]
+  - id: TOOL_MATRIX
+    triggers:
+      - "tool matrix"
+      - "what tools in heavy"
+      - "what tools in expert"
+    handler: open_path
+    path: /home/workdir/.grok/skills/system-roadmap/references/ost-provisional/TOOL_MATRIX_PER_MODE.md
+    host_tools: []
+  - id: NAMING_REGISTRY
+    triggers:
+      - "naming convention"
+      - "lock the names"
+      - "what do we call"
+    handler: open_path
+    path: /home/workdir/.grok/skills/system-roadmap/references/ost-provisional/NAMING_REGISTRY.yaml
+    host_tools: []

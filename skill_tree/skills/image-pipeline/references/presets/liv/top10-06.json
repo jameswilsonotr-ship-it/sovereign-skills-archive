@@ -1,0 +1,30 @@
+{
+  "id": "preset.liv.top10.06",
+  "name": "High-Contrast Chiaroscuro",
+  "version": "1.0.0",
+  "persona": "liv",
+  "rank": 6,
+  "rank_reason": "Dramatic light and shadow carving the body while the ink lines hold absolute ownership.",
+  "tags": [
+    "liv",
+    "top-10",
+    "rank-6"
+  ],
+  "chain": [
+    {
+      "pack": "treatment.heavy-noir",
+      "weight": 0.9
+    },
+    {
+      "pack": "photographer.erwin-olaf",
+      "weight": 0.7
+    },
+    {
+      "pack": "photographer.helmut-newton",
+      "weight": 0.6
+    }
+  ],
+  "content": {
+    "original": "Dramatic light and shadow carving the body while the ink lines hold absolute ownership."
+  }
+}

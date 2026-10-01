@@ -1,0 +1,22 @@
+{
+  "run_id": "20260724T214502Z",
+  "timestamp": "2026-07-24T21:45:02.992581+00:00",
+  "scope": "olivia-dev-alpha",
+  "audited": 1,
+  "critical_gaps": 1,
+  "skills_with_gaps": 1,
+  "skills_clean": 0,
+  "results": [
+    {
+      "slug": "olivia-dev-alpha",
+      "skill_md_exists": true,
+      "missing_paths": [
+        "scripts/init_project_tree.py"
+      ],
+      "stub_files": [],
+      "mentioned_count": 16,
+      "critical_gaps": 1,
+      "notes": []
+    }
+  ]
+}

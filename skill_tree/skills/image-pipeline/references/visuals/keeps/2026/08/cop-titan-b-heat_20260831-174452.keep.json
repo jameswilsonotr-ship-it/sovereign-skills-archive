@@ -1,0 +1,70 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "cop-titan-b-heat_20260831-174452",
+  "slug": "cop-titan-b-heat",
+  "slug_mode": "explicit",
+  "stamp": "20260831-174452",
+  "created": "2026-08-31T17:44:52-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "olivia",
+  "heat": "B",
+  "files": {
+    "jpeg": "cop-titan-b-heat_20260831-174452.jpg",
+    "prompt": "cop-titan-b-heat_20260831-174452.prompt.md",
+    "keep": "cop-titan-b-heat_20260831-174452.keep.json"
+  },
+  "sha256": {
+    "jpeg": "ed915735824f387675c3f67538e6df2af58dea383f4ca115421a7c4358fad84d",
+    "prompt": "406be9eda30ba12c12c43cef6c14cd69f71eb9e8c55c923e3e7f4d006955e708"
+  },
+  "prompt": "Photorealistic full-length fashion plate of an original adult woman in her late twenties, cousin identity only, not a celebrity and not a named real person. Titan bun hair lock: messy half-up honey-blonde volume bun with dark roots and loose face-framing strands. Warm brown eyes, knowing half-smile, light freckles. Navy patrol uniform, vest, duty belt, badge as costume wardrobe only. Golden hour, hip cocked, one hand on belt, SUV behind her. Heat three, sexy but still a working plate. Adults only. No Facebook chrome. No watermark. No text.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/EYTNs.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/cop-titan-b-heat_20260831-174452.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/cop-titan-b-heat_20260831-174452.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/cop-titan-b-heat_20260831-174452.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1mBGmGRIr5h4Bxr3pwT9TYyQGclgp5foy",
+    "prompt_id": "1n3LVpQUo2zpuZXYJuGQkDIP9fVWlk-RC",
+    "keep_id": "1ITznh4BUftkPdsYjaPRRvhgtaiyYCZhb",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/cop-titan-b-heat_20260831-174452.jpg",
+        "file_name": "cop-titan-b-heat_20260831-174452.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/cop-titan-b-heat_20260831-174452.prompt.md",
+        "file_name": "cop-titan-b-heat_20260831-174452.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/cop-titan-b-heat_20260831-174452.keep.json",
+        "file_name": "cop-titan-b-heat_20260831-174452.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-31T21:45:59+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/cop-titan-b-heat_20260831-174452.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

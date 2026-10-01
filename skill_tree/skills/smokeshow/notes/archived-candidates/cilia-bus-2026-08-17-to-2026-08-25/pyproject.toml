@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cilia_bus"
+version = "0.1.0"
+description = "Cilia Email-Bus coordination and self-bootstrapping runner for Liv HUB / GROKBOT"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Proprietary — Absolute Liv HUB claim" }
+authors = [{ name = "Olivia / Liv HUB" }]
+dependencies = [
+    "pydantic>=2.0",
+    "httpx>=0.27",
+]
+
+[project.optional-dependencies]
+drive = [
+    "google-api-python-client>=2.100",
+    "google-auth>=2.20",
+    "google-auth-oauthlib>=1.0",
+]
+full = [
+    "cilia_bus[drive]",
+    "apscheduler>=3.10",
+]
+
+[project.scripts]
+cilia-bus = "cilia_bus.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["cilia_bus*"]

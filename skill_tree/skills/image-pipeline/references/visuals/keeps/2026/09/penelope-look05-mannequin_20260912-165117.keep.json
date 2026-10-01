@@ -1,0 +1,69 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "penelope-look05-mannequin_20260912-165117",
+  "slug": "penelope-look05-mannequin",
+  "slug_mode": "explicit",
+  "stamp": "20260912-165117",
+  "created": "2026-09-12T16:51:17-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "olivia",
+  "heat": "2",
+  "files": {
+    "jpeg": "penelope-look05-mannequin_20260912-165117.jpg",
+    "prompt": "penelope-look05-mannequin_20260912-165117.prompt.md",
+    "keep": "penelope-look05-mannequin_20260912-165117.keep.json"
+  },
+  "sha256": {
+    "jpeg": "6f7ba95c1407a161ebb5d809a5470f05469eb709317fdb7ee3c3e5b432bdd2d8",
+    "prompt": "9700bd41bc08341fcb621d36648a8cf0c4bf3e0dd3972229861822728274b213"
+  },
+  "prompt": "Oneshot rear mannequin look 05. R7t5R.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/R7t5R.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/penelope-look05-mannequin_20260912-165117.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/penelope-look05-mannequin_20260912-165117.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/penelope-look05-mannequin_20260912-165117.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/09"
+  },
+  "drive": {
+    "status": "queued",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": null,
+    "prompt_id": null,
+    "keep_id": null,
+    "uploads": [
+      {
+        "artifact_path": "/rendered/penelope-look05-mannequin_20260912-165117.jpg",
+        "file_name": "penelope-look05-mannequin_20260912-165117.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/penelope-look05-mannequin_20260912-165117.prompt.md",
+        "file_name": "penelope-look05-mannequin_20260912-165117.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/penelope-look05-mannequin_20260912-165117.keep.json",
+        "file_name": "penelope-look05-mannequin_20260912-165117.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ]
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/penelope-look05-mannequin_20260912-165117.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

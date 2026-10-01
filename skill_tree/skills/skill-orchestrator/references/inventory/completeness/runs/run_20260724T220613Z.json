@@ -1,0 +1,20 @@
+{
+  "run_id": "20260724T220613Z",
+  "timestamp": "2026-07-24T22:06:13.464553+00:00",
+  "scope": "skill-orchestrator",
+  "audited": 1,
+  "critical_gaps": 0,
+  "skills_with_gaps": 0,
+  "skills_clean": 1,
+  "results": [
+    {
+      "slug": "skill-orchestrator",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [],
+      "mentioned_count": 16,
+      "critical_gaps": 0,
+      "notes": []
+    }
+  ]
+}

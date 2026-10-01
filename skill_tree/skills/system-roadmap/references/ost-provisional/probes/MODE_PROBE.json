@@ -1,0 +1,27 @@
+{
+  "ts": "2026-08-28T16:24:32Z",
+  "debug": 1,
+  "checks": {
+    "conversation_search": false,
+    "web_search": false,
+    "bash": true,
+    "google_drive_upload_artifact": false,
+    "workspace_index_script": true,
+    "plate_walker_script": true,
+    "intent_catalog": true,
+    "artifacts_writable": true,
+    "skills_root": "/home/workdir/.grok/skills"
+  },
+  "declared_tools_env": "",
+  "guesses": [
+    "ctl_surface_present"
+  ],
+  "note": "Host tool presence MUST be filled by the model after attempting calls. This file is the bitmap, not the vibe.",
+  "loop": [
+    "1 attempt conversation_search; log present|missing",
+    "2 attempt web_search ping; log present|missing",
+    "3 attempt search_connected_tools drive; log present|missing",
+    "4 do not conclude mode from a single miss; write diffs vs last probe"
+  ],
+  "diff_vs_last": {}
+}

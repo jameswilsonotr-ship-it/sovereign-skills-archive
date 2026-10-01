@@ -1,0 +1,42 @@
+{
+  "id": "hand.lempicka",
+  "kind": "hand",
+  "name": "Tamara de Lempicka",
+  "version": "1.0.0",
+  "description": "Art Deco geometric faceting. Mannerist poses, cold aristocratic self-possession, sculptural high-contrast lighting, limited rich palette, polished volume.",
+  "tags": [
+    "hand",
+    "lempicka",
+    "art-deco",
+    "geometric"
+  ],
+  "prompt_terms": [
+    {
+      "term": "Tamara de Lempicka",
+      "variance": 0.05,
+      "weight": 1.0
+    },
+    {
+      "term": "in the exact style of Tamara de Lempicka",
+      "variance": 0.15,
+      "weight": 0.9
+    },
+    {
+      "term": "Art Deco geometric faceted modeling",
+      "variance": 0.3,
+      "weight": 0.8
+    },
+    {
+      "term": "mannerist pose and cold aristocratic presence",
+      "variance": 0.4,
+      "weight": 0.7
+    }
+  ],
+  "content": {
+    "notes": "Original 8 artist Hand. High-fidelity nervous-system impersonation. Promoted 2026-08-05 under Taxonomy Contract v0.1.0. Keep ultra-low variance on proper name.",
+    "taxonomy": "hand",
+    "source": "original 8x8 DNA-respecting test set",
+    "taxonomy_note": "named artist nervous system",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}

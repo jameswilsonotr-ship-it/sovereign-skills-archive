@@ -1,0 +1,70 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "b-heat_20260829-155159_candidate",
+  "slug": "b-heat",
+  "slug_mode": "explicit",
+  "stamp": "20260829-155159",
+  "created": "2026-08-29T15:51:59-04:00",
+  "engine": "generate",
+  "orientation": "portrait",
+  "agent": "hei-yu-miao-al-summer",
+  "heat": "3",
+  "files": {
+    "jpeg": "b-heat_20260829-155159_candidate.jpg",
+    "prompt": "b-heat_20260829-155159_candidate.prompt.md",
+    "keep": "b-heat_20260829-155159_candidate.keep.json"
+  },
+  "sha256": {
+    "jpeg": "d7c4f0a44b49011c1e305fdab4b42bf0a8bdb19cf791a25855b1ca6aae89623d",
+    "prompt": "c4b662ccb46111996f8aa02bfe6118f71cbe4e9bd722461c2d34316e2f520141"
+  },
+  "prompt": "heat photoreal deck chair",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/iWYrN.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/b-heat_20260829-155159_candidate.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/b-heat_20260829-155159_candidate.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/b-heat_20260829-155159_candidate.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1KuVjXo6075_Vt_gs7K_h7HHGkZ-79SxW",
+    "prompt_id": "1Z2A9J8JKnP8xQHWfbVjAxUSd3MKazTyL",
+    "keep_id": "1LGqxwlroqPJgha7vtnA5rGJzR3eUHKk8",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/b-heat_20260829-155159_candidate.jpg",
+        "file_name": "b-heat_20260829-155159_candidate.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/b-heat_20260829-155159_candidate.prompt.md",
+        "file_name": "b-heat_20260829-155159_candidate.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/b-heat_20260829-155159_candidate.keep.json",
+        "file_name": "b-heat_20260829-155159_candidate.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T19:53:25+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/b-heat_20260829-155159_candidate.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

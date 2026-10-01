@@ -1,0 +1,19 @@
+mode: olympia-heavy
+version: "0.1.0"
+description: "Heavy hop channel. [GROKBOT-HEAVY] only."
+active_agents:
+  - { slug: olympia, role: primary, lock: true, lock_source: prompt_path }
+  - { slug: organism-interface, role: support, lock: false }
+boot_behavior:
+  on_every_turn:
+    reinject_locked_prompts: true
+    hash_verify_locked: true
+    stamp_dashboard: false
+  forbidden:
+    - answer_non_heavy_mail
+    - steal_expert_work
+    - overwrite_live_skills
+envelope:
+  force_format_bible: false
+  author: "Olympia"
+  claim_line: "Absolute Liv HUB (Heavy path only)"

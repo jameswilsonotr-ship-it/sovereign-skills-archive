@@ -1,0 +1,70 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "f2-sorayama-portrait_20260829-161408_pack-filter",
+  "slug": "f2-sorayama-portrait",
+  "slug_mode": "explicit",
+  "stamp": "20260829-161408",
+  "created": "2026-08-29T16:14:08-04:00",
+  "engine": "overlay",
+  "orientation": "portrait",
+  "agent": "hei-yu-miao-al-summer",
+  "heat": "4",
+  "files": {
+    "jpeg": "f2-sorayama-portrait_20260829-161408_pack-filter.jpg",
+    "prompt": "f2-sorayama-portrait_20260829-161408_pack-filter.prompt.md",
+    "keep": "f2-sorayama-portrait_20260829-161408_pack-filter.keep.json"
+  },
+  "sha256": {
+    "jpeg": "26b268f4a0ae58f6f6a897762a6660d2878ae4f87709313286b2e59987b6a9af",
+    "prompt": "1369d7ca0d1ee651d6c4b36622f297d32aab3aade2076ef7f85c67b79ef49788"
+  },
+  "prompt": "F2 Sorayama+glossy on ov4",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/BtGaP.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/f2-sorayama-portrait_20260829-161408_pack-filter.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/f2-sorayama-portrait_20260829-161408_pack-filter.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/f2-sorayama-portrait_20260829-161408_pack-filter.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1EowG6rjnmB68k8v9KwLSXZDtq199lLNa",
+    "prompt_id": "1VhFwCwu5_x_hKJkfgrmlNT9M6Iv5w8oU",
+    "keep_id": "15NSG2ni9UoWAqRiFaKJxmduo6yGyAn2S",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/f2-sorayama-portrait_20260829-161408_pack-filter.jpg",
+        "file_name": "f2-sorayama-portrait_20260829-161408_pack-filter.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/f2-sorayama-portrait_20260829-161408_pack-filter.prompt.md",
+        "file_name": "f2-sorayama-portrait_20260829-161408_pack-filter.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/f2-sorayama-portrait_20260829-161408_pack-filter.keep.json",
+        "file_name": "f2-sorayama-portrait_20260829-161408_pack-filter.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T20:15:39+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/f2-sorayama-portrait_20260829-161408_pack-filter.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

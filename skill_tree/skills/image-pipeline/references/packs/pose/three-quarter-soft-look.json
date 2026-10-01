@@ -1,0 +1,42 @@
+{
+  "id": "pose.three-quarter-soft-look",
+  "kind": "pose",
+  "name": "Three-Quarter Soft Look",
+  "version": "0.1.1",
+  "status": "draft",
+  "source": "agentify-scrape",
+  "ticket": "IP-WQ-094",
+  "tags": [
+    "pose",
+    "agentify",
+    "three-quarter-soft-look"
+  ],
+  "prompt_terms": [
+    {
+      "term": "three-quarter body angle",
+      "variance": 0.25,
+      "weight": 1.0
+    },
+    {
+      "term": "chin slightly down, gaze off-camera soft",
+      "variance": 0.4,
+      "weight": 0.8
+    }
+  ],
+  "instances": [
+    {
+      "who": "storm-diver",
+      "set": "cand-storm-diver",
+      "role": "three_quarter",
+      "src": "/home/workdir/artifacts/inbound/cand-storm-diver_20260903-010411/01_three_quarter.png",
+      "at": "2026-09-03T01:15:39-04:00"
+    }
+  ],
+  "n": 1,
+  "created": "2026-09-03T01:15:39-04:00",
+  "updated": "2026-09-03T01:15:48-04:00",
+  "content": {
+    "taxonomy": "structural",
+    "origin": "inbound still scrape"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "phg-h10-bunny-bar_20260828-212723",
+  "slug": "phg-h10-bunny-bar",
+  "slug_mode": "explicit",
+  "stamp": "20260828-212723",
+  "created": "2026-08-28T21:27:23-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "bunny",
+  "heat": "10",
+  "files": {
+    "jpeg": "phg-h10-bunny-bar_20260828-212723.jpg",
+    "prompt": "phg-h10-bunny-bar_20260828-212723.prompt.md",
+    "keep": "phg-h10-bunny-bar_20260828-212723.keep.json"
+  },
+  "sha256": {
+    "jpeg": "1ef20a567a756313d1549dc3a673b64eb202e975c539b2fff0726314721a637a",
+    "prompt": "25fe47f5ff80089517e14bddb7dd2f10aeea7c0f5a0b95fd20be55ee976ef2cb"
+  },
+  "prompt": "Bunny at the bar. White striped bodysuit black micro skirt fishnets. Cool. Records on wall.",
+  "source_receipt": "/home/workdir/artifacts/rendered/phg-h10/06-bunny-bar.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/phg-h10-bunny-bar_20260828-212723.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/phg-h10-bunny-bar_20260828-212723.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/phg-h10-bunny-bar_20260828-212723.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1hkFPE24bzgmP3LyQebM9PXoJqKVwQA97",
+    "prompt_id": "1EUSUEge6AY1XqceE5-hpIX9IwCSdgyWL",
+    "keep_id": "1y_sFlrGKtBORQnkOM5l7346Kdweo6TH2",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/phg-h10-bunny-bar_20260828-212723.jpg",
+        "file_name": "phg-h10-bunny-bar_20260828-212723.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/phg-h10-bunny-bar_20260828-212723.prompt.md",
+        "file_name": "phg-h10-bunny-bar_20260828-212723.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/phg-h10-bunny-bar_20260828-212723.keep.json",
+        "file_name": "phg-h10-bunny-bar_20260828-212723.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T01:45:49+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078"
+}

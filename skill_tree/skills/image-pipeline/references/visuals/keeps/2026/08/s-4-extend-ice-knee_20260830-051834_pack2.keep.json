@@ -1,0 +1,71 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "s-4-extend-ice-knee_20260830-051834_pack2",
+  "slug": "s-4-extend-ice-knee",
+  "slug_mode": "explicit",
+  "stamp": "20260830-051834",
+  "created": "2026-08-30T05:18:34-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "olivia",
+  "heat": "",
+  "files": {
+    "jpeg": "s-4-extend-ice-knee_20260830-051834_pack2.jpg",
+    "prompt": "s-4-extend-ice-knee_20260830-051834_pack2.prompt.md",
+    "keep": "s-4-extend-ice-knee_20260830-051834_pack2.keep.json"
+  },
+  "sha256": {
+    "jpeg": "94f3827c2e6fc1a846359ff7b71fdc4c75df1852b4a363473fe4297a04906170",
+    "prompt": "e71d623ce1f69d4cc65a2449c97d0898b221ad202587f337f4d5293d279e26ce"
+  },
+  "prompt": "Photorealistic 35mm documentary still, adults only. Industrial workshop stairs. Tall adult woman with copper-burgundy bob has closed the FIRST AID FOR THE INJURED booklet against her thigh and presses a small ice pack to her knee. She exhales and looks off toward the workshop. Companion with cobalt pixie stands close, charcoal utility clothes. Silver cursive red-bow earrings. Warm amber practicals. Clothes on. No kitchen. No leftover line. No text overlay.\n",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/QUdSq.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/s-4-extend-ice-knee_20260830-051834_pack2.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/s-4-extend-ice-knee_20260830-051834_pack2.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/s-4-extend-ice-knee_20260830-051834_pack2.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1XxsBaE3eL_5ZCB2Q812vQrO0EkMAdJPV",
+    "prompt_id": "1qxwIrZrik42RbHvshpn7OuiCOLdo_zR5",
+    "keep_id": "17bZ4mW8EHjnYpu5ngvbBHvpT18cmCEGF",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/s-4-extend-ice-knee_20260830-051834_pack2.jpg",
+        "file_name": "s-4-extend-ice-knee_20260830-051834_pack2.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/s-4-extend-ice-knee_20260830-051834_pack2.prompt.md",
+        "file_name": "s-4-extend-ice-knee_20260830-051834_pack2.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/s-4-extend-ice-knee_20260830-051834_pack2.keep.json",
+        "file_name": "s-4-extend-ice-knee_20260830-051834_pack2.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "skip_reason": "prior-session backlog deferred 2026-08-31 pose-pack publish; jpeg may still exist locally",
+    "uploaded_at": "2026-08-31T22:01:58+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/s-4-extend-ice-knee_20260830-051834_pack2.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

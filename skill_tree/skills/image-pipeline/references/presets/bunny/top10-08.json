@@ -1,0 +1,30 @@
+{
+  "id": "preset.bunny.top10.08",
+  "name": "Opaque Block Collage Hybrid",
+  "version": "1.0.0",
+  "persona": "bunny",
+  "rank": 8,
+  "rank_reason": "Aggressive flat color blocks slicing through detailed ink work \u2014 modern, disruptive, and boldly graphic.",
+  "tags": [
+    "bunny",
+    "top-10",
+    "rank-8"
+  ],
+  "chain": [
+    {
+      "pack": "treatment.opaque-block-collage",
+      "weight": 1.0
+    },
+    {
+      "pack": "photographer.david-lachapelle",
+      "weight": 0.7
+    },
+    {
+      "pack": "photographer.guy-bourdin",
+      "weight": 0.6
+    }
+  ],
+  "content": {
+    "original": "Aggressive flat color blocks slicing through detailed ink work \u2014 modern, disruptive, and boldly graphic."
+  }
+}

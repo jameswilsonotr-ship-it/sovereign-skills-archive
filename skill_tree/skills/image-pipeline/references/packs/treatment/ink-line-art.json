@@ -1,0 +1,33 @@
+{
+  "id": "treatment.ink-line-art",
+  "kind": "treatment",
+  "name": "Ink Line Art",
+  "version": "1.0.0",
+  "description": "Precise or expressive ink line / engraving treatment.",
+  "tags": [
+    "treatment",
+    "ink",
+    "line-art"
+  ],
+  "prompt_terms": [
+    {
+      "term": "ink line art",
+      "variance": 0.25,
+      "weight": 1.0
+    },
+    {
+      "term": "precise engraving style lines",
+      "variance": 0.4,
+      "weight": 0.8
+    },
+    {
+      "term": "expressive ink line work",
+      "variance": 0.45,
+      "weight": 0.7
+    }
+  ],
+  "content": {
+    "taxonomy": "treatment",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}

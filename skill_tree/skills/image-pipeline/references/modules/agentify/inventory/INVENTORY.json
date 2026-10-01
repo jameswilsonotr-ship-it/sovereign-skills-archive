@@ -1,0 +1,618 @@
+{
+  "version": 2,
+  "claim": "Absolute Liv HUB",
+  "updated": "2026-09-05T00:29:51+00:00",
+  "drive_folder_id": "1TUnlo1L09U0u6D_eVAuIyRoZ8Hq_vKU3",
+  "law": "who later. thumbs are tokens.",
+  "rows": [
+    {
+      "ytid": "tugomyRk6-Q",
+      "url": "https://www.youtube.com/watch?v=tugomyRk6-Q",
+      "who": "odette",
+      "lane": "keep",
+      "status": "queued",
+      "thumb": {
+        "hair_family": "long-wave",
+        "hair_color": "blonde",
+        "tone": "fair",
+        "undertone": "cool",
+        "observed": true
+      },
+      "scout_fit": {
+        "slug": "odette",
+        "score": "strong",
+        "why": "Odette wrap-spin"
+      },
+      "local_path": "",
+      "drive_file_id": ""
+    },
+    {
+      "ytid": "Mw-d0ViZip4",
+      "url": "https://www.youtube.com/watch?v=Mw-d0ViZip4",
+      "who": "vittoria",
+      "lane": "keep",
+      "status": "queued",
+      "thumb": {
+        "hair_family": "shoulder",
+        "hair_color": "black",
+        "tone": "medium-olive",
+        "undertone": "olive",
+        "observed": true
+      },
+      "scout_fit": {
+        "slug": "vittoria",
+        "score": "strong",
+        "why": "Vittoria cargo stretch"
+      },
+      "local_path": "",
+      "drive_file_id": ""
+    },
+    {
+      "ytid": "PKBTNtWUqzg",
+      "url": "https://www.youtube.com/watch?v=PKBTNtWUqzg",
+      "who": "veronica",
+      "lane": "keep",
+      "status": "queued",
+      "thumb": {
+        "hair_family": "shoulder",
+        "hair_color": "brown",
+        "tone": "fair",
+        "undertone": "neutral",
+        "observed": true
+      },
+      "scout_fit": {
+        "slug": "veronica",
+        "score": "strong",
+        "why": "Veronica trench"
+      },
+      "local_path": "",
+      "drive_file_id": ""
+    },
+    {
+      "ytid": "ScrhJm9kYic",
+      "url": "https://www.youtube.com/watch?v=ScrhJm9kYic",
+      "who": "olette",
+      "lane": "keep",
+      "status": "queued",
+      "thumb": {
+        "hair_family": "undercut",
+        "hair_color": "dark-brown",
+        "tone": "unspecified",
+        "undertone": "unspecified",
+        "observed": true
+      },
+      "scout_fit": {
+        "slug": "olette",
+        "score": "strong",
+        "why": "Olette 2am locked"
+      },
+      "local_path": "",
+      "drive_file_id": ""
+    },
+    {
+      "ytid": "Zfvi89aneIw",
+      "url": "https://www.youtube.com/watch?v=Zfvi89aneIw",
+      "who": "unassigned",
+      "lane": "override",
+      "status": "queued",
+      "thumb": {
+        "hair_family": "long-straight",
+        "hair_color": "brown",
+        "tone": "fair",
+        "undertone": "warm",
+        "observed": true
+      },
+      "scout_fit": {
+        "slug": null,
+        "score": "weak",
+        "why": "micro jean hold"
+      },
+      "local_path": "",
+      "drive_file_id": ""
+    },
+    {
+      "ytid": "tPDLLAXe4hg",
+      "url": "https://www.youtube.com/watch?v=tPDLLAXe4hg",
+      "who": "unassigned",
+      "lane": "override",
+      "status": "queued",
+      "thumb": {
+        "hair_family": "unspecified",
+        "hair_color": "unspecified",
+        "tone": "unspecified",
+        "undertone": "unspecified",
+        "observed": true
+      },
+      "scout_fit": {
+        "slug": null,
+        "score": "weak",
+        "why": "micro/polka"
+      },
+      "local_path": "",
+      "drive_file_id": ""
+    },
+    {
+      "ytid": "7TdDpL8HQQk",
+      "url": "https://www.youtube.com/watch?v=7TdDpL8HQQk",
+      "who": "unassigned",
+      "lane": "maybe",
+      "status": "queued",
+      "thumb": {
+        "hair_family": "long-straight",
+        "hair_color": "blonde",
+        "tone": "fair",
+        "undertone": "warm",
+        "observed": true
+      },
+      "scout_fit": {
+        "slug": null,
+        "score": "medium",
+        "why": "Vicky mint tee"
+      },
+      "local_path": "",
+      "drive_file_id": ""
+    },
+    {
+      "ytid": "Lg6U5jXsy5w",
+      "url": "https://www.youtube.com/watch?v=Lg6U5jXsy5w",
+      "who": "unassigned",
+      "lane": "maybe",
+      "status": "queued",
+      "thumb": {
+        "hair_family": "long-wave",
+        "hair_color": "brown",
+        "tone": "light-medium-warm-brown",
+        "undertone": "warm",
+        "observed": true
+      },
+      "scout_fit": {
+        "slug": null,
+        "score": "medium",
+        "why": "floral corset"
+      },
+      "local_path": "",
+      "drive_file_id": ""
+    },
+    {
+      "ytid": "N18e4fbGdoM",
+      "url": "https://www.youtube.com/watch?v=N18e4fbGdoM",
+      "who": "unassigned",
+      "lane": "maybe",
+      "status": "queued",
+      "thumb": {
+        "hair_family": "bob",
+        "hair_color": "brown",
+        "tone": "light-medium-warm-brown",
+        "undertone": "warm",
+        "observed": true
+      },
+      "scout_fit": {
+        "slug": null,
+        "score": "medium",
+        "why": "Orchid bob-ish"
+      },
+      "local_path": "",
+      "drive_file_id": ""
+    },
+    {
+      "ytid": "6evomKIiPjM",
+      "url": "https://www.youtube.com/watch?v=6evomKIiPjM",
+      "who": "unassigned",
+      "lane": "maybe",
+      "status": "queued",
+      "thumb": {
+        "hair_family": "long-wave",
+        "hair_color": "dark-brown",
+        "tone": "light-olive",
+        "undertone": "warm",
+        "observed": true
+      },
+      "scout_fit": {
+        "slug": null,
+        "score": "medium",
+        "why": "Vedette cami"
+      },
+      "local_path": "",
+      "drive_file_id": ""
+    },
+    {
+      "ytid": "J5_P1oUFy8Y",
+      "url": "https://www.youtube.com/watch?v=J5_P1oUFy8Y",
+      "who": "unassigned",
+      "lane": "maybe",
+      "status": "queued",
+      "thumb": {
+        "hair_family": "long-straight",
+        "hair_color": "black",
+        "tone": "medium-olive",
+        "undertone": "warm",
+        "observed": true
+      },
+      "scout_fit": {
+        "slug": null,
+        "score": "medium",
+        "why": "Valentina ruffle"
+      },
+      "local_path": "",
+      "drive_file_id": ""
+    },
+    {
+      "ytid": "kIHrdl1oceU",
+      "url": "https://www.youtube.com/watch?v=kIHrdl1oceU",
+      "who": "unassigned",
+      "lane": "maybe",
+      "status": "queued",
+      "thumb": {
+        "hair_family": "long-wave",
+        "hair_color": "black",
+        "tone": "rich-deep-brown",
+        "undertone": "warm",
+        "observed": true
+      },
+      "scout_fit": {
+        "slug": null,
+        "score": "medium",
+        "why": "Ophelia tone, romper not gown"
+      },
+      "local_path": "",
+      "drive_file_id": ""
+    },
+    {
+      "ytid": "7Bzo9Isa8W8",
+      "url": "https://www.youtube.com/watch?v=7Bzo9Isa8W8",
+      "who": "unassigned",
+      "lane": "maybe",
+      "status": "queued",
+      "thumb": {
+        "hair_family": "long-straight",
+        "hair_color": "dark-brown",
+        "tone": "light-medium-warm-brown",
+        "undertone": "warm",
+        "observed": true
+      },
+      "scout_fit": {
+        "slug": null,
+        "score": "weak",
+        "why": "festival stack"
+      },
+      "local_path": "",
+      "drive_file_id": ""
+    },
+    {
+      "ytid": "ait3D4kRolM",
+      "url": "https://www.youtube.com/watch?v=ait3D4kRolM",
+      "who": "unassigned",
+      "lane": "maybe",
+      "status": "queued",
+      "thumb": {
+        "hair_family": "long-straight",
+        "hair_color": "dark-brown",
+        "tone": "light-medium-warm-brown",
+        "undertone": "warm",
+        "observed": true
+      },
+      "scout_fit": {
+        "slug": null,
+        "score": "weak",
+        "why": "Hollister petite"
+      },
+      "local_path": "",
+      "drive_file_id": ""
+    },
+    {
+      "ytid": "U-3S0uOinUQ",
+      "url": "https://www.youtube.com/watch?v=U-3S0uOinUQ",
+      "who": "unassigned",
+      "lane": "maybe",
+      "status": "queued",
+      "thumb": {
+        "hair_family": "long-straight",
+        "hair_color": "blonde",
+        "tone": "fair",
+        "undertone": "warm",
+        "observed": true
+      },
+      "scout_fit": {
+        "slug": null,
+        "score": "weak",
+        "why": "gym set"
+      },
+      "local_path": "",
+      "drive_file_id": ""
+    },
+    {
+      "ytid": "DXcoe1mtinI",
+      "url": "https://www.youtube.com/watch?v=DXcoe1mtinI",
+      "who": "unassigned",
+      "lane": "maybe",
+      "status": "queued",
+      "thumb": {
+        "hair_family": "long-wave",
+        "hair_color": "brown",
+        "tone": "fair",
+        "undertone": "warm",
+        "observed": true
+      },
+      "scout_fit": {
+        "slug": null,
+        "score": "none",
+        "why": "LONG multi-wardrobe"
+      },
+      "local_path": "",
+      "drive_file_id": ""
+    },
+    {
+      "ytid": "w9u4SLfeCHQ",
+      "url": "https://www.youtube.com/watch?v=w9u4SLfeCHQ",
+      "who": "unassigned",
+      "lane": "maybe",
+      "status": "queued",
+      "thumb": {
+        "hair_family": "long-wave",
+        "hair_color": "blonde",
+        "tone": "fair",
+        "undertone": "warm",
+        "observed": true
+      },
+      "scout_fit": {
+        "slug": null,
+        "score": "weak",
+        "why": "jean shorts reel"
+      },
+      "local_path": "",
+      "drive_file_id": ""
+    },
+    {
+      "ytid": "3xK6shdTeCs",
+      "url": "https://www.youtube.com/watch?v=3xK6shdTeCs",
+      "who": "unassigned",
+      "lane": "maybe",
+      "status": "queued",
+      "thumb": {
+        "hair_family": "long-wave",
+        "hair_color": "blonde",
+        "tone": "fair",
+        "undertone": "cool",
+        "observed": true
+      },
+      "scout_fit": {
+        "slug": null,
+        "score": "weak",
+        "why": "white fox dresses"
+      },
+      "local_path": "",
+      "drive_file_id": ""
+    },
+    {
+      "ytid": "yirqfPXPtjE",
+      "url": "https://www.youtube.com/watch?v=yirqfPXPtjE",
+      "who": "unassigned",
+      "lane": "maybe",
+      "status": "queued",
+      "thumb": {
+        "hair_family": "long-wave",
+        "hair_color": "blonde",
+        "tone": "fair",
+        "undertone": "warm",
+        "observed": true
+      },
+      "scout_fit": {
+        "slug": null,
+        "score": "none",
+        "why": "TEMU bag"
+      },
+      "local_path": "",
+      "drive_file_id": ""
+    },
+    {
+      "ytid": "PFoNS7TB-oQ",
+      "url": "https://www.youtube.com/watch?v=PFoNS7TB-oQ",
+      "who": "unassigned",
+      "lane": "maybe",
+      "status": "queued",
+      "thumb": {
+        "hair_family": "long-wave",
+        "hair_color": "auburn",
+        "tone": "fair",
+        "undertone": "warm",
+        "observed": true
+      },
+      "scout_fit": {
+        "slug": null,
+        "score": "weak",
+        "why": "UA magenta"
+      },
+      "local_path": "",
+      "drive_file_id": ""
+    },
+    {
+      "ytid": "xfFCNFnX9Jo",
+      "url": "https://www.youtube.com/watch?v=xfFCNFnX9Jo",
+      "who": "unassigned",
+      "lane": "maybe",
+      "status": "queued",
+      "thumb": {
+        "hair_family": "coils",
+        "hair_color": "blonde",
+        "tone": "medium-olive",
+        "undertone": "warm",
+        "observed": true
+      },
+      "scout_fit": {
+        "slug": null,
+        "score": "medium",
+        "why": "Onyx coils family"
+      },
+      "local_path": "",
+      "drive_file_id": ""
+    },
+    {
+      "ytid": "E0OylseYSt8",
+      "url": "https://www.youtube.com/watch?v=E0OylseYSt8",
+      "who": "unassigned",
+      "lane": "maybe",
+      "status": "queued",
+      "thumb": {
+        "hair_family": "long-straight",
+        "hair_color": "dark-brown",
+        "tone": "medium-olive",
+        "undertone": "olive",
+        "observed": true
+      },
+      "scout_fit": {
+        "slug": null,
+        "score": "medium",
+        "why": "Vittoria gym kits"
+      },
+      "local_path": "",
+      "drive_file_id": ""
+    },
+    {
+      "ytid": "iXO9ONAIFbE",
+      "url": "https://www.youtube.com/watch?v=iXO9ONAIFbE",
+      "who": "unassigned",
+      "lane": "maybe",
+      "status": "queued",
+      "thumb": {
+        "hair_family": "long-wave",
+        "hair_color": "dark-brown",
+        "tone": "light-olive",
+        "undertone": "warm",
+        "observed": true
+      },
+      "scout_fit": {
+        "slug": null,
+        "score": "weak",
+        "why": "Lean bags hold"
+      },
+      "local_path": "",
+      "drive_file_id": ""
+    },
+    {
+      "ytid": "jjjWOcPO54s",
+      "url": "https://www.youtube.com/watch?v=jjjWOcPO54s",
+      "who": "unassigned",
+      "lane": "maybe",
+      "status": "queued",
+      "thumb": {
+        "hair_family": "long-straight",
+        "hair_color": "black",
+        "tone": "rich-deep-brown",
+        "undertone": "warm",
+        "observed": true
+      },
+      "scout_fit": {
+        "slug": null,
+        "score": "strong",
+        "why": "Clara fall knit+skirt \u2014 Ophelia/Vala tone"
+      },
+      "local_path": "",
+      "drive_file_id": ""
+    },
+    {
+      "ytid": "7Q_OTfwNCcc",
+      "url": "https://www.youtube.com/watch?v=7Q_OTfwNCcc",
+      "who": "unassigned",
+      "lane": "maybe",
+      "status": "queued",
+      "thumb": {
+        "hair_family": "long-straight",
+        "hair_color": "black",
+        "tone": "rich-deep-brown",
+        "undertone": "warm",
+        "observed": true
+      },
+      "scout_fit": {
+        "slug": null,
+        "score": "strong",
+        "why": "Clara keep/return jumpsuit"
+      },
+      "local_path": "",
+      "drive_file_id": ""
+    },
+    {
+      "ytid": "gUFuHbjVtl8",
+      "url": "https://www.youtube.com/watch?v=gUFuHbjVtl8",
+      "who": "unassigned",
+      "lane": "maybe",
+      "status": "queued",
+      "thumb": {
+        "hair_family": "long-straight",
+        "hair_color": "black",
+        "tone": "rich-deep-brown",
+        "undertone": "warm",
+        "observed": true
+      },
+      "scout_fit": {
+        "slug": null,
+        "score": "medium",
+        "why": "Fatima beige suit set"
+      },
+      "local_path": "",
+      "drive_file_id": ""
+    },
+    {
+      "ytid": "L1jQQ6QjEB8",
+      "url": "https://www.youtube.com/watch?v=L1jQQ6QjEB8",
+      "who": "unassigned",
+      "lane": "maybe",
+      "status": "queued",
+      "thumb": {
+        "hair_family": "long-wave",
+        "hair_color": "brown",
+        "tone": "light-olive",
+        "undertone": "warm",
+        "observed": true
+      },
+      "scout_fit": {
+        "slug": null,
+        "score": "medium",
+        "why": "Naomi olive square-neck maxi"
+      },
+      "local_path": "",
+      "drive_file_id": ""
+    },
+    {
+      "ytid": "MA7PngvIcbs",
+      "url": "https://www.youtube.com/watch?v=MA7PngvIcbs",
+      "who": "unassigned",
+      "lane": "maybe",
+      "status": "queued",
+      "thumb": {
+        "hair_family": "loc-long",
+        "hair_color": "black",
+        "tone": "rich-deep-brown",
+        "undertone": "warm",
+        "observed": true
+      },
+      "scout_fit": {
+        "slug": null,
+        "score": "strong",
+        "why": "Mary loc-long print set \u2014 Olympia/Vala"
+      },
+      "local_path": "",
+      "drive_file_id": ""
+    },
+    {
+      "ytid": "muldxy4zSUI",
+      "url": "https://www.youtube.com/watch?v=muldxy4zSUI",
+      "who": "unassigned",
+      "lane": "maybe",
+      "status": "queued",
+      "thumb": {
+        "hair_family": "short",
+        "hair_color": "black",
+        "tone": "rich-deep-brown",
+        "undertone": "warm",
+        "observed": true
+      },
+      "scout_fit": {
+        "slug": null,
+        "score": "medium",
+        "why": "Kerry lime polo dress \u2014 Vala-ish"
+      },
+      "local_path": "",
+      "drive_file_id": ""
+    }
+  ]
+}
