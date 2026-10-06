@@ -5,6 +5,14 @@ Full binary tarball is on Google Drive (GitHub contents API cannot hold 100MB+).
 
 ## Latest
 
+- **2026-10-06** v0.1.0 full-skill-library-vacuum
+  - Drive folder: https://drive.google.com/drive/folders/1AU_4yhnPzgX9su83aI7kerc2jz-d3SQG
+  - Drive tarball file_id: `1yAbO-4NYLPrg_lQBRJcAVZhHaUEOXxVJ` (253M / 265052562 bytes, sha256 `12a6ca94b22919834e70dcc05ab3c4c413f232d9a3208a3aa1bdeff527da1889`)
+  - Receipt: [snapshots/2026-10-06/RECEIPT.md](snapshots/2026-10-06/RECEIPT.md)
+  - Manifest: [snapshots/2026-10-06/MANIFEST_full_v0.1.0_2026-10-06.md](snapshots/2026-10-06/MANIFEST_full_v0.1.0_2026-10-06.md)
+  - GitHub: https://github.com/jameswilsonotr-ship-it/sovereign-skills-archive/tree/main/snapshots/2026-10-06
+  - Skills: 37 unique (27 custom + 10 bundled). Members 5359.
+
 - **2026-10-05** v0.1.0 full-skill-library-vacuum
   - Drive folder: https://drive.google.com/drive/folders/1KxuhdrTyjeG5Zn6zvMRvhZIOEzw6OLPr
   - Drive tarball file_id: `1RElE4AnxVuHqhCC7_QlrtHt3CDssT8PR` (253M / 265050842 bytes, sha256 `199e26c4ddb860799d92e5ea76263e768cffcdf334afb6d67cd7c231adde4adb`)
