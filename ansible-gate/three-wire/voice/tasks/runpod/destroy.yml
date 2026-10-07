@@ -1,0 +1,12 @@
+---
+- name: Destroy | plan
+  ansible.builtin.debug:
+    msg: "PLAN DELETE {{ runpod_api }}/pods/{{ rp_pod_id | default('<none>') }}"
+- name: Destroy | real
+  ansible.builtin.uri:
+    url: "{{ runpod_api }}/pods/{{ rp_pod_id }}"
+    method: DELETE
+    headers: {Authorization: "Bearer {{ rp_key }}"}
+    status_code: [200, 204, 404]
+  no_log: true
+  when: not dry_run | bool and rp_pod_id is defined and rp_pod_id != 'DRYRUN-POD'

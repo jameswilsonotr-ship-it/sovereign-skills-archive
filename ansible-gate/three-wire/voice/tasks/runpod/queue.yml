@@ -1,0 +1,18 @@
+---
+- name: Queue | freeze run id
+  ansible.builtin.set_fact:
+    voice_run_id: "{{ voice_run_id }}"
+- name: Queue | read live control prompt + lines
+  ansible.builtin.set_fact:
+    rp_control: "{{ lookup('ansible.builtin.file', live_control_file).splitlines()[0] }}"
+    rp_lines: >-
+      {{ (lookup('ansible.builtin.file', live_lines_file) | from_json)
+         + (lookup('ansible.builtin.file', live_rewrites_file) | from_json) }}
+- name: Queue | planned renders
+  ansible.builtin.debug:
+    msg: >-
+      PLAN render {{ item.name }} engine={{ item.engine }} pkg={{ item.package }} model={{ item.model }}
+      rev={{ item.revision }} seed_base={{ item.seed_base }} lines={{ rp_lines | length }} control="{{ rp_control }}"
+  loop: "{{ render_queue }}"
+  loop_control:
+    label: "{{ item.name }}"

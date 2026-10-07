@@ -1,0 +1,53 @@
+---
+- name: Pod | load API key from slot (no_log)
+  ansible.builtin.set_fact:
+    rp_key: "{{ lookup('ansible.builtin.ini', runpod_slot_key_var, type='properties', file=runpod_slot_file) }}"
+  no_log: true
+  when: not dry_run | bool
+- name: Pod | planned API call
+  ansible.builtin.debug:
+    msg: >-
+      {{ ('PLAN GET ' ~ runpod_api ~ '/pods/' ~ runpod_pod_id ~ ' (attach)') if runpod_pod_id | length > 0 else
+         ('PLAN POST ' ~ runpod_api ~ '/pods {imageName: ' ~ voice_image_ref ~ ', gpuTypeIds: [' ~ runpod_gpu_type
+          ~ '], cloudType: ' ~ runpod_cloud_type ~ ', containerDiskInGb: ' ~ runpod_container_disk_gb
+          ~ ', volumeInGb: ' ~ runpod_volume_gb ~ ', ports: [22/tcp], dockerStartCmd: [sleep, infinity]}') }}
+- name: Pod | create (real)
+  ansible.builtin.uri:
+    url: "{{ runpod_api }}/pods"
+    method: POST
+    headers: {Authorization: "Bearer {{ rp_key }}"}
+    body_format: json
+    body:
+      name: "gate-voice-{{ voice_run_id }}"
+      imageName: "{{ voice_image_ref }}"
+      gpuTypeIds: ["{{ runpod_gpu_type }}"]
+      cloudType: "{{ runpod_cloud_type }}"
+      containerDiskInGb: "{{ runpod_container_disk_gb }}"
+      volumeInGb: "{{ runpod_volume_gb }}"
+      ports: ["22/tcp"]
+      dockerStartCmd: ["sleep", "infinity"]
+    status_code: [200, 201]
+  register: rp_create
+  no_log: true
+  when: not dry_run | bool and runpod_pod_id | length == 0
+- name: Pod | set id
+  ansible.builtin.set_fact:
+    rp_pod_id: "{{ runpod_pod_id if runpod_pod_id | length > 0 else (rp_create.json.id | default('DRYRUN-POD')) }}"
+    rp_t0: "{{ lookup('ansible.builtin.pipe', 'date +%s') }}"
+- name: Pod | wait RUNNING + read costPerHr/ssh (real)
+  ansible.builtin.uri:
+    url: "{{ runpod_api }}/pods/{{ rp_pod_id }}"
+    headers: {Authorization: "Bearer {{ rp_key }}"}
+  register: rp_pod
+  until: rp_pod.json.desiredStatus | default('') == 'RUNNING' and rp_pod.json.publicIp | default('') | length > 0
+  retries: 40
+  delay: 15
+  no_log: true
+  when: not dry_run | bool
+- name: Pod | rate + ssh endpoint
+  ansible.builtin.set_fact:
+    rp_rate: "{{ (rp_pod.json.costPerHr | default(runpod_hourly_usd)) if not dry_run | bool else runpod_hourly_usd }}"
+    rp_ssh: "{{ (rp_pod.json.publicIp ~ ':' ~ (rp_pod.json.portMappings['22'] | default(22))) if not dry_run | bool else 'DRYRUN:22' }}"
+- name: Pod | summary
+  ansible.builtin.debug:
+    msg: "pod={{ rp_pod_id }} rate=${{ rp_rate }}/h ssh={{ rp_ssh }} cap=${{ runpod_spend_cap_usd }} start=${{ runpod_starting_spend_usd }}"

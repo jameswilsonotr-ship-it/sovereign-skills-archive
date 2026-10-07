@@ -1,0 +1,25 @@
+---
+- name: Sync | plan
+  ansible.builtin.debug:
+    msg:
+      - "PLAN rsync {{ rp_ssh | default('?') }}:/workspace/out/ -> out/{{ voice_run_id }}/ (wav, onnx)"
+      - "PLAN rclone copy {{ voice_local_out }} {{ drive_remote }}:{{ drive_folder_path }}/{{ drive_run_subdir }}
+        --include *.wav --include *.onnx"
+      - "PLAN rclone lsjson -R {{ drive_remote }}:{{ drive_folder_path }}/{{ drive_run_subdir }} -> {{ voice_local_out }}/drive_manifest.json (Drive IDs)"
+- name: Sync | real pull + rclone + manifest
+  ansible.builtin.shell: |
+    set -euo pipefail
+    mkdir -p "$OUT"
+    rsync -a -e "ssh -p ${RP_SSH#*:} -i $KEY" --include='*/' --include='*.wav' --include='*.onnx' --include='*.json' --exclude='*' \
+      {{ runpod_ssh_user }}@"${RP_SSH%:*}":/workspace/out/ "$OUT"/
+    rclone copy "$OUT" "$DST" --include '*.wav' --include '*.onnx' --include '*.json'
+    rclone lsjson -R "$DST" > "$OUT/drive_manifest.json"
+  args:
+    executable: /bin/bash
+  environment:
+    RP_SSH: "{{ rp_ssh | default('') }}"
+    KEY: "{{ runpod_ssh_key_slot }}"
+    OUT: "{{ voice_local_out }}"
+    DST: "{{ drive_remote }}:{{ drive_folder_path }}/{{ drive_run_subdir }}"
+  changed_when: true
+  when: not dry_run | bool and rp_pod_id is defined

@@ -1,0 +1,37 @@
+---
+- name: Tick | wait interval
+  ansible.builtin.wait_for:
+    timeout: "{{ loop_interval_s }}"
+  when: not dry_run | bool and not rp_state.done
+- name: Tick | sync
+  ansible.builtin.include_tasks: sync.yml
+  when: not rp_state.done
+- name: Tick | spend
+  ansible.builtin.set_fact:
+    rp_spend: "{{ (runpod_starting_spend_usd | float) + (rp_rate | float) * (((lookup('ansible.builtin.pipe', 'date +%s') | int) - (rp_t0 | int)) / 3600) }}"
+  when: not rp_state.done
+- name: Tick | render finished? (real)
+  ansible.builtin.shell: |
+    set -o pipefail
+    ssh -p "${RP_SSH#*:}" -i "$KEY" {{ runpod_ssh_user }}@"${RP_SSH%:*}" test -f /workspace/out/DONE && echo done || echo running
+  args:
+    executable: /bin/bash
+  environment: {RP_SSH: "{{ rp_ssh }}", KEY: "{{ runpod_ssh_key_slot }}"}
+  register: rp_status
+  changed_when: false
+  when: not dry_run | bool and not rp_state.done
+- name: Tick | update state
+  ansible.builtin.set_fact:
+    rp_state:
+      iter: "{{ rp_tick }}"
+      capped: "{{ (rp_spend | float) >= (runpod_spend_cap_usd | float) }}"
+      done: >-
+        {{ dry_run | bool or (rp_spend | float) >= (runpod_spend_cap_usd | float)
+           or (rp_status.stdout | default('') == 'done') }}
+  when: not rp_state.done
+- name: Tick | report
+  ansible.builtin.debug:
+    msg: >-
+      tick={{ rp_tick }} spend=${{ '%.2f' | format(rp_spend | float) }} cap=${{ runpod_spend_cap_usd }}
+      capped={{ rp_state.capped }} done={{ rp_state.done }}
+  when: rp_spend is defined

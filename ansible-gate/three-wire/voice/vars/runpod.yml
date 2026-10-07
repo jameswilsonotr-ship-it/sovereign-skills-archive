@@ -1,0 +1,70 @@
+---
+# RunPod adapter vars (Gate). Secrets by SLOT NAME only; values are read on the controller at runtime, never logged.
+runpod_slot_file: "{{ lookup('ansible.builtin.env', 'HOME') }}/.config/gate-slots/RUNPOD.env"
+runpod_slot_key_var: RUNPOD_API_KEY            # variable name inside the RUNPOD.env slot
+runpod_api: https://rest.runpod.io/v1
+runpod_pod_id: ""                              # set to attach (continue-from-here); empty => provision
+runpod_gpu_type: "NVIDIA A40"
+runpod_cloud_type: SECURE
+runpod_volume_gb: 60
+runpod_container_disk_gb: 40
+runpod_hourly_usd: 0.49                        # TODO-PIN: re-read live price from API costPerHr at provision time (overrides this)
+runpod_spend_cap_usd: 29.50
+runpod_starting_spend_usd: 0.0                 # pass -e runpod_starting_spend_usd=<spend so far> (fleet ledger)
+runpod_ssh_user: root
+runpod_ssh_key_slot: ""                        # slot NAME of private key for pod SSH; MISSING (see README_CONTINUE.md)
+loop_interval_s: 900                           # 15 min sync + spend check
+loop_max_iterations: 64                        # 16 h hard ceiling
+dry_run: true                                  # default SAFE: prints planned calls only
+
+# Drive
+drive_remote: gdrive                           # rclone remote name (~/.config/rclone/rclone.conf)
+drive_folder_path: 05_OLIVIA_WORKING/voice-design-20260922
+drive_folder_id: 1vxJt9fqfd8ez4b1zUv7IFHhTVwwVv4UT   # looked up 2026-10-07 via Drive search
+drive_run_subdir: "renders-{{ voice_run_id }}"
+
+# Live prompts / queue (Solene, 2026-10-07). See README_CONTINUE.md "Prompt source".
+live_control_file: /workspace/voice-stack-repro/queue/montreal-control-template.txt
+live_lines_file: /workspace/voice-stack-repro/profiles/live_x_20261007/lines.json
+live_rewrites_file: /workspace/voice-stack-repro/profiles/live_x_20261007/rewrites.json
+live_fix_plan: /workspace/voice-stack-repro/queue/voxcpm2-quality-fix-plan.md
+darkfleet_dir: /workspace/voice-stack-repro/darkfleet   # Solene's on-pod orchestrator (NOT PRESENT at 2026-10-07 11:15 CT)
+pod_workdir: /workspace/gate-run
+
+# Render queue: keeper pass first, then salvo. Versions TODO-PIN where unknowable offline.
+render_queue:
+  - name: voxcpm2_keeper
+    engine: voxcpm2
+    package: "voxcpm==2.0.3"
+    model: openbmb/VoxCPM2
+    revision: 32279effe8c19989596f05d353d1447f51d9e915
+    seed_base: 1001
+    params: {cfg_value: 1.6, inference_timesteps: 20, retry_badcase: true}
+  - name: qwen3_tts
+    engine: qwen3-tts
+    package: TODO-PIN
+    model: TODO-PIN (Qwen3-TTS HF id + revision)
+    revision: TODO-PIN
+    seed_base: 2001
+    params: {}
+  - name: fish_s2_pro
+    engine: fish-speech
+    package: TODO-PIN
+    model: TODO-PIN (fishaudio S2 Pro HF id)
+    revision: TODO-PIN
+    seed_base: 3001
+    params: {}
+  - name: higgs_tts3
+    engine: higgs-audio
+    package: TODO-PIN
+    model: TODO-PIN (Higgs TTS 3 HF id)
+    revision: TODO-PIN
+    seed_base: 4001
+    params: {}
+  - name: kokoro_onnx_export
+    engine: kokoro-onnx
+    package: TODO-PIN
+    model: TODO-PIN
+    revision: TODO-PIN
+    seed_base: 0
+    params: {}

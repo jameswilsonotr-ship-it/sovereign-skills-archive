@@ -1,0 +1,42 @@
+---
+# Gate RunPod adapter: provision/attach pod by API, run image AS pod image, push darkfleet + live prompts,
+# launch direct-on-pod, sync to Drive every 15 min with $29.50 spend stop, final sync + destroy in always.
+# SAFE DEFAULT: dry_run=true prints every planned API call / render / sync / destroy; zero network, zero spend.
+- name: RunPod voice render (Gate)
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  vars_files:
+    - vars/pins.yml
+    - vars/defaults.yml
+    - vars/runpod.yml
+  vars:
+    voice_image_ref: "{{ voice_image_repo }}@{{ voice_image_digest }}"
+    rp_state: {done: false, capped: false, iter: 0}
+  tasks:
+    - name: Gate | AWAITING DIGEST (real run only)
+      ansible.builtin.assert:
+        that: dry_run | bool or (voice_image_digest | length > 0)
+        fail_msg: "AWAITING DIGEST: voice_image_digest empty; Docker Hull must push and record image@sha256."
+    - name: Gate | Snapshot live queue
+      ansible.builtin.include_tasks: tasks/runpod/queue.yml
+    - name: Gate | Run with guaranteed teardown
+      block:
+        - name: Pod | provision or attach
+          ansible.builtin.include_tasks: tasks/runpod/pod.yml
+        - name: Pod | push darkfleet + prompts and launch
+          ansible.builtin.include_tasks: tasks/runpod/launch.yml
+        - name: Loop | sync + spend check every interval
+          ansible.builtin.include_tasks: tasks/runpod/tick.yml
+          loop: "{{ range(0, (1 if dry_run | bool else loop_max_iterations | int)) | list }}"
+          loop_control:
+            loop_var: rp_tick
+      rescue:
+        - name: Rescue | record failure
+          ansible.builtin.debug:
+            msg: "Run failed at {{ ansible_failed_task.name | default('?') }}; final sync + destroy follow."
+      always:
+        - name: Always | final sync
+          ansible.builtin.include_tasks: tasks/runpod/sync.yml
+        - name: Always | destroy pod
+          ansible.builtin.include_tasks: tasks/runpod/destroy.yml

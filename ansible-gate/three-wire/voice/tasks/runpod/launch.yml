@@ -1,0 +1,32 @@
+---
+- name: Launch | darkfleet present?
+  ansible.builtin.stat:
+    path: "{{ darkfleet_dir }}/run.sh"
+  register: rp_df
+- name: Launch | entry command
+  ansible.builtin.set_fact:
+    rp_entry: "{{ 'darkfleet/run.sh' if rp_df.stat.exists else 'python /app/render.py' }}"
+- name: Launch | plan
+  ansible.builtin.debug:
+    msg:
+      - "PLAN scp -> {{ rp_ssh }}:{{ pod_workdir }}/ : darkfleet/ (or pack fallback), {{ live_control_file | basename }}, lines.json, rewrites.json, queue.json"
+      - "PLAN ssh {{ rp_ssh }} 'cd {{ pod_workdir }} && nohup {{ rp_entry }}
+        --queue queue.json --out /workspace/out > run.log 2>&1 &'"
+      - "darkfleet={{ 'present' if rp_df.stat.exists else 'MISSING -> fallback to image entrypoint render.py (VoxCPM2 only)' }}"
+- name: Launch | real push + start
+  ansible.builtin.shell: |
+    set -euo pipefail
+    H="${RP_SSH%:*}"; P="${RP_SSH#*:}"
+    ssh -p "$P" -i "$KEY" -o StrictHostKeyChecking=accept-new {{ runpod_ssh_user }}@"$H" mkdir -p {{ pod_workdir }}
+    scp -P "$P" -i "$KEY" -r {{ (darkfleet_dir if rp_df.stat.exists else playbook_dir ~ '/pack') | quote }} \
+      {{ live_control_file | quote }} {{ live_lines_file | quote }} {{ live_rewrites_file | quote }} \
+      {{ runpod_ssh_user }}@"$H":{{ pod_workdir }}/
+    ssh -p "$P" -i "$KEY" {{ runpod_ssh_user }}@"$H" \
+      "cd {{ pod_workdir }} && nohup {{ rp_entry }} --out /workspace/out > run.log 2>&1 &"
+  args:
+    executable: /bin/bash
+  environment:
+    RP_SSH: "{{ rp_ssh }}"
+    KEY: "{{ runpod_ssh_key_slot }}"
+  changed_when: true
+  when: not dry_run | bool
