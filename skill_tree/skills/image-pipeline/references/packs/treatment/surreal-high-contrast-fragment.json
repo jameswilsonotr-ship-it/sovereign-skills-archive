@@ -1,0 +1,29 @@
+{
+  "id": "treatment.surreal-high-contrast-fragment",
+  "kind": "treatment",
+  "name": "Surreal High-Contrast Fragment",
+  "version": "1.0.0",
+  "description": "Surrealistic high-contrast abstract fragments and truncated luminous shapes.",
+  "tags": [
+    "treatment",
+    "surreal",
+    "high-contrast",
+    "fragment"
+  ],
+  "prompt_terms": [
+    {
+      "term": "surreal high-contrast fragment",
+      "variance": 0.3,
+      "weight": 1.0
+    },
+    {
+      "term": "truncated luminous shapes",
+      "variance": 0.4,
+      "weight": 0.8
+    }
+  ],
+  "content": {
+    "taxonomy": "treatment",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}

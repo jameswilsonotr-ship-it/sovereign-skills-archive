@@ -1,0 +1,30 @@
+{
+  "id": "preset.bunny.top10.07",
+  "name": "Glitch-Ink Hybrid",
+  "version": "1.0.0",
+  "persona": "bunny",
+  "rank": 7,
+  "rank_reason": "Vector lines that stutter and tear with chromatic aberration while luminous skin glows through the digital damage.",
+  "tags": [
+    "bunny",
+    "top-10",
+    "rank-7"
+  ],
+  "chain": [
+    {
+      "pack": "treatment.glitch-ink",
+      "weight": 1.0
+    },
+    {
+      "pack": "photographer.steven-klein",
+      "weight": 0.7
+    },
+    {
+      "pack": "photographer.guy-bourdin",
+      "weight": 0.6
+    }
+  ],
+  "content": {
+    "original": "Vector lines that stutter and tear with chromatic aberration while luminous skin glows through the digital damage."
+  }
+}

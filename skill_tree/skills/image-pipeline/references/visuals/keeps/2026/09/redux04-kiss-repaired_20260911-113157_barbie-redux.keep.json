@@ -1,0 +1,69 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "redux04-kiss-repaired_20260911-113157_barbie-redux",
+  "slug": "redux04-kiss-repaired",
+  "slug_mode": "explicit",
+  "stamp": "20260911-113157",
+  "created": "2026-09-11T11:31:57-04:00",
+  "engine": "edit_image",
+  "orientation": "landscape",
+  "agent": "bunny",
+  "heat": "8",
+  "files": {
+    "jpeg": "redux04-kiss-repaired_20260911-113157_barbie-redux.jpg",
+    "prompt": "redux04-kiss-repaired_20260911-113157_barbie-redux.prompt.md",
+    "keep": "redux04-kiss-repaired_20260911-113157_barbie-redux.keep.json"
+  },
+  "sha256": {
+    "jpeg": "adecc9b6e97170ac7214ab3eda499456175567cd115b390f60fb3126dcab4c59",
+    "prompt": "e82219af6b2bbb0f668e5fc578b30a0266b92ca7b14719f15770574f06b69c85"
+  },
+  "prompt": "Redux T4 kiss repaired. Bunny blows kiss. Vesper 28 woman trucker mesh leather kraken catching it.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/aZZhN.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/redux04-kiss-repaired_20260911-113157_barbie-redux.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/redux04-kiss-repaired_20260911-113157_barbie-redux.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/redux04-kiss-repaired_20260911-113157_barbie-redux.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/09"
+  },
+  "drive": {
+    "status": "queued",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": null,
+    "prompt_id": null,
+    "keep_id": null,
+    "uploads": [
+      {
+        "artifact_path": "/rendered/redux04-kiss-repaired_20260911-113157_barbie-redux.jpg",
+        "file_name": "redux04-kiss-repaired_20260911-113157_barbie-redux.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/redux04-kiss-repaired_20260911-113157_barbie-redux.prompt.md",
+        "file_name": "redux04-kiss-repaired_20260911-113157_barbie-redux.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/redux04-kiss-repaired_20260911-113157_barbie-redux.keep.json",
+        "file_name": "redux04-kiss-repaired_20260911-113157_barbie-redux.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ]
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/redux04-kiss-repaired_20260911-113157_barbie-redux.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

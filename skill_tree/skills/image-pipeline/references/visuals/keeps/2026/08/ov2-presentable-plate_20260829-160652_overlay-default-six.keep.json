@@ -1,0 +1,70 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "ov2-presentable-plate_20260829-160652_overlay-default-six",
+  "slug": "ov2-presentable-plate",
+  "slug_mode": "explicit",
+  "stamp": "20260829-160652",
+  "created": "2026-08-29T16:06:52-04:00",
+  "engine": "overlay",
+  "orientation": "portrait",
+  "agent": "hei-yu-miao-al-summer",
+  "heat": "2",
+  "files": {
+    "jpeg": "ov2-presentable-plate_20260829-160652_overlay-default-six.jpg",
+    "prompt": "ov2-presentable-plate_20260829-160652_overlay-default-six.prompt.md",
+    "keep": "ov2-presentable-plate_20260829-160652_overlay-default-six.keep.json"
+  },
+  "sha256": {
+    "jpeg": "848844a7903dddc59c8b3233600ec00e29e01cff83325479fc22cbaa394311c4",
+    "prompt": "3b2586a11930ebdb7b02231628c34a2e4f185c9cda13a78eea4abad27dd3086b"
+  },
+  "prompt": "S2 presentable plate-anchored standing still",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/nY7ie.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/ov2-presentable-plate_20260829-160652_overlay-default-six.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/ov2-presentable-plate_20260829-160652_overlay-default-six.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/ov2-presentable-plate_20260829-160652_overlay-default-six.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1Z6ZhMWqL5BFu6J2aHNqZCK8rYtqRxGPj",
+    "prompt_id": "1PlB4CwdQnBlcVXb29jkXJDOyQjZDjE3_",
+    "keep_id": "1Gj8HeMmM8uimX18l9opx_GjuMhp4y6Be",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/ov2-presentable-plate_20260829-160652_overlay-default-six.jpg",
+        "file_name": "ov2-presentable-plate_20260829-160652_overlay-default-six.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/ov2-presentable-plate_20260829-160652_overlay-default-six.prompt.md",
+        "file_name": "ov2-presentable-plate_20260829-160652_overlay-default-six.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/ov2-presentable-plate_20260829-160652_overlay-default-six.keep.json",
+        "file_name": "ov2-presentable-plate_20260829-160652_overlay-default-six.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T20:08:08+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/ov2-presentable-plate_20260829-160652_overlay-default-six.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

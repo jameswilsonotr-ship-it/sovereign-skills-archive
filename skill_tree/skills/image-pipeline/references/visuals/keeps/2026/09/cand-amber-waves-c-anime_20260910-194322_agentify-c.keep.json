@@ -1,0 +1,72 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "cand-amber-waves-c-anime_20260910-194322_agentify-c",
+  "slug": "cand-amber-waves-c-anime",
+  "slug_mode": "explicit",
+  "stamp": "20260910-194322",
+  "created": "2026-09-10T19:43:22-05:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "cand-amber-waves",
+  "kind": "candidate",
+  "plate": "c-anime",
+  "heat": "1",
+  "image_id": "JUjzW",
+  "files": {
+    "jpeg": "cand-amber-waves-c-anime_20260910-194322_agentify-c.jpg",
+    "prompt": "cand-amber-waves-c-anime_20260910-194322_agentify-c.prompt.md",
+    "keep": "cand-amber-waves-c-anime_20260910-194322_agentify-c.keep.json"
+  },
+  "sha256": {
+    "jpeg": "283af1b6524f962dce2c43d93061b2ebdaf78c604c5a8f83e3dd48c35be7ebb7",
+    "prompt": "49b7f0afe7fc5ed4ed47805139705183b828b75499dab3bc11a025040201283f"
+  },
+  "prompt": "Anime illustration identity plate of an adult woman mid-twenties. Long wavy strawberry-blonde light-auburn hair with curtain bangs, warm brown-hazel eyes with sharp winged eyeliner, glossy crimson lips, peach blush, heart-oval face. Black puff-sleeve square-neck top. Clean anime beauty portrait, detailed hair waves, beige studio background, looking at camera three-quarter. Not chibi, high-end anime key visual, adult.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/JUjzW.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/cand-amber-waves-c-anime_20260910-194322_agentify-c.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/cand-amber-waves-c-anime_20260910-194322_agentify-c.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/cand-amber-waves-c-anime_20260910-194322_agentify-c.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/09"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/cand-amber-waves-c-anime_20260910-194322_agentify-c.jpg",
+        "file_name": "cand-amber-waves-c-anime_20260910-194322_agentify-c.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/cand-amber-waves-c-anime_20260910-194322_agentify-c.prompt.md",
+        "file_name": "cand-amber-waves-c-anime_20260910-194322_agentify-c.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/cand-amber-waves-c-anime_20260910-194322_agentify-c.keep.json",
+        "file_name": "cand-amber-waves-c-anime_20260910-194322_agentify-c.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "jpeg_id": "1kGfPoCkjGqo52mHpEL44OZnv72YnUUyH",
+    "prompt_id": "1hOEp9BXtiH0lgfTT3SIGKrjKipKelAEi",
+    "keep_id": "1nUelmFHeoVYM0u0SevN9-v7HAen3E8KE",
+    "jpeg_url": "https://drive.google.com/file/d/1kGfPoCkjGqo52mHpEL44OZnv72YnUUyH/view",
+    "uploaded_at": "2026-09-11T00:44:33+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row. ANDROID show path = Drive web_view_link, no render tags."
+  }
+}

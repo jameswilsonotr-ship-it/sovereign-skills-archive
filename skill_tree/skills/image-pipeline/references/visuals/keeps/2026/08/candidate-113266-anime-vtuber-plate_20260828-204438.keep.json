@@ -1,0 +1,62 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "candidate-113266-anime-vtuber-plate_20260828-204438",
+  "slug": "candidate-113266-anime-vtuber-plate",
+  "slug_mode": "auto",
+  "stamp": "20260828-204438",
+  "created": "2026-08-28T20:44:38-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "candidate-113266",
+  "heat": "",
+  "files": {
+    "jpeg": "candidate-113266-anime-vtuber-plate_20260828-204438.jpg",
+    "prompt": "candidate-113266-anime-vtuber-plate_20260828-204438.prompt.md",
+    "keep": "candidate-113266-anime-vtuber-plate_20260828-204438.keep.json"
+  },
+  "sha256": {
+    "jpeg": "e954bef9a05ab670e300ae97172b9a5c2a6207f5542e8f716a227b832f2932a2",
+    "prompt": "0f2648a158639581239704e3158107374c56ced6bdcb92501d8079375dc76761"
+  },
+  "prompt": "C anime vtuber plate",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/cobSl.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/candidate-113266-anime-vtuber-plate_20260828-204438.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/candidate-113266-anime-vtuber-plate_20260828-204438.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/candidate-113266-anime-vtuber-plate_20260828-204438.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1KrZHb6urdk3ZezszQN_wCvzmZfa3jB0o",
+    "prompt_id": "1-qdqQ4Wjhw_ET1PZnz3g8hLGJ0abAs84",
+    "keep_id": "1N0gYiAHfneJtmwI_FVvhXjcJrgzkQyiq",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/candidate-113266-anime-vtuber-plate_20260828-204438.jpg",
+        "file_name": "candidate-113266-anime-vtuber-plate_20260828-204438.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/candidate-113266-anime-vtuber-plate_20260828-204438.prompt.md",
+        "file_name": "candidate-113266-anime-vtuber-plate_20260828-204438.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/candidate-113266-anime-vtuber-plate_20260828-204438.keep.json",
+        "file_name": "candidate-113266-anime-vtuber-plate_20260828-204438.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T01:51:02+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078"
+}

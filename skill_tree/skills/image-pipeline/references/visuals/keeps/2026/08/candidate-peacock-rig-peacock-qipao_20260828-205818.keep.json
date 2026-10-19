@@ -1,0 +1,62 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "candidate-peacock-rig-peacock-qipao_20260828-205818",
+  "slug": "candidate-peacock-rig-peacock-qipao",
+  "slug_mode": "auto",
+  "stamp": "20260828-205818",
+  "created": "2026-08-28T20:58:18-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "candidate-peacock",
+  "heat": "",
+  "files": {
+    "jpeg": "candidate-peacock-rig-peacock-qipao_20260828-205818.jpg",
+    "prompt": "candidate-peacock-rig-peacock-qipao_20260828-205818.prompt.md",
+    "keep": "candidate-peacock-rig-peacock-qipao_20260828-205818.keep.json"
+  },
+  "sha256": {
+    "jpeg": "c2ce72e6da3457eea11ee0544213eb4121f2b238207d2509df4f6d786ff1330d",
+    "prompt": "2b3ae39bd4707e122d87c3346cca7b03fa5debfa56b97bd4c027bbbe13452f92"
+  },
+  "prompt": "D rig peacock qipao",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/gdurg.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/candidate-peacock-rig-peacock-qipao_20260828-205818.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/candidate-peacock-rig-peacock-qipao_20260828-205818.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/candidate-peacock-rig-peacock-qipao_20260828-205818.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1-hA919UEEhWWkg5MUWz-TJnEjieVGsgH",
+    "prompt_id": "1JSL8eVTkrDXaZtjHi_2p2itGmdEmlBWv",
+    "keep_id": "1jrCKqv2wXKAxFcTxc_M2j42xf7fLxJBo",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/candidate-peacock-rig-peacock-qipao_20260828-205818.jpg",
+        "file_name": "candidate-peacock-rig-peacock-qipao_20260828-205818.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/candidate-peacock-rig-peacock-qipao_20260828-205818.prompt.md",
+        "file_name": "candidate-peacock-rig-peacock-qipao_20260828-205818.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/candidate-peacock-rig-peacock-qipao_20260828-205818.keep.json",
+        "file_name": "candidate-peacock-rig-peacock-qipao_20260828-205818.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T01:51:23+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078"
+}

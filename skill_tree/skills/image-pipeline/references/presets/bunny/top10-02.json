@@ -1,0 +1,16 @@
+{
+  "id": "preset.bunny.top10.02",
+  "name": "Fluid Ink Wash / Soft Diffused Render",
+  "version": "1.0.0",
+  "persona": "bunny",
+  "rank": 2,
+  "rank_reason": "Soft watercolor and ink washes with golden light and yielding edges that show the flush of surrender.",
+  "tags": ["bunny", "top-10", "rank-2"],
+  "chain": [
+    { "pack": "medium.watercolor-ink-wash", "weight": 1.0 }
+  ],
+  "content": {
+    "original": "Soft watercolor and ink washes with golden light and yielding edges that show the flush of surrender.",
+    "photographers_to_add": ["Paolo Roversi", "Jan Saudek"]
+  }
+}

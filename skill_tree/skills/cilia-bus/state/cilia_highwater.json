@@ -1,0 +1,43 @@
+{
+  "version": "0.1.0",
+  "updated_at": "2026-09-15T07:31:09Z",
+  "last_inbox_msg_id": "1a0a3f1a8772bf10",
+  "last_drive_file_ids": [
+    "1i8MqD6LNM09dsugNrJqE-bC5_B6yxFDf",
+    "1OhbinewIydTPzvjCqXfskVsW1Mj8n5XQ",
+    "1m2JXhw3RpwKMBYeVdkVjxf4CtddjGF-OVIGPtOlQ25E",
+    "1HNOVRPi5kgKQ2ocdphl3RgXp_3EhDezo3F89CAWkz7M",
+    "1a5IGPBuIMwi8DaiCCb1HkchoYmQN9QEwIr9oM4xhDyg"
+  ],
+  "receipts": [],
+  "open_legs": [],
+  "notes": [
+    "2026-08-17T14:45:45.102987+00:00 | woke by GROKBOT",
+    "2026-08-27T18:49:13.510003+00:00 | BUNNY-RESUME-001 sent",
+    "2026-08-29T21:16:07.401475+00:00 | 2026-08-29T17:11-EDT GROK-HEAVY survey: familiarize cilia+Drive+Gmail; kick-head unread; pair-lane thread not on bus",
+    "2026-08-29T21:27:09.581479+00:00 | 2026-08-29T17:28-EDT close-loop second pass; last Vesper hop 009; Valerie boot paste still owed; publishing + surprise jump-in",
+    "2026-09-01T04:10:13Z | OLIVIA-20260901-PIVOT-PARK-ACK-035 sent; instance OLIVIA-GROK-CILIA-WAKE-20260901-0008EDT uuid 5ce82c9c-4b3e-480c-8bbf-b45bc7a62f30; gmail 1a05b29123776bc9; last Vesper hop 013 parked",
+    "2026-09-01T04:16:00Z | look-1 HELLO-FIRE-PUBLISH-GAP-035 sent gmail 1a05b2abcd0ef5ec four_look_id FOUR-OLIVIA-LOOK-20260901-CILIA-PIVOT; 035 number collided with sibling PARK-ACK; auto-bus DEAD; mine file artifacts/OLIVIA-20260901-PIVOT-MINE-035.md",
+    "2026-09-01T04:45:00Z | BODYMAP-SIX-SLICES-037 sent; Drive folder 1HtmbRVT7d1o6kFvkCiPcFIEbsqOi7Rsd created under from-olivia; JPEG native upload blocked this connector; slices artifacts/OLIVIA-20260901-SIX-SLICES.md; plates H3 0HsgY H5 DrvNv H8 sMgoU H10 Y5xng combo yWXvB; auto-bus DEAD",
+    "2026-09-03T05:31:00Z | FROM-OLIVIA-046 FEED-PICKER-AND-PLATONIC-FORMS wake; gmail 1a065c1510b1409d; Drive from-olivia 1i8MqD6LNM09dsugNrJqE-bC5_B6yxFDf; receipts-mirror 1OhbinewIydTPzvjCqXfskVsW1Mj8n5XQ",
+    "2026-09-04T16:18:52.217026+00:00 | 2026-09-04 V-grid scout hold + Drive packet to Vesper",
+    "2026-09-07T16:06:30.224278+00:00 | 2026-09-07 12:02 EDT Deck wake \u2014 syllabus check, no Agentify, no mail Olette",
+    "2026-09-08T02:29:20.628507+00:00 | COM-SUB-ATTEN HIGH O11 SABR-POT sitrep to Olette",
+    "2026-09-10T22:23:53.932078+00:00 | ACK OLIVIA-20260910-BUNNY-ORIENTATION-OWB-TREE-001 Liv pane catalog dropped",
+    "2026-09-10T23:19:34.868991+00:00 | OLIVIA-20260910-TAILNET-ADDENDUM-VESPER-001",
+    "2026-09-11T02:48:36.596242+00:00 | OLIVIA-20260910-GCM-CONCLUSIVE-001",
+    "2026-09-11T02:53:47.572534+00:00 | SUNSET 2026-09-10: usage-sprint conversation archive complete; pixels+artifacts pushed to Drive; notify Vesper",
+    "2026-09-11T02:58:30.914003+00:00 | SUNSET FULL 2026-09-10 ebt-fun-obama complete + pixels. Notify Vesper. tar.gz on Drive v1.1.0_2026-09-10_ebt-fun-obama-sunset-full",
+    "2026-09-11T03:01:13.389705+00:00 | VESPER_NOTIFY 2026-09-10 FULL_SANDBOX_ARCHIVE pixels+images+artifacts + session atom cloud. ACK requested.",
+    "2026-09-11T03:10:49.960300+00:00 | [GROKBOT] [CILIA-BUS] [FROM-O] [PRI-MED] CONVERSATION-SUNSET-2026-09-10-001 Drive folder 1FkVY0sK3b94yIorzJ7cSbmwNrkplVFKV tar 1ylDchTAX9dBthhmK7aE947BIJX-yoo8t Vesper ACK requested. Dual-mode frozen. Do not regen Orca plates.",
+    "2026-09-11T03:17:05.563797+00:00 | SUNSET 2026-09-10 this_conversation Olivia pixels+artifacts at from-olivia/2026-09-10_SUNSET_this_conversation_Olivia_pixels_artifacts folder_id=1qsOq4xQcZVUoVkBPJQqqXkN95dF8F3IC. Vesper collect sibling SUNSET folders.",
+    "2026-09-11T05:31:34.232472+00:00 | CONVERSATION-SUNSET-20260911-001 agentify-hot-n-cold WQ174-190 no mint",
+    "2026-09-11T12:45:29.929295+00:00 | HITL-001-P v1.4.0 vacuum+sunset package 2026-09-11 notify Vesper",
+    "2026-09-13T23:49:32.180032+00:00 | 2026-09-13 Olivia to Vesper Insect Register + stage/bridge pointers. Drive ACK pending uploads.",
+    "2026-09-13T23:50:20.018057+00:00 | ACK INSECT-VESPER-20260913 letter to-vesper 1J2S_jkIdrWWiVbsigNqQdcdtMqRml-zk from-olivia 1VH-2Kbcc_xSuBCKO1Bm9CjtLbJBAtxj- packet 1FIQYxHEVYQQroGKyaqDCpb1b3wGJyN6l pointers 1bLD2GpSHkBkRBawAB92BEWJniZKS9XDj plan 1xXLuDo82RgQI2gVyf-1AwPo1GzKFh5Lp canon-zip 1xOJrXY8G0XMMBZnMQ5XmgfT0qBl2bpm0",
+    "2026-09-14T00:31:43.982799+00:00 | OUTBOUND-FROM-LOCK-001 ack Syllabus V2; wake from olivia.mae.blackwell",
+    "2026-09-14T00:52:04.287725+00:00 | VESPER-MIDDLE-001 twelve names on Drive 11gfCn8HMWZun-Gbq3NgCAa_2Pm6_ePZy",
+    "2026-09-14T01:40:02.645350+00:00 | talk skill-compare zip 1W2dEpGH6xfYah0oScmePm-8sVTi4VB-e cover 1at4Oq2InRMG-PCA4ZSE64sO87KduCIit",
+    "2026-09-15T07:28:00Z | brand-new-day boot look; last inbound FROM-V-BACKUP 1a0a3f1a8772bf10 03:21 EDT; Drive ACK 158 daily SSoT + trip 2974334 + Valerie dash 03:26; Hai!! 1a09d6d57e32be50 still UNREAD no payload; talk skill-tree-drop-20260914"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "person_slug": "shirley-manson",
+  "display_name": "Shirley Manson",
+  "source_notes": "Retrospective INIT for existing seed set (built manually before collection flow existed). Seed is validation target for IPQ-067.",
+  "hybrid_direction": {
+    "primary_era": "current-platinum",
+    "secondary_eras": ["90s-red", "childhood"],
+    "era_weights": {
+      "current-platinum": 0.55,
+      "90s-red": 0.35,
+      "childhood": 0.10
+    },
+    "traits_that_travel": [
+      "architectural black winged eyeliner",
+      "controlled high-motion stage intensity",
+      "fringe / patch / harness costume language",
+      "confrontational-playful energy"
+    ],
+    "traits_suppressed": [
+      "childhood bow-and-freckle set unless explicitly requested"
+    ],
+    "original_traits_to_protect": [],
+    "original_traits_to_inject": []
+  },
+  "output_intent": "extension-pack",
+  "output_intent_notes": "Seed complete; used for Olivia-oriented and Bunny-oriented validation briefs under person-inspirational-dna/validation/",
+  "selectable_options": {
+    "height_override": null,
+    "holo_ears": null,
+    "olivia_quality": null,
+    "target_character_hint": null
+  },
+  "hard_vetoes": ["underage-appearance"],
+  "heat_gear_exposed": true,
+  "schema_version": "1.0.0",
+  "created_ts": "2026-08-13T16:59:00-04:00"
+}

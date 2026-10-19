@@ -1,0 +1,7 @@
+{
+  "source": "offline-fixture",
+  "asset": {
+    "id": "fixture-image-001",
+    "status": "mocked"
+  }
+}

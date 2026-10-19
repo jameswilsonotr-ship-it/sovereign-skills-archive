@@ -1,0 +1,119 @@
+{
+  "generated": "2026-07-25T00:05:02Z",
+  "entries": [
+    {
+      "filename": "COMPLETENESS_INVENTORY.md",
+      "type": "completeness-pointer",
+      "bytes": 378,
+      "notes": ""
+    },
+    {
+      "filename": "CURRENT_TIERS.md",
+      "type": "tiers",
+      "bytes": 1023,
+      "notes": ""
+    },
+    {
+      "filename": "LIBRARY_INVENTORY.md",
+      "type": "library-inventory",
+      "bytes": 2141,
+      "notes": ""
+    },
+    {
+      "filename": "README.md",
+      "type": "note",
+      "bytes": 1223,
+      "notes": ""
+    },
+    {
+      "filename": "SCHEMA.md",
+      "type": "schema",
+      "bytes": 2078,
+      "notes": ""
+    },
+    {
+      "filename": "SCRIPTS_INVENTORY.md",
+      "type": "scripts-inventory",
+      "bytes": 16900,
+      "notes": ""
+    },
+    {
+      "filename": "completeness/",
+      "type": "subfolder",
+      "bytes": 0,
+      "notes": "has own SCHEMA/REGISTRY"
+    },
+    {
+      "filename": "completeness_latest.json",
+      "type": "completeness-pointer",
+      "bytes": 425,
+      "notes": ""
+    },
+    {
+      "filename": "completeness_latest.md",
+      "type": "completeness-pointer",
+      "bytes": 246,
+      "notes": ""
+    },
+    {
+      "filename": "daily_vacuum_log.md",
+      "type": "vacuum-log",
+      "bytes": 157,
+      "notes": ""
+    },
+    {
+      "filename": "discipline_tier2_latest.md",
+      "type": "discipline",
+      "bytes": 624,
+      "notes": ""
+    },
+    {
+      "filename": "export_20260719_0703.md",
+      "type": "export",
+      "bytes": 982,
+      "notes": ""
+    },
+    {
+      "filename": "export_20260724_2020.md",
+      "type": "export",
+      "bytes": 2420,
+      "notes": ""
+    },
+    {
+      "filename": "export_latest.md",
+      "type": "export",
+      "bytes": 2420,
+      "notes": ""
+    },
+    {
+      "filename": "library_inventory.json",
+      "type": "library-inventory",
+      "bytes": 1713,
+      "notes": ""
+    },
+    {
+      "filename": "master-inventory.md",
+      "type": "library-inventory",
+      "bytes": 2275,
+      "notes": ""
+    },
+    {
+      "filename": "scripts/",
+      "type": "subfolder",
+      "bytes": 0,
+      "notes": "has own SCHEMA/REGISTRY"
+    },
+    {
+      "filename": "scripts_inventory.json",
+      "type": "json-companion",
+      "bytes": 26108,
+      "notes": ""
+    },
+    {
+      "filename": "scripts_inventory_latest.md",
+      "type": "scripts-inventory",
+      "bytes": 97,
+      "notes": ""
+    }
+  ]
+}

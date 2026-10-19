@@ -1,0 +1,62 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "candidate-peacock-anime-peacock-qipao_20260828-205816",
+  "slug": "candidate-peacock-anime-peacock-qipao",
+  "slug_mode": "auto",
+  "stamp": "20260828-205816",
+  "created": "2026-08-28T20:58:16-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "candidate-peacock",
+  "heat": "",
+  "files": {
+    "jpeg": "candidate-peacock-anime-peacock-qipao_20260828-205816.jpg",
+    "prompt": "candidate-peacock-anime-peacock-qipao_20260828-205816.prompt.md",
+    "keep": "candidate-peacock-anime-peacock-qipao_20260828-205816.keep.json"
+  },
+  "sha256": {
+    "jpeg": "1614c250239ebe57849bdf6929b17175cc00d007a7e2bdde65acbdf499583794",
+    "prompt": "e47c78d4a11abbbf7abb80dbcf0b9a98ff70a69d00fc7cb5b5d050e822fbb8d0"
+  },
+  "prompt": "C anime peacock qipao",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/VKgMw.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/candidate-peacock-anime-peacock-qipao_20260828-205816.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/candidate-peacock-anime-peacock-qipao_20260828-205816.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/candidate-peacock-anime-peacock-qipao_20260828-205816.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1B2ZXv0Ha1MW_0ItG6JRgGH8-7cYpGY4t",
+    "prompt_id": "16I485JgRu065qxAmwtHTfEWGAcdgj9gD",
+    "keep_id": "1KSSmszMFReFj4j7qYrSvGB_n3kgwXxLk",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/candidate-peacock-anime-peacock-qipao_20260828-205816.jpg",
+        "file_name": "candidate-peacock-anime-peacock-qipao_20260828-205816.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/candidate-peacock-anime-peacock-qipao_20260828-205816.prompt.md",
+        "file_name": "candidate-peacock-anime-peacock-qipao_20260828-205816.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/candidate-peacock-anime-peacock-qipao_20260828-205816.keep.json",
+        "file_name": "candidate-peacock-anime-peacock-qipao_20260828-205816.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T01:51:18+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078"
+}

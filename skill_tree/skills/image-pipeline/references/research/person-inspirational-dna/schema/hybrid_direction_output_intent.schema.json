@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://livhub.local/schemas/person-inspirational-dna-init.json",
+  "title": "Person-to-Inspirational-DNA Init (IPQ-066)",
+  "description": "Machine-readable Hybrid Direction + Output Intent collected on first run for any new person. System-wide hard veto: underage appearance only.",
+  "type": "object",
+  "required": ["person_slug", "display_name", "hybrid_direction", "output_intent", "hard_vetoes"],
+  "properties": {
+    "person_slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Filesystem-safe slug, e.g. shirley-manson"
+    },
+    "display_name": { "type": "string" },
+    "source_notes": {
+      "type": "string",
+      "description": "Optional free-text: why this person, what era focus, known constraints"
+    },
+    "hybrid_direction": {
+      "type": "object",
+      "required": ["primary_era", "secondary_eras", "traits_that_travel", "traits_suppressed"],
+      "properties": {
+        "primary_era": {
+          "type": "string",
+          "description": "Dominant visual era weight for hybrids"
+        },
+        "secondary_eras": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Supporting eras that may contribute traits"
+        },
+        "era_weights": {
+          "type": "object",
+          "additionalProperties": { "type": "number", "minimum": 0, "maximum": 1 },
+          "description": "Optional numeric weights keyed by era tag"
+        },
+        "traits_that_travel": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Traits allowed to move onto other bases (e.g. winged liner, fringe jacket language)"
+        },
+        "traits_suppressed": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Traits to hold back from hybrids unless explicitly requested"
+        },
+        "original_traits_to_protect": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Non-source traits of the target character that must survive the merge"
+        },
+        "original_traits_to_inject": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Optional new traits to inject that are not from the source person"
+        }
+      }
+    },
+    "output_intent": {
+      "type": "string",
+      "enum": [
+        "research-only",
+        "mood-board",
+        "m3-hybrid",
+        "heat-gradient",
+        "dna-lock",
+        "extension-pack"
+      ],
+      "description": "Primary deliverable mode for this init"
+    },
+    "output_intent_notes": {
+      "type": "string",
+      "description": "Optional free-text clarifying the chosen intent"
+    },
+    "selectable_options": {
+      "type": "object",
+      "description": "Never forced. Height, holo-ear, Olivia-quality, etc. remain user-selectable.",
+      "properties": {
+        "height_override": { "type": ["string", "null"] },
+        "holo_ears": { "type": ["boolean", "null"] },
+        "olivia_quality": { "type": ["boolean", "null"] },
+        "target_character_hint": {
+          "type": ["string", "null"],
+          "description": "e.g. olivia | bunny | original — hint only, not a lock"
+        }
+      }
+    },
+    "hard_vetoes": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Must include underage-appearance. Additional user vetoes allowed.",
+      "minItems": 1
+    },
+    "heat_gear_exposed": {
+      "type": "boolean",
+      "default": true,
+      "description": "Heat/Gear fully exposed to the operator during collection"
+    },
+    "created_ts": { "type": "string", "format": "date-time" },
+    "schema_version": { "type": "string", "default": "1.0.0" }
+  }
+}
