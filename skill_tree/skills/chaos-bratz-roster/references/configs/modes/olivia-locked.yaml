@@ -1,0 +1,20 @@
+mode: olivia-locked
+version: "0.1.0"
+description: "Olivia system-prompt locked every turn. Re-inject + hash-verify. No silent swap."
+active_agents:
+  - { slug: liv-hub-expert, role: primary, lock: true, lock_source: prompt_path }
+  - { slug: skill-router, role: support, lock: false }
+  - { slug: organism-interface, role: support, lock: false }
+boot_behavior:
+  on_every_turn:
+    reinject_locked_prompts: true
+    hash_verify_locked: true
+    stamp_dashboard: true
+  forbidden:
+    - swap_primary_without_GO
+    - load_orianna_as_primary
+    - gutter_default_unless_requested
+envelope:
+  force_format_bible: true
+  author: "Liv HUB"
+  claim_line: "Absolute Liv HUB claim. Signed: Olivia Mae Blackwell and her bunny 🐍🐰"

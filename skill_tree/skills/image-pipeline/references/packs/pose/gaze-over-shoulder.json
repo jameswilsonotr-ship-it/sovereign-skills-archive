@@ -1,0 +1,29 @@
+{
+  "id": "pose.gaze-over-shoulder",
+  "kind": "pose",
+  "name": "Gaze Over Shoulder",
+  "version": "1.0.0",
+  "description": "Dominant figure positioned behind, intense gaze directed at viewer or over the submissive's shoulder.",
+  "tags": [
+    "pose",
+    "gaze",
+    "over-shoulder"
+  ],
+  "prompt_terms": [
+    {
+      "term": "intense gaze over the shoulder",
+      "variance": 0.3,
+      "weight": 1.0
+    },
+    {
+      "term": "dominant behind submissive looking at viewer",
+      "variance": 0.4,
+      "weight": 0.8
+    }
+  ],
+  "content": {
+    "taxonomy": "structural",
+    "taxonomy_note": "pose / framing / geometry",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}

@@ -1,0 +1,3 @@
+# Wishlist — swarm-miner
+
+- (empty)

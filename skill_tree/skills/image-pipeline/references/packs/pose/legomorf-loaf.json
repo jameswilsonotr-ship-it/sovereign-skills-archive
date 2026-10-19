@@ -1,0 +1,33 @@
+{
+  "id": "pose.legomorf-loaf",
+  "kind": "pose",
+  "name": "Legomorf Loaf",
+  "version": "0.1.0",
+  "status": "draft",
+  "source": "oryctolagus-legomorf",
+  "ticket": "IP-WQ-097",
+  "tags": [
+    "pose",
+    "legomorf",
+    "lagomorph",
+    "bunny"
+  ],
+  "prompt_terms": [
+    {
+      "term": "compact loaf, limbs tucked under, still able to spring",
+      "variance": 0.25,
+      "weight": 1.0
+    },
+    {
+      "term": "woman curled small on a couch or bunk, not a rabbit body",
+      "variance": 0.35,
+      "weight": 0.85
+    }
+  ],
+  "content": {
+    "taxonomy": "structural",
+    "origin": "Oryctolagus rest scale, woman stays a woman",
+    "name_lock": "Legomorf"
+  },
+  "created": "2026-09-03T01:35:23-04:00"
+}

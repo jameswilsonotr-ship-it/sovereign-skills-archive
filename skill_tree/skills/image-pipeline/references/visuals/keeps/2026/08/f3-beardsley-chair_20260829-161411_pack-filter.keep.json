@@ -1,0 +1,70 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "f3-beardsley-chair_20260829-161411_pack-filter",
+  "slug": "f3-beardsley-chair",
+  "slug_mode": "explicit",
+  "stamp": "20260829-161411",
+  "created": "2026-08-29T16:14:11-04:00",
+  "engine": "overlay",
+  "orientation": "portrait",
+  "agent": "hei-yu-miao-al-summer",
+  "heat": "4",
+  "files": {
+    "jpeg": "f3-beardsley-chair_20260829-161411_pack-filter.jpg",
+    "prompt": "f3-beardsley-chair_20260829-161411_pack-filter.prompt.md",
+    "keep": "f3-beardsley-chair_20260829-161411_pack-filter.keep.json"
+  },
+  "sha256": {
+    "jpeg": "4dd5587d90b707f5c6a968b922c012fac802c8dd3873855b1309eb34ca6a3dfd",
+    "prompt": "ff36906be56eecae80173b9b6063ec0d8ccf0b27be42870f135c90f1f030c1f5"
+  },
+  "prompt": "F3 Beardsley+ink on ov6",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/I5L3Y.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/f3-beardsley-chair_20260829-161411_pack-filter.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/f3-beardsley-chair_20260829-161411_pack-filter.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/f3-beardsley-chair_20260829-161411_pack-filter.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1Nuv65-lngAhJOlgpCSyM3zCLtwb_nAMk",
+    "prompt_id": "1s9-vGtXUZVIBs-9JXf3_6qY_-1cglnDj",
+    "keep_id": "1Ptq0lM4SegqoNWmgcG6kZd7Cu5FUchlR",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/f3-beardsley-chair_20260829-161411_pack-filter.jpg",
+        "file_name": "f3-beardsley-chair_20260829-161411_pack-filter.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/f3-beardsley-chair_20260829-161411_pack-filter.prompt.md",
+        "file_name": "f3-beardsley-chair_20260829-161411_pack-filter.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/f3-beardsley-chair_20260829-161411_pack-filter.keep.json",
+        "file_name": "f3-beardsley-chair_20260829-161411_pack-filter.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T20:15:41+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/f3-beardsley-chair_20260829-161411_pack-filter.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

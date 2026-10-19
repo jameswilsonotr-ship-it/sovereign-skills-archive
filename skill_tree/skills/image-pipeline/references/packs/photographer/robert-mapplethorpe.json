@@ -1,0 +1,28 @@
+{
+  "id": "photographer.robert-mapplethorpe",
+  "kind": "photographer",
+  "name": "Robert Mapplethorpe",
+  "version": "1.0.0",
+  "description": "Robert Mapplethorpe \u2014 sculptural precision and erotic charge.",
+  "tags": [
+    "photographer",
+    "mapplethorpe"
+  ],
+  "prompt_terms": [
+    {
+      "term": "Robert Mapplethorpe",
+      "variance": 0.05,
+      "weight": 1.0
+    },
+    {
+      "term": "in the style of Robert Mapplethorpe",
+      "variance": 0.15,
+      "weight": 0.8
+    }
+  ],
+  "content": {
+    "taxonomy": "hand",
+    "taxonomy_note": "proper-name photographic hand",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}

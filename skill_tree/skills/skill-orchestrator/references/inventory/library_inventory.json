@@ -1,0 +1,64 @@
+{
+  "updated": "2026-07-19T14:16:00Z",
+  "total_present": 32,
+  "tiers": {
+    "2": [
+      "blackwell-sovereign-swarm",
+      "chaos-bratz-roster",
+      "grok-build",
+      "grok-build-sovereign",
+      "image-pipeline",
+      "iron-pearl-swarm",
+      "olivia-dev",
+      "olivia-dev-alpha",
+      "skill-orchestrator",
+      "swarm-miner"
+    ],
+    "1": [
+      "biomimetic-swarm-orchestrator",
+      "coven-visual-system",
+      "dev-sync",
+      "format-bible",
+      "github-mirror",
+      "grok-conversation-miner",
+      "grok-imagine-generate-engine",
+      "grok-imagine-overlay-engine",
+      "lake-erie-gutter-world",
+      "liv-bunny-agent-swarm",
+      "mcp-auditor",
+      "mcp-bootstrap",
+      "mcp-sovereign-bridge",
+      "multi-variation-orchestrator",
+      "porn-curator",
+      "repo-sniffer",
+      "risk-fantasy-claim-protocol",
+      "triad-catalog-browser",
+      "valerie",
+      "velvet-claim-protocol",
+      "vice-command-orchestrator"
+    ],
+    "0-candidate": [
+      "liv-bunny-generation-optimizations"
+    ]
+  },
+  "removed_2026_07_19": [
+    "bunny-top-10-image-styles",
+    "liv-top-10-image-styles",
+    "valerie-top-10-image-styles",
+    "liv-photographers",
+    "valerie-photographers",
+    "helmut-newton-graphic-dominance",
+    "herb-ritts-glossy-classic-nude",
+    "ink-line-art-claim",
+    "intense-embrace-noir-gloss",
+    "intense-gaze-over-shoulder",
+    "nobuyoshi-araki-raw-chaotic-claim",
+    "possessive-glossy-claim-ink-wash",
+    "ralph-gibson-surreal-high-contrast-fragment",
+    "rankin-bold-contemporary-graphic",
+    "steven-klein-dark-cinematic-noir",
+    "image-style-orchestrator",
+    "image-pipeline-registry",
+    "image-skill-orchestrator"
+  ]
+}

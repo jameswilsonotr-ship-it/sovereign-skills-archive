@@ -1,0 +1,71 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "s-1-veo-oneshot-still_20260830-051830_pack2",
+  "slug": "s-1-veo-oneshot-still",
+  "slug_mode": "explicit",
+  "stamp": "20260830-051830",
+  "created": "2026-08-30T05:18:30-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "olivia",
+  "heat": "",
+  "files": {
+    "jpeg": "s-1-veo-oneshot-still_20260830-051830_pack2.jpg",
+    "prompt": "s-1-veo-oneshot-still_20260830-051830_pack2.prompt.md",
+    "keep": "s-1-veo-oneshot-still_20260830-051830_pack2.keep.json"
+  },
+  "sha256": {
+    "jpeg": "f1c9c83434c91d2c01e2ac54d80efed6b3ebe3eef7447468e4a15ce0d6d6d62d",
+    "prompt": "e0ff478f9bc346e3719d62dc548a08171f332a8e9dafabbcd11d9b241e38ed1b"
+  },
+  "prompt": "Photorealistic 35mm documentary film still, adults only. Warm amber and sapphire workshop lighting. An adult woman in a beige t-shirt and silver script earrings with red enamel bows seated on industrial steel stairs, examining a vintage weathered booklet titled FIRST AID FOR THE INJURED. A companion adult woman in charcoal attire stands beside her holding an ice pack. Slow documentary framing, clothes on. No leftover tub. No kitchen oven. No text overlay.\n",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/LNLJD.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/s-1-veo-oneshot-still_20260830-051830_pack2.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/s-1-veo-oneshot-still_20260830-051830_pack2.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/s-1-veo-oneshot-still_20260830-051830_pack2.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1bAghQoakEZSf9nULPmfvinB2gEwH1AKD",
+    "prompt_id": "1A8NRv-dWlaeTbnBnGeTao-AydlnCDOj4",
+    "keep_id": "10SwNOuvKEd_v6--Ya2numWK4_hT3E8Dz",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/s-1-veo-oneshot-still_20260830-051830_pack2.jpg",
+        "file_name": "s-1-veo-oneshot-still_20260830-051830_pack2.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/s-1-veo-oneshot-still_20260830-051830_pack2.prompt.md",
+        "file_name": "s-1-veo-oneshot-still_20260830-051830_pack2.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/s-1-veo-oneshot-still_20260830-051830_pack2.keep.json",
+        "file_name": "s-1-veo-oneshot-still_20260830-051830_pack2.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "skip_reason": "prior-session backlog deferred 2026-08-31 pose-pack publish; jpeg may still exist locally",
+    "uploaded_at": "2026-08-31T22:01:27+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/s-1-veo-oneshot-still_20260830-051830_pack2.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

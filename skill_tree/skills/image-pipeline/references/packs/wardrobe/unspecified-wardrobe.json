@@ -1,0 +1,147 @@
+{
+  "id": "wardrobe.unspecified-wardrobe",
+  "kind": "wardrobe",
+  "name": "Unspecified Wardrobe",
+  "version": "0.1.15",
+  "status": "draft",
+  "source": "agentify-scrape",
+  "ticket": "IP-WQ-094",
+  "tags": [
+    "wardrobe",
+    "agentify",
+    "unspecified-wardrobe"
+  ],
+  "prompt_terms": [
+    {
+      "term": "wardrobe as seen on the still",
+      "variance": 0.25,
+      "weight": 1.0
+    },
+    {
+      "term": "no invented costume",
+      "variance": 0.4,
+      "weight": 0.8
+    }
+  ],
+  "instances": [
+    {
+      "who": "cand-park-mouse-bow",
+      "set": "yt-tswoGPiNAV8",
+      "role": "hero",
+      "src": "/home/workdir/artifacts/inbound/yt-tswoGPiNAV8_20260903-141648/00_hero.jpg",
+      "at": "2026-09-03T14:16:53-04:00"
+    },
+    {
+      "who": "cand-park-mouse-bow",
+      "set": "yt-tswoGPiNAV8",
+      "role": "ref",
+      "src": "/home/workdir/artifacts/inbound/yt-tswoGPiNAV8_20260903-141648/01_ref.jpg",
+      "at": "2026-09-03T14:16:53-04:00"
+    },
+    {
+      "who": "cand-park-mouse-bow",
+      "set": "yt-tswoGPiNAV8",
+      "role": "ref",
+      "src": "/home/workdir/artifacts/inbound/yt-tswoGPiNAV8_20260903-141648/02_ref.jpg",
+      "at": "2026-09-03T14:16:53-04:00"
+    },
+    {
+      "who": "cand-KKw1ZlTxCPU",
+      "set": "yt-KKw1ZlTxCPU",
+      "role": "hero",
+      "src": "/home/workdir/artifacts/inbound/yt-KKw1ZlTxCPU_20260903-165426/00_hero.jpg",
+      "at": "2026-09-03T16:54:31-04:00"
+    },
+    {
+      "who": "cand-KKw1ZlTxCPU",
+      "set": "yt-KKw1ZlTxCPU",
+      "role": "ref",
+      "src": "/home/workdir/artifacts/inbound/yt-KKw1ZlTxCPU_20260903-165426/01_ref.jpg",
+      "at": "2026-09-03T16:54:31-04:00"
+    },
+    {
+      "who": "cand-KKw1ZlTxCPU",
+      "set": "yt-KKw1ZlTxCPU",
+      "role": "ref",
+      "src": "/home/workdir/artifacts/inbound/yt-KKw1ZlTxCPU_20260903-165426/02_ref.jpg",
+      "at": "2026-09-03T16:54:31-04:00"
+    },
+    {
+      "who": "cand-KKw1ZlTxCPU",
+      "set": "yt-KKw1ZlTxCPU",
+      "role": "ref",
+      "src": "/home/workdir/artifacts/inbound/yt-KKw1ZlTxCPU_20260903-165426/03_ref.jpg",
+      "at": "2026-09-03T16:54:31-04:00"
+    },
+    {
+      "who": "og-opus-terminal",
+      "set": "yt-56zmFD8HlRE",
+      "role": "hero",
+      "src": "/home/workdir/artifacts/inbound/yt-56zmFD8HlRE_20260904-124901/00_hero.jpg",
+      "at": "2026-09-04T12:49:10-04:00"
+    },
+    {
+      "who": "og-opus-terminal",
+      "set": "yt-56zmFD8HlRE",
+      "role": "ref",
+      "src": "/home/workdir/artifacts/inbound/yt-56zmFD8HlRE_20260904-124901/01_ref.jpg",
+      "at": "2026-09-04T12:49:10-04:00"
+    },
+    {
+      "who": "og-opus-terminal",
+      "set": "yt-56zmFD8HlRE",
+      "role": "ref",
+      "src": "/home/workdir/artifacts/inbound/yt-56zmFD8HlRE_20260904-124901/02_ref.jpg",
+      "at": "2026-09-04T12:49:10-04:00"
+    },
+    {
+      "who": "og-opus-terminal",
+      "set": "yt-56zmFD8HlRE",
+      "role": "ref",
+      "src": "/home/workdir/artifacts/inbound/yt-56zmFD8HlRE_20260904-124901/03_ref.jpg",
+      "at": "2026-09-04T12:49:10-04:00"
+    },
+    {
+      "who": "og-opus-terminal",
+      "set": "yt-56zmFD8HlRE",
+      "role": "ref",
+      "src": "/home/workdir/artifacts/inbound/yt-56zmFD8HlRE_20260904-124901/04_ref.jpg",
+      "at": "2026-09-04T12:49:10-04:00"
+    },
+    {
+      "who": "og-opus-terminal",
+      "set": "yt-56zmFD8HlRE",
+      "role": "ref",
+      "src": "/home/workdir/artifacts/inbound/yt-56zmFD8HlRE_20260904-124901/05_ref.jpg",
+      "at": "2026-09-04T12:49:10-04:00"
+    },
+    {
+      "who": "og-opus-terminal",
+      "set": "yt-56zmFD8HlRE",
+      "role": "ref",
+      "src": "/home/workdir/artifacts/inbound/yt-56zmFD8HlRE_20260904-124901/06_ref.jpg",
+      "at": "2026-09-04T12:49:10-04:00"
+    },
+    {
+      "who": "og-opus-terminal",
+      "set": "yt-56zmFD8HlRE",
+      "role": "ref",
+      "src": "/home/workdir/artifacts/inbound/yt-56zmFD8HlRE_20260904-124901/07_ref.jpg",
+      "at": "2026-09-04T12:49:10-04:00"
+    },
+    {
+      "who": "cand-layers-of-life",
+      "set": "yt-post-layers-of-life",
+      "role": "hero",
+      "src": "/home/workdir/artifacts/inbound/yt-post-layers-of-life_20260904-152629/00_hero.png",
+      "at": "2026-09-04T15:26:32-04:00"
+    }
+  ],
+  "n": 16,
+  "created": "2026-09-03T14:16:53-04:00",
+  "updated": "2026-09-04T15:26:43-04:00",
+  "content": {
+    "taxonomy": "wardrobe",
+    "origin": "inbound still scrape"
+  }
+}

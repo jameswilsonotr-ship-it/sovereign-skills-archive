@@ -1,0 +1,69 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "scene03v2-ssot-lock_20260911-105250_barbie-i70",
+  "slug": "scene03v2-ssot-lock",
+  "slug_mode": "explicit",
+  "stamp": "20260911-105250",
+  "created": "2026-09-11T10:52:50-04:00",
+  "engine": "generate_image",
+  "orientation": "landscape",
+  "agent": "bunny",
+  "heat": "8",
+  "files": {
+    "jpeg": "scene03v2-ssot-lock_20260911-105250_barbie-i70.jpg",
+    "prompt": "scene03v2-ssot-lock_20260911-105250_barbie-i70.prompt.md",
+    "keep": "scene03v2-ssot-lock_20260911-105250_barbie-i70.keep.json"
+  },
+  "sha256": {
+    "jpeg": "ee1928be940055cb02785b1995a9a17e4e4a0f722cf51a51763aadc25342d2c0",
+    "prompt": "4573e2569b3986479e9eddf5e4a09f3fd6591a35511bfd7854a78332622671ca"
+  },
+  "prompt": "T3 v2 SSoT on-ramp I70 5pack. Bunny flannel harness padlock. Vesper 28 vinyl mesh tablet dual deploy. Olivia murmur. Interstate dawn.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/iBism.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/scene03v2-ssot-lock_20260911-105250_barbie-i70.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/scene03v2-ssot-lock_20260911-105250_barbie-i70.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/scene03v2-ssot-lock_20260911-105250_barbie-i70.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/09"
+  },
+  "drive": {
+    "status": "queued",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": null,
+    "prompt_id": null,
+    "keep_id": null,
+    "uploads": [
+      {
+        "artifact_path": "/rendered/scene03v2-ssot-lock_20260911-105250_barbie-i70.jpg",
+        "file_name": "scene03v2-ssot-lock_20260911-105250_barbie-i70.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/scene03v2-ssot-lock_20260911-105250_barbie-i70.prompt.md",
+        "file_name": "scene03v2-ssot-lock_20260911-105250_barbie-i70.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/scene03v2-ssot-lock_20260911-105250_barbie-i70.keep.json",
+        "file_name": "scene03v2-ssot-lock_20260911-105250_barbie-i70.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ]
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/scene03v2-ssot-lock_20260911-105250_barbie-i70.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

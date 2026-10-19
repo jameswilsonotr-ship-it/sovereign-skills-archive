@@ -1,0 +1,70 @@
+{
+  "id": "pose.facing-camera-id",
+  "kind": "pose",
+  "name": "Facing Camera Identity",
+  "version": "0.1.5",
+  "status": "draft",
+  "source": "agentify-scrape",
+  "ticket": "IP-WQ-094",
+  "tags": [
+    "pose",
+    "agentify",
+    "facing-camera-id"
+  ],
+  "prompt_terms": [
+    {
+      "term": "facing camera, readable face, medium shot",
+      "variance": 0.25,
+      "weight": 1.0
+    },
+    {
+      "term": "neutral athletic stance, weight even",
+      "variance": 0.4,
+      "weight": 0.8
+    }
+  ],
+  "instances": [
+    {
+      "who": "storm-diver",
+      "set": "cand-storm-diver",
+      "role": "hero",
+      "src": "/home/workdir/artifacts/inbound/cand-storm-diver_20260903-010411/00_hero.png",
+      "at": "2026-09-03T01:15:39-04:00"
+    },
+    {
+      "who": "cand-park-mouse-bow",
+      "set": "yt-tswoGPiNAV8",
+      "role": "hero",
+      "src": "/home/workdir/artifacts/inbound/yt-tswoGPiNAV8_20260903-141648/00_hero.jpg",
+      "at": "2026-09-03T14:16:53-04:00"
+    },
+    {
+      "who": "cand-KKw1ZlTxCPU",
+      "set": "yt-KKw1ZlTxCPU",
+      "role": "hero",
+      "src": "/home/workdir/artifacts/inbound/yt-KKw1ZlTxCPU_20260903-165426/00_hero.jpg",
+      "at": "2026-09-03T16:54:31-04:00"
+    },
+    {
+      "who": "og-opus-terminal",
+      "set": "yt-56zmFD8HlRE",
+      "role": "hero",
+      "src": "/home/workdir/artifacts/inbound/yt-56zmFD8HlRE_20260904-124901/00_hero.jpg",
+      "at": "2026-09-04T12:49:10-04:00"
+    },
+    {
+      "who": "cand-layers-of-life",
+      "set": "yt-post-layers-of-life",
+      "role": "hero",
+      "src": "/home/workdir/artifacts/inbound/yt-post-layers-of-life_20260904-152629/00_hero.png",
+      "at": "2026-09-04T15:26:32-04:00"
+    }
+  ],
+  "n": 5,
+  "created": "2026-09-03T01:15:39-04:00",
+  "updated": "2026-09-04T15:26:43-04:00",
+  "content": {
+    "taxonomy": "structural",
+    "origin": "inbound still scrape"
+  }
+}

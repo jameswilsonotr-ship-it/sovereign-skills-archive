@@ -1,0 +1,56 @@
+{
+  "id": "implication.anime-glam-kinky-internet",
+  "name": "Anime-Glam Kinky Internet Illustration",
+  "kind": "implication",
+  "description": "Temporary pack. Contemporary digital illustration, anime-glam hybrid. Oversized glossy multi-colored irises with sparkle, heavy graphic eye makeup, full glossy exaggerated lips, warm saturated skin with strong blush, soft cel-shaded to painterly digital rendering, close-up face focus, playful kinky internet-illustration aesthetic.",
+  "prompt_terms": [
+    {
+      "term": "contemporary digital illustration anime-glam hybrid style",
+      "variance": 0.2,
+      "weight": 1.2
+    },
+    {
+      "term": "oversized glossy multi-colored irises with sparkle reflections",
+      "variance": 0.25,
+      "weight": 1.1
+    },
+    {
+      "term": "heavy graphic eye makeup thick lashes colored lids",
+      "variance": 0.25,
+      "weight": 1.0
+    },
+    {
+      "term": "full glossy exaggerated lips parted or open mouth",
+      "variance": 0.3,
+      "weight": 1.0
+    },
+    {
+      "term": "warm saturated skin with strong blush and specular highlights",
+      "variance": 0.3,
+      "weight": 0.95
+    },
+    {
+      "term": "soft cel-shaded to painterly digital rendering",
+      "variance": 0.3,
+      "weight": 0.9
+    },
+    {
+      "term": "close-up or three-quarter face focus high glamour cartoon energy",
+      "variance": 0.35,
+      "weight": 0.9
+    },
+    {
+      "term": "playful kinky internet-illustration aesthetic",
+      "variance": 0.4,
+      "weight": 0.85
+    }
+  ],
+  "content": {
+    "technique_strength": "medium-high",
+    "best_heat_range": "H3-H8",
+    "moderation_softening": "medium",
+    "notes": "Promoted 2026-08-12 via IP-WQ-033. Originated from TikTok-style anime-glam / kinky-internet illustration references."
+  },
+  "status": "active",
+  "promoted": "2026-08-12"
+}

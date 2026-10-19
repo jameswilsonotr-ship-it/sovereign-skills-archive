@@ -1,0 +1,70 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "h-2-olivia-beardsley_20260830-021657_pack",
+  "slug": "h-2-olivia-beardsley",
+  "slug_mode": "explicit",
+  "stamp": "20260830-021657",
+  "created": "2026-08-30T02:16:57-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "olivia",
+  "heat": "",
+  "files": {
+    "jpeg": "h-2-olivia-beardsley_20260830-021657_pack.jpg",
+    "prompt": "h-2-olivia-beardsley_20260830-021657_pack.prompt.md",
+    "keep": "h-2-olivia-beardsley_20260830-021657_pack.keep.json"
+  },
+  "sha256": {
+    "jpeg": "c14ca5bae06839324f08190ffa261970c064ecb36ce4fe6ced3f25519d26fcb0",
+    "prompt": "e99f96b47f4160d9caa2ed77aad0d1862c7eceb9a7d89dabc956b146bb748e61"
+  },
+  "prompt": "Masterpiece Aubrey Beardsley high-contrast ink engraving, adults only. Intimate two-shot on steel stairs. Tall adult woman with copper-burgundy bob and silver cursive Barbie-script earrings with crimson bows, seated, holding a vintage FIRST AID FOR THE INJURED booklet. Shorter adult woman with cobalt pixie and charcoal mesh kneels on one knee in front of her, checking a bruised knee with clinical care. Intricate stippling, selective crimson and cyan accent inks, stark negative space, dramatic chiaroscuro. Clothes on. No text overlay.\n",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/jyKNw.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/h-2-olivia-beardsley_20260830-021657_pack.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/h-2-olivia-beardsley_20260830-021657_pack.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/h-2-olivia-beardsley_20260830-021657_pack.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1_D5G3OZ-GTYyM82K35_Gar7pj6jSTrJE",
+    "prompt_id": "1s71VwglJfTXb52Z5VTOD676Be6QynStf",
+    "keep_id": "14kXvNRRSNUOarTLsWw_KNRpuYjQ771lU",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/h-2-olivia-beardsley_20260830-021657_pack.jpg",
+        "file_name": "h-2-olivia-beardsley_20260830-021657_pack.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/h-2-olivia-beardsley_20260830-021657_pack.prompt.md",
+        "file_name": "h-2-olivia-beardsley_20260830-021657_pack.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/h-2-olivia-beardsley_20260830-021657_pack.keep.json",
+        "file_name": "h-2-olivia-beardsley_20260830-021657_pack.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-30T06:18:36+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/h-2-olivia-beardsley_20260830-021657_pack.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

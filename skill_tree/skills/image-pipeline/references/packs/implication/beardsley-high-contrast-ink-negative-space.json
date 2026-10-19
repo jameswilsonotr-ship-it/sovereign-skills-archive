@@ -1,0 +1,64 @@
+{
+  "id": "implication.beardsley-high-contrast-ink-negative-space",
+  "kind": "implication",
+  "name": "Beardsley High-Contrast Ink + Negative Space",
+  "version": "0.1.0",
+  "description": "Aubrey Beardsley high-contrast black ink, Art Nouveau line, aggressive negative space. Primary softener for high-Heat content while preserving erotic charge through stylization and omission. GENESIS implication technique.",
+  "tags": [
+    "implication",
+    "beardsley",
+    "high-contrast",
+    "negative-space",
+    "ink",
+    "art-nouveau",
+    "soft-moderation"
+  ],
+  "persona": "shared",
+  "prompt_terms": [
+    {
+      "term": "Aubrey Beardsley style",
+      "variance": 0.15,
+      "weight": 1.0
+    },
+    {
+      "term": "high-contrast pure black ink on white ground",
+      "variance": 0.2,
+      "weight": 1.0
+    },
+    {
+      "term": "Art Nouveau decorative line work",
+      "variance": 0.3,
+      "weight": 0.9
+    },
+    {
+      "term": "extreme negative space",
+      "variance": 0.25,
+      "weight": 1.0
+    },
+    {
+      "term": "elegant silhouette with partial occlusion",
+      "variance": 0.35,
+      "weight": 0.85
+    },
+    {
+      "term": "ornamental border framing",
+      "variance": 0.4,
+      "weight": 0.6
+    },
+    {
+      "term": "erotic tension through omission and suggestion",
+      "variance": 0.45,
+      "weight": 0.9
+    }
+  ],
+  "content": {
+    "technique_strength": "high",
+    "best_heat_range": "H4-H10",
+    "moderation_softening": "strong",
+    "canonical_asset": "visuals/assets/implication-techniques/beardsley-high-contrast-ink-negative-space/",
+    "notes": "GENESIS asset. Hair, fabric, and ornamental elements act as natural censors that still read as erotic. Pairs excellently with holo-ear glow and red-gem reactivity.",
+    "taxonomy": "implication",
+    "taxonomy_note": "heat-aware suggestion layer",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}

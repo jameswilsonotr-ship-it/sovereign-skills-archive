@@ -1,0 +1,26 @@
+{
+  "run_id": "20260725T035448Z",
+  "timestamp": "2026-07-25T03:54:48.894273+00:00",
+  "scope": "chaos-bratz-roster",
+  "audited": 1,
+  "critical_gaps": 0,
+  "skills_with_gaps": 1,
+  "skills_clean": 0,
+  "results": [
+    {
+      "slug": "chaos-bratz-roster",
+      "skill_md_exists": true,
+      "missing_paths": [],
+      "stub_files": [
+        "references/ENVELOPE_SCHEMA.md"
+      ],
+      "mentioned_count": 13,
+      "critical_gaps": 0,
+      "notes": [
+        "stub: references/ENVELOPE_SCHEMA.md",
+        "glob_ok: references/agents/*/current.md",
+        "glob_ok: references/mirrors/*.md"
+      ]
+    }
+  ]
+}

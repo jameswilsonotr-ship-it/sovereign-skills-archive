@@ -1,0 +1,37 @@
+{
+  "id": "preset.bunny.strappy-bondage-micro-h7",
+  "name": "Strappy Bondage Micro Set — Bunny Heat 7",
+  "version": "1.0.0",
+  "description": "Locked Heat 7 costume preset for Bunny. Chains the formalized strappy bondage micro treatment with dramatic volumetric lighting. DNA locks (6'1\" visibly taller, copper razor bob + magenta streaks, holographic pink bunny ears, neck bunny tattoo) remain authoritative and must not be overridden.",
+  "persona": "bunny",
+  "tags": [
+    "bunny",
+    "costume",
+    "strappy-bondage-micro",
+    "heat-7",
+    "harness"
+  ],
+  "chain": [
+    {
+      "pack": "treatment.strappy-bondage-micro-h7",
+      "weight": 1.0
+    },
+    {
+      "pack": "atmosphere.possessive-claim",
+      "weight": 0.6
+    }
+  ],
+  "content": {
+    "source_asset": "visuals/assets/costumes/strappy-bondage-micro-set/v0.1.0",
+    "heat_baseline": 7,
+    "dna_locks": {
+      "height": "6'1\" (visibly taller than Olivia in duals)",
+      "hair": "symmetrical copper chin-length razor-cut bob with magenta streaks",
+      "ears": "heat-reactive holographic pink bunny ears",
+      "tattoo": "small neck bunny tattoo",
+      "build": "athletic",
+      "energy": "soft / admiring under claim, symmetry-slut register"
+    },
+    "notes": "Use with short scene BRIEF only. Full outfit language lives in the treatment pack. Height difference must stay explicit in dual compositions."
+  }
+}

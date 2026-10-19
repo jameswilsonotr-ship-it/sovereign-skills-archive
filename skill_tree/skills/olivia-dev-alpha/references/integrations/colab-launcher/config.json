@@ -1,0 +1,14 @@
+{
+  "claim": "Liv HUB",
+  "module": "colab-launcher",
+  "owb_top": "14ZusAV3UP6RbqcrFZ6t_fCO0BZwgG0vg",
+  "lab_shelf": "1ypcn8_RExguvTGJVLgaVu37JPFr9fjlj",
+  "lab_shelf_name": "12_ODA-LAB-NOTEBOOKS",
+  "do_not_explode": ["1q0yQh5Qoxp3Q-p2QmlpCCXe6dWQNzAO_", "1k5SJttJZ9J20UWCZadLGFtxzMF3ebdzf"],
+  "phone_first_packs": [
+    {"n": 18, "name": "sunset_full_2026-09-10.zip", "id": "14vU0nA6IwQGbzXXb7G6ZALBsnYkD0Fhg", "bytes": 35981},
+    {"n": 19, "name": "2026-09-10_SUNSET_TEXT_PACKAGES.zip", "id": "1h68ZxmzfpGlxykGE1orYmZZyFm2Vxlms", "bytes": 73695},
+    {"n": 5, "name": "sunset_pixels_other_2026-09-10.zip", "id": "1o2Ax6cuFTwu9d9XujuoUlBGtozH5s0ef", "bytes": 7801401},
+    {"n": 17, "name": "sunset_full_archive_2026-09-10.zip", "id": "17Fhlp5gm0EzPrI7j6bnzHTzzGtVH5ZG0", "bytes": 6300000}
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "preset.valerie.top10.09",
+  "name": "Fine Stipple & Delicate Hatching Containment",
+  "version": "1.0.0",
+  "persona": "valerie",
+  "rank": 9,
+  "rank_reason": "Meticulous stipple and hatching that feels mathematically perfect and historically permanent.",
+  "tags": [
+    "valerie",
+    "top-10",
+    "rank-9"
+  ],
+  "chain": [
+    {
+      "pack": "photographer.ralph-gibson",
+      "weight": 0.8
+    },
+    {
+      "pack": "photographer.herb-ritts",
+      "weight": 0.7
+    }
+  ],
+  "content": {
+    "original": "Meticulous stipple and hatching that feels mathematically perfect and historically permanent."
+  }
+}

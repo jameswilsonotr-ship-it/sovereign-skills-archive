@@ -1,0 +1,62 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "rhea-quinn-isolate_20260828-222524_t4-p1",
+  "slug": "rhea-quinn-isolate",
+  "slug_mode": "explicit",
+  "stamp": "20260828-222524",
+  "created": "2026-08-28T22:25:24-04:00",
+  "engine": "generate",
+  "orientation": "portrait",
+  "agent": "candidate",
+  "heat": "0",
+  "files": {
+    "jpeg": "rhea-quinn-isolate_20260828-222524_t4-p1.jpg",
+    "prompt": "rhea-quinn-isolate_20260828-222524_t4-p1.prompt.md",
+    "keep": "rhea-quinn-isolate_20260828-222524_t4-p1.keep.json"
+  },
+  "sha256": {
+    "jpeg": "fec1ff81ec81dcac4bbe51dab65885ca6b5a22f803e02c47a3bfda61170e8468",
+    "prompt": "00a05c5b8536f558de4bf30d28732e71336868766a6b6805deb22ad7f7e59bfa"
+  },
+  "prompt": "Photorealistic cinematic identity card of Rhea Quinn, adult. adult redhead with freckles, shoulder-length wavy copper hair, olive utility shirt. Single person, plain ground.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/kvcSv.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/rhea-quinn-isolate_20260828-222524_t4-p1.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/rhea-quinn-isolate_20260828-222524_t4-p1.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/rhea-quinn-isolate_20260828-222524_t4-p1.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1Jmj1lchF1jr2vu5MtjS2SW87leCMIgP8",
+    "prompt_id": "1R-wdYkzdLh6geYvDf3EI-DVqufLsi3Bv",
+    "keep_id": "1vTXBeyVwYFioEYDi9F4pUrbbJWkbyEQN",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/rhea-quinn-isolate_20260828-222524_t4-p1.jpg",
+        "file_name": "rhea-quinn-isolate_20260828-222524_t4-p1.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/rhea-quinn-isolate_20260828-222524_t4-p1.prompt.md",
+        "file_name": "rhea-quinn-isolate_20260828-222524_t4-p1.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/rhea-quinn-isolate_20260828-222524_t4-p1.keep.json",
+        "file_name": "rhea-quinn-isolate_20260828-222524_t4-p1.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T02:26:01+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078"
+}

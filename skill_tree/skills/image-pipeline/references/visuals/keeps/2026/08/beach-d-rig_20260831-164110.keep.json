@@ -1,0 +1,71 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "beach-d-rig_20260831-164110",
+  "slug": "beach-d-rig",
+  "slug_mode": "explicit",
+  "stamp": "20260831-164110",
+  "created": "2026-08-31T16:41:10-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "candidate",
+  "heat": "1",
+  "files": {
+    "jpeg": "beach-d-rig_20260831-164110.jpg",
+    "prompt": "beach-d-rig_20260831-164110.prompt.md",
+    "keep": "beach-d-rig_20260831-164110.keep.json"
+  },
+  "sha256": {
+    "jpeg": "26e5f7dd26075ecace9c9f3a0665dc55798ffee18a801d966db70c912b5841e8",
+    "prompt": "9a548ea99a9310bebacb7e8c969346fa61b373dcfa532fb88ac9de3337c61752"
+  },
+  "prompt": "D rig 1957 beach",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/32iM3.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/beach-d-rig_20260831-164110.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/beach-d-rig_20260831-164110.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/beach-d-rig_20260831-164110.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1E7qRTIqIVv5fFdLU9A_QFnmW9nr03DfY",
+    "prompt_id": "1QjgghlmdBomj74GM60GkJliG_rLBykiI",
+    "keep_id": "1w__4Fz5uWg3zDvE5tlhdEXoG8LW3cTx3",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/beach-d-rig_20260831-164110.jpg",
+        "file_name": "beach-d-rig_20260831-164110.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/beach-d-rig_20260831-164110.prompt.md",
+        "file_name": "beach-d-rig_20260831-164110.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/beach-d-rig_20260831-164110.keep.json",
+        "file_name": "beach-d-rig_20260831-164110.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "skip_reason": "prior-session backlog deferred 2026-08-31 pose-pack publish; jpeg may still exist locally",
+    "uploaded_at": "2026-08-31T21:57:17+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/beach-d-rig_20260831-164110.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

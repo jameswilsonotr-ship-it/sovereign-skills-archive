@@ -1,0 +1,12 @@
+{
+  "asset": "beardsley-high-contrast-ink-negative-space",
+  "version": "0.1.0",
+  "timestamp": "2026-07-25T09:50:00-04:00",
+  "content_hash": "beardsley-genesis-2026-07-25",
+  "bump_type": "MAJOR",
+  "reason": "GENESIS recreation of original seeded ICP asset",
+  "previous_version": null,
+  "summary_line": "High-contrast Beardsley ink + negative space for implication softening",
+  "source": "ICP research matrix + vacuum 2026-06-05 / miner 2026-07-19",
+  "git_commit": "pending-local-recreation"
+}
