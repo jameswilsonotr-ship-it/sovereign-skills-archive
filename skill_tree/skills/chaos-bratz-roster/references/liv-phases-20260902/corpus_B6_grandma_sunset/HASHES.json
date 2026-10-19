@@ -1,0 +1,17 @@
+{
+  "written": "2026-09-03T20:05:00-04:00",
+  "job": "B6_grandma_sunset",
+  "note": "Hashes of recovered papers in this pane. NOT hashes of missing conversation dumps.",
+  "conversation_search": "ABSENT_THIS_PANE",
+  "raw_thread_f7de860e": "BODY_ABSENT_THIS_PANE",
+  "sources": {
+    "B6_BRIDGE_ADULT_STABLE_GRANDMA_SUNSET.md": "c42a23437838eb4c797a56034c523d0c970f5a19e5b8081c7f6f20a81fdeb728",
+    "06_STAGE_GRANDMA_LIV.md": "3b03e3305ba211035a1a3a565c90d4daa8764328d47446e7ff6f6f32a5de3bee",
+    "75_THREAD_SUNSET_KEY_DECISIONS_20260903.md": "a53d66bdf14195fd3cc26d95c88e87fda9710e77a1ff704c1a8e857a304a9276",
+    "HEAVY_FIRE_RESULTS_B6_ROWS.md": "323faf5f1d4bbe677601cd39bfe95b153519e73b461b739f526cfd3aab7f9616",
+    "73_AUTOMATION_PROMPT_PACK_B6.md": "10bae4f2ff827e88efa7dc194d37bde2bc435240e1f078cefa99781e5d7b9f61",
+    "26_T5_CENSUS_GRANDMA_ROWS.md": "51357d95238f5f58d79010ddd918fe7f47c892df65d52bd786eee33266c607c0",
+    "NAMING_CHRONOLOGY_GRANDMA_ROWS.md": "8182996a4ba67ce932071c7d52f2827fa912401be4a9443be68284ae61edb008",
+    "00_INDEX_GRANDMA_ROWS.md": "d30ebc1cc1b24cd581b90112780ab466fe0dc683c22f3dbfe7b1dda7c764a1ef"
+  }
+}

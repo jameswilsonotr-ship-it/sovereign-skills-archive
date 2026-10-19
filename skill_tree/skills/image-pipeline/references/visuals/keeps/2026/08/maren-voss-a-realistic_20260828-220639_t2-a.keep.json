@@ -1,0 +1,62 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "maren-voss-a-realistic_20260828-220639_t2-a",
+  "slug": "maren-voss-a-realistic",
+  "slug_mode": "explicit",
+  "stamp": "20260828-220639",
+  "created": "2026-08-28T22:06:39-04:00",
+  "engine": "generate",
+  "orientation": "portrait",
+  "agent": "candidate",
+  "heat": "0",
+  "files": {
+    "jpeg": "maren-voss-a-realistic_20260828-220639_t2-a.jpg",
+    "prompt": "maren-voss-a-realistic_20260828-220639_t2-a.prompt.md",
+    "keep": "maren-voss-a-realistic_20260828-220639_t2-a.keep.json"
+  },
+  "sha256": {
+    "jpeg": "c4238d954b42cc4d285a3e2bb2f37b6232196a24ffeabb4e0fa1c5e39bef01f1",
+    "prompt": "86837dbb672f06b71ca41b452d33b9ca4632a4a8b22a04958d7c76f4a3877f25"
+  },
+  "prompt": "Photorealistic cinematic identity card of Maren Voss, adult. mid-30s East Asian adult woman, short ink-black blunt bob with a sharp side part, warm brown eyes, olive skin, charcoal tailored briefing jacket over a black crew tee, no jewelry, no animal ears, no headband, standing at a dim night-ops table. Neutral stance, clear face, medium shot. adult woman, identity-stable, no text, no watermark, no extra people. Do not retrofit into Olivia or Bunny unless who is olivia or bunny.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/QmT9q.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/maren-voss-a-realistic_20260828-220639_t2-a.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/maren-voss-a-realistic_20260828-220639_t2-a.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/maren-voss-a-realistic_20260828-220639_t2-a.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1-3uZeK3DYk7ALhFFcmxB2bM0OgeFGJ0d",
+    "prompt_id": "1A9o38L_9Xhk1f4bigIz4R1LHboGckR31",
+    "keep_id": "19PmgfqdWkuPvwYQ9ubQGW1a8kko4G1Ns",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/maren-voss-a-realistic_20260828-220639_t2-a.jpg",
+        "file_name": "maren-voss-a-realistic_20260828-220639_t2-a.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/maren-voss-a-realistic_20260828-220639_t2-a.prompt.md",
+        "file_name": "maren-voss-a-realistic_20260828-220639_t2-a.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/maren-voss-a-realistic_20260828-220639_t2-a.keep.json",
+        "file_name": "maren-voss-a-realistic_20260828-220639_t2-a.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T02:07:38+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078"
+}

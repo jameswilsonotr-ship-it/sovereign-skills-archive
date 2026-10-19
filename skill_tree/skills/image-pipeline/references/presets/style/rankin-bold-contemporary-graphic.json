@@ -1,0 +1,22 @@
+{
+  "id": "preset.style.rankin-bold-contemporary-graphic",
+  "name": "Rankin Bold Contemporary Graphic",
+  "version": "1.0.0",
+  "description": "Bold, provocative, high-energy graphic fashion and erotic photography in the tradition of Rankin.",
+  "tags": [
+    "preset",
+    "rankin",
+    "bold",
+    "contemporary"
+  ],
+  "chain": [
+    {
+      "pack": "photographer.rankin",
+      "weight": 1.0
+    },
+    {
+      "pack": "treatment.bold-contemporary-graphic",
+      "weight": 0.95
+    }
+  ]
+}

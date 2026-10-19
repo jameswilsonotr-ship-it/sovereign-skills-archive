@@ -1,0 +1,42 @@
+{
+  "schema": "agentify-role-catalog/v1",
+  "updated": "2026-09-03T01:14:00-04:00",
+  "note": "Default pose + wardrobe seeds when a frame role is named on ingest. Override per-frame with FILE:role:pose:wardrobe.",
+  "roles": {
+    "hero": {
+      "pose": "facing-camera-id",
+      "pose_name": "Facing Camera Identity",
+      "pose_terms": ["facing camera, readable face, medium shot", "neutral athletic stance, weight even"]
+    },
+    "hero_id": {
+      "pose": "facing-camera-id",
+      "pose_name": "Facing Camera Identity",
+      "pose_terms": ["facing camera, readable face, medium shot", "neutral athletic stance, weight even"]
+    },
+    "three_quarter": {
+      "pose": "three-quarter-soft-look",
+      "pose_name": "Three-Quarter Soft Look",
+      "pose_terms": ["three-quarter body angle", "chin slightly down, gaze off-camera soft"]
+    },
+    "dive_prep": {
+      "pose": "arms-overhead-dive-prep",
+      "pose_name": "Arms Overhead Dive Prep",
+      "pose_terms": ["both arms raised straight overhead, palms together or parallel", "profile or back-three-quarter on a platform edge"]
+    },
+    "pike_dive": {
+      "pose": "pike-tuck-aerial",
+      "pose_name": "Pike Tuck Aerial",
+      "pose_terms": ["inverted pike or tight tuck in mid-air", "toes pointed, compact fold"]
+    },
+    "standing": {
+      "pose": "standing-square",
+      "pose_name": "Standing Square",
+      "pose_terms": ["standing square to camera", "arms relaxed"]
+    }
+  },
+  "wardrobe_default": {
+    "slug": "unspecified-wardrobe",
+    "name": "Unspecified Wardrobe",
+    "terms": ["wardrobe as seen on the still", "no invented costume"]
+  }
+}

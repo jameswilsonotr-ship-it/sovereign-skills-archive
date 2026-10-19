@@ -1,0 +1,69 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "cand-townmage-b-heat_20260912-222119_b-heat",
+  "slug": "cand-townmage-b-heat",
+  "slug_mode": "explicit",
+  "stamp": "20260912-222119",
+  "created": "2026-09-12T22:21:19-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "cand-townmage",
+  "heat": "2",
+  "files": {
+    "jpeg": "cand-townmage-b-heat_20260912-222119_b-heat.jpg",
+    "prompt": "cand-townmage-b-heat_20260912-222119_b-heat.prompt.md",
+    "keep": "cand-townmage-b-heat_20260912-222119_b-heat.keep.json"
+  },
+  "sha256": {
+    "jpeg": "be16df00c0df22ed005985b2694be355271a2856dd0ad1747c83cc4c5e5e7cca",
+    "prompt": "708eefaf55da4e6b97f50a868d5f8332f0d6008a80f0baf2c0fa06e3a6936994"
+  },
+  "prompt": "townmage heat",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/zZJKr.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/cand-townmage-b-heat_20260912-222119_b-heat.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/cand-townmage-b-heat_20260912-222119_b-heat.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/cand-townmage-b-heat_20260912-222119_b-heat.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/09"
+  },
+  "drive": {
+    "status": "queued",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": null,
+    "prompt_id": null,
+    "keep_id": null,
+    "uploads": [
+      {
+        "artifact_path": "/rendered/cand-townmage-b-heat_20260912-222119_b-heat.jpg",
+        "file_name": "cand-townmage-b-heat_20260912-222119_b-heat.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/cand-townmage-b-heat_20260912-222119_b-heat.prompt.md",
+        "file_name": "cand-townmage-b-heat_20260912-222119_b-heat.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/cand-townmage-b-heat_20260912-222119_b-heat.keep.json",
+        "file_name": "cand-townmage-b-heat_20260912-222119_b-heat.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ]
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/cand-townmage-b-heat_20260912-222119_b-heat.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

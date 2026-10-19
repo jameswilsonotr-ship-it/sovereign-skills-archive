@@ -1,0 +1,71 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "lace-d-rig_20260829-195458_gen-d",
+  "slug": "lace-d-rig",
+  "slug_mode": "explicit",
+  "stamp": "20260829-195458",
+  "created": "2026-08-29T19:54:58-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "candidate-feb21",
+  "heat": "1",
+  "files": {
+    "jpeg": "lace-d-rig_20260829-195458_gen-d.jpg",
+    "prompt": "lace-d-rig_20260829-195458_gen-d.prompt.md",
+    "keep": "lace-d-rig_20260829-195458_gen-d.keep.json"
+  },
+  "sha256": {
+    "jpeg": "eb715c8b879a039b3242e426a20de63e9c83c33c0a2128d7cedeb46fbdcddeb0",
+    "prompt": "cc70501947cfe783c6cb9e8f60c942abc00e2f1b8f6e3d91f63285b7eff08bbe"
+  },
+  "prompt": "D rig generate 113059",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/uaGVS.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/lace-d-rig_20260829-195458_gen-d.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/lace-d-rig_20260829-195458_gen-d.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/lace-d-rig_20260829-195458_gen-d.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1JPgeOZBwcN-uisPuUmqZZKRKeIk8RnOO",
+    "prompt_id": "1CANrJfIw25gtJVK1IQGdXcE2n6q1amjD",
+    "keep_id": "16qmg6jx4MnfTzR898vhPslsbXAeXa3Ls",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/lace-d-rig_20260829-195458_gen-d.jpg",
+        "file_name": "lace-d-rig_20260829-195458_gen-d.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/lace-d-rig_20260829-195458_gen-d.prompt.md",
+        "file_name": "lace-d-rig_20260829-195458_gen-d.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/lace-d-rig_20260829-195458_gen-d.keep.json",
+        "file_name": "lace-d-rig_20260829-195458_gen-d.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "skip_reason": "prior-session backlog deferred 2026-08-31 pose-pack publish; jpeg may still exist locally",
+    "uploaded_at": "2026-08-31T22:00:50+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/lace-d-rig_20260829-195458_gen-d.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

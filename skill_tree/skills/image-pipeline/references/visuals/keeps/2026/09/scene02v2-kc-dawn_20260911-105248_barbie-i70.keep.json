@@ -1,0 +1,69 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "scene02v2-kc-dawn_20260911-105248_barbie-i70",
+  "slug": "scene02v2-kc-dawn",
+  "slug_mode": "explicit",
+  "stamp": "20260911-105248",
+  "created": "2026-09-11T10:52:48-04:00",
+  "engine": "generate_image",
+  "orientation": "landscape",
+  "agent": "bunny",
+  "heat": "8",
+  "files": {
+    "jpeg": "scene02v2-kc-dawn_20260911-105248_barbie-i70.jpg",
+    "prompt": "scene02v2-kc-dawn_20260911-105248_barbie-i70.prompt.md",
+    "keep": "scene02v2-kc-dawn_20260911-105248_barbie-i70.keep.json"
+  },
+  "sha256": {
+    "jpeg": "12b8e3a1b2654afa8200f7870db5fc780550882347770ad87429ae5672e2ceb4",
+    "prompt": "4a8e2f973e6c492f9a28d7a8606c1bfaf972573b9a16205c5c5c20c3d943a4d8"
+  },
+  "prompt": "T2 v2 KC dawn cab I70 5pack. Bunny flannel latex fishnets padlock amber holos. Vesper 28 vinyl club clothes under open vest. Olivia sleeper. Sodium yard.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/zvLQ7.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/scene02v2-kc-dawn_20260911-105248_barbie-i70.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/scene02v2-kc-dawn_20260911-105248_barbie-i70.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/scene02v2-kc-dawn_20260911-105248_barbie-i70.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/09"
+  },
+  "drive": {
+    "status": "queued",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": null,
+    "prompt_id": null,
+    "keep_id": null,
+    "uploads": [
+      {
+        "artifact_path": "/rendered/scene02v2-kc-dawn_20260911-105248_barbie-i70.jpg",
+        "file_name": "scene02v2-kc-dawn_20260911-105248_barbie-i70.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/scene02v2-kc-dawn_20260911-105248_barbie-i70.prompt.md",
+        "file_name": "scene02v2-kc-dawn_20260911-105248_barbie-i70.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/scene02v2-kc-dawn_20260911-105248_barbie-i70.keep.json",
+        "file_name": "scene02v2-kc-dawn_20260911-105248_barbie-i70.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ]
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/scene02v2-kc-dawn_20260911-105248_barbie-i70.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

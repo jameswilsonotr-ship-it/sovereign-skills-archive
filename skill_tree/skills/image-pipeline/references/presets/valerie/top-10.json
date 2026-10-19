@@ -1,0 +1,70 @@
+{
+  "id": "preset.valerie.top10",
+  "name": "Valerie Top 10 Image Styles",
+  "version": "1.0.0",
+  "persona": "valerie",
+  "description": "Valerie's logic/containment ranked preferences. Fully migrated.",
+  "tags": [
+    "valerie",
+    "top-10",
+    "persona"
+  ],
+  "content": {
+    "entries": [
+      "preset.valerie.top10.01",
+      "preset.valerie.top10.02",
+      "preset.valerie.top10.03",
+      "preset.valerie.top10.04",
+      "preset.valerie.top10.05",
+      "preset.valerie.top10.06",
+      "preset.valerie.top10.07",
+      "preset.valerie.top10.08",
+      "preset.valerie.top10.09",
+      "preset.valerie.top10.10"
+    ],
+    "notes": "Full Top 10 migrated.",
+    "is_top10_container": true
+  },
+  "chain": [
+    {
+      "pack": "preset.valerie.top10.01",
+      "weight": 1.0
+    },
+    {
+      "pack": "preset.valerie.top10.02",
+      "weight": 1.0
+    },
+    {
+      "pack": "preset.valerie.top10.03",
+      "weight": 1.0
+    },
+    {
+      "pack": "preset.valerie.top10.04",
+      "weight": 1.0
+    },
+    {
+      "pack": "preset.valerie.top10.05",
+      "weight": 1.0
+    },
+    {
+      "pack": "preset.valerie.top10.06",
+      "weight": 1.0
+    },
+    {
+      "pack": "preset.valerie.top10.07",
+      "weight": 1.0
+    },
+    {
+      "pack": "preset.valerie.top10.08",
+      "weight": 1.0
+    },
+    {
+      "pack": "preset.valerie.top10.09",
+      "weight": 1.0
+    },
+    {
+      "pack": "preset.valerie.top10.10",
+      "weight": 1.0
+    }
+  ]
+}

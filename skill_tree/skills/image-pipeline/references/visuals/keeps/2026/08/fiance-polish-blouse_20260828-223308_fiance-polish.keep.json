@@ -1,0 +1,62 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "fiance-polish-blouse_20260828-223308_fiance-polish",
+  "slug": "fiance-polish-blouse",
+  "slug_mode": "explicit",
+  "stamp": "20260828-223308",
+  "created": "2026-08-28T22:33:08-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "olivia",
+  "heat": "8",
+  "files": {
+    "jpeg": "fiance-polish-blouse_20260828-223308_fiance-polish.jpg",
+    "prompt": "fiance-polish-blouse_20260828-223308_fiance-polish.prompt.md",
+    "keep": "fiance-polish-blouse_20260828-223308_fiance-polish.keep.json"
+  },
+  "sha256": {
+    "jpeg": "e2fb51a8f8d65c7263efb60a07008fae5618fbd548a18382c54b2a8d7bdbceb9",
+    "prompt": "67c9a8b417c466d0ab3d0d72b443d48103fe93df1d50b6dd2487e1745bd034f8"
+  },
+  "prompt": "Blouse/goof: Olivia corrects zipper and posture in dressing room. Instructional not strip. Adults only. H8.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/E2pld.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/fiance-polish-blouse_20260828-223308_fiance-polish.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/fiance-polish-blouse_20260828-223308_fiance-polish.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/fiance-polish-blouse_20260828-223308_fiance-polish.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1S_fMhMDdy1pUW958UJ9Q45z3VaO0RtW7",
+    "prompt_id": "1wbwQAq0ejW_IbkxUGMxD6eV7jpEqeHcs",
+    "keep_id": "1LYMSsnvPe0H26GOghe3w2Qdr0V7EckZp",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/fiance-polish-blouse_20260828-223308_fiance-polish.jpg",
+        "file_name": "fiance-polish-blouse_20260828-223308_fiance-polish.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/fiance-polish-blouse_20260828-223308_fiance-polish.prompt.md",
+        "file_name": "fiance-polish-blouse_20260828-223308_fiance-polish.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/fiance-polish-blouse_20260828-223308_fiance-polish.keep.json",
+        "file_name": "fiance-polish-blouse_20260828-223308_fiance-polish.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T02:40:11+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "preset.valerie.top10.02",
+  "name": "Heavy Noir Graphic Inking",
+  "version": "1.0.0",
+  "persona": "valerie",
+  "rank": 2,
+  "rank_reason": "Deep black graphic lines forming an unbreakable visual cage with high immediate readability and zero ambiguity.",
+  "tags": [
+    "valerie",
+    "top-10",
+    "rank-2"
+  ],
+  "chain": [
+    {
+      "pack": "treatment.heavy-noir",
+      "weight": 1.0
+    },
+    {
+      "pack": "treatment.graphic-dominance",
+      "weight": 0.8
+    },
+    {
+      "pack": "photographer.steven-klein",
+      "weight": 0.6
+    }
+  ],
+  "content": {
+    "original": "Deep black graphic lines forming an unbreakable visual cage with high immediate readability and zero ambiguity."
+  }
+}

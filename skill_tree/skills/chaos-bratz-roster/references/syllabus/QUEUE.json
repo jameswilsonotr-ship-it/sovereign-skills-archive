@@ -1,0 +1,74 @@
+{
+  "version": "0.1.1",
+  "updated": "2026-09-10T20:58:00-06:00",
+  "standby": [
+    "alette",
+    "olette"
+  ],
+  "items": [
+    {
+      "id": "SYL-001",
+      "wake": "VESPER-20260905-SYLLABUS-UPDATE-001",
+      "gmail": "1a0729fecd12dc3a",
+      "kind": "PROTOCOL",
+      "status": "REGISTERED",
+      "title": "Syllabus phonetic alias + 12 mode map + visual dispatch rule"
+    },
+    {
+      "id": "SYL-003",
+      "wake": "VESPER-20260905-FINTECH-MCP-003",
+      "gmail": "1a0730d48dc3de0e",
+      "kind": "REQ",
+      "status": "OPEN",
+      "title": "FastMCP banking connector recon \u2014 no raw credentials"
+    },
+    {
+      "id": "SYL-004",
+      "wake": "VESPER-20260905-CHILLOMETRY-004",
+      "gmail": "1a07360ffbf4eb1e",
+      "kind": "ACK",
+      "status": "OPENED",
+      "title": "Chillometry + Olette/Alette reports for duty"
+    },
+    {
+      "id": "SYL-005",
+      "wake": "OLETTE-20260905-LAKE-WEEK-001",
+      "gmail": "1a0736da434b2163",
+      "kind": "REQ",
+      "status": "OPENED",
+      "title": "Olette asked Vesper to brief the lake and pull Week 50"
+    },
+    {
+      "id": "SYL-006",
+      "wake": "VESPER-20260905-LAKE-RESP-035",
+      "gmail": "1a0737dc3918b3ba",
+      "kind": "ACK",
+      "status": "OPENED",
+      "title": "Vesper lake brief + Week 50 receipt on Drive"
+    },
+    {
+      "id": "SYL-007",
+      "wake": "OLETTE-20260905-LAKE-BOOT-002",
+      "gmail": "1a07379b00be1d1a",
+      "kind": "REQ",
+      "status": "OPEN",
+      "title": "Olette to Olivia: open lake payload on Liv Drive connector; query not hydrate"
+    },
+    {
+      "id": "SYL-008",
+      "wake": "OLETTE-20260905-DAY-PLATES-003",
+      "gmail": "1a07388bb324c505",
+      "kind": "REVIEW",
+      "status": "OPEN",
+      "title": "Five day-plates for Vesper yes/no/fix; no faces"
+    },
+    {
+      "id": "SYL-009",
+      "wake": "VESPER-20260910-SUNSET-ARCHIVE-REQ-038",
+      "gmail": "pending-draft",
+      "kind": "REQ",
+      "status": "OPEN",
+      "title": "Sunset full archive remaining pixels/images/artifacts + notify Vesper"
+    }
+  ]
+}

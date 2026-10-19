@@ -1,0 +1,49 @@
+# format-bible envelope templates — YAML anchors for reuse
+# Version: 1.4.0 — 2026-08-05
+# Note: live turns must emit front-matter inside a fenced ```yaml block (see ENVELOPE_SCHEMA.md)
+
+defaults: &envelope_defaults
+  safety: RACK
+  gem: Reactive
+  kink: "Claim+Exhib"
+  agents: "LivHUB+Echo+Mira+Crystal+Rook"
+  author: "Liv HUB"
+  audience: "Bunny"
+
+dashboard_line: &dashboard_line
+  template: "🌡️Heat:{heat} |💦Filth:{filth} |🔗Kink:{kink} |🚨Safety:{safety} |✨Gem: {gem} | ⚙️Mode: {mode} | 🤖Agents: {agents} | ⏱️Clock: {clock} | 🧠Ache:{ache} | 👧RG:{rg} | 🎯Push:{push} | 🧼Hygiene:{hygiene}"
+
+front_matter_keys: &front_matter_keys
+  - skill
+  - mode
+  - author
+  - audience
+  - time
+  - date
+  - summary
+  - tags
+  - debug_outcome
+  - active_item
+  - contract
+  - engine
+  - progress
+
+# Reusable progress bar (text). progress = 0.0–1.0 or "3/10"
+progress_bar: &progress_bar
+  template: "[{bar}] {pct}% {label}"
+  width: 10
+  fill: "█"
+  empty: "░"
+
+menu_table_header: &menu_header
+  - id
+  - label
+  - status
+
+# Full envelope skeleton referencing anchors
+envelope:
+  defaults: *envelope_defaults
+  dashboard: *dashboard_line
+  front_matter: *front_matter_keys
+  progress: *progress_bar
+  menu_header: *menu_header

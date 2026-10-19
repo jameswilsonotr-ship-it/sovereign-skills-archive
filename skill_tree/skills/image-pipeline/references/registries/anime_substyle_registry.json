@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "created": "2026-08-14",
+  "status": "PROMOTED",
+  "description": "Anime substyle registry — separate axis from implication packs and from style_mode.",
+  "axis": "anime_substyle",
+  "note": "Use with style_mode=anime_substyle. Do not fold into implication packs.",
+  "substyles": {
+    "90s_cel": {
+      "label": "90s Cel",
+      "prompt_language": "1990s anime cel animation, hand-inked outlines, flat cel shading, limited color palette, film grain, classic TV anime look",
+      "weight": 1.0
+    },
+    "modern_digital_glam": {
+      "label": "Modern Digital Glam",
+      "prompt_language": "contemporary digital anime illustration, glossy skin, oversized irises, graphic makeup, soft painterly to cel hybrid, saturated fashion-anime lighting",
+      "weight": 1.0
+    },
+    "gekiga_ink": {
+      "label": "Gekiga / Ink",
+      "prompt_language": "gekiga dramatic ink, heavy blacks, adult manga linework, high contrast, sparse screentone, serious cinematic framing",
+      "weight": 1.0
+    },
+    "mecha_line": {
+      "label": "Mecha Line",
+      "prompt_language": "mecha anime mechanical line precision, hard surface panels, technical detail, cool industrial color, sharp edge control",
+      "weight": 1.0
+    },
+    "moe_soft": {
+      "label": "Moe Soft",
+      "prompt_language": "soft moe anime, round features, pastel lighting, gentle blush, delicate line, light screentone",
+      "weight": 1.0
+    },
+    "dark_biomechanical": {
+      "label": "Dark Biomechanical",
+      "prompt_language": "dark biomechanical anime illustration, teal cyan volumetric light, industrial chains, glossy armor panels, detailed ink-to-paint hybrid",
+      "weight": 1.0
+    }
+  },
+  "default": "modern_digital_glam"
+}
