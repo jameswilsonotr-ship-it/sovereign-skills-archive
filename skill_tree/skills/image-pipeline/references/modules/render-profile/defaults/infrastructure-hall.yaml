@@ -1,0 +1,16 @@
+# First consumer profile
+project: infrastructure-hall
+render:
+  era: industrial-2026
+  grade: adult
+  mode: photoreal
+  pinup: off
+  host: cloud
+heat:
+  stage: 0
+  consumption_lock: on
+  liv_closet_separate: true
+notes:
+  - Story lock (who owns the breaker) does not change with era/grade.
+  - Stage 3 would allow pinup-on and plate-folder grammar for THIS costume set only.
+  - Stage 2/4 noop until local CLI runner exists.

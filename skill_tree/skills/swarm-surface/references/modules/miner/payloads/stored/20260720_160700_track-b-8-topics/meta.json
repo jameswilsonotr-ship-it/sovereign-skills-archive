@@ -1,0 +1,10 @@
+{
+  "created": "2026-07-20T16:07:00-04:00",
+  "reason": "Preparation of the original 8 Track B memory architecture topics for the upcoming swarm-miner run (same topics as the completed manual Track B extraction)",
+  "origin": "manual-prep",
+  "topic_count": 8,
+  "agents_intended": ["harper", "sebastian", "crystal", "echo"],
+  "file_output_spec": "local-stub under payloads/stored/ + future versioned Drive package under Conversational_Mining_Payloads/swarm-miner/",
+  "sidecar_enabled": true,
+  "notes": "These are the exact eight topics that were manually mined. Swarm-miner will re-mine them for comparison and to test the sidecar discovery system. Do not expand scope in this payload."
+}

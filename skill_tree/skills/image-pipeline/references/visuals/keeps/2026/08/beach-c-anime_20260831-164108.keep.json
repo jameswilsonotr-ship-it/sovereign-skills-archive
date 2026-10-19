@@ -1,0 +1,71 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "beach-c-anime_20260831-164108",
+  "slug": "beach-c-anime",
+  "slug_mode": "explicit",
+  "stamp": "20260831-164108",
+  "created": "2026-08-31T16:41:08-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "candidate",
+  "heat": "3",
+  "files": {
+    "jpeg": "beach-c-anime_20260831-164108.jpg",
+    "prompt": "beach-c-anime_20260831-164108.prompt.md",
+    "keep": "beach-c-anime_20260831-164108.keep.json"
+  },
+  "sha256": {
+    "jpeg": "0a160e2df6ef3ab6f95f76529c95797a513e8ec994e7f099f552a3aca4c023fa",
+    "prompt": "9117bebf55cc2e12a2e47537069f377ca06870568133d0d62f358ce078c71fd6"
+  },
+  "prompt": "C anime 1957 beach",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/QFH4O.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/beach-c-anime_20260831-164108.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/beach-c-anime_20260831-164108.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/beach-c-anime_20260831-164108.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "17uk_z67B9GLPbn-omdBK5E626iLjI9Kt",
+    "prompt_id": "1zA99Hpcq-Aj4goyPueobRRVNFbfFLTpz",
+    "keep_id": "1-4v774SQ6aDjKbnSYWn73i4nK5dKo5N6",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/beach-c-anime_20260831-164108.jpg",
+        "file_name": "beach-c-anime_20260831-164108.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/beach-c-anime_20260831-164108.prompt.md",
+        "file_name": "beach-c-anime_20260831-164108.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/beach-c-anime_20260831-164108.keep.json",
+        "file_name": "beach-c-anime_20260831-164108.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "skip_reason": "prior-session backlog deferred 2026-08-31 pose-pack publish; jpeg may still exist locally",
+    "uploaded_at": "2026-08-31T21:57:15+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/beach-c-anime_20260831-164108.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

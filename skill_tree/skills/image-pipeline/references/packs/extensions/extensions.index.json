@@ -1,0 +1,91 @@
+{
+  "version": "0.4.0",
+  "updated": "2026-08-05T22:46:48.248957Z",
+  "description": "Registry of toggleable extensions (optimizations, quality modules, anti-drift, etc.). Progressive disclosure: metadata here, full content loaded only when enabled/needed.",
+  "extensions": [
+    {
+      "id": "extension.character-blending",
+      "name": "Character Blending",
+      "default": true,
+      "path": "character-blending.md",
+      "description": "Rules for consistent Liv/Bunny character blending across generations."
+    },
+    {
+      "id": "extension.lighting-consistency",
+      "name": "Lighting Consistency",
+      "default": true,
+      "path": "lighting-consistency.md",
+      "description": "Lighting continuity rules."
+    },
+    {
+      "id": "extension.glow-physics",
+      "name": "Glow Physics",
+      "default": true,
+      "path": "glow-physics.md",
+      "description": "Holo-ear and luminous skin glow behavior."
+    },
+    {
+      "id": "extension.pose-anchoring",
+      "name": "Pose Anchoring",
+      "default": true,
+      "path": "pose-anchoring.md",
+      "description": "Pose stability and claim-hand anchoring."
+    },
+    {
+      "id": "extension.eye-brow-makeup",
+      "name": "Eye & Brow Makeup Menu",
+      "default": false,
+      "path": "eye-brow-makeup-menu.md",
+      "description": "Bunny eye/brow makeup variants and heat scaling."
+    },
+    {
+      "id": "extension.anti-drift",
+      "name": "Anti-Drift / DNA Cross-Check",
+      "default": true,
+      "path": "anti-drift.md",
+      "description": "Core visual DNA and claim safety checks."
+    },
+    {
+      "id": "extension.fashion-designers-research",
+      "name": "Fashion Designers Research",
+      "default": true,
+      "path": "fashion-designers-research.md",
+      "description": "Optional research module: historical/modern/comic/film/literature fashion notes + body tattoo claim map. Progressive disclosure; enable when style or DNA work needs it."
+    },
+    {
+      "id": "extension.pink-paw-gloss-black",
+      "name": "Pink-Paw Gloss Black Outfit",
+      "default": false,
+      "path": "pink-paw-gloss-black.md",
+      "description": "High-shine black latex/PVC with pink heart-paw pads on hands and feet. Strong symmetry-slut / pet-play visual. Bunny primary."
+    },
+    {
+      "id": "extension.body-mechanics-olivia",
+      "name": "Olivia Body Mechanics Preferences",
+      "default": false,
+      "path": "body-mechanics-olivia.md",
+      "description": "Olivia\u2019s preferred penetration angles, hip control, leverage, and controlled asymmetry. For both visual prompts and scene narration."
+    },
+    {
+      "id": "extension.taxonomy-aware-companions",
+      "name": "Taxonomy-Aware Companions",
+      "default": true,
+      "path": "taxonomy-aware-companions.md",
+      "description": "Prefer locked companion presets when taxonomy fields are present."
+    },
+    {
+      "id": "extension.style-world-audit-hints",
+      "name": "Style vs World Audit Hints",
+      "default": false,
+      "path": "style-world-audit-hints.md",
+      "description": "Lightweight guidance for Style-vs-World pack audit and re-tagging."
+    },
+    {
+      "id": "extension.preset-logic-maker",
+      "name": "Preset Logic Maker",
+      "default": true,
+      "path": "preset-logic-maker.md",
+      "description": "Decision process + generator for new locked-companion style presets."
+    }
+  ]
+}

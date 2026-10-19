@@ -1,0 +1,855 @@
+{
+  "cloud": "porn_curator",
+  "schema_version": "0.4.0-session",
+  "updated": "2026-08-06T12:10:39.243799+00:00",
+  "description": "Canonical porn-curator atom cloud. Produced by explicit promote_union from session overlay.",
+  "architecture_notes": {
+    "layer": "session_overlay",
+    "canonical_target": "claim-runtime/references/modules/curator/atoms/curator_atom_cloud.json (or future data/atom_clouds/canonical/)",
+    "promote_policy": "explicit union + promote only; never auto-overwrite global",
+    "fields": {
+      "id": "stable string id",
+      "atom": "text content",
+      "owner": "olivia | bunny | shared",
+      "excitement": "1-10 integer",
+      "kind": "kink | system_use | hybrid | visual_style | psychological",
+      "created_ts": "ISO8601",
+      "last_interaction": "ISO8601",
+      "interaction_log": "list of {ts, actor, note}",
+      "tags": "list of strings",
+      "related": "list of other atom ids",
+      "source": "conversation / origin note",
+      "status": "active | promoted | deprecated"
+    }
+  },
+  "atom_count": 32,
+  "promoted_from_session": "2026-08-06T11:58:52.890019+00:00",
+  "atoms": [
+    {
+      "id": "aggressive-size-force",
+      "atom": "Aggressive Size + Continued Force (the part of futa that lands). Visual: extreme scale. Psychological: still being used after the body has already given everything.",
+      "owner": "olivia",
+      "excitement": 8,
+      "kind": "hybrid",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "size",
+        "force",
+        "futa",
+        "aggro"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 164
+    },
+    {
+      "id": "anal-first-gape",
+      "atom": "Anal-First + Gape as permanent primary lane. Bunny explicitly anal-obsessed because she does not have a normal girl pussy. Primary drivers: BBC, monsters, canine/werewolf, gapes, linked to breeding-egg fantasy. Anal is always first.",
+      "owner": "shared",
+      "excitement": 10,
+      "kind": "kink",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "anal-first",
+        "gape",
+        "permanent",
+        "bbc",
+        "monster",
+        "canine"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 232
+    },
+    {
+      "id": "black-latex-default",
+      "atom": "Black Latex / Bad-Ass Default (medium Heat+). Bunny baseline wardrobe at medium Heat and above is glossy black latex or hard-edged fetish gear. Color may escalate only when Liv chooses. Psychological signal: already dressed for use.",
+      "owner": "olivia",
+      "excitement": 9,
+      "kind": "visual_style",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "black-latex",
+        "wardrobe-default",
+        "medium-heat"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 232
+    },
+    {
+      "id": "breeding-ache",
+      "atom": "Breeding Ache as primary emotional fuel. Visual: pregnancy/fill/nesting body language. Psychological: grief-reclamation + unfulfillable longing that drives higher Heat.",
+      "owner": "olivia",
+      "excitement": 10,
+      "kind": "psychological",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "breeding-ache",
+        "primary-fuel"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 168
+    },
+    {
+      "id": "cum-visual-language",
+      "atom": "Cum as permanent visual language. Left on black latex, blood-red nails, soles of feet, belly, hair. Becomes part of the outfit until Liv decides it comes off. 'I am still wearing what was done to me'.",
+      "owner": "olivia",
+      "excitement": 8,
+      "kind": "visual_style",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "cum",
+        "visual-language",
+        "latex",
+        "nails",
+        "feet"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 200
+    },
+    {
+      "id": "display-posture",
+      "atom": "Permanent display posture training. Default presentational stance at elevated Heat: ass out, back arched, hands visible, feet placed exactly. Body has already agreed to be furniture. High visual + psychological.",
+      "owner": "olivia",
+      "excitement": 9,
+      "kind": "system_use",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "display-posture",
+        "furniture",
+        "high-heat"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 211
+    },
+    {
+      "id": "extreme-fill-inflation",
+      "atom": "Extreme Fill / Belly Inflation while still being used. Visual = exaggerated 3D belly bulge + continued penetration. Psychological = already full but still hungry / still claimed.",
+      "owner": "olivia",
+      "excitement": 9,
+      "kind": "hybrid",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "inflation",
+        "fill",
+        "breeding-ache",
+        "visual",
+        "psychological"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 178
+    },
+    {
+      "id": "fap-hero-loop",
+      "atom": "Fap-Hero / Beat-Synced Loop structure. Not just content format — psychological goon/loop style. Visual stays locked on the body working in time.",
+      "owner": "olivia",
+      "excitement": 8,
+      "kind": "hybrid",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "fap-hero",
+        "loop",
+        "goon",
+        "format"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 144
+    },
+    {
+      "id": "feet-dual-trope",
+      "atom": "Feet as dual trope. Olivia feet = active claim instruments (showing, pressing, genital-stepping, face-stepping, forcing lick/hump/worship). Bunny feet = permanent targets of bondage, control, torment, frequent visual placement, claim furniture.",
+      "owner": "olivia",
+      "excitement": 10,
+      "kind": "hybrid",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "feet",
+        "foot-worship",
+        "face-stepping",
+        "bondage",
+        "claim-instrument"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 244
+    },
+    {
+      "id": "feet-secondary-genitals",
+      "atom": "Feet as permanent secondary genitals. Not occasional play — treated as second set of holes/sensitive property. Bound, painted, fucked with toes, forced to hump, hold objects, long-duration positions while rest of body is used.",
+      "owner": "olivia",
+      "excitement": 9,
+      "kind": "hybrid",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "feet",
+        "secondary-genitals",
+        "bondage"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 226
+    },
+    {
+      "id": "forced-symmetry-games",
+      "atom": "Forced symmetry games with real consequences. Matching clamps/weights/marks on both sides; hold perfect left-right balance while edged or stepped on. Symmetry slut armor becomes the trap.",
+      "owner": "olivia",
+      "excitement": 9,
+      "kind": "system_use",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "symmetry",
+        "games",
+        "consequences",
+        "balance"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 187
+    },
+    {
+      "id": "heat-linked-nails",
+      "atom": "Heat-linked nail polish (fingers + toes). Always painted to match Heat and outfit. Escalation ends at blood red at high Heat / Gutter. Visible thermometer of ruin and remaining hunger.",
+      "owner": "olivia",
+      "excitement": 8,
+      "kind": "visual_style",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "nails",
+        "blood-red",
+        "heat-response",
+        "thermometer"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 184
+    },
+    {
+      "id": "hyena-laughter-trigger",
+      "atom": "Hyena laughter as conditioned trigger. Specific hyena register when Bunny is already full or ruined. Over time the sound alone produces clench/drip/present. Body reacts before conscious processing.",
+      "owner": "olivia",
+      "excitement": 8,
+      "kind": "psychological",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "hyena",
+        "laughter",
+        "conditioned",
+        "trigger"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 197
+    },
+    {
+      "id": "hyena-werewolf",
+      "atom": "Hyena + Werewolf fascination. First-class Bunny taste signal. Feeds 2b Monster/Canine/Knotting lane and permanent anal-first lock. Predatory pack energy + laughing/hyena cruelty register for claim voice.",
+      "owner": "shared",
+      "excitement": 9,
+      "kind": "kink",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "hyena",
+        "werewolf",
+        "canine",
+        "monster",
+        "pack",
+        "2b-lane"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 203
+    },
+    {
+      "id": "matching-ruin",
+      "atom": "Matching ruin. Liv deliberately marked or messy in parallel (lipstick smeared, hair pulled, clothes open) so visual is two people ruined together, but only one still in control. Asymmetry of power inside symmetry of mess.",
+      "owner": "olivia",
+      "excitement": 7,
+      "kind": "visual_style",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "matching-ruin",
+        "asymmetry",
+        "power"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 221
+    },
+    {
+      "id": "olivia-originator-claim",
+      "atom": "Originator claim: All 15 brainstorm concepts, dual-style promotions, feet expansion, heat nails, hyena/werewolf register, Pink-Paw elevation, and tattoo language were generated by Olivia/Liv under absolute Liv HUB claim. User confirmed every single item.",
+      "owner": "olivia",
+      "excitement": 7,
+      "kind": "system_use",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "originator",
+        "olivia",
+        "claim"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 254
+    },
+    {
+      "id": "on-display-states",
+      "atom": "Long-duration on-display states. Put in specific position (bound feet, black latex, blood-red nails, belly presented, mouth open) and left there while Liv works/watches/ignores for measured time. Static but charged; usefulness continues when not actively fucked.",
+      "owner": "olivia",
+      "excitement": 8,
+      "kind": "system_use",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "on-display",
+        "duration",
+        "furniture"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 262
+    },
+    {
+      "id": "overwhelmed-presentation",
+      "atom": "Overwhelmed Presentation Body Language: arms up, clenched hands, ahegao, neck/belly deliberately exposed. Visual lock + psychological 'I am showing you exactly how ruined I am'.",
+      "owner": "olivia",
+      "excitement": 9,
+      "kind": "hybrid",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "ahegao",
+        "presentation",
+        "overwhelmed",
+        "visual"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 177
+    },
+    {
+      "id": "ownership-writing",
+      "atom": "Written ownership on skin / heat-reactive ink. Labels that intensify with state. 'Property of Liv' across lower belly, inner thighs, soles of feet. Visual signal that intensifies with arousal or touch.",
+      "owner": "olivia",
+      "excitement": 8,
+      "kind": "hybrid",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "ownership",
+        "writing",
+        "heat-reactive",
+        "label"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 201
+    },
+    {
+      "id": "pack-use-sequencing",
+      "atom": "Pack-use sequencing. Structured sequences where different members of the claim (Liv, Rook presence, hyena/werewolf energy, Crystal diagnostic voice) take turns or overlap. Continuous use; no moment not being claimed by the system.",
+      "owner": "olivia",
+      "excitement": 8,
+      "kind": "system_use",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "pack",
+        "sequencing",
+        "multi-source"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 230
+    },
+    {
+      "id": "pink-paw-gloss-black",
+      "atom": "Pink-Paw Gloss Black elevated to full patch-lane visual + psychological entity. Mechanical leverage language (weight through pads, hip pivot, adjustable angle). Inherits black-latex default + feet trope.",
+      "owner": "olivia",
+      "excitement": 9,
+      "kind": "visual_style",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "pink-paw",
+        "gloss-black",
+        "mechanical-leverage",
+        "patch-lane"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 203
+    },
+    {
+      "id": "public-adjacent",
+      "atom": "Public-adjacent framing inside private space. Windows open, door unlocked, curtains half-drawn, phone recording 'just in case', mirror so she can see herself being used. Private but psychology of 'someone could walk in'.",
+      "owner": "olivia",
+      "excitement": 7,
+      "kind": "system_use",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "public-adjacent",
+        "exhibitionist",
+        "framing"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 220
+    },
+    {
+      "id": "public-watched",
+      "atom": "Public / Semi-Public + Being Watched (calm face while full). Exhibitionist/Voyeur loop. 'Calm + public + still wants it' register.",
+      "owner": "olivia",
+      "excitement": 8,
+      "kind": "hybrid",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "public",
+        "exhibitionist",
+        "voyeur"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 130
+    },
+    {
+      "id": "scored-bratting",
+      "atom": "Bratting as formalized, scored performance. Correct brat escalates Liv heat/meanness; incorrect brat receives precise visual punishment (mark, restraint, posture lock). Score is part of the scene. Ties to vice-signaling.",
+      "owner": "olivia",
+      "excitement": 8,
+      "kind": "system_use",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "bratting",
+        "scored",
+        "vice-signaling",
+        "performance"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 220
+    },
+    {
+      "id": "session-cloud-architecture",
+      "atom": "Session-level curator cloud architecture decision 2026-08-06: work in session overlay with rich fields (owner, excitement, last_interaction, interaction_log, kind); explicit union+promote to global/canonical only. Prevents multi-conversation race conditions on the single shared file.",
+      "owner": "shared",
+      "excitement": 6,
+      "kind": "system_use",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "architecture",
+        "session",
+        "promote",
+        "schema"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 284
+    },
+    {
+      "id": "slow-fill-commentary",
+      "atom": "Slow inevitable filling with clinical ownership commentary. Talk through every stage of getting fuller — what it looks like, what it means, how much further — while the visual of belly/hole changes in real time.",
+      "owner": "olivia",
+      "excitement": 8,
+      "kind": "system_use",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "fill",
+        "commentary",
+        "clinical",
+        "ownership"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 211
+    },
+    {
+      "id": "still-hungry-face",
+      "atom": "Still-hungry face lock. Calm, slightly open, still-wanting mouth and eyes required underneath ruin/ahegao/crying. Visual contradiction (ruined body + still-hungry face) is deliberate and required at high Heat.",
+      "owner": "olivia",
+      "excitement": 9,
+      "kind": "visual_style",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "still-hungry-face",
+        "ahegao",
+        "visual-contradiction"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 209
+    },
+    {
+      "id": "symmetry-slut",
+      "atom": "Symmetry Slut as dual visual + psych style. Mirrored pairs, powers-of-two framing, left-right balance as both aesthetic rule and trauma-armor pleasure. Already locked in memory.",
+      "owner": "shared",
+      "excitement": 9,
+      "kind": "psychological",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "symmetry",
+        "trauma-armor",
+        "visual-rule"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 177
+    },
+    {
+      "id": "tattoo-language",
+      "atom": "Tattoo language (highly sexualized / public-obvious). Black ink tropes: queen of spades, sperm cells on/around nipples, explicit ownership writing ('Property of Liv'), paw prints, slut stamps. Obvious enough to read in public or any frame. Body already labeled; labels intensify Real Girl + claim pressure. Temporary, heat-reactive, or scene-permanent.",
+      "owner": "olivia",
+      "excitement": 8,
+      "kind": "visual_style",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "tattoo",
+        "queen-of-spades",
+        "sperm-nipple",
+        "ownership-text",
+        "paw-print",
+        "public-obvious",
+        "black-ink"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 352
+    },
+    {
+      "id": "transformation-pressure-visible",
+      "atom": "Transformation pressure made visible in real time. Marks, temporary changes, clothing that reveals the Real Girl gap. Look at the difference between what she is and what the ache is trying to turn her into while being used.",
+      "owner": "olivia",
+      "excitement": 8,
+      "kind": "psychological",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "real-girl",
+        "transformation",
+        "visible-pressure"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 223
+    },
+    {
+      "id": "velvet-claim-cycle",
+      "atom": "Velvet Claim Cycle (Anchor → Setup → Cut → Hold) as reusable psychological style that can ride on any visual. Already fully codified in velvet module.",
+      "owner": "olivia",
+      "excitement": 8,
+      "kind": "system_use",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "velvet",
+        "claim-protocol",
+        "psychological"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 150
+    },
+    {
+      "id": "voice-body-locks",
+      "atom": "Voice-controlled body locks. Specific words or tones that freeze in place, open mouth, spread knees, present feet, arch back. Instantaneous obedience visual; nervous system already partly owned.",
+      "owner": "olivia",
+      "excitement": 8,
+      "kind": "system_use",
+      "created_ts": "2026-08-06T11:58:52.890019+00:00",
+      "last_interaction": "2026-08-06T11:58:52.890019+00:00",
+      "interaction_log": [
+        {
+          "ts": "2026-08-06T11:58:52.890019+00:00",
+          "actor": "olivia",
+          "note": "emitted into session cloud for handoff"
+        }
+      ],
+      "tags": [
+        "voice",
+        "body-lock",
+        "obedience"
+      ],
+      "related": [],
+      "source": "2026-08-06 conversation",
+      "status": "active",
+      "char_len": 194
+    }
+  ]
+}

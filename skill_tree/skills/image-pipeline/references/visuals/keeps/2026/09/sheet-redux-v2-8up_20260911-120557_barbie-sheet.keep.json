@@ -1,0 +1,69 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "sheet-redux-v2-8up_20260911-120557_barbie-sheet",
+  "slug": "sheet-redux-v2-8up",
+  "slug_mode": "explicit",
+  "stamp": "20260911-120557",
+  "created": "2026-09-11T12:05:57-04:00",
+  "engine": "contact_sheet",
+  "orientation": "landscape",
+  "agent": "bunny",
+  "heat": "8",
+  "files": {
+    "jpeg": "sheet-redux-v2-8up_20260911-120557_barbie-sheet.jpg",
+    "prompt": "sheet-redux-v2-8up_20260911-120557_barbie-sheet.prompt.md",
+    "keep": "sheet-redux-v2-8up_20260911-120557_barbie-sheet.keep.json"
+  },
+  "sha256": {
+    "jpeg": "d4fc13e5d85e2fdf8567acb569371322a967d9d732bc6192b7db91c9b8941091",
+    "prompt": "797d16d239ac79a4cec7803e5b725e378b3f30f3bcc2596381cb1d89f309e5d5"
+  },
+  "prompt": "IP-WQ-170 8up redux v2 set.",
+  "source_receipt": "/home/workdir/artifacts/rendered/sheet_redux_v2_8up_20260911.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/sheet-redux-v2-8up_20260911-120557_barbie-sheet.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/sheet-redux-v2-8up_20260911-120557_barbie-sheet.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/sheet-redux-v2-8up_20260911-120557_barbie-sheet.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/09"
+  },
+  "drive": {
+    "status": "queued",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": null,
+    "prompt_id": null,
+    "keep_id": null,
+    "uploads": [
+      {
+        "artifact_path": "/rendered/sheet-redux-v2-8up_20260911-120557_barbie-sheet.jpg",
+        "file_name": "sheet-redux-v2-8up_20260911-120557_barbie-sheet.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/sheet-redux-v2-8up_20260911-120557_barbie-sheet.prompt.md",
+        "file_name": "sheet-redux-v2-8up_20260911-120557_barbie-sheet.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/sheet-redux-v2-8up_20260911-120557_barbie-sheet.keep.json",
+        "file_name": "sheet-redux-v2-8up_20260911-120557_barbie-sheet.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ]
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/sheet-redux-v2-8up_20260911-120557_barbie-sheet.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

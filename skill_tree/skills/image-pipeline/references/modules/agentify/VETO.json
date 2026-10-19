@@ -1,0 +1,11 @@
+{
+  "schema": "agentify-veto/v1",
+  "updated": "2026-09-03T01:02:00-04:00",
+  "hard_names": ["eve", "eve blackwell", "miss eve"],
+  "already_core": ["olivia", "liv", "olive", "bunny", "chasity", "chaz", "crystal", "valerie", "echo", "mira", "rachel", "gabrielle", "jane", "miss root", "rook"],
+  "notes": {
+    "eve": "WORLD-TOOL-005. Do not agentify Eve.",
+    "living-human": "Candidate cards allowed. Core 8 promote needs CONFIRM AGENT FOR <SLUG>.",
+    "multi-frame": "Same person across frames = one candidate. Not one agent per frame."
+  }
+}

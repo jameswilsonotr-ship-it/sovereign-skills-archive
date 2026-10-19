@@ -1,0 +1,20 @@
+{
+  "$id": "agentify.phrase",
+  "type": "object",
+  "required": ["id", "beats"],
+  "properties": {
+    "id": { "type": "string" },
+    "section": {
+      "type": "string",
+      "enum": ["cold-open", "intro", "verse", "pre", "chorus", "bridge", "drop", "outro", "tag", "unspecified"]
+    },
+    "lyric_line": { "type": "string" },
+    "bar": { "type": ["integer", "null"] },
+    "reuse": { "type": "boolean" },
+    "beats": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "notes": { "type": "string" }
+  }
+}

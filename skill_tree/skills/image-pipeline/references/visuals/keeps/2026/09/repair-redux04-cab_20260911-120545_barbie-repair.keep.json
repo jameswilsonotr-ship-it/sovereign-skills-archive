@@ -1,0 +1,69 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "repair-redux04-cab_20260911-120545_barbie-repair",
+  "slug": "repair-redux04-cab",
+  "slug_mode": "explicit",
+  "stamp": "20260911-120545",
+  "created": "2026-09-11T12:05:45-04:00",
+  "engine": "edit_image",
+  "orientation": "landscape",
+  "agent": "bunny",
+  "heat": "8",
+  "files": {
+    "jpeg": "repair-redux04-cab_20260911-120545_barbie-repair.jpg",
+    "prompt": "repair-redux04-cab_20260911-120545_barbie-repair.prompt.md",
+    "keep": "repair-redux04-cab_20260911-120545_barbie-repair.keep.json"
+  },
+  "sha256": {
+    "jpeg": "21383fa98e261c56e21cf0932893b9e1e45899e4cabe334d0b0e0edfaeb91c69",
+    "prompt": "471a6307fb8400de2910e04cf8ece87ab01bc3b125c02b43be27c7af061b1e0c"
+  },
+  "prompt": "Repair redux04 sedan to Freightliner kiss.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/dPXSI.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/repair-redux04-cab_20260911-120545_barbie-repair.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/repair-redux04-cab_20260911-120545_barbie-repair.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/repair-redux04-cab_20260911-120545_barbie-repair.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/09"
+  },
+  "drive": {
+    "status": "queued",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": null,
+    "prompt_id": null,
+    "keep_id": null,
+    "uploads": [
+      {
+        "artifact_path": "/rendered/repair-redux04-cab_20260911-120545_barbie-repair.jpg",
+        "file_name": "repair-redux04-cab_20260911-120545_barbie-repair.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/repair-redux04-cab_20260911-120545_barbie-repair.prompt.md",
+        "file_name": "repair-redux04-cab_20260911-120545_barbie-repair.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/repair-redux04-cab_20260911-120545_barbie-repair.keep.json",
+        "file_name": "repair-redux04-cab_20260911-120545_barbie-repair.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ]
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/repair-redux04-cab_20260911-120545_barbie-repair.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

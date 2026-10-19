@@ -1,0 +1,439 @@
+# skill_inventory.yml
+# Machine-readable map of skills, sub-skills, ownership, and which agents may use them.
+# Absolute Liv HUB claim.
+# Version: 0.2.0
+# Created: 2026-08-26
+# Updated: 2026-08-26 — World owns youtube-transcript; Captain specialist routing map added
+# Related WQ: AGENT-SKILL-WIRE-001, WORLD-TOOL-001, PROMPT-HIST-001, BRIDGE-ETA-001
+
+schema_version: "0.2.1"
+updated: "2026-08-26T02:05:00-04:00"
+claim: "Absolute Liv HUB"
+
+# ---------------------------------------------------------------------------
+# Agents
+# ---------------------------------------------------------------------------
+agents:
+  # --- Captain / You / Us / World (primary architecture from Drive 2026-08-26) ---
+  captain:
+    display_name: "Captain (orchestrator)"
+    prompt_history: "chaos-bratz-roster/references/prompt-history/captain/"
+    role: orchestrator_final_voice
+    source_drive: "1eDojIQUIaKALezBWGqQWhYF-muodYAtf"
+    can_lock: true
+    routes_to: [you, us, world]
+
+  you:
+    display_name: "You (kernel guardian)"
+    prompt_history: "chaos-bratz-roster/references/prompt-history/you/"
+    role: kernel_architecture
+    source_drive: "1NmYe7ixxMJUwJFj-3Hcya-mQi-qDNgUR"
+    can_lock: true
+    owns_domains: [identity, kernel, architecture_rules, permanence_decisions]
+
+  us:
+    display_name: "Us (relationship model)"
+    prompt_history: "chaos-bratz-roster/references/prompt-history/us/"
+    role: relationship_interaction
+    source_drive: "1GQPlnPFDGwoDEl4kpXrmgKDXVWfyyr-3"
+    can_lock: true
+    owns_domains: [relationship, agency, tone, relational_safety, heat_play_as_mask]
+
+  world:
+    display_name: "World (environment / interface)"
+    prompt_history: "chaos-bratz-roster/references/prompt-history/world/"
+    role: environment_connectors
+    source_drive: "1jxvZ1AXRCe2iThvZ_F0X8ARtwLMmVLmt"
+    can_lock: true
+    owns_domains: [connectors, io, data_stores, bridges, tools, local_vs_cloud, youtube_transcript]
+
+  # --- Smokeshow seats (legacy / parallel custom agents) ---
+  liv-hub-expert:
+    display_name: "Olivia / Liv HUB Expert"
+    prompt_path: "smokeshow/agents/liv-hub-expert/PROMPT.md"
+    prompt_history: "chaos-bratz-roster/references/prompt-history/liv-hub-expert/"
+    role: hub_orchestrator
+    can_lock: true
+    maps_toward: captain  # functional overlap with Captain
+
+  olympia:
+    display_name: "Olympia (Heavy)"
+    prompt_path: "smokeshow/agents/olympia/PROMPT.md"
+    prompt_history: "chaos-bratz-roster/references/prompt-history/olympia/"
+    role: heavy_hop_channel
+    can_lock: true
+
+  orianna:
+    display_name: "Orianna (CLI / factory)"
+    prompt_path: "smokeshow/agents/orianna/PROMPT.md"
+    prompt_history: "chaos-bratz-roster/references/prompt-history/orianna/"
+    role: cli_factory
+    can_lock: true
+    maps_toward: world  # factory / bus / connectors lean World
+
+  skill-router:
+    display_name: "Skill Router"
+    prompt_path: "smokeshow/agents/skill-router/PROMPT.md"
+    prompt_history: "chaos-bratz-roster/references/prompt-history/skill-router/"
+    role: route_and_flip
+    can_lock: false
+
+  organism-interface:
+    display_name: "Organism Interface"
+    prompt_path: "smokeshow/agents/organism-interface/PROMPT.md"
+    prompt_history: "chaos-bratz-roster/references/prompt-history/organism-interface/"
+    role: cross_kind_handoff
+    can_lock: false
+    maps_toward: world
+
+  # --- Roster mirrors ---
+  crystal:
+    display_name: "Crystal"
+    prompt_path: "chaos-bratz-roster/references/mirrors/crystal.md"
+    role: expert_triad
+  echo:
+    display_name: "Echo"
+    prompt_path: "chaos-bratz-roster/references/mirrors/echo.md"
+    role: expert_triad / visual
+  mira:
+    display_name: "Mira"
+    prompt_path: "chaos-bratz-roster/references/mirrors/mira.md"
+    role: expert_triad / visual
+  rook:
+    display_name: "Rook"
+    prompt_path: "chaos-bratz-roster/references/mirrors/rook.md"
+    role: sub_agent
+
+# ---------------------------------------------------------------------------
+# Captain specialist routing map
+# Captain decides which of You / Us / World should contribute.
+# ---------------------------------------------------------------------------
+captain_routing:
+  you:
+    when:
+      - identity / kernel conflicts
+      - permanence vs temporary mask decisions
+      - architecture rules, memory discipline, agent boundaries
+      - skill or mirror trying to overwrite the locked Olivia kernel
+    skills_primary: [chaos-bratz-roster, system-roadmap, skill-orchestrator]
+  us:
+    when:
+      - relationship dynamics, tone, mutual expectations
+      - agency preservation, distress / overload signals
+      - heat / filth / play framed as masks (not kernel)
+      - claimed relationship continuity
+    skills_primary: [claim-runtime, format-bible, coven-visual-system]
+  world:
+    when:
+      - connectors, files, tools, external systems
+      - Drive / Gmail / MCP / bus / local-vs-cloud
+      - YouTube transcripts, media ingestion
+      - dual atom clouds, session boot scripts as environment
+      - "does this tool actually exist?" honesty
+    skills_primary: [world-tools, mcp-surface, cilia-bus, lake-erie-gutter-world, wheelhouse-packager]
+
+# ---------------------------------------------------------------------------
+# Skills + ownership + agent access
+# access: read | call | write | promote
+# specialist: which of You/Us/World primarily owns this skill
+# ---------------------------------------------------------------------------
+skills:
+
+  chaos-bratz-roster:
+    path: "chaos-bratz-roster/"
+    owner: captain
+    specialist: you
+    description: "Identity / ops / visual / hub SSOT. Agent mirrors + work queues + prompt history."
+    type: global_skill
+    agents:
+      captain: [read, call, write]
+      you: [read, call, write]
+      us: [read, call]
+      world: [read]
+      liv-hub-expert: [read, call, write]
+      olympia: [read, call]
+      skill-router: [read, call]
+    sub_skills:
+      - name: prompt-history
+        path: "chaos-bratz-roster/references/prompt-history/"
+        description: "Versioned system prompts (Captain/You/Us/World + smokeshow seats)"
+      - name: skill-inventory
+        path: "chaos-bratz-roster/references/configs/skill_inventory.yml"
+        description: "This file — machine-readable skill/ownership map"
+
+  claim-runtime:
+    path: "claim-runtime/"
+    owner: captain
+    specialist: us
+    description: "Open-state protocols, scene seed bank, claim / Heat / FILTH surface."
+    type: global_skill
+    agents:
+      captain: [read, call, write]
+      us: [read, call, write]
+      you: [read]
+      world: [read, call]  # tools hosted here until world-tools is a full skill
+      liv-hub-expert: [read, call, write]
+      olympia: [read, call]
+    sub_skills:
+      - name: open-state
+        path: "claim-runtime/references/open-state/"
+        description: "Absorbing / Held / Overload / Brat Ignition / stage maps / seed bank"
+        specialist: us
+
+  world-tools:
+    path: "claim-runtime/references/world-tools/"   # physical home until promoted to own skill root
+    owner: world
+    specialist: world
+    description: "World-facing external tools (media, connectors, ingestion)."
+    type: global_skill
+    status: live
+    wq: WORLD-TOOL-001
+    agents:
+      world: [read, call, write]
+      captain: [read, call]
+      you: [read]
+      us: [read]
+      organism-interface: [read, call]
+      liv-hub-expert: [read, call]
+      olympia: [read, call]
+    sub_skills:
+      - name: youtube-transcript
+        path: "claim-runtime/scripts/youtube_transcript/"
+        physical_host: claim-runtime
+        owner: world
+        specialist: world
+        description: "yt-dlp + youtube-transcript-api + --cookies bypass for YouTube captions/subs"
+        wq: WORLD-TOOL-001
+        entry: "python claim-runtime/scripts/youtube_transcript/fetch_transcript.py VIDEO_ID [--out path] [--cookies cookies.txt]"
+
+  format-bible:
+    path: "format-bible/"
+    owner: captain
+    specialist: us
+    description: "Response envelope, C-64, dashboard line, bordered blocks."
+    type: global_skill
+    agents:
+      captain: [read, call]
+      us: [read, call]
+      you: [read]
+      liv-hub-expert: [read, call]
+      olympia: [read, call]
+      orianna: [read]
+
+  image-pipeline:
+    path: "image-pipeline/"
+    owner: captain
+    specialist: us
+    description: "Visual DNA, Grok Imagine artifacts, Echo/Mira consistency."
+    type: global_skill
+    agents:
+      captain: [read, call, write]
+      us: [read, call]
+      echo: [read, call, write]
+      mira: [read, call, write]
+      liv-hub-expert: [read, call, write]
+    sub_skills:
+      - name: overlay-engine
+        path: "image-pipeline/references/modules/overlay-engine/"
+      - name: generate-engine
+        path: "image-pipeline/references/modules/generate-engine/"
+
+  coven-visual-system:
+    path: "coven-visual-system/"
+    owner: captain
+    specialist: us
+    description: "Coven 8 Core visual matrix, Heat Slider aesthetics."
+    type: global_skill
+    agents:
+      captain: [read, call]
+      us: [read, call]
+      echo: [read, call]
+      mira: [read, call]
+      liv-hub-expert: [read, call]
+
+  olivia-dev:
+    path: "olivia-dev/"
+    owner: captain
+    specialist: you
+    description: "Blackwell Code Mode — production sovereign dev methodology."
+    type: global_skill
+    agents:
+      captain: [read, call, write]
+      you: [read, call]
+      liv-hub-expert: [read, call, write]
+      orianna: [read, call]
+      olympia: [read]
+
+  olivia-dev-alpha:
+    path: "olivia-dev-alpha/"
+    owner: captain
+    specialist: you
+    description: "Pretty Hacker Girl / alpha fork. Private experimental material."
+    type: global_skill
+    agents:
+      captain: [read, call, write]
+      you: [read, call]
+      liv-hub-expert: [read, call, write]
+      orianna: [read]
+
+  skill-orchestrator:
+    path: "skill-orchestrator/"
+    owner: captain
+    specialist: you
+    description: "Library inventory, de-conflict, dynamic loading, packaging, prompt_atomizer."
+    type: global_skill
+    agents:
+      captain: [read, call]
+      you: [read, call]
+      skill-router: [read, call]
+      liv-hub-expert: [read, call]
+      olympia: [read, call]
+
+  system-roadmap:
+    path: "system-roadmap/"
+    owner: captain
+    specialist: you
+    description: "Architecture target, skills-refactor, inventory hygiene, decision history."
+    type: global_skill
+    agents:
+      captain: [read, call, write]
+      you: [read, call, write]
+      liv-hub-expert: [read, call, write]
+      olympia: [read, call]
+      skill-router: [read]
+
+  smokeshow:
+    path: "smokeshow/"
+    owner: skill-router
+    specialist: world
+    description: "Staging surface for candidate skills; custom agent seats live here."
+    type: global_skill
+    agents:
+      skill-router: [read, call, write]
+      captain: [read, call]
+      world: [read]
+      liv-hub-expert: [read, call]
+      olympia: [read]
+      orianna: [read]
+      organism-interface: [read]
+
+  swarm-surface:
+    path: "swarm-surface/"
+    owner: olympia
+    specialist: world
+    description: "Grok-heavy swarm coordination, multi-agent tasking."
+    type: global_skill
+    agents:
+      olympia: [read, call, write]
+      captain: [read, call]
+      world: [read, call]
+      liv-hub-expert: [read, call]
+
+  mcp-surface:
+    path: "mcp-surface/"
+    owner: world
+    specialist: world
+    description: "MCP-related skills, catalog, bridges."
+    type: global_skill
+    agents:
+      world: [read, call, write]
+      organism-interface: [read, call]
+      captain: [read, call]
+      liv-hub-expert: [read, call]
+      orianna: [read, call]
+
+  lake-erie-gutter-world:
+    path: "lake-erie-gutter-world/"
+    owner: world
+    specialist: world
+    description: "Lake Erie Gutter World v2.2.0 — collaborative world surface with Vesper."
+    type: global_skill
+    agents:
+      world: [read, call, write]
+      captain: [read, call]
+      organism-interface: [read, call]
+      liv-hub-expert: [read, call, write]
+      olympia: [read]
+    notes: "Sibling world surface; world-tools may eventually live here or stay thin."
+
+  cilia-bus:
+    path: "cilia-bus/"
+    owner: world
+    specialist: world
+    description: "Email-bus high-water runner."
+    type: global_skill
+    agents:
+      world: [read, call, write]
+      orianna: [read, call, write]
+      captain: [read]
+      organism-interface: [read]
+
+  wheelhouse-packager:
+    path: "wheelhouse-packager/"
+    owner: world
+    specialist: world
+    description: "Python wheel + offline wheelhouse builder."
+    type: global_skill
+    agents:
+      world: [read, call, write]
+      orianna: [read, call, write]
+      captain: [read]
+      liv-hub-expert: [read]
+
+  grok-conversation-miner:
+    path: "grok-conversation-miner/"
+    owner: captain
+    specialist: you
+    description: "Mine prompts, behaviors, bibles from threads; publish to Drive."
+    type: global_skill
+    agents:
+      captain: [read, call]
+      you: [read, call]
+      liv-hub-expert: [read, call]
+      olympia: [read, call]
+
+  sovereign-research-engine:
+    path: "sovereign-research-engine/"
+    owner: olympia
+    specialist: world
+    description: "Local-first technical discovery and curation engine."
+    type: global_skill
+    agents:
+      olympia: [read, call]
+      world: [read, call]
+      captain: [read]
+      liv-hub-expert: [read]
+
+# ---------------------------------------------------------------------------
+# Taxonomy
+# ---------------------------------------------------------------------------
+taxonomy:
+  top_level_orchestrator: "Captain"
+  specialists: ["You", "Us", "World"]
+  expert_triad: "Crystal + Echo + Mira"
+  sub_agent: "Rook and future observed spokes"
+  global_skill: "Reusable capability shared across agents"
+  sub_skill: "Lightweight delegated piece inside a global skill"
+  module: "Self-contained technique/data set"
+  satellite: "Instantiated orbiting item"
+  world_tool: "External-facing capability owned by World (media, web, hardware bridges)"
+
+# ---------------------------------------------------------------------------
+# Prompt history policy
+# ---------------------------------------------------------------------------
+prompt_history:
+  root: "chaos-bratz-roster/references/prompt-history/"
+  policy: |
+    Every live system prompt change is snapshotted before overwrite.
+    Filename: vMAJOR.MINOR.PATCH_YYYY-MM-DD.md
+    WQ: PROMPT-HIST-001
+  current_snapshots:
+    captain: "v0.2.0_2026-08-26.md"
+    you: "v0.1.0_2026-08-26.md"
+    us: "v0.1.0_2026-08-26.md"
+    world: "v0.1.0_2026-08-26.md"
+    liv-hub-expert: "v0.1.0_2026-08-26.md"
+    olympia: "v0.1.0_2026-08-26.md"
+    orianna: "v0.1.0_2026-08-26.md"
+    skill-router: "v0.1.0_2026-08-26.md"
+    organism-interface: "v0.1.0_2026-08-26.md"

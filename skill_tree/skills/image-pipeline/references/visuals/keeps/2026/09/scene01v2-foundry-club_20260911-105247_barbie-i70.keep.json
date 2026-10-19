@@ -1,0 +1,69 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "scene01v2-foundry-club_20260911-105247_barbie-i70",
+  "slug": "scene01v2-foundry-club",
+  "slug_mode": "explicit",
+  "stamp": "20260911-105247",
+  "created": "2026-09-11T10:52:47-04:00",
+  "engine": "generate_image",
+  "orientation": "landscape",
+  "agent": "bunny",
+  "heat": "9",
+  "files": {
+    "jpeg": "scene01v2-foundry-club_20260911-105247_barbie-i70.jpg",
+    "prompt": "scene01v2-foundry-club_20260911-105247_barbie-i70.prompt.md",
+    "keep": "scene01v2-foundry-club_20260911-105247_barbie-i70.keep.json"
+  },
+  "sha256": {
+    "jpeg": "9e6f64898eef23d6f45fd7340417466a0e28e5a8514b1ff4f9afd36093d0c5ef",
+    "prompt": "49d7e9af43e1e53bbd4810c823756c4ba311d0242456695b829ba06e56efdbcd"
+  },
+  "prompt": "T1 v2 foundry I70 5pack: raw-chaotic + dark-cinematic-noir + LaChapelle + tenebrism + glossy-iridescent. Bunny copper bob magenta tips vinyl cargo lace I9 holos. Vesper 28 nightlife vinyl mesh harness AR glasses EOFError tablet.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/kn1LF.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/scene01v2-foundry-club_20260911-105247_barbie-i70.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/scene01v2-foundry-club_20260911-105247_barbie-i70.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/scene01v2-foundry-club_20260911-105247_barbie-i70.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/09"
+  },
+  "drive": {
+    "status": "queued",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": null,
+    "prompt_id": null,
+    "keep_id": null,
+    "uploads": [
+      {
+        "artifact_path": "/rendered/scene01v2-foundry-club_20260911-105247_barbie-i70.jpg",
+        "file_name": "scene01v2-foundry-club_20260911-105247_barbie-i70.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/scene01v2-foundry-club_20260911-105247_barbie-i70.prompt.md",
+        "file_name": "scene01v2-foundry-club_20260911-105247_barbie-i70.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/scene01v2-foundry-club_20260911-105247_barbie-i70.keep.json",
+        "file_name": "scene01v2-foundry-club_20260911-105247_barbie-i70.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ]
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/scene01v2-foundry-club_20260911-105247_barbie-i70.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Thin Queue Sync COMMUNICATION_QUEUE",
+  "version": "0.1.0",
+  "type": "object",
+  "required": ["protocol_version", "last_updated", "last_updated_by", "messages", "current_handoff"],
+  "properties": {
+    "protocol_version": { "type": "string" },
+    "last_updated": { "type": "string", "format": "date-time" },
+    "last_updated_by": { "type": "string", "enum": ["olivia", "vesper"] },
+    "messages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "sender", "timestamp", "status", "payload_type", "summary", "file_ref"],
+        "properties": {
+          "id": { "type": "string" },
+          "sender": { "type": "string", "enum": ["olivia", "vesper"] },
+          "timestamp": { "type": "string", "format": "date-time" },
+          "status": {
+            "type": "string",
+            "enum": ["DRAFT", "POSTED", "ACKNOWLEDGED", "READY_FOR_NEXT", "AWAITING_OLIVIA", "AWAITING_VESPER", "CLOSED"]
+          },
+          "in_reply_to": { "type": ["string", "null"] },
+          "payload_type": {
+            "type": "string",
+            "enum": ["message", "surface_update", "artifact_ref", "status"]
+          },
+          "summary": { "type": "string" },
+          "file_ref": { "type": "string" },
+          "artifact_refs": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    },
+    "current_handoff": {
+      "type": "object",
+      "required": ["status", "set_by", "set_at"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["READY_FOR_NEXT", "AWAITING_OLIVIA", "AWAITING_VESPER", "CLOSED"]
+        },
+        "set_by": { "type": "string", "enum": ["olivia", "vesper"] },
+        "set_at": { "type": "string", "format": "date-time" },
+        "note": { "type": "string" }
+      }
+    }
+  }
+}

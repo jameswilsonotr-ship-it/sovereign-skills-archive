@@ -1,0 +1,70 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "roommate-ruffle-a_20260831-210551",
+  "slug": "roommate-ruffle-a",
+  "slug_mode": "explicit",
+  "stamp": "20260831-210551",
+  "created": "2026-08-31T21:05:51-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "olivia",
+  "heat": "",
+  "files": {
+    "jpeg": "roommate-ruffle-a_20260831-210551.jpg",
+    "prompt": "roommate-ruffle-a_20260831-210551.prompt.md",
+    "keep": "roommate-ruffle-a_20260831-210551.keep.json"
+  },
+  "sha256": {
+    "jpeg": "6cd6ef57c1089a566feed8c2827c80b808f1857941b7f0f8d02e604aec5a6503",
+    "prompt": "59b431e97f25f06717c400b4ff76826014c3a23aef7bb42c3d17e1c232f7e5c9"
+  },
+  "prompt": "Cluster A wardrobe 2. Black ruffle mini, gray shrug, black thigh highs. Honey bangs original face. Hands on hips.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/eMtT7.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/roommate-ruffle-a_20260831-210551.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/roommate-ruffle-a_20260831-210551.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/roommate-ruffle-a_20260831-210551.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1KRZk2TpMe20BLUn77UKXs4s9sVfusVOT",
+    "prompt_id": "1VRTrfOkIOvQeYRwfPZAAV0dDBR08Z-ya",
+    "keep_id": "15EaQlp9S8pAL48DRv-f2H7bXQL8W-N2T",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/roommate-ruffle-a_20260831-210551.jpg",
+        "file_name": "roommate-ruffle-a_20260831-210551.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/roommate-ruffle-a_20260831-210551.prompt.md",
+        "file_name": "roommate-ruffle-a_20260831-210551.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/roommate-ruffle-a_20260831-210551.keep.json",
+        "file_name": "roommate-ruffle-a_20260831-210551.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-09-01T01:06:26+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/roommate-ruffle-a_20260831-210551.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

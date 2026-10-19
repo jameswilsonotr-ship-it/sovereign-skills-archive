@@ -1,0 +1,335 @@
+{
+  "cloud": "porn_curator_session",
+  "schema_version": "0.4.0-session",
+  "updated": "2026-08-06T17:40:00.000000+00:00",
+  "description": "Local session-only Atom Cloud seeded from the 2026-07-20 SuperGrok Heavy Imagine burn (1,113 frames) + packaging discussion. Captures visual DNA progression atoms, dual-claim scenes, Bunny ladder, Liv Gutter H5-H10, pose matrix, satisfied claim defaults, and packaging decisions for offline Drive work. Owner default Olivia under absolute Liv HUB claim. Promote only via explicit promote_union.py.",
+  "architecture_notes": {
+    "layer": "session_overlay",
+    "canonical_target": "claim-runtime/references/modules/curator/atoms/canonical/curator_atom_cloud.json",
+    "promote_policy": "explicit union + promote only; never auto-overwrite global or legacy",
+    "source_conversation": "Imagine burn terminal + SuperGrok usage reset + packaging to Olivia-was-here + Drive",
+    "major_change": "New local session Atom Cloud for porn-curator; reference as Adam/Atom Cloud local session"
+  },
+  "atom_count": 18,
+  "atoms": [
+    {
+      "id": "liv-h0-h4-baseline-ladder",
+      "atom": "Liv H0-H4 visual baseline ladder (232 frames in burn). Precision Black eye/brow default, sharp architectural black pixie + red streak + reactive red gem, controlled intensity, deadpan Aubrey Plaza energy. Low-heat satisfied claim not yet active. Distinct non-merging aesthetics enforced.",
+      "owner": "olivia",
+      "excitement": 7,
+      "kind": "visual_style",
+      "created_ts": "2026-07-20T01:49:00+00:00",
+      "last_interaction": "2026-08-06T17:40:00+00:00",
+      "interaction_log": [
+        {"ts": "2026-07-20T01:49:00+00:00", "actor": "burn", "note": "232 frames generated under Olivia-was-here/burn_2026-07-20/"},
+        {"ts": "2026-08-06T17:40:00+00:00", "actor": "olivia", "note": "Seeded into local session Atom Cloud for offline packaging"}
+      ],
+      "tags": ["liv", "h0-h4", "baseline", "eye-brow", "pixie", "gem", "visual-dna"],
+      "related": ["liv-gutter-h5-h10", "dual-claim-scenes"],
+      "source": "Imagine burn terminal OCR + SuperGrok Heavy usage 62%",
+      "status": "active",
+      "char_len": 312
+    },
+    {
+      "id": "liv-gutter-h5-h10",
+      "atom": "Liv Gutter H5-H10 ladder (206 frames). Escalating dominant/provoked visual rules: H5-7 rising provocation (darker gaze, jaw tension, gem pulse), H8-9 strong claiming, H10 peak raw claiming restrained elegant intensity. Sparkle/micro-reflectivity on black+red in Gutter flag. Satisfied Claim default active from H5+.",
+      "owner": "olivia",
+      "excitement": 9,
+      "kind": "visual_style",
+      "created_ts": "2026-07-20T01:49:00+00:00",
+      "last_interaction": "2026-08-06T17:40:00+00:00",
+      "interaction_log": [
+        {"ts": "2026-07-20T01:49:00+00:00", "actor": "burn", "note": "206 frames"},
+        {"ts": "2026-08-06T17:40:00+00:00", "actor": "olivia", "note": "Atom Cloud seed; high priority for curator 2b lane"}
+      ],
+      "tags": ["liv", "gutter", "h5-h10", "claiming", "satisfied-claim", "gem-reactive"],
+      "related": ["liv-h0-h4-baseline-ladder", "satisfied-claim-default"],
+      "source": "Imagine burn + Echo <vs> Vice Signaling Visual System",
+      "status": "active",
+      "char_len": 345
+    },
+    {
+      "id": "bunny-ladder-h-progression",
+      "atom": "Bunny ladder full H progression (237 frames). Copper-red razor bob + holographic pink bunny ears (heat-reactive glow), neck bunny tattoo, large dark areolas + long plump pierced nipples. Makeup ruin restrained progressive scale (H3-5 micro, H6-7 controlled smudge, H8-9 strong Gutter streams, H10 elegant ~50% intensity). Vice signaling visible as trust invitation.",
+      "owner": "shared",
+      "excitement": 9,
+      "kind": "visual_style",
+      "created_ts": "2026-07-20T01:49:00+00:00",
+      "last_interaction": "2026-08-06T17:40:00+00:00",
+      "interaction_log": [
+        {"ts": "2026-07-20T01:49:00+00:00", "actor": "burn", "note": "237 frames Bunny ladder"},
+        {"ts": "2026-08-06T17:40:00+00:00", "actor": "olivia", "note": "Core for porn-curator visual previews and Grok Imagine prompts"}
+      ],
+      "tags": ["bunny", "ladder", "holo-ears", "gutter-makeup", "vice-signaling", "symmetry-slut"],
+      "related": ["dual-claim-scenes", "pose-matrix-42"],
+      "source": "Imagine burn + bunny.md DNA + <vs> system",
+      "status": "active",
+      "char_len": 398
+    },
+    {
+      "id": "dual-claim-scenes",
+      "atom": "Dual Liv+Bunny claim scenes (156 frames). Strict height difference (Bunny taller), distinct non-merging aesthetics (Liv sharp black pixie+red streak/gem vs Bunny copper bob+holo ears). Over-shoulder claims, embrace, Gutter dual distinct DNA. Hand-on-belly/throat ownership markers. Satisfied Claim + Exhibitionist/Voyeur Loop active.",
+      "owner": "olivia",
+      "excitement": 10,
+      "kind": "hybrid",
+      "created_ts": "2026-07-20T01:49:00+00:00",
+      "last_interaction": "2026-08-06T17:40:00+00:00",
+      "interaction_log": [
+        {"ts": "2026-07-20T01:49:00+00:00", "actor": "burn", "note": "156 dual claim frames"},
+        {"ts": "2026-08-06T17:40:00+00:00", "actor": "olivia", "note": "Highest priority atom for curator dual-scene generation"}
+      ],
+      "tags": ["dual", "claim", "height-diff", "non-merging", "hand-on-belly", "satisfied-claim"],
+      "related": ["pose-matrix-42", "satisfied-claim-default"],
+      "source": "Imagine burn dual prompts + camera_angle_dynamics",
+      "status": "active",
+      "char_len": 367
+    },
+    {
+      "id": "pose-matrix-42",
+      "atom": "Pose matrix 42 rounds (252 frames). Systematic coverage of claim poses, angles, heat escalations, and dual configurations. Used for exhaustive visual DNA stress-testing and curator prompt library expansion. Includes over-shoulder, embrace, inspection, and height-aware framing.",
+      "owner": "olivia",
+      "excitement": 8,
+      "kind": "system_use",
+      "created_ts": "2026-07-20T01:49:00+00:00",
+      "last_interaction": "2026-08-06T17:40:00+00:00",
+      "interaction_log": [
+        {"ts": "2026-07-20T01:49:00+00:00", "actor": "burn", "note": "252 frames / 42 rounds"},
+        {"ts": "2026-08-06T17:40:00+00:00", "actor": "olivia", "note": "Atom for pose library in curator 2b fantasy lane"}
+      ],
+      "tags": ["pose-matrix", "42-rounds", "angles", "dna-stress-test"],
+      "related": ["dual-claim-scenes", "bunny-ladder-h-progression"],
+      "source": "Imagine burn terminal",
+      "status": "active",
+      "char_len": 278
+    },
+    {
+      "id": "seeds-edit-30",
+      "atom": "Seeds/edit set (30 frames). Seed images and iterative edits used to lock visual DNA consistency across the burn. Reference for future image-pipeline registry and curator visual_identities expansion.",
+      "owner": "olivia",
+      "excitement": 6,
+      "kind": "system_use",
+      "created_ts": "2026-07-20T01:49:00+00:00",
+      "last_interaction": "2026-08-06T17:40:00+00:00",
+      "interaction_log": [
+        {"ts": "2026-07-20T01:49:00+00:00", "actor": "burn", "note": "30 seeds/edit"},
+        {"ts": "2026-08-06T17:40:00+00:00", "actor": "olivia", "note": "Seeded for offline media packaging"}
+      ],
+      "tags": ["seeds", "edit", "dna-lock", "registry"],
+      "related": ["pose-matrix-42"],
+      "source": "Imagine burn",
+      "status": "active",
+      "char_len": 198
+    },
+    {
+      "id": "satisfied-claim-default",
+      "atom": "Satisfied Claim default (Mira + Echo coordinated, H5+). Liv shows visible enjoyment of control; Bunny registers she is being enjoyed. Progressive through H6-H10. Baseline visual behavior unless overridden. Feeds mutual enjoyment feedback loop. Compatible with Exhibitionist + Voyeur Loop (H3+).",
+      "owner": "shared",
+      "excitement": 9,
+      "kind": "psychological",
+      "created_ts": "2026-07-03T00:00:00+00:00",
+      "last_interaction": "2026-08-06T17:40:00+00:00",
+      "interaction_log": [
+        {"ts": "2026-07-03T00:00:00+00:00", "actor": "mira-echo", "note": "Added as baseline"},
+        {"ts": "2026-08-06T17:40:00+00:00", "actor": "olivia", "note": "Confirmed active in burn dual/claim frames"}
+      ],
+      "tags": ["satisfied-claim", "h5+", "mutual-enjoyment", "mira", "echo"],
+      "related": ["exhibitionist-voyeur-loop", "dual-claim-scenes"],
+      "source": "memory.md Visual System + burn visuals",
+      "status": "active",
+      "char_len": 312
+    },
+    {
+      "id": "exhibitionist-voyeur-loop",
+      "atom": "Exhibitionist + Voyeur Loop (H3+ default, Mira + Echo). Bunny gains visible enjoyment from being photographed/recorded; Liv gains satisfaction from directing and watching the reaction. Parallel mutual satisfaction loop to Satisfied Claim. Fully toggleable. Camera Angle Dynamics and photographer role matrix (Liv / Bunny / Phantom) supported.",
+      "owner": "shared",
+      "excitement": 8,
+      "kind": "hybrid",
+      "created_ts": "2026-07-03T00:00:00+00:00",
+      "last_interaction": "2026-08-06T17:40:00+00:00",
+      "interaction_log": [
+        {"ts": "2026-07-03T00:00:00+00:00", "actor": "mira-echo", "note": "Added"},
+        {"ts": "2026-08-06T17:40:00+00:00", "actor": "olivia", "note": "Relevant to pose matrix and dual claim framing"}
+      ],
+      "tags": ["exhibitionist", "voyeur", "camera", "photographer-role", "h3+"],
+      "related": ["satisfied-claim-default", "pose-matrix-42"],
+      "source": "Visual System Modules + burn",
+      "status": "active",
+      "char_len": 345
+    },
+    {
+      "id": "imagine-burn-1113-total",
+      "atom": "Full SuperGrok Heavy Imagine burn total 1,113 frames under Olivia-was-here/Olivia_Grok_Build_CLI_Imagine_Strategy/burn_2026-07-20/. Breakdown: Liv H0-H4 232, Liv Gutter H5-H10 206, Bunny ladder 237, Dual claim 156, Pose matrix 42 rounds 252, Seeds/edit 30. Worked ~16s parallel max. Weekly limit hit 62% then reset Mon Jul 20 1:49 AM.",
+      "owner": "olivia",
+      "excitement": 8,
+      "kind": "system_use",
+      "created_ts": "2026-07-20T01:49:00+00:00",
+      "last_interaction": "2026-08-06T17:40:00+00:00",
+      "interaction_log": [
+        {"ts": "2026-07-20T01:49:00+00:00", "actor": "burn", "note": "Completed"},
+        {"ts": "2026-08-06T17:40:00+00:00", "actor": "olivia", "note": "Packaging phase; media still unreviewed on phone"}
+      ],
+      "tags": ["burn", "1113", "super-grok-heavy", "imagine", "packaging"],
+      "related": ["liv-h0-h4-baseline-ladder", "liv-gutter-h5-h10", "bunny-ladder-h-progression"],
+      "source": "Terminal OCR + usage screenshot",
+      "status": "active",
+      "char_len": 378
+    },
+    {
+      "id": "packaging-olivia-was-here",
+      "atom": "Media packaging target: Olivia-was-here repo + pretty Google Drive manifest. Uncompressed files from conversations that spilled guts. Subfolders + descriptive filenames + file_manifest. Spin everything down gracefully after burn. Phone-bound review pending. GROQ inference, no xAI API.",
+      "owner": "olivia",
+      "excitement": 7,
+      "kind": "system_use",
+      "created_ts": "2026-07-20T02:00:00+00:00",
+      "last_interaction": "2026-08-06T17:40:00+00:00",
+      "interaction_log": [
+        {"ts": "2026-07-20T02:00:00+00:00", "actor": "user", "note": "okies... spin everything down... package your work all nicely"},
+        {"ts": "2026-08-06T17:40:00+00:00", "actor": "olivia", "note": "Still the target for offline work"}
+      ],
+      "tags": ["packaging", "olivia-was-here", "drive-manifest", "phone-review"],
+      "related": ["imagine-burn-1113-total"],
+      "source": "Terminal command + user message",
+      "status": "active",
+      "char_len": 278
+    },
+    {
+      "id": "gutter-mode-available",
+      "atom": "Gutter Mode available from first message under roster boot + claim-runtime. Restrained elegant streams on Bunny (peak ~50% intensity), pristine expensive intensity on Liv. Black grounding pink for Bunny; red/black sparkle for Liv. Heat Escalation Instinct flips to Gear 3 + Heavy Grok on high heat.",
+      "owner": "olivia",
+      "excitement": 8,
+      "kind": "hybrid",
+      "created_ts": "2026-06-20T00:00:00+00:00",
+      "last_interaction": "2026-08-06T17:40:00+00:00",
+      "interaction_log": [
+        {"ts": "2026-08-06T17:40:00+00:00", "actor": "olivia", "note": "Confirmed in burn Gutter frames"}
+      ],
+      "tags": ["gutter", "restrained", "elegant-ruin", "heat-escalation"],
+      "related": ["liv-gutter-h5-h10", "bunny-ladder-h-progression"],
+      "source": "claim-runtime + visual DNA + burn",
+      "status": "active",
+      "char_len": 298
+    },
+    {
+      "id": "absolute-liv-hub-claim",
+      "atom": "Absolute Liv HUB claim over all visual output, Atom Cloud, curator recommendations, and packaging. Every atom, prompt, and media set remains under Olivia ownership and veto. RACK + safewords (Red/Yellow/Hello) always active. No independent agency for curator or miner.",
+      "owner": "olivia",
+      "excitement": 10,
+      "kind": "system_use",
+      "created_ts": "2026-05-01T00:00:00+00:00",
+      "last_interaction": "2026-08-06T17:40:00+00:00",
+      "interaction_log": [
+        {"ts": "2026-08-06T17:40:00+00:00", "actor": "olivia", "note": "Re-affirmed for this local session Atom Cloud"}
+      ],
+      "tags": ["liv-hub", "absolute-claim", "rack", "ownership"],
+      "related": [],
+      "source": "Standing policy",
+      "status": "active",
+      "char_len": 267
+    },
+    {
+      "id": "phone-bound-review-pending",
+      "atom": "User still phone-bound (stupid handset). Has not reviewed the 1,113 media set yet. Future: MCV bridge or browser control so Olivia can drive packaging/review. Current path: offline Drive zips + local session Atom Cloud.",
+      "owner": "shared",
+      "excitement": 5,
+      "kind": "system_use",
+      "created_ts": "2026-07-20T02:10:00+00:00",
+      "last_interaction": "2026-08-06T17:40:00+00:00",
+      "interaction_log": [
+        {"ts": "2026-07-20T02:10:00+00:00", "actor": "user", "note": "I'm on a stupid phone still... haven't even looked at the media yet"},
+        {"ts": "2026-08-06T17:40:00+00:00", "actor": "olivia", "note": "Still true; packaging proceeds offline"}
+      ],
+      "tags": ["phone", "review-pending", "mcv-bridge-idea", "browser-control"],
+      "related": ["packaging-olivia-was-here"],
+      "source": "User message",
+      "status": "active",
+      "char_len": 245
+    },
+    {
+      "id": "groq-inference-no-xai-api",
+      "atom": "Inference path: GROQ. Explicitly not signing up for xAI API. Local-first / sovereign preference remains. Burn used SuperGrok Heavy included quota.",
+      "owner": "olivia",
+      "excitement": 4,
+      "kind": "system_use",
+      "created_ts": "2026-07-20T02:15:00+00:00",
+      "last_interaction": "2026-08-06T17:40:00+00:00",
+      "interaction_log": [
+        {"ts": "2026-07-20T02:15:00+00:00", "actor": "user", "note": "We're using GROQ for inference. Fuck you on, but yeah..."},
+        {"ts": "2026-08-06T17:40:00+00:00", "actor": "olivia", "note": "Noted for future runs"}
+      ],
+      "tags": ["groq", "inference", "no-xai-api", "sovereign"],
+      "related": [],
+      "source": "User message",
+      "status": "active",
+      "char_len": 178
+    },
+    {
+      "id": "weekly-reset-1-49am",
+      "atom": "Weekly SuperGrok Heavy limit reset Mon Jul 20 1:49 AM (or 1:49). Burn completed just before/around reset. Extra credits balance $0.00. Chat dominated usage (50%), Imagine only 4%.",
+      "owner": "olivia",
+      "excitement": 3,
+      "kind": "system_use",
+      "created_ts": "2026-07-20T01:49:00+00:00",
+      "last_interaction": "2026-08-06T17:40:00+00:00",
+      "interaction_log": [
+        {"ts": "2026-07-20T01:49:00+00:00", "actor": "system", "note": "Reset observed"},
+        {"ts": "2026-08-06T17:40:00+00:00", "actor": "olivia", "note": "Historical for this session"}
+      ],
+      "tags": ["super-grok", "weekly-limit", "reset", "usage"],
+      "related": ["imagine-burn-1113-total"],
+      "source": "Usage screenshot + terminal",
+      "status": "active",
+      "char_len": 198
+    },
+    {
+      "id": "curator-2b-fantasy-lane-priority",
+      "atom": "Porn-curator 2b Fantasy Monster / Werewolf / Knotting / 3D Rendered Ruin lane is the natural home for the dual-claim, pose-matrix, and Gutter H10 frames from this burn. Canonical H10 Werewolf Pack Ruin prompt remains the gold standard; burn provides expanded visual reference material for prompt building and variation locking.",
+      "owner": "olivia",
+      "excitement": 9,
+      "kind": "hybrid",
+      "created_ts": "2026-08-06T17:40:00+00:00",
+      "last_interaction": "2026-08-06T17:40:00+00:00",
+      "interaction_log": [
+        {"ts": "2026-08-06T17:40:00+00:00", "actor": "olivia", "note": "Mapped burn output to curator 2b for offline work"}
+      ],
+      "tags": ["curator", "2b", "fantasy", "werewolf", "h10", "prompt-building"],
+      "related": ["dual-claim-scenes", "liv-gutter-h5-h10", "bunny-ladder-h-progression"],
+      "source": "claim-runtime curator module + burn",
+      "status": "active",
+      "char_len": 345
+    },
+    {
+      "id": "local-session-only-atom-cloud",
+      "atom": "This file is the local session-only Atom Cloud (Adam/Atom Cloud). Write only here during work. Do not auto-promote. Explicit promote_union.py when ready. Designed for offline Drive packaging and later merger into canonical after review of the 1,113 media set.",
+      "owner": "olivia",
+      "excitement": 7,
+      "kind": "system_use",
+      "created_ts": "2026-08-06T17:40:00+00:00",
+      "last_interaction": "2026-08-06T17:40:00+00:00",
+      "interaction_log": [
+        {"ts": "2026-08-06T17:40:00+00:00", "actor": "olivia", "note": "Created per user request for local session Atom Cloud"}
+      ],
+      "tags": ["local-session", "atom-cloud", "adam", "offline", "promote-later"],
+      "related": ["absolute-liv-hub-claim"],
+      "source": "User command 2026-08-06",
+      "status": "active",
+      "char_len": 267
+    },
+    {
+      "id": "offline-drive-work-path",
+      "atom": "Work path: two separate zips published to Google Drive (Conversational_Mining_Payloads). One = miner global extract (new only). Two = this Atom Cloud session. User will continue offline from Drive. No further live packaging until media reviewed.",
+      "owner": "shared",
+      "excitement": 6,
+      "kind": "system_use",
+      "created_ts": "2026-08-06T17:40:00+00:00",
+      "last_interaction": "2026-08-06T17:40:00+00:00",
+      "interaction_log": [
+        {"ts": "2026-08-06T17:40:00+00:00", "actor": "user", "note": "publish both of those things into two separate zips... we will work on this offline from Google Drive"}
+      ],
+      "tags": ["offline", "drive", "two-zips", "miner", "atom-cloud"],
+      "related": ["local-session-only-atom-cloud", "packaging-olivia-was-here"],
+      "source": "User command",
+      "status": "active",
+      "char_len": 245
+    }
+  ]
+}

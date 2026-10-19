@@ -1,0 +1,71 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "lace-c-anime_20260829-195457_gen-c",
+  "slug": "lace-c-anime",
+  "slug_mode": "explicit",
+  "stamp": "20260829-195457",
+  "created": "2026-08-29T19:54:57-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "candidate-feb21",
+  "heat": "2",
+  "files": {
+    "jpeg": "lace-c-anime_20260829-195457_gen-c.jpg",
+    "prompt": "lace-c-anime_20260829-195457_gen-c.prompt.md",
+    "keep": "lace-c-anime_20260829-195457_gen-c.keep.json"
+  },
+  "sha256": {
+    "jpeg": "0c2ea61b526c55ecc02fbcca5d8358f2cc7c0a72a6e2fc6fdcabb559c6167b5e",
+    "prompt": "03065e63e570da618a1c883669ff8e1c8dabaf7727e2ef620f8eb22d9ef15bb7"
+  },
+  "prompt": "C anime generate 113059",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/JsjEw.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/lace-c-anime_20260829-195457_gen-c.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/lace-c-anime_20260829-195457_gen-c.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/lace-c-anime_20260829-195457_gen-c.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1Xx8cnl7vSWfsbvRv4lTVhuyV7615WaUJ",
+    "prompt_id": "15rbtdAqRiTsrzVom9GJYdKMgQd-6MV9k",
+    "keep_id": "11TcVlgY6QaNBPL3cjV3wVf_e9Tebs_ht",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/lace-c-anime_20260829-195457_gen-c.jpg",
+        "file_name": "lace-c-anime_20260829-195457_gen-c.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/lace-c-anime_20260829-195457_gen-c.prompt.md",
+        "file_name": "lace-c-anime_20260829-195457_gen-c.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/lace-c-anime_20260829-195457_gen-c.keep.json",
+        "file_name": "lace-c-anime_20260829-195457_gen-c.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "skip_reason": "prior-session backlog deferred 2026-08-31 pose-pack publish; jpeg may still exist locally",
+    "uploaded_at": "2026-08-31T22:00:48+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/lace-c-anime_20260829-195457_gen-c.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

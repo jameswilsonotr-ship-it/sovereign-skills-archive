@@ -1,0 +1,28 @@
+{
+  "id": "treatment.opaque-block-collage",
+  "kind": "treatment",
+  "name": "Opaque Block Collage",
+  "version": "1.0.0",
+  "description": "Aggressive flat color blocks slicing through ink.",
+  "tags": [
+    "treatment",
+    "collage",
+    "block"
+  ],
+  "prompt_terms": [
+    {
+      "term": "opaque block collage",
+      "variance": 0.3,
+      "weight": 1.0
+    },
+    {
+      "term": "flat aggressive color blocks",
+      "variance": 0.4,
+      "weight": 0.8
+    }
+  ],
+  "content": {
+    "taxonomy": "treatment",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}

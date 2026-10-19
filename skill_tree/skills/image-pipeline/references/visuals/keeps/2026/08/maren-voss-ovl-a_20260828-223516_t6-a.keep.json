@@ -1,0 +1,62 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "maren-voss-ovl-a_20260828-223516_t6-a",
+  "slug": "maren-voss-ovl-a",
+  "slug_mode": "explicit",
+  "stamp": "20260828-223516",
+  "created": "2026-08-28T22:35:16-04:00",
+  "engine": "overlay",
+  "orientation": "portrait",
+  "agent": "candidate",
+  "heat": "0",
+  "files": {
+    "jpeg": "maren-voss-ovl-a_20260828-223516_t6-a.jpg",
+    "prompt": "maren-voss-ovl-a_20260828-223516_t6-a.prompt.md",
+    "keep": "maren-voss-ovl-a_20260828-223516_t6-a.keep.json"
+  },
+  "sha256": {
+    "jpeg": "94ce7e2c7fe7c0c1d8bf7626940d2a275b94b16d9b0e14a71e3ce79ffe8b1fac",
+    "prompt": "a4dc6ed4f6c46d81847d3c8d030f6ad84a4c3986ce7d1d744f8787bdad4b193d"
+  },
+  "prompt": "OVERLAY A on /home/workdir/artifacts/rendered/maren-voss-a-realistic_20260828-220639_t2-a.jpg Photorealistic cinematic identity card of Maren Voss, adult. black blunt bob, charcoal silk blouse, black trousers.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/jxBHZ.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/maren-voss-ovl-a_20260828-223516_t6-a.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/maren-voss-ovl-a_20260828-223516_t6-a.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/maren-voss-ovl-a_20260828-223516_t6-a.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1WqT_R0LxfTbWyCpiK1tNWzj8q8NyOyYq",
+    "prompt_id": "1abEl9TsaWRP4VNPrP7u-u3ay5T72gyFA",
+    "keep_id": "1MDco2qcsBc4XPXonOqSEV0qhOJf3iIx-",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/maren-voss-ovl-a_20260828-223516_t6-a.jpg",
+        "file_name": "maren-voss-ovl-a_20260828-223516_t6-a.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/maren-voss-ovl-a_20260828-223516_t6-a.prompt.md",
+        "file_name": "maren-voss-ovl-a_20260828-223516_t6-a.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/maren-voss-ovl-a_20260828-223516_t6-a.keep.json",
+        "file_name": "maren-voss-ovl-a_20260828-223516_t6-a.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T02:35:51+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078"
+}

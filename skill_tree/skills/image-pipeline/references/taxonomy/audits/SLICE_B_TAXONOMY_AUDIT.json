@@ -1,0 +1,197 @@
+{
+  "version": "1.0.0",
+  "slice": "B",
+  "updated": "2026-08-05T23:09:10.699883Z",
+  "rules_added": {
+    "implication": "heat-aware suggestion layer (censorship proxies, gutter inference, shadow, etc.) \u2014 stays special",
+    "structural": "pose, framing, camera, geometry",
+    "technical": "output format and presentation behavior (not visual language)"
+  },
+  "counts_slice_b": {
+    "implication": 12,
+    "structural": 2,
+    "technical": 11
+  },
+  "counts_combined_A_plus_B": {
+    "implication": 12,
+    "structural": 2,
+    "technical": 11
+  },
+  "rows": [
+    {
+      "id": "implication.anime-convenient-censorship",
+      "path": "packs/implication/anime-convenient-censorship.json",
+      "taxonomy": "implication",
+      "source": "implication",
+      "note": "heat-aware suggestion / implication layer; do not force into Style/World"
+    },
+    {
+      "id": "implication.beardsley-high-contrast-ink-negative-space",
+      "path": "packs/implication/beardsley-high-contrast-ink-negative-space.json",
+      "taxonomy": "implication",
+      "source": "implication",
+      "note": "heat-aware suggestion / implication layer; do not force into Style/World"
+    },
+    {
+      "id": "implication.crepax-cinematic-gutter-inference",
+      "path": "packs/implication/crepax-cinematic-gutter-inference.json",
+      "taxonomy": "implication",
+      "source": "implication",
+      "note": "heat-aware suggestion / implication layer; do not force into Style/World"
+    },
+    {
+      "id": "implication.environmental-occlusion",
+      "path": "packs/implication/environmental-occlusion.json",
+      "taxonomy": "implication",
+      "source": "implication",
+      "note": "heat-aware suggestion / implication layer; do not force into Style/World"
+    },
+    {
+      "id": "implication.extreme-tenebrism",
+      "path": "packs/implication/extreme-tenebrism.json",
+      "taxonomy": "implication",
+      "source": "implication",
+      "note": "heat-aware suggestion / implication layer; do not force into Style/World"
+    },
+    {
+      "id": "implication.horror-shadow-offscreen",
+      "path": "packs/implication/horror-shadow-offscreen.json",
+      "taxonomy": "implication",
+      "source": "implication",
+      "note": "heat-aware suggestion / implication layer; do not force into Style/World"
+    },
+    {
+      "id": "implication.macro-isolation",
+      "path": "packs/implication/macro-isolation.json",
+      "taxonomy": "implication",
+      "source": "implication",
+      "note": "heat-aware suggestion / implication layer; do not force into Style/World"
+    },
+    {
+      "id": "implication.manara-elegant-posture-tension",
+      "path": "packs/implication/manara-elegant-posture-tension.json",
+      "taxonomy": "implication",
+      "source": "implication",
+      "note": "heat-aware suggestion / implication layer; do not force into Style/World"
+    },
+    {
+      "id": "implication.metaphorical-object-proxying",
+      "path": "packs/implication/metaphorical-object-proxying.json",
+      "taxonomy": "implication",
+      "source": "implication",
+      "note": "heat-aware suggestion / implication layer; do not force into Style/World"
+    },
+    {
+      "id": "implication.myth-allegory-encoding",
+      "path": "packs/implication/myth-allegory-encoding.json",
+      "taxonomy": "implication",
+      "source": "implication",
+      "note": "heat-aware suggestion / implication layer; do not force into Style/World"
+    },
+    {
+      "id": "implication.shunga-partial-clothing-proxy",
+      "path": "packs/implication/shunga-partial-clothing-proxy.json",
+      "taxonomy": "implication",
+      "source": "implication",
+      "note": "heat-aware suggestion / implication layer; do not force into Style/World"
+    },
+    {
+      "id": "implication.vargas-pinup-suggestion",
+      "path": "packs/implication/vargas-pinup-suggestion.json",
+      "taxonomy": "implication",
+      "source": "implication",
+      "note": "heat-aware suggestion / implication layer; do not force into Style/World"
+    },
+    {
+      "id": "pose.gaze-over-shoulder",
+      "path": "packs/pose/gaze-over-shoulder.json",
+      "taxonomy": "structural",
+      "source": "pose",
+      "note": "pose / framing / camera geometry"
+    },
+    {
+      "id": "pose.intense-embrace",
+      "path": "packs/pose/intense-embrace.json",
+      "taxonomy": "structural",
+      "source": "pose",
+      "note": "pose / framing / camera geometry"
+    },
+    {
+      "id": "output-format.carousel",
+      "path": "packs/output-format/carousel.json",
+      "taxonomy": "technical",
+      "source": "output-format",
+      "note": "delivery format (single/carousel/slideshow)"
+    },
+    {
+      "id": "output-format.single",
+      "path": "packs/output-format/single.json",
+      "taxonomy": "technical",
+      "source": "output-format",
+      "note": "delivery format (single/carousel/slideshow)"
+    },
+    {
+      "id": "output-format.slideshow",
+      "path": "packs/output-format/slideshow.json",
+      "taxonomy": "technical",
+      "source": "output-format",
+      "note": "delivery format (single/carousel/slideshow)"
+    },
+    {
+      "id": "output-style.border-deterministic",
+      "path": "packs/output-style/border-deterministic.json",
+      "taxonomy": "technical",
+      "source": "output-style",
+      "note": "presentation / forensics / border / title behavior"
+    },
+    {
+      "id": "output-style.border-none",
+      "path": "packs/output-style/border-none.json",
+      "taxonomy": "technical",
+      "source": "output-style",
+      "note": "presentation / forensics / border / title behavior"
+    },
+    {
+      "id": "output-style.code-exposed",
+      "path": "packs/output-style/code-exposed.json",
+      "taxonomy": "technical",
+      "source": "output-style",
+      "note": "presentation / forensics / border / title behavior"
+    },
+    {
+      "id": "output-style.code-hidden",
+      "path": "packs/output-style/code-hidden.json",
+      "taxonomy": "technical",
+      "source": "output-style",
+      "note": "presentation / forensics / border / title behavior"
+    },
+    {
+      "id": "output-style.forensics-off",
+      "path": "packs/output-style/forensics-off.json",
+      "taxonomy": "technical",
+      "source": "output-style",
+      "note": "presentation / forensics / border / title behavior"
+    },
+    {
+      "id": "output-style.forensics-on",
+      "path": "packs/output-style/forensics-on.json",
+      "taxonomy": "technical",
+      "source": "output-style",
+      "note": "presentation / forensics / border / title behavior"
+    },
+    {
+      "id": "output-style.title-above",
+      "path": "packs/output-style/title-above.json",
+      "taxonomy": "technical",
+      "source": "output-style",
+      "note": "presentation / forensics / border / title behavior"
+    },
+    {
+      "id": "output-style.title-below",
+      "path": "packs/output-style/title-below.json",
+      "taxonomy": "technical",
+      "source": "output-style",
+      "note": "presentation / forensics / border / title behavior"
+    }
+  ]
+}

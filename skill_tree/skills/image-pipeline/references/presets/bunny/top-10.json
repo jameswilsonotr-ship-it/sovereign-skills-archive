@@ -1,0 +1,70 @@
+{
+  "id": "preset.bunny.top10",
+  "name": "Bunny Top 10 Image Styles",
+  "version": "1.1.0",
+  "persona": "bunny",
+  "description": "Bunny's full ranked visual preferences. Each entry is a preset that chains atomic packs.",
+  "tags": [
+    "bunny",
+    "top-10",
+    "persona"
+  ],
+  "content": {
+    "entries": [
+      "preset.bunny.top10.01",
+      "preset.bunny.top10.02",
+      "preset.bunny.top10.03",
+      "preset.bunny.top10.04",
+      "preset.bunny.top10.05",
+      "preset.bunny.top10.06",
+      "preset.bunny.top10.07",
+      "preset.bunny.top10.08",
+      "preset.bunny.top10.09",
+      "preset.bunny.top10.10"
+    ],
+    "notes": "Full Top 10 migrated.",
+    "is_top10_container": true
+  },
+  "chain": [
+    {
+      "pack": "preset.bunny.top10.01",
+      "weight": 1.0
+    },
+    {
+      "pack": "preset.bunny.top10.02",
+      "weight": 1.0
+    },
+    {
+      "pack": "preset.bunny.top10.03",
+      "weight": 1.0
+    },
+    {
+      "pack": "preset.bunny.top10.04",
+      "weight": 1.0
+    },
+    {
+      "pack": "preset.bunny.top10.05",
+      "weight": 1.0
+    },
+    {
+      "pack": "preset.bunny.top10.06",
+      "weight": 1.0
+    },
+    {
+      "pack": "preset.bunny.top10.07",
+      "weight": 1.0
+    },
+    {
+      "pack": "preset.bunny.top10.08",
+      "weight": 1.0
+    },
+    {
+      "pack": "preset.bunny.top10.09",
+      "weight": 1.0
+    },
+    {
+      "pack": "preset.bunny.top10.10",
+      "weight": 1.0
+    }
+  ]
+}
