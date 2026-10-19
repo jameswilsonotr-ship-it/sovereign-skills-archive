@@ -1,0 +1,83 @@
+{
+  "$id": "third-salvo-24-receipt-schema-v2",
+  "title": "T3-24 receipt schema v2",
+  "description": "Additive receipt fields for THIRD_SALVO slot T3-24.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "schema_version",
+    "change_id",
+    "salvo",
+    "slot",
+    "entitlement",
+    "tier",
+    "on_demand",
+    "execution",
+    "artifacts"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 2
+    },
+    "change_id": {
+      "const": "third-salvo-24-receipt-schema-v2"
+    },
+    "salvo": {
+      "const": "THIRD_SALVO"
+    },
+    "slot": {
+      "const": "T3-24"
+    },
+    "entitlement": {
+      "const": "INCLUDED"
+    },
+    "tier": {
+      "const": "ULTRA"
+    },
+    "on_demand": {
+      "const": false
+    },
+    "execution": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "network",
+        "status"
+      ],
+      "properties": {
+        "network": {
+          "const": "OFFLINE"
+        },
+        "status": {
+          "const": "COMPLETE"
+        }
+      }
+    },
+    "artifacts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": [
+          "path",
+          "kind",
+          "status"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "pattern": "^(?!/)(?!.*\\.\\.)[^\\u0000]+$"
+          },
+          "kind": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "const": "COMPLETE"
+          }
+        }
+      }
+    }
+  }
+}
