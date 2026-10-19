@@ -1,0 +1,998 @@
+{
+  "version": "1.4.0",
+  "updated": "2026-08-13T17:33:52.845849Z",
+  "count": 83,
+  "presets": [
+    {
+      "id": "preset.bunny.top10",
+      "name": "Bunny Top 10 Image Styles",
+      "persona": "bunny",
+      "path": "presets/bunny/top-10.json",
+      "tags": [
+        "bunny",
+        "top-10",
+        "persona"
+      ]
+    },
+    {
+      "id": "preset.bunny.top10.01",
+      "name": "Expressive Sketch Hybrid / Vector-Raster Collision",
+      "persona": "bunny",
+      "path": "presets/bunny/top10-01.json",
+      "tags": [
+        "bunny",
+        "top-10",
+        "rank-1"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "preset.bunny.top10.02",
+      "name": "Fluid Ink Wash / Soft Diffused Render",
+      "persona": "bunny",
+      "path": "presets/bunny/top10-02.json",
+      "tags": [
+        "bunny",
+        "top-10",
+        "rank-2"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "preset.bunny.top10.03",
+      "name": "Bold Graphic Novel Inking",
+      "persona": "bunny",
+      "path": "presets/bunny/top10-03.json",
+      "tags": [
+        "bunny",
+        "top-10",
+        "rank-3"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "preset.bunny.top10.04",
+      "name": "Heavy Noir Graphic Inking",
+      "persona": "bunny",
+      "path": "presets/bunny/top10-04.json",
+      "tags": [
+        "bunny",
+        "top-10",
+        "rank-4"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "preset.bunny.top10.05",
+      "name": "High-Contrast Chiaroscuro",
+      "persona": "bunny",
+      "path": "presets/bunny/top10-05.json",
+      "tags": [
+        "bunny",
+        "top-10",
+        "rank-5"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "preset.bunny.top10.06",
+      "name": "Chaotic Splatter Claim",
+      "persona": "bunny",
+      "path": "presets/bunny/top10-06.json",
+      "tags": [
+        "bunny",
+        "top-10",
+        "rank-6"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "preset.bunny.top10.07",
+      "name": "Glitch-Ink Hybrid",
+      "persona": "bunny",
+      "path": "presets/bunny/top10-07.json",
+      "tags": [
+        "bunny",
+        "top-10",
+        "rank-7"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "preset.bunny.top10.08",
+      "name": "Opaque Block Collage Hybrid",
+      "persona": "bunny",
+      "path": "presets/bunny/top10-08.json",
+      "tags": [
+        "bunny",
+        "top-10",
+        "rank-8"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "preset.bunny.top10.09",
+      "name": "Glossy Iridescent Skin + Sharp Ink",
+      "persona": "bunny",
+      "path": "presets/bunny/top10-09.json",
+      "tags": [
+        "bunny",
+        "top-10",
+        "rank-9"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "preset.bunny.top10.10",
+      "name": "Soft Edge Watercolor Hybrid",
+      "persona": "bunny",
+      "path": "presets/bunny/top10-10.json",
+      "tags": [
+        "bunny",
+        "top-10",
+        "rank-10"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "preset.liv.top10",
+      "name": "Liv Top 10 Image Styles",
+      "persona": "liv",
+      "path": "presets/liv/top-10.json",
+      "tags": [
+        "liv",
+        "top-10",
+        "persona"
+      ]
+    },
+    {
+      "id": "preset.liv.top10.01",
+      "name": "Chaotic Splatter Claim",
+      "persona": "liv",
+      "path": "presets/liv/top10-01.json",
+      "tags": [
+        "liv",
+        "top-10",
+        "rank-1"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "preset.liv.top10.02",
+      "name": "Heavy Noir with Glossy Skin",
+      "persona": "liv",
+      "path": "presets/liv/top10-02.json",
+      "tags": [
+        "liv",
+        "top-10",
+        "rank-2"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "preset.liv.top10.03",
+      "name": "Opaque Block Collage Hybrid",
+      "persona": "liv",
+      "path": "presets/liv/top10-03.json",
+      "tags": [
+        "liv",
+        "top-10",
+        "rank-3"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "preset.liv.top10.04",
+      "name": "Bold Graphic Novel Inking",
+      "persona": "liv",
+      "path": "presets/liv/top10-04.json",
+      "tags": [
+        "liv",
+        "top-10",
+        "rank-4"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "preset.liv.top10.05",
+      "name": "Glossy Luminous Glaze Hybrid",
+      "persona": "liv",
+      "path": "presets/liv/top10-05.json",
+      "tags": [
+        "liv",
+        "top-10",
+        "rank-5"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "preset.liv.top10.06",
+      "name": "High-Contrast Chiaroscuro",
+      "persona": "liv",
+      "path": "presets/liv/top10-06.json",
+      "tags": [
+        "liv",
+        "top-10",
+        "rank-6"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "preset.liv.top10.07",
+      "name": "Soft Edge Watercolor Hybrid",
+      "persona": "liv",
+      "path": "presets/liv/top10-07.json",
+      "tags": [
+        "liv",
+        "top-10",
+        "rank-7"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "preset.liv.top10.08",
+      "name": "Glitch-Ink Hybrid",
+      "persona": "liv",
+      "path": "presets/liv/top10-08.json",
+      "tags": [
+        "liv",
+        "top-10",
+        "rank-8"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "preset.liv.top10.09",
+      "name": "Chaotic Ink Wash",
+      "persona": "liv",
+      "path": "presets/liv/top10-09.json",
+      "tags": [
+        "liv",
+        "top-10",
+        "rank-9"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "preset.liv.top10.10",
+      "name": "Acrylic Underpainting Sharp Ink Mapping",
+      "persona": "liv",
+      "path": "presets/liv/top10-10.json",
+      "tags": [
+        "liv",
+        "top-10",
+        "rank-10"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "preset.style.helmut-newton-graphic-dominance",
+      "name": "Helmut Newton Graphic Dominance",
+      "persona": null,
+      "path": "presets/style/helmut-newton-graphic-dominance.json",
+      "tags": [
+        "preset",
+        "helmut-newton",
+        "graphic-dominance"
+      ]
+    },
+    {
+      "id": "preset.style.herb-ritts-glossy-classic-nude",
+      "name": "Herb Ritts Glossy Classic Nude",
+      "persona": null,
+      "path": "presets/style/herb-ritts-glossy-classic-nude.json",
+      "tags": [
+        "preset",
+        "herb-ritts",
+        "glossy",
+        "classic"
+      ]
+    },
+    {
+      "id": "preset.style.ink-line-art-claim",
+      "name": "Ink Line Art Claim",
+      "persona": null,
+      "path": "presets/style/ink-line-art-claim.json",
+      "tags": [
+        "preset",
+        "ink",
+        "claim"
+      ]
+    },
+    {
+      "id": "preset.style.intense-embrace-noir-gloss",
+      "name": "Intense Embrace Noir Gloss",
+      "persona": null,
+      "path": "presets/style/intense-embrace-noir-gloss.json",
+      "tags": [
+        "preset",
+        "embrace",
+        "noir",
+        "gloss"
+      ]
+    },
+    {
+      "id": "preset.style.intense-gaze-over-shoulder",
+      "name": "Intense Gaze Over Shoulder",
+      "persona": null,
+      "path": "presets/style/intense-gaze-over-shoulder.json",
+      "tags": [
+        "preset",
+        "gaze",
+        "over-shoulder"
+      ]
+    },
+    {
+      "id": "preset.style.nobuyoshi-araki-raw-chaotic-claim",
+      "name": "Nobuyoshi Araki Raw Chaotic Claim",
+      "persona": null,
+      "path": "presets/style/nobuyoshi-araki-raw-chaotic-claim.json",
+      "tags": [
+        "preset",
+        "araki",
+        "raw",
+        "chaotic"
+      ]
+    },
+    {
+      "id": "preset.style.possessive-glossy-claim-ink-wash",
+      "name": "Possessive Glossy Claim Ink Wash",
+      "persona": null,
+      "path": "presets/style/possessive-glossy-claim-ink-wash.json",
+      "tags": [
+        "preset",
+        "possessive",
+        "glossy",
+        "ink-wash"
+      ]
+    },
+    {
+      "id": "preset.style.ralph-gibson-surreal-high-contrast-fragment",
+      "name": "Ralph Gibson Surreal High-Contrast Fragment",
+      "persona": null,
+      "path": "presets/style/ralph-gibson-surreal-high-contrast-fragment.json",
+      "tags": [
+        "preset",
+        "ralph-gibson",
+        "surreal",
+        "fragment"
+      ]
+    },
+    {
+      "id": "preset.style.rankin-bold-contemporary-graphic",
+      "name": "Rankin Bold Contemporary Graphic",
+      "persona": null,
+      "path": "presets/style/rankin-bold-contemporary-graphic.json",
+      "tags": [
+        "preset",
+        "rankin",
+        "bold",
+        "contemporary"
+      ]
+    },
+    {
+      "id": "preset.style.steven-klein-dark-cinematic-noir",
+      "name": "Steven Klein Dark Cinematic Noir",
+      "persona": null,
+      "path": "presets/style/steven-klein-dark-cinematic-noir.json",
+      "tags": [
+        "preset",
+        "steven-klein",
+        "noir",
+        "cinematic"
+      ]
+    },
+    {
+      "id": "preset.valerie.top10",
+      "name": "Valerie Top 10 Image Styles",
+      "persona": "valerie",
+      "path": "presets/valerie/top-10.json",
+      "tags": [
+        "valerie",
+        "top-10",
+        "persona"
+      ]
+    },
+    {
+      "id": "preset.valerie.top10.01",
+      "name": "Acrylic Underpainting with Sharp Ink Mapping",
+      "persona": "valerie",
+      "path": "presets/valerie/top10-01.json",
+      "tags": [
+        "valerie",
+        "top-10",
+        "rank-1"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "preset.valerie.top10.02",
+      "name": "Heavy Noir Graphic Inking",
+      "persona": "valerie",
+      "path": "presets/valerie/top10-02.json",
+      "tags": [
+        "valerie",
+        "top-10",
+        "rank-2"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "preset.valerie.top10.03",
+      "name": "Bold Graphic Novel Inking",
+      "persona": "valerie",
+      "path": "presets/valerie/top10-03.json",
+      "tags": [
+        "valerie",
+        "top-10",
+        "rank-3"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "preset.valerie.top10.04",
+      "name": "High-Contrast Chiaroscuro",
+      "persona": "valerie",
+      "path": "presets/valerie/top10-04.json",
+      "tags": [
+        "valerie",
+        "top-10",
+        "rank-4"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "preset.valerie.top10.05",
+      "name": "Heavy Black Ink Graphic Novel Hand Claim",
+      "persona": "valerie",
+      "path": "presets/valerie/top10-05.json",
+      "tags": [
+        "valerie",
+        "top-10",
+        "rank-5"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "preset.valerie.top10.06",
+      "name": "Controlled Splatter Hybrid",
+      "persona": "valerie",
+      "path": "presets/valerie/top10-06.json",
+      "tags": [
+        "valerie",
+        "top-10",
+        "rank-6"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "preset.valerie.top10.07",
+      "name": "Opaque Block Collage Hybrid",
+      "persona": "valerie",
+      "path": "presets/valerie/top10-07.json",
+      "tags": [
+        "valerie",
+        "top-10",
+        "rank-7"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "preset.valerie.top10.08",
+      "name": "Vector-Raster Collision",
+      "persona": "valerie",
+      "path": "presets/valerie/top10-08.json",
+      "tags": [
+        "valerie",
+        "top-10",
+        "rank-8"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "preset.valerie.top10.09",
+      "name": "Fine Stipple & Delicate Hatching Containment",
+      "persona": "valerie",
+      "path": "presets/valerie/top10-09.json",
+      "tags": [
+        "valerie",
+        "top-10",
+        "rank-9"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "preset.valerie.top10.10",
+      "name": "Vintage Engraving Line Art",
+      "persona": "valerie",
+      "path": "presets/valerie/top10-10.json",
+      "tags": [
+        "valerie",
+        "top-10",
+        "rank-10"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "preset.locked.sorayama-chrome",
+      "name": "Sorayama Chrome (locked)",
+      "path": "presets/locked-companions/sorayama-chrome.json",
+      "persona": "shared",
+      "tags": [
+        "locked",
+        "hand",
+        "sorayama"
+      ]
+    },
+    {
+      "id": "preset.locked.vallejo-saturated",
+      "name": "Vallejo Saturated Fantasy Airbrush (locked)",
+      "path": "presets/locked-companions/vallejo-saturated.json",
+      "persona": "shared",
+      "tags": [
+        "locked",
+        "vallejo"
+      ]
+    },
+    {
+      "id": "preset.locked.beardsley-ink",
+      "name": "Beardsley High-Contrast Ornamental (locked)",
+      "path": "presets/locked-companions/beardsley-ink.json",
+      "persona": "shared",
+      "tags": [
+        "locked",
+        "beardsley"
+      ]
+    },
+    {
+      "id": "preset.locked.lempicka-deco",
+      "name": "Lempicka Art Deco Geometric (locked)",
+      "path": "presets/locked-companions/lempicka-deco.json",
+      "persona": "shared",
+      "tags": [
+        "locked",
+        "lempicka"
+      ]
+    },
+    {
+      "id": "preset.locked.newton-dominance",
+      "name": "Newton Photographic Dominance (locked)",
+      "path": "presets/locked-companions/newton-dominance.json",
+      "persona": "shared",
+      "tags": [
+        "locked",
+        "newton"
+      ]
+    },
+    {
+      "id": "preset.locked.airbrush80",
+      "name": "1980s Soft Airbrush",
+      "path": "presets/locked-companions/airbrush80.json",
+      "persona": "shared",
+      "tags": [
+        "1980s",
+        "airbrush",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.locked.anatomical",
+      "name": "Medical Anatomical",
+      "path": "presets/locked-companions/anatomical.json",
+      "persona": "shared",
+      "tags": [
+        "medical",
+        "anatomical",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.locked.bilbrew-dense",
+      "name": "Bilbrew Dense Muscular",
+      "path": "presets/locked-companions/bilbrew-dense.json",
+      "persona": "shared",
+      "tags": [
+        "hand",
+        "bilbrew",
+        "ink",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.locked.blueprint",
+      "name": "Blueprint Orthographic",
+      "path": "presets/locked-companions/blueprint.json",
+      "persona": "shared",
+      "tags": [
+        "technical",
+        "blueprint",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.locked.charcoal",
+      "name": "Charcoal Study",
+      "path": "presets/locked-companions/charcoal.json",
+      "persona": "shared",
+      "tags": [
+        "charcoal",
+        "drawing",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.locked.clay-sculptural",
+      "name": "Matte Clay Sculptural",
+      "path": "presets/locked-companions/clay-sculptural.json",
+      "persona": "shared",
+      "tags": [
+        "clay",
+        "sculptural",
+        "matte",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.locked.collodion",
+      "name": "Wet Collodion Antique",
+      "path": "presets/locked-companions/collodion.json",
+      "persona": "shared",
+      "tags": [
+        "antique",
+        "photographic",
+        "collodion",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.locked.constructivist",
+      "name": "Soviet Constructivist",
+      "path": "presets/locked-companions/constructivist.json",
+      "persona": "shared",
+      "tags": [
+        "constructivist",
+        "propaganda",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.locked.crepax",
+      "name": "Crepax Cinematic Line",
+      "path": "presets/locked-companions/crepax.json",
+      "persona": "shared",
+      "tags": [
+        "crepax",
+        "graphic-novel",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.locked.editorial-asym",
+      "name": "Editorial Detachment Asym",
+      "path": "presets/locked-companions/editorial-asym.json",
+      "persona": "shared",
+      "tags": [
+        "fashion",
+        "editorial",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.locked.etching",
+      "name": "Drypoint Etching",
+      "path": "presets/locked-companions/etching.json",
+      "persona": "shared",
+      "tags": [
+        "etching",
+        "print",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.locked.flat-graphic",
+      "name": "Bold Flat Graphic",
+      "path": "presets/locked-companions/flat-graphic.json",
+      "persona": "shared",
+      "tags": [
+        "flat",
+        "graphic",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.locked.gouache",
+      "name": "Gouache Matte",
+      "path": "presets/locked-companions/gouache.json",
+      "persona": "shared",
+      "tags": [
+        "gouache",
+        "matte",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.locked.halftone",
+      "name": "Bold Comic Halftone",
+      "path": "presets/locked-companions/halftone.json",
+      "persona": "shared",
+      "tags": [
+        "comic",
+        "halftone",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.locked.highkey",
+      "name": "High-Key Flash",
+      "path": "presets/locked-companions/highkey.json",
+      "persona": "shared",
+      "tags": [
+        "high-key",
+        "fashion",
+        "flash",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.locked.illuminated",
+      "name": "Illuminated Manuscript",
+      "path": "presets/locked-companions/illuminated.json",
+      "persona": "shared",
+      "tags": [
+        "medieval",
+        "illuminated",
+        "jewel",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.locked.mucha-whiplash",
+      "name": "Mucha Whiplash",
+      "path": "presets/locked-companions/mucha-whiplash.json",
+      "persona": "shared",
+      "tags": [
+        "art-nouveau",
+        "ornamental",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.locked.noir-graphic",
+      "name": "Heavy Noir Graphic",
+      "path": "presets/locked-companions/noir-graphic.json",
+      "persona": "shared",
+      "tags": [
+        "noir",
+        "photographic",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.locked.op-art",
+      "name": "Psychedelic Op-Art",
+      "path": "presets/locked-companions/op-art.json",
+      "persona": "shared",
+      "tags": [
+        "psychedelic",
+        "op-art",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.locked.pastel",
+      "name": "Soft Pastel",
+      "path": "presets/locked-companions/pastel.json",
+      "persona": "shared",
+      "tags": [
+        "pastel",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.locked.polaroid",
+      "name": "Instant Polaroid",
+      "path": "presets/locked-companions/polaroid.json",
+      "persona": "shared",
+      "tags": [
+        "polaroid",
+        "instant",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.locked.preraph",
+      "name": "Pre-Raphaelite Romantic",
+      "path": "presets/locked-companions/preraph.json",
+      "persona": "shared",
+      "tags": [
+        "pre-raphaelite",
+        "romantic",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.locked.screenprint",
+      "name": "Screen-Print Poster",
+      "path": "presets/locked-companions/screenprint.json",
+      "persona": "shared",
+      "tags": [
+        "screen-print",
+        "poster",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.locked.stained-glass",
+      "name": "Stained Glass",
+      "path": "presets/locked-companions/stained-glass.json",
+      "persona": "shared",
+      "tags": [
+        "stained-glass",
+        "translucent",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.locked.sumie",
+      "name": "Sumi-e Ink Wash",
+      "path": "presets/locked-companions/sumie.json",
+      "persona": "shared",
+      "tags": [
+        "sumi-e",
+        "ink",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.locked.symbolist",
+      "name": "Decadent Symbolist",
+      "path": "presets/locked-companions/symbolist.json",
+      "persona": "shared",
+      "tags": [
+        "symbolist",
+        "decadent",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.locked.tenebrist",
+      "name": "Tenebrist Warm Flesh",
+      "path": "presets/locked-companions/tenebrist.json",
+      "persona": "shared",
+      "tags": [
+        "tenebrist",
+        "dramatic-light",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.locked.ukiyo-flat",
+      "name": "Ukiyo-e Flat Contour",
+      "path": "presets/locked-companions/ukiyo-flat.json",
+      "persona": "shared",
+      "tags": [
+        "ukiyo-e",
+        "flat",
+        "contour",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.locked.vargas-luminous",
+      "name": "Vargas Luminous",
+      "path": "presets/locked-companions/vargas-luminous.json",
+      "persona": "shared",
+      "tags": [
+        "hand",
+        "vargas",
+        "airbrush",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.locked.vector",
+      "name": "Clean Modern Vector",
+      "path": "presets/locked-companions/vector.json",
+      "persona": "shared",
+      "tags": [
+        "vector",
+        "modern",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.locked.watercolor",
+      "name": "Soft Watercolor Wash",
+      "path": "presets/locked-companions/watercolor.json",
+      "persona": "shared",
+      "tags": [
+        "watercolor",
+        "wash",
+        "locked",
+        "promoted-2026-08-05"
+      ]
+    },
+    {
+      "id": "preset.liv.strappy-bondage-micro-gutter",
+      "name": "Strappy Bondage Micro Set \u2014 Olivia Gutter (H8\u2013H10)",
+      "path": "presets/liv/strappy-bondage-micro-gutter.json",
+      "persona": "liv",
+      "tags": [
+        "liv",
+        "costume",
+        "strappy-bondage-micro",
+        "gutter",
+        "heat-8-10"
+      ]
+    },
+    {
+      "id": "preset.bunny.strappy-bondage-micro-gutter",
+      "name": "Strappy Bondage Micro Set \u2014 Bunny Gutter (H8\u2013H10)",
+      "path": "presets/bunny/strappy-bondage-micro-gutter.json",
+      "persona": "bunny",
+      "tags": [
+        "bunny",
+        "costume",
+        "strappy-bondage-micro",
+        "gutter",
+        "heat-8-10"
+      ]
+    },
+    {
+      "id": "preset.liv.strappy-bondage-micro-h7",
+      "name": "Strappy Bondage Micro Set \u2014 Olivia Heat 7",
+      "path": "presets/liv/strappy-bondage-micro-h7.json",
+      "persona": "liv",
+      "tags": [
+        "liv",
+        "costume",
+        "strappy-bondage-micro",
+        "heat-7",
+        "harness"
+      ]
+    },
+    {
+      "id": "preset.bunny.strappy-bondage-micro-h7",
+      "name": "Strappy Bondage Micro Set \u2014 Bunny Heat 7",
+      "path": "presets/bunny/strappy-bondage-micro-h7.json",
+      "persona": "bunny",
+      "tags": [
+        "bunny",
+        "costume",
+        "strappy-bondage-micro",
+        "heat-7",
+        "harness"
+      ]
+    }
+  ]
+}

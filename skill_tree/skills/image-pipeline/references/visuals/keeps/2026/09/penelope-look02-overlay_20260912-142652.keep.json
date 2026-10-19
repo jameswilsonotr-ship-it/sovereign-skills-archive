@@ -1,0 +1,69 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "penelope-look02-overlay_20260912-142652",
+  "slug": "penelope-look02-overlay",
+  "slug_mode": "explicit",
+  "stamp": "20260912-142652",
+  "created": "2026-09-12T14:26:52-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "olivia",
+  "heat": "2",
+  "files": {
+    "jpeg": "penelope-look02-overlay_20260912-142652.jpg",
+    "prompt": "penelope-look02-overlay_20260912-142652.prompt.md",
+    "keep": "penelope-look02-overlay_20260912-142652.keep.json"
+  },
+  "sha256": {
+    "jpeg": "f26fbbbd0874c02575466adefb9c320c6119a7b4927363ca4b6cbb3434f4bf0b",
+    "prompt": "c3c35eb774b121469eefa9bf2c07468abaf2a2e021b9599d8d84b0a4e35b5bda"
+  },
+  "prompt": "Look 02 overlay. Barefoot. Gems tattooed beside dagger. q8ihh.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/q8ihh.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/penelope-look02-overlay_20260912-142652.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/penelope-look02-overlay_20260912-142652.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/penelope-look02-overlay_20260912-142652.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/09"
+  },
+  "drive": {
+    "status": "queued",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": null,
+    "prompt_id": null,
+    "keep_id": null,
+    "uploads": [
+      {
+        "artifact_path": "/rendered/penelope-look02-overlay_20260912-142652.jpg",
+        "file_name": "penelope-look02-overlay_20260912-142652.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/penelope-look02-overlay_20260912-142652.prompt.md",
+        "file_name": "penelope-look02-overlay_20260912-142652.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/penelope-look02-overlay_20260912-142652.keep.json",
+        "file_name": "penelope-look02-overlay_20260912-142652.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ]
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/penelope-look02-overlay_20260912-142652.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

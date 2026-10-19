@@ -1,0 +1,83 @@
+{
+  "id": "treatment.strappy-bondage-micro-h7",
+  "kind": "treatment",
+  "name": "Strappy Bondage Micro Set (Heat 7)",
+  "version": "1.0.1",
+  "description": "Locked Heat 7 costume treatment: extremely micro black leather hot pants + small black nipple pasties only + complex multi-strap black leather bondage harness with rings, clips and thigh bindings. Dramatic volumetric lighting with strong rim light and controlled haze. Designed to be chained with Olivia/Bunny DNA packs and persona presets. Dual-engine aware (IP-WQ-032).",
+  "tags": [
+    "treatment",
+    "costume",
+    "bondage",
+    "harness",
+    "micro",
+    "heat-7",
+    "strappy",
+    "leather",
+    "dual-engine"
+  ],
+  "prompt_terms": [
+    {
+      "term": "extremely micro black leather hot pants, barely-there cut",
+      "variance": 0.25,
+      "weight": 1.0
+    },
+    {
+      "term": "small black nipple pasties only, no bra",
+      "variance": 0.2,
+      "weight": 1.0
+    },
+    {
+      "term": "complex extra-strappy black leather bondage harness and suspenders with multiple crossing straps, metal rings, clips and thigh bindings",
+      "variance": 0.3,
+      "weight": 1.0
+    },
+    {
+      "term": "dense fetish harness aesthetic, high strap density",
+      "variance": 0.35,
+      "weight": 0.85
+    },
+    {
+      "term": "dramatic volumetric lighting with strong rim light and controlled haze",
+      "variance": 0.3,
+      "weight": 0.9
+    },
+    {
+      "term": "high detail on leather straps, metal hardware, pasties and micro shorts",
+      "variance": 0.25,
+      "weight": 0.8
+    }
+  ],
+  "engines": {
+    "generate": {
+      "notes": "Full constructive description. Prefer the primary prompt_terms block as-is. Emphasize 'extremely micro / barely-there' and strap density to fight length creep and back-strap simplification.",
+      "extra_terms": [
+        {
+          "term": "photorealistic full-body or three-quarter portrait, same ground plane",
+          "weight": 0.7
+        }
+      ]
+    },
+    "overlay": {
+      "notes": "When used on an existing image (edit / merge path), treat the pack as a costume + lighting directive rather than a full scene rebuild. Prioritize strap routing, pastie scale, and micro-short length. Preserve existing pose and camera unless the BRIEF explicitly changes them.",
+      "extra_terms": [
+        {
+          "term": "preserve existing pose and framing; update only costume, harness detail and volumetric lighting",
+          "weight": 0.9
+        },
+        {
+          "term": "reinforce extremely micro black leather hot pants and small black pasties; correct any length or placement drift",
+          "weight": 0.85
+        }
+      ]
+    }
+  },
+  "content": {
+    "taxonomy": "treatment",
+    "taxonomy_updated": "2026-08-13T13:26:00-04:00",
+    "source_asset": "visuals/assets/costumes/strappy-bondage-micro-set/v0.1.0",
+    "heat_baseline": 7,
+    "dna_locks_required": true,
+    "dual_engine": true,
+    "notes": "Pairs with Olivia + Bunny DNA. Do not override height, hair, Core Mark, or holo-ear locks. Skin-tone series already completed in parent conversation. Dual-engine block added Turn 3 (IP-WQ-032 awareness)."
+  }
+}

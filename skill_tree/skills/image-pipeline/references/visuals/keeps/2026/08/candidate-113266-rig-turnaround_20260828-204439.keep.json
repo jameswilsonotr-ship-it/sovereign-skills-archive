@@ -1,0 +1,62 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "candidate-113266-rig-turnaround_20260828-204439",
+  "slug": "candidate-113266-rig-turnaround",
+  "slug_mode": "auto",
+  "stamp": "20260828-204439",
+  "created": "2026-08-28T20:44:39-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "candidate-113266",
+  "heat": "",
+  "files": {
+    "jpeg": "candidate-113266-rig-turnaround_20260828-204439.jpg",
+    "prompt": "candidate-113266-rig-turnaround_20260828-204439.prompt.md",
+    "keep": "candidate-113266-rig-turnaround_20260828-204439.keep.json"
+  },
+  "sha256": {
+    "jpeg": "40a40a36dcc59273306cfa5b121708c2bdf336ac35106d9a6ca899a87602cbcd",
+    "prompt": "4b226a2bc2afe550205da67c299d60fb398bc7847db5cb9af70412d8c5334317"
+  },
+  "prompt": "D rig turnaround",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/XuC92.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/candidate-113266-rig-turnaround_20260828-204439.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/candidate-113266-rig-turnaround_20260828-204439.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/candidate-113266-rig-turnaround_20260828-204439.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1GsYcUTU0usHaH1EA4EBgLPiT8QZ-xczn",
+    "prompt_id": "1aoy5Bd329puVT8CqIHb6iAwvz4luv0gG",
+    "keep_id": "1dkNEGuRJHKMD55ioCF0f87o8EkmH3GRi",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/candidate-113266-rig-turnaround_20260828-204439.jpg",
+        "file_name": "candidate-113266-rig-turnaround_20260828-204439.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/candidate-113266-rig-turnaround_20260828-204439.prompt.md",
+        "file_name": "candidate-113266-rig-turnaround_20260828-204439.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/candidate-113266-rig-turnaround_20260828-204439.keep.json",
+        "file_name": "candidate-113266-rig-turnaround_20260828-204439.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T01:51:09+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078"
+}

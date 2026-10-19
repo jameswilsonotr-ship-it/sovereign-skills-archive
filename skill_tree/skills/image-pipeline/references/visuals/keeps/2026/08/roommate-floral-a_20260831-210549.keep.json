@@ -1,0 +1,70 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "roommate-floral-a_20260831-210549",
+  "slug": "roommate-floral-a",
+  "slug_mode": "explicit",
+  "stamp": "20260831-210549",
+  "created": "2026-08-31T21:05:49-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "olivia",
+  "heat": "",
+  "files": {
+    "jpeg": "roommate-floral-a_20260831-210549.jpg",
+    "prompt": "roommate-floral-a_20260831-210549.prompt.md",
+    "keep": "roommate-floral-a_20260831-210549.keep.json"
+  },
+  "sha256": {
+    "jpeg": "f380f93fdebd36cfee8fa1e1552ca6269123e76325a61f4cfd9b0f6d27e8c653",
+    "prompt": "c713f2283d7e590a425a5dbb5931ebaea6bdd7110bc42e563d45f28432f63f6e"
+  },
+  "prompt": "Cluster A wardrobe 1. Floral embroidered tube + white scallop skirt. Original adult face. Shutters. Not a streamer.",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/Voku2.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/roommate-floral-a_20260831-210549.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/roommate-floral-a_20260831-210549.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/roommate-floral-a_20260831-210549.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1KYHarKiOJQ_sfl3DJO0yBE8MhWUtlk13",
+    "prompt_id": "1ULznISDmUFnyb14qPY8Lr-kGAilPvOK0",
+    "keep_id": "1w2joGx50Kn9106PnFUhvI4S6B6a3kllO",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/roommate-floral-a_20260831-210549.jpg",
+        "file_name": "roommate-floral-a_20260831-210549.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/roommate-floral-a_20260831-210549.prompt.md",
+        "file_name": "roommate-floral-a_20260831-210549.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/roommate-floral-a_20260831-210549.keep.json",
+        "file_name": "roommate-floral-a_20260831-210549.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-09-01T01:06:24+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/roommate-floral-a_20260831-210549.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

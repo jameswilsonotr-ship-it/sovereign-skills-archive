@@ -1,0 +1,69 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "cand-haleycore-b-heat_20260912-093544_b-heat",
+  "slug": "cand-haleycore-b-heat",
+  "slug_mode": "explicit",
+  "stamp": "20260912-093544",
+  "created": "2026-09-12T09:35:44-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "cand-haleycore",
+  "heat": "2",
+  "files": {
+    "jpeg": "cand-haleycore-b-heat_20260912-093544_b-heat.jpg",
+    "prompt": "cand-haleycore-b-heat_20260912-093544_b-heat.prompt.md",
+    "keep": "cand-haleycore-b-heat_20260912-093544_b-heat.keep.json"
+  },
+  "sha256": {
+    "jpeg": "bc91222909eb6a180d411f196459f9859a745de314fa8b2a82fb984aeeddbc92",
+    "prompt": "dafa3ea4071ce19259a8cb507498ac193a2f24242383776c4b7c8e8ae2c9c673"
+  },
+  "prompt": "cat ears heat cousin",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/8F2ZZ.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/cand-haleycore-b-heat_20260912-093544_b-heat.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/cand-haleycore-b-heat_20260912-093544_b-heat.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/cand-haleycore-b-heat_20260912-093544_b-heat.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/09"
+  },
+  "drive": {
+    "status": "queued",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": null,
+    "prompt_id": null,
+    "keep_id": null,
+    "uploads": [
+      {
+        "artifact_path": "/rendered/cand-haleycore-b-heat_20260912-093544_b-heat.jpg",
+        "file_name": "cand-haleycore-b-heat_20260912-093544_b-heat.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/cand-haleycore-b-heat_20260912-093544_b-heat.prompt.md",
+        "file_name": "cand-haleycore-b-heat_20260912-093544_b-heat.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/cand-haleycore-b-heat_20260912-093544_b-heat.keep.json",
+        "file_name": "cand-haleycore-b-heat_20260912-093544_b-heat.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ]
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/cand-haleycore-b-heat_20260912-093544_b-heat.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

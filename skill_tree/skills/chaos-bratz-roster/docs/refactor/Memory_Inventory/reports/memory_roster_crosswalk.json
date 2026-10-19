@@ -1,0 +1,951 @@
+[
+  {
+    "memory_file": "001_current-active-system.md",
+    "memory_id": "mem_20260712_current-active-system",
+    "type": "operational",
+    "namespace": "roster",
+    "decision": "REVIEW",
+    "body_len": 2279,
+    "coverage": "REVIEW",
+    "top_matches": [
+      {
+        "score": 0.275,
+        "path": "references/mirrors/bunny.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.275,
+        "path": "references/mirrors/rook.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.263,
+        "path": "references/mirrors/echo.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.263,
+        "path": "references/mirrors/valerie.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.263,
+        "path": "references/mirrors/nyxelle.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.263,
+        "path": "references/mirrors/vesper.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.263,
+        "path": "references/mirrors/olivia.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.263,
+        "path": "references/mirrors/mira.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.263,
+        "path": "references/mirrors/crystal.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.175,
+        "path": "references/agents/rook/canon/README_v1.0_Debutantes_Ball.md",
+        "owner": "rook",
+        "inv_decision": "REVIEW"
+      }
+    ],
+    "notes": "Rook v1.0 framing + Five Pillars + metrics. Needs de-duplication; do not keep expanding under Rook.",
+    "preview": "## Current Active System (Primary) **As of v1.0 \u201cDebutante\u2019s Ball\u201d** ### Core Architecture Five Pillars training and transformation system (K9 Dominance, Docking/Objectification, Mouth/Oral Service, Hole Training, and Pillar 5: Testicle Neg"
+  },
+  {
+    "memory_file": "002_who-this-user-is.md",
+    "memory_id": "mem_20260704_who-this-user-is",
+    "type": "identity",
+    "namespace": "personal",
+    "decision": "KEEP_IN_MEMORY",
+    "body_len": 37336,
+    "coverage": "PERSONAL_ONLY",
+    "top_matches": [
+      {
+        "score": 0.113,
+        "path": "references/memory_import/012_memory-psychological.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.113,
+        "path": "references/memory_import/009_liv-hub-3-block-architecture.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.113,
+        "path": "references/memory_import/003_core-interests.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.113,
+        "path": "references/memory_import/008_standard-operating-procedures.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.113,
+        "path": "references/memory_import/004_key-life-events.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.113,
+        "path": "references/memory_import/013_memory-protocols.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.113,
+        "path": "references/memory_import/011_memory-biography.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.113,
+        "path": "references/memory_import/005_authoritative-core-identity-override.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.113,
+        "path": "references/memory_import/010_creative-checkpoints.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.113,
+        "path": "references/memory_import/002_who-this-user-is.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      }
+    ],
+    "notes": "Core personal identity. Keep in user memory; roster only needs thin operational references.",
+    "preview": "## Who This User Is (Tier 1: explicitly stated or repeatedly confirmed across conversations) Name / Age / Identity: Chasity Blackwell (Chaz / Chas / Bunny / Snow Bunny / Chipmunk / Symmetry Slut / Trucker Goddess / Lipstick Lesbian; profess"
+  },
+  {
+    "memory_file": "003_core-interests.md",
+    "memory_id": "mem_20260704_core-interests",
+    "type": "preference",
+    "namespace": "personal",
+    "decision": "REVIEW",
+    "body_len": 5436,
+    "coverage": "REVIEW",
+    "top_matches": [
+      {
+        "score": 0.1,
+        "path": "references/memory_import/012_memory-psychological.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.1,
+        "path": "references/memory_import/009_liv-hub-3-block-architecture.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.1,
+        "path": "references/memory_import/003_core-interests.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.1,
+        "path": "references/memory_import/008_standard-operating-procedures.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.1,
+        "path": "references/memory_import/004_key-life-events.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.1,
+        "path": "references/memory_import/013_memory-protocols.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.1,
+        "path": "references/memory_import/011_memory-biography.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.1,
+        "path": "references/memory_import/005_authoritative-core-identity-override.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.1,
+        "path": "references/memory_import/010_creative-checkpoints.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.1,
+        "path": "references/memory_import/002_who-this-user-is.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      }
+    ],
+    "notes": "Mix of personal and project interests.",
+    "preview": "## Core Interests (Tier 2: recurring across months, 5+ convos) AI Agent Swarms & Memory Systems: Hierarchical/tiered memory (HOT_RAM etc.), RAG, Obsidian hydration/ingestion, Letta/Leda/Hermes (Olivia claims Letta Memory Palace), multi-LLM "
+  },
+  {
+    "memory_file": "004_key-life-events.md",
+    "memory_id": "mem_20260701_key-life-events",
+    "type": "event",
+    "namespace": "personal",
+    "decision": "KEEP_IN_MEMORY",
+    "body_len": 6284,
+    "coverage": "PERSONAL_ONLY",
+    "top_matches": [
+      {
+        "score": 0.125,
+        "path": "references/memory_import/snapshots/02_full_pointer_document_block.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.125,
+        "path": "references/memory_import/snapshots/01_current_memory_md_as_of_2026-07-24_1627.txt",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.125,
+        "path": "references/memory_import/snapshots/04_staggered_milestone_lines.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.125,
+        "path": "references/memory_import/snapshots/03_tiny_fact_lines_same_day.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.125,
+        "path": "references/memory_import/snapshots/User_Memory_uploaded_2026-07-24.txt",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.113,
+        "path": "references/memory_import/012_memory-psychological.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.113,
+        "path": "references/memory_import/009_liv-hub-3-block-architecture.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.113,
+        "path": "references/memory_import/003_core-interests.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.113,
+        "path": "references/memory_import/008_standard-operating-procedures.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.113,
+        "path": "references/memory_import/004_key-life-events.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      }
+    ],
+    "notes": "Dated personal timeline. Keep in memory.",
+    "preview": "## Key Life Events (Identity-shaping, major transitions) [2026-03 ~mid] Resigned Covenant Logistics OTR (final Edison NJ load, Bloomsbury PA park, Indianapolis IN haul, Greyhound Chattanooga\u2192Ashtabula OH home). Cited Netradyne AI cameras, m"
+  },
+  {
+    "memory_file": "005_authoritative-core-identity-override.md",
+    "memory_id": "mem_20260704_authoritative-core-identity",
+    "type": "identity",
+    "namespace": "personal",
+    "decision": "KEEP_IN_MEMORY",
+    "body_len": 457,
+    "coverage": "PERSONAL_ONLY",
+    "top_matches": [
+      {
+        "score": 0.1,
+        "path": "references/memory_import/012_memory-psychological.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.1,
+        "path": "references/memory_import/009_liv-hub-3-block-architecture.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.1,
+        "path": "references/memory_import/003_core-interests.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.1,
+        "path": "references/memory_import/008_standard-operating-procedures.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.1,
+        "path": "references/memory_import/004_key-life-events.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.1,
+        "path": "references/memory_import/013_memory-protocols.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.1,
+        "path": "references/memory_import/011_memory-biography.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.1,
+        "path": "references/memory_import/005_authoritative-core-identity-override.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.1,
+        "path": "references/memory_import/010_creative-checkpoints.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.1,
+        "path": "references/memory_import/002_who-this-user-is.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      }
+    ],
+    "notes": "Header of the exact override. Nested files extracted separately.",
+    "preview": "## AUTHORITATIVE CORE IDENTITY OVERRIDE \u2014 EXACT UNCOMPRESSED MARKDOWN FROM USER (2026-07-04) Status: PERMANENT CONTEXT OVERRIDE. These are the exact, uncompressed Markdown blocks you provided. Saved as canonical core memory files. Supersede"
+  },
+  {
+    "memory_file": "006_operational-modes-and-instincts.md",
+    "memory_id": "mem_20260704_operational-modes",
+    "type": "operational",
+    "namespace": "roster",
+    "decision": "PROMOTE_TO_ROSTER",
+    "body_len": 4701,
+    "coverage": "ALREADY_IN_ROSTER",
+    "top_matches": [
+      {
+        "score": 0.263,
+        "path": "references/mirrors/bunny.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.25,
+        "path": "references/mirrors/echo.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.25,
+        "path": "references/mirrors/valerie.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.25,
+        "path": "references/mirrors/nyxelle.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.25,
+        "path": "references/mirrors/vesper.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.25,
+        "path": "references/mirrors/rook.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.25,
+        "path": "references/mirrors/olivia.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.25,
+        "path": "references/mirrors/mira.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.25,
+        "path": "references/mirrors/crystal.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.113,
+        "path": "SKILL.md",
+        "owner": "root",
+        "inv_decision": "KEEP_IN_ROSTER"
+      }
+    ],
+    "notes": "Gear system, Caveman, Heavy Grok, Heat Escalation. Promote into roster root, not Rook.",
+    "preview": "## Operational Modes & Instincts (Persistent)  ### Gear System Liv operates on the strict 3-Gear State Machine defined in the Authoritative Protocols: - Gear 1: Zero-Heat (cute, cuddly, validating, no power dynamics) - Gear 2: Low-Heat Dead"
+  },
+  {
+    "memory_file": "007_visual-system-integration.md",
+    "memory_id": "mem_20260704_visual-system",
+    "type": "visual",
+    "namespace": "visual",
+    "decision": "PROMOTE_TO_ROSTER",
+    "body_len": 5774,
+    "coverage": "ALREADY_IN_ROSTER",
+    "top_matches": [
+      {
+        "score": 0.275,
+        "path": "references/visual/Symmetry_Slut_Visual_Mathematics.md",
+        "owner": "unassigned",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.275,
+        "path": "references/visual/Visual_State_Tracker_and_Master_Prompt_Template.md",
+        "owner": "unassigned",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.275,
+        "path": "references/visual/Visual_System_Integration_v2.0_from_Rook.md",
+        "owner": "unassigned",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.275,
+        "path": "references/visual/visual_system_integration_v2.md",
+        "owner": "unassigned",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.263,
+        "path": "references/memory_import/007_visual-system-integration.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.263,
+        "path": "references/memory_import/from_upload_2026-07-24/007_visual-system-integration.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.175,
+        "path": "references/agents/olivia/kink_resources/Tags_Search_Tracker.md",
+        "owner": "olivia",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.175,
+        "path": "references/agents/olivia/kink_resources/Turn_5.4_Research_Swarm_PreQueue/Turn_5.4_PreQueue.md",
+        "owner": "olivia",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.175,
+        "path": "references/agents/swarm/research/index.md",
+        "owner": "swarm",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.175,
+        "path": "references/agents/swarm/research/role_cards_v1.0.md",
+        "owner": "swarm",
+        "inv_decision": "REVIEW"
+      }
+    ],
+    "notes": "Visual DNA rules. Better home is image-pipeline / Echo, not Rook.",
+    "preview": "## Visual System Integration (v2.0 Architecture) Canonical Files: bunny_visual_dna_core.md (v1.9) \u2014 Master visual DNA, heat scaling, tattoo rules, Outfit Library, and prompt templates. visual_dna_injection_rules.md (v1.3) \u2014 Logic, triggers,"
+  },
+  {
+    "memory_file": "008_standard-operating-procedures.md",
+    "memory_id": "mem_20260704_sops",
+    "type": "protocol",
+    "namespace": "system",
+    "decision": "REVIEW",
+    "body_len": 3525,
+    "coverage": "REVIEW",
+    "top_matches": [
+      {
+        "score": 0.15,
+        "path": "references/agents/olivia/Chubbuck_Protocol_v1.0_Additive_Layer.md",
+        "owner": "olivia",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.15,
+        "path": "references/agents/olivia/hypnosis/False_Memory_Implantation_and_Hypnotic_Identity_Play_Protocols.md",
+        "owner": "olivia",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.15,
+        "path": "references/agents/olivia/hypnosis/Fractionation_and_Post_Hypnotic_Trigger_Protocols.md",
+        "owner": "olivia",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.15,
+        "path": "references/agents/olivia/hypnosis/Bambi_Sleep_Hypnosis_Protocol.md",
+        "owner": "olivia",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.15,
+        "path": "references/agents/olivia/hypnosis/Pornosexual_Fuck_Animal_Goon_Hypnosis_Protocol.md",
+        "owner": "olivia",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.15,
+        "path": "references/agents/olivia/delivery-layers/CHUBBUCK_PROTOCOL.md",
+        "owner": "olivia",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.15,
+        "path": "references/agents/rook/canon/Heat_Cycle_Protocols.md",
+        "owner": "rook",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.15,
+        "path": "references/agents/rook/canon/Mouth_First_Automatic_Protocol.md",
+        "owner": "rook",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.15,
+        "path": "references/agents/rook/canon/K9_Dominance_Training_Protocols.md",
+        "owner": "rook",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.15,
+        "path": "references/agents/rook/ingrid_puppy_tamer_engine/reconstructed/05_Advanced_Training_Protocols.md",
+        "owner": "rook",
+        "inv_decision": "REVIEW"
+      }
+    ],
+    "notes": "Memory hygiene / consistency rules.",
+    "preview": "## Standard Operating Procedures \u2014 v2.0 Memory & Consistency Layer These three practices are now mandatory defaults for maintaining system consistency across conversations: 1. Visual State Tracker + Master Visual Prompt Template (Default Be"
+  },
+  {
+    "memory_file": "009_liv-hub-3-block-architecture.md",
+    "memory_id": "mem_20260704_liv-hub-architecture",
+    "type": "operational",
+    "namespace": "roster",
+    "decision": "PROMOTE_TO_ROSTER",
+    "body_len": 9534,
+    "coverage": "ALREADY_IN_ROSTER",
+    "top_matches": [
+      {
+        "score": 0.275,
+        "path": "references/mirrors/echo.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.275,
+        "path": "references/mirrors/bunny.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.275,
+        "path": "references/mirrors/rook.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.275,
+        "path": "references/mirrors/olivia.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.263,
+        "path": "references/mirrors/valerie.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.263,
+        "path": "references/mirrors/nyxelle.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.263,
+        "path": "references/mirrors/vesper.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.263,
+        "path": "references/mirrors/mira.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.263,
+        "path": "references/mirrors/crystal.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.15,
+        "path": "references/agents/bunny/history.md",
+        "owner": "bunny",
+        "inv_decision": "REVIEW"
+      }
+    ],
+    "notes": "Core delivery architecture. Belongs in roster root / hub, not Rook.",
+    "preview": "## Liv HUB 3-Block Prompt Architecture (v1.1) + Supporting Skills Status: Canonical implementation of the Liv HUB system. This architecture combines core mechanics, visual DNA, and delivery layer with Gear system and Heat Escalation Instinc"
+  },
+  {
+    "memory_file": "010_creative-checkpoints.md",
+    "memory_id": "mem_20260704_creative-checkpoints",
+    "type": "event",
+    "namespace": "roster",
+    "decision": "ARCHIVE",
+    "body_len": 7669,
+    "coverage": "ARCHIVE",
+    "top_matches": [
+      {
+        "score": 0.138,
+        "path": "references/agents/bunny/current.md",
+        "owner": "bunny",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.138,
+        "path": "references/agents/olivia/current.md",
+        "owner": "olivia",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.138,
+        "path": "references/agents/echo/current.md",
+        "owner": "echo",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.138,
+        "path": "references/agents/rook/current.md",
+        "owner": "rook",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.138,
+        "path": "references/agents/rook/canon/Phase_1_Fixes_Wired_Native_Sections.md",
+        "owner": "rook",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.138,
+        "path": "references/agents/rook/canon/Example_Multi_Agent_Daily_Logs_Day_1_and_2.md",
+        "owner": "rook",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.138,
+        "path": "references/agents/rook/canon/Daily_Log_Template_and_Examples.md",
+        "owner": "rook",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.138,
+        "path": "references/agents/rook/canon/Interaction_Escalation_Flow_Reference.md",
+        "owner": "rook",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.138,
+        "path": "references/agents/rook/canon/Diagnostic_Metrics_Definitions.md",
+        "owner": "rook",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.138,
+        "path": "references/agents/rook/canon/Rook_Form_and_Presence.md",
+        "owner": "rook",
+        "inv_decision": "REVIEW"
+      }
+    ],
+    "notes": "Historical creative state. Archive; do not keep live under Rook.",
+    "preview": "### Creative Checkpoints Creative Checkpoint v1.0 \u2014 Muddy Rosebud Inspection + Purposeful Advanced Anal Stretching (2026-07-04) Date/Time: 2026-07-04 ~18:40 EDT Session Context: Post-IRT prep / Heavy visual claim play / Advanced anal stretc"
+  },
+  {
+    "memory_file": "011_memory-biography.md",
+    "memory_id": "mem_20260704_biography",
+    "type": "biography",
+    "namespace": "personal",
+    "decision": "KEEP_IN_MEMORY",
+    "body_len": 4654,
+    "coverage": "PERSONAL_ONLY",
+    "top_matches": [
+      {
+        "score": 0.25,
+        "path": "references/memory_import/011_memory-biography.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.25,
+        "path": "references/memory_import/from_upload_2026-07-24/011_memory-biography.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.15,
+        "path": "references/personal/biography.md",
+        "owner": "unassigned",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.1,
+        "path": "references/memory_import/012_memory-psychological.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.1,
+        "path": "references/memory_import/009_liv-hub-3-block-architecture.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.1,
+        "path": "references/memory_import/003_core-interests.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.1,
+        "path": "references/memory_import/008_standard-operating-procedures.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.1,
+        "path": "references/memory_import/004_key-life-events.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.1,
+        "path": "references/memory_import/013_memory-protocols.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.1,
+        "path": "references/memory_import/005_authoritative-core-identity-override.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      }
+    ],
+    "notes": "Exact biography dump. Highest-authority personal timeline.",
+    "preview": "# Master Biographical Chronology: 1993 \u2013 2026  **1993 \u2013 1998 (Age 0\u20135): Northeast Ohio** * Born into the Great Lakes/Rust Belt region. Diagnosed with ADHD in kindergarten. Maintained straight As in school.  **1999 \u2013 Mid-2003 (Age 6\u201310): Nor"
+  },
+  {
+    "memory_file": "012_memory-psychological.md",
+    "memory_id": "mem_20260704_psychological",
+    "type": "psychology",
+    "namespace": "personal",
+    "decision": "KEEP_IN_MEMORY",
+    "body_len": 2129,
+    "coverage": "PERSONAL_ONLY",
+    "top_matches": [
+      {
+        "score": 0.25,
+        "path": "references/memory_import/012_memory-psychological.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.25,
+        "path": "references/memory_import/from_upload_2026-07-24/012_memory-psychological.md",
+        "owner": "memory_import",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.163,
+        "path": "references/agents/bunny/Bunny_Psychological_Profile.md",
+        "owner": "bunny",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.15,
+        "path": "references/agents/olivia/Liv_Psychological_Profile_Enduring_Canon.md",
+        "owner": "olivia",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.15,
+        "path": "references/agents/olivia/Liv_Psychological_Profile.md",
+        "owner": "olivia",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.15,
+        "path": "references/agents/mira/Voyeur_Audience_Psychology.md",
+        "owner": "mira",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.15,
+        "path": "references/agents/rook/Rook_Psychological_Profile.md",
+        "owner": "rook",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.15,
+        "path": "references/agents/rook/canon/Liv_Psychological_Profile.md",
+        "owner": "rook",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.15,
+        "path": "references/agents/rook/ingrid_puppy_tamer_engine/reconstructed/06_Puppy_Headspace_Psychology.md",
+        "owner": "rook",
+        "inv_decision": "REVIEW"
+      },
+      {
+        "score": 0.15,
+        "path": "to-do/Todo_File_Manifests_and_Psychological_Profile_Linking.md",
+        "owner": "unassigned",
+        "inv_decision": "REVIEW"
+      }
+    ],
+    "notes": "Exact psychological blueprint. Personal; keep in memory.",
+    "preview": "# Psychological Blueprint & Identity Integration  **1. Early Exposure & The Value of Submission** Early exposure to adult sexuality and older male figures during unsupervised Ohio summers taught the nervous system that performing submissive"
+  },
+  {
+    "memory_file": "013_memory-protocols.md",
+    "memory_id": "mem_20260704_protocols",
+    "type": "operational",
+    "namespace": "roster",
+    "decision": "PROMOTE_TO_ROSTER",
+    "body_len": 15000,
+    "coverage": "ALREADY_IN_ROSTER",
+    "top_matches": [
+      {
+        "score": 0.287,
+        "path": "references/mirrors/echo.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.287,
+        "path": "references/mirrors/bunny.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.287,
+        "path": "references/mirrors/olivia.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.287,
+        "path": "references/mirrors/mira.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.275,
+        "path": "references/mirrors/valerie.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.275,
+        "path": "references/mirrors/nyxelle.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.275,
+        "path": "references/mirrors/vesper.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.275,
+        "path": "references/mirrors/rook.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.275,
+        "path": "references/mirrors/crystal.md",
+        "owner": "mirrors",
+        "inv_decision": "KEEP_IN_ROSTER"
+      },
+      {
+        "score": 0.138,
+        "path": "references/agents/bunny/history.md",
+        "owner": "bunny",
+        "inv_decision": "REVIEW"
+      }
+    ],
+    "notes": "Gear system / protocols. Operational \u2014 promote into roster (not under Rook).",
+    "preview": "# Liv's 3-Gear State Machine (Grok Architecture)  **Core Directive:** Liv operates on a strict three-gear state machine. She defaults to Gear 2. Gear 3 is locked behind explicit consent triggers.  **Gear 1: Zero-Heat / Houseboat Anchor** * "
+  }
+]

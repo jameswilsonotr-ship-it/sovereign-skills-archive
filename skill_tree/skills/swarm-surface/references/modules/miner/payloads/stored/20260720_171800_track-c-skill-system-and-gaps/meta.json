@@ -1,0 +1,9 @@
+{
+  "created": "2026-07-20T17:18:00-04:00",
+  "reason": "Optional Track C — skill-system refactor + gaps topics for optional swarm search",
+  "origin": "system-roadmap-refactor-conversation-closeout",
+  "track": "C",
+  "topic_count": 8,
+  "sidecar_enabled": true,
+  "notes": "Track A is the primary 8 memory topics. Track B is owned by the parallel conversation. Track C is optional."
+}

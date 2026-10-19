@@ -1,0 +1,951 @@
+{
+  "mode": "FULL_FLEET",
+  "started_at": "2026-07-23T04:34:47.754965+00:00",
+  "years": {
+    "2025": {
+      "months": {
+        "10": {
+          "weeks": {},
+          "days": {
+            "2025-10-08": {
+              "count": 4,
+              "folder_id": "1k_C07W4RLQATQ-FM_RnOYQWvhaKtfu8F"
+            },
+            "2025-10-09": {
+              "count": 5,
+              "folder_id": "1FsfZj5S9CADEyaQUzBJh9j8hYwWOBTuT"
+            },
+            "2025-10-11": {
+              "count": 2,
+              "folder_id": "1A2nRSFyOX6Oq_70nibalfN_xrG2K6ifo"
+            },
+            "2025-10-12": {
+              "count": 4,
+              "folder_id": "183zN0zNdlcihw3qqKoJuy9FzxPmYYRAm"
+            },
+            "2025-10-13": {
+              "count": 4,
+              "folder_id": "1UuU9H4xx1UkKqIkek5yaj3ef75bGxief"
+            },
+            "2025-10-21": {
+              "count": 6,
+              "folder_id": "16e6CRIxkHLi7TLUWFYECGhxeBFmlB0qF"
+            },
+            "2025-10-22": {
+              "count": 3,
+              "folder_id": "19mRmFQKYkkNNBUhWCGPpl4BjPylTyAjz"
+            },
+            "2025-10-23": {
+              "count": 2,
+              "folder_id": "1ca2SSao2Xmg8tMbjZLYbchwnz5EFi1aV"
+            },
+            "2025-10-25": {
+              "count": 3,
+              "folder_id": "1BqHQM3QpKZGOvIoJ8luxW17tGfNydRwh"
+            },
+            "2025-10-26": {
+              "count": 2,
+              "folder_id": "1mkQn3k5FSxSD6yDZY_KYjsc6myV3izTa"
+            },
+            "2025-10-28": {
+              "count": 10,
+              "folder_id": "1JLdEW3KZpE4ORC_nWhD_EBrFQGDjQ8iG"
+            },
+            "2025-10-29": {
+              "count": 7,
+              "folder_id": "1vQozn_4I_I-LB2lNhPTICIwgF6DZTxH0"
+            },
+            "2025-10-30": {
+              "count": 5,
+              "folder_id": "1eUC--FSA8hmjevdX8Pc01c7PLxqkOufK"
+            },
+            "2025-10-31": {
+              "count": 15,
+              "folder_id": "1JTUAE5Le2IsfOUBIevpZvvVXWM2eRxR7"
+            }
+          }
+        },
+        "11": {
+          "weeks": {},
+          "days": {
+            "2025-11-01": {
+              "count": 4,
+              "folder_id": "1yO8Pwd8L5hk3QL72tWf4KJTRLz27uazr"
+            },
+            "2025-11-02": {
+              "count": 2,
+              "folder_id": "1c8QJqEF-3Cqdmed9uoc_oqHjBLH7W9X-"
+            },
+            "2025-11-03": {
+              "count": 5,
+              "folder_id": "1WRRMMRW1Ij8Hu5j48RUOOPh-GsQ7kJj_"
+            },
+            "2025-11-04": {
+              "count": 6,
+              "folder_id": "1JLw-2n6hxrHseM1wiuv-mzIcvydaXpee"
+            },
+            "2025-11-05": {
+              "count": 7,
+              "folder_id": "1Es_0LQNc8bhBl_8Nr8dwXav_Wa1PnHOa"
+            },
+            "2025-11-06": {
+              "count": 3,
+              "folder_id": "1VpGuARHdxR_qO-Rs4Z6Rjr4IQhIdSdFA"
+            },
+            "2025-11-07": {
+              "count": 12,
+              "folder_id": "17c6RW0tlRY6RAMYpMFm0BC9py5QS3JAH"
+            },
+            "2025-11-08": {
+              "count": 17,
+              "folder_id": "1ZaTx04gwgt-oB3mCnsh-p0eajMQxyOTk"
+            },
+            "2025-11-09": {
+              "count": 8,
+              "folder_id": "1Gshdi2iOxcInS8bkl26gVt9vlUn6EATz"
+            },
+            "2025-11-10": {
+              "count": 5,
+              "folder_id": "112aAyPpVKdpdrUwvxUJiPwkQ7t5RCslz"
+            },
+            "2025-11-11": {
+              "count": 6,
+              "folder_id": "138UoKln-5QEiUqECAA3bjG-vT1OBZ0ym"
+            },
+            "2025-11-12": {
+              "count": 7,
+              "folder_id": "16mdfRaqmHjG0J4nOVrM4pETtXfmGlDI2"
+            },
+            "2025-11-13": {
+              "count": 12,
+              "folder_id": "13iPspetxa48i_CT_zGPjXpxN9zV4UiCi"
+            },
+            "2025-11-14": {
+              "count": 4,
+              "folder_id": "1bXTsIwT0XisBwr2PxMYVtQ3_0SRqzseP"
+            },
+            "2025-11-15": {
+              "count": 2,
+              "folder_id": "1Gr4hxL4K0VK1N7FbZzM6WjqqYeOA60zP"
+            },
+            "2025-11-20": {
+              "count": 1,
+              "folder_id": "1tPBRWn7noCz5tIAIzk-NGP7_vvq7rmcp"
+            },
+            "2025-11-22": {
+              "count": 1,
+              "folder_id": "1UJALmS6a8a2x0mVt0BmhbJV_FwCNQ6fZ"
+            },
+            "2025-11-26": {
+              "count": 8,
+              "folder_id": "1y2vrGc0ctqhiSKbz-_9Go4BL3ydASpjU"
+            },
+            "2025-11-27": {
+              "count": 6,
+              "folder_id": "1QRlBHx5B-ms1lYGKlem5ZBo63fid3yVJ"
+            },
+            "2025-11-28": {
+              "count": 6,
+              "folder_id": "1QIeHoYGOmPSmQPIppMixW8i9GJEf5xlD"
+            },
+            "2025-11-29": {
+              "count": 2,
+              "folder_id": "1IPEgw6VL-UlP94CsGe27HA3U4FEiyjRN"
+            },
+            "2025-11-30": {
+              "count": 7,
+              "folder_id": "1-TxD-KNbbNhqf6kFlFv8tTkd0VACiXlL"
+            }
+          }
+        },
+        "12": {
+          "weeks": {},
+          "days": {
+            "2025-12-29": {
+              "count": 2,
+              "folder_id": "1vKAEin0H_yfJc7jCXuxUSFTtU6Jyybm7"
+            },
+            "2025-12-30": {
+              "count": 2,
+              "folder_id": "1CBhm8TdTFEkVAJOFomr0ENEic5cFo9A_"
+            },
+            "2025-12-31": {
+              "count": 6,
+              "folder_id": "1Rn9D_dV6hXThuDo5H3NgFekiLOBp8ocW"
+            },
+            "2025-12-01": {
+              "count": 36,
+              "folder_id": "1m8t79pNHT8PQmhyPiC5OQTHadhWRhmZ1"
+            },
+            "2025-12-02": {
+              "count": 14,
+              "folder_id": "1aRokIsBf8k4OiQLwdQOZJqhy31KjNzAf"
+            },
+            "2025-12-03": {
+              "count": 5,
+              "folder_id": "1Iv1_LsxaLRMLdfILIhpCD8VU2S40e3YL"
+            },
+            "2025-12-04": {
+              "count": 4,
+              "folder_id": "1q8mlAraR0GEmelVzcKAIvJJeY4vpOB5-"
+            },
+            "2025-12-05": {
+              "count": 1,
+              "folder_id": "19Bp2tGN1xLTASCyFfJ3p07AqIR99MRhP"
+            },
+            "2025-12-06": {
+              "count": 9,
+              "folder_id": "1J0Src6KjHBOnAT4grW6ifS5qetBCpSXH"
+            },
+            "2025-12-07": {
+              "count": 10,
+              "folder_id": "1EFyLcCdHHmyGobQOqtdrjl3WVrsgA09N"
+            },
+            "2025-12-08": {
+              "count": 37,
+              "folder_id": "1rKUZoyXLTq59cnQvPn82bChre8Jm6Rh2"
+            },
+            "2025-12-09": {
+              "count": 10,
+              "folder_id": "1zBJ85Zy7q9rYJ2RyiiynCYVqQgg0Y-eH"
+            },
+            "2025-12-10": {
+              "count": 6,
+              "folder_id": "14weq_dhuvaF2RJgsf9uJ2lNpoFaqRp53"
+            },
+            "2025-12-11": {
+              "count": 6,
+              "folder_id": "11h_tPADk6Ku0Ajk-HLdbAk5QwPZbsHSS"
+            },
+            "2025-12-12": {
+              "count": 2,
+              "folder_id": "13GHCt1hZQa8RqG5p48tYbHwJEmyHLEcQ"
+            },
+            "2025-12-13": {
+              "count": 5,
+              "folder_id": "1_NDMo9KgQKGOk9wCcut-OZTP57mq5725"
+            },
+            "2025-12-14": {
+              "count": 6,
+              "folder_id": "1IsgmrUQ0JcnG7ExdgrTF8VcEzSFYPmJN"
+            },
+            "2025-12-15": {
+              "count": 5,
+              "folder_id": "1eOMYD7kWDfNy3u5zHs8XNWKdvQLSx1u8"
+            },
+            "2025-12-16": {
+              "count": 17,
+              "folder_id": "1WNKQQBNfPZLX2h7AxdXhldbO2usArAeo"
+            },
+            "2025-12-17": {
+              "count": 4,
+              "folder_id": "1cgbnKB4qXpdxRrSDAw_cPJWKa-AkVyoX"
+            },
+            "2025-12-18": {
+              "count": 4,
+              "folder_id": "1EHi0vES-bBlnVFu8cjI8T0opnfbLoZ1G"
+            },
+            "2025-12-19": {
+              "count": 4,
+              "folder_id": "1RFPtRD1flYmBTok5om1WHd_o8WNdmIzO"
+            },
+            "2025-12-20": {
+              "count": 10,
+              "folder_id": "1PfxxHwzBjPopPvAmi0Ae_U7A9EZ3jmgS"
+            },
+            "2025-12-21": {
+              "count": 3,
+              "folder_id": "157yURzYbOFe-cHOW0Pd8ijhMBWJJg9_a"
+            },
+            "2025-12-22": {
+              "count": 4,
+              "folder_id": "1JnUxiQC5MmvFcS_o7jOUIufzfSALrYg2"
+            },
+            "2025-12-23": {
+              "count": 3,
+              "folder_id": "1v3vIKbA-9xQRkEPu6iBWy-Qn8ApIusWF"
+            },
+            "2025-12-24": {
+              "count": 2,
+              "folder_id": "1oyIJZDaNcCA355djBVm4i7TByRKQd8Gm"
+            },
+            "2025-12-25": {
+              "count": 2,
+              "folder_id": "10N4b1lVCqhodvFGG88k4ueth0sW479pA"
+            },
+            "2025-12-26": {
+              "count": 8,
+              "folder_id": "1sFfpeThzwVDpP6zp94FFpb94OGYC-U-S"
+            },
+            "2025-12-27": {
+              "count": 4,
+              "folder_id": "14b95PmEh0RnhmpMBm7u29Nw_ssSVJKej"
+            },
+            "2025-12-28": {
+              "count": 2,
+              "folder_id": "1kwYfnqCDdXAvcJE7IcdvpD6KwhUSP3Qd"
+            }
+          }
+        }
+      },
+      "day_count": 84,
+      "file_count": 478
+    },
+    "2026": {
+      "months": {
+        "01": {
+          "weeks": {},
+          "days": {
+            "2026-01-01": {
+              "count": 3,
+              "folder_id": "1beTqDJNuwVuVWETo-ztyU6gNmD7NQ0Yh"
+            },
+            "2026-01-02": {
+              "count": 7,
+              "folder_id": "1b1Go5Jd47mWbBGpR2X9ir_vYAAlio6Ac"
+            },
+            "2026-01-03": {
+              "count": 6,
+              "folder_id": "16nlNT_NmlQ8L8y70hu1AQvMkg6C_gUJU"
+            },
+            "2026-01-04": {
+              "count": 5,
+              "folder_id": "15fFiGrJc-VG75Jl42ToCU8j9pSQfJ91F"
+            },
+            "2026-01-05": {
+              "count": 14,
+              "folder_id": "15HMZg1yPWiKD3QZ8TLaHgjG7EXkWHRQB"
+            },
+            "2026-01-06": {
+              "count": 9,
+              "folder_id": "1wut55Ktume9Zf0L9s9Ud194fAjkMrBmB"
+            },
+            "2026-01-07": {
+              "count": 6,
+              "folder_id": "1QaVX2-gz3aYvhbPXzog1_IO3D1X4oVAi"
+            },
+            "2026-01-08": {
+              "count": 9,
+              "folder_id": "1UX1l2jpsNsUxTQg-4ZLstczGbs8C9Isn"
+            },
+            "2026-01-09": {
+              "count": 18,
+              "folder_id": "1Nd1zCLf5jED3CIZCWly5QfQQ2dWcDvNu"
+            },
+            "2026-01-10": {
+              "count": 4,
+              "folder_id": "1x7uECLaim4Efw1eYbW9ti-zgZquRSND1"
+            },
+            "2026-01-11": {
+              "count": 10,
+              "folder_id": "1S-Jk6baitlyhg1JtcJ8weDgm4sGMK10P"
+            },
+            "2026-01-12": {
+              "count": 4,
+              "folder_id": "1nGQuZnwajtjNYmqIeMX7rGmg70cD0JzO"
+            },
+            "2026-01-13": {
+              "count": 15,
+              "folder_id": "1zxj0DyWOcg-l4LkIkLNLzN-_Iiz4yOQy"
+            },
+            "2026-01-14": {
+              "count": 4,
+              "folder_id": "1jLhbTE-mobvUwgasgTGXmAHFDRPtlEs6"
+            },
+            "2026-01-15": {
+              "count": 4,
+              "folder_id": "1i7bvIjsnIBOJsoVfYNFMxAw83i6HCH54"
+            },
+            "2026-01-16": {
+              "count": 9,
+              "folder_id": "1xpC6aIcdrRDw56dCmo42QUwgAscNyQ1q"
+            },
+            "2026-01-17": {
+              "count": 20,
+              "folder_id": "15n4TwO4A6IOUdKhZ14gUlyH6VmzqQ79y"
+            },
+            "2026-01-18": {
+              "count": 11,
+              "folder_id": "1dm2acNGIEdLfNYNqTexkFJdR8rrr7mQD"
+            },
+            "2026-01-19": {
+              "count": 1,
+              "folder_id": "1V6ITsvXln0aF1hHKRzWKHnc1Bd6ngQrz"
+            },
+            "2026-01-20": {
+              "count": 1,
+              "folder_id": "1QDHi3O8oEQOXTi-5GnbUqerpblNrGdry"
+            },
+            "2026-01-21": {
+              "count": 5,
+              "folder_id": "12CuoZ2pMWb3tsZBfaIEAkUcyeghQZY5h"
+            },
+            "2026-01-22": {
+              "count": 9,
+              "folder_id": "1NhTC-Jfvsl5lnaq0-9X5wr8_mKFDnoSV"
+            },
+            "2026-01-24": {
+              "count": 3,
+              "folder_id": "1bRKNrC9_1ZxFfL9zVwwVMO6AkcAKmI9A"
+            },
+            "2026-01-25": {
+              "count": 5,
+              "folder_id": "1-aKRBLYI_4WSrX1V9xJOF387ut7G1J-S"
+            },
+            "2026-01-26": {
+              "count": 2,
+              "folder_id": "1FgXyHEJDr0ot8LSt90jKzlkJ56P0qjaz"
+            },
+            "2026-01-27": {
+              "count": 19,
+              "folder_id": "1Ao675WoeZc9fyGodESzap0fJnJ6lPWe2"
+            },
+            "2026-01-28": {
+              "count": 22,
+              "folder_id": "1k1A9QkVfZsJWHoZF8FT3LS8nd7hGeOfH"
+            },
+            "2026-01-29": {
+              "count": 6,
+              "folder_id": "1dP_iYqQ6_dzctjZ58EAn8O9xUtJpAi7t"
+            },
+            "2026-01-30": {
+              "count": 10,
+              "folder_id": "1Jwn5hbInfSBji0txLkglpEccO4Sbe5V_"
+            },
+            "2026-01-31": {
+              "count": 6,
+              "folder_id": "11ZK9xofJhJOP0YDLG3krzjTcnx_QfqpT"
+            }
+          }
+        },
+        "02": {
+          "weeks": {},
+          "days": {
+            "2026-02-01": {
+              "count": 6,
+              "folder_id": "1UT2yfckqfQ8hqTkRLSHCTLvqvU5tDFQD"
+            },
+            "2026-02-02": {
+              "count": 10,
+              "folder_id": "1_YygVZBHcTdQWZ-gLd4Ilkb_LTWeo7iy"
+            },
+            "2026-02-03": {
+              "count": 4,
+              "folder_id": "1QF-1iOFhrhpWfY9TIYNiYDhjVGvCnU0d"
+            },
+            "2026-02-04": {
+              "count": 3,
+              "folder_id": "1BT9fbEP-BAPyTcCOFZXVHeqM6NhyURGo"
+            },
+            "2026-02-05": {
+              "count": 24,
+              "folder_id": "1RIIOoz9uC2PTYekuf5_mTNTbqXV4JhO8"
+            },
+            "2026-02-06": {
+              "count": 10,
+              "folder_id": "15-AqPImK3gsNLJXpMh0KdWCMdU2XiM0C"
+            },
+            "2026-02-07": {
+              "count": 9,
+              "folder_id": "1BC3KaOQRtVw4fWAAe8ZQQURMTSVXrYsY"
+            },
+            "2026-02-08": {
+              "count": 9,
+              "folder_id": "1R74dABI7jhvOVsFZf4_R2xc5KCG4Xy16"
+            },
+            "2026-02-09": {
+              "count": 6,
+              "folder_id": "1Gf7XRjT9vbEPZaY7Xv3tnJj9KKmc07GA"
+            },
+            "2026-02-10": {
+              "count": 9,
+              "folder_id": "19-pBIAA18GrYI7e6W9v8GWYaYtQ-Xmg6"
+            },
+            "2026-02-11": {
+              "count": 10,
+              "folder_id": "1wkT_Yevhwyo2Nrrc54yKGizr68yECrcN"
+            },
+            "2026-02-12": {
+              "count": 9,
+              "folder_id": "16TvICaGN9rX3RpmIOzy7B9flwygmtX2O"
+            },
+            "2026-02-13": {
+              "count": 8,
+              "folder_id": "1PhXQLkSdJV1g5lG-1D6jyoeLHC43q3UV"
+            },
+            "2026-02-14": {
+              "count": 10,
+              "folder_id": "1DXkQAfgGf8h_SPVutuejqX34p1u59CyS"
+            },
+            "2026-02-15": {
+              "count": 5,
+              "folder_id": "1bEvcT5LHnuH4Sx_iPnCx4c8-0EXJYZTh"
+            },
+            "2026-02-16": {
+              "count": 6,
+              "folder_id": "1psqECo0fkpBv7ADryGv72KKg67c1ByfS"
+            },
+            "2026-02-17": {
+              "count": 5,
+              "folder_id": "1Qw9zFC_1r4jj9dzO6n8kEwLTR9yVgSpX"
+            },
+            "2026-02-18": {
+              "count": 4,
+              "folder_id": "1FaSsi7jETUImFh8Q5QRPELvf6SDWvrtw"
+            },
+            "2026-02-19": {
+              "count": 8,
+              "folder_id": "18vpD7VeFPecceHOqmiV5MySrixV3dGLq"
+            },
+            "2026-02-20": {
+              "count": 6,
+              "folder_id": "1eBXBoDqvMjKzifX8fhi_Oxd88tuRScLN"
+            },
+            "2026-02-21": {
+              "count": 5,
+              "folder_id": "1YbyqvJ61SgmPxiQMuPoavbD1fp0yaHXa"
+            },
+            "2026-02-22": {
+              "count": 3,
+              "folder_id": "1XdsPRHPgxmCaOBFEycMQuwX119M2wOYF"
+            },
+            "2026-02-23": {
+              "count": 10,
+              "folder_id": "1SSS4rqpO90dw0SGYa4J24ru5ffjl4j2G"
+            },
+            "2026-02-24": {
+              "count": 4,
+              "folder_id": "1H_lF9BPp0HeF5VGUdEMnXR2F_iv7Mlwk"
+            },
+            "2026-02-25": {
+              "count": 4,
+              "folder_id": "17LwdXlgXu-x0GNJwLKiW9ia4qVMzQ5UP"
+            },
+            "2026-02-26": {
+              "count": 11,
+              "folder_id": "1s2pt_xiS4MVjH6_okVHd0QDQUHf6lAds"
+            },
+            "2026-02-27": {
+              "count": 8,
+              "folder_id": "1RYmYuvGcFj-ZvjOSIXW9rEL9VtQLiWdk"
+            },
+            "2026-02-28": {
+              "count": 4,
+              "folder_id": "1jmo2LdZj5Wqgskerc8BrIi-rH0NQLOxH"
+            }
+          }
+        },
+        "03": {
+          "weeks": {},
+          "days": {
+            "2026-03-01": {
+              "count": 10,
+              "folder_id": "1Xsh_E3gqEW_kq9q4r-SrpSLxwkL3ZxRX"
+            },
+            "2026-03-02": {
+              "count": 20,
+              "folder_id": "1P-0buRUgkUeAdeTJvLKHTN_7bZRyRiwu"
+            },
+            "2026-03-03": {
+              "count": 2,
+              "folder_id": "1cW9S5u5w6S0Y8bWeIqljIWwfghaWKodf"
+            },
+            "2026-03-04": {
+              "count": 4,
+              "folder_id": "1wwu3NXWmq-g-OdlbDSBGvnykx0gG1z3j"
+            },
+            "2026-03-05": {
+              "count": 5,
+              "folder_id": "1xiGPoQoEJ6AjWS5StJYvT9UAgRaEF9Rp"
+            },
+            "2026-03-06": {
+              "count": 2,
+              "folder_id": "1TofT9sFSOqudT8D0VyTK-9yNE5z6xY04"
+            },
+            "2026-03-07": {
+              "count": 2,
+              "folder_id": "1K36yOTqpuB1vPW_loLe6k9bYgqyUg0xy"
+            },
+            "2026-03-08": {
+              "count": 2,
+              "folder_id": "1ughrgFtdIZ8gFAI-h_F1VV3NOPZ6Hfwn"
+            },
+            "2026-03-09": {
+              "count": 4,
+              "folder_id": "1GIImtCdKSlZmefq5VacYKbW0Cjqqi0QK"
+            },
+            "2026-03-10": {
+              "count": 3,
+              "folder_id": "1b1VzuU9Eqg5xofqv_cpwcjkVYJV8vzWl"
+            },
+            "2026-03-11": {
+              "count": 5,
+              "folder_id": "1HXgmD_Tsy_oOWtkOlSrPl894hIiv8uhC"
+            },
+            "2026-03-12": {
+              "count": 9,
+              "folder_id": "15-p_0CX0LA1TRQXuvZ9YiWzTG84Ergk0"
+            },
+            "2026-03-13": {
+              "count": 3,
+              "folder_id": "1u-wM02xLGy8fG6lOPT7sDZHV4LscLoIS"
+            },
+            "2026-03-14": {
+              "count": 6,
+              "folder_id": "1JQGg7lNMWHfNgJvGvCo0dQFS1Ii-C1JO"
+            },
+            "2026-03-15": {
+              "count": 5,
+              "folder_id": "1W1PmqJYwxi42ehD6GdA0RcWiaWYLZM7J"
+            },
+            "2026-03-16": {
+              "count": 6,
+              "folder_id": "1xnvF6bulw6JQw_5Ovw-4QRR4CU_MiOlH"
+            },
+            "2026-03-17": {
+              "count": 15,
+              "folder_id": "1PUmz3JH7-EJThDKBTqzyRI0GvWc8YE1u"
+            },
+            "2026-03-18": {
+              "count": 14,
+              "folder_id": "160cWqbr8C2e89cy8WCYyzbLXZNqxFg0n"
+            },
+            "2026-03-19": {
+              "count": 4,
+              "folder_id": "10j9CVhJUSR-H9_rIDPp_c4_PCXdfFSQt"
+            },
+            "2026-03-20": {
+              "count": 9,
+              "folder_id": "124R6pCCcAsm8uDIkiruZXPEWFHYsr6MG"
+            },
+            "2026-03-21": {
+              "count": 4,
+              "folder_id": "1Lm6x26soqTPBTtzVxspMiuRgouyA3kEC"
+            },
+            "2026-03-22": {
+              "count": 2,
+              "folder_id": "1LJQ4bCGW2ghe8DSs8QScYvxQEB4KSJec"
+            },
+            "2026-03-23": {
+              "count": 6,
+              "folder_id": "1wzyrjC9aT6-Q1hzdjmaEz1ElKqE22kg4"
+            },
+            "2026-03-24": {
+              "count": 10,
+              "folder_id": "1zvflA7Hn394V4aciH1Sn3pYqqaCUOmEm"
+            },
+            "2026-03-25": {
+              "count": 41,
+              "folder_id": "1mGmpeyUBQb-jeu5AqjVvy7RE8jNh28Sv"
+            },
+            "2026-03-26": {
+              "count": 8,
+              "folder_id": "1bK76WMOpVbPfcVAcYya1gw_g94FI7BmP"
+            },
+            "2026-03-27": {
+              "count": 4,
+              "folder_id": "1ufeLzpIKJKxqYuBfN450AvCMiNDJURUv"
+            }
+          }
+        },
+        "04": {
+          "weeks": {},
+          "days": {
+            "2026-04-03": {
+              "count": 2,
+              "folder_id": "1Po-52x2h1107CzwKRWjvPz5xuLJq2tiR"
+            },
+            "2026-04-04": {
+              "count": 6,
+              "folder_id": "17-3m__4oOg2nhXoEXlozlt7C6-AQXv6o"
+            },
+            "2026-04-05": {
+              "count": 21,
+              "folder_id": "1anKxJE8cvYAs57y0_j0uGwaR_ix3zG_A"
+            },
+            "2026-04-06": {
+              "count": 13,
+              "folder_id": "1KPoMlh8iX-zrt9Wg8ZYOfS8arZyG0Gvm"
+            },
+            "2026-04-07": {
+              "count": 17,
+              "folder_id": "1u5B0LcNrRVa2Wrj4wW7v7PtnODvQKD6q"
+            },
+            "2026-04-08": {
+              "count": 15,
+              "folder_id": "1PFLdRCNgPS0yhkyCrGU722wGQGEd4qi9"
+            },
+            "2026-04-09": {
+              "count": 12,
+              "folder_id": "1-dfMEnhBKxFnOyLdsYtMO0R3gSFxV23L"
+            },
+            "2026-04-10": {
+              "count": 5,
+              "folder_id": "1C1cUWIg00N5G-Vblclbp1CCDLj2RzIRs"
+            },
+            "2026-04-11": {
+              "count": 16,
+              "folder_id": "1WFdZRxlADpajFog5y9tvyCkMRL7vvDkm"
+            },
+            "2026-04-12": {
+              "count": 15,
+              "folder_id": "1nhdlyS1MEK9yLWwgiB1Ta-c7YXSKlJ4m"
+            },
+            "2026-04-13": {
+              "count": 6,
+              "folder_id": "1ovkaLfmHg0OKWgDnUuihucZbDFtXZZxX"
+            },
+            "2026-04-14": {
+              "count": 6,
+              "folder_id": "1cT-i27BmNbQeGltakqEGHqk_OW4KPGFI"
+            },
+            "2026-04-15": {
+              "count": 8,
+              "folder_id": "1vhxDv_Xdk6lzzDoQzcARMhaccf8J9BGJ"
+            },
+            "2026-04-16": {
+              "count": 3,
+              "folder_id": "1SBJzSN3ir66XuhVG_S93LhYdR7WA_cjp"
+            },
+            "2026-04-17": {
+              "count": 2,
+              "folder_id": "1zgzAbFe_L9QfDaGVl-zgLWfaB9fymLjk"
+            },
+            "2026-04-18": {
+              "count": 4,
+              "folder_id": "1MUg0yNp2E06PiHoWI6b3m7qNHa5cAfRA"
+            },
+            "2026-04-19": {
+              "count": 3,
+              "folder_id": "1BxoIYEqBOdOSOgfHT9Ig2f-iex0Q6wm6"
+            },
+            "2026-04-20": {
+              "count": 3,
+              "folder_id": "1s7-3Z9cMOImA_D3_KoN7ugvV86jKbQKN"
+            },
+            "2026-04-23": {
+              "count": 5,
+              "folder_id": "1Blhc_QgC89ThHE_omOI9VoAF0kOJ4Aij"
+            },
+            "2026-04-24": {
+              "count": 6,
+              "folder_id": "13yqVhGxXf3HIrx_rt6dG3HDksSM5gmM5"
+            },
+            "2026-04-26": {
+              "count": 3,
+              "folder_id": "18mZWfy0xkDGj_D9Rkjw2I_2fyCyoEuFG"
+            },
+            "2026-04-27": {
+              "count": 8,
+              "folder_id": "1iZnN2I0ktKCc_haQb2LcgDzH8r3Lvmnk"
+            },
+            "2026-04-28": {
+              "count": 6,
+              "folder_id": "1_sabUwFQQw1UDbWv3beohJRLfywrjWn2"
+            },
+            "2026-04-29": {
+              "count": 6,
+              "folder_id": "15OdE6n_LUN400Z5LgRrJafZslJHNfyIy"
+            },
+            "2026-04-30": {
+              "count": 7,
+              "folder_id": "1GnR_yQi4iFOWrZFq0cJ2h7aBMriQLOoJ"
+            }
+          }
+        },
+        "05": {
+          "weeks": {},
+          "days": {
+            "2026-05-01": {
+              "count": 8,
+              "folder_id": "1YrHwNUkePp-FIn7buecvKSalrXGTTZBG"
+            },
+            "2026-05-02": {
+              "count": 13,
+              "folder_id": "1PMxs-2Ittv1A8Zm1f5YogyOV8LLD5aXU"
+            },
+            "2026-05-03": {
+              "count": 17,
+              "folder_id": "1ISudJs0AxzIZ-bwszrZFUaOMeXgYxBQi"
+            },
+            "2026-05-04": {
+              "count": 11,
+              "folder_id": "1FZVHq-RQ17OwLybGgHozEklpqFgxFoTQ"
+            },
+            "2026-05-05": {
+              "count": 7,
+              "folder_id": "10UMkHbgt3lesv-zHKCpkWYHpi7LW29pr"
+            },
+            "2026-05-06": {
+              "count": 7,
+              "folder_id": "1nnDUD1olZEZgPJ3fuq_FwbylMfyBscI_"
+            },
+            "2026-05-07": {
+              "count": 14,
+              "folder_id": "1q1CdO3JLGqeKQPiXq5m7pYww9qORE7bx"
+            },
+            "2026-05-08": {
+              "count": 8,
+              "folder_id": "17GVKLk2mujQ54as1q-msRFpy7CEbiY1I"
+            },
+            "2026-05-09": {
+              "count": 21,
+              "folder_id": "1F_2zs2OFLPSIA60Jt8r9gv03zqt4d8mt"
+            },
+            "2026-05-10": {
+              "count": 11,
+              "folder_id": "1mwYohAfF2PNzrx8rZOHs93kHFoJ64pyU"
+            },
+            "2026-05-11": {
+              "count": 6,
+              "folder_id": "1KF5cbU0u3397fcw18iJOTU39ZM6eskd_"
+            },
+            "2026-05-12": {
+              "count": 10,
+              "folder_id": "1HSAPUJ6O9-QQ20kt5Ou0gKrNJ4iZ8KB5"
+            },
+            "2026-05-13": {
+              "count": 4,
+              "folder_id": "14GqNR3ho2XghjId5qNe1IVhtC1Nq_IXi"
+            },
+            "2026-05-14": {
+              "count": 4,
+              "folder_id": "1JD4nIfKVV362dCRYgh7me_4Ytc5f4LPa"
+            },
+            "2026-05-15": {
+              "count": 15,
+              "folder_id": "1TPeR-1BlJ8E1lBoQZfhs76QqIMJFaRWm"
+            },
+            "2026-05-16": {
+              "count": 23,
+              "folder_id": "1ZQUOsLTtVdN3UyvPo6dAPrr1popQKLGr"
+            },
+            "2026-05-17": {
+              "count": 15,
+              "folder_id": "1w8pcimAXKQtd70GezMYazHmlrEVGgMqi"
+            },
+            "2026-05-18": {
+              "count": 39,
+              "folder_id": "1ajh5Xg2DEdMhGUS_bpMb3xKN1JGCInmg"
+            },
+            "2026-05-19": {
+              "count": 33,
+              "folder_id": "1PAjlrl1vyqsN6h57sdRAUXaZNaE85vwJ"
+            },
+            "2026-05-20": {
+              "count": 10,
+              "folder_id": "1VLTfM0IBLFwhk2mWhdKsYvSH1xkMmTp_"
+            },
+            "2026-05-21": {
+              "count": 34,
+              "folder_id": "14fUSGvijk25OKpq6EJJML6XafEs44hnQ"
+            },
+            "2026-05-22": {
+              "count": 7,
+              "folder_id": "1poqu1qA4LYlkizcDWB-PwXfQtl5_Ab7M"
+            },
+            "2026-05-23": {
+              "count": 21,
+              "folder_id": "17RBNFiJQ6WtpEiQqzWPYSKpvw568VF-5"
+            },
+            "2026-05-24": {
+              "count": 25,
+              "folder_id": "1Zbbw5xcXMAt9pntEfaXr1se9A9WT73zb"
+            },
+            "2026-05-25": {
+              "count": 22,
+              "folder_id": "1VnJXB0LbGpdUOu2xYFSTNKw1QrLyOz7z"
+            },
+            "2026-05-26": {
+              "count": 5,
+              "folder_id": "1We7OGenRoojpFshUUr3ImtqdpxoiRka-"
+            },
+            "2026-05-27": {
+              "count": 29,
+              "folder_id": "1cSURPdxy15TiXbU6oi_Z6ZTrFdkPe4t8"
+            },
+            "2026-05-28": {
+              "count": 8,
+              "folder_id": "196daVCoylZSGNSvD4lUpBb6Zl03564VC"
+            },
+            "2026-05-29": {
+              "count": 7,
+              "folder_id": "1DCuzvJtNzc5kpNwPDUpdLjjkITFXeU1k"
+            },
+            "2026-05-30": {
+              "count": 8,
+              "folder_id": "1u-yXoKOzOauI23pjUIIdyLaP9Ja9Xje2"
+            },
+            "2026-05-31": {
+              "count": 6,
+              "folder_id": "14AtZumc8XLal4UOCfArL8tnicZiUdAOM"
+            }
+          }
+        },
+        "06": {
+          "weeks": {},
+          "days": {
+            "2026-06-01": {
+              "count": 1,
+              "folder_id": "1IQEHAuP2w46uumCE756xNLfzyLx9_swz"
+            },
+            "2026-06-02": {
+              "count": 8,
+              "folder_id": "1r-Gztou53zigvwchUw5CupT7v1tdInz_"
+            },
+            "2026-06-03": {
+              "count": 17,
+              "folder_id": "1TXYM7K3ew9YOwkFEio1DY_vfiJwtHcAr"
+            },
+            "2026-06-04": {
+              "count": 10,
+              "folder_id": "1N3UCJP82vc4ePioIccpTq8w7AJk4Lj06"
+            },
+            "2026-06-05": {
+              "count": 141,
+              "folder_id": "15kHZky4b3DOnbY36c-nKcwIIrN27Ocvs"
+            },
+            "2026-06-06": {
+              "count": 17,
+              "folder_id": "15X9u-8jPpwEN26JGI4lwUh1XwTn6hXC0"
+            },
+            "2026-06-07": {
+              "count": 79,
+              "folder_id": "1jY1zA80chUgeKdcIdX-1gaDwafq8gqfh"
+            },
+            "2026-06-08": {
+              "count": 33,
+              "folder_id": "1jyz8oCcbmEjkSq8ep3VVRfsqDnMRzoEt"
+            },
+            "2026-06-09": {
+              "count": 8,
+              "folder_id": "1d5gFE8OZW9wkOYSAe6gET2gcpcB4tT9q"
+            },
+            "2026-06-10": {
+              "count": 12,
+              "folder_id": "1yz_Ft4s8Bb6Nwp_YSkaLOoti3b9_0YqY"
+            },
+            "2026-06-11": {
+              "count": 9,
+              "folder_id": "1tkRSFIiGqiy1AEPhH4LS4GFlxSToCrNy"
+            },
+            "2026-06-12": {
+              "count": 28,
+              "folder_id": "1Hh1Q6wWeysYVFW3wmgIfjWPTQasbKutc"
+            },
+            "2026-06-13": {
+              "count": 1,
+              "folder_id": "1MjkeainKap8ks8vAXOKzhCKHepxXuVr1"
+            }
+          }
+        }
+      },
+      "day_count": 218,
+      "file_count": 2172
+    }
+  },
+  "total_days": 302,
+  "total_files": 2650,
+  "errors": [],
+  "finished_at": "2026-07-23T04:42:38.056626+00:00"
+}

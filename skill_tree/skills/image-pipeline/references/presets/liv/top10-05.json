@@ -1,0 +1,26 @@
+{
+  "id": "preset.liv.top10.05",
+  "name": "Glossy Luminous Glaze Hybrid",
+  "version": "1.0.0",
+  "persona": "liv",
+  "rank": 5,
+  "rank_reason": "Expensive-looking glossy iridescent skin with sharp underlying ink structure \u2014 feels rich, dangerous, and expensive to ruin.",
+  "tags": [
+    "liv",
+    "top-10",
+    "rank-5"
+  ],
+  "chain": [
+    {
+      "pack": "treatment.glossy-iridescent",
+      "weight": 1.0
+    },
+    {
+      "pack": "photographer.mario-sorrenti",
+      "weight": 0.7
+    }
+  ],
+  "content": {
+    "original": "Expensive-looking glossy iridescent skin with sharp underlying ink structure \u2014 feels rich, dangerous, and expensive to ruin."
+  }
+}

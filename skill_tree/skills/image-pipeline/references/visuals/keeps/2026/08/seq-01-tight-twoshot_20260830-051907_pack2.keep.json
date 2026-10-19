@@ -1,0 +1,71 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "seq-01-tight-twoshot_20260830-051907_pack2",
+  "slug": "seq-01-tight-twoshot",
+  "slug_mode": "explicit",
+  "stamp": "20260830-051907",
+  "created": "2026-08-30T05:19:07-04:00",
+  "engine": "generate_image",
+  "orientation": "landscape",
+  "agent": "olivia",
+  "heat": "",
+  "files": {
+    "jpeg": "seq-01-tight-twoshot_20260830-051907_pack2.jpg",
+    "prompt": "seq-01-tight-twoshot_20260830-051907_pack2.prompt.md",
+    "keep": "seq-01-tight-twoshot_20260830-051907_pack2.keep.json"
+  },
+  "sha256": {
+    "jpeg": "da1adac3ee383994d4d0073b6ddd56a8444a813a3930f1e6ab58cd27cb9b88da",
+    "prompt": "cd7d5d53fa034130c1244f3fbb934518b8f843b5371cae37e2c56f7714461573"
+  },
+  "prompt": "Photorealistic cinematic 35mm f/1.8 two-shot, adults only. Violet-sapphire bunker workshop, rain on steel. Tighter than a wide establishing: two adult women at the workbench \u2014 one in sheer charcoal mesh and Fidlock utility harness, one in patent black vinyl corset, white gossamer duster, tilted red naval visor. Eye lock across the tools. Clothes on. No kitchen. No leftover tub. No text overlay.\n",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/i0sSV.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/seq-01-tight-twoshot_20260830-051907_pack2.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/seq-01-tight-twoshot_20260830-051907_pack2.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/seq-01-tight-twoshot_20260830-051907_pack2.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1RyeLxBP388P4Hv9AEX9O9B1f4apoMTVX",
+    "prompt_id": "1XQ9dGlSYq8bNH7Dm6cUJbTzho6Ln7Mam",
+    "keep_id": "1EjTXPDBhk0TA3LVGoI-vtdD2_ZraSl_G",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/seq-01-tight-twoshot_20260830-051907_pack2.jpg",
+        "file_name": "seq-01-tight-twoshot_20260830-051907_pack2.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/seq-01-tight-twoshot_20260830-051907_pack2.prompt.md",
+        "file_name": "seq-01-tight-twoshot_20260830-051907_pack2.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/seq-01-tight-twoshot_20260830-051907_pack2.keep.json",
+        "file_name": "seq-01-tight-twoshot_20260830-051907_pack2.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "skip_reason": "prior-session backlog deferred 2026-08-31 pose-pack publish; jpeg may still exist locally",
+    "uploaded_at": "2026-08-31T22:02:00+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/seq-01-tight-twoshot_20260830-051907_pack2.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

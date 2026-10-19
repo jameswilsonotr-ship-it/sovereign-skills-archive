@@ -1,0 +1,70 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "g-f1-ov2_20260829-163047_pack-filter-gen",
+  "slug": "g-f1-ov2",
+  "slug_mode": "explicit",
+  "stamp": "20260829-163047",
+  "created": "2026-08-29T16:30:47-04:00",
+  "engine": "generate",
+  "orientation": "portrait",
+  "agent": "hei-yu-miao-al-summer",
+  "heat": "4",
+  "files": {
+    "jpeg": "g-f1-ov2_20260829-163047_pack-filter-gen.jpg",
+    "prompt": "g-f1-ov2_20260829-163047_pack-filter-gen.prompt.md",
+    "keep": "g-f1-ov2_20260829-163047_pack-filter-gen.keep.json"
+  },
+  "sha256": {
+    "jpeg": "b8c69c844ce5147d660d330177d18a2deab8d26a66237495a4957c59acb3880c",
+    "prompt": "5517e6cb5c400cbe0efc631005beb8c5eaaedaa937ca591da0d09b7d70057357"
+  },
+  "prompt": "GEN F1 stand",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/7GO4w.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/g-f1-ov2_20260829-163047_pack-filter-gen.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/g-f1-ov2_20260829-163047_pack-filter-gen.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/g-f1-ov2_20260829-163047_pack-filter-gen.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1PHbSU6G3nA1HGKmYc42nBvjMvJtBbol1",
+    "prompt_id": "1rwTWwH0mZ0qZO8eXj8gw_eQxw5aN270_",
+    "keep_id": "1X5BF-jx4L3_Lww_K3XM0GafQvTfNpJTC",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/g-f1-ov2_20260829-163047_pack-filter-gen.jpg",
+        "file_name": "g-f1-ov2_20260829-163047_pack-filter-gen.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/g-f1-ov2_20260829-163047_pack-filter-gen.prompt.md",
+        "file_name": "g-f1-ov2_20260829-163047_pack-filter-gen.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/g-f1-ov2_20260829-163047_pack-filter-gen.keep.json",
+        "file_name": "g-f1-ov2_20260829-163047_pack-filter-gen.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "uploaded_at": "2026-08-29T20:51:12+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/g-f1-ov2_20260829-163047_pack-filter-gen.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

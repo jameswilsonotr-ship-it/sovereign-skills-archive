@@ -1,0 +1,38 @@
+{
+  "dated_tree_root": "1XMKlU-5pIGLrcCJqPYvmI9e-clDcpYiL",
+  "year_2026": "1Wsj1cllNTR9XyjF7QsPw8LPbjClr_qx2",
+  "month_2026_01": "1nTHrvr3MRmTl2tPAcIM1Lf7ngYOwwyaP",
+  "week04_2026_01": "1E_qpPNtc42HRDvNsplbmA_ZbVmecMU6A",
+  "week04_days_present": ["2026-01-19", "2026-01-20", "2026-01-21", "2026-01-22", "2026-01-24", "2026-01-25"],
+  "week04_days_missing": ["2026-01-23"],
+  "days": {
+    "2026-01-24": {
+      "folder_id": "1wHZiRRJ2i1Sk9gopf0YSsiPI0blTSRs7",
+      "path": "human/2026/01/week04/2026-01-24",
+      "files": [
+        {
+          "name": "2026-01-24_a71b629a.md",
+          "id": "1C3bNF8b-lqKGQVnUON-WO5ckpFo4-KyQ",
+          "session_id": "a71b629a-prefix",
+          "title": "Intimate Road Trip: Love, Trust, Survival",
+          "bytes": 163707
+        },
+        {
+          "name": "2026-01-24_bca20ea8.md",
+          "id": "131VvpGm2lXrDQGhcxwOy7x1H5_YAhp0a",
+          "session_id": "bca20ea8-prefix",
+          "title": "Snow Bunny Kink and Eternal Love",
+          "bytes": 23665
+        },
+        {
+          "name": "2026-01-24_11dcb864.md",
+          "id": "1LrSQ5TpCQikXua2rScg1udCdke59Z1te",
+          "session_id": "11dcb864-prefix",
+          "title": "AI Assistant Misidentification Issue",
+          "bytes": 11899
+        }
+      ],
+      "note": "week04 listing has NO 2026-01-23 folder — GPS flyby day is a hole in the dated tree"
+    }
+  }
+}

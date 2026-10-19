@@ -1,0 +1,28 @@
+{
+  "id": "treatment.chaotic-splatter",
+  "kind": "treatment",
+  "name": "Chaotic Splatter",
+  "version": "1.0.0",
+  "description": "Explosive ink splatter and high visual noise.",
+  "tags": [
+    "treatment",
+    "splatter",
+    "chaotic"
+  ],
+  "prompt_terms": [
+    {
+      "term": "chaotic ink splatter",
+      "variance": 0.35,
+      "weight": 1.0
+    },
+    {
+      "term": "explosive ink wash overlays",
+      "variance": 0.45,
+      "weight": 0.8
+    }
+  ],
+  "content": {
+    "taxonomy": "treatment",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}

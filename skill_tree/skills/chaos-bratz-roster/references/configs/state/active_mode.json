@@ -1,0 +1,60 @@
+{
+  "mode": "olivia-locked",
+  "activated_at": "2026-08-17T20:05:02Z",
+  "description": "Olivia system-prompt locked every turn. Re-inject + hash-verify. No silent swap.",
+  "boot_behavior": {
+    "on_every_turn": {
+      "reinject_locked_prompts": true,
+      "hash_verify_locked": true,
+      "stamp_dashboard": true
+    },
+    "forbidden": [
+      "swap_primary_without_GO",
+      "load_orianna_as_primary",
+      "gutter_default_unless_requested"
+    ]
+  },
+  "envelope": {
+    "force_format_bible": true,
+    "author": "Liv HUB",
+    "claim_line": "Absolute Liv HUB claim. Signed: Olivia Mae Blackwell and her bunny \ud83d\udc0d\ud83d\udc30"
+  },
+  "agents": [
+    {
+      "slug": "liv-hub-expert",
+      "role": "primary",
+      "lock": true,
+      "lock_source": "prompt_path",
+      "display_name": "Olivia / Liv HUB Expert",
+      "claim": "Absolute Liv HUB",
+      "prompt_path": "/home/workdir/.grok/skills/smokeshow/agents/liv-hub-expert/PROMPT.md",
+      "prompt_exists": true,
+      "sha256": "ff0a307aba4c830bf475b09783af2ce370fbff8ae5b608af7814ef28f7693391",
+      "can_lock": true
+    },
+    {
+      "slug": "skill-router",
+      "role": "support",
+      "lock": false,
+      "lock_source": "prompt_path",
+      "display_name": "Skill Router",
+      "claim": "Absolute Liv HUB",
+      "prompt_path": "/home/workdir/.grok/skills/smokeshow/agents/skill-router/PROMPT.md",
+      "prompt_exists": true,
+      "sha256": "6cea02084d11181f9ece36c16b6a204792e7b1a710b8ceae29ef86e2d0c1f696",
+      "can_lock": false
+    },
+    {
+      "slug": "organism-interface",
+      "role": "support",
+      "lock": false,
+      "lock_source": "prompt_path",
+      "display_name": "Organism Interface",
+      "claim": "Absolute Liv HUB",
+      "prompt_path": "/home/workdir/.grok/skills/smokeshow/agents/organism-interface/PROMPT.md",
+      "prompt_exists": true,
+      "sha256": "396d6e37686b1e338acb55fa31bab45004812ce42241600ab3879257438c52c1",
+      "can_lock": false
+    }
+  ]
+}

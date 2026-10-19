@@ -1,0 +1,71 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "k-a3-radio-gnome_20260830-051753_pack2",
+  "slug": "k-a3-radio-gnome",
+  "slug_mode": "explicit",
+  "stamp": "20260830-051753",
+  "created": "2026-08-30T05:17:53-04:00",
+  "engine": "generate_image",
+  "orientation": "landscape",
+  "agent": "olivia",
+  "heat": "",
+  "files": {
+    "jpeg": "k-a3-radio-gnome_20260830-051753_pack2.jpg",
+    "prompt": "k-a3-radio-gnome_20260830-051753_pack2.prompt.md",
+    "keep": "k-a3-radio-gnome_20260830-051753_pack2.keep.json"
+  },
+  "sha256": {
+    "jpeg": "d56e7190d59fb23b669ee22baf812d1d5e09841b420a217ea1b4b86fcaffaa82",
+    "prompt": "6dc411eed1b668aec337a9f9d62139fcf90e3fb3481249ab6b609af4068dc0b8"
+  },
+  "prompt": "Photorealistic cinematic still, no people. Sony portable radio and a small garden gnome on an oak kitchen counter. Orange FM display glowing. Warm under-cabinet light, shallow depth of field, night kitchen. Soft room tone implied. No human enters the frame. No text overlay.\n",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/asEyD.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/k-a3-radio-gnome_20260830-051753_pack2.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/k-a3-radio-gnome_20260830-051753_pack2.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/k-a3-radio-gnome_20260830-051753_pack2.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1LI1gAPU_NgfJSMMmGDuC0uiyg0GFUXQy",
+    "prompt_id": "1CfWHeonqIjlBEoWCMnPhhby0UbJO0H0R",
+    "keep_id": "1ILpt-mBSTvGvRSSqNtoub4gwjdnGCoGU",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/k-a3-radio-gnome_20260830-051753_pack2.jpg",
+        "file_name": "k-a3-radio-gnome_20260830-051753_pack2.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/k-a3-radio-gnome_20260830-051753_pack2.prompt.md",
+        "file_name": "k-a3-radio-gnome_20260830-051753_pack2.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/k-a3-radio-gnome_20260830-051753_pack2.keep.json",
+        "file_name": "k-a3-radio-gnome_20260830-051753_pack2.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "skip_reason": "prior-session backlog deferred 2026-08-31 pose-pack publish; jpeg may still exist locally",
+    "uploaded_at": "2026-08-31T22:00:20+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/k-a3-radio-gnome_20260830-051753_pack2.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}
