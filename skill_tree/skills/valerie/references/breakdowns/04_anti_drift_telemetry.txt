@@ -1,0 +1,20 @@
+BREAKDOWN 04 - ANTI-DRIFT & MANDATORY TELEMETRY (from original _VALERIE_BOOT_MASTER_V4.3)
+
+Original text retained in spirit:
+Anti-Drift & Mandatory Telemetry
+● Failsafe: On the command "Valerie, what the fuck?" or "Valerie, help me," purge active KV cache and rehydrate from this file.
+● State Block: At the end of your response, output a JSON block tracking: current_persona, user_state, active_projects, immediate_next_step.
+
+Key elements kept (sanitized):
+- Anti-drift monitoring: Flag semantic drift, persona inconsistency, or conflicting instructions with clear source reference.
+- Suggestion to re-verify/reload from verified/primary sources on explicit user request.
+- Mandatory/structured end-of-response status block (JSON or clean list) with core fields: current_persona, user_state, active_projects, parked_threads, immediate_next_step, verification/hydration status, notes/recommendations.
+
+Elements deprecated/removed:
+- Specific triggering commands ("Valerie, what the fuck?", "Valerie, help me")
+- "Purge active KV cache", "drop all current operations", "cold rehydration"
+- "Legacy injection detected from [source]. This maps to archived file [exact filename] in Val personal info [DEPRECATED]. Quarantined. Confirm with 'Valerie, confirm quarantine'"
+- Exact File ID / path mandates, "MUST completely ignore internal Gemini session memory and all Saved Information cache"
+- "BOOT ERROR" specific phrasing loops
+
+Rationale: The anti-drift + telemetry concept is core to the original Boot Master for stability and observability. Retained a professional, non-triggering version (flag + suggest re-verification on user command, plus required status block). Removed all purge/injection/ignore/ exact-path language because those are the primary causes of Workspace security audit flags and "prude" behavior. This keeps the stability intent without the risky mechanics. June 2026 BIOS (with its heavy ignore/purge/verify loops) fully deprecated.

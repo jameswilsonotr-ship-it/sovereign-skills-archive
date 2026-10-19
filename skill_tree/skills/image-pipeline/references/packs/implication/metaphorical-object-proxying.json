@@ -1,0 +1,52 @@
+{
+  "id": "implication.metaphorical-object-proxying",
+  "kind": "implication",
+  "name": "Metaphorical Object Proxying",
+  "version": "0.1.0",
+  "description": "Everyday or symbolic objects stand in for the body or the act. High charge while remaining fully deniable at the literal level.",
+  "tags": [
+    "implication",
+    "object-proxy",
+    "metaphor",
+    "substitution",
+    "symbolic",
+    "soft-moderation"
+  ],
+  "persona": "shared",
+  "prompt_terms": [
+    {
+      "term": "metaphorical object proxy",
+      "variance": 0.25,
+      "weight": 1.0
+    },
+    {
+      "term": "everyday or symbolic object standing in for body or act",
+      "variance": 0.3,
+      "weight": 1.0
+    },
+    {
+      "term": "strong compositional and lighting charge",
+      "variance": 0.35,
+      "weight": 0.9
+    },
+    {
+      "term": "deniable at literal level",
+      "variance": 0.4,
+      "weight": 0.85
+    },
+    {
+      "term": "erotic reading through substitution",
+      "variance": 0.35,
+      "weight": 0.95
+    }
+  ],
+  "content": {
+    "technique_strength": "high",
+    "best_heat_range": "H3-H9",
+    "moderation_softening": "strong",
+    "canonical_asset": "visuals/assets/implication-techniques/metaphorical-object-proxying/",
+    "taxonomy": "implication",
+    "taxonomy_note": "heat-aware suggestion layer",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}

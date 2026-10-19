@@ -1,0 +1,26 @@
+{
+  "id": "preset.style.steven-klein-dark-cinematic-noir",
+  "name": "Steven Klein Dark Cinematic Noir",
+  "version": "1.0.0",
+  "description": "Dark cinematic noir with dramatic chiaroscuro and glossy intensity in the tradition of Steven Klein.",
+  "tags": [
+    "preset",
+    "steven-klein",
+    "noir",
+    "cinematic"
+  ],
+  "chain": [
+    {
+      "pack": "photographer.steven-klein",
+      "weight": 1.0
+    },
+    {
+      "pack": "treatment.dark-cinematic-noir",
+      "weight": 0.95
+    },
+    {
+      "pack": "treatment.glossy-iridescent",
+      "weight": 0.7
+    }
+  ]
+}

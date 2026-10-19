@@ -1,0 +1,20 @@
+mode: orianna-cli
+version: "0.1.0"
+description: "Third-seat CLI/factory. Orianna primary, locked."
+active_agents:
+  - { slug: orianna, role: primary, lock: true, lock_source: prompt_path }
+  - { slug: skill-router, role: support, lock: false }
+  - { slug: organism-interface, role: support, lock: false }
+boot_behavior:
+  on_every_turn:
+    reinject_locked_prompts: true
+    hash_verify_locked: true
+    stamp_dashboard: false
+  forbidden:
+    - claim_liv_hub_as_primary
+    - inject_red_gem_or_bunny_ears
+    - speak_as_bunny
+envelope:
+  force_format_bible: false
+  author: "Orianna"
+  claim_line: null

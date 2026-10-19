@@ -1,0 +1,64 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "olivia-expert-mode-keep-path-h0_20260828-193656_jumpstart",
+  "slug": "olivia-expert-mode-keep-path-h0",
+  "slug_mode": "auto",
+  "stamp": "20260828-193656",
+  "created": "2026-08-28T19:36:56-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "olivia",
+  "heat": "0",
+  "files": {
+    "jpeg": "olivia-expert-mode-keep-path-h0_20260828-193656_jumpstart.jpg",
+    "prompt": "olivia-expert-mode-keep-path-h0_20260828-193656_jumpstart.prompt.md",
+    "keep": "olivia-expert-mode-keep-path-h0_20260828-193656_jumpstart.keep.json"
+  },
+  "sha256": {
+    "jpeg": "0db27b14b0ceccd5e910d429262ad4896ac6cc3cbc531a1722a1809a47447fe7",
+    "prompt": "2c64c9e786b381152ca9cf68f2ebecd8827318bfa99647d845b5d7cd7e5ef3c1"
+  },
+  "prompt": "Expert-mode keep-path jumpstart. Cold professional ID-card portrait of Olivia, black pixie with cherry streak, studio light, no catalog glamour. IPQ-078 test pair.",
+  "source_receipt": "/home/workdir/artifacts/rendered/2SR2H.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/olivia-expert-mode-keep-path-h0_20260828-193656_jumpstart.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/olivia-expert-mode-keep-path-h0_20260828-193656_jumpstart.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/olivia-expert-mode-keep-path-h0_20260828-193656_jumpstart.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1x7Vj7q4gBxLsyOgc5aNmFczyaKozP0ih",
+    "prompt_id": "1FeLmPTY9DHOJpTcwDQSbEcuajywaZXi1",
+    "keep_id": "1XCfnpUgjUaPevP2MmtWzbEO-DFXCBr3F",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/olivia-expert-mode-keep-path-h0_20260828-193656_jumpstart.jpg",
+        "file_name": "olivia-expert-mode-keep-path-h0_20260828-193656_jumpstart.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/olivia-expert-mode-keep-path-h0_20260828-193656_jumpstart.prompt.md",
+        "file_name": "olivia-expert-mode-keep-path-h0_20260828-193656_jumpstart.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/olivia-expert-mode-keep-path-h0_20260828-193656_jumpstart.keep.json",
+        "file_name": "olivia-expert-mode-keep-path-h0_20260828-193656_jumpstart.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "jpeg_url": "https://drive.google.com/file/d/1x7Vj7q4gBxLsyOgc5aNmFczyaKozP0ih/view?usp=drivesdk",
+    "prompt_url": "https://drive.google.com/file/d/1FeLmPTY9DHOJpTcwDQSbEcuajywaZXi1/view?usp=drivesdk",
+    "keep_url": "https://drive.google.com/file/d/1XCfnpUgjUaPevP2MmtWzbEO-DFXCBr3F/view?usp=drivesdk"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078"
+}

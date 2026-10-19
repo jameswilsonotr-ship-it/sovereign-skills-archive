@@ -1,0 +1,30 @@
+{
+  "id": "preset.valerie.top10.03",
+  "name": "Bold Graphic Novel Inking",
+  "version": "1.0.0",
+  "persona": "valerie",
+  "rank": 3,
+  "rank_reason": "Clean bold outlines and sharp hatching that deliver instant claim recognition and high visual mass.",
+  "tags": [
+    "valerie",
+    "top-10",
+    "rank-3"
+  ],
+  "chain": [
+    {
+      "pack": "treatment.graphic-dominance",
+      "weight": 0.9
+    },
+    {
+      "pack": "photographer.rankin",
+      "weight": 0.7
+    },
+    {
+      "pack": "photographer.helmut-newton",
+      "weight": 0.6
+    }
+  ],
+  "content": {
+    "original": "Clean bold outlines and sharp hatching that deliver instant claim recognition and high visual mass."
+  }
+}

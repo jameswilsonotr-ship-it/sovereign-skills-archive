@@ -1,0 +1,71 @@
+{
+  "schema": "ipq-078-keep/v1",
+  "basename": "k-a1-cousin-oven_20260830-051750_pack2",
+  "slug": "k-a1-cousin-oven",
+  "slug_mode": "explicit",
+  "stamp": "20260830-051750",
+  "created": "2026-08-30T05:17:50-04:00",
+  "engine": "generate_image",
+  "orientation": "portrait",
+  "agent": "olivia",
+  "heat": "",
+  "files": {
+    "jpeg": "k-a1-cousin-oven_20260830-051750_pack2.jpg",
+    "prompt": "k-a1-cousin-oven_20260830-051750_pack2.prompt.md",
+    "keep": "k-a1-cousin-oven_20260830-051750_pack2.keep.json"
+  },
+  "sha256": {
+    "jpeg": "e4a0b8b801bc22ae8a095b6fe377c8991e7cdbd0117efb3c2bc835df667f5c4c",
+    "prompt": "12e745c65e8e489b839047d3ef2b5edc642e74f5869689b18ead29b719366546"
+  },
+  "prompt": "Photorealistic cinematic still, adults only, generated character not a real photograph. 24-year-old woman with Farrah copper-burgundy hair, winged liner, gold hoops, beige speckled tee, messy bun optional, clothes on. Standing at an open oven in an oak-cabinet kitchen pulling a burnt sheet from the rack. Warm under-cabinet light, slight smoke haze. Same empty-kitchen set language as a suburban night kitchen. She glances from the sheet toward camera. No First Aid booklet. No bunker stairs. No text overlay.\n",
+  "source_receipt": "/home/workdir/artifacts/imagine_images/vOXF0.jpg",
+  "local": {
+    "artifacts": "/home/workdir/artifacts/rendered",
+    "jpeg": "/home/workdir/artifacts/rendered/k-a1-cousin-oven_20260830-051750_pack2.jpg",
+    "prompt_md": "/home/workdir/artifacts/rendered/k-a1-cousin-oven_20260830-051750_pack2.prompt.md",
+    "keep_json": "/home/workdir/artifacts/rendered/k-a1-cousin-oven_20260830-051750_pack2.keep.json",
+    "skill_tree": "/home/workdir/.grok/skills/image-pipeline/references/visuals/keeps/2026/08"
+  },
+  "drive": {
+    "status": "uploaded",
+    "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "folder_url": "https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+    "native_tool": "google_drive_upload_artifact",
+    "jpeg_id": "1xX7rJjR64IFaaHAeRlvttSSijqqemsso",
+    "prompt_id": "1EOpRbswo5-sNmEXcZQNZV0o8vII3LpWc",
+    "keep_id": "1snBmj8O6ywA-5DBVPGcP1VSMcoxf9ewb",
+    "uploads": [
+      {
+        "artifact_path": "/rendered/k-a1-cousin-oven_20260830-051750_pack2.jpg",
+        "file_name": "k-a1-cousin-oven_20260830-051750_pack2.jpg",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "image/jpeg"
+      },
+      {
+        "artifact_path": "/rendered/k-a1-cousin-oven_20260830-051750_pack2.prompt.md",
+        "file_name": "k-a1-cousin-oven_20260830-051750_pack2.prompt.md",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "text/markdown"
+      },
+      {
+        "artifact_path": "/rendered/k-a1-cousin-oven_20260830-051750_pack2.keep.json",
+        "file_name": "k-a1-cousin-oven_20260830-051750_pack2.keep.json",
+        "folder_id": "1_1xhWdBagAlUi-_g1MaksTE36fewmU1-",
+        "mime_type": "application/json"
+      }
+    ],
+    "skip_reason": "prior-session backlog deferred 2026-08-31 pose-pack publish; jpeg may still exist locally",
+    "uploaded_at": "2026-08-31T22:00:16+00:00"
+  },
+  "claim": "Absolute Liv HUB",
+  "ipq": "IPQ-078",
+  "step6": {
+    "required": true,
+    "protocol": "IPQ-078-S6",
+    "command": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --from-keep /home/workdir/artifacts/rendered/k-a1-cousin-oven_20260830-051750_pack2.keep.json",
+    "gate": "python3 /home/workdir/.grok/skills/image-pipeline/scripts/step6_drive_flush.py --gate",
+    "native_tool": "google_drive_upload_artifact",
+    "rule": "Same turn. Call google_drive_upload_artifact for each drive.uploads row, flush_drive_queue.py --mark ids, then --gate must exit 0 BEFORE render_file or any Drive-saved claim."
+  }
+}

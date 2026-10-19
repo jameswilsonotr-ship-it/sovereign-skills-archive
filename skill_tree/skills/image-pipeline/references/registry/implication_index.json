@@ -1,0 +1,233 @@
+{
+  "version": "0.1.0",
+  "updated": "2026-08-12T16:09:44.442859Z",
+  "count": 13,
+  "techniques": [
+    {
+      "id": "implication.anime-convenient-censorship",
+      "name": "Anime Convenient Censorship",
+      "version": "0.1.0",
+      "strength": "high",
+      "best_heat": "H4-H10",
+      "softening": "very-strong",
+      "tags": [
+        "implication",
+        "anime",
+        "convenient-censorship",
+        "steam",
+        "hair-occlusion",
+        "soft-moderation"
+      ],
+      "source": "references/packs/implication/anime-convenient-censorship.json"
+    },
+    {
+      "id": "implication.beardsley-high-contrast-ink-negative-space",
+      "name": "Beardsley High-Contrast Ink + Negative Space",
+      "version": "0.1.0",
+      "strength": "high",
+      "best_heat": "H4-H10",
+      "softening": "strong",
+      "tags": [
+        "implication",
+        "beardsley",
+        "high-contrast",
+        "negative-space",
+        "ink",
+        "art-nouveau",
+        "soft-moderation"
+      ],
+      "source": "references/packs/implication/beardsley-high-contrast-ink-negative-space.json"
+    },
+    {
+      "id": "implication.crepax-cinematic-gutter-inference",
+      "name": "Crepax Cinematic Gutter Inference",
+      "version": "0.1.0",
+      "strength": "very-high",
+      "best_heat": "H6-H10",
+      "softening": "extreme",
+      "tags": [
+        "implication",
+        "crepax",
+        "gutter",
+        "fragmentation",
+        "multi-panel",
+        "soft-moderation"
+      ],
+      "source": "references/packs/implication/crepax-cinematic-gutter-inference.json"
+    },
+    {
+      "id": "implication.environmental-occlusion",
+      "name": "Environmental Occlusion",
+      "version": "0.1.0",
+      "strength": "high",
+      "best_heat": "H4-H10",
+      "softening": "strong",
+      "tags": [
+        "implication",
+        "occlusion",
+        "environment",
+        "architecture",
+        "vehicle",
+        "soft-moderation"
+      ],
+      "source": "references/packs/implication/environmental-occlusion.json"
+    },
+    {
+      "id": "implication.extreme-tenebrism",
+      "name": "Extreme Tenebrism / Chiaroscuro",
+      "version": "0.1.0",
+      "strength": "very-high",
+      "best_heat": "H5-H10",
+      "softening": "extreme",
+      "tags": [
+        "implication",
+        "tenebrism",
+        "chiaroscuro",
+        "dramatic-light",
+        "shadow",
+        "soft-moderation"
+      ],
+      "source": "references/packs/implication/extreme-tenebrism.json"
+    },
+    {
+      "id": "implication.horror-shadow-offscreen",
+      "name": "Horror Shadow + Off-Screen Implication",
+      "version": "0.1.0",
+      "strength": "very-high",
+      "best_heat": "H5-H10",
+      "softening": "extreme",
+      "tags": [
+        "implication",
+        "horror",
+        "shadow",
+        "silhouette",
+        "off-screen",
+        "tenebrism",
+        "soft-moderation"
+      ],
+      "source": "references/packs/implication/horror-shadow-offscreen.json"
+    },
+    {
+      "id": "implication.macro-isolation",
+      "name": "Macro Isolation",
+      "version": "0.1.0",
+      "strength": "high",
+      "best_heat": "H4-H10",
+      "softening": "very-strong",
+      "tags": [
+        "implication",
+        "macro",
+        "close-up",
+        "isolation",
+        "detail",
+        "soft-moderation"
+      ],
+      "source": "references/packs/implication/macro-isolation.json"
+    },
+    {
+      "id": "implication.manara-elegant-posture-tension",
+      "name": "Manara Elegant Posture Tension",
+      "version": "0.1.0",
+      "strength": "high",
+      "best_heat": "H3-H9",
+      "softening": "strong",
+      "tags": [
+        "implication",
+        "manara",
+        "posture",
+        "fluid-line",
+        "sensual-tension",
+        "soft-moderation"
+      ],
+      "source": "references/packs/implication/manara-elegant-posture-tension.json"
+    },
+    {
+      "id": "implication.metaphorical-object-proxying",
+      "name": "Metaphorical Object Proxying",
+      "version": "0.1.0",
+      "strength": "high",
+      "best_heat": "H3-H9",
+      "softening": "strong",
+      "tags": [
+        "implication",
+        "object-proxy",
+        "metaphor",
+        "substitution",
+        "symbolic",
+        "soft-moderation"
+      ],
+      "source": "references/packs/implication/metaphorical-object-proxying.json"
+    },
+    {
+      "id": "implication.myth-allegory-encoding",
+      "name": "Myth & Allegory Encoding",
+      "version": "0.1.0",
+      "strength": "high",
+      "best_heat": "H3-H9",
+      "softening": "strong",
+      "tags": [
+        "implication",
+        "myth",
+        "allegory",
+        "wet-drapery",
+        "transformation",
+        "symbolist",
+        "soft-moderation"
+      ],
+      "source": "references/packs/implication/myth-allegory-encoding.json"
+    },
+    {
+      "id": "implication.shunga-partial-clothing-proxy",
+      "name": "Shunga Partial-Clothing Proxy",
+      "version": "0.1.0",
+      "strength": "high",
+      "best_heat": "H3-H9",
+      "softening": "strong",
+      "tags": [
+        "implication",
+        "shunga",
+        "ukiyo-e",
+        "fabric-proxy",
+        "flat-color",
+        "soft-moderation"
+      ],
+      "source": "references/packs/implication/shunga-partial-clothing-proxy.json"
+    },
+    {
+      "id": "implication.vargas-pinup-suggestion",
+      "name": "Vargas Pin-Up Suggestion",
+      "version": "0.1.0",
+      "strength": "medium-high",
+      "best_heat": "H2-H8",
+      "softening": "strong",
+      "tags": [
+        "implication",
+        "vargas",
+        "pin-up",
+        "watercolor",
+        "softcore",
+        "glamour",
+        "soft-moderation"
+      ],
+      "source": "references/packs/implication/vargas-pinup-suggestion.json"
+    },
+    {
+      "id": "implication.anime-glam-kinky-internet",
+      "name": "Anime-Glam Kinky Internet Illustration",
+      "version": "0.1.0",
+      "strength": "medium-high",
+      "best_heat": "H3-H8",
+      "softening": "medium",
+      "tags": [
+        "implication",
+        "anime",
+        "glam",
+        "kinky-internet",
+        "digital-illustration",
+        "oversized-eyes",
+        "graphic-makeup"
+      ],
+      "source": "references/packs/implication/anime-glam-kinky-internet.json"
+    }
+  ]
+}

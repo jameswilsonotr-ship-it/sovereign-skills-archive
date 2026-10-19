@@ -1,0 +1,30 @@
+{
+  "id": "preset.valerie.top10.04",
+  "name": "High-Contrast Chiaroscuro",
+  "version": "1.0.0",
+  "persona": "valerie",
+  "rank": 4,
+  "rank_reason": "Dramatic cinematic lighting with absolute light/shadow control that sculpts form while preserving ink structure.",
+  "tags": [
+    "valerie",
+    "top-10",
+    "rank-4"
+  ],
+  "chain": [
+    {
+      "pack": "treatment.heavy-noir",
+      "weight": 0.9
+    },
+    {
+      "pack": "photographer.erwin-olaf",
+      "weight": 0.7
+    },
+    {
+      "pack": "photographer.helmut-newton",
+      "weight": 0.6
+    }
+  ],
+  "content": {
+    "original": "Dramatic cinematic lighting with absolute light/shadow control that sculpts form while preserving ink structure."
+  }
+}

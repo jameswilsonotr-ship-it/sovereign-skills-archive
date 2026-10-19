@@ -1,0 +1,15 @@
+{
+  "id": "output-style.code-exposed",
+  "name": "Code Exposed",
+  "kind": "output-style",
+  "version": "0.1.0",
+  "presentation": {
+    "code_block": true,
+    "default": true
+  },
+  "content": {
+    "taxonomy": "technical",
+    "taxonomy_note": "delivery / presentation",
+    "taxonomy_updated": "2026-08-05T23:10:35.965526Z"
+  }
+}

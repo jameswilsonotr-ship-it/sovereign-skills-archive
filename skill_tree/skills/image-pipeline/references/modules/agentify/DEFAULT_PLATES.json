@@ -1,0 +1,13 @@
+{
+  "ticket": "IP-WQ-204",
+  "promoted": "2026-09-12",
+  "default_emit": ["0", "A", "B", "C", "D"],
+  "slots": {
+    "0": "source inbound still or official thumb. emit first. never A.",
+    "A": "regenerated photoreal ID",
+    "B": "heat",
+    "C": "anime",
+    "D": "rig"
+  },
+  "omit_zero": "only if operator says plates A-D only"
+}

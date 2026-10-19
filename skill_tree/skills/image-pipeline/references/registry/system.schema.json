@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "image-pipeline/system.schema.json",
+  "title": "Image Pipeline System Registry Entry",
+  "type": "object",
+  "required": ["id", "kind", "name"],
+  "properties": {
+    "id": { "type": "string", "description": "Stable id, e.g. entity.bunny or pack.implication.beardsley-..." },
+    "kind": {
+      "type": "string",
+      "enum": [
+        "entity", "pack", "preset", "script", "protocol", "intent_route",
+        "output-format", "output-style", "engine_test"
+      ]
+    },
+    "name": { "type": "string" },
+    "description": { "type": "string" },
+    "keywords": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Fast intent-classifier tokens"
+    },
+    "prompt_stubs": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Short reusable prompt fragments"
+    },
+    "path": { "type": "string", "description": "Relative path under skill root when applicable" },
+    "ordinal": { "type": ["string", "null"] },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "parallel_safe": {
+      "type": "boolean",
+      "description": "If true, wrapper may fire with sibling branches in parallel"
+    },
+    "calls": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Script or component ids this entry invokes"
+    }
+  }
+}
