@@ -5,4 +5,4 @@
 
 CWO2 Sable Linker is a fleet desk for linking fleet-related information and coordination.
 
-Done-when: The pull request is opened with this desk plate included.
+Done-when: PR opened on this repo containing exactly this one new markdown file.
