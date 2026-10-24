@@ -5,4 +5,4 @@
 
 LCDR Linear Sync is a fleet desk for coordinating Linear synchronization workflows and keeping related updates aligned.
 
-Done-when: The PR is opened containing exactly this new markdown file.
+Done-when: PR opened containing exactly that one new markdown file (plus a single index bullet only if an index already exists).
