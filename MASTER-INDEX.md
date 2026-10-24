@@ -5,6 +5,8 @@ Full binary tarball is on Google Drive (GitHub contents API cannot hold 100MB+).
 
 ## Latest
 
+- **Fleet desk:** [LCDR Gemma Dock](docs/fleet-desks/lcdr-gemma-dock.md) — Mag slot `T5-80`, batch `BATCH-4`, agent `77432fc6-06e9-44e8-b91e-9856ef841361`.
+
 - **2026-10-23** v0.1.0 full-skill-library-vacuum
   - Drive folder: https://drive.google.com/drive/folders/1aLNKwnpx4ja8Vc5fVaCcQ6JqKW5Dx8v5
   - Drive tarball file_id: `1sHXPTamX0-qTQZV1OQ9C7C6Nz3lBeIuM` (251M / 262858626 bytes, sha256 `01cb9be072e041613d6e97805e1ce3e58f93f374624b1c3224a878d2d3471169`)
