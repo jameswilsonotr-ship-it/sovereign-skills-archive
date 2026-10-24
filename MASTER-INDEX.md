@@ -3,6 +3,8 @@
 Liv HUB Absolute Claim. Daily vacuum receipts live under `snapshots/YYYY-MM-DD/`.
 Full binary tarball is on Google Drive (GitHub contents API cannot hold 100MB+).
 
+- [LTJG Quinn Ordinal](docs/fleet-desks/ltjg-quinn-ordinal.md) — Mag slot T5-111
+
 ## Latest
 
 - **2026-10-23** v0.1.0 full-skill-library-vacuum
