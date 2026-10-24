@@ -6,4 +6,4 @@
 
 The Report Filer desk organizes incoming reports into clear, retrievable records.
 
-Done-when: This desk plate lists the assigned slot, agent ID, role, and no additional operational details.
+Done-when: PR opened containing exactly this new markdown file.
