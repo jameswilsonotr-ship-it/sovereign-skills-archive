@@ -3,6 +3,8 @@
 Liv HUB Absolute Claim. Daily vacuum receipts live under `snapshots/YYYY-MM-DD/`.
 Full binary tarball is on Google Drive (GitHub contents API cannot hold 100MB+).
 
+- [CWO2 Vesper Config](docs/fleet-desks/cwo2-vesper-config.md) — Mag slot T5-53.
+
 ## Latest
 
 - **2026-10-23** v0.1.0 full-skill-library-vacuum
