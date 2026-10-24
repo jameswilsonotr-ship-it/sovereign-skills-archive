@@ -5,6 +5,8 @@ Full binary tarball is on Google Drive (GitHub contents API cannot hold 100MB+).
 
 ## Latest
 
+- **Fleet desk:** [Python Torpedo Desk](docs/fleet-desks/python-torpedo-desk.md) — Mag slot T5-145; agent `b32a5e45-625e-42bd-ad81-ade503951ee7`.
+
 - **2026-10-23** v0.1.0 full-skill-library-vacuum
   - Drive folder: https://drive.google.com/drive/folders/1aLNKwnpx4ja8Vc5fVaCcQ6JqKW5Dx8v5
   - Drive tarball file_id: `1sHXPTamX0-qTQZV1OQ9C7C6Nz3lBeIuM` (251M / 262858626 bytes, sha256 `01cb9be072e041613d6e97805e1ce3e58f93f374624b1c3224a878d2d3471169`)
