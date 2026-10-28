@@ -1,0 +1,30 @@
+# Skill Library Export 2026-10-28
+skills: 27
+slugs:
+- chaos-bratz-roster
+- cilia-bus
+- claim-runtime
+- coven-visual-system
+- ffmpeg
+- format-bible
+- grok-build
+- grok-build-sovereign
+- grok-conversation-miner
+- icm-architect
+- image-pipeline
+- keep-lake-query
+- lake-erie-gutter-world
+- lake-union-radar
+- liv-automation-ops
+- liv-bunny-agent-swarm
+- mcp-surface
+- olivia-dev
+- olivia-dev-alpha
+- skill-orchestrator
+- smokeshow
+- sovereign-research-engine
+- swarm-surface
+- system-roadmap
+- valerie
+- video-strategy-debrief
+- wheelhouse-packager
