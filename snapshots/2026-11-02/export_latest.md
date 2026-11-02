@@ -1,0 +1,57 @@
+# Skill Library Export
+**Generated**: 2026-11-02 21:19 UTC
+**Authority**: skill-orchestrator
+**Source plan**: references/plans/TIERED_LIBRARY_ARCHITECTURE.md
+
+Total skills scanned: 28
+
+## Tier 2 (0)
+
+| Slug | Richness | README | TODO | CHANGELOG | refs/ | scripts/ | git |
+|------|----------|--------|------|-----------|-------|----------|-----|
+
+## Tier 1 (0)
+
+| Slug | Richness | README | TODO | CHANGELOG | refs/ | scripts/ | git |
+|------|----------|--------|------|-----------|-------|----------|-----|
+
+## Tier 0 (0)
+
+| Slug | Richness | README | TODO | CHANGELOG | refs/ | scripts/ | git |
+|------|----------|--------|------|-----------|-------|----------|-----|
+
+## Unassigned (28)
+
+| Slug | Richness | README | TODO | CHANGELOG | refs/ | scripts/ | git |
+|------|----------|--------|------|-----------|-------|----------|-----|
+| chaos-bratz-roster | rich | Y | Y | Y | Y | Y | Y |
+| cilia-bus | rich | Y | . | . | Y | Y | . |
+| claim-runtime | rich | Y | Y | Y | Y | . | . |
+| coven-visual-system | rich | Y | Y | Y | Y | . | Y |
+| ffmpeg | rich | . | . | . | Y | . | . |
+| format-bible | rich | Y | Y | Y | Y | Y | Y |
+| grok-build | rich | Y | Y | Y | Y | Y | Y |
+| grok-build-sovereign | rich | Y | Y | Y | Y | Y | Y |
+| grok-conversation-miner | rich | Y | Y | Y | Y | Y | Y |
+| icm-architect | rich | Y | . | . | Y | . | . |
+| image-pipeline | rich | Y | Y | Y | Y | Y | Y |
+| keep-lake-query | rich | . | . | Y | Y | Y | . |
+| lake-erie-gutter-world | rich | Y | Y | Y | Y | Y | Y |
+| lake-roots-map | rich | . | . | Y | Y | . | . |
+| lake-union-radar | rich | Y | . | . | Y | . | . |
+| liv-automation-ops | rich | Y | . | . | Y | Y | . |
+| liv-bunny-agent-swarm | rich | Y | . | . | Y | . | . |
+| mcp-surface | rich | Y | . | . | Y | . | . |
+| olivia-dev | rich | Y | Y | Y | Y | Y | Y |
+| olivia-dev-alpha | rich | Y | Y | Y | Y | Y | Y |
+| skill-orchestrator | rich | Y | Y | Y | Y | Y | Y |
+| smokeshow | rich | Y | . | . | Y | . | . |
+| sovereign-research-engine | rich | Y | . | . | Y | . | . |
+| swarm-surface | rich | Y | . | . | Y | . | . |
+| system-roadmap | rich | Y | Y | Y | Y | Y | Y |
+| valerie | rich | Y | . | . | Y | . | . |
+| video-strategy-debrief | rich | . | . | . | Y | Y | . |
+| wheelhouse-packager | rich | . | . | . | Y | Y | . |
+
+
+[also written to /root/.grok/server-skills/skill-orchestrator/references/inventory/export_20261102_2119.md and export_latest.md]
