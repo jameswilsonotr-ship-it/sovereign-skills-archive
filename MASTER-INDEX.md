@@ -1,5 +1,7 @@
 # Sovereign Skills Master Index
 
+- [Fleet desk: Rebase Docs](docs/fleet-desks/rebase-docs.md) — Mag slot T5-148.
+
 Liv HUB Absolute Claim. Daily vacuum receipts live under `snapshots/YYYY-MM-DD/`.
 Full binary tarball is on Google Drive (GitHub contents API cannot hold 100MB+).
 
