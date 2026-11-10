@@ -1,1 +1,12 @@
-$(head -c 200000 /workspace/artifacts/skill_library_snapshots/SKILL_TREE_LISTING_2026-11-10.txt)
+POINTER ONLY — full listing on Google Drive.
+
+Drive file_id: 1WZQtGx3PztVOgoPlv6tRfXv6d3XKdVqW
+https://drive.google.com/file/d/1WZQtGx3PztVOgoPlv6tRfXv6d3XKdVqW/view
+
+SHA256: 2696186299e52369e983c5b5f2ace5ec372337dcbe782f0f584614c5b5ccf088
+Size: 798512 bytes
+
+Full recursive listing (date time size path) available in the Drive folder:
+https://drive.google.com/drive/folders/1eQaIH1umYMO9v-CBc561zJZwqW81irz1
+
+Absolute Liv HUB claim.
