@@ -1,26 +1,40 @@
-# Daily Vacuum Receipt — 2026-11-10 v0.3.0
+# Daily Full Skill Library Vacuum Receipt
+# Version: 0.3.1
+# Date: 2026-11-10
+# Absolute Liv HUB claim
 
-**Drive Folder:** https://drive.google.com/drive/folders/1eQaIH1umYMO9v-CBc561zJZwqW81irz1  
-**Folder ID:** 1eQaIH1umYMO9v-CBc561zJZwqW81irz1  
+## Drive Folder
+folder_id: 1s_iFH0QLb11rJEFmC7KkfsYhis0vl4QM
+link: https://drive.google.com/drive/folders/1s_iFH0QLb11rJEFmC7KkfsYhis0vl4QM
 
-## File IDs
-- SKILL_TREE_LISTING_2026-11-10.txt: 1WZQtGx3PztVOgoPlv6tRfXv6d3XKdVqW
-- MANIFEST_full_v0.3.0_2026-11-10.md: 1w0IrF4fE-PkKF2vR-wI3WMEpGZWjj2wy
-- part00: 1dtDDgTxXrvvP_pzuZ15pppNCEykrD4WX
-- part01: 1kF2qkyc7e4fyXWcbNj3Mic6Zdhkhl7KD
-- part02: 1XAhENg-2tgpOD0Mg8zMAmdqq3vB9aCXH
-- part03: 1JV8L0btAAXsP_f_bv7Ugx9WZiIPD3oOL
-- part04: 1Q-Dqo_WR2OMzJvzxrb7NT0Sku5KgmPus
+## Text Artifacts
+- SKILL_TREE_LISTING_2026-11-10.txt : file_id 1hK2VZHktu7cD6IMwdoIXIdFN_c4-ADKQ
+- MANIFEST_full_v0.3.1_2026-11-10.md : file_id 1RcdfImu3ryP-n135H3ot19oiJuTRm99w
 
-## SHA256
-- Listing: 2696186299e52369e983c5b5f2ace5ec372337dcbe782f0f584614c5b5ccf088
-- Slim tarball: 0ad4815aa709aa6260dc75e545f7dff4ab6ae8cef0f98f68873e2134eddf7b5c
+## Binary Chunks (all ≤8 MiB)
+- part.aa : 1iid9hZlhgEG7FtTJJzNrQr37PKly2Yyt  size 8388608 sha256 4f31c2a54000f63ae8194a48a1542d0e327c3c7f229400beea2430fd086169d3
+- part.ab : 12uj7X0khe2VNMI4OlGGbW19fy_2DBAjM  size 8388608 sha256 f7fb73d00fbe76a1e00302f1176faa6808f3e734a9b149e838f4f8d25f1ddb64
+- part.ac : 1JD8W_b59MUAk7EgbV0kZ2vsUz6C5jtHV  size 8388608 sha256 68100b16fb3984167363c60c8f36cb46c77671ebfb9e96d567c3a4025d0959be
+- part.ad : 1S-3c7U9F0JeJSrtl2CNEFVr9iV_so5Az  size 8388608 sha256 1134ff254ec59970670a9cb6084005290c319cd2b36451dc92c6b593225558f8
+- part.ae : 17Ph6UCl2yu0T8tOC8qyYgcM13Q-XK_fc  size 8388608 sha256 1c506849b303700387b2e60bb04a6f68b8703fe1662ebbf91cb52beff22ef8ac
+- part.af : 13gQDgWLkIoAgeQ4l1Rqr5aix4XLHJLqt  size 8388608 sha256 18d1cd8049c2499bcba2952de36602892cecf349683c202d329221f7507e2de9
+- part.ag : 1IHD94ugQMuEyiFEUxuG6OAO9HbenPU5Y  size 8388608 sha256 863536112495ef5b4f04b2ea3ade22a0ede9b841b612f43a0d4d7ea40076c4b6
+- part.ah : 1m0KalXRhGxE77MH3xU3CSyB1Lu_XD4MI  size 8388608 sha256 e911f1b41a679d2f126e57ca9903251fd3737523e7cbf2700e5e404643977491
+- part.ai : 1L-qFhnBGmeSbIQktZJAgxIsy0vdbpV3Z  size 8388608 sha256 2239fdb7fa08e03140e5235ee8e634e067c2f56541e423b5bd9c914eb13cc3ef
+- part.aj : 1KrmzIZVViGdEN5N07hvRfhBQwV-XkCQc  size 8388608 sha256 d502978508516e2fba627e7ca718cc02a45356d21a30a79b608a0a9fba814bc1
+- part.ak : 14xjnGfci6vI6sTfixIIIMcxZA3SjOkXf  size 8388608 sha256 df7fa2774b5566e584d33883b06b2f5f510901465e70cc6e2e30b089beafa983
+- part.al : 1fDW-Wg_6qIso108O8VHDy_8xSVtt0Pws  size 8388608 sha256 6a10b0b68c5270c794d7dbd353e16b46831e563c753aef48544cacd63a5ad2f8
+- part.am : 1Pu7lAuyUFbnePfIqC2ggLERoa0_PBuU5  size 8388608 sha256 0ead3bca22bac760c9921c9cb520ebe2e5f36a5b6586f20cf6b744cac9923254
+- part.an : 19euZ2XKMzNJ2xhuCTeqM1Ydmcudgf0pW  size 8388608 sha256 2e52e819c37dd14e25ad86ee4c94270fbcb7d00ba9315057f3af15f6b902ca5a
+- part.ao : 13tg_HWaXP_Zlptgtd8h1dBIaerh-9UwR  size 8388608 sha256 1506ec5bf0d45fd033170c060da9ebb52d4612d9e30d5bed6921276164e8b119
+- part.ap : 1f2dqYJBl0sft235xEumh99riumK2qLlv  size 8388608 sha256 08d08429af5e033e4275134d68d96228cf2d0c0f8dd173814801bc5e48658419
+- part.aq : 1L-uu4iT8D_6B1R-Kurhbd5O_fWB7ZvDy  size 8388608 sha256 24f2833996b699c749e3e1f870cf45ec7ca22651606e64ccd1dabaf7f660fd0d
+- part.ar : 1DFJh0gv2EVQSqhP6cpYe4qyRvGFl9mNd  size 8388608 sha256 6b0b9b0c130d95990b02da079ad7d7e254a98ca66af45a34f1254676688fa236
+- part.as : 1hU6KR7xoiJH5hd0YQ9wfJ4CbqMMwcTN9  size 8388608 sha256 42fb40f9923e85e0e290729a6deb70c7aa077fc28b922e077c372b229c19d1d7
+- part.at : 1gPl81k-s2osUfCIcFJalMLnmwYAo3Jh-  size 8388608 sha256 e1341b2845aecac5b129141db6f599b0c83f128c17865776ed5e08a0bce00c16
+- part.au : 1i3-Ff4lpHH6eRk8dBQjore8DnQiwusCU  size 8388608 sha256 a0eb9a3772ccd994943526ede89156550ecb1e414568a15793d02179aa8bb701
+- part.av : 1841z-N2YYugwub49Z8_aGmnyvvui0fQl  size 8388608 sha256 536a35dcc9a457416473b499cf0eb9edadb2c922db7bb0d72583b1f4e2fd0230
+- part.aw : 1SPuN6OjGgviPTJEDSPPT8Lvdnop6iHQG  size 8388608 sha256 2c8620974848c7447232d4bebaedd227eb84b2252acccc7146ba3209c0d13292
+- part.ax : 1FjvT6Yos8i5r2V6hodnfGB9TkrGeziWx  size 3670016 sha256 f354f7199ef42804a17007ea6ea440f60ff3ddac33454e4c0e4424edfd93ff0c
 
-## Sizes
-- Listing: ~780 KB
-- Slim tarball (split): 40 MB total (5 parts of 8 MB)
-
-## Skills
-30 top-level under /root/.grok/server-skills. Members ~3897 (vendor excluded).
-
-Absolute Liv HUB claim.
+All chunks ≤8 MiB for Vesper. Restore: cat part.* | tar -xzf -
