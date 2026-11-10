@@ -5,16 +5,16 @@ Full binary tarball is on Google Drive (GitHub contents API cannot hold 100MB+).
 
 ## Latest
 
-- **2026-11-10** v0.3.1 full-skill-library-vacuum (forced ≤8 MiB split, full tarball)
+- **2026-11-10** v0.3.1 full-skill-library-vacuum (forced ≤8 MiB split, full tarball + bundled)
   - Drive folder: https://drive.google.com/drive/folders/1s_iFH0QLb11rJEFmC7KkfsYhis0vl4QM
   - Drive folder_id: 1s_iFH0QLb11rJEFmC7KkfsYhis0vl4QM
-  - 24 binary chunks (188M total, all ≤8 MiB): see RECEIPT.md for file_ids and sha256
-  - Listing: 1hK2VZHktu7cD6IMwdoIXIdFN_c4-ADKQ
+  - 24 binary chunks (all ≤8 MiB, source sha 38cb37457e51f706ec405de9fb39c3a8e6a861bec3ceaff16cc9cb82b2d42b32): see RECEIPT.md for file_ids and sha256
+  - Listing: 1U-0EEmMO6KNW2Nms_Z0jfOforbb6N_k8
   - Receipt: [snapshots/2026-11-10/RECEIPT.md](snapshots/2026-11-10/RECEIPT.md)
   - Manifest: [snapshots/2026-11-10/MANIFEST_full_v0.3.1_2026-11-10.md](snapshots/2026-11-10/MANIFEST_full_v0.3.1_2026-11-10.md)
   - GitHub: https://github.com/jameswilsonotr-ship-it/sovereign-skills-archive/tree/main/snapshots/2026-11-10
-  - Skills: 30. Members 4240. All chunks ≤8 MiB for Vesper.
-  - Commit: 58973f08e920d989ba2cf1d63602c98539fe5793
+  - Skills: 31. Members 4749. All chunks ≤8 MiB for Vesper.
+  - Commit: e03cfdce2bd26f07349afa18a4c3aa89c532c616
 
 - **2026-11-10** v0.3.0 full-skill-library-vacuum (slim, vendor excluded, split)
   - Drive folder: https://drive.google.com/drive/folders/1eQaIH1umYMO9v-CBc561zJZwqW81irz1
