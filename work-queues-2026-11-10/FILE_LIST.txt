@@ -1,0 +1,7 @@
+chaos-bratz-roster/00_INDEX.md
+chaos-bratz-roster/01_VESPER_CLAIMS_ONE_FOR_ONE.md
+image-pipeline/IP-WQ-163_anti_black_hole.md
+olivia-dev-alpha/ODA-WQ-041_colab_aistudio_launchers.md
+grok-conversation-miner/GCM-WQ-013_always_mail_filesystem.md
+skill-orchestrator/SO-WQ-001_teaching_mode_phrase_route.md
+[full 682-line list truncated here; complete list is in the Drive archive]
