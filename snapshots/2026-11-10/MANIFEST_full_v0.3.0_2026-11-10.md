@@ -1,0 +1,1 @@
+$(cat /workspace/artifacts/skill_library_snapshots/MANIFEST_full_v0.3.0_2026-11-10.md)

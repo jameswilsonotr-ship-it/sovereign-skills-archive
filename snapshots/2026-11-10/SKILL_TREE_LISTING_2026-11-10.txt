@@ -1,0 +1,1 @@
+$(head -c 200000 /workspace/artifacts/skill_library_snapshots/SKILL_TREE_LISTING_2026-11-10.txt)
