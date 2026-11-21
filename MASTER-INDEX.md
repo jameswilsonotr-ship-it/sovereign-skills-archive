@@ -5,6 +5,18 @@ Full binary tarball is on Google Drive (GitHub contents API cannot hold 100MB+).
 
 ## Latest
 
+- **2026-11-21** v0.3.1 full-skill-library-vacuum (forced ≤8 MiB split, full tarball)
+  - Drive folder: https://drive.google.com/drive/folders/13k5z_cYOiaH7-Lhd638sjDBc4iFqzXAQ (id: 13k5z_cYOiaH7-Lhd638sjDBc4iFqzXAQ)
+  - Source sha256: f5f3529a919943e396407936d21d61ce25f7844eb4732c873a0cb2a91436dd82
+  - Size: ~225M compressed
+  - 29 binary chunks (all ≤8 MiB)
+  - Listing: snapshots/2026-11-21/SKILL_TREE_LISTING_2026-11-21.txt (pointer; full on Drive)
+  - Receipt: [snapshots/2026-11-21/RECEIPT.md](snapshots/2026-11-21/RECEIPT.md)
+  - Manifest: [snapshots/2026-11-21/MANIFEST_full_v0.3.1_2026-11-21.md](snapshots/2026-11-21/MANIFEST_full_v0.3.1_2026-11-21.md)
+  - GitHub: https://github.com/jameswilsonotr-ship-it/sovereign-skills-archive/tree/main/snapshots/2026-11-21
+  - Skills: 35 server-skills. All chunks ≤8 MiB for Vesper.
+  - debug_outcome=success (Drive + GitHub text receipts)
+
 - **2026-11-20** v0.3.1 full-skill-library-vacuum (forced ≤8 MiB split, full tarball)
   - Drive folder: https://drive.google.com/drive/folders/1R0wu8heSEprZ_-BTs-Vpy8_zPzvFtsFv (id: 1R0wu8heSEprZ_-BTs-Vpy8_zPzvFtsFv)
   - Source sha256: 4276073b44f80d27abf6d81a22786f9d0fd120f7554de410c083a2ef6140f139
