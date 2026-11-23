@@ -1,0 +1,6 @@
+Full listing is 564K / 4445 lines. See Google Drive for complete file:
+https://drive.google.com/drive/folders/1JatnHanbTFiSWbi355ssAEe_LuMrHHKi
+file_id: 198dj28vdmsLvMqy1OUFxn80wMV5zKbpy
+
+Sample (first 50 lines):
+$(head -50 /workspace/artifacts/skill_library_snapshots/SKILL_TREE_LISTING_2026-11-23.txt)
