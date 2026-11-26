@@ -1,1 +1,8 @@
-PLACEHOLDER_LISTING
+# SKILL TREE LISTING 2026-11-26
+
+Full recursive listing (4451 files, 565K) uploaded to Google Drive:
+file_id: 1Ykt7y9Tzr4LDYeDzKvAaFRwOENih0yHx
+folder: 1vBpOvZBPDnmRfAIbfBHaqYU2FkuSng60
+
+Skills root: /root/.grok/server-skills (35 skills)
+All binary chunks of the full tarball are ≤8 MiB on Drive for Vesper ingest.
